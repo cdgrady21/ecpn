@@ -1,0 +1,53 @@
+---
+title: "Intergroup Contact Amidst Escalating Conflict - Abstract"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Thinking
+
+Big framing points/3 pills:
+
+- Contact theory can be effective even if economic incentives opposed
+- Contact theory can be effective even amidst an escalating conflict
+- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+
+
+
+## Abstract
+
+Can intergroup contact reduce group prejudice even when economic incentives are opposed and even amidst an escalating conflict?  <!--Chris: could remove this sentence -->Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
+
+*******
+
+<!--
+# Scacco abstract
+Can positive social contact between members of antagonistic groups reduce prejudice and discrimination? Despite extensive research on social contact, observational studies are difficult to interpret because prejudiced people may select out of contact with out-group members. We overcome this problem by conducting an education-based, randomized field experiment—the Urban Youth Vocational Training program (UYVT)—with 849 randomly sampled Christian and Muslim young men in riot-prone Kaduna, Nigeria. After sixteen weeks of positive intergroup social contact, we find no changes in prejudice, but heterogeneous-class subjects discriminate significantly less against out-group members than subjects in homogeneous classes.  We trace this finding to increased discrimination by homogeneous-class subjects compared to non-UYVT study participants, and we highlight potentially negative consequences of in-group social contact. By focusing on skill-building instead of peace messaging, our intervention minimizes reporting bias and offers strong experimental evidence that intergroup social contact can alter behavior in constructive ways, even amid violent conflict.
+
+# Enos abstract
+The effect of intergroup contact has long been a question central to social scientists. As
+political and technological changes bring increased interstate immigration, understanding
+intergroup contact and demographic change is increasingly important to policy and scientifc
+debates. Unfortunately, limitations in causal inference with observational data and the
+practical inability to experiment on demographic context have constrained scholars' ability to
+speak to the effects of intergroup contact. Here I report the results of an experiment testing
+the causal effects of prolonged intergroup contact in which Spanish-speaking confederates
+were randomly assigned to be inserted, for an extended period, into the daily routines of
+unknowing Anglo-whites living in homogeneous communities in the United States, thus
+simulating the conditions of demographic change. The result of this controlled experiment
+is a signifcant shift toward exclusionary attitudes among treated subjects. However there is
+evidence that the initial aversion diminishes over time. This experiment demonstrates that
+even very minor demographic change causes strong exclusionary reactions.
+-->
