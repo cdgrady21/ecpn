@@ -1,0 +1,43 @@
+---
+title: "Intergroup Contact Amidst Escalating Conflict - Abstract"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Thinking
+
+Big framing points/3 pills:
+
+- Contact theory can be effective even if economic incentives opposed
+- Contact theory can be effective even amidst an escalating conflict
+- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+
+## Context Outline
+
+- distirbution of the lands: map that shows the regions: Fulani region, farmer region
+- The setting: rural, economic
+- The conflict: escalating, burnt village/livestock guard, expulsion
+
+
+## Context
+
+While most attention to conflict in Nigeria focuses Boko Haram, persistent violence between farmers and pastoralists in Nigeria’s Middle Belt has contributed to more casualties (Fulton and Nickels, 2017) and costs the Nigerian economy $13 billion a year (MacDougal et al, 2015). 
+
+*******
+
+<!--
+# Scacco
+
+-->
