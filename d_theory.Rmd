@@ -38,6 +38,9 @@ Violence requires justifying why the violence was okay.  Strong motivation to ma
 Enos - contact increasing prejudice.
 
 
+A notable exception is the @Scacco2016 study in Kaduna, Nigeria, a city with a history of religious riots.  But that context does not mimic many aspects of a conflict context (frequent violence, zero-sum economic goods) that could influence intergroup attitudes and reduce the effects of contact.  That study also showed null effects for intergroup contact but negative effects for intragroup contact.  That was also not a peacebuilding program (social norms) and the intervention sought to diminish group affiliations, rather than highlight them -- salient group affiliations is an important component of intergroup contact.
+
+We also want effects of intergroup contact for some ingroup members to diffuse to other ingroup members who have no contact.  The most prejudiced individuals will probably avoid contact, but if effects of contact from other ingroup members diffuse to these very prejudiced individuals -- either through vicarious/imagined contact or through social norm transmission -- intergroup contact could reduce prejudice even for individuals who do not engage in intergroup contact.
 
 ## Theory
 
