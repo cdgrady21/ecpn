@@ -1,5 +1,5 @@
 ---
-title: "Intergroup Contact Amidst Escalating Conflict - Abstract"
+title: "Intergroup Contact Amidst Escalating Conflict - Context"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -28,7 +28,9 @@ Big framing points/3 pills:
 
 - distirbution of the lands: map that shows the regions: Fulani region, farmer region
 - The setting: rural, economic
+- the background: these populations used to get along, but population booms and climate change reduce land:people ratio
 - The conflict: escalating, burnt village/livestock guard, expulsion
+
 
 
 ## Context
