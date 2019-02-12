@@ -1,0 +1,43 @@
+---
+title: "Intergroup Contact Amidst Escalating Conflict - Misc"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Thinking
+
+Big framing points/3 pills:
+
+- Contact theory can be effective even if economic incentives opposed
+- Contact theory can be effective even amidst an escalating conflict
+- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+
+# Stuff
+
+```{r}
+
+wantNames <- c("state", "comm","contactOnly_cw_base", "contactOnly_cw_end", "contactOnly_cw")
+ag.df[,wantNames]
+
+lm(contactOnly_cw~treatment*state, ag.df) # effect is in Benue
+
+
+beneNames <- c("state", "comm","bene_cw_base", "bene_cw_end", "bene_cw", "econ_benefit_group.benefit_econ")
+ag.df[,beneNames]
+lm(x_cw~econ_benefit_group.benefit_econ*state, ag.df)
+
+
+```
+

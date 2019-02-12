@@ -10,24 +10,45 @@ output:
     keep_tex: yes
     md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
     number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../utils/bowersarticletemplate.latex
+  word_document: default
+csl: ../utils/american-political-science-review.csl
+bibliography: ../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
 
-
-wantNames <- c("state", "comm","contactOnly_cw_base", "contactOnly_cw_end", "contactOnly_cw")
-ag.df[,wantNames]
-
-lm(contactOnly_cw~treatment*state, ag.df) # effect is in Benue
-
-
-beneNames <- c("state", "comm","bene_cw_base", "bene_cw_end", "bene_cw", "econ_benefit_group.benefit_econ")
-ag.df[,beneNames]
-lm(x_cw~econ_benefit_group.benefit_econ*state, ag.df)
-
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
 ```
 
+<!--
 ## Thinking
 
 Big framing points/3 pills:
@@ -46,16 +67,16 @@ Conflict over resources/ groups with a material reason for conflict.
 The contact centers on joint goals that materially benefit both communities, which may be key.
 
 *********
-
+-->
 ## Introduction
 
 Does intergroup contact reduce prejudice and conflict in contexts of intergroup violence?  Direct intergroup contact interventions are often implemented to reduce real-world conflict between groups, and these real-world conflicts are defined by active violence and resource competition.  Despite a plethora of research about intergroup contact and widespread use of intergroup contact in violent contexts, we have almost no evidence about the effects of intergroup contact in violent contexts or where economic imperatives push groups apart.  Can intergroup contact overcome prejudice when the groups are engaged in active conflict over resources?
 
-Decades of research demonstrate that intergroup contact _can_ reduce group-level prejudice in a variety of contexts.  Intergroup contact reduces prejudice towards different racial and ethnic groups groups [@katz1978race; @marmaros2006friendships; @burns2015interaction; @yablon2012we], different religious groups [@barnhardt2009near; @yablon2012we; @Scacco2016], women [@finseraas2016women], people with physical disabilities [@krahe2006disabled], gay people [@grutzeck1997effects], immigrants [@finseraas2017does], and other groups [see @paluck and @pettigrew for reviews].  None of these studies, however, involve groups in active conflict or groups competing for resources; few of these studies involve adults beyond college age. <!--Clause about adults may be unnecessary and/or distracting.-->
+Decades of research demonstrate that intergroup contact _can_ reduce group-level prejudice in a variety of contexts.  Intergroup contact reduces prejudice towards different racial and ethnic groups groups [@katz1978race; @marmaros2006friendships; @burns2015interaction; @yablon2012we], different religious groups [@barnhardt2009near; @yablon2012we; @Scacco2016], women [@finseraas2016women], people with physical disabilities [@krahe2006disabled], gay people [@grutzeck1997effects], immigrants [@finseraas2017does], and other groups [see @paluck2017contact and @pettigrew2006meta for reviews].  None of these studies, however, involve groups in active conflict or groups competing for resources; few of these studies involve adults beyond college age. <!--Clause about adults may be unnecessary and/or distracting.-->
 
 Active conflict and economic competition could prevent contact's positive effects, and may even cause contact to increase prejudice, because active conflict and economic competition give group members a material motivation for prejudice and hate.  In an active conflict, the groups have materially damaged each other; in economic competition, one group's gain is the other group's loss.  Both situations are common in conflicts worldwide, but scholars have yet to grapple with how these conditions affect intergroup contact or test intergroup contact in these contexts.  Contact theory suggests that contact should work in these contexts, provided the contact itself is conducted under proper conditions.  If the contact allows group members to (i) cooperate towards (ii) common goals in an (iii) equal status context with the (iv) support of authorities, contact should reduce prejudice.  Even when the groups are currently in conflict and competition, contact should provide experiences that reduce stereotypes [@allport1954prejudice; @gaertner2014reducing], reduce anxiety and uncertainty [@lee2001mere; @page2008little; @paolini2004effects], and increase empathy [@pettigrew2008does; @broockman2016durably] towards the outgroup.  
 
-But will contact effectively reduce prejudice when the wider social context promotes it?  Other perspectives on intergroup prejudice, like realistic group conflict theory [@campbell1965ethno; @Sherif1988robbersCave] and psychological theories like motivated reasoning and cognitive dissonance, would not predict improved relations from intergroup contact in this context.  Intergroup contact does not change the underlying causes of prejudice -- competition over indivisible resources -- or change the resultant history of violence that feeds outgroup prejudice and whose justification requires outgroup prejudice.  In these contexts, any intergroup contact may increase prejudice because group members may be motivated to interpret intergroup interactions negatively [@paolini2010negative; @klein1992motiated], and the cognitive dissonance generated from even positive intergroup contact may cause a backlash effect that increases prejudice [@gubler2011diss].
+But will contact effectively reduce prejudice when the wider social context promotes it?  Other perspectives on intergroup prejudice, like realistic group conflict theory [@campbell1965ethno; @Sherif1988robbersCave] and psychological theories like motivated reasoning and cognitive dissonance, would not predict improved relations from intergroup contact in this context.  Intergroup contact does not change the underlying causes of prejudice -- competition over indivisible resources -- or change the resultant history of violence that feeds outgroup prejudice and whose justification requires outgroup prejudice.  In these contexts, any intergroup contact may increase prejudice because group members may be motivated to interpret intergroup interactions negatively [@paolini2010negative; @klein1992motivated], and the cognitive dissonance generated from even positive intergroup contact may cause a backlash effect that increases prejudice [@gubler2011diss].
 
 Farmer-pastoralist conflict in Nigeria's Middlebelt is an ideal context to learn about the effect of intergroup contact on intergroup attitudes in a conflict environment.  As Nigeria's population expands and arable land recedes, economic imperatives have pushed subsistence farmers and pastoralists into a deadly conflict.  Though far more attention is paid towards Boko Haram in Nigeria's northeast, repercussions of farmer-pastoralist conflict in Nigeria's Middlebelt are just as significant.  As a result of the conflict, Nigeria's Middlebelt, a mostly rural region considered Nigeria's breadbasket and home to nearly 100 vibrant peoples and cultures, has suffered an estimated 60,000 deaths [@obaji2016war], hundreds of thousands of internally displaced peoples [@icg2017herder; @daniel2018anti], and $13 billion of lost economic productivity annually [@mcdougal2015effect], greatly stressing Nigeria's economic and social infrastructure.  Farmer-pastoralist conflict plagues numerous sub-Saharan African countries, where 60% of the world's estimated 50-100 million pastoralists live [@sheik1999health; @omar1992health].  As economic and climactic trends continue to decrease land availability, it's likely that farmer-pastoralist conflict will become an increasingly large problem in the world.
 
@@ -84,128 +105,5 @@ In this article, we begin by reviewing the literature on intergroup prejudice, f
 ## Abstract
 
 Can intergroup contact reduce group prejudice even when economic incentives are opposed and even amidst an escalating conflict?  Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
-
--->
-
-
-<!--
-# Scacco Intro
-Can grassroots interventions that increase contact
-between members of antagonistic groups reduce
-prejudice, discrimination, and conflict? In spite
-of a vast literature on social contact in psychology and
-political science, and an explosion of NGO-led contact
-interventions in conflict settings around the world, basic
-questions remain about the consequences of intergroup
-contact in deeply divided societies. Does cooperative
-contact between individuals from across a deep
-social cleavage lead to reductions in prejudice and discrimination?
-How intensive must social contact be to
-induce positive effects? Does contact affect all groups
-involved in social interactions equally?
-
-We conducted a field experiment—the Urban Youth
-Vocational Training (UYVT) project—to test whether
-sustained contact in an educational setting can improve
-communal relations in a conflict-prone environment.
-The UYVT intervention brought together a random
-sample of Christian and Muslim young men from
-disadvantaged neighborhoods in Kaduna, Nigeria, a
-city that has experienced repeated episodes of severe
-communal violence, for sixteen weeks of computer
-training. Our experimental design examined whether
-intergroup social contact can reduce prejudice and discrimination
-in a context of deep animosity. This study
-applies field experimental methods to a normatively
-important goal, the reduction of violent conflict and the
-promotion of post-conflict stability in deeply divided
-societies.
-To assess the impact of our intervention, we randomized
-(1) recruitment into the computer training
-program, (2) assignment to a religiously homogeneous
-or heterogeneous classroom, and (3) assignment to a
-coreligious or non-coreligious learning partner within
-the classroom.Wemeasured prejudice through surveybased
-assessments of agreement with negative and positive
-stereotypes, and measured discrimination through
-two behavioral games embedded in our post-treatment
-survey:a dictator game and a destruction game.We find
-that though prejudice is resistant to change, intergroup
-contact can reduce discriminatory behavior: After the
-end of the training course, subjects assigned to heterogeneous
-classes discriminated significantly less against
-out-group members than subjects assigned to homogeneous
-classes. This suggests contact can change behavior
-even without attendant changes in entrenched
-attitudes.
-We also present evidence suggesting a striking explanation
-for why subjects in mixed classes discriminate
-less than subjects in homogeneous classes. Mixed-class
-subjects do not actually discriminate much less after
-the end of the course than a third group of randomly
-assigned non-UYVT study participants. However, subjects
-assigned to homogeneous classes discriminate significantly more than these nonparticipants. This
-suggests opportunities for in-group bonding can
-heighten discrimination, and programs for mixed
-groups may be desirable not simply because they expose
-participants to out-group individuals, but because
-they reduce the time spent with in-group members.
-This insight has eluded much of the literature on social
-contact interventions, which focuses on comparing
-individuals in mixed and nonmixed contact environments
-and commonly neglects comparisons to subjects
-not exposed to the intervention. Our research design
-enables comparison of both contact treatments with
-non-UYVT participants.
-Studying intergroup contact between young men
-in Kaduna, Nigeria advances our broader understanding
-of ethnic conflict and peacebuilding in several
-ways. First, Nigeria has been a flash-point for
-Christian-Muslim conflict since the 1960s. Ethnoreligious
-pogroms and reprisal attacks in 1966 killed as
-many as 30,000 civilians and displaced over one million
-people (McKenna 1969), Christian-Muslim riots
-have resulted in an estimated 10,000 deaths in riots in
-2000, 2002, and 2011, and recent Boko Haram bombings
-and reprisals in 2012 and 2014 have killed hundreds.
-This history of violence has resulted in high levels
-of ongoing tension typical of ethnic conflicts. Second,
-religious riots since 2000 have led to extreme
-residential segregation in Kaduna and other Nigerian
-cities. This pattern of post-conflict spatial segregation
-can be found in urban conflict zones around
-the globe, including cities in Bosnia and Herzegovina,
-India, Iraq, Israel, Lebanon, Northern Ireland,
-and South Africa. By limiting intergroup contact,
-segregation may deepen already prejudiced attitudes
-developed over years of localized conflict (Glaeser
-2005). Understanding whether grassroots social contact
-interventions can alter prejudices and decrease
-discriminatory behavior in such contexts is a key
-piece in the puzzle of how societies can manage diversity
-and recover from large-scale communal conflict.
-Estimating the extent to which social contact
-has an independent effect on intergroup relations can
-help practitioners design more effective peacebuilding
-interventions.
-This article begins by discussing the potential effects
-of intergroup social contact on prejudice reduction
-and peacebuilding, and questions the social psychology
-literature’s optimistic assessment of the contact
-hypothesis. It then reviews relevant features of
-the Nigerian context, our experimental design, and the
-type of social contact introduced in the UYVT program.
-We next present analyses of the effects of our
-intervention on intergroup attitudes (prejudice) and
-behavior (discrimination).Our data suggest that while
-out-group social contact does not affect prejudiced attitudes,
-it can meaningfully affect discriminatory behavior.
-The robust and significant effects of assignment to
-theUYVTintervention—a highly valued computer education
-program—demonstrate that overt peace education
-components of social contact interventions are
-not necessary to induce meaningful behavioral change.
-We conclude with implications for the design of social contact interventions and education-centered development
-programming in divided societies.
 
 -->

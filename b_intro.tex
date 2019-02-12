@@ -1,0 +1,485 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady},
+  pdftitle={Intergroup Contact Amidst Escalating Conflict - Introduction},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{Intergroup Contact Amidst Escalating Conflict - Introduction}
+
+\author{
+Christopher Grady
+}
+
+
+\date{February 11, 2019}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\subsection{Introduction}\label{introduction}
+
+Does intergroup contact reduce prejudice and conflict in contexts of
+intergroup violence? Direct intergroup contact interventions are often
+implemented to reduce real-world conflict between groups, and these
+real-world conflicts are defined by active violence and resource
+competition. Despite a plethora of research about intergroup contact and
+widespread use of intergroup contact in violent contexts, we have almost
+no evidence about the effects of intergroup contact in violent contexts
+or where economic imperatives push groups apart. Can intergroup contact
+overcome prejudice when the groups are engaged in active conflict over
+resources?
+
+Decades of research demonstrate that intergroup contact \emph{can}
+reduce group-level prejudice in a variety of contexts. Intergroup
+contact reduces prejudice towards different racial and ethnic groups
+groups (Burns, Corno, and La Ferrara 2015; Katz and Zalk 1978; Marmaros
+and Sacerdote 2006; Yablon 2012), different religious groups (Barnhardt
+2009; Scacco and Warren 2016; Yablon 2012), women (Finseraas et al.
+2016), people with physical disabilities (Krahé and Altwasser 2006), gay
+people (Grutzeck and Gidycz 1997), immigrants (Finseraas and Kotsadam
+2017), and other groups (see Paluck, Green, and Green 2017, and
+@pettigrew2006meta for reviews). None of these studies, however, involve
+groups in active conflict or groups competing for resources; few of
+these studies involve adults beyond college age.
+
+Active conflict and economic competition could prevent contact's
+positive effects, and may even cause contact to increase prejudice,
+because active conflict and economic competition give group members a
+material motivation for prejudice and hate. In an active conflict, the
+groups have materially damaged each other; in economic competition, one
+group's gain is the other group's loss. Both situations are common in
+conflicts worldwide, but scholars have yet to grapple with how these
+conditions affect intergroup contact or test intergroup contact in these
+contexts. Contact theory suggests that contact should work in these
+contexts, provided the contact itself is conducted under proper
+conditions. If the contact allows group members to (i) cooperate towards
+(ii) common goals in an (iii) equal status context with the (iv) support
+of authorities, contact should reduce prejudice. Even when the groups
+are currently in conflict and competition, contact should provide
+experiences that reduce stereotypes (Allport 1954; Gaertner and Dovidio
+2014), reduce anxiety and uncertainty (Lee 2001; Page-Gould,
+Mendoza-Denton, and Tropp 2008; Paolini et al. 2004), and increase
+empathy (Broockman and Kalla 2016; Pettigrew and Tropp 2008) towards the
+outgroup.
+
+But will contact effectively reduce prejudice when the wider social
+context promotes it? Other perspectives on intergroup prejudice, like
+realistic group conflict theory (Campbell 1965; M. Sherif et al. 1988)
+and psychological theories like motivated reasoning and cognitive
+dissonance, would not predict improved relations from intergroup contact
+in this context. Intergroup contact does not change the underlying
+causes of prejudice -- competition over indivisible resources -- or
+change the resultant history of violence that feeds outgroup prejudice
+and whose justification requires outgroup prejudice. In these contexts,
+any intergroup contact may increase prejudice because group members may
+be motivated to interpret intergroup interactions negatively (Klein and
+Kunda 1992; Paolini, Harwood, and Rubin 2010), and the cognitive
+dissonance generated from even positive intergroup contact may cause a
+backlash effect that increases prejudice (Gubler and others 2011).
+
+Farmer-pastoralist conflict in Nigeria's Middlebelt is an ideal context
+to learn about the effect of intergroup contact on intergroup attitudes
+in a conflict environment. As Nigeria's population expands and arable
+land recedes, economic imperatives have pushed subsistence farmers and
+pastoralists into a deadly conflict. Though far more attention is paid
+towards Boko Haram in Nigeria's northeast, repercussions of
+farmer-pastoralist conflict in Nigeria's Middlebelt are just as
+significant. As a result of the conflict, Nigeria's Middlebelt, a mostly
+rural region considered Nigeria's breadbasket and home to nearly 100
+vibrant peoples and cultures, has suffered an estimated 60,000 deaths
+(Jr. 2016), hundreds of thousands of internally displaced peoples
+(Daniel 2018; Group 2017), and \$13 billion of lost economic
+productivity annually (McDougal et al. 2015), greatly stressing
+Nigeria's economic and social infrastructure. Farmer-pastoralist
+conflict plagues numerous sub-Saharan African countries, where 60\% of
+the world's estimated 50-100 million pastoralists live (Omar 1992;
+Sheik-Mohamed and Velema 1999). As economic and climactic trends
+continue to decrease land availability, it's likely that
+farmer-pastoralist conflict will become an increasingly large problem in
+the world.
+
+We conduct a field experiment with farmer and pastoralist communities in
+two Nigerian states to determine if intergroup contact effectively
+reduces prejudice between groups in conflict. We identified fifteen
+sites where farmer and pastoral groups had engaged in violent conflict
+within the previous 12 months. We then randomly assigned ten of fifteen
+conflict sites to receive a yearlong peacebuilding program based around
+intergroup contact, with the other five sites serving as the control
+group.\footnote{Based on the success of ECPN, Mercy Corps received
+  further funding to implement the peacebuilding program in the control
+  sites \emph{after} the final evaluation of ECPN was completed. The
+  control sites were not informed that they would receive a
+  peacebuilding program during the evaluation.} The program formed
+committees with equal numbers of farmers and pastoralists, including
+community leaders from both groups, and tasked them with constructing
+two infrastructure projects that would benefit both communities: (1) a
+borehole to increase access to potable water and (2) a project of their
+choosing, such as a primary health center, a school, or an expanded
+market building. These committees represented the four conditions that
+Allport (1954) theorized were necessary for intergroup contact to reduce
+prejudice: the two groups cooperated to achieve joint goals in an equal
+status context with the support of authorities.
+
+This results of this field experiment demonstrate that intergroup
+contact can effectively reduce prejudice even in contexts of escalating
+intergroup violence and even when the groups' economic incentives oppose
+cooperation. Communities that received the ECPN program increased their
+intergroup contact, trust in the outgroup, and perceptions of physical
+security relative to the control group that received no program. The
+results also show that contact for a relatively small percentage of a
+group can affect attitudes of group members with no exogenous increase
+in contact with the outgroup. We observe the most positive changes from
+individuals directly involved in the intergroup committees, but we also
+observe smaller diffusion effects to group members who were not involved
+in the intergroup contact intervention.
+
+In this article, we begin by reviewing the literature on intergroup
+prejudice, focusing on the theory of intergroup contact and highlighting
+conditions under which contact may be ineffective at reducing prejudice.
+We then discuss what farmer-pastoralist conflict can teach us about
+intergroup contact, describe our experimental intervention and two
+designs to evaluate the effect of the intervention, and present the
+results of the study. We conclude by connecting the implications of
+these findings to theories of group prejudice.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{My Thoughts}\label{my-thoughts}
+
+\begin{itemize}
+\tightlist
+\item
+  Better to be able to say a potential mechanism: Results suggest that
+  the contact decreased threat/increased perceptions of benefit from
+  cooperation/something
+\item
+  Both violence + conflict over resources? Does that help by making this
+  broad (union) or hurt by making it too narrow (intersection)
+\item
+  Should I even discuss ``RGCT'' in this introduction?
+\item
+  Should I discuss rational choice theories here or at all? What are
+  some rational choice theories about conflict?
+\item
+  Should I bring up the fact that we want peacebuilding interventions to
+  affect people who don't directly participate (i.e.~diffuse to
+  non-participants)?
+\item
+  Fast and loose with ``reduce conflict vs prejudice''? Just make it
+  prejudice?
+\item
+  How to better distinguish the cause of conflict (scarce resources) and
+  the consequences of the conflict (history of violence).
+\end{itemize}
+
+\hypertarget{refs}{}
+\hypertarget{ref-allport1954prejudice}{}
+Allport, Gordon. 1954. ``The Nature of Prejudice.'' \emph{Garden City,
+NJ Anchor}.
+
+\hypertarget{ref-barnhardt2009near}{}
+Barnhardt, Sharon. 2009. ``Near and Dear? Evaluating the Impact of
+Neighbor Diversity on Inter-Religious Attitudes.'' \emph{Unpublished
+working paper}.
+
+\hypertarget{ref-broockman2016durably}{}
+Broockman, David, and Joshua Kalla. 2016. ``Durably Reducing
+Transphobia: A Field Experiment on Door-to-Door Canvassing.''
+\emph{Science} 352(6282): 220--24.
+
+\hypertarget{ref-burns2015interaction}{}
+Burns, Justine, Lucia Corno, and Eliana La Ferrara. 2015.
+\emph{Interaction, Prejudice and Performance. Evidence from South
+Africa}. Working paper.
+
+\hypertarget{ref-campbell1965ethno}{}
+Campbell, Donald T. 1965. ``Ethnocentric and Other Altruistic Motives.''
+In \emph{Nebraska Symposium on Motivation}, 283--311.
+
+\hypertarget{ref-daniel2018anti}{}
+Daniel, Soni. 2018. ``Anti-Open Grazing Law: Nass, Benue, Kwara, Taraba
+Tackle Defence Minister.'' \emph{Vanguard}.
+
+\hypertarget{ref-finseraas2017does}{}
+Finseraas, Henning, and Andreas Kotsadam. 2017. ``Does Personal Contact
+with Ethnic Minorities Affect Anti-Immigrant Sentiments? Evidence from a
+Field Experiment.'' \emph{European Journal of Political Research} 56(3):
+703--22.
+
+\hypertarget{ref-finseraas2016women}{}
+Finseraas, Henning, Åshild A Johnsen, Andreas Kotsadam, and Gaute
+Torsvik. 2016. ``Exposure to Female Colleagues Breaks the Glass
+Ceiling---Evidence from a Combined Vignette and Field Experiment.''
+\emph{European Economic Review} 90: 363--74.
+
+\hypertarget{ref-gaertner2014reducing}{}
+Gaertner, Samuel L, and John F Dovidio. 2014. \emph{Reducing Intergroup
+Bias: The Common Ingroup Identity Model}. Psychology Press.
+
+\hypertarget{ref-icg2017herder}{}
+Group, International Crisis. 2017. ``Herders Against Farmers: Nigeria's
+Expanding Deadly Conflict.'' \emph{International Crisis Group Reports}.
+
+\hypertarget{ref-grutzeck1997effects}{}
+Grutzeck, Sasha, and Christine A Gidycz. 1997. ``The Effects of a Gay
+and Lesbian Speaker Panel on College Students Attitudes and Behaviors:
+The Importance of Context Effects.'' \emph{Imagination Cognition and
+Personality} 17(1): 65--81.
+
+\hypertarget{ref-gubler2011diss}{}
+Gubler, Joshua R, and others. 2011. ``The Micro-Motives of Intergroup
+Aggression: A Case Study in Israel.'' PhD thesis.
+
+\hypertarget{ref-obaji2016war}{}
+Jr., Philip Obaji. 2016. ``The Nigerian War That Has Slaughtered More
+People Than Boko Haram.'' \emph{The Daily Beast}.
+
+\hypertarget{ref-katz1978race}{}
+Katz, Phyllis A, and Sue R Zalk. 1978. ``Modification of Children's
+Racial Attitudes.'' \emph{Developmental Psychology} 14(5): 447.
+
+\hypertarget{ref-klein1992motivated}{}
+Klein, William M, and Ziva Kunda. 1992. ``Motivated Person Perception:
+Constructing Justifications for Desired Beliefs.'' \emph{Journal of
+experimental social psychology} 28(2): 145--68.
+
+\hypertarget{ref-krahe2006disabled}{}
+Krahé, Barbara, and Colette Altwasser. 2006. ``Changing Negative
+Attitudes Towards Persons with Physical Disabilities: An Experimental
+Intervention.'' \emph{Journal of Community \& Applied Social Psychology}
+16(1): 59--69.
+
+\hypertarget{ref-lee2001mere}{}
+Lee, Angela Y. 2001. ``The Mere Exposure Effect: An Uncertainty
+Reduction Explanation Revisited.'' \emph{Personality and Social
+Psychology Bulletin} 27(10): 1255--66.
+
+\hypertarget{ref-marmaros2006friendships}{}
+Marmaros, David, and Bruce Sacerdote. 2006. ``How Do Friendships Form?''
+\emph{The Quarterly Journal of Economics} 121(1): 79--119.
+
+\hypertarget{ref-mcdougal2015effect}{}
+McDougal, Topher L et al. 2015. ``The Effect of Farmer-Pastoralist
+Violence on Income: New Survey Evidence from Nigeria's Middle Belt
+States.'' \emph{Economics of Peace and Security Journal} 10(1): 54--65.
+
+\hypertarget{ref-omar1992health}{}
+Omar, Mayeh A. 1992. ``Health Care for Nomads Too, Please.'' In
+\emph{World Health Forum (Who)}, World Health Organization, 307--10.
+
+\hypertarget{ref-page2008little}{}
+Page-Gould, Elizabeth, Rodolfo Mendoza-Denton, and Linda R Tropp. 2008.
+``With a Little Help from My Cross-Group Friend: Reducing Anxiety in
+Intergroup Contexts Through Cross-Group Friendship.'' \emph{Journal of
+personality and social psychology} 95(5): 1080.
+
+\hypertarget{ref-paluck2017contact}{}
+Paluck, Elizabeth Levy, Seth Green, and Donald P Green. 2017. ``The
+Contact Hypothesis Revisited.''
+
+\hypertarget{ref-paolini2010negative}{}
+Paolini, Stefania, Jake Harwood, and Mark Rubin. 2010. ``Negative
+Intergroup Contact Makes Group Memberships Salient: Explaining Why
+Intergroup Conflict Endures.'' \emph{Personality and Social Psychology
+Bulletin} 36(12): 1723--38.
+
+\hypertarget{ref-paolini2004effects}{}
+Paolini, Stefania, Miles Hewstone, Ed Cairns, and Alberto Voci. 2004.
+``Effects of Direct and Indirect Cross-Group Friendships on Judgments of
+Catholics and Protestants in Northern Ireland: The Mediating Role of an
+Anxiety-Reduction Mechanism.'' \emph{Personality and Social Psychology
+Bulletin} 30(6): 770--86.
+
+\hypertarget{ref-pettigrew2006meta}{}
+Pettigrew, Thomas F, and Linda R Tropp. 2006. ``A Meta-Analytic Test of
+Intergroup Contact Theory.'' \emph{Journal of personality and social
+psychology} 90(5): 751.
+
+\hypertarget{ref-pettigrew2008does}{}
+---------. 2008. ``How Does Intergroup Contact Reduce Prejudice?
+Meta-Analytic Tests of Three Mediators.'' \emph{European Journal of
+Social Psychology} 38(6): 922--34.
+
+\hypertarget{ref-Scacco2016}{}
+Scacco, Alexandra, and Shana S Warren. 2016. ``Youth Vocational Training
+and Conflict Mitigation: An Experimental Test of Social Contact Theory
+in Nigeria.''
+
+\hypertarget{ref-sheik1999health}{}
+Sheik-Mohamed, Abdikarim, and Johan P Velema. 1999. ``Where Health Care
+Has No Access: The Nomadic Populations of Sub-Saharan Africa.''
+\emph{Tropical medicine \& international health} 4(10): 695--707.
+
+\hypertarget{ref-Sherif1988robbersCave}{}
+Sherif, Muzafer et al. 1988. ``Intergroup Conflict and Cooperation: The
+Robbers Cave Experiment, Norman: Institute of Group Relations,
+University of Oklahoma.''
+
+\hypertarget{ref-yablon2012we}{}
+Yablon, Yaacov B. 2012. ``Are We Preaching to the Converted? The Role of
+Motivation in Understanding the Contribution of Intergroup Encounters.''
+\emph{Journal of Peace Education} 9(3): 249--63.
+
+\end{document}
