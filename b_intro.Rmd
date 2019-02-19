@@ -77,8 +77,13 @@ Puzzle.
 
 Theory.
 
+Method/design.
 
+Results
 
+Implications.  More on implications.
+
+Roadmap.
 
 # Intro Outline
 
@@ -101,31 +106,6 @@ Implications. **1-2 para**
 Roadmap. **1 para**
 
 <!--10-14 para.-->
-
-
-# Camps
-
-## Pessimist camp
-
-Conflict is the result of bargainging failures/comittment problems.
-
-Intergroup contact does not, however, change the underlying environment that caused this conflict.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving].
-
-"Sassenrath, Hodges and Pfattheicher (2016) argue that taking the perspective of a threatening target can lead to more negative evaluations; Tarrant, Calitri andWeston (2012) show this effect is especially likely among high ingroup identifiers" [@kertzer2018empathy]
-
-"In situations where conflicts of interest exist, or actors have negative stereotypes about one another — in other words, the very conditions where IR scholars usually claim strategic empathy is most needed — perspective-taking can exacerbate competition rather than induce cooperation." [@kertzer2018empathy].  My summary of Kertzer: Perspetive-taking without increased affect/liking can make conflict worse.
-
-Groups cannot committ to a bargaining solution if the strategic situation is unstable.  If they agree to a fair deal at t0, and the situation changes at t1, then one group has an incentive to defect and get a better deal [@fearon1994ethnic; @powell2006war].
-
-
-
-## Optimist Camp
-
-"Drawing mental inferences about dissimilar or unfamiliar targets can therefore induce us to rely on stereotypes (Ames, 2004)" [@kertzer2018empathy].  Contact makes the target of mental inference familiar and reduces reliance on negative stereotypes.
-
-
-
-
 *********
 
 ## Introduction
@@ -171,6 +151,30 @@ In this article, we begin by reviewing the literature on intergroup prejudice, f
 - Fast and loose with "reduce conflict and prejudice"?  Just make it prejudice?
 
 - The 4 conditions and the (i), (ii), (iii) format I use to list them....
+
+**********
+
+# Camps
+
+## Pessimist camp
+
+Conflict is the result of bargainging failures/comittment problems.
+
+Intergroup contact does not, however, change the underlying environment that caused this conflict.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving].
+
+"Sassenrath, Hodges and Pfattheicher (2016) argue that taking the perspective of a threatening target can lead to more negative evaluations; Tarrant, Calitri andWeston (2012) show this effect is especially likely among high ingroup identifiers" [@kertzer2018empathy]
+
+"In situations where conflicts of interest exist, or actors have negative stereotypes about one another — in other words, the very conditions where IR scholars usually claim strategic empathy is most needed — perspective-taking can exacerbate competition rather than induce cooperation." [@kertzer2018empathy].  My summary of Kertzer: Perspetive-taking without increased affect/liking can make conflict worse.
+
+Groups cannot committ to a bargaining solution if the strategic situation is unstable.  If they agree to a fair deal at t0, and the situation changes at t1, then one group has an incentive to defect and get a better deal [@fearon1994ethnic; @powell2006war].
+
+
+
+## Optimist Camp
+
+"Drawing mental inferences about dissimilar or unfamiliar targets can therefore induce us to rely on stereotypes (Ames, 2004)" [@kertzer2018empathy].  Contact makes the target of mental inference familiar and reduces reliance on negative stereotypes.
+
+
 
 
 <!--
