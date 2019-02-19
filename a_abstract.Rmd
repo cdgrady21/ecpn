@@ -1,5 +1,5 @@
 ---
-title: "Intergroup Contact Amidst Escalating Conflict - Abstract"
+title: "Promoting Peace Amidst Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria - Abstract"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -20,15 +20,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Big framing points/3 pills:
 
-- Contact theory can be effective even if economic incentives opposed
-- Contact theory can be effective even amidst an escalating conflict
+- Contact theory can be effective even if economic incentives opposed and amidst escalating conflict.
+- Intergroup contact helps increase trust and help groups overcome bargaining/comittment problems
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
-
+Title: get the big picture stuff about "peace amidst conflict", get the IR conflict people with the word conflict, get the psych people with the word "intergroup contact", get experimental methods people with "field experiment", get Africanists with "Nigeria".
 
 ## Abstract
 
-Can intergroup contact contribute to peace even when economic incentives are opposed and even amidst an escalating conflict?  Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  Rationalist perspectives on conflict would answer "no" on both counts -- intergroup contact does nothing to change the underlying strategic environment that causes conflict or prejudice.  Psychological perspectives would answer "yes" -- intergroup contact can increase trust and reduce conflict, and ingroup members without direct contact can learn vicariously from ingroup members with contact<!--Chris: work on this? -->.  Voluminous literatures on intergroup prejudice and intergroup violence fail to adjudicate between these perspectives because few if any studies of intergroup contact test the theory in the context of active violence.  Despite the lack of evidence that intergroup contact can reduce violent conflict, peacebuilding organizations often implement interventions inspired by intergroup contact in precisely these settings.^[cite:mercy corps, search for common ground, others?]  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact to promote tolerance and peace between groups in conflict.
 
 *******
 
