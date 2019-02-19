@@ -51,7 +51,7 @@ options(SweaveHooks=list(fig=function(){
 
 \begin{abstract}
 
-Can intergroup contact reduce group prejudice even when economic incentives are opposed and even amidst an escalating conflict?  Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
+Can intergroup contact contribute to peace even when economic incentives are opposed and even amidst an escalating conflict?  Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
 
 \end{abstract}
 
@@ -73,7 +73,8 @@ The results of this field experiment demonstrate that intergroup contact can eff
 
 In this article, we begin by reviewing the literature on intergroup prejudice, focusing on the theory of intergroup contact and highlighting conditions under which contact may be ineffective at reducing prejudice.  We then discuss what farmer-pastoralist conflict can teach us about intergroup contact, describe our experimental intervention and two designs to evaluate the effect of the intervention, and present the results of the study.  We conclude by connecting these findings to theories of group prejudice.
 
-*******
+
+******
 
 
 ## My Thoughts
@@ -97,5 +98,86 @@ In this article, we begin by reviewing the literature on intergroup prejudice, f
 - Fast and loose with "reduce conflict and prejudice"?  Just make it prejudice?
 
 - The 4 conditions and the (i), (ii), (iii) format I use to list them....
+
+
+## Others Thoughts
+
+### Charla
+
+- organization: don't know what I am pitching.  We have a lot of research on contact theory, but never tested in violent environment?  Or two theories that would predict different outcomes for conflict, and testing those?  Or testing the mechanisms through which contact theory works in violent contexts?
+    - comes from way first paragraph is phrased.  Research question as I have it is vague and unclear.  If need to talk about contact theory in first pargraph, need to tell us what intergroup contact means.
+- Why do I tell people about other theories in the introduction?  Is it to test competing theories, or because we haven't done contact in violent environment and there are reasons it might not work.
+- wants all context out of intro.
+- need a concise sentence about what I am arguing. First paragraph does not set me up to know _exactly_ what the research question is and what I am arguing.  Is it that we haven't tested this rigorously?  Is it that the place is violent?  Is it something else?
+- make much clearer: scores of research on intergroup contact reducing prejudice in very artificial/nonviolent environments.  Lots of NGOs use the theory in conflict/violent environments.  Let's put this to the test in a really violent environment, where it is used most.
+
+
+### Alice
+
+- overlap with charla: pitch -- should we care about this paper because we care about intergroup contact, or something else?  Who is audience for this?  Poli psych inhenerlty cares about integroup contact, but IR/CP ethnic conflict audience needs something else.
+- intro pitch could be more polisci generic.
+- can see papers where you do and do not give details about context.
+- don't see any intro where you give such details of intervention and research design in intro.
+- Something that remains muddy: Do underlying causes of prejudice matter for effects of intergroup contact.  In other studies, where is the prejudice coming from if the causes here are different? **chris: this is good.**  If two groups hate each other, how could there not be a reason?  Is it stuff tha tjust happened further back in history?
+- this is like a short summary of the paper; need to be expanded out.
+- conflict situation or fighting over resources situation: same thing?
+    - violent conflict is different than conflict.  If not different, higher bar for intergroup conflict to work.  Competition over resources if _conflict_, but it might not be violent.
+- like Charla: need whats the puzzle, why should we care.
+
+- Now take for granted that she knows about farmers and pastoralists.  People will probably not know about this, or know that there is a big group of semi-nomadic peoples in Nigeria.  People will probably be confused about this: do sons of farmers ever become pastoralists?  Are they different ethnic groups and religious groups, or just economic?
+- Mechanisms: if do ekrem's style of big hill that I want to surmount, need to talk about mechanisms.  How would contact solve the comittment problem, theoretically.  Talk theoretically about how contact theory would help overcome the committment problem, and tie it to pessimist camp as well.  Sanctioning the other group becomes easier?
+
+- **Me**: contact helps people trust and reduces conflict, contact makes me think cooperation can be good for me, etc...
+
+### Ekrem
+
+- why is the paper interesting?  (1) field intervention planned and engineered to resemble contact theory.  Very loyal to that.  (2) In a conflict situation; to extent that contact should not work in conflict situation, this result is interesting/surprising/amazing.  Framing is building around those two ideas.
+- Need to convince readers that we should NOT believe contact will work here.
+    - Luckily, lots of very prominent people say that all of this contact theory stuff should have no effect.  Those people are: Jim Fearon, Powell, Conflict/IR people talking about comittment problems, PS ethnic conflict stuff.  Can follow the unpusblished Fearon 1994 citations: ethnci conflict is comittment issue, future payoffs are changing and so I cannot commit to anything NOW.  
+    - I have a textbook case: Economic and political incentives are all pushing towards conflict.  Textbook the way IR/formal people think about it.  In that situation should we ever expect contact to work? Nothing about changing comittment/information about your opponent.
+    - Enter prejudice stuff, ethnic violence stuff.
+    - Contact is producing amazing results given that contact should not matter at all.
+    - **Need to make a really good point about the pessimist camp**.  Cite and play up the ethnic conflict.  
+- **Paragraph 4 needs to be what Ekrem just said about pessimist camp.**
+
+- Organizationally: could do this current organization, but make individual parts clearer.  OR put NIgeria case first.
+    - Issue: When I talk about context now, just that these groups are killing eachother a lot.  For Nigeria-first version: talk about conflict importance and PS puzzle the way I do now, and also talk about Nigeria case in the textbook ethnic conflict/comittment problem.
+    - Initial question should be as _general_ as my stomach will allow me.  "Can contact contribute to peace?"  Cannot make it about contact theory in first sentence.  Need to keep it general so other people want to read.
+- Pitch that lots of contact theory is used and we don't know if it works is 2nd best (theory is popular and used alot but not tested).  Best argument is: Can contact contribute to peace?  More general to apply to everyone.
+
+- Maybe better to talk about negative case first?  This is a comittment problem, which is like 80% of all problems.  Comittment problems cut boudnaries.  What does it mean for communication and getting to peace.  
+
+- Don't talk about divisible or indivisible resources.  Not consequential, don't want to argue whether or not resources are divisible or indivisible.
+- When talking about Nigeria, first talk about farmer-pastoralist conflict's own statistics, then compare to Boko haram.
+- Agree with Alice/Charla in terms of details: there are too many details.  15 sites, 10 tr 5 co, did for 12 months, details of project = TOO MUCH.  Just: we did an experiment, they worked together, move on.
+
+- penultimate paragraph about results: that section should be very expanded.  Speculate about mechanisms, why we see positive results when one perspective would think we would see nothing.  What does this finding mean for pessimistic/optimistic camp.
+
+- There is a long comment with lots of papers: Joshua Kurtzer et al - Security Dilemma and Contact Theory.  Connections. He has lots of links and says what they are useful for.
+
+- Pessimist camp: There are incentives to break promises. We both know that.
+
+### Nuole
+
+- Had read the Scacco article before reading this.  SHe does no theory, all field eperiment.  My balance is off: if I want to go field experiment first, move all that up after the first paragraph.
+- Throwing out a lot of terms -- what is contact, what is prejudice, what is conflict, what is conflict environment, what is violence?  What do different words mean exactly?
+- Violent context vs economics: focus on violence side.  Or: Does contact theory say anything separately about the two?  If I want to keep both, maybe make them separate sections: section about intergrup contact in violence, section about intergroup contact in resource conflict.
+- In pargraph talking about results, don't bring in mechanisms.  That would be a reframe and the paper would be about mechanisms.  Thinks I should keep it about conflict.
+
+- Pitching thought: How much focusing on the field experiment part vs the theoretical part.  Lots of paper are now saying "look at this awesome field experiment."  That's what Scacco and Enos did.  BUT no one wants a pitch like that.
+
+
+
+
+### My Thinking
+
+- Can either make it: This conflict situation is bad.  Comittment problem/conflict over resources would say it won't work.  WHy would it work?  BUT this intergroup contact ltierature would say it does work.
+  - OR: this conflict is bad.  Intergroup contact literatue does not think conditions like this should prevent contact from working.  But this is a big comittment problem.
+  - OR: Look at this terrible situation, mimics a lot of ethnic conflict/IR ltierature on ethnic conflict and comittment problems.  BUT intergroup contact theory says you can reduce prejudice through contact.
+  
+
+- Details of conflict work well.  Details of field experiment are too much.
+
+- 
 
 # References
