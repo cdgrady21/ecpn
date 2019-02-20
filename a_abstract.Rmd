@@ -24,14 +24,32 @@ Big framing points/3 pills:
 - Intergroup contact helps increase trust and help groups overcome bargaining/comittment problems
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
-Title: get the big picture stuff about "peace amidst conflict", get the IR conflict people with the word conflict, get the psych people with the word "intergroup contact", get experimental methods people with "field experiment", get Africanists with "Nigeria".
+### Title
+
+get the big picture stuff about "peace amidst conflict", get the IR conflict people with the word conflict, get the psych people with the word "intergroup contact", get experimental methods people with "field experiment", get Africanists with "Nigeria".
+
+### Pitch A
+
+- Bridging rationalist theories with psychological theories.  Rationalist theories of intergroup violence say it's a comittment problem -- need something that allows groups to credibly commit to a bargaining agreement, and can do that through a strong neutral third party.  Psychological theories say intergroup violence is an emotional/attiduinal problem -- should reduce prejudice/dehumanization and increase trust, and can do that through intergroup contact.  Have this context where groups are violent and doing intergroup contact intervention between them.  Rationalist theories would predict this intervention would not affect the conflict or prejudice because does not change strategic situation.  Psychological theories would predict this intervention would reduce conflict and prejudice by redefining the outgroup and feeling less threat/more empathy towards the outgroup.  Results show that program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can help solve comittment problem by increasing trust that the other group will abide by its agreements, reducing dehumanization of outgroup (psychological benefits to conflict -- i used to get satisfaction out of killing your group and now I feel very bad about it).  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+- **Major Issue**: I don't actually have measures of conflict/deaths.
+- **Issue**: Will piss off rationalists?
+- **Issue**: Don't actually measure bargaining process or show that comittment problem is solved.
+- **Issue**: A lot to say for one study.
+
+### Pitch B
+
+- Testing intergroup contact in a violent environment.  Intergroup contact often used in violent places, but not tested in contexts of violence.  Reasons to believe violent contexts would reduce effect of contact.  Have this context where groups are violent and doing intergroup contact intervention between them.  Psych theories would expect it to work, but rationalist theories of violent conflict would not.  Results show that the program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can reduce prejudice and conflict, even in violent contexts.
+
+- **Major Issue**: Rather unexciting.  Just another citation in a contact theory meta-analysis.
+
 
 ## Abstract
 
 Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  Rationalist perspectives on conflict would answer "no" on both counts -- intergroup contact does nothing to change the underlying strategic environment that causes conflict or prejudice.  Psychological perspectives would answer "yes" -- intergroup contact can increase trust and reduce conflict, and ingroup members without direct contact can learn vicariously from ingroup members with contact<!--Chris: work on this? -->.  Voluminous literatures on intergroup prejudice and intergroup violence do not adequately adjudicate between these perspectives because few if any studies of intergroup contact test the theory in the context of active intergroup violence.  Despite the lack of evidence that intergroup contact can reduce violent conflict, peacebuilding organizations often implement interventions inspired by intergroup contact in precisely these settings.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact to promote tolerance and peace between groups in conflict.
 
 *******
-I would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, and Charla Waeiss for their invaluable comments on this work.  I would also like to thank the Mercy Corps Nigeria team.  And the communities and community members that participated in the study.
+I would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, and Dave Zhao for their invaluable comments on this work.  I would also like to thank the Mercy Corps Nigeria team.  And the communities and community members that participated in the study.
 
 <!--
 # Scacco abstract

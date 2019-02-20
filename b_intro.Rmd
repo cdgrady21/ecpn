@@ -1,5 +1,5 @@
 ---
-title: "Intergroup Contact Amidst Escalating Conflict - Introduction"
+title: "Promoting Peace Amidst Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria - Introduction"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -57,11 +57,13 @@ Big framing points/3 pills:
 - Contact theory can be effective even amidst an escalating conflict (conflict consequence).
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
+
 Intro:
 
 Need to explain why I am doing things more than tell people details of what I am doing.  Only provide broad strokes for what I did.
 
 Field experiment papers often take a couple paragraphs talking about the field experiment, but I don't want to.
+
 
 *******
 
