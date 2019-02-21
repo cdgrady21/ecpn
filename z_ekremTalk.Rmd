@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 heart of conflict
 1- information problems
-	- don't know other side's power; 
+	- don't know other side's power; incentives to mislead.
 2- comittment problem
 	- solution: no standard solution
 	- 3rd party guaranteer & 3rd party can punish
