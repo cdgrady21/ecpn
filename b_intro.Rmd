@@ -87,17 +87,15 @@ Implications.  More on implications.
 
 Roadmap.
 
-# Intro Outline
+# My intro Outline
 
 Discuss intergroup violence as one of most pressing world problems. **OR** Discuss situation in Nigeria and broader context of farmer-pastoralist violence, intergroup violence. Then: more about why the topic is important.  **2-3 para** 
 
-Intergroup violence as a type of bargaining problem (IR).  Committment problem. **1-2 para**
-
 Intergroup violence "cured" by intergroup contact.  Successful often.  Overcome comittment problem. **1 para**
 
-But intergroup contact testing in settings where conflict/violence not already occurring, and where drivers of conflict not present.  Intergroup contact might reduce prejudice in non-conflict settings, but it does nothing to change the underlying environment that cause conflict and prejudice.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving]. **1-2 para**
+Intergroup violence as a type of bargaining problem (IR).  Committment problem.  Intergroup contact might reduce prejudice in non-conflict settings, but it does nothing to change the underlying environment that cause conflict and prejudice.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving].  Intergroup contact tested in settings where conflict/violence not already occurring, and where drivers of conflict not present.   **2-3 para** <!--solve peace without coercive actor -->
 
-My question.  Then my argument/my theory.  Contact can contribute to peace in violent areas.  Expand ingroup, reduce threat felt, increase affective feelings.  Increase trust that other side _wants_ to abide by agreement/comittment (and will police itself?).  Increase perceptions of the benefit of working together.  Prevent small disputes from becoming more violent. **1-2 para** 
+My question.  Then my argument/my theory.  Contact can contribute to peace in violent areas.  Comittment problem is a trust problem.  Expand ingroup, reduce threat felt, increase affective feelings.  Increase trust that other side _wants_ to abide by agreement/comittment (and will police itself?).  Increase perceptions of the benefit of working together.  Prevent small disputes from becoming more violent. **1-2 para** 
 
 Test intergroup contact in conflict environment.  Describe context, highlighting how these conditions are when the pessimist camp says conflict endures.  Field experiment.  Helps me overcome self-selection issue from observational studies, external validtiy issue from experimental studies.  Fidelity to Allport's conditions.   **1-2 para**
 
@@ -197,6 +195,6 @@ Groups cannot committ to a bargaining solution if the strategic situation is uns
 # my abstract
 ## Abstract
 
-Can intergroup contact reduce group prejudice even when economic incentives are opposed and even amidst an escalating conflict?  Do these effects diffuse to ingroup members with no direct contact?  A voluminous literature on intergroup prejudice fails to answer these questions; some theories suggest yes while other theories suggest no.  Few if any studies test these theories in the context of opposing economic incentives and active violence, yet opposing economic incentives and active violence are the hallmark of many world conflicts where social science theories are put into practice.  We answer these questions by conducting a field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  We find that a yearlong intergroup contact intervention for a small subset of community members reduces prejudice and increases perceptions of physical security, even for community members not directly involved in the intervention.  This experiment demonstrates the efficacy of intergroup contact, even in the context of opposed economic incentives and escalating conflict. 
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common "rationalist" explanation for conflict says intergroup violence is a commitment problem that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This explanation would predict that intergroup contact will not affect intergroup conflict or prejudice because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
 
 -->

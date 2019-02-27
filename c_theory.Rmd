@@ -24,7 +24,33 @@ Big framing points/3 pills:
 - Contact theory can be effective even amidst an escalating conflict
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
-## Theory Outline
+
+
+## Theory Outline (12-20 para)
+
+### Optimist Camp: 5 para
+
+Intergroup contact.  Realistic group conflict theory (functional interdepence between groups to reduce conflict.  Achieve a series of superordinate goals that neither group can achieve alone).
+
+
+
+### Pessimist Camp: 5 para
+
+This is a comittment problem.  Neither group can commit to cooperating, and each group only wants to cooperate if the other cooperates.  Solution is to impose high cost for defecting, usually through some third actor.
+
+
+### Synthesize: 4 para
+
+Comittment problem is a trust problem.  Interventions that increase intergroup trust should ameliorate comittment problems.
+
+Trust can increase a two ways.  Group _leaders_ increase trust that the leader will punish defecting ingroup members.  Group members increase trust that outgroup members will not defect.  Not distinguishing between those ways and probably not mutually exclusive.
+
+^[Simplest way to think about the problem in game-theoretic terms: one player & one stage game where P1 can cooperate or defect.  P1 has a belief about the type of P2; P2 has some probability of being a complier, conditional complier, or defector.  P1s payoffs for c/d depend on P2 type.  And the intervention increases P1's belief that P2 is conditional complier.  More complicated way is akin to Fearon's comittment problem.  Maybe has P2 signal its type to P1.  Intergroup contact allows for strong signal to P1.]
+
+Negative contact increases prejudice more than positive contact decreases prejudice [@barlow2012contact]
+
+
+## Notes
 
 ### Pessimist Camp
 

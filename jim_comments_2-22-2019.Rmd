@@ -1,0 +1,64 @@
+---
+title: "jim_comments_2-22-2019"
+author: "Christopher Grady"
+date: "February 22, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Jim Abstract comments
+
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  <!--I might want to know whether the “peace” lasts.  I guess you cannot answer this.-->  The rationalist perspective of conflict says intergroup violence is a comittment problem that can be ameliorated by an outside factors that holds the groups to their comittments <!--(What outside factors hold the groups to their commitments in this case, especially in the long-run?)-->.  The psychological perspective says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that recategorizes the groups <!--(?)--> and creates mutual bonds of trust.  We test these perspectives by conducting an intergroup contact field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use.  Rationalist theories would predict this <!--particular--> intervention to not affect the conflict or prejudice because it does not change either group's strategic incentives or enforce bargaining agreements.  Psychological theories would predict this intervention to reduce conflict and prejudice by redefining the outgroup, reducing threat perceptions, and increasing empathy towards the outgroup <!--(you have measures of all of these?).-->  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.  <!--Not sure what this means.  Are you testing the two, as you say at the outset, or are you trying to bridge them, whatever this means?  Or are you saying that, in your particular case, your intervention both increased intergroup trust and perceptions of physical security?  Your results seem to favor the psychological theory, don’t they?-->
+
+
+About the peace lasting, you are right.  That can be an avenue for future research in the discussion section.  We don't know what happens when the NGO program leaves and there is not this exogenous pressure for more contact and peace.
+
+About outside factors that would hold groups to their comittments, "rationalist" scholars usually think of the state.  In this case, it would be the Nigerian state, which is (1) unable to project power to these areas and (2) perceived as very biased against pastoralists.  Though some politicians are trying to guarantee grazing lands.  I will discuss that in my theory and context sections.
+
+About measures of redefining the outgroup, reducing threat perceptions, and increasing empathy, I think we plausibly have measures of two things.  We _definitely_ have threat perceptions, we have intergroup cohesion measures that I would also say measure empathy ("Suppose something unfortunate happened to someone from X group in this community, such as a serious illness or the death of a parent. How likely is it that some people in the community from your group would get together to help them?").  But we don't have a measure of redefining the outgorup, so maybe I should not discuss that at all in the abstract.
+
+As for bridging the two percpectives, it's _thinking_ about the problem from the rationalist perspective: comittment problem, how can we solve it?  And then _using_ a psychological solution to solve the comittment problem.  I planned to talk about these things in the theory section and the discussion at the end of the paper, but I want to mae these things as clear as possible in the abstract.
+
+I also don't think the results _favor_ the psychological perspective necessarily.  I still think a strong 3rd party would bring peace.  But the rationalist perspective has not thought about psychological ways of solving the bargaining/comittment problem.  People are not quite rational, so they may take the other person at his/her word. And if that person can send costly signals that he will abide by his word (by punishing ingroup members who defect), the other party might agree to the bargained agreement.  It's like conditional compliers from game theory.
+
+It sounds like I am setting this up more of a "rat vs psych" than I mean it to be.
+
+## Jim Expanded Comments
+
+My preamble: It sounds like I am setting this up more of a "rat vs psych" than I mean it to be.  I don't want to say the rationalist theory is "wrong" and the psych is "right", but that we should bridge the two by showing that rationalist theories can benefit from thinking about psychological variables and psychological theories can benefit from thinking of incentives in a rationalist way.
+
+This sentence in particular: "We test these perspectives by conducting an intergroup contact field experiment with 30 communities in Nigeria, where farmers and pastoralists are embroiled in a deadly conflict over land use" is not right.  I am not testing these perspectives perse.  I am not sure what I am doing with them.
+
+#### When we meet, perhaps you can take a few minutes to lay out the essences of each perspective.  
+
+Rationalist perspective is that the two groups conflict because of a comittment problem.  They should enter into barganing about how to end their conflict, with one side giving a bit more to the more powerful side/side with a higher stake.  But bargaining fails because the situation is unstable and the sides relative power vis-a-vis each other is changing.  Therefore, even if an agreement is made, one side will soon have an incentive to renege on the deal in favor of a better deal.  Both sides know that neither side can comitt to their agreement, so bargaining fails and groups fight.  An external "cost" needs to be applied to reneging, and that can be applied by a strong, neutral 3rd party (like the state).
+
+Psych perspective is that the groups conflict is an outgrowth of prejudice, anger, and negative affect.  Their prejudice biases their perceptions, so they interpret behaviors of the other group negatively, hostiley, and unjustified, and attribute negative motivations to the other group.  They also feel justified themselves in attacking the other group out of retribution.  Since both sides view their own actions as justified and the others as unjustified, violence spirals.  Helping each group see the perspective of the other side and reducing the prejudice and hate group members feel would help them overcome their conflict.
+
+I say I am bridging these two perspectives because the psychological perspective does not think about the comittment problem and the rationalists don't think about how feelings/emotions can affect the bargaining process.
+
+#### Do you have equally good measures of the two perspectives?  I would also like to hear how you think that you have really tested each perspective.  For example, if you were starting over, would you change the way you tried to implement the rationalist theory?  At the least, how do we know that your measures of the two theories are equally valid?  
+
+I don't have measures of the two perspectives.  I test them in that the two theories _seemingly_ make opposite predictions about the effects of contact on conflict/prejudice.  I am not implementing the rationalist theory, just doing something it would not predict to work.
+
+#### I can imagine another study in which some (matched or randomly chosen) communities get one treatment and other communities get the other treatment (and a third set get neither).  Of course, you have not done this.  What you have done might be exactly right—conduct studies that allow you to test the two theories simultaneously.  You begin with a treatment that allows equivalent tests of the two theories.  And then you have measures that allow you to measure the relative saliencies of the two theories. I’ll put it this way:  If you were starting over, how would you go about testing the rationalist theory?  Any differently from what you have done?
+
+Yeah, the experiment to test rationalist vs psychological theories would be the one you described: control, rat treatment, psych treatment.  But I am not trying to say one is wrong and one is right.  Clearly these results suggest that the rationalist perspective is not a perfect predictor.  But I more want to say that the two perspectives can benefit from incorporating the other.
+
+
+
+
+## Discussion
+
+rationalism motivated peacekeeping?  Take out the peacekeeping unit and conflict increases again.
+
+situation is the same, incentives are the same, payoffs are the same, no peacekeeping units.  Why would there be less violence?
+
+Here: ther are no peacekeepers, no outside intervention to guarantee bargained agreements (add -c).  Our intervention is about changing perceptions about the state of the world: instead of 80% lying, 20% true, the perception is 20% lying 80% true.
+
+Can intergroup contact bring about peace?  Can you have peace without force?  In these circumstances (high violence, fighting for land, way of life under threat) we don't need a coercive 3rd party actor.
+
+Rationalist theor would say blah blah blah.  In this paper I will show that peace can be achieved without coercive actors.

@@ -16,6 +16,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+oOmes after theory, before Intervention details.
+
 ## Thinking
 
 Big framing points/3 pills:
@@ -31,17 +33,13 @@ Big framing points/3 pills:
 - the background: these populations used to get along, but population booms and climate change reduce land:people ratio
 - The conflict: escalating, burnt village/livestock guard, expulsion
 
-
-- groups first meet _separately_ to prepare them to be brought together.
-
-- Some spillover due to site closeness, but this would only bias our estimated downwards.
-
-
 ## Context
 
 While most attention to conflict in Nigeria focuses Boko Haram, persistent violence between farmers and pastoralists in Nigeria’s Middle Belt has contributed to more casualties (Fulton and Nickels, 2017) and costs the Nigerian economy $13 billion a year (MacDougal et al, 2015). 
 
 Groups used to commit to collaboration -- sharing land, sharing manure, sharing crop residue, sharing food (meat for grains, vegetables).  But as situation changed groups could no longer commit.
+
+Fulani have local, territorial desires.
 
 *******
 

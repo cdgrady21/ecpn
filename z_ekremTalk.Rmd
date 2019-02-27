@@ -36,7 +36,7 @@ Contact --> Information exchange --> knowledge that helps overcome.  But still h
 	- have incentives to mislead if we have a comittment problem. Prisoner's dilemma
 	- have no incentive to mislead in a coordination problem.
 	- Ekrem: bargaining situation is a coordination game with penalties, not exactly a comittment problem. Want to coordinate, but have incentives to misrepresent.
-	- in what situation, and how much, can 
+	- in what situation, and how much, can contact help this coordination problem?
 Contact --> trust --> not going to renege, will punish ingroup.
 	- axelrod: conditional compliers
 	- reputations: take actions that are costly (ingroup policing) during bargaining to signal that you are a conditional complier

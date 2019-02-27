@@ -26,7 +26,26 @@ Big framing points/3 pills:
 
 ## Design Outline
 
-## Design
+
+#### Misc
+
+- Some spillover due to site closeness, but this would only bias our estimated downwards.
+
+
+# Design
+
+## Site Identification
+
+Inclusion/Exclusion criteria.  To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
+
+## Intervention
+
+Intervention with two communities in conflict.
+Details of ECPN.  Intergroup contact, including leaders of each group.^[Leaders of each group also received mediation training.]  Groups first meet _separately_ to prepare them to be brought together.
+
+## Evaluation
+
+Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned participants in treatment 
 
 
 *******
