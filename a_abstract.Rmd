@@ -16,6 +16,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+https://en.wikipedia.org/wiki/Bargaining_model_of_war
+
 ## Thinking
 
 Big framing points/3 pills:
@@ -28,11 +30,22 @@ Big framing points/3 pills:
 
 get the big picture stuff about "peace amidst conflict", get the IR conflict people with the word conflict, get the psych people with the word "intergroup contact", get experimental methods people with "field experiment", get Africanists with "Nigeria".
 
-### Pitch A
+### Pitch 
 
-- Bridging rationalist theories with psychological theories. Rationalist theories of intergroup violence say intergroup violence is a comittment problem -- groups need something that allows them to credibly commit to a bargaining agreement, and can do that through a strong neutral third party.  Psychological theories say intergroup violence is an emotional/attitudinal problem -- can solve by reducing prejudice/dehumanization and increasing trust, which can be done through intergroup contact.  Have this context where groups are violent and am doing intergroup contact intervention between them.  Rationalist theories would predict this intervention would not affect the conflict or prejudice because does not change strategic situation or enforce bargaining agreements.  Psychological theories would predict this intervention would reduce conflict and prejudice by redefining the outgroup, reducing threat perceptions, and increasing empathy towards the outgroup.  Results show that program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can promote peace between groups in conflict.  Intergroup contact can help solve the commitment problem of intergroup conflict by increasing trust that the other group will abide by its agreements and increasing the psychological costs of conflict (reducing dehumanization of outgroup -- i used to get satisfaction out of killing your group and now I feel very bad about it).  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+- Institutions constrain behavior.
+- IR conflict and reducing intergroup conflict with a strong 3rd party.  3rd party (institutions, police, powerful state) holds groups to bargaining agreements, so each group can trust the other.
+  - but we cannot police everything, costly. And rural areas are often beyond state control.  Need something that functions like police but doesn't require a 3rd party walking around and punishing everyone.
+- Intergroup trust can function as an institution that allows bargaining because the each group _trusts_ that the other will fulfill their end of the agreement.
+  - Contracts & law are ways we can trust people without knowing them.  Large costs to defecting on our agreements help everyone trust that agreements will be kept.
+  - But small groups do not necessarily need legal contracts and formal laws.  Ellen Ostrom.
+- Intergroup contact can increase intergroup trust (not generalized trust, specific intergroup trust).
+  - maybe by giving the opportunity for costly signals of trust.  Like ingroup policing.
+- Intergroup contact could also reduce conflict by reducing perceptions of threat or expanding "ingroup" to include the other group.
+    - No evidence that the intergroup contact program reduced threat perceptions.
+    - Very limited evidence that intergroup cohesion increased; does not look like the two groups started to think of eachother as "ingroup"
+- My mechanism: intergroup contact works to reduce intergroup violence and prejudice by creating intergroup trust.  Intergroup trust functions as a social institution that allows bargaining.  Groups can bargain because they trust that the other group's behavior is constrained.
 
-- **Issues**:I don't have an actual measure of violent conflict.  I do not measure things directly related to bargaining process/comittment problem and can only theoretically discuss how intergroup contact relates to comittment problem.  Is slightly more work?
+- **Issues**:I don't have an actual measure of violent conflict.  I do not measure things directly related to bargaining process/comittment problem and can only theoretically discuss how intergroup contact relates to comittment problem.
 
 
 
@@ -40,7 +53,11 @@ get the big picture stuff about "peace amidst conflict", get the IR conflict peo
 
 ### Abstract 1
 
-Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict says intergroup violence is a commitment problem that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or prejudice because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict says intergroup violence is a commitment problem that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or trust because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+### Abstract 1
+Chris: still editing
+Can intergroup contact contribute to peace between groups involved in violent conflict over resources?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict formulates intergroup violence is a prisoner's dilemma that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or trust because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
 
 *******
 I would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, and Dave Zhao for their invaluable comments on this work.  I would also like to thank the Mercy Corps Nigeria team.  And the communities and community members that participated in the study.
@@ -69,8 +86,15 @@ even very minor demographic change causes strong exclusionary reactions.
 
 But want to keep this old stuff.
 
-### Pitch B
+### Pitch 1
 
 - Testing intergroup contact in a violent environment.  Intergroup contact often used in violent places, but not tested in contexts of violence.  Reasons to believe violent contexts would reduce effect of contact.  Have this context where groups are violent and doing intergroup contact intervention between them.  Psych theories would expect it to work, but some psych evidence and rationalist theories of violent conflict would not.  Results show that the program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can reduce prejudice and conflict, even in violent contexts.
 
-- **Major Issue**: Rather unexciting theoretically.  Just another citation in a contact theory meta-analysis.  Too similar to Scacco & Warren 2018.  Brands me as rather atheoretical field experimenter type.
+- **Major Issue**: Rather unexciting theoretically.  Just another citation in a contact theory meta-analysis.  Too similar to Scacco & Warren 2018.  Brands me as rather atheoretical field experimenter type.  But is super clear.
+
+
+### Pitch 2
+
+- Bridging rationalist theories with psychological theories. Rationalist theories of intergroup violence say intergroup violence is a comittment problem -- groups need something that allows them to credibly commit to a bargaining agreement, and can do that through a strong neutral third party.  Psychological theories say intergroup violence is an emotional/attitudinal problem -- can solve by reducing prejudice/dehumanization and increasing trust, which can be done through intergroup contact.  Have this context where groups are violent and am doing intergroup contact intervention between them.  Rationalist theories would predict this intervention would not affect the conflict or prejudice because does not change strategic situation or enforce bargaining agreements.  Psychological theories would predict this intervention would reduce conflict and prejudice by redefining the outgroup, reducing threat perceptions, and increasing empathy towards the outgroup.  Results show that program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can promote peace between groups in conflict.  Intergroup contact can help solve the commitment problem of intergroup conflict by increasing trust that the other group will abide by its agreements and increasing the psychological costs of conflict (reducing dehumanization of outgroup -- i used to get satisfaction out of killing your group and now I feel very bad about it).  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+- **Issues**: This isn't quite what I want to say.  I want to connect things more to "institutions constrain behavior" not just "Rationalism/IR says need institutions to restrain conflict."  Also, I don't have an actual measure of violent conflict.  I do not measure things directly related to bargaining process/comittment problem and can only theoretically discuss how intergroup contact relates to comittment problem.  Is slightly more work?
