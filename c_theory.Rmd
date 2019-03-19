@@ -24,7 +24,13 @@ Big framing points/3 pills:
 - Contact theory can be effective even amidst an escalating conflict
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
+# Moved from Intro
 
+When both groups desire some valuable $X$ they must come to an agreement about the division of $X$ based on the existing strategic situation.  In dynamic settings where the strategic situation is unstable, groups cannot credibly commit to abide by their agrements; when the situation changes, one group will have an incentive to renege on the deal.  Bargaining breaks down because both sides know that neither can credibly commit to any bargaining agreement.  In the absence of a bargained solution groups use violence to settle disputes over $X$.  In this view, the solution to intergroup violence is a strong neutral third-party to solve the comittment problem by compelling each side to honor bargaining agreements.  This is an example of institutions constraining behavior.<!--Possibly next paragraph talks about government intervention over land use to compel each side.  But government is weak and unable to compel each sides; and pastoralists view the government as very partial to the farmers. -->
+
+Intergroup violence is also considered a product of intergroup prejudice and dehumanization ^[cite: humanizing the outgroup stuff, @halperin2011emotional; also cite: tajfel, ].  Chris: argument.  In this view, the solution to intergroup violence is to reduce prejudice and humanize the outgroup; provide superordinate goals that show groups the benefit of working together.  
+
+Even some proponents of the psychological perspective doubt the aility of intergroup contact to reduce violent conflict [@gubler; @saguy2011tension; others.]
 
 # Theory Outline (12-20 para)
 
@@ -86,6 +92,8 @@ Ingroup increases to include other group -- intergroup cohesion does not seem to
 incresed empathy -- no questions address this, or intergroup cohesion 2?
 Perceived benefits of cooperation -- maybe?  But contact does not increase this.
 
+**Limitations**
+Most effective for small, cohesive ingroups.
 
 ### Pessimist Camp
 
