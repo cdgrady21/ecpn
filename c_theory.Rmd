@@ -16,7 +16,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Thinking
+# Thinking
 
 Big framing points/3 pills:
 
@@ -26,7 +26,7 @@ Big framing points/3 pills:
 
 
 
-## Theory Outline (12-20 para)
+# Theory Outline (12-20 para)
 
 ### Optimist Camp: 5 para
 
@@ -50,7 +50,42 @@ Trust can increase a two ways.  Group _leaders_ increase trust that the leader w
 Negative contact increases prejudice more than positive contact decreases prejudice [@barlow2012contact]
 
 
-## Notes
+# Notes
+
+### General
+
+Many conflict scholars see intergroup conflict as a bargaining game.  Conflict occurs because of a bargaining failure -- incorrect information [chris:cite], lack of trust that other group will honor comittments [@fearon; @powell].  The solution is a 3rd party -- another group, the state, social institutions like laws and customs -- powerful enough to compel both sides to honor their comittments.  Contracts & law are ways we can trust people without knowing them.  Large costs to defecting on our agreements help everyone trust that agreements will be kept.
+
+But 3rd parties of this sort are not always possible.  Sometimes no state is strong enough to project power onto the conflicting groups.  Projecting power is expensive.  But groups do not necessarily need coercion to solve collective action problems.   Groups can develop social norms that constrain behavior, which are often more efficient than coercive appartus [@ostrom2015governing; @Ostrom2000evolution].  But sometimes social norms to solve conflict are not present or have broken down.
+
+Intergroup contact is a solution to intergroup conflict from the psychological perspective.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will reduce prejudice and the likelihood of violence by demystifying the outgroup, presenting the other group's perspective, and replacing imagined stereotypes with firsthand knowledge [@allport1954; @pettigrew2008does].  
+
+Ostrom: grassroots norms. "a social norm, especially in a setting where there is communication between the parties, can work as well or nearly as well at generating cooperative behavior as an externally imposed set of rules and system of monitoring and sanctioning" [@ostrom2000evolution]
+
+Comittment problems are trust problems: "the choice is not to trust, because the expectation is that the other player will not trust" [@ostrom2000evoluation]"
+
+Ostrom on communication: "By devising simple, local mechanisms to get conflicts aired immediately and resolutions that are generally known in the community, the
+number of conflicts that reduce trust can be reduced." [@ostrom2000evoluation]
+
+Intergroup contact creates social institutions that affect/constrain behavior.
+
+**It could convince the groups that cooperation is good**
+Changing the game: [c,c] payoffs higher than [c,d or d,d] payoffs.  Before contact, could get social benefits to defecting and social costs to cooperating, so cooperating was not in anyone's interest.  After contact, social benefits from cooperating and social costs to defecting. Or something like that.
+
+** It could convince the groups that the other side will cooperate**
+Allows costly signaling that my groups type is conditional complier, not defector.  Increases trust that other group will cooperate.  Increase opportunities for group reputations to increase.  In game theory terms, direct reciprocity.
+
+**It could increase the acceptable bargaining space**
+Before, both groups would only accept agreements where they got 75% or more, so there was no agreement space.
+This is more a story about perceived strength: why would I only accept bargaining where I would receive 75%+ if I thought the alternative to bargaining was you beating me and taking 100%?
+
+**Alternative Mechanisms of Intergroup Contact**
+Generalized trust -- no increase to "people of other religions/ethnicities"
+Decreased threat -- nope
+Ingroup increases to include other group -- intergroup cohesion does not seem to increase.  Probably not that ingroup norms being extended to outgroup.
+incresed empathy -- no questions address this, or intergroup cohesion 2?
+Perceived benefits of cooperation -- maybe?  But contact does not increase this.
+
 
 ### Pessimist Camp
 
@@ -84,7 +119,13 @@ Bridging psychological and rationalist theories: still fundamentally a comittmen
 
 Overcoming comittment problem: Community leader involvement is very important -- leaders are often the ones bargaining, _and_ each side may trust that the other groups leaders can prevent/punish defections from his group.  Ingroup Policing.
 
-## Theory
+### Democratic Dilemma: Ways to increase trust between two players
+
+Costly Signals
+
+Penalties for Lying.
+
+Likelihood of Verification of the speaker's words by some other party.
 
 
 *******
