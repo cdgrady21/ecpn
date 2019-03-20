@@ -18,21 +18,67 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Thinking
 
-Big framing points/3 pills:
+Big framing points:
 
-- Contact theory can be effective even if economic incentives opposed
-- Contact theory can be effective even amidst an escalating conflict
-- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+- Contact theory can be effective at reducing real world conflict.
+- Contact increases intergroup trust, which allows groups to bargain even in the absence of external costs of breaking agreements.
 
-# Moved from Intro
+Intergroup conflict is often characterized as a bargaining failure<!--Prisoner's Dilemma?-->.  Both groups would benefit from compromise, but negotiations break down and conflict ensues because neither group trusts the other to abide by their agreements.  The proposed solutions are coercive institutions that prevent groups from defecting on bargained agreements.  However, coercive power cannot reach many group conflicts.  We propose intergroup contact as an alternative to coercive institutions.  Coercive institutions substitute for intergroup trust, but intergroup contact can foster intergroup trust directly by creating situations in which groups can signal their trustworthiness.  Intergroup trust allows groups to bargain even in the absence of coercive institutions.
 
-When both groups desire some valuable $X$ they must come to an agreement about the division of $X$ based on the existing strategic situation.  In dynamic settings where the strategic situation is unstable, groups cannot credibly commit to abide by their agrements; when the situation changes, one group will have an incentive to renege on the deal.  Bargaining breaks down because both sides know that neither can credibly commit to any bargaining agreement.  In the absence of a bargained solution groups use violence to settle disputes over $X$.  In this view, the solution to intergroup violence is a strong neutral third-party to solve the comittment problem by compelling each side to honor bargaining agreements.  This is an example of institutions constraining behavior.<!--Possibly next paragraph talks about government intervention over land use to compel each side.  But government is weak and unable to compel each sides; and pastoralists view the government as very partial to the farmers. -->
+Theory sections tend to summarize a literature and then apply it to new area.
 
-Intergroup violence is also considered a product of intergroup prejudice and dehumanization ^[cite: humanizing the outgroup stuff, @halperin2011emotional; also cite: tajfel, ].  Chris: argument.  In this view, the solution to intergroup violence is to reduce prejudice and humanize the outgroup; provide superordinate goals that show groups the benefit of working together.  
+# Outline/Presentation intro slide
 
-Even some proponents of the psychological perspective doubt the aility of intergroup contact to reduce violent conflict [@gubler; @saguy2011tension; others.]
+- Intergroup conflict as commitment problem, solved by institution that can enforce commitments [@fearon; @powell]
+- Institutions that constrain behavior cannot always be present
+- Intergroup trust serves as social institution that solves commitment problem
+- Intergroup contact creates intergroup trust
 
-# Theory Outline (12-20 para)
+# Theory (12-20 para)
+
+Two big theoretical literatures on intergroup conflict.  One sees intergroup conflict as bargaining problem.  The other sees intergroup prejudice as a prejudice problem.
+
+Intergroup conflict is often considered the result of bargaining failures.  Groups have disagreements, but through bargaining they should be reach a compromise that prevents conflict.  Neither group _wants_ conflict because conflict is very costly for both groups.  Groups fail to reach bargaining agreements primarily due to comittment problems -- neither group trusts that other group will honor comittments [@fearon; @powell].  Groups cannot be trusted to commit to agreements for a variety of reasons.
+
+[^bargainFail:] Other reasons are incorrect information.
+
+The solution to the comittment problem are institutions or external actors that punish defection from agreements.
+
+These institutions cannot always be present.  State power does not reach everywhere.  No neutral/trusted arbitrator.  Enforcement expensive.  Need something that functions like police but without police walking around punishing everyone
+
+These institutions substitute for intergroup trust.  We can bargain without external enforcement if we trust each other to uphold agreements.  Bargaining allows groups to reach a non-violent outcome.
+
+## Intergroup Contact
+
+Intergroup contact creates social institutions that affect/constrain behavior. Intergroup contact theory: Intergroup cooperation to achieve common goals in an equal status context with the support of authorities reduces prejudice [@allport1954prejudice]
+- Shown effective in many contexts [@pettigrew2006meta]
+- Intergroup contact produces trust via opportunities for costly signaling(<!--through ingroup policing?)--> and increased likelihood that defections from agreement will become public and therefore punished.
+
+
+**It could convince the groups that cooperation is good**/**It could decrease the social benefits of conflict**
+Changing the game: [c,c] payoffs higher than [c,d or d,d] payoffs.  Before contact, could get social benefits to defecting and social costs to cooperating, so cooperating was not in anyone's interest.  After contact, social benefits from cooperating and social costs to defecting. Or something like that.
+
+If groups hate each other, maybe social benefits to attacking the other group.  Feels justified.  If groups don't hate so much, maybe social costs instead.
+
+** It could convince the groups that the other side will cooperate**
+Allows costly signaling that my groups type is conditional complier, not defector.  Increases trust that other group will cooperate.  Increase opportunities for group reputations to increase.  In game theory terms, direct reciprocity.
+
+**It could increase the acceptable bargaining space**
+Before, both groups would only accept agreements where they got 75% or more, so there was no agreement space.
+This is more a story about perceived strength: why would I only accept bargaining where I would receive 75%+ if I thought the alternative to bargaining was you beating me and taking 100%?
+
+
+
+
+**Alternative Mechanisms of Intergroup Contact**
+Generalized trust -- no increase to "people of other religions/ethnicities"
+Decreased threat -- nope
+Ingroup increases to include other group -- intergroup cohesion does not seem to increase.  Probably not that ingroup norms being extended to outgroup.
+incresed empathy -- no questions address this, or intergroup cohesion 2?
+Perceived benefits of cooperation -- maybe?  But contact does not increase this.
+
+**Limitations**
+Most effective for small, cohesive ingroups.
 
 ### Optimist Camp: 5 para
 
@@ -138,7 +184,10 @@ Likelihood of Verification of the speaker's words by some other party.
 
 *******
 
-<!--
-# Scacco
+# Moved from Intro
 
--->
+When both groups desire some valuable $X$ they must come to an agreement about the division of $X$ based on the existing strategic situation.  In dynamic settings where the strategic situation is unstable, groups cannot credibly commit to abide by their agrements; when the situation changes, one group will have an incentive to renege on the deal.  Bargaining breaks down because both sides know that neither can credibly commit to any bargaining agreement.  In the absence of a bargained solution groups use violence to settle disputes over $X$.  In this view, the solution to intergroup violence is a strong neutral third-party to solve the comittment problem by compelling each side to honor bargaining agreements.  This is an example of institutions constraining behavior.<!--Possibly next paragraph talks about government intervention over land use to compel each side.  But government is weak and unable to compel each sides; and pastoralists view the government as very partial to the farmers. -->
+
+Intergroup violence is also considered a product of intergroup prejudice and dehumanization ^[cite: humanizing the outgroup stuff, @halperin2011emotional; also cite: tajfel, ].  Chris: argument.  In this view, the solution to intergroup violence is to reduce prejudice and humanize the outgroup; provide superordinate goals that show groups the benefit of working together.  
+
+Even some proponents of the psychological perspective doubt the aility of intergroup contact to reduce violent conflict [@gubler; @saguy2011tension; others.]
