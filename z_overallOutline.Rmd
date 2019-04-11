@@ -45,6 +45,10 @@ Say implications for: (1) conflict resolution, especially intergroup and interco
 
 (5) spillover of effects and social norms/vicarious learning.
 
+Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.
+
+Roadmap.
+
 # Theory
 
 Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  3rd parties (peacekeepers, states) solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem.
@@ -70,15 +74,17 @@ Psychological reconciliation, intergroup contact.  Define what it is, when it sh
 
 ## Psych reconciliaiton could work
 
-Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.
+Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).
 
-Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness.
+Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.
 
 Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
 
-Could increase empathy.  Seeing the other side's argument, seeing their motivations.
+Could increase empathy.  Seeing the other side's argument, seeing their motivations. Increase empathy/less prejudice helps interpret information in non-biased way. Chris: look for literature on empathy making me interpret information about other people more accurately.  Kertzer?
 
 Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
+
+Chris: in ECPN program, groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good.  Also role of leaders in mediating disputes (mediaiton training).
 
 # Context
 

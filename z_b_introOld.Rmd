@@ -1,0 +1,147 @@
+---
+title: "z_b_introOld"
+author: "Grady"
+date: "April 11, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Old again
+
+From race relations in the United States to the intractable religious conflict in Israel to ethnic clashes in the Balkans, intergroup conflict is responsible for many of the worst displays of human nature.  Substantial scholarly and policy effort goes towards reducing intergroup conflict.  Lots theories proposed and programs implemented.  In 2016, \$1.7 billion in Overseas Development Assistance (ODA) were directed towards conflict, peace and security programing (OECD, 2018).  The international community has stepped into X conflicts in the last Y years to prevent intergroup violence. 
+
+Intergroup conflict often reduced by presence of strong third party or other coercive institutions (laws, peacekeepers, police, powerful state) that constrain behavior [@kertzer2018empathy; @powell2006war; @fearon1994ethnic].  In A place, B place, C place, strong third parties mitigate intergroup conflict.  These institutions ensure the groups that agreements they reach will be followed and thus allows bargaining instead of the conflict that ensues when bargaining cannot take place.  But these third parties cannot be present everywhere.  Expensive to project power and enforce agreements.  Many areas of the world, especially rural areas and mountainous terrain, are beyond state control.^[zapatistas]  Need something that substitues for strong third party.
+
+Formal institutions work by enforcing agreements so that we can trust people without knowing them.  They add large costs to defecting on our agreements, which helps everyone trust that agreements will be kept.  Legal frameworks and courts help people enter contracts, fishing/grazing agreements help resource managemnt (or other example of institution constraining selfish behavior) and strong states help groups adjudicate their disputes.  But when formal institutions cannot be present to create trust, less coercive informal institutions can do so.  Many types of institutions constrain behavior to help groups and individuals achieve more positive outcomes than they would achieve unconstrained [@ostrom].  Solving prisoner's dilemma, collective action problem, common pool resource problems.  Informal institutions function well -- small groups do not necessarily need legal contracts and formal laws.  Ellen Ostrom.
+
+In this paper we propose that intergroup trust can function as an institution that prevents conflict.  If each group _trusts_ that the other will fulfill their end of the agreement, they can bargain even in the absence of formal institutions that defection.  How to increase intergroup trust between groups in active conflict?  We further propose that intergroup contact can foster the intergroup trust necessary for conflicting groups to solve their disagreements without resorting to violence.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will reduce prejudice and the likelihood of violence by demystifying the outgroup, presenting the other group's perspective, and replacing imagined stereotypes with firsthand knowledge [@pettigrew2008does].
+
+Although research shows support for intergroup contact theory generally, its efficacy to prevent intergroup violence is an open question.  First, most research about intergroup contact uses correlational studies or lab experiments, both of which have methodological weaknesses.  Correlational studies cannot demonstrate causal effects, and results from lab experiments may not apply to real world conflicts, where groups compete for resources and share a history of intergroup violence.  Second, no prior studies of intergroup contact have involved groups engaged in active intergroup violence, and some studies suggest that intergroup contact in violent settings will be ineffective or even backfire [@paolini2010negative].  Negative experiences with outgroups increase prejudice, and the most prejudiced individuals are most likely to interpret intergroup contact negatively.  Despite a lack of evidence about the effects of intergroup contact in violent contexts, and the risks of contact going badly, peacebuilding organizations implement numerous intergroup contact interventions in violent contexts each year.  Though well-intentioned, these programs may do more harm than good.
+
+Some studies suggest that intergroup contact in violent settings will be ineffective or even backfire [@paolini2010negative].  Negative experiences with outgroups increase prejudice, and the most prejudiced individuals are most likely to interpret intergroup contact negatively.  Despite a lack of evidence about the effects of intergroup contact in violent contexts, and the risks of contact going badly, peacebuilding organizations implement numerous intergroup contact interventions in violent contexts each year.  Though well-intentioned, these programs may do more harm than good.
+
+Nigeria's Middlebelt is currently embroiled in intergroup conflict.  As Nigeria's population expands and arable land recedes, economic imperatives have pushed subsistence farmers and pastoralists into a deadly conflict.  The conflict has turned increasingly violent in recent years, causing an estimated 60,000 deaths [@obaji2016war], hundreds of thousands of internally displaced peoples [@icg2017herder; @daniel2018anti], $13 billion of lost economic productivity annually [@mcdougal2015effect], and greatly stresses Nigeria's economic and social infrastructure.  Beyond Nigeria, farmer-pastoralist conflict plagues numerous sub-Saharan African countries, where 60% of the world's estimated 50-100 million pastoralists live [@sheik1999health; @omar1992health].  This paper addresses the question of how to reduce conflict and promote peace between groups involved in such violent conflicts. 
+
+We conduct a field experiment with farmer and pastoralist communities Nigeria to determine if intergroup contact effectively reduces prejudice between groups in conflict.  We identified sites where farmer and pastoral groups had engaged in violent conflict within the previous twelve months.  We then randomly assigned some sites to receive a yearlong peacebuilding program based around intergroup contact called _Engaging Communities for Peace in Nigeria_ (ECPN).  The program structured intergroup contact to meet the four conditions that @allport1954prejudice theorized were necessary for intergroup contact to reduce prejudice: two groups (i) cooperating to achieve (ii) joint goals in (iii) an equal status context with (iv) the support of authorities.
+
+The results of this field experiment demonstrate that intergroup contact can effectively increase trust and physical security even in contexts of escalating intergroup violence and even when the groups compete for scarce resources.  The results also show that contact for a relatively small percentage of a group can affect attitudes of group members with no exogenous increase in contact with the outgroup.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe smaller diffusion effects to group members who were not involved in the intergroup contact intervention.
+
+The results suggest that intergroup contact reduced intergroup conflict by increasing intergroup trust.  We do not find evidence for alternative mechanisms through which intergroup contact could reduce intergroup violence.  Perceptions of outgroup threat did not decrease.  The results suggest that intergroup trust can function can function as a social institution that allows groups to reach negotiated solutions otherwise unavailable to them.  These results also show that informal, naturally forming social institutions can solve prisoner's dilemmas that cause violent group conflict. <!--Chris: connect more to institutions -->
+
+In the next section we describe the ways in which intergroup contact could reduce intergroup violence.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  We then present the results of the study.  We conclude by connecting these findings to theories of group conflict and prejudice.
+
+<!--From APSR paper: The next
+section summarizes the predictions of the most prominent
+theories of intergroup contact and conflict for the
+present context. After describing the survey sample and
+measures, the main results, and the mechanism tests,we
+return to further exploring the implications of our
+findings for our theoretical understanding of the drivers
+of exclusionary reactions. -->
+
+
+[^zapatistas]: Rebel movements sustain when they do not trust the government.  For example, the Zapatistas in Morelos during the Mexican Revolution were promised what they wanted multiple times (Madero, Carranza) but did not put down their arms until the offer was made by a leader they could trust, Obregon.
+
+
+
+
+
+# Old
+
+Does intergroup contact reduce prejudice and conflict in contexts of intergroup violence?  Peacebuilding organizations often implement direct intergroup contact interventions to reduce real-world conflict between groups, and these real-world conflicts are defined by active violence and resource competition.  Despite a plethora of research about intergroup contact and widespread use of intergroup contact programs to reduce violent conflict, we have almost no evidence about the effects of intergroup contact in violent contexts or where economic imperatives push groups apart.  Can intergroup contact overcome prejudice when the groups are engaged in violent conflict and compete over resources?
+
+Decades of research demonstrate that intergroup contact can reduce group-level prejudice in a variety of contexts and for a variety of groups.  Intergroup contact reduces prejudice towards different racial and ethnic groups [@katz1978race; @marmaros2006friendships; @burns2015interaction; @yablon2012we], different religious groups [@barnhardt2009near; @yablon2012we; @Scacco2016], women [@finseraas2016women], people with physical disabilities [@krahe2006disabled], gay people [@grutzeck1997effects], and immigrants [@finseraas2017does].  The effects of intergroup contact have been demonstrated in a variety of countries and using a variety of methodological approaches [@paluck2017contact; @pettigrew2006meta].  The efficacy of intergroup contact to reduce prejudice amidst violent conflict, however, is still an open question.  None of these studies involve groups in active conflict or groups competing for resources; few of these studies even involve adults beyond college age. <!--Clause about adults may be unnecessary and/or distracting.-->
+
+Active conflict and economic competition could prevent contact's positive effects, and may even cause contact to increase prejudice, because active conflict and economic competition give group members a material motivation for prejudice and hate.  In an active conflict, the groups have materially damaged each other; in economic competition, one group's gain is the other group's loss.  Both situations are common in conflicts worldwide, but scholars have yet to grapple with how these conditions affect intergroup contact or to test intergroup contact in these conditions.  Contact theory suggests that contact should work in these contexts, provided the contact itself is conducted under proper conditions.  If the contact allows group members to (i) cooperate towards (ii) common goals in (iii) an equal status context with (iv) the support of authorities, contact should reduce prejudice.  Intergroup contact, even when the groups are in conflict and competition, should provide experiences that reduce stereotypes about outgroup members [@allport1954prejudice; @gaertner2014reducing], reduce anxiety and uncertainty towards the outgroup [@lee2001mere; @page2008little; @paolini2004effects], and increase empathy towards the outgroup [@pettigrew2008does; @broockman2016durably].
+
+But will contact effectively reduce prejudice when the wider social context promotes it?  Other perspectives on intergroup prejudice, like realistic group conflict theory and psychological theories like motivated reasoning and cognitive dissonance, would not predict improved relations from intergroup contact in this context.  Intergroup contact does not change the underlying causes of prejudice -- competition over indivisible resources -- and so will not reduce prejudice [@campbell1965ethno].  Nor does intergroup contact change the history of violence that results from outgroup prejudice, feeds outgroup prejudice, and whose justification requires outgroup prejudice.  In violent contexts, any intergroup contact could increase prejudice because group members are motivated to interpret intergroup interactions negatively [@paolini2010negative; @klein1992motivated], and the cognitive dissonance generated from even positive intergroup contact may cause a backlash effect that increases prejudice [@gubler2011diss].
+
+Farmer-pastoralist conflict in Nigeria's Middlebelt is an ideal context to learn about the effect of intergroup contact on intergroup attitudes in a conflict environment.  As Nigeria's population expands and arable land recedes, economic imperatives have pushed subsistence farmers and pastoralists into a deadly conflict.  Though far more attention is paid towards Boko Haram in Nigeria's northeast, repercussions of farmer-pastoralist conflict in Nigeria's Middlebelt are just as significant.  The conflict has ravaged Nigeria's Middlebelt, a mostly rural region considered Nigeria's breadbasket and home to nearly 100 vibrant peoples and cultures.  Farmer-pastoralist violence in the Middlebelt has caused an estimated 60,000 deaths [@obaji2016war], hundreds of thousands of internally displaced peoples [@icg2017herder; @daniel2018anti], and $13 billion of lost economic productivity annually [@mcdougal2015effect], greatly stressing Nigeria's economic and social infrastructure.  Beyond Nigeria, farmer-pastoralist conflict plagues numerous sub-Saharan African countries, where 60% of the world's estimated 50-100 million pastoralists live [@sheik1999health; @omar1992health].  It's likely that farmer-pastoralist conflict will become an increasingly large problem as demographic, economic, and climatic trends continue to decrease land availability.
+
+We conduct a field experiment with farmer and pastoralist communities in two Nigerian states to determine if intergroup contact effectively reduces prejudice between groups in conflict.  We identified fifteen sites where farmer and pastoral groups had engaged in violent conflict within the previous twelve months.  We then randomly assigned ten of fifteen conflict sites to receive a yearlong peacebuilding program based around intergroup contact called _Engaging Communities for Peace in Nigeria_ (ECPN), with the other five sites serving as the control group.^[Based on the success of ECPN, Mercy Corps received further funding to implement the peacebuilding program in the control sites _after_ the final evaluation of ECPN was completed.  The control sites were not informed that they would receive a peacebuilding program during the evaluation.]  The program formed committees with equal numbers of farmers and pastoralists, including community leaders from both groups, and tasked them with constructing two infrastructure projects that would benefit both communities: (1) a borehole to increase access to potable water and (2) a project of their choosing, such as a primary health center, a school, or an expanded market building.  The program structured intergroup contact via committees to meet the four conditions that @allport1954prejudice theorized were necessary for intergroup contact to reduce prejudice: two groups (i) cooperating to achieve (ii) joint goals in (iii) an equal status context with (iv) the support of authorities.
+
+The results of this field experiment demonstrate that intergroup contact can effectively reduce prejudice even in contexts of escalating intergroup violence and even when the groups compete for scarce resources.  Whereas contact in control communities evaporated as the conflict escalated, treatment communities maintained contact in the face of the same conflict escalation.  Treatment communities also increased trust in the outgroup and perceptions of physical security relative to the control group.  The results also show that contact for a relatively small percentage of a group can affect attitudes of group members with no exogenous increase in contact with the outgroup.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe smaller diffusion effects to group members who were not involved in the intergroup contact intervention.
+
+In this article, we begin by reviewing the literature on intergroup prejudice, focusing on the theory of intergroup contact and highlighting conditions under which contact may be ineffective at reducing prejudice.  We then discuss what farmer-pastoralist conflict can teach us about intergroup contact, describe our experimental intervention and two designs to evaluate the effect of the intervention, and present the results of the study.  We conclude by connecting these findings to theories of group prejudice.
+
+
+*******
+
+
+
+
+# General intro outline
+
+Intro stating something is problem or puzzle
+
+Paragraphs on problem.
+
+Paragaphs on other relevant work.
+
+Puzzle.
+
+Theory.
+
+Method/design.
+
+Results
+
+Implications.  More on implications.
+
+Roadmap.
+
+# My intro Outline
+
+Discuss intergroup violence as one of most pressing world problems. **OR** Discuss situation in Nigeria and broader context of farmer-pastoralist violence, intergroup violence. Then: more about why the topic is important.  **2-3 para** 
+
+Intergroup violence "cured" by intergroup contact.  Successful often.  Overcome comittment problem. **1 para**
+
+Intergroup violence as a type of bargaining problem (IR).  Committment problem.  Intergroup contact might reduce prejudice in non-conflict settings, but it does nothing to change the underlying environment that cause conflict and prejudice.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving].  Intergroup contact tested in settings where conflict/violence not already occurring, and where drivers of conflict not present.   **2-3 para** <!--solve peace without coercive actor -->
+
+My question.  Then my argument/my theory.  Contact can contribute to peace in violent areas.  Comittment problem is a trust problem.  Expand ingroup, reduce threat felt, increase affective feelings.  Increase trust that other side _wants_ to abide by agreement/comittment (and will police itself?).  Increase perceptions of the benefit of working together.  Prevent small disputes from becoming more violent. **1-2 para** 
+
+Test intergroup contact in conflict environment.  Describe context, highlighting how these conditions are when the pessimist camp says conflict endures.  Field experiment.  Helps me overcome self-selection issue from observational studies, external validtiy issue from experimental studies.  Fidelity to Allport's conditions.   **1-2 para**
+
+Results, framed in optimist vs pessimist camp terms. Contact worked to affect outcomes.  Some spillover to nonparticipants.  Ingroup policing anecdote? **1 para**
+
+Implications.  Tie back to optimist and pessimist camp strongly.  **1-2 para**
+
+Roadmap. **1 para**
+
+<!--10-14 para.-->
+*********
+
+
+# Camps
+
+## Pessimist camp
+
+Conflict is the result of bargainging failures/comittment problems.
+
+Intergroup contact does not, however, change the underlying environment that caused this conflict.  Contact can increase empathy and reduce perceptions of threat, but cannot "transform conflicting interests into harmony" [@kertzer2018empathy; @axelrod1985achieving].
+
+"Sassenrath, Hodges and Pfattheicher (2016) argue that taking the perspective of a threatening target can lead to more negative evaluations; Tarrant, Calitri andWeston (2012) show this effect is especially likely among high ingroup identifiers" [@kertzer2018empathy]
+
+"In situations where conflicts of interest exist, or actors have negative stereotypes about one another — in other words, the very conditions where IR scholars usually claim strategic empathy is most needed — perspective-taking can exacerbate competition rather than induce cooperation." [@kertzer2018empathy].  My summary of Kertzer: Perspetive-taking without increased affect/liking can make conflict worse.
+
+Groups cannot committ to a bargaining solution if the strategic situation is unstable.  If they agree to a fair deal at t0, and the situation changes at t1, then one group has an incentive to defect and get a better deal [@fearon1994ethnic; @powell2006war].
+
+
+
+## Optimist Camp
+
+"Drawing mental inferences about dissimilar or unfamiliar targets can therefore induce us to rely on stereotypes (Ames, 2004)" [@kertzer2018empathy].  Contact makes the target of mental inference familiar and reduces reliance on negative stereotypes.
+
+
+
+
+<!--
+# my abstract
+## Abstract
+
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common "rationalist" explanation for conflict says intergroup violence is a commitment problem that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This explanation would predict that intergroup contact will not affect intergroup conflict or prejudice because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+-->
