@@ -16,31 +16,33 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Abstract
+# Abstract
 
-### Abstract 3
-
-Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict is often characterized as a bargaining failure<!--Prisoner's Dilemma?-->.  Both groups would benefit from compromise, but negotiations break down and conflict ensues because neither group trusts the other to abide by their agreements.  The proposed solutions are coercive institutions that prevent groups from defecting on bargained agreements.  However, coercive power cannot reach many group conflicts.  We propose intergroup contact as an alternative to coercive institutions.  Coercive institutions substitute for intergroup trust, but intergroup contact can foster intergroup trust directly by creating situations in which groups can signal their trustworthiness.  Intergroup trust allows groups to bargain even in the absence of coercive institutions.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and physical security.  We do not find evidence for alternative mechanisms through which intergroup contact could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that intergroup trust via intergroup contact can serve as social institution that solves commitment problems and promotes peace between groups in conflict. <!--Chris: maybe remove "serve as a social institutions that solves commitment problems" -->
-
-<!--intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.-->
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict often mitigated by factors outside the conflict, like foreign military intervention (peacekeepers), foreign mediation, or 3rd party that enforces bargaining agreements.  However, outside factors are expensive, time-consuming, and cannot influence many intergroup conflicts.  We propose psychological reconciliation through intergroup contact as an alternative to outside factors.  Groups in conflict develop negative attitudes about the other group that make peace impossible.  Outside groups often serve as substitutes for positive intergroup attitudes, but psychological reconciliation could improve intergroup attitudes directly.  Improved intergroup attitudes should allow the conflicting groups to settle disputes even in the absence of outside actors.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and the physical security of group members.  We do not find evidence for alternative mechanisms through which psychological reconciliation could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
 
 
+<!--
 *******
-I would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Jim Kuklinski, Jake Bowers, and Dave Zhao for their invaluable comments on this work.  I would also like to thank the Mercy Corps Nigeria team and the communities and community members that participated in the study.
+We would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Jim Kuklinski, Jake Bowers, and Dave Zhao for their invaluable comments on this work.  We would also like to thank the Mercy Corps Nigeria team and the communities and community members that participated in the study.
+-->
 
 
+
+<!--
 # Thinking
 
 Big framing points:
 
 - Contact theory can be effective at reducing real world conflict.
 - Contact increases intergroup trust, which allows groups to bargain even in the absence of external costs of breaking agreements.
-
+-->
 <!--
 - Contact theory can be effective even if economic incentives opposed and amidst escalating conflict.
 - Intergroup contact helps increase trust and help groups overcome bargaining/comittment problems
 - Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 -->
+
+<!--
 https://en.wikipedia.org/wiki/Bargaining_model_of_war
 
 ## Title
@@ -89,6 +91,59 @@ Can intergroup contact contribute to peace between groups involved in violent co
 ## Pitch 3 old abstract
 
 Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict formulates intergroup violence is a prisoner's dilemma that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or trust because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+## Abstract 3
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict is often characterized as a bargaining failure.  Both groups would benefit from compromise, but negotiations break down and conflict ensues because neither group trusts the other to abide by their agreements.  The proposed solutions are coercive institutions that prevent groups from defecting on bargained agreements.  However, coercive power cannot reach many group conflicts.  We propose intergroup contact as an alternative to coercive institutions.  Coercive institutions substitute for intergroup trust, but intergroup contact can foster intergroup trust directly by creating situations in which groups can signal their trustworthiness.  Intergroup trust allows groups to bargain even in the absence of coercive institutions.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and physical security.  We do not find evidence for alternative mechanisms through which intergroup contact could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that intergroup trust via intergroup contact can serve as social institution that solves commitment problems and promotes peace between groups in conflict. <!--Chris: maybe remove "serve as a social institutions that solves commitment problems" -->
+
+<!--intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******
+
+## Thinking from Alice Presentation
+
+chris: In intro, need ot talk about hustory of conflict reduction, contact theory.  
+
+Intro
+
+Conflict Reduction
+
+Conflict reduction: want to reduce/resolve conflict with institutions/other things.  Once conflict starts, peacekeeping, police, etc... but that is expensive.  Requires coercion.  Requires outside actors.  Requires strong states, which are not present in many parts of the world with intergroup conflict.  When imposed solutions leave (like peacekeepers, imposed/coercive institutions) the groups go back to fighting.  Need grassroots solution (Ostrom on imposed norms).
+
+- Institutions 
+- Intergroup bargaining processes [@fearon; @powell](Smith and Stam 2004)
+- Mutually Assured Destruction.
+- increased trade relationships
+- making resources less scarce
+
+Propose intergroup contact as another potential solution to intergroup conflict.
+
+
+Contact Theory
+Contact theory: used to reduce prejudice, starting with african-americans and caucasians in USA, movign to other groups.  Want to use it to stop conflict.
+
+
+Theory
+
+Would think ECPN would not work because ECPN does not employ institutions to prevent conflict, intervene through mediation, directly affect the bargaining process or intergroup trade relationships, or change the scarcity of the resources the groups fight over.
+
+Would think ECPN would work because it uses intergroup contact, increased resources.  Intergroup contact could affect trust, which could improve bargaining and trade relationships.
+
+*************
 
 # Other abstracts on topic
 

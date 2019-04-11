@@ -1,0 +1,108 @@
+---
+title: "Promoting Peace Amid Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria - Overall Outline"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict often mitigated by groups outside the conflict, like foreign military intervention (peacekeepers), foreign mediation, or 3rd party that enforces bargaining agreements.  However, intervention by outside groups is costly, time-consuming, cannot influence many intergroup conflicts, and not universally successful at reducing violence.  We propose psychological reconciliation through intergroup contact as an alternative to outside factors.  Groups in conflict develop negative attitudes about the other group that make peace impossible.  Outside groups often serve as substitutes for positive intergroup attitudes, but psychological reconciliation could improve intergroup attitudes directly.  Improved intergroup attitudes should allow the conflicting groups to settle disputes even in the absence of outside actors.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and the physical security of group members.  We do not find evidence for alternative mechanisms through which psychological reconciliation could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
+
+
+# Intro
+
+Story about burnt down village
+
+Story about village defending pastoralists
+
+What accounts for the difference?  To prevent this type of intergroup conflict, international community or strong state actors usually intervenes.  Those type of interventions not always successful, not always possible for that type of intervention.
+
+A different approach is grassroots psychological reconciliation based on intergroup contact.  Groups in conflict often hold strong negative attitudes that make peace difficult.  Psych reconciliation can improve intergroup attitudes.  Improving intergroup attitudes can help reduce conflict.
+
+Say what we did in context of farmer-pastoralist conflict.  Some context, some intervention design, some evaluation.
+
+Say what we found.  It seems primarily through intergroup contact.  
+
+Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).
+
+(2) intergroup contact theory, 
+
+(3) social institutions constraining behavior, 
+
+(4) peacebuilding programs and CDD, 
+
+(5) spillover of effects and social norms/vicarious learning.
+
+# Theory
+
+Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  3rd parties (peacekeepers, states) solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem.
+
+Not always feasible to do these things, and these things don't always work.  Say why: costly, biased mediators, no state to project power, etc.
+
+Talk about psychological challenges to resolving conflict.  Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.
+
+Psychological reconciliation, intergroup contact.  Define what it is, when it should work.
+
+## Psych Reconciliation not working (orthodox view/pessimist group)
+
+- Many reasons contact may not work in this context
+    - Intergroup conflict as commitment problem [@fearon1994ethnic; @powell2006war]; contact is not an institution that can enforce commitments
+    - Competition for resources [@campbell1965ethno; @Sherif1988robbersCave]
+    - Psychological reconciliation can prevent resumption of conflict but requires conflict to already be resolved  [@bar2000intractable]
+\pause
+\bigskip
+    - Active conflict produces many grievances and high prejudice; cognitive dissonance causes backlash for the most prejudiced people [@festinger1962cognitiveDissonance; @gubler2011diss]
+    - Negative contact experiences reinforce negative stereotypes [@paolini2010negative]
+    - Motivated reasoning for attitudes towards others [@klein1992motivated]
+    - Few norms against prejudice <!--Extent that contact activates "norms against prejudice", no good here. -->
+
+## Psych reconciliaiton could work
+
+Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.
+
+Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness.
+
+Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
+
+Could increase empathy.  Seeing the other side's argument, seeing their motivations.
+
+Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
+
+# Context
+
+Conflict bad.  State cannot project power.  No mediators, biased.  Farmer-pastoralist conflict on rise.
+
+# Intervention and Experimental Design
+
+- The NGO Mercy Corps implemented a peacebuilding program called Engaging Communities for Peace in Nigeria (ECPN) from 2015-2018
+- Sites with (1) farmer-pastoralist conflict and (2) leaders who wanted assistance in reducing the conflict 
+- Program engages farmers and pastoralists to work together on projects that benefit both communities
+- Each implementation site runs two "conflict forums" where communities discuss grievances
+
+
+- Randomly assign 10/15 implementation sites to receive the program
+- \sout{Randomly assign 50 individuals in each community to participate or not participate in project committees}
+- Individuals effectively self-selected into participation or nonparticipation
+- Three groups: (1) Participants, (2) Nonparticipants, (3) Control
+
+- Track communities and individuals over time
+- Baseline: Randomly select ~50 people per community for the survey
+- Endline: (1) Randomly select ~50 people per community for the community-level survey, (2) randomly select 10 respondents from the baseline survey per community for the individual-level survey.
+
+# Results
+
+
+# Discussion
+
