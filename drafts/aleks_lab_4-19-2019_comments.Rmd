@@ -1,0 +1,70 @@
+---
+title: "ecpn paper"
+author: "Grady"
+date: "April 19, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ECPN Framing
+
+- clear when there is conflict, a way to mitigate it is a psychological approach/psych reconciliation.
+- Psychological part weak in introduction.
+    - might be too theory in the intro if added.
+- gus comment: depending on rest of paper, if plan to have more detailed theor section, intro can be shorter.  People care about conflict, people think aobut reducing conflict in this way, intergroup contact could do it, let's test it experimentally.
+
+- rebeca: flows well, but still sees it as intergroup contact.  program came out of nowhere and she thought it was maybe an intervention/program evaluationn paper?
+
+- aleks: 
+    - stylistic point: nice job framing and explaining what it's about.  but if gonna use this format of long intro, need more signposting (in transitions between paragraphs).  Contact theory stuff does not come up until several pages in so need to signal it earlier.  In general, do that.
+    - substantiveish point: depends on who your aidence is and who to strategically cite.  One way to link it back to super early studies like Robber's Cave.  Not just abotu contact, about type of contact.  Superordinate goals.  Whole stream of literature on superordinate goals from Robbers Cave ---> decades of social psych.  Trace that line about _this specific type of itnergroup contact intervention_.  We would expect it to work and would expect it to work in these ways.  
+        - Maybe add some of this to 3rd paragraph.  Make sure the questions there are ONLY the questions I am actually talking about.  
+        - can fit RGCT into the contac ttheory seciton.
+
+- Seyoung: More interesting than when heard about it before.  Used to be based on intergroup contact theory, but had a hard time connecting it.  This does a good job placing it in this particular context.  Not that experiment proves that contact theory works, being more nuanced and specific about why the program would work.  Good to discuss the implication of not every group getting contact and future work scaling this up.
+    - on that note: being more explicit about (1) superordinate goals and tasks.  Maybe reasons this works in the context is that the conflict is about resources, and the project is about gaining resources.  If conflict was over ideology or identity, it might not work.  Maybe wouldn't work if the conflict was about something different.  SO more discussion of gaining resources in intervention.
+            - can be a point that the program should resolve the conflict.  resources for resources. t aling for ideology.
+    - Liked how talked about intervention being timely (during conflict, not too late) and coming quickly.  Maybe can talk more about interventions that are not timely/coming in good time.
+          - get the confclit before it becomes big.  MOre signposting for people: contact for some people, and it willa ffect the most violent people who cannot e part of contact through diffusion.
+    - Interventions backfiring good ot talk about: can say more about why this wouldn't backfire in the future.
+    - Type of violence and scale of violence probably matters a lot.  __Boundary conditions__ for this kind of thing working.  What about other types of violence.
+        - chris: under some conditions this works (smaller scale?), and those are the conditions where we would not use peacekeeping?
+    - In IR specifically, CONFLICT vs VIOLENT.  Nonviolent conflict.  What is the right word jargon wise?
+
+
+- Rebeca: 
+    - (1): Timely thing -- conflict has been escalating, can we actually show less conflict.  **Crap, no**
+    - (2): liked the social norms implication.  More signposting that the social norm stuff will be brought up int he theory.
+          - the social norm implication: it's not exactly social norms.  A lot being assumed there.  _Spillover would be more immediate, social norm would have to be changing something._  Could it spread to other groups or attitudes?
+        - what about if no NGO is intervening?  __this could happen naturally but les likely__
+    - intro not clear it's a program location.
+    - implication 1 and 2 are super similar.
+
+
+- Gus meta question: what doe sthis paper do for me?
+
+- Rebeca: 
+    - (1): social norms again.  Measure of whether people approve or disapprove of violence against the other group.
+    - __chris__: maybe talk about social diffucion, and in DISCUSSION bring it back to sical norms and social institutions.  But we don't test it, for other peopel to test it.
+
+- ALeks: What's the big picture point?  See what effect this has, and how can we make processes like this arise endogenously?  Or is this a simulation of a process that could arise endogenously within a communityt?  OR is this about "how can you make things like this happen exogenously?  Even if it doesn;t happen endogenously in most places."  It can be all, but need to have one you focus.  Be clear about the goal.  __Chris__: need to make this more clear throughout paper.
+    - hyo won: in abstract more clear that it's about the intervention.
+
+- seyoung: back to title, about using the word conflict.  Maybe set it as communal conflict?
+    - aleks: want to get the people who will be most invested in the paper.  Maybe use civil conflict.
+
+
+# Take aways
+
+- more signposting of psych things in 3rd paragraph, fewer questions, only questions I answer.
+    - intergroup contact, social spillover, superordinate goals.  Psych literature.  
+- more acknowledgement of superordinate goals.  This specific type of contact intervention.
+- add violence experienced by individuals
+- work on implications at end:
+    - less social norm in intro, more about social diffusion.  Then social norms/social institutions at the end.  Because not testing it, just doing somethign that _might_ create a norm.
+- maintain big picture point on exogenous shock to reduce conflict.
+- boundary conditions: talking about a specific type of conflict and contact.  Intercommunal/intergroup and not between large states.  Contact tailored for the conflict, so increases resources.
+    - a type of conflict that peacekeeping/mediation would not be good for.  Get the conflict before it gets to that level.

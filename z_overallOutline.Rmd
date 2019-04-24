@@ -23,9 +23,11 @@ Intergroup conflict is responsible for many of the worst displays of human natur
 
 # Intro
 
+<!--Start concrete with a story so people really understand.  Then zoom out for generalizing/abstraction about conflict and a theory we have about it, then zoom in again on the particular conflict in Nigeria and then zoom out again with what we can learn from it. -->
+
 Story about burnt down village
 
-Story about village defending pastoralists
+Story about village defending pastoralists.  Making conflict and contact concrete.
 
 What accounts for the difference?  To prevent this type of intergroup conflict, international community or strong state actors usually intervenes.  Those type of interventions not always successful, not always possible for that type of intervention.
 
@@ -55,7 +57,7 @@ Typical solutions strive to solve intergroup bargaining problem.  Information an
 
 Not always feasible to do these things, and these things don't always work.  Say why: costly, biased mediators, no state to project power, etc.
 
-Talk about psychological challenges to resolving conflict.  Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.
+Talk about psychological challenges to resolving conflict.  Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.
 
 Psychological reconciliation, intergroup contact.  Define what it is, when it should work.
 
@@ -63,7 +65,7 @@ Psychological reconciliation, intergroup contact.  Define what it is, when it sh
 
 - Many reasons contact may not work in this context
     - Intergroup conflict as commitment problem [@fearon1994ethnic; @powell2006war]; contact is not an institution that can enforce commitments
-    - Competition for resources [@campbell1965ethno; @Sherif1988robbersCave]
+    - Competition for resources [@campbell1965ethno; @Sherif1988robbersCave].  Psych Reconciliation does not change the underlying cause of conflict.
     - Psychological reconciliation can prevent resumption of conflict but requires conflict to already be resolved  [@bar2000intractable]
 \pause
 \bigskip
@@ -74,7 +76,7 @@ Psychological reconciliation, intergroup contact.  Define what it is, when it sh
 
 ## Psych reconciliaiton could work
 
-Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).
+Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup censuring [@ditlmann2017addressing; @Fearon1996]
 
 Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.
 
@@ -89,6 +91,8 @@ Chris: in ECPN program, groups work together to gain more material resources, im
 # Context
 
 Conflict bad.  State cannot project power.  No mediators, biased.  Farmer-pastoralist conflict on rise.
+
+"the specific original grievance is forgotten and replaced by general animus toward the other group..  The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze]
 
 # Intervention and Experimental Design
 
@@ -112,3 +116,6 @@ Conflict bad.  State cannot project power.  No mediators, biased.  Farmer-pastor
 
 # Discussion
 
+Future: mechanisms and ways to scale up.  Mechanisms could be many things.  Ways to scale up: cannot have every group in conflict meet.  Scale up with contact between key actors that could diffuse the positive effects of contact & change social norms.  Media programs and observational/vicarious contact.
+
+Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].

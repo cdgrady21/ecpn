@@ -1,5 +1,5 @@
 ---
-title: "Promoting Peace Amidst Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria - Introduction"
+title: "Promoting Peace Amidst Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -13,10 +13,10 @@ output:
     pandoc_args:
     - -M
     - secPrefix=\S
-    template: ../utils/bowersarticletemplate.latex
+    template: bowersarticletemplate.latex
   word_document: default
-csl: ../utils/american-political-science-review.csl
-bibliography: ../utils/cdg_references.bib
+csl: american-political-science-review.csl
+bibliography: cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -49,29 +49,19 @@ options(SweaveHooks=list(fig=function(){
 ```
 
 
-# Thinking
+\begin{abstract}
+
+Intergroup conflict has caused millions of deaths in recent decades.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict often mitigated by international intervention, like foreign military intervention (or peacekeepers) and dispute mediation.  However, international intervention is not always effective at reducing intergroup conflicts.  We propose psychological reconciliation through intergroup contact as an alternative to large-scale international intervention.  Groups in conflict develop negative attitudes about the other group that make peace impossible.  Outside intervention often serve as substitutes for positive intergroup attitudes, but psychological reconciliation could improve intergroup attitudes directly.  Improved intergroup attitudes should allow the conflicting groups to settle disputes even in the absence of outside intervention.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and the physical security of group members.  We do not find evidence for alternative mechanisms through which psychological reconciliation could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
+
+\end{abstract}
 
 
-**Intro**
-
-Need to explain why I am doing things more than tell people details of what I am doing.  Only provide broad strokes for what I did.
-
-Field experiment papers often take a couple paragraphs talking about the field experiment, but I don't want to.
-
-Big framing points:
-
-- Psych reconciliation can be effective at reducing real world conflict.
-- Mechanism seems to be intergroup contact, which increases intergroup trust.  Trust has many positive consequences.
-
-*******
-
-## Introduction
+# Introduction
 
 <!--Story about burnt down village/bad outcomes-->
 Intergroup conflict is responsible for many of the worst displays of human nature.  In Nigeria, intergroup conflict between farmers and pastoralists has claimed countless lives and destroyed countless communities.  As the conflict escalated, groups of anti-pastoralist vigilantes mobilized to pre-emptively prevent pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", often ransacked pastoralist settlements and violently drove pastoralists from their homes.  Likewise, pastoralist groups often enacted vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists.  Raids such as these forced up to 180,000 people from their homes in 2018 [@daniel2018anti] and farmer-pastoralist conflict costs Nigeria $13 billion of lost economic productivity annually [@mcdougal2015effect] <!-- In both cases, neighbors often assisted as the other group was forced to flee their homes-->
 
 <!--Story about village defending pastoralists-->
-
 <!--Though farmer-pastoralist conflict was widespread, not all areas faced such dire consequences.--> Yet in one village, farmers and pastoralists defended each other.  When a group of livestock guard came for one pastoralist settlement, the neighboring farming village arrested them to protect the pastoralists.  After the arrest, farmers and pastoralists convened to decide what should be done with the prisoners.  They agreed that the group of livestock guard should not be punished, but should be disarmed and released home -- a proposition proposed by _the pastoralists_.  These farmers and pastoralists had also struggled with conflict, and people on both sides had died in disputes over farmland and grazing land.  But their disputes had not escalated to the point that each side wanted the other removed by any means necessary.  They had created structures that allowed them to settle disputes, and the same structures allowed them to reach a solution about the livestock guard.
 
 <!--What accounts for the difference?-->
@@ -84,13 +74,13 @@ Most literature and policy about peacebuilding and preventing intergroup conflic
 
 While international intervention has been successful in many contexts and conditions, several intergroup conflicts seem outside of these conditions.  International intervention is often unsuccessful -- @weinstein2005autonomous estimated that 75% of civil wars resume within 10 years of UN intervention.  Notably, international intervention failed to stop intergroup conflicts in DRC [@autesserre2010trouble], Somalia [@autesserre2019crisis], and Rwanda [@dallaire2009shake].  One reason for these failures is that international intervention is often more influenced by international norms about what strategies _should_ work than finding the strategies that are most likely to work in a given context [@paris2003peacekeeping].  But international intervention has also been criticized for not solving the underlying problems that cause conflict -- a band-aid when the conflict needs a doctor [@autesserre2019crisis].
 
-Even for contexts when international intervention would be successful, it is not always feasible or timely.  Before intervention can occur, the international community must agree on an appropriate intervention and make large comittments of forces and financing.  As a result, international intervention often comes late and costs billions of dollars.  Even if international intervention would successfully mediate many conflicts, intervention maybe too late and is unlikely to be applied unless preventing the conflict is an international priority.
+Even for contexts when international intervention would be successful, it is not always feasible or timely.  Before intervention can occur, the international community must agree on an appropriate intervention and make large commitments of forces and financing.  As a result, international intervention often comes late and costs billions of dollars.  Even if international intervention would successfully mediate many conflicts, intervention maybe too late and is unlikely to be applied unless preventing the conflict is an international priority.
 
 <!--A different approach is grassroots psychological reconciliation based on intergroup contact.  Groups in conflict often hold strong negative attitudes that make peace difficult.  Psych reconciliation can improve intergroup attitudes.  Improving intergroup attitudes can help reduce conflict.
 
 chris: need to add more than just contact theory stuff because ECPN has more.  And other lit (@ditlmann2017addressing) talks about programs using a variety of approaches.-->
 
-While most attempts to reduce violent conflict between groups are top-down, scholars and practicioners have called for more consideration of bottom-up strategies [@autesserre2017international; @ditlmann2017addressing; @safunu2012grassroots].  Botom-up strategies focus on engaging local actors and assisting them in reducing group conflict.  Conflicts at local levels are often driven and perpetuated by intergroup animosity long after the original grievance is forgotten [@mcdonnel2017graze; cite more about intergroup animosity].  The intergroup animosity and strongly negative attitudes can be an insurmountable barrier to peace.  Individuals often motivatedly reason to rationalize their beliefs, which leads to biased processing of information about outgroup members' behavior -- behavior by outgroup members may be perceived as more threatening and more malicious than the same behavior comitted by a neutral party [cite fundamental attribution error, motivated reasoning].  This biased information processing reinforces negative group stereotypes and can subvert the groups' own attempts to foster peace.  It can also sabotage intergroup bargaining by causing the groups to have incorrect beliefs about each other, adding to information and comittment problems that cause conflict.  Bottom-up strategies that help reduce group prejudice could help the groups achieve peace without the large-scale international intervention efforts most commonly used to build peace.
+While most attempts to reduce violent conflict between groups are top-down, scholars and practitioners have called for more consideration of bottom-up strategies [@autesserre2017international; @ditlmann2017addressing; @safunu2012grassroots].  Bottom-up strategies focus on engaging local actors and assisting them in reducing group conflict.  Conflicts at local levels are often driven and perpetuated by intergroup animosity long after the original grievance is forgotten [@mcdonnel2017graze; cite more about intergroup animosity].  The intergroup animosity and strongly negative attitudes can be an insurmountable barrier to peace.  Individuals often motivatedly reason to rationalize their beliefs, which leads to biased processing of information about outgroup members' behavior -- behavior by outgroup members may be perceived as more threatening and more malicious than the same behavior committed by a neutral party [cite fundamental attribution error, motivated reasoning].  This biased information processing reinforces negative group stereotypes and can subvert the groups' own attempts to foster peace.  It can also sabotage intergroup bargaining by causing the groups to have incorrect beliefs about each other, adding to information and commitment problems that cause conflict.  Bottom-up strategies that help reduce group prejudice could help the groups achieve peace without the large-scale international intervention efforts most commonly used to build peace.
 
 One of the most promising approaches to reducing intergroup prejudice and violence comes from intergroup contact theory.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will reduce prejudice and the likelihood of violence.  Intergroup contact works by demystifying the outgroup, presenting the other group's perspective, and replacing imagined stereotypes with firsthand knowledge [@pettigrew2008does].  <!--chris: next sentence on chopping block.-->  The prejudice-reducing effects of intergroup contact have been demonstrated in a variety of countries and using a variety of methodological approaches [@paluck2017contact; @pettigrew2006meta].  Notably, intergroup contacted programs reduced prejudice between whites and blacks in the U.S. and South Africa [@marmaros2006friendships; @burns2015interaction], Jews and Arabs [@yablon2012we; @ditlmann2016can], Muslims and Christians [@Scacco2016], and Hindus and Muslims [@barnhardt2009near].  Peacebuilding programs utilizing intergroup contact and other activities are increasing used to reduce intergroup conflict by peacebuilding organizations [@ditlmann2017addressing].
 
@@ -106,7 +96,7 @@ To study the effect of grassroots interventions on violent conflict, we conduct 
 
 We find that the program assisted the groups in reducing their conflict.  Compared to the control group, the treatment group increased intergroup contact, trust between the groups, and physical security of the group members.  We find no evidence that the program reduced outgroup threat or caused the groups to expand their conception of "ingroup" to include the other side, two prominent mechanisms for how intergroup contact reduces prejudice.  The results also suggests that intergroup contact for a relatively small percentage of a group can affect attitudes of group members with no exogenous increase in contact with the outgroup.  At the individual-level, we observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe positive changes in the intergroup trust and physical security of group members who were not involved in the intergroup contact intervention.
 
-<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->-->
+<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->
 
 This study expands our knowledge about intergroup conflict in several ways.  First, to our knowledge this is the first field experimental test of a grassroots peacebuilding program implemented by a peacebuilding organization during an active conflict.  We evaluated the program's effects on both attitudinal and behavioral outcomes.  The results suggest that grassroots peacebuilding programs can effectively reduce conflict and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
 
@@ -114,9 +104,9 @@ This study expands our knowledge about intergroup conflict in several ways.  Fir
 
 Second, this study is one of the only field experimental interventions to test intergroup contact theory with groups actively engaged in violence.  Each of the groups in our study were part of an active and escalating conflict, with members of each side being killed within one year of the intervention's onset.  Even in such a context, community members who engaged in direct interpersonal interaction with an outgroup member changed more positively than other community members.
 
-<!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->-->
+<!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->
 
-Third, we contribute to the literature about the role of social norms and social institutions in shaping attitudes and behaviors.  Bottom-up peacebuilding interentions seek to provide a structure in which groups can solve their own conflicts, and those structures are social rather than coercive.  Understanding how those structures form and are maintained is relevant to other institutional setups attempting to influence behavior.  In this study, though the greatest changes in attitudes and behaviors were from individuals directly interacting with outgroup members, the attitudes of other community members also improved.  This type of "social effcet" is also a potential way to "scale up" the effects of intergroup contact.
+Third, we contribute to the literature about the role of social norms and social institutions in shaping attitudes and behaviors.  Bottom-up peacebuilding interventions seek to provide a structure in which groups can solve their own conflicts, and those structures are social rather than coercive.  Understanding how those structures form and are maintained is relevant to other institutional setups attempting to influence behavior.  In this study, though the greatest changes in attitudes and behaviors were from individuals directly interacting with outgroup members, the attitudes of other community members also improved.  This type of "social effect" is also a potential way to "scale up" the effects of intergroup contact.
 
 <!--Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
 
@@ -125,6 +115,8 @@ Future work should further investigate mechanisms through which grassroots strat
 <!--Roadmap.-->
 
 In the next section we provide a theoretical framework for how and why grassroots interventions, especially those based on intergroup contact, can reduce intergroup violence.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  Last we present the results of the study and conclude by connecting these findings to theories of group conflict and prejudice.
+
+# References
 
 <!--
 ## Old

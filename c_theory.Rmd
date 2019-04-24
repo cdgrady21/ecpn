@@ -16,6 +16,79 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Theory
+
+<!--Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  3rd parties (peacekeepers, states) solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem. -->
+
+Most solutions to reducing intergroup conflict strive to help the groups overcome bargaining problems.  Because fighting is costly, the groups _should_ be able to reach a bargained compromise without fighting.  However, two bargaining problem prevent this: information problems and comittment problems.  Information problem: neither groups have accurate information about the other, and both groups have an incentive to deceive the other.  Comittment problem: neither group can commit to agreements because situation changes.  One group may disarm before the other, external actors may switch allegiances [chris: need to find cites for things and add more here].  Both groups know that the other group cannot commit to agreements.  Cannot even begin to bargain.
+
+Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome the information problem through fighting, as they learn about each other's capacity [@smith2003mediation].  Groups can also overcome the information problem through mediation.  A third party with no stake in the conflict can provide accurate information to both sides.
+
+Even if groups overcome the information problem, they may have a comittment problem.  Groups can overcome the comittment problem through strong third parties that add large costs to reneging on agreements [@fearon1998comittment; @powell2006war].  Though each group may have an incentive to defect on their agreement based on future changes in the strategic environment, the groups are convinced to bargain by the presence of a strong third party that is both capable and willing to punish defection.  Since each group trusts that the other side will abide by its word, they can reach an agreement.  Peacekeepers and the international community often fill the role of strong third party.
+
+
+<!--Not always feasible to do these things, and these things don't always work.  Say why: costly, biased mediators, no state to project power, etc. -->
+
+If we know about solutions to intergroup conflict, why does it persist?  Mediation can only help solve the information problem if the mediators themselves are unbiased.  Mediators, by their very nature, are biased towards peace.  Since both groups know that, mediators may not be effective at reducing information problems [@smith2003mediation].
+
+International intervention to guarantee bargained agreements is costly.  For international disputes, there is often no 3rd party strong and willing enough to compel both sides.  For disputes within a country, the state often lacks the capability to compel both sides.  International intervention is generally only used _after_ fighting escalates; it does not prevent the fighting from escalating.  And it is too costly for the persistent, smaller-scale conflicts that plague many countries.
+
+
+<!--Talk about psychological challenges to resolving conflict.  Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.-->
+
+As an alternative to top-down international intervention to reduce conflict, bottom-up peacebuilding programs can reduce conflict by focusing on both the immediate economic concerns contributing to conflict and the psychological attitudes contributing to conflict.  Groups in conflict often develop attitudes that make peace difficult to attain.  The groups might think the other is untrustworthy and innately bad.  
+
+The negative attitudes exacerbate bargaining problems.  Both information and comittment problems are problems of trust.  Groups do not trust the information they get from the other group.  Groups do not trust the other group to abide by its agreements.
+
+These negative attitudes also change the calculus for bargaining.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.
+
+<!--Bottom-up Psychological reconciliation, intergroup contact.  Define what it is, when it should work.-->
+
+
+
+
+## Psych Reconciliation not working (orthodox view/pessimist group)
+
+<!--
+- Many reasons contact may not work in this context
+    - Intergroup conflict as commitment problem [@fearon1994ethnic; @powell2006war]; contact/intergroup is not a formal institution that can enforce commitments, not how we've thought of solving comittment problems.
+    - Competition for resources [@campbell1965ethno; @Sherif1988robbersCave].  Psych Reconciliation does not change the underlying cause of conflict.
+    - Psychological reconciliation can prevent resumption of conflict but requires conflict to already be resolved  [@bar2000intractable]
+\pause
+\bigskip
+    - Active conflict produces many grievances and high prejudice; cognitive dissonance causes backlash for the most prejudiced people [@festinger1962cognitiveDissonance; @gubler2011diss]
+    - Negative contact experiences reinforce negative stereotypes [@paolini2010negative]
+    - Motivated reasoning for attitudes towards others [@klein1992motivated]
+    - Few norms against prejudice.  Extent that contact activates "norms against prejudice", no good here. 
+    
+-->
+
+## Psych reconciliaiton could work
+
+<!--
+Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup censuring [@ditlmann2017addressing; @Fearon1996]-->
+
+<!--Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.-->
+
+Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
+
+Could increase empathy.  Seeing the other side's argument, seeing their motivations. Increase empathy/less prejudice helps interpret information in non-biased way. Chris: look for literature on empathy making me interpret information about other people more accurately.  Kertzer?
+
+Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
+
+Chris: in ECPN program, groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good.  Also role of leaders in mediating disputes (mediaiton training).
+
+
+
+
+
+
+
+
+
+
+
+
 # Thinking
 
 Big framing points:
@@ -100,7 +173,6 @@ Trust can increase a two ways.  Group _leaders_ increase trust that the leader w
 ^[Simplest way to think about the problem in game-theoretic terms: one player & one stage game where P1 can cooperate or defect.  P1 has a belief about the type of P2; P2 has some probability of being a complier, conditional complier, or defector.  P1s payoffs for c/d depend on P2 type.  And the intervention increases P1's belief that P2 is conditional complier.  More complicated way is akin to Fearon's comittment problem.  Maybe has P2 signal its type to P1.  Intergroup contact allows for strong signal to P1.]
 
 Negative contact increases prejudice more than positive contact decreases prejudice [@barlow2012contact]
-
 
 # Notes
 
