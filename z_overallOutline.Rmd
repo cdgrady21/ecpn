@@ -118,4 +118,11 @@ Conflict bad.  State cannot project power.  No mediators, biased.  Farmer-pastor
 
 Future: mechanisms and ways to scale up.  Mechanisms could be many things.  Ways to scale up: cannot have every group in conflict meet.  Scale up with contact between key actors that could diffuse the positive effects of contact & change social norms.  Media programs and observational/vicarious contact.
 
-Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
+Some mechanisms of intergrop contact theory clearly will not function here.  Reduced outgroup threat (("Sullivan, Pierson, & Marcus, 1982; Gibson, 2006). If citizens perceive or experience threat from an out-group, they are more likely to be intolerant toward that group)".  Ingroup expands to include outgroup -- no way.  Empathy yes.  Belief that working together will benefit us == yes.
+
+Other Mechanisms: assist intergroup bargaining with opportunities for costly signaling, increased trust.  Increase ingroup policing.  Increase social norms against intergroup violence.  Change interpsonal attitudes?
+
+<!--Scaling up with TV/radio -->
+An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
+
+Any attempt to scale-up intergroup contact relies on mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009 used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
