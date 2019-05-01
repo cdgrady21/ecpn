@@ -1,0 +1,30 @@
+---
+title: "Untitled"
+author: "Grady"
+date: "April 30, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Good draft of framing, got feedback from Charla, Aleks lab, getting feedback from reading group on May 8.  Will send to everyone then.
+
+Framing: example of good/bad villages, question of how they got to their outcomes, summarizing most literature on reducing intergroup conflict with foreign intervention, how that is not possible or will not work everywhere and for all types of conflicts, intergroup conflict before it blows up & persistent intergroup conflict that plagues many coutnries, psychological barriers to peace, intergroup contact as a method of removing the psychological barriers, brief description of context/design, brief desciription of results, implications of the study.
+
+Writing theory: most solutions to intergroup conflict are about helping the groups solve intergroup bargaining problems, define information and comittment problems, how the usual solutions of peacekeeping and mediation often do not help solve these problems, how intergroup prejudice makes those problems hard to solve (leaders constrained by group sentiment, biased interpretation of ingroup and outgroup actions, lack of social norms against fighting and lack of ingroup policing), how intergroup contact could solve those problems.  Need to spell out the pessimist argument about why this would not work  
+
+# talk with jake
+
+APSR worth a lot within PS.  take the time to let them review.  PNAS has super quick turnaround.  Do a pre-submission inquiry to science, nature behavior, PNAS.
+
+write down all your simmering ideas. evernote, onenote.  All the field expeirments, lab experiment, metaketa.
+
+Get as much of your dissertation done as possible.
+
+Don't let our reading group end.
+
+Nuffield College a 3 year long postdoc. Amazing behavioral lab in Nuffield, Chile, India.  EGAP postdoc. Nahomi might know about postdocs and African politics stuff. i will ask about postdoc landscape. devra mohler is at facebook -- all the ways social media can harm society. usaid democracy fellows.
