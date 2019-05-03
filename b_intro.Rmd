@@ -107,7 +107,7 @@ To study the effect of bottom-up psychological interventions on violent conflict
 
 We find that the program assisted the groups in reducing their conflict.  Compared to the control group, the treatment group increased intergroup contact and trust between the groups, and reduced physical violence and insecurity experienced by group members.  We find no evidence that the program reduced outgroup threat or caused the groups to expand their conception of "ingroup" to include the other side, two prominent mechanisms for how intergroup contact reduces prejudice.  The results also suggests that intergroup contact for a relatively small percentage of a group can indirectly affect attitudes of group members with no exogenous increase in contact with the outgroup.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe positive spillover to group members who were not involved in the intergroup contact intervention.
 
-<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->-->
+<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->
 
 This study expands our knowledge about intergroup conflict in several ways.  First, to our knowledge this is the first field experimental test of a bottom-up peacebuilding program implemented by a peacebuilding organization during an active conflict.  We evaluated the program's effects on both attitudinal and behavioral outcomes.  The results suggest that bottom-up peacebuilding programs can effectively reduce conflict and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
 
@@ -115,13 +115,13 @@ This study expands our knowledge about intergroup conflict in several ways.  Fir
 
 Second, this study is one of the only field experimental interventions to test intergroup contact theory with groups actively engaged in violence.  Each of the groups in our study were part of an active and escalating conflict, with members of each side being killed within one year of the intervention's onset.  Even in such a context, community members who engaged in direct interpersonal interaction with an outgroup member changed more positively than other community members.  Importantly, the intergroup contact involved achieving superordinate goals that benefited both groups materially.  This suggests that contact with superordinate goals is robust to actively violent contexts.
 
-<!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->-->
+<!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->
 
 Third, we contribute to the literature about the role of social diffusion and social institutions in shaping attitudes and behaviors.  Bottom-up peacebuilding interventions seek to provide a structure in which groups can solve their own conflicts, and those structures are social rather than coercive.  Understanding how those structures form and are maintained is relevant to other institutional setups attempting to influence behavior.  In this study, though the greatest changes in attitudes and behaviors were from individuals directly interacting with outgroup members, the attitudes of other community members also improved.  This type of "social effect" is also a potential way to "scale up" the effects of intergroup contact.
 
 <!--Roadmap.-->
 
-In the next section we provide a theoretical framework for how and why bottom-up interventions, especially those based on intergroup prejudice, can reduce intergroup violence.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  Last we present the results of the study and conclude by connecting these findings to theories of group conflict and prejudice.
+In the next section we provide a theoretical framework for how and why bottom-up interventions that focus on prejudice reduction can reduce intergroup violence.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  Last we present the results of the study and conclude by connecting these findings to theories of group conflict and prejudice.
 
 <!--
 ## Old
@@ -167,3 +167,5 @@ UN peacekeeping not successful at ending _ongoing_ conflicts, but are successful
 @regan2002third questions effectiveness of international intervention overall.
 
 -->
+
+# References
