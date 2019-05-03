@@ -1,5 +1,5 @@
 ---
-title: "Promoting Peace Amidst Escalating Conflict: An Intergroup Contact Field Experiment in Nigeria - Theory"
+title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Theory"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
