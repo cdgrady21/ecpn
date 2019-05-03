@@ -61,10 +61,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - more signposting of psych things in 3rd paragraph, fewer questions, only questions I answer.
     - intergroup contact, social spillover, superordinate goals.  Psych literature.  
-- more acknowledgement of superordinate goals.  This specific type of contact intervention.
-- add violence experienced by individuals
+    - more acknowledgement of superordinate goals.  This specific type of contact intervention.
+
+- add violence experienced by individuals as outcome.
+
 - work on implications at end:
     - less social norm in intro, more about social diffusion.  Then social norms/social institutions at the end.  Because not testing it, just doing somethign that _might_ create a norm.
+
 - maintain big picture point on exogenous shock to reduce conflict.
-- boundary conditions: talking about a specific type of conflict and contact.  Intercommunal/intergroup and not between large states.  Contact tailored for the conflict, so increases resources.
+
+- **boundary conditions: talking about a specific type of conflict and contact.  Intercommunal/intergroup and not between large states.**  
+    - Contact tailored for the conflict, so increases resources.
     - a type of conflict that peacekeeping/mediation would not be good for.  Get the conflict before it gets to that level.
