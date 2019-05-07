@@ -21,46 +21,62 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Intergroup Conflict as a Bargaining Problem
 <!--Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  3rd parties (peacekeepers, states) solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem. -->
 
-Most solutions to reducing intergroup conflict strive to help the groups overcome bargaining problems.  Intergroup conflict is a bargaining problem because both groups wants something from the other but cannot reach an agreement about those things peacefully.  Because fighting is costly, the groups _should_ be able to reach a bargained compromise without fighting.  However, two bargaining problems prevent this: information problems and comittment problems.  Information problem: neither groups have accurate information about the other, and both groups have an incentive to deceive the other.  Comittment problem: neither group can commit to agreements because situation changes.  One group may disarm before the other, external actors may switch allegiances [chris: need to find cites for things and add more here].  Both groups know that the other group cannot commit to agreements.  Cannot even begin to bargain.
+Intergroup conflict is most often conceptualized as a bargaining problem [@fearon1994ethnic; @powell2006war], and most solutions to reducing intergroup conflict strive to help the groups overcome those bargaining problems [@di2017effectiveness].  Intergroup conflict is a bargaining problem because both groups wants something from the other but cannot reach an agreement about those things peacefully.  Because fighting is costly, the groups _should_ be able to reach a bargained compromise without fighting.  However, two bargaining problems prevent this: information problems and comittment problems.  To successfully bargain, the groups need (1) accurate information about each other, and (2) the assurance that each side will abide by its agreements.  
 
-Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome the information problem through fighting, as they learn about each other's capacity [@smith2003mediation].  Groups can also overcome the information problem through mediation.  A third party with no stake in the conflict can provide accurate information to both sides.
+An _information problem_ arises because neither group has accurate information about the other, and both groups have an incentive to deceive the other.  This causes bargaining failures because neither group knows what payoff to expect from bargaining.  A _comittment problem_ arises because neither group can credibly commit to bargained agreements in an uncertain and unstable strategic landscape.  The strategic landscape is uncertain and unstable because internal and external factors that affect each group's preferences and capabilities are likely to change.  Internally, one group may disarm before the other, the groups may have factions that reject the agreement, the groups may change leaders, or group members attitudes may change for other reasons.  Externally, the groups may gain or lose de facto or de jure state support, other external actors may switch allegiances, or some other shock may change each group's power relative to the other [@fearon2004civil; chris: need to cite and add more].  Because their agreements are not enforceable, both groups know that the other group cannot commit to agreements if incentives change in the future.  Without the ability to commit to agreements, bargaining cannot even begin.
 
-Even if groups overcome the information problem, they may have a comittment problem.  Groups can overcome the comittment problem through strong third parties that add large costs to reneging on agreements [@fearon1998comittment; @powell2006war; @doyle2000international].  Though each group may have an incentive to defect on their agreement based on future changes in the strategic environment, the groups are convinced to bargain by the presence of a strong third party that is both capable and willing to punish defection.  Since each group trusts that the other side will abide by its word, they can reach an agreement.  Peacekeepers and the international community often fill the role of strong third party.
+Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome information problems through fighting, as they learn about each other's capacity [@smith2003mediation].  Groups can also overcome information problems through mediation.  A third party with no stake in the conflict can provide accurate information to both sides, helping each side agree to the value each should receive from bargaining.
+
+Even if groups overcome information problems, they must still overcome comittment problems.  Groups can overcome comittment problems through strong third parties that add large costs to reneging on agreements [@fearon1998comittment; @powell2006war; @doyle2000international].  Though each group may have an incentive to defect on their agreement based on future changes in the strategic environment, the groups have no incentive to defect if a strong third party is capable and willing to punish defection from bargained agreements.  With a third party punishing defection, the groups can bargain in good faith knowing that the other will abide by its word.  The international community often fill the role of strong third party.
+
+## The Persistence of Intergroup Conflict
+
+<!--conflict persists because biased mediation, lack of motivation to intervene. -->
+
+If we know how to resolve intergroup conflict, why does conflict persist?  International mediation and intervention are dogged by two issues of motivation.  First, mediators, by their very nature, are motivated for peace.  But this motivation implies that information provided by mediators is biased towards encouraging the groups to negotiate a peace agreement. Since both groups know that mediators are biased towards peace, mediators may not reduce information problems [@smith2003mediation; @kydd2006can].  Second, international actors may lack the motivation to mediate or to intervene into the conflict, even if one group reneges on its agreement.  Intervention is costly and so international actors cannot credibly commit to intervene into the conflict unless they have a stake in the conflict [@kydd2006can].  
+
+This lack of motivation is especially relevant for intergroup conflict between groups within a state.  Most international actors and strong third parties lack an incentive to intervene into intrastate intergroup conflicts, and these disputes tend to take place within states that lack the capacity to compel both sides themselves.  Strong third parties have an incentive to intervene only _after_ fighting escalates, so intervention will generally not be used to prevent conflict from escalating or to reduce the persistent, smaller-scale violence that plague many countries.  The lack of a strong third party to prevent the intergroup bargaining failures that causes persistent intergroup conflict is a serious barrier to peace.
+
+<!--How prejudice makes intergroup bargaining more difficult.-->
+
+<!--Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Biased assessment of actions: Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.  Bargaining of leaders impossible if group members hate each other -- both leaders know that the other guy cannot commit to controlling his group.  The model: two leaders bargaining and their groups having varying levels of cohesion.-->
+
+Conflict also persist due to intergroup prejudice.  Groups in competition and conflict develop prejudiced attitudes that make peace difficult to attain [@allport1954prejudice; @sherif1958superordinate].  Conflicting groups think the outgroup is untrustworthy, selfishly motivated, and innately bad.  These prejudiced attitudes feed the conflict and prevent the groups from obtaining peace.
+
+One way intergroup prejudice prevents peace is by exacerbating bargaining problems.  At their heart, information and comittment problems are both problems of trust.  For information problems, groups do not trust the information they get from the other group.  For comittment problems, groups do not trust the other group to abide by its agreements.  Highly prejudiced groups are less likely to trust information they receive from the other side or any peace comittment they get from the other side.  As a result, these groups are unlikely to overcome problems of trust without third-party intervention.  <!--Chris: not really nailing this and next paragraph yet -->
+
+These negative attitudes also change the payoff structure for bargaining, both for leaders and for individuals who encounter disagreements with outgroup members.  The payoff an individual gets for attitudes and behaviors depends largely on how those attitudes and behaviors are received by their ingroup.  These "social payoffs" constrain the actions of leaders and individual group members.  In the context of outgroup prejudice, the group might punish a leader for cooperating or compromising with the outgroup [@fearon1994domestic].  Individuals might get similarly socially punished for cooperating instead of taking a hard stand against the other side's perceived transgressions.  Leaders of highly prejudiced groups also cannot credibly commit to keep their group members in check.  Individuals in highly prejudiced groups might not engage in ingroup policing, a strong, costly signal to the other side that your group will uphold its peace agreements [@fearon1996explaining].  While cooperation and ingroup policing might be punished, aggressive actions may be seen as righteous self-defense of the ingroup and rewarded.
+
+Along with social benefits from aggressive attitudes and behavior, individuals might receive psychological benefits from conflict and from social differentiation with the outgroup.  Many groups define "us" by positive differences with a "them", and an individual can derive self-esteem from positively comparing their group identity to a rival group [@tajfel1981groups; @brewer1999ingroupOutgroup].  When group members derive self-esteem from feeling superior to an outgroup, group members may reject rhetoric about group similarity due to cognitive dissonance it causes them.  Group members may also reject actions that recognize the outgroup as equals.
+
+<!--reputation as a mean of overcoming comittment problems when there is no third party.  How prejudice and biased interpretations of behavior prevent reputations from forming, even when both groups are the "complier" type.-->
+
+When there is no strong third party to enforce bargaining agreements, commitment problems are often overcome by reputations.  Reputations, beliefs that actors have about the like behavior of other actors, allow states to bargain and negotiate even without an organization willing to punish defection from agreements.  Though defecting may be beneficial in one specific instance, states do not defect because getting a reputation for defecting on agreements harms a state's ability to achieve agreements in the future.  By relying on reputation and the knowledge that states desire good reputations, states can coordinate in the absence of a strong third party.
+
+The reputation mechanism can prevent intergroup conflict between small groups but reputations, too, are hampered by prejudice.  Prejudice biases interpretations of ingroup and outgroup behavior, which makes it very difficult for a group to develop a positive reputation with a group they are in conflict with, even when both groups want to end the conflict.  Ingroups will perceive their own belligerent actions as defensive and justified, and are more likely to perceive outgroup actions as aggressive, negatively motivated, and unjustified [chris:fundamental attribution error, group attribution error, biased interpretations].  This bias likely pushes each group's perception of the other side's willingness to make peace further from their true willingness to make peace and so reputations hinder, rather than aid, intergroup bargaining processes.
+
+Reputations to prevent conflict are also hampered by a lack of opportunities for groups to observe each other's behavior and to learn the outgroup's reputation.  Compounding that problem, few of the outgroup's interactions will be with groups in which the outgroup's behavior towards that group is relevant for the outgroup's behavior towards my group.  This means that the main opportunity to observe outgroup behavior and learn their reputation is your own interactions with the outgroup.  For groups in conflict, these opportunities are likely rare and almost always adversarial.
+
+This also means that the outgroup has less incentive to cooperate with your ingroup because they are less likely to be punished for defecting in a world where reputation is built off of _experienced_ interactions, rather than previous _observed_ interactions. [chris: Scott Page's coursera on overcoming collective action problems cites a model where the more people who can see your interaction the more incentive you have to cooperate.]
 
 
-<!--Not always feasible to do these things, and these things don't always work.  Say why: costly, biased mediators, no state to project power, etc. -->
-
-If we know about solutions to intergroup conflict, why does it persist?  Mediation can only help solve the information problem if the mediators themselves are unbiased.  Mediators, by their very nature, are biased towards peace.  Since both groups know that, mediators may not be effective at reducing information problems [@smith2003mediation].
-
-International intervention to guarantee bargained agreements is costly.  For international disputes, there is often no 3rd party strong and willing enough to compel both sides.  For disputes within a country, the state often lacks the capability to compel both sides.  International intervention is generally only used _after_ fighting escalates; it does not prevent the fighting from escalating.  And it is too costly for the persistent, smaller-scale conflicts that plague many countries.
-
-## Psychological Attitudes that Perpetuate Conflict
-
-<!--Talk about psychological challenges to resolving conflict.  
-
-Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Biased assessment of actions: Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.  Bargaining of leaders impossible if group members hate each other -- both leaders know that the other guy cannot commit to controlling his group.  The model: two leaders bargaining and their groups having varying levels of cohesion.-->
-
-As an alternative to top-down international intervention to reduce conflict, bottom-up peacebuilding programs can reduce conflict by focusing on both the immediate economic concerns contributing to conflict and the psychological attitudes contributing to conflict.  Groups in conflict might think the other is untrustworthy, violently motivated, and innately bad.  This intergroup prejudice can make peace difficult to attain.
-
-One way intergroup prejudice prevents peace is by exacerbating bargaining problems.  Information and comittment problems are both problems of trust.  For information problems, groups do not trust the information they get from the other group.  For comittment problems, groups do not trust the other group to abide by its agreements.  Highly prejudiced groups are less likely to trust information they receive from the other side or any peace comittment they get from the other side.  As a result, these groups are unlikely to overcome problems of trust without third-party intervention.  <!--Chris: not really nailing this and next paragraph yet -->
-
-Intergroup prejudice also exacerbates bargaining problems in indirect ways by biasing interpretations of ingroup and outgroup behavior.  Ingroups will perceive their own belligerint actions as defensive and justified, and are more likely to perceive outgroup actions as aggressive, negatively motivated, and unjustified [chris:fundamental attribution error, group attribution error)].  This bias likely pushes each group's perception of the other side's willingness to make peace further from their true willingness to make peace.   Second, leaders of highly prejudiced groups cannot credibly commit to keep their group members in check.  Highly prejudiced groups might not engage in ingroup policing, a strong, costly signal to the other side that your group will uphold its peace agreements [@fearon1996explaining].
-
-These negative attitudes also change the payoff structure for bargaining, both for leaders and for individuals who encounter disagreements with outgroup members.  With prevalent outgroup hate, leaders might get punished for cooperation or comprompise with the outgroup [@fearon1994domestic].  Individuals might get similarly punished for not taking a hard stand against the other side's perceived transgressions.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  And group members may get psychologicla benefit from group differentiation and dislike rhetoric about group similarity due to cognitive dissonance it causes them.
-
-## Psychological Reconciliation to Reduce Conflict
+## Psychological Reconciliation to Reduce Prejudice and Conflict
 
 <!--Bottom-up Psychological reconciliation, intergroup contact.  Define what it is, when it should work.-->
 
 The problems of negative intergroup attitudes suggests that improving those attitudes could lead to peace-promoting behaviors and reduce conflict.  One of the most promising approaches to improving intergroup attitudes comes from intergroup contact theory.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will reduce prejudice.  Reducing prejudice can help groups overcome bargaining problems and reduce the likelihood of violence.
 
-Intergroup contact gives the ability give strong costly signals about "group type" as a conditional complier: we will honor our agreements if you honor yours.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).
+When groups are in conflict, most incidental intergroup contact will be highly adversarial.  Intergroup contact puts theory posits several conditions necessary for intergroup contact to reduce prejudice.  Groups must cooperate with equal status to achieve shared goals with the support of elites.
+
+Intergroup contact under these conditions gives the ability give strong costly signals about a group's reputation and the "group type" as a conditional complier: we will honor our agreements if you honor yours.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).
 
 It is important for the intergroup contact to focus on superordinate goals [@sherif1954].  
 
 Mediation training -- help community leaders resolve disputes.
 
 Bottom-up psychological reconciliation programs should work for the types of conflicts for which international intervention is rarely used and is unlikely to be successful.  Persistent intergroup conflict that plagues many countries.  Low-level conflict before it builds to large-scale conflict.  There are XX conflicts of this type accoutning for XX deaths each year [chris: cite some number of conflicts.]
+
+As an alternative to top-down international intervention to reduce conflict, bottom-up peacebuilding programs can reduce conflict by focusing on both the immediate economic concerns contributing to conflict (superordinate goals?) and the psychological attitudes contributing to conflict. 
 
 <!--
 Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup policing/censuring [@ditlmann2017addressing; @Fearon1996].  Ingroup policing works because we cannot do things if our community dislikes those things.-->
@@ -101,176 +117,16 @@ Yet intergroup contact specifically,
 
 
 
+# Other Stuff
 
+**Solving Bargaining Problems section**
 
+In this case, bias for or against one side of the conflict can increase the effectiveness of intervention [@kydd2003side; @regan2002third] because it provides motivation for the international community to intervene in the conflict.
 
 
 
 
 
-# Thinking
-
-Big framing points:
-
-- Contact theory can be effective at reducing real world conflict.
-- Contact increases intergroup trust, which allows groups to bargain even in the absence of external costs of breaking agreements.
-
-Intergroup conflict is often characterized as a bargaining failure<!--Prisoner's Dilemma?-->.  Both groups would benefit from compromise, but negotiations break down and conflict ensues because neither group trusts the other to abide by their agreements.  The proposed solutions are coercive institutions that prevent groups from defecting on bargained agreements.  However, coercive power cannot reach many group conflicts.  We propose intergroup contact as an alternative to coercive institutions.  Coercive institutions substitute for intergroup trust, but intergroup contact can foster intergroup trust directly by creating situations in which groups can signal their trustworthiness.  Intergroup trust allows groups to bargain even in the absence of coercive institutions.
-
-Theory sections tend to summarize a literature and then apply it to new area.
-
-# Outline/Presentation intro slide
-
-- Intergroup conflict as commitment problem, solved by institution that can enforce commitments [@fearon; @powell]
-- Institutions that constrain behavior cannot always be present
-- Intergroup trust serves as social institution that solves commitment problem
-- Intergroup contact creates intergroup trust
-
-# Theory (12-20 para)
-
-Two big theoretical literatures on intergroup conflict.  One sees intergroup conflict as bargaining problem.  The other sees intergroup prejudice as a prejudice problem.
-
-Intergroup conflict is often considered the result of bargaining failures.  Groups have disagreements, but through bargaining they should be reach a compromise that prevents conflict.  Neither group _wants_ conflict because conflict is very costly for both groups.  Groups fail to reach bargaining agreements primarily due to comittment problems -- neither group trusts that other group will honor comittments [@fearon; @powell].  Groups cannot be trusted to commit to agreements for a variety of reasons.
-
-[^bargainFail:] Other reasons are incorrect information.
-
-The solution to the comittment problem are institutions or external actors that punish defection from agreements.
-
-These institutions cannot always be present.  State power does not reach everywhere.  No neutral/trusted arbitrator.  Enforcement expensive.  Need something that functions like police but without police walking around punishing everyone
-
-These institutions substitute for intergroup trust.  We can bargain without external enforcement if we trust each other to uphold agreements.  Bargaining allows groups to reach a non-violent outcome.
-
-## Intergroup Contact
-
-Intergroup contact creates social institutions that affect/constrain behavior. Intergroup contact theory: Intergroup cooperation to achieve common goals in an equal status context with the support of authorities reduces prejudice [@allport1954prejudice]
-- Shown effective in many contexts [@pettigrew2006meta]
-- Intergroup contact produces trust via opportunities for costly signaling(<!--through ingroup policing?)--> and increased likelihood that defections from agreement will become public and therefore punished.
-
-
-**It could convince the groups that cooperation is good**/**It could decrease the social benefits of conflict**
-Changing the game: [c,c] payoffs higher than [c,d or d,d] payoffs.  Before contact, could get social benefits to defecting and social costs to cooperating, so cooperating was not in anyone's interest.  After contact, social benefits from cooperating and social costs to defecting. Or something like that.
-
-If groups hate each other, maybe social benefits to attacking the other group.  Feels justified.  If groups don't hate so much, maybe social costs instead.
-
-** It could convince the groups that the other side will cooperate**
-Allows costly signaling that my groups type is conditional complier, not defector.  Increases trust that other group will cooperate.  Increase opportunities for group reputations to increase.  In game theory terms, direct reciprocity.
-
-**It could increase the acceptable bargaining space**
-Before, both groups would only accept agreements where they got 75% or more, so there was no agreement space.
-This is more a story about perceived strength: why would I only accept bargaining where I would receive 75%+ if I thought the alternative to bargaining was you beating me and taking 100%?
-
-
-
-
-**Alternative Mechanisms of Intergroup Contact**
-Generalized trust -- no increase to "people of other religions/ethnicities"
-Decreased threat -- nope
-Ingroup increases to include other group -- intergroup cohesion does not seem to increase.  Probably not that ingroup norms being extended to outgroup.
-incresed empathy -- no questions address this, or intergroup cohesion 2?
-Perceived benefits of cooperation -- maybe?  But contact does not increase this.
-
-**Limitations**
-Most effective for small, cohesive ingroups.
-
-### Optimist Camp: 5 para
-
-Intergroup contact.  Realistic group conflict theory (functional interdepence between groups to reduce conflict.  Achieve a series of superordinate goals that neither group can achieve alone).
-
-
-
-### Pessimist Camp: 5 para
-
-This is a comittment problem.  Neither group can commit to cooperating, and each group only wants to cooperate if the other cooperates.  Solution is to impose high cost for defecting, usually through some third actor.
-
-
-### Synthesize: 4 para
-
-Comittment problem is a trust problem.  Interventions that increase intergroup trust should ameliorate comittment problems.
-
-Trust can increase a two ways.  Group _leaders_ increase trust that the leader will punish defecting ingroup members.  Group members increase trust that outgroup members will not defect.  Not distinguishing between those ways and probably not mutually exclusive.
-
-^[Simplest way to think about the problem in game-theoretic terms: one player & one stage game where P1 can cooperate or defect.  P1 has a belief about the type of P2; P2 has some probability of being a complier, conditional complier, or defector.  P1s payoffs for c/d depend on P2 type.  And the intervention increases P1's belief that P2 is conditional complier.  More complicated way is akin to Fearon's comittment problem.  Maybe has P2 signal its type to P1.  Intergroup contact allows for strong signal to P1.]
-
-Negative contact increases prejudice more than positive contact decreases prejudice [@barlow2012contact]
-
-# Notes
-
-### General
-
-Many conflict scholars see intergroup conflict as a bargaining game.  Conflict occurs because of a bargaining failure -- incorrect information [chris:cite], lack of trust that other group will honor comittments [@fearon; @powell].  The solution is a 3rd party -- another group, the state, social institutions like laws and customs -- powerful enough to compel both sides to honor their comittments.  Contracts & law are ways we can trust people without knowing them.  Large costs to defecting on our agreements help everyone trust that agreements will be kept.
-
-But 3rd parties of this sort are not always possible.  Sometimes no state is strong enough to project power onto the conflicting groups.  Projecting power is expensive.  But groups do not necessarily need coercion to solve collective action problems.   Groups can develop social norms that constrain behavior, which are often more efficient than coercive appartus [@ostrom2015governing; @Ostrom2000evolution].  But sometimes social norms to solve conflict are not present or have broken down.
-
-Intergroup contact is a solution to intergroup conflict from the psychological perspective.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will reduce prejudice and the likelihood of violence by demystifying the outgroup, presenting the other group's perspective, and replacing imagined stereotypes with firsthand knowledge [@allport1954; @pettigrew2008does].  
-
-Ostrom: grassroots norms. "a social norm, especially in a setting where there is communication between the parties, can work as well or nearly as well at generating cooperative behavior as an externally imposed set of rules and system of monitoring and sanctioning" [@ostrom2000evolution]
-
-Comittment problems are trust problems: "the choice is not to trust, because the expectation is that the other player will not trust" [@ostrom2000evoluation]"
-
-Ostrom on communication: "By devising simple, local mechanisms to get conflicts aired immediately and resolutions that are generally known in the community, the
-number of conflicts that reduce trust can be reduced." [@ostrom2000evoluation]
-
-Intergroup contact creates social institutions that affect/constrain behavior.
-
-**It could convince the groups that cooperation is good**
-Changing the game: [c,c] payoffs higher than [c,d or d,d] payoffs.  Before contact, could get social benefits to defecting and social costs to cooperating, so cooperating was not in anyone's interest.  After contact, social benefits from cooperating and social costs to defecting. Or something like that.
-
-** It could convince the groups that the other side will cooperate**
-Allows costly signaling that my groups type is conditional complier, not defector.  Increases trust that other group will cooperate.  Increase opportunities for group reputations to increase.  In game theory terms, direct reciprocity.
-
-**It could increase the acceptable bargaining space**
-Before, both groups would only accept agreements where they got 75% or more, so there was no agreement space.
-This is more a story about perceived strength: why would I only accept bargaining where I would receive 75%+ if I thought the alternative to bargaining was you beating me and taking 100%?
-
-**Alternative Mechanisms of Intergroup Contact**
-Generalized trust -- no increase to "people of other religions/ethnicities"
-Decreased threat -- nope
-Ingroup increases to include other group -- intergroup cohesion does not seem to increase.  Probably not that ingroup norms being extended to outgroup.
-incresed empathy -- no questions address this, or intergroup cohesion 2?
-Perceived benefits of cooperation -- maybe?  But contact does not increase this.
-
-**Limitations**
-Most effective for small, cohesive ingroups.
-
-### Pessimist Camp
-
-Some studies suggest that contact in these contexts might increase prejudice.   [Chris: Ryan Enos, Gubler, negative contact guy, Devine et al 2002, Devine 1989, Fiske 1989, Bhavnani et al 2014 is like Gubler, other Scacco theory citations].  Can direct intergroup contact overcome conflict and economic factors to reduce prejudice in places most in need of prejudice reduction?
-
-
-### Optimist Camp
-
-A notable exception is the @Scacco2016 study in Kaduna, Nigeria, a city with a history of religious riots.  But that context does not mimic many aspects of a conflict context (frequent violence, zero-sum economic goods) that could influence intergroup attitudes and reduce the effects of contact.  That study also showed null effects for intergroup contact but negative effects for intragroup contact.  That was also not a peacebuilding program (social norms) and the intervention sought to diminish group affiliations, rather than highlight them -- salient group affiliations is an important component of intergroup contact.
-
-Allport thought behavioral consequence of prejudice was group violence.
-
-From Scacco: "these interventions are driven by the premise that macrolevel peace and stability can be built from the ground up (Cárdenas 2013; Kuriansky 2007; Gasser and Levinsen 2004;Maoz 2000)."
-
-### General
-
-Gaunt et al - Motivated Reasoning and the Attribution of Emotions to Ingroup and Outgroup
-Dhont et al - https://pdfs.semanticscholar.org/76f8/74c6fcc7067332f42ef4848f5878a184c152.pdf
-
-Sidanius and Pratto 1999/2001 - social dominance theory
-
-Violence requires justifying why the violence was okay.  Strong motivation to maintain negative attitudes.
-
-
-We also want effects of intergroup contact for some ingroup members to diffuse to other ingroup members who have no contact.  The most prejudiced individuals will probably avoid contact, but if effects of contact from other ingroup members diffuse to these very prejudiced individuals -- either through vicarious/imagined contact or through social norm transmission -- intergroup contact could reduce prejudice even for individuals who do not engage in intergroup contact.
-
-
-## Me
-
-Bridging psychological and rationalist theories: still fundamentally a comittment problem.  But need to increase intergroup trust (belief that group will committ to agreement) and reduce intergroup prejudice (psychological benefit I get from hating the outgroup/feeling superior -- makes cost of conflict lower because adds some psychological benefit to conflict).  Strategic situation equation needs to adjust for psychological variables like trust and prejudice.
-
-Overcoming comittment problem: Community leader involvement is very important -- leaders are often the ones bargaining, _and_ each side may trust that the other groups leaders can prevent/punish defections from his group.  Ingroup Policing.
-
-### Democratic Dilemma: Ways to increase trust between two players
-
-Costly Signals
-
-Penalties for Lying.
-
-Likelihood of Verification of the speaker's words by some other party.
 
 
 *******

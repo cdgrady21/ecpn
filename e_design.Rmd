@@ -47,6 +47,25 @@ Details of ECPN.  Intergroup contact, including leaders of each group.^[Leaders 
 
 Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned participants in treatment 
 
+## Outcomes
+
+**Attitudes**
+Intergroup Trust: self-report
+Intergroup affect: survey experiments
+
+**Behaviors**
+Cooperation: PGG
+Intergroup contact: self-report, markets/social events
+
+**Violence**
+Physical insecurity: self-report
+Violence experienced: self-report
+
+**Mechanisms**
+Dispute Resolution: resolution index
+Threat: threat index
+Ingroup expansion: social cohesion 1
+Intergroup empathy: social cohesion 2
 
 *******
 
