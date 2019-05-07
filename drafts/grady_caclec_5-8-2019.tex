@@ -1,0 +1,1061 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady and Rebecca Wolfe},
+  pdftitle={Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{Promoting Peace Amidst Group Conflict: An Intergroup Contact Field
+Experiment in Nigeria}
+
+\author{
+Christopher Grady and Rebecca Wolfe
+}
+
+
+\date{May 07, 2019}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\begin{abstract}
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict is often mitigated by international intervention, like foreign military intervention (or peacekeepers) and dispute mediation.  However, international intervention is not always effective at reducing intergroup conflicts.  We propose psychological reconciliation through intergroup contact as an alternative to large-scale international intervention.  Groups in conflict develop negative attitudes about the other group that make peace impossible.  Outside intervention often serve as substitutes for positive intergroup attitudes, but psychological reconciliation could improve intergroup attitudes directly.  Improved intergroup attitudes should allow the conflicting groups to settle disputes even in the absence of outside intervention.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and the physical security of group members.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
+
+\end{abstract}
+
+\section{Introduction}\label{introduction}
+
+Intergroup conflict is responsible for many of the worst displays of
+human nature. In Nigeria, intergroup conflict between farmers and
+pastoralists has claimed countless lives and destroyed countless
+communities over the past two decades. As the conflict escalated, groups
+of anti-pastoralist vigilantes mobilized to pre-emptively prevent
+pastoralists from encroaching on land claimed by farmers (Duru 2018;
+McDonnel 2017). These groups, dubbed the ``livestock guard'', ransacked
+pastoralist settlements and violently drove pastoralists from their
+homes, often with the assistance of the local farming community.
+Likewise, pastoralist groups enacted vigilante justice, raiding and
+burning down farming villages seen to encroach on land claimed by
+pastoralists. Attacks such as these forced up to 180,000 people from
+their homes in 2018 (Daniel 2018) and farmer-pastoralist conflict costs
+Nigeria \$13 billion of lost economic productivity annually (McDougal et
+al. 2015).
+
+Though farmer-pastoralist conflict was widespread, mass violence did not
+break out in all communities with farmer-pastoralist conflict. In one
+village, farmers and pastoralists defended each other from hostile
+neighbors. When a group of livestock guard came for one pastoralist
+settlement, the neighboring farming village arrested them to protect the
+pastoralists. After the arrest, farmers and pastoralists convened to
+decide what should be done with the prisoners. They agreed that the
+group of livestock guard should not be punished, but should be disarmed
+and released home -- a proposition proposed by \emph{the pastoralists}.
+These farmers and pastoralists had also struggled with conflict, and
+people on both sides had died in disputes over farmland and grazing
+land. But their disputes had not escalated to the point that each side
+wanted the other removed by any means necessary. They had created
+structures that allowed them to settle disputes, and the same structures
+allowed them to reach a solution about the livestock guard.
+
+Why were some farmer and pastoralist groups able to keep peace whereas
+others were swallowed by the escalating conflict? Why were some
+communities able to overcome their intergroup disputes whereas others
+were destroyed by them? Understanding the factors that help groups
+resolve their disputes is important for mitigating and preventing the
+myriad intergroup conflicts around the world. Intergroup conflict fuels
+and is fueled by intergroup prejudice. We argue that psychological
+reconciliation during an ongoing conflict can reduce intergroup
+prejudice and mitigate violence. Bottom-up peacebuilding programs can
+help conflicting groups achieve psychological reconciliation through
+intergroup contact and superordinate goals (Sherif 1958).
+
+Most literature and policy about peacebuilding and preventing intergroup
+conflict revolves around international intervention (Autesserre 2017;
+Regan 2002; Shannon 2009; Smith and Stam 2003; Walter 2002). The
+international community, through military intervention and mediation,
+can increase the cost of fighting, enforce or raise the costs of
+defecting from peace agreements, and facilitate information flows (Di
+Salvatore and Ruggeri 2017; Doyle and Sambanis 2000). By providing
+information and punishing defection from agreements, international
+intervention helps conflicting actors overcome the bargaining failures
+that lead to violent conflict (Fearon 1994b, 1995; Powell 2006; Smith
+and Stam 2003). This type of peacebuilding has been employed by the
+international institutions like the UN in conflicts around the world,
+including Namibia, Sierra Leone, Guatemala, Cambodia, and India and
+Pakistan. Ideally, peacekeepers impose order to protect bystanders and
+prevent further violence while mediation assists the two groups in
+settling disputes peacefully. While not universally successful, research
+shows that peacekeeping and mediation are effective strategies to
+promote peace in many conflicts (Doyle and Sambanis 2000; Gartner 2011;
+Hartzell, Hoddie, and Rothchild 2001; Wallensteen and Svensson 2014;
+Walter 2002).
+
+While international intervention has assisted in ending many conflicts,
+it is most effective at maintaining peace in a post-conflict setting and
+is relatively ineffective at ending ongoing conflicts (Bratt 1996; Doyle
+and Sambanis 2006; Gilligan, Sergenti, and others 2008). Notably,
+international intervention failed to stop intergroup conflicts in DRC
+(Autesserre 2010), Somalia (Autesserre 2019), Bosnia (Fetherston,
+Ramsbotham, and Woodhouse 1994), Angola (Bratt 1996) and Rwanda (Barnett
+1997; Dallaire 2009). And even when international intervention is
+successful, that success is often short-lived. Weinstein (2005)
+estimated that 75\% of civil wars resume within 10 years of UN
+intervention, and Beardsley (2008) showed that mediation reduces
+conflict in the short-term but not the long-term. One reason for these
+failures is that international intervention is often more influenced by
+international norms about what strategies \emph{should} work than
+finding the strategies that are most likely to work in a given context
+(Autesserre 2016; Paris 2003). But international intervention has also
+been criticized for not solving the underlying problems that cause
+conflict -- providing a band-aid when the conflict needs a doctor
+(Autesserre 2019).
+
+International intervention through military intervention and mediation
+might be conducive to preventing different types of violence than
+bottom-up peacebuilding programs. Whereas intervention is most
+successful in the immediate aftermath of conflict and mainly reduces
+violence in the short-term, bottom-up programs might be most effective
+at mitigating ongoing conflict before it escalates and at ameliorating
+the persistent ``no peace -- no war'' contexts that plague many
+countries. Even for contexts in which international intervention would
+be successful, bottom-up interventions might be more feasible or timely.
+Before international intervention can occur, the international community
+must agree on an appropriate intervention and make large commitments of
+forces and financing. As a result, international intervention often
+comes late, costs billions of dollars, and is unlikely to be applied
+unless preventing the conflict is an international priority. Therefore
+international intervention is unlikely to target the persistent
+intergroup conflicts that plagues many states and is unlikely to be used
+until conflict escalates into large-scale violence.
+
+While most attempts to reduce violent conflict between groups are
+top-down, peacebuilding is going through a ``local turn'' as scholars
+and practitioners call for bottom-up strategies to building peace
+(Autesserre 2016, 2017; Ditlmann, Samii, and Zeitzoff 2017; Safunu
+2012). Bottom-up strategies focus on engaging local actors and assisting
+them in reducing group conflict. Conflicts at local levels are often
+driven and perpetuated by intergroup animosity long after the original
+grievance is forgotten {[}McDonnel (2017); cite more about intergroup
+animosity{]}. Intergroup animosity and strongly negative attitudes can
+be an insurmountable barrier to peace. Individuals often motivatedly
+reason to rationalize their beliefs, which leads to biased processing of
+information about outgroup members' behavior. Behavior by outgroup
+members may be perceived as more threatening and more malicious than the
+same behavior committed by a neutral party (cite fundamental attribution
+error, motivated reasoning; Hewstone 1990). The perceived negative
+behavior may be seen as \emph{defining} of the group, whereas any
+perceived positive behavior may be seen as the \emph{exception} to the
+group (Allison and Messick 1985; Pettigrew 1979). This biased
+information processing reinforces negative group stereotypes and can
+subvert the groups' own attempts to foster peace. It can also sabotage
+intergroup bargaining by causing the groups to have inaccurate beliefs
+about each other, adding to information and commitment problems that
+cause conflict. Bottom-up strategies that help reduce group prejudice
+could help the groups achieve peace without the large-scale
+international intervention efforts most commonly used to build peace.
+
+One of the most promising approaches to reducing intergroup prejudice
+and violence comes from intergroup contact theory. Intergroup contact
+theory hypothesizes that interactions in which group members cooperate
+to achieve shared goals will reduce prejudice and the likelihood of
+violence. Intergroup contact works by demystifying the outgroup,
+presenting the other group's perspective, and replacing imagined
+stereotypes with firsthand knowledge (Allport 1954; Pettigrew and Tropp
+2008). Intergroup contact is likely especially good at reducing
+intergroup conflict when groups cooperate to achieve superordinate goals
+-- goals that require the cooperation of both groups and benefit both
+groups (Gaertner et al. 2000; Sherif 1958) The prejudice-reducing
+effects of intergroup contact have been demonstrated in a variety of
+countries and using a variety of methodological approaches (Paluck,
+Green, and Green 2017; Pettigrew and Tropp 2006). Notably, intergroup
+contacted programs reduced prejudice between white people and black
+people in the U.S. and South Africa (Burns, Corno, and La Ferrara 2015;
+Marmaros and Sacerdote 2006), Jews and Arabs (Ditlmann and Samii 2016;
+Yablon 2012), Muslims and Christians (Scacco and Warren 2016), and
+Hindus and Muslims (Barnhardt 2009). Peacebuilding programs utilizing
+intergroup contact and superordinate goals are increasingly used to
+reduce intergroup conflict by peacebuilding organizations (Ditlmann,
+Samii, and Zeitzoff 2017).
+
+Although research shows support for intergroup contact theory generally,
+its efficacy to reduce prejudice amid \emph{real-world} conflict is an
+open question. First, most research about intergroup contact uses
+correlational studies or lab experiments, both of which have
+methodological weaknesses. Correlational studies cannot demonstrate
+causal effects, and results from lab experiments may not apply to real
+world conflicts, where groups compete for resources and share a history
+of intergroup violence (Ditlmann, Samii, and Zeitzoff 2017). Second, no
+prior studies of intergroup contact have involved groups engaged in
+active intergroup violence\footnote{Previous studies have involved
+  groups with a history of violence conflict -- see Scacco and Warren
+  (2016) and Ditlmann and Samii (2016).}, and some studies suggest that
+intergroup contact in violent settings could be ineffective or even
+backfire. Negative experiences with outgroups increase prejudice, and
+the most prejudiced individuals are most likely to interpret intergroup
+contact negatively (Gubler 2013; Paolini, Harwood, and Rubin 2010).
+Despite a lack of evidence about the effects of bottom-up peacebuilding
+programs in violent contexts, and the risks of programs going badly,
+peacebuilding organizations implement numerous bottom-up interventions
+in violent contexts each year. Bottom-up peacebuilding programs might
+defuse intergroup conflict, but these programs also might do more harm
+than good.
+
+To study the effect of bottom-up psychological interventions on violent
+conflict, we conduct a field experiment with farmer and pastoralist
+communities in Nigeria to determine if an intergroup contact-based
+program effectively reduces prejudice and violent conflict. We randomly
+assigned communities with farmer-pastoralist violence to receive the
+peacebuilding intervention or serve as a control group. The intervention
+formed mixed-group committees and provided them with funds to build
+infrastructure that would benefit both communities; committees then
+collaboratively chose and constructed infrastructure projects.\footnote{The
+  communities built boreholes, market stalls, primary health care
+  facilities, etc.} The program also provided mediation training to each
+community's leaders. To measure the effects of the intervention, we
+conducted pre- and post-intervention surveys, a post-intervention
+natural public goods behavioral game,\footnote{In a public goods game
+  (PGG), research subjects are given money and told they can keep the
+  money or donate it to a public fund. Money donated to the public fund
+  is multiplied by some amount and then shared with all subjects. Our
+  PGG is \emph{natural} because it was conducted in a natural setting,
+  rather than a lab. The funding for the PGG came from the National
+  Science Foundation under Grant No. 1656871.} and twelve months of
+systematic observations in markets and social events during the
+intervention.
+
+We find that the program assisted the groups in reducing their conflict.
+Compared to the control group, the treatment group increased intergroup
+contact and trust between the groups, and reduced physical violence and
+insecurity experienced by group members. We find no evidence that the
+program reduced outgroup threat or caused the groups to expand their
+conception of ``ingroup'' to include the other side, two prominent
+mechanisms for how intergroup contact reduces prejudice. The results
+also suggests that intergroup contact for a relatively small percentage
+of a group can indirectly affect attitudes of group members with no
+exogenous increase in contact with the outgroup. We observe the most
+positive changes from individuals directly involved in the intergroup
+committees, but we also observe positive spillover to group members who
+were not involved in the intergroup contact intervention.
+
+This study expands our knowledge about intergroup conflict in several
+ways. First, to our knowledge this is the first field experimental test
+of a bottom-up peacebuilding program implemented by a peacebuilding
+organization during an active conflict. We evaluated the program's
+effects on both attitudinal and behavioral outcomes. The results suggest
+that bottom-up psychologically-based peacebuilding programs can
+effectively reduce conflict and is especially relevant to conflict
+resolution in the cases of intergroup and intercommunal conflicts.
+
+Second, this study is one of the only field experimental interventions
+to test intergroup contact theory with groups actively engaged in
+violence. Each of the groups in our study were part of an active and
+escalating conflict, with members of each side being killed within one
+year of the intervention's onset. Even in such a context, community
+members who engaged in direct interpersonal interaction with an outgroup
+member changed more positively than other community members.
+Importantly, the intergroup contact involved achieving superordinate
+goals that benefited both groups materially. This suggests that contact
+with superordinate goals is robust to actively violent contexts.
+
+Third, we contribute to the literature about the role of social
+diffusion and social institutions in shaping attitudes and behaviors.
+Bottom-up peacebuilding interventions seek to provide a structure in
+which groups can solve their own conflicts, and those structures are
+social rather than coercive. Understanding how those structures form and
+are maintained is relevant to other institutional setups attempting to
+influence behavior. In this study, though the greatest changes in
+attitudes and behaviors were from individuals directly interacting with
+outgroup members, the attitudes of other community members also
+improved. This type of ``social effect'' is also a potential way to
+``scale up'' the effects of intergroup contact.
+
+Fourth, this paper's focus on farmer-pastoralist conflict is especially
+important because the pastoralists are of the Fulani ethnic group. The
+Fulani are the largest semi-nomadic people on Earth, but their way of
+life makes them targets for violence throughout Africa. Along with this
+conflict in Nigeria, Fulani in Mali have been the targets of violence so
+severe that researchers at Armed Conflict Location \& Event Data Project
+called it ``ethnic cleansing'' (Economist 2019). Understanding how to
+prevent conflict between Fulani and settled peoples can help prevent the
+eradication of a people and their way of life.
+
+In the next section we provide a theoretical framework for how and why
+bottom-up interventions that focus on prejudice reduction can reduce
+intergroup violence. We then discuss Nigeria's farmer-pastoralist
+conflict, our experimental intervention, and two designs to evaluate the
+effect of the intervention. Last we present the results of the study and
+conclude by connecting these findings to theories of group conflict and
+prejudice.
+
+\section{Theory}\label{theory}
+
+\subsection{Intergroup Conflict as a Bargaining
+Problem}\label{intergroup-conflict-as-a-bargaining-problem}
+
+Intergroup conflict is most often conceptualized as a bargaining problem
+(Fearon 1994b; Powell 2006), and most solutions to reducing intergroup
+conflict strive to help the groups overcome those bargaining problems
+(Di Salvatore and Ruggeri 2017). Intergroup conflict is a bargaining
+problem because both groups want some resource -- land, power, etc --
+but cannot reach an agreement about how to distribute that resource
+peacefully. Because fighting is costly, the groups \emph{should} be able
+to reach a bargained compromise without fighting. However, two
+bargaining problems prevent this: information problems and commitment
+problems. To successfully bargain, the groups need (1) accurate
+information about each other, and (2) the assurance that each side will
+abide by its agreements.
+
+An \emph{information problem} arises because neither group has accurate
+information about the other, and both groups have an incentive to
+deceive the other. This causes bargaining failures because neither group
+knows what payoff to expect from bargaining. A \emph{comittment problem}
+arises because neither group can credibly commit to bargained agreements
+in an uncertain and unstable strategic landscape. The strategic
+landscape is uncertain and unstable because internal and external
+factors that affect each group's preferences and capabilities are likely
+to change. Internally, one group may disarm before the other, the groups
+may have factions that reject the agreement, the groups may change
+leaders, or group members attitudes may change for other reasons.
+Externally, the groups may gain or lose de facto or de jure state
+support, other external actors may switch allegiances, or some other
+shock may change each group's power relative to the other {[}Fearon
+(2004); chris: need to cite and add more{]}. Because their agreements
+are not enforceable, both groups know that the other group cannot commit
+to agreements if incentives change in the future. Without the ability to
+commit to agreements, bargaining cannot truly begin.
+
+Groups in conflict overcome these bargaining problems in several ways.
+Groups can overcome information problems through fighting, as they learn
+about each others capacity (Smith and Stam 2003). Groups can also
+overcome information problems through mediation. A third party mediator
+with no stake in the conflict can provide accurate information to both
+sides, helping each side agree to the value each should receive from
+bargaining.
+
+Even if groups overcome information problems, they must still overcome
+commitment problems. Groups can overcome commitment problems through
+strong third parties that add large costs to reneging on agreements
+(Doyle and Sambanis 2000; Fearon 1998; Powell 2006). Though each group
+may have an incentive to defect on their agreement based on future
+changes in the strategic environment, the groups have no incentive to
+defect if a strong third party is capable and willing to punish
+defection from bargained agreements. With a third party punishing
+defection, the groups can bargain in good faith knowing that the other
+will abide by its word. The international community often fill the role
+of strong third party in intergroup disputes.
+
+\subsection{The Persistence of Intergroup
+Conflict}\label{the-persistence-of-intergroup-conflict}
+
+If we know how to resolve intergroup conflict, why does conflict
+persist? International mediation and intervention are dogged by two
+issues of motivation. First, mediators, by their very nature, are
+motivated for peace. But this motivation implies that information
+provided by mediators is biased towards encouraging the groups to
+negotiate a peace agreement. Since both groups know that mediators are
+biased towards peace, mediators may not reduce information problems
+(Kydd 2006; Smith and Stam 2003). Second, international actors may lack
+the motivation to mediate or to intervene into the conflict, even if one
+group reneges on its agreement. Intervention is costly and so
+international actors cannot credibly commit to intervene into the
+conflict unless they have a stake in the conflict (Kydd 2006).
+
+This lack of motivation is especially relevant for intergroup conflict
+between groups within a state. Most international actors and strong
+third parties lack an incentive to intervene into intrastate intergroup
+conflicts, and these disputes tend to take place within states that lack
+the capacity to compel both sides themselves. Since intervention is
+costly, strong third parties have an incentive to intervene only
+\emph{after} fighting escalates, so intervention will generally not be
+used to prevent conflict from escalating or to reduce the persistent,
+smaller-scale violence that plague many countries. The lack of a strong
+third party to prevent the intergroup bargaining failures that causes
+persistent intergroup conflict is a serious barrier to peace.
+
+Conflict also persist due to intergroup prejudice. Groups in competition
+and conflict develop prejudiced attitudes that make peace difficult to
+attain (Allport 1954; Sherif 1958). Conflicting groups think the
+outgroup is untrustworthy, selfishly motivated, and innately bad. These
+prejudiced attitudes feed the conflict and prevent the groups from
+obtaining peace.
+
+One way intergroup prejudice prevents peace is by exacerbating
+bargaining problems. At their heart, information and commitment problems
+are both problems of trust. For information problems, groups do not
+trust the information they get from the other group. For commitment
+problems, groups do not trust the other group to abide by its
+agreements. Highly prejudiced groups are less likely to trust
+information they receive from the other side or any peace commitment
+they get from the other side. As a result, these groups are unlikely to
+overcome problems of trust without third-party intervention.
+
+These negative attitudes also change the payoff structure for
+bargaining, both for leaders and for individuals who encounter
+disagreements with outgroup members. The payoff an individual gets for
+attitudes and behaviors depends largely on how those attitudes and
+behaviors are received by their ingroup. These ``social payoffs''
+constrain the actions of leaders and individual group members. In the
+context of outgroup prejudice, the group might punish a leader for
+cooperating or compromising with the outgroup (Fearon 1994a).
+Individuals might get similarly socially punished for cooperating
+instead of taking a hard stand against the other side's perceived
+transgressions. Leaders of highly prejudiced groups also cannot credibly
+commit to keep their group members in check. Individuals in highly
+prejudiced groups might not engage in ingroup policing, a strong, costly
+signal to the other side that your group will uphold its peace
+agreements (Fearon and Laitin 1996). While cooperation and ingroup
+policing might be punished, aggressive actions may be seen as righteous
+self-defense of the ingroup and rewarded.
+
+Along with social benefits from aggressive attitudes and behavior,
+individuals might receive psychological benefits from conflict and from
+social differentiation with the outgroup. Many groups define ``us'' by
+positive differences with a ``them'', and an individual can derive
+self-esteem from positively comparing their group identity to a rival
+group (Brewer 1999; Tajfel 1981). When group members derive self-esteem
+from feeling superior to an outgroup, group members may reject rhetoric
+about group similarity due to cognitive dissonance it causes them. Group
+members may also reject actions that recognize the outgroup as equals.
+
+When there is no strong third party to enforce bargaining agreements,
+commitment problems are often overcome by reputations. Reputations,
+beliefs that groups have about the likely behavior of other actors,
+allow groups to bargain and negotiate even without an organization
+willing to punish defection from agreements. Though defecting may be
+beneficial in one specific instance, groups may not defect because
+getting a reputation for defecting on agreements harms a group's ability
+to achieve agreements in the future. By relying on reputation and the
+knowledge that groups desire good reputations, groups can coordinate in
+the absence of a strong third party.
+
+The reputation mechanism could prevent intergroup conflict but
+reputations, too, are hampered by prejudice. Prejudice biases
+interpretations of ingroup and outgroup behavior, which makes it very
+difficult for a group to develop a positive reputation with a group they
+are in conflict with, even when both groups are motivated to end the
+conflict. Ingroups will perceive their own belligerent actions as
+defensive and justified, and are more likely to perceive outgroup
+actions as aggressive, negatively motivated, and unjustified {[}chris:
+fundamental attribution error, group attribution error, biased
+interpretations{]}. This bias likely pushes each group's perception of
+the other side's willingness to make peace further from their true
+willingness to make peace and so reputations hinder, rather than aid,
+intergroup bargaining processes.
+
+Reputations to prevent conflict are also hampered by a lack of
+opportunities for groups to observe each others behavior and to learn
+the outgroup's reputation. Compounding that problem, few of the
+outgroup's interactions will be with groups in which the outgroup's
+behavior towards that group is relevant for the outgroup's behavior
+towards my group. This means that the main opportunity to observe
+outgroup behavior and learn their reputation is your own interactions
+with the outgroup. For groups in conflict, these opportunities are
+likely rare and almost always adversarial.
+
+(This also means that the outgroup has less incentive to cooperate with
+your ingroup because they are less likely to be punished for defecting
+in a world where reputation is built off of \emph{experienced}
+interactions, rather than previous \emph{observed} interactions.
+{[}chris: Scott Page's coursera on overcoming collective action problems
+cites a model where the more people who can see your interaction the
+more incentive you have to cooperate.{]}. Not sure this is relevant.)
+
+\subsection{Psychological Reconciliation to Reduce Prejudice and
+Conflict}\label{psychological-reconciliation-to-reduce-prejudice-and-conflict}
+
+The problems of negative intergroup attitudes suggests that improving
+those attitudes could lead to peace-promoting behaviors and reduce
+conflict. One of the most promising approaches to improving intergroup
+attitudes comes from intergroup contact theory. Intergroup contact
+theory hypothesizes that interactions in which group members cooperate
+to achieve shared goals will reduce prejudice. Reducing prejudice can
+help groups overcome bargaining problems and reduce the likelihood of
+violence.
+
+When groups are in conflict, most incidental intergroup contact will be
+highly adversarial. Intergroup contact theory posits several conditions
+necessary for intergroup contact to reduce prejudice. Groups must
+cooperate with equal status to achieve shared goals with the support of
+elites. Intergroup contact under these conditions gives the ability give
+strong costly signals about a group's reputation and the ``group type''
+as a conditional complier: we will honor our agreements if you honor
+yours. And about perceptual fairness/unbiasedness: we will interpret
+things you do fairly and we will interpret things we do fairly (i.e.~we
+will not think everything we do is justified and everything you do is
+unjustified).
+
+It is important for the intergroup contact to focus on superordinate
+goals (Sherif 1958).
+
+Could improve reputations/remove stereotypes. Increase perception of
+trustworthiness/intergroup trust. Contact gives opportunity for costly
+signals. Reputations will help groups overcome information and
+commitment problems. Groups trust information they get from the other
+group. Groups trust the other group to abide by agreements because they
+believe the other group is also motivated by peace.
+
+Can give group members interactions that reduce perceptual biases. Can
+decrease prejudice and encourage ingroup policing. Decrease prejudice
+also allows leaders to credibly commit entire group to peace. Encourage
+ingroup policing. Create norms against prejudice and violence, or
+connect existing norms to the outgroup by humanizing the outgroup.
+
+Could improve dispute resolution and reduce conflict over resources.
+Encourage sharing resources \emph{or} separation of resources. Mediation
+training -- help community leaders resolve disputes.
+
+Could decrease threat, though in cases of active conflict this might
+exacerbate rather than solve conflict (information about reduced
+outgroup threat == higher chance of my group winning).
+
+Could increase empathy. Seeing the other side's argument, seeing their
+motivations. Increase empathy/less prejudice helps interpret information
+in non-biased way. {[}Chris: cite literature on empathy making me
+interpret information about other people more accurately. Kertzer?{]}
+
+Could expand ingroup/make group similarities salient. Seeing our two
+groups as one, seeing our incentives as aligned.
+
+Groups work together to gain more material resources, improves us now,
+makes me think working together in the \emph{future} would be good.
+
+Can give group members the capacity to affect conflict.
+
+As an alternative to top-down international intervention to reduce
+conflict, bottom-up peacebuilding programs can reduce conflict by
+focusing on both the immediate economic concerns contributing to
+conflict (superordinate goals?) and the psychological attitudes
+contributing to conflict. Bottom-up psychological reconciliation
+programs should work for the types of conflicts for which international
+intervention is rarely used and is unlikely to be successful. Persistent
+intergroup conflict that plagues many countries. Low-level conflict
+before it builds to large-scale conflict. There are XX conflicts of this
+type accounting for XX deaths each year.
+
+\subsection{Why Bottom-up Programs Could
+Fail}\label{why-bottom-up-programs-could-fail}
+
+Yet bottom-up peacebuilding generally, and intergroup contact
+specifically, may not work in contexts of ongoing violence. As with
+mediation and intervention, bottom-up reconciliation programs may be
+ineffective while conflict is going on and only effective at maintaining
+peace once the formal conflict has ended. Many reasons contact may not
+work in this context.
+
+Intergroup conflict is commitment problem solved by strong third party
+(Fearon 1994b; Powell 2006) and bottom-up programs do not provide a
+strong third party that can enforce commitments. Psychological
+reconciliation is not how we've thought of solving commitment problems
+between conflicting groups or improving reputations. Can psych
+reconciliation improve reputations in contexts of ongoing violence?
+
+Psychological reconciliation can prevent resumption of conflict but
+requires conflict to already be resolved (Bar-Tal 2000). Active conflict
+produces many grievances and high prejudice; cognitive dissonance causes
+backlash for the most prejudiced people (Festinger 1962; Gubler 2011).
+Negative contact experiences reinforce negative stereotypes (Paolini,
+Harwood, and Rubin 2010). Motivated reasoning for attitudes towards
+others (Klein and Kunda 1992). If you don't want to like someone, you
+will find a reason not to.
+
+Underlying cause of conflict still present. Groups still engage in
+competition for resources, which breeds conflict (Campbell 1965; Sherif
+et al. 1988).
+
+Few norms against prejudice, possibly group norms that support this
+particular intergroup prejudice. If intergroup contact works by
+activating ``norms against prejudice'', unlikely to work here.
+
+Intergroup contact may only reduce prejudice from high-status group to
+low-status group.
+
+\subsection{Hypotheses}\label{hypotheses}
+
+\textbf{Main}
+
+Increased trust.
+
+Increased affect.
+
+Increased cooperation.
+
+Increased physical security. Decreased violence experienced.
+
+Increased contact.
+
+\textbf{Secondary}
+
+Increased dispute resolution success
+
+Decreased threat
+
+Ingroup expansion? (social cohesion 1)
+
+Intergroup empathy? (social cohesion 2)
+
+Perceptions of benefit
+
+Sharing resources
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\hypertarget{ref-allison1985group}{}
+Allison, Scott T, and David M Messick. 1985. ``The Group Attribution
+Error.'' \emph{Journal of Experimental Social Psychology} 21(6):
+563--79.
+
+\hypertarget{ref-allport1954prejudice}{}
+Allport, Gordon. 1954. ``The Nature of Prejudice.'' \emph{Garden City,
+NJ Anchor}.
+
+\hypertarget{ref-autesserre2016failure}{}
+Autesserre, Severine. 2016. ``The Responsibility to Protect in Congo:
+The Failure of Grassroots Prevention.'' \emph{International
+Peacekeeping} 23(1): 29--51.
+
+\hypertarget{ref-autesserre2017international}{}
+---------. 2017. ``International Peacebuilding and Local Success:
+Assumptions and Effectiveness.'' \emph{International Studies Review}
+19(1): 114--32.
+
+\hypertarget{ref-autesserre2019crisis}{}
+---------. 2019. ``The Crisis of Peacekeeping: Why the Un Can't End
+Wars.'' \emph{Foreign Affairs}.
+\url{https://www.foreignaffairs.com/articles/2018-12-11/crisis-peacekeeping}.
+
+\hypertarget{ref-autesserre2010trouble}{}
+Autesserre, Séverine. 2010. 115 \emph{The Trouble with the Congo: Local
+Violence and the Failure of International Peacebuilding}. Cambridge
+University Press.
+
+\hypertarget{ref-bar2000intractable}{}
+Bar-Tal, Daniel. 2000. ``From Intractable Conflict Through Conflict
+Resolution to Reconciliation: Psychological Analysis.'' \emph{Political
+Psychology} 21(2): 351--65.
+
+\hypertarget{ref-barnett1997security}{}
+Barnett, Michael N. 1997. ``The Un Security Council, Indifference, and
+Genocide in Rwanda.'' \emph{Cultural Anthropology} 12(4): 551--78.
+
+\hypertarget{ref-barnhardt2009near}{}
+Barnhardt, Sharon. 2009. ``Near and Dear? Evaluating the Impact of
+Neighbor Diversity on Inter-Religious Attitudes.'' \emph{Unpublished
+working paper}.
+
+\hypertarget{ref-beardsley2008agreement}{}
+Beardsley, Kyle. 2008. ``Agreement Without Peace? International
+Mediation and Time Inconsistency Problems.'' \emph{American journal of
+political science} 52(4): 723--40.
+
+\hypertarget{ref-bratt1996assessing}{}
+Bratt, Duane. 1996. ``Assessing the Success of Un Peacekeeping
+Operations.'' \emph{International Peacekeeping} 3(4): 64--81.
+
+\hypertarget{ref-brewer1999ingroupOutgroup}{}
+Brewer, Marilynn B. 1999. ``The Psychology of Prejudice: Ingroup Love
+and Outgroup Hate?'' \emph{Journal of social issues} 55(3): 429--44.
+
+\hypertarget{ref-burns2015interaction}{}
+Burns, Justine, Lucia Corno, and Eliana La Ferrara. 2015.
+\emph{Interaction, Prejudice and Performance. Evidence from South
+Africa}. Working paper.
+
+\hypertarget{ref-campbell1965ethno}{}
+Campbell, Donald T. 1965. ``Ethnocentric and Other Altruistic Motives.''
+In \emph{Nebraska Symposium on Motivation}, 283--311.
+
+\hypertarget{ref-dallaire2009shake}{}
+Dallaire, Romeo. 2009. \emph{Shake Hands with the Devil: The Failure of
+Humanity in Rwanda}. Vintage Canada.
+
+\hypertarget{ref-daniel2018anti}{}
+Daniel, Soni. 2018. ``Anti-Open Grazing Law: Nass, Benue, Kwara, Taraba
+Tackle Defence Minister.'' \emph{Vanguard}.
+\url{https://www.vanguardngr.com/2018/06/anti-open-grazing-law-nass-benue-kwara-taraba-tackle-defence-minister/}.
+
+\hypertarget{ref-di2017effectiveness}{}
+Di Salvatore, Jessica, and Andrea Ruggeri. 2017. ``Effectiveness of
+Peacekeeping Operations.'' \emph{Oxford Research Encyclopedia of
+Politics}.
+
+\hypertarget{ref-ditlmann2016can}{}
+Ditlmann, Ruth K, and Cyrus Samii. 2016. ``Can Intergroup Contact Affect
+Ingroup Dynamics? Insights from a Field Study with Jewish and
+Arab-Palestinian Youth in Israel.'' \emph{Peace and Conflict: Journal of
+Peace Psychology} 22(4): 380.
+
+\hypertarget{ref-ditlmann2017addressing}{}
+Ditlmann, Ruth K, Cyrus Samii, and Thomas Zeitzoff. 2017. ``Addressing
+Violent Intergroup Conflict from the Bottom up?'' \emph{Social Issues
+and Policy Review} 11(1): 38--77.
+
+\hypertarget{ref-doyle2000international}{}
+Doyle, Michael W, and Nicholas Sambanis. 2000. ``International
+Peacebuilding: A Theoretical and Quantitative Analysis.'' \emph{American
+political science review} 94(4): 779--801.
+
+\hypertarget{ref-doyle2006making}{}
+---------. 2006. \emph{Making War and Building Peace: United Nations
+Peace Operations}. Princeton University Press.
+
+\hypertarget{ref-duru2018court}{}
+Duru, Peter. 2018. ``Court Stops Inspector General from Proscribing
+Benue Livestock Guard.'' \emph{Vanguard}.
+\url{https://www.vanguardngr.com/2018/11/court-stops-ig-from-proscribing-benue-livestock-guards/}.
+
+\hypertarget{ref-economist2019militias}{}
+Economist, The. 2019. ``Malicious Malitias: States in the Sahel Have
+Unleashed Ethnic Gangs with Guns.'' \emph{The Economist}.
+\url{https://www.economist.com/middle-east-and-africa/2019/05/04/states-in-the-sahel-have-unleashed-ethnic-gangs-with-guns}.
+
+\hypertarget{ref-fearon1994domestic}{}
+Fearon, James D. 1994a. ``Domestic Political Audiences and the
+Escalation of International Disputes.'' \emph{American political science
+review} 88(3): 577--92.
+
+\hypertarget{ref-fearon1994ethnic}{}
+---------. 1994b. ``Ethnic War as a Commitment Problem.'' In
+\emph{Annual Meetings of the American Political Science Association},
+2--5.
+
+\hypertarget{ref-fearon1995rationalist}{}
+---------. 1995. ``Rationalist Explanations for War.''
+\emph{International organization} 49(3): 379--414.
+
+\hypertarget{ref-fearon1998commitment}{}
+---------. 1998. ``Commitment Problems and the Spread of Ethnic
+Conflict.'' \emph{The international spread of ethnic conflict} 107.
+
+\hypertarget{ref-fearon2004civil}{}
+---------. 2004. ``Why Do Some Civil Wars Last so Much Longer Than
+Others?'' \emph{Journal of peace research} 41(3): 275--301.
+
+\hypertarget{ref-fearon1996explaining}{}
+Fearon, James D, and David D Laitin. 1996. ``Explaining Interethnic
+Cooperation.'' \emph{American political science review} 90(4): 715--35.
+
+\hypertarget{ref-festinger1962cognitiveDissonance}{}
+Festinger, Leon. 1962. 2 \emph{A Theory of Cognitive Dissonance}.
+Stanford university press.
+
+\hypertarget{ref-fetherston1994unprofor}{}
+Fetherston, A Betts, Oliver Ramsbotham, and Tom Woodhouse. 1994.
+``UNPROFOR: Some Observations from a Conflict Resolution Perspective.''
+\emph{International Peacekeeping} 1(2): 179--203.
+
+\hypertarget{ref-gaertner2000reducing}{}
+Gaertner, Samuel L et al. 2000. ``Reducing Intergroup Conflict: From
+Superordinate Goals to Decategorization, Recategorization, and Mutual
+Differentiation.'' \emph{Group Dynamics: Theory, Research, and Practice}
+4(1): 98.
+
+\hypertarget{ref-gartner2011signs}{}
+Gartner, Scott Sigmund. 2011. ``Signs of Trouble: Regional Organization
+Mediation and Civil War Agreement Durability.'' \emph{The Journal of
+Politics} 73(2): 380--90.
+
+\hypertarget{ref-gilligan2008interventions}{}
+Gilligan, Michael J, Ernest J Sergenti, and others. 2008. ``Do Un
+Interventions Cause Peace? Using Matching to Improve Causal Inference.''
+\emph{Quarterly Journal of Political Science} 3(2): 89--122.
+
+\hypertarget{ref-gubler2011diss}{}
+Gubler, Joshua R. 2011. ``The Micro-Motives of Intergroup Aggression: A
+Case Study in Israel.'' PhD thesis.
+
+\hypertarget{ref-gubler2013humanizing}{}
+---------. 2013. ``When Humanizing the Enemy Fails: The Role of
+Dissonance and Justification in Intergroup Conflict.'' In \emph{Annual
+Meeting of the American Political Science Association},
+
+\hypertarget{ref-hartzell2001stabilizing}{}
+Hartzell, Caroline, Matthew Hoddie, and Donald Rothchild. 2001.
+``Stabilizing the Peace After Civil War: An Investigation of Some Key
+Variables.'' \emph{International organization} 55(1): 183--208.
+
+\hypertarget{ref-hewstone1990ultimate}{}
+Hewstone, Miles. 1990. ``The `Ultimate Attribution Error'? A Review of
+the Literature on Intergroup Causal Attribution.'' \emph{European
+Journal of Social Psychology} 20(4): 311--35.
+
+\hypertarget{ref-klein1992motivated}{}
+Klein, William M, and Ziva Kunda. 1992. ``Motivated Person Perception:
+Constructing Justifications for Desired Beliefs.'' \emph{Journal of
+experimental social psychology} 28(2): 145--68.
+
+\hypertarget{ref-kydd2006can}{}
+Kydd, Andrew H. 2006. ``When Can Mediators Build Trust?'' \emph{American
+Political Science Review} 100(3): 449--62.
+
+\hypertarget{ref-marmaros2006friendships}{}
+Marmaros, David, and Bruce Sacerdote. 2006. ``How Do Friendships Form?''
+\emph{The Quarterly Journal of Economics} 121(1): 79--119.
+
+\hypertarget{ref-mcdonnel2017graze}{}
+McDonnel, Tim. 2017. ``Why It's Now a Crime to Let Cattle Graze Freely
+in 2 Nigerian States.'' \emph{National Public Radio (NPR)}.
+\url{https://www.npr.org/sections/goatsandsoda/2017/12/12/569913821/why-its-now-a-crime-to-let-cattle-graze-freely-in-2-nigerian-states}.
+
+\hypertarget{ref-mcdougal2015effect}{}
+McDougal, Topher L et al. 2015. ``The Effect of Farmer-Pastoralist
+Violence on Income: New Survey Evidence from Nigeria's Middle Belt
+States.'' \emph{Economics of Peace and Security Journal} 10(1): 54--65.
+
+\hypertarget{ref-paluck2017contact}{}
+Paluck, Elizabeth Levy, Seth Green, and Donald P Green. 2017. ``The
+Contact Hypothesis Revisited.''
+
+\hypertarget{ref-paolini2010negative}{}
+Paolini, Stefania, Jake Harwood, and Mark Rubin. 2010. ``Negative
+Intergroup Contact Makes Group Memberships Salient: Explaining Why
+Intergroup Conflict Endures.'' \emph{Personality and Social Psychology
+Bulletin} 36(12): 1723--38.
+
+\hypertarget{ref-paris2003peacekeeping}{}
+Paris, Roland. 2003. ``Peacekeeping and the Constraints of Global
+Culture.'' \emph{European Journal of International Relations} 9(3):
+441--73.
+
+\hypertarget{ref-pettigrew1979ultimate}{}
+Pettigrew, Thomas F. 1979. ``The Ultimate Attribution Error: Extending
+Allport's Cognitive Analysis of Prejudice.'' \emph{Personality and
+social psychology bulletin} 5(4): 461--76.
+
+\hypertarget{ref-pettigrew2006meta}{}
+Pettigrew, Thomas F, and Linda R Tropp. 2006. ``A Meta-Analytic Test of
+Intergroup Contact Theory.'' \emph{Journal of personality and social
+psychology} 90(5): 751.
+
+\hypertarget{ref-pettigrew2008does}{}
+---------. 2008. ``How Does Intergroup Contact Reduce Prejudice?
+Meta-Analytic Tests of Three Mediators.'' \emph{European Journal of
+Social Psychology} 38(6): 922--34.
+
+\hypertarget{ref-powell2006war}{}
+Powell, Robert. 2006. ``War as a Commitment Problem.''
+\emph{International organization} 60(1): 169--203.
+
+\hypertarget{ref-regan2002third}{}
+Regan, Patrick M. 2002. ``Third-Party Interventions and the Duration of
+Intrastate Conflicts.'' \emph{Journal of Conflict Resolution} 46(1):
+55--73.
+
+\hypertarget{ref-safunu2012grassroots}{}
+Safunu, Banchani John-Paul. 2012. ``Do Grassroots Approaches and
+Mobilization for Development Contribute to Post-Conflict Peacebuilding?
+The Experience of Northern Ghana.'' \emph{Nairobi: Africa Leadership
+Center}.
+
+\hypertarget{ref-Scacco2016}{}
+Scacco, Alexandra, and Shana S Warren. 2016. ``Youth Vocational Training
+and Conflict Mitigation: An Experimental Test of Social Contact Theory
+in Nigeria.''
+
+\hypertarget{ref-shannon2009preventing}{}
+Shannon, Megan. 2009. ``Preventing War and Providing the Peace?
+International Organizations and the Management of Territorial
+Disputes.'' \emph{Conflict Management and Peace Science} 26(2): 144--63.
+
+\hypertarget{ref-sherif1958superordinate}{}
+Sherif, Muzafer. 1958. ``Superordinate Goals in the Reduction of
+Intergroup Conflict.'' \emph{American journal of Sociology} 63(4):
+349--56.
+
+\hypertarget{ref-Sherif1988robbersCave}{}
+Sherif, Muzafer et al. 1988. ``Intergroup Conflict and Cooperation: The
+Robbers Cave Experiment, Norman: Institute of Group Relations,
+University of Oklahoma.''
+
+\hypertarget{ref-smith2003mediation}{}
+Smith, Alastair, and Allan Stam. 2003. ``Mediation and Peacekeeping in a
+Random Walk Model of Civil and Interstate War.'' \emph{International
+Studies Review} 5(4): 115--35.
+
+\hypertarget{ref-tajfel1981groups}{}
+Tajfel, Henri. 1981. \emph{Human Groups and Social Categories: Studies
+in Social Psychology}. CUP Archive.
+
+\hypertarget{ref-wallensteen2014talking}{}
+Wallensteen, Peter, and Isak Svensson. 2014. ``Talking Peace:
+International Mediation in Armed Conflicts.'' \emph{Journal of Peace
+Research} 51(2): 315--27.
+
+\hypertarget{ref-walter2002committing}{}
+Walter, Barbara F. 2002. \emph{Committing to Peace: The Successful
+Settlement of Civil Wars}. Princeton University Press.
+
+\hypertarget{ref-weinstein2005autonomous}{}
+Weinstein, Jeremy M. 2005. ``Autonomous Recovery and International
+Intervention in Comparative Perspective.'' \emph{Available at SSRN
+1114117}.
+
+\hypertarget{ref-yablon2012we}{}
+Yablon, Yaacov B. 2012. ``Are We Preaching to the Converted? The Role of
+Motivation in Understanding the Contribution of Intergroup Encounters.''
+\emph{Journal of Peace Education} 9(3): 249--63.
+
+\end{document}
