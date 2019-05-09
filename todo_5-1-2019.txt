@@ -1,6 +1,9 @@
 ANALYSIS
 Look at effect of violence on individual
 Look at "pro-peace" attitudes for individual-level self-selection.
+ICW index where NAs removed rather than replaced with mean?
+	- Replacing with mean may mess with covariance.
+	- BUT removing whole row removes useful information about covariance between other vars.
 
 RESULTS/DISCUSSION
 - no effect on dispute resolution, mediation training no work?

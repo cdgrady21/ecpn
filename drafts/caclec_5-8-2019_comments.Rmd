@@ -1,0 +1,128 @@
+---
+title: "caclec_5-8-2019_comments"
+author: "grady"
+date: "May 8, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro Thoughts
+
+Interested to see what people think.  In order to not influence the conversation, I will reserve them for later.
+
+# Other's Thoughts
+
+```{r}
+set.seed(347)
+us <- c("Nuole", "Charla", "Ekrem", "Cila", "Alice")
+sample(us)
+
+```
+
+
+# Ekrem
+
+- many little comments scattered across document.
+- much improved
+
+### General
+
+- don't know if framing it by going to other itnerventions is good.  good to talk about other intervention, and how these mechanisms can augmnet/complement.  But not comparison/competition with other interventions.
+    - (1) when we talk about interventions, a number of different interventions.  peacekeeping/UN, mediation/diplomacy, etc...these are all aimed at diff things.  information problems, security guarantees, increasing costs of reneging, etc... This is a super heterogeneous group. Not clear which thing my paper is about and should be compared with.
+    - (2)
+- could set up with trust problems.  That's the more general thing.  THe connection from trust to formal/rationalist stuff is easy to make.  The connection between trust and my psych stuff is super easy to make.  Mechanisms of increasing trust and reducing prejudice.
+    - information/comittment problems, tie to trust, tie to my stuff.  Deeper mechanism, being talked about.
+- The theory part (the current bottom of the paper) should be my pitch.  The connections that will be built through a way to increase trust.  NOt about itnerventions alone -- they are a subcategory of trust.  Increasing trust can help in fundamental ways.  Emphasize the complementarity of international itnerventions and bottom-up stuff.  Make them complements and not substitutes.
+- (1) why trust is such an important issue in these conflicts.  two ways in which intervention is helping.  (1) increasing trust directly, helpful for lots of reasons.  (2) cleaning the pipes argument -- we would be able to have contact and learn and update rationally, but prejudices make the pipes clogged.  Information comes through biased.
+    - then intervention is a subcategory.  If we think of contact & trust this way, we can think of itnerventions and other stuff this way.
+
+# Cila
+
+- Likes intervention framework.  Comments are mostly about clarifying it.
+- After hearing ekrem, maybe trust framework is a good idea.
+    - even with trust framework in beginning, more nuanced argument about international itnervention.  Maybe over-generalizing all interventions as top-down -- overly negative tone about international intervention.
+- more transition between bottom-up peacebuilding interventions and THIS intervention.  Not clear if THIS intervention is a part of the bottom-up approach.  And if there are still problems for bottom-up peacebuilding, what are they? How does my approach solve those?
+- **Biggest comment**: calling it a psychological intervention.  WHen explaining the experiment, they build a lot of infrastructure and stuff.  So it seems like an infrastructure project.  ANd people who did not get intervention had positive impact -- wouldn't that be because of the infrastructure and increasing quality of life?
+    - **me**: superordinate goals having positive externalities.
+- and not clear why superordinate goals make contact more successful.  Not well explained.
+- A hypothesis about increased contact.  Why?  Isn't that the treatment?
+
+# Charla
+
+- improved even from the Aleks lab version of the intro.
+- less of an issue with the top-down negativity when reading, BUT definitely framed as top-down is bad.  Will be a bigger issue for discussion.
+- Introduction is too long.  Probably needs to shorten.  But good to spell out the contributions, because there are a lot of contirbutions of this paper.  ANd this section makes them clear.  ANd there's a clear connection between those contributions and the paper's discussion/theory.
+- Lots of hypotheses: breaking them apart into multiple papers?  WHat doing with them?
+
+- Talk a lot about bargaining problems -- information, comittment, reputation, etc...Disconnect knowing how I set up the experiment.  Big tone shift between front-end and theory part.  A bit jarring.  Theory is less developed/edited than the intro.  Often "statement 1, statement 2" but no logical connection between that.
+- Primary audience is probably not people who are well versed in comittment/information/reputation problems.  So need to make those connections clear.
+
+# Nuole
+
+- Agree with Charla about too long introduction.  And my contributions don't come early enough, but that is excellent.  A particular section reads too much like a lit review, though.
+- Likes intervention framing, but the project is not really about international intervention.
+- didn't think too negative, but was thinking about complentarity with top-down and bottom-up from beginning.
+- For framing: two groups (A and B), have some info/comittment problem which causes conflict.  To resolve problem, mediation and international intervention are 3rd party ways to solve comittment and information problems.  _Complement to that_ is bottom-up.  COnflicts that ar enot big enogh for international community to mediate.  Lots of "lower level" conflicts which could be resolved with bottom-up approaches.  A way to solve it from bottom-up is intergroup contact/contact hypothesis.
+    - both deal with information and comittment problems to resolve conflict.
+    - Saying "here's one way we solved these bargaining problems, let me show you another way".  ANd let me tell you how it can be better/complementary.
+- Want more of the trust/psych stuff up front.  Too much stuff about intervention up front so everyone thinks its about internaitonal itnervention.  Need to bring up more bargaining problems/trust earlier.
+- But generally likes the setup/layout.
+
+- Really likes introduction with the villages.  
+    - Charla agrees.  For that reason, try not to change first 3 paragraphs.  Move 4th paragraph out.  Summarize more about the study and then get into contributions.
+
+
+# Discussion
+
+- feels a disconnect between the research and the intro/framing at times.
+- WHen we think about top-down interventions, we usually think about with _organized sides_.  Shuttle diplomacy: I am talking with rebel leader, I am talking with government.  But this is communal violence.
+    - problematic with _current_ rhetoric.  But if change it a little bit to complementarity with intervention, this difference is a strength.  **How can we even do this intervention/mediation when there are no leaders??**  It is really not obvious what a top-down intervention _even is_.  We should learn more on communal trust building. [Ekrem].
+    - Contact theory: works cooperate, equal status, shared goals, support of elites.  What is the role of elites?  Are they formal leaders?  Who are they/what is their role?  Without elites, same effect?  Leading people to do things or what?
+        - I actually do not think this is well theorized.  But about social norms.  Charla says address this in maybe 1-2 sentences but not much.
+        - Link ROle of elites with Mediation training component of program.
+        - Nuole says: what is it if people change attitudes without elites?  A revolution?
+
+- Ekrem: when talking about making the paper about TRUST instead of intervention, not a big change.  Just moving around a few things.
+    - mediation always starts with: "what would be the way out for these groups by themselves?  If we add a mediator, how cna this improve the current situation?".  Good roadmap for me to follow perhaps.  Lay out comittment problem/information problem -- weak states (Nigeria) that cannot solve the problem.  SO how can the communities solve this themselves?  Reputation/comittment problems. 
+    - First lay that out.  Then discuss my contributions about that udnerlying stuff.  If we start with intervention, it is about intervention.  It can be at a more fundamentla level.  "We alerady have a way to think about solving these problems.  Here is a thing that (1) makes those interventions work better.  And (2) where the interventions are too costly/not feasible, we can still do stuff."
+        - top-down interventions should work better with these mchasnisms.  We are cleaning the pipes so ANYONE bargaining will do it better, process information less biasedly.
+        - Nuole: Get 2.1 in the intro.  It connects the paper to the trust/bargaining problems.  2.1 is the bigger stuff about bargaining, the interventions are the example of bargaining.
+        - Ekrem: and just use the word trust instead of reputations.
+
+- Ekrem: 3 works in his comments.  
+    - Andew Kydd's book (maybe 2015) "Trust and Mistrust in Internaitonal Relations" and WOrld Politics article in 1997.  Book is trust between SOviets and US taking small steps to icnrease trust between each other.
+    - JCR and Economics article.  Directly looking at civil wars.  Both have models where individual people within different groups are randomly interacting in some way.  Overall trust across these groups determines the outcomes of these individual pairings.  What each individual does has an effect ont he overall trust these groups have for each other.  Trust FOR your group is a public good.  Look at these trust relatinoships and how these can lead to vicious/virtuous cycles for community relationships.
+    - Those 3 articles can complement fearon/powell for framing the initial stuff.  
+        - The mediation stuff is after that.  Second-level, an example of these other things.
+
+
+# My Thoughts
+
+- some paragraphs (or large parts of paragraphs) I can cut.
+    - "International intervention through military intervention and mediation might be conducive to preventing different types of violence than bottom-up peacebuilding programs." That paragraph is not good.  I think there is something there but...maybe revised and relegated to discussion section, not intro.
+    - "Local turn" paragraph is good but has some bad parts.  Sort of sets the paper as part of the bottom-up vs top-down debate in peacekeeping, which is not really what I want.
+
+- The intro "this paper contributes to the literature on" section is weak.
+    - Fulani paragaph is _real weak._
+    - **people said this is one of the substantive reasons we shuld care about.**
+
+- the top-down vs bottom-up/grassroots comparison.  Something is overly antagonistic about it.  Was reading a lot of Autesserre, who is super critical of UN peacekeeping's top-down approach.  But I don't think that's the comparison I want to make.  The paper is not comparing top-down and bottom-up programs, and I am not really trying to say that top-down is bad and bottom-up is good.
+    - **language is "substitutey", should be "complementy"
+
+- I spend too much Theory time in the "intergroup bargaining and why intervention sometimes fails" mode.  I need to get to the "how prejudice complicates intergroup bargaining" and "how psychological reconciliation can reduce prejudice and assist intergroup bargaining."
+    - Also the words I am using are not quite right: top-down, bottom-up, psychological reconciliation, etc...
+    - **move 2.1 to intro so real theory comes earlier**
+
+
+- One of my concerns is that the traditional peacebuilding literature focuses on civil wars and this project is not civil conflict.  Does not involve state actor.
+    - **If framing this paper more about trust, then civil wars and intervention are one example of trust issues and MY STUFF is another example.  Not opposed, an example of the same problem.
+    - I am not differentiating between my program and some other type of program.  Not about types of itnerventions, so dont set it up as one type vs another type.
+    - If framing at more general level and then moving to interventions, can talk about interventions a lot less.  BUndle.  Don't need to be so nuanced.  ALl of these interventions help through certain channels.  my intervention helps people directly but also indirectly.  Can be more succint with the interventions.
+    - Intro is short story from Nigeria, stuff about trust issues, then get to summary of paper (expeirment and my contributions).  Intervention stuff is a contribution, not main point.
+
+- Another concern is placing our intervention in the peacebuilding literature but keeping the focus on the psychological nature of the intervention.  
+
+- Another concern is the conflation of peacebuilding/peacekeeping/peacemaking.
