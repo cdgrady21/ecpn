@@ -77,6 +77,24 @@ sample(us)
 - Really likes introduction with the villages.  
     - Charla agrees.  For that reason, try not to change first 3 paragraphs.  Move 4th paragraph out.  Summarize more about the study and then get into contributions.
 
+## Alice
+
+(1) You could be more careful with defining (i) intergroup animosity, (ii) intergroup conflict, and (iii) intergroup violence. Right now I’m not sure if some of them are synonyms, or if they represent different degrees of intensity / violence. 
+
+(2) I really like the grounding in the “war as bargaining failure” literature. I now really see your mechanism as: 
+Reducing intergroup prejudice —> increases trust —> lessens info and commit probs —> increases likelihood of solving disputes through bargaining rather than violence
+If this mechanism is what you have in mind, I would make it clear and spell it out from the intro, rather than waiting to talk about bargaining in the theory.
+
+(3) I think overall you make a good argument of why your intervention is “better” than traditional peacekeeping interventions. However, I think you can distill the main reasons why that is the case, and list them clearly from the very beginning of the paper. For instance, I got three main reasons: 
+1. Traditional interventions uses strategies that “should” work as opposed to what is most likely to work in a given context (top-down vs. bottom-up?)
+2. Traditional interventions don’t solve the underlying problem that caused the dispute to begin with 
+3. Traditional interventions are slow, untimely, ridden with collective action problems.
+
+
+(4) A more “meta” comment: do you expect that the effect of self-selecting into contact are different from the effects of being forced into contact? (Think about this both at the community and at the individual level). If we start implementing these types of interventions more often, presumably individuals will be able to self-select into increasing contact… So perhaps we really do care about the effect on those who self-select… 
+
+(5) Finally, this is shaping to be so so good! I think the fact that you make the connection between intergroup contact and bargaining IR stuff (how intergroup contact reduces trust, which lessens info and comm problems, which increases bargaining success without violence) is great and makes this even more of a top journal, general interest paper. The writing is also so, so much improved… Really awesome job on this!!
+
 
 # Discussion
 
@@ -138,6 +156,8 @@ The most useful "negative/constructive" comments were about moving the framing o
 
 I think this was most the most useful set of comments overall because it solves most of the framing problems I'd been thinking about after taking a day off from the paper: (i) The awkwardness of talking about international interventions (in the intro) before talking about intergroup bargaining (was first section of theory); (ii) Framing with a literature on intervention that concerns organized groups and applying it to communities (solved if we frame it around trust problems that the communities have, and use interventions as examples of these trust problems); (iii) The semi antagonistic "top-down" vs "bottom-up" comparison that we don't want to make and that our theory is not about; (iv) the focus being on other interventions instead of the theory of prejudice reduction helping solve bargaining problems that lead to conflict.
 
+Also: get theory/mechanism earlier in the paper (easier to do with framing around trust/bargaining problems instead of international intervention).  Specifically: Reducing intergroup prejudice —> increases trust —> lessens info and commit probs —> increases likelihood of solving disputes through bargaining rather than violence.  And intergroup contact/reducing prejudice/increasing trust helps in two ways: (1) directly increase trust which immediately diminishes trust problems (information and comittment), (2) less biased processing of new information so that both sides learn and update views of the other side. 
+
 All around just a huge win to make our pitch about the bigger "trust" phenomenon.  Everyone's main comments were some flavor of this, and after discussion the group had consensus on "trust" framing.  Which is a great framing for us!
 
 ## Set 1 -- Primary
@@ -181,3 +201,23 @@ All around just a huge win to make our pitch about the bigger "trust" phenomenon
 - Theory is less developed/edited than the intro.  Often "statement 1, statement 2" but no logical connection between that.  When finishing the intro, remember to connect the statements.
 
 - A primary audience for this paper will be people who are not well versed in commitment/information/reputation problems.  So need to make those connections _very_ clear and clearly tied to theory/intervention.
+
+
+*****************
+
+# By section from paper comments
+
+## Intro
+
+- Alice: wants more details of the magnitude of the conflict, definition of itnergroup conflict, deifnition of farmer and pastoralist, psychological reconciliation.
+- Caglayan: does not like first sentence, wants to know more about livestock guard.  She notes a disconnect between my discussion of contact working and then the statement that it can be ineffective or counterproductive.  Also notes that the sentence about not finding certain mechanisms is misplaced.  She also notes that our intervention is more than psychological because groups improved their infrastructure and access to water.
+- Charla: first paragraph is in past tense but should be in "has mobilized, has...".  
+- Nuole: remove top-down stuff, get my own stuff earlier.
+- Ekrem likes first two sentences of abstract, but does not understand what this means: "Outside intervention often serve as substitutes for positive intergroup attitudes...".  He notes I cite news articles incorretly.  Likes first paragraph but isn't clear how second paragraph pertains to rest of paper.  Does not like "international intervention influenced by what should work...".  Does not like "International intervention through military intervention and mediation might be conducive" paragraph because (1) lots of unsupported claims and (2) top-down vs bottom-up is not the comparison I am making.  Like Nuole, thinks my stuff needs to come earlier.  Does not like "correlational studies cannot show causal effects..." sentence, but it's okay to sell field experiment.  Does not understand the third implication/contribution about social norms/institutions.
+
+## Theory
+
+- Caglayan notes that "equal status" is not possible with systematic inequalities, like black-white in US.  She also wants to know more about the role of elites.  Why superordinate goals important? And how do superordinate goals work with bargaining problems/trust/reputations for future bargaining?  How can the groups not easily observe each other.
+- Charla: why do groups have the incentive to deceive each other in bargaining <!--Added clause -->?  She also notes that the tone changes a lot from intro to theory.  Does not understand why mediator biased towards peace does not reduce information problems.  
+- Nuole: some of theory not well connected yet.
+- Ekrem: Disagrees with "To successfully bargain, the groups need (1) accurate information about each other, and (2) the assurance that each side will abide by its agreements." because some bargaining might need one but not the other.  He wants to know what it means for an international actor to have a stake in the conflict.  He likes the argument that international actors will not intervene until the dispute escalates because intervention is costly.
