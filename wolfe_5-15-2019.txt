@@ -1,0 +1,73 @@
+
+# Wolfe Discussion 5-14-2019
+
+Excited to reframe intro with trust issues that are in the theory section, rather than international intervention.
+
+### Trust and Prejudice
+
+Yeah, we do not have measures of prejudice.  We have measures of trust that we sort of assume represent prejudice, either because (1) we assume "trust" is part of the concept of prejudice or because (2) we assume trust only changes if prejudice is reduced.
+
+What are her thoughts on the connection between trust and prejudice? <!--easier to disentangle than we think (maybe cuz she is a psychologist). stereotypes, prejudice, discrimination: we do not ask about these.   -->
+
+I think it's okay if we cannot test directly and talk about the potential mechanisms and the trust/prejudice distinction in the paper's Discussion section.  We don't know why trust increases.  We assume there is less prejudice. It could be the conflict/insecurity.  Future questions, not shortcoming of current research.
+
+### Contact Mechanisms
+
+- we do not specify these in PAP, but they are the mechanisms Pettigrew always writes about.  
+
+I think that sentence needs to be removed from introduction section because the paper is not about that.
+
+### Motivation -- elites and civil wars
+
+I want to hear more!  Seems very relevant to the idea that there are not just two homogenous groups fighting.  Each "group" has lots of little groups inside of it.
+
+<!--paragraph where i cite severine: conflict is internal in all those places (DRC, Somalia).  Not where external intervention would work, compared to other places.  Not about top-down vs bottom-up.  Persistent internal conflicts have important ramificiatsion: costs a lot of money, these types of grievances are often elevated/exacerbated by leaders.  Need to resolve so that these countries are not unstable.  "top-down" and "bottom-up" can work together.  Ability for bottom-up programs to improve these areas is limited without top-down agreements.
+
+In Mali, some groups included and not everyone.  Part of S. Sudan, subgroups within an ethnic group in the South often fought against each other.  Internal divisision within S. Sudan.
+
+Agrees that moving these intervention paragaphs to -->
+
+
+### Intro example
+
+I don't know about examples of escalation in control community, but we can ask Danjuma/Israel/Hadiza.
+
+<!--Not clear it's a community we did the program in.  illustrative example -->
+
+### "Reduced conflict" language
+
+Yes, need to be clear these are self-reports.  People's _experience_ of conflict.  People's psychological security.
+
+Be clear and transparent about the experience of violence.
+
+<!--clear result of trust, contact, security.  others are non-significant but add to p-value: social cohesion.-->
+
+### Contact as Promising
+
+I think intergroup contact is still thought of as one of the primary ways to reduce prejudice.  Betsy et al definitely question it for ethnic prejudice.
+
+<!--Contact framing, could edit this paragraph in a way that these people would be comfortable with. 
+
+Also, Aleks and Shana will be a reviewer.  Graem will also probably get it because he studies Nigeria.-->
+
+I need to be more precise about 
+
+### Mult Hypothesis Corrections
+
+1 - still not seeing these much in PS.
+2 - should be denoting families of hypotheses: intergroup attitudes, security, contact/behavior.
+3 - Test things within families simultaneously.
+
+### Social Institutions
+
+I did not make this clear in my head.
+
+<!--The word _institutions_ is tripping me up.  Without a formal institutions, norms can develop that constrain and benefit societal functioning.
+
+Another open question.  We don't know why/how diffusion occurs.  No formal institution setting norms.  But shows that it can happen.-->
+
+Need to be clear about interpersonal mechanism vs generalized norm mechanisms.
+
+### Process for moving forward.
+
+Googledoc for intro/discusion.
