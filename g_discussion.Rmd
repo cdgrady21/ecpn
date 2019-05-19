@@ -34,6 +34,14 @@ More research needed about using intergroup contact to promote peace between peo
 
 ## Discussion
 
+Take-away: 
+
+Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.
+
+Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?
+
+Valuable to think bottom-up and top-down together.  Some calls for more attention to bottom-up approaches [@autesserre2017international; @ditlmann2017addressing; @safunu2012grassroots; @autesserre2016failure].
+
 Would this happen without NGO?  Presence of outside group encouraging the interaction surely helps.  But the situations that these programs exogenously introduce are often mimicked and inspired by real-life experiences of villages that did not descend into conflict.  Notable in...[chris: I think cites are all in autesserre2017 foreign affairs.  Stuff about Congo? Resisting War: How Communities Protect Themselves.  ].  This program "randomly assigns" what those villages developed endogenously.
 
 Cannot _only_ be bottom-up.  Context and policy matter, and elites and governments control policy and set the context.  
