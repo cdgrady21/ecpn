@@ -1,8 +1,9 @@
 ---
-title: "Intergroup Contact Amidst Escalating Conflict - Discussion"
-author: "Christopher Grady"
+title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Discussion"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
+  word_document: default
   pdf_document:
     fig_caption: yes
     fig_height: 7
@@ -10,31 +11,46 @@ output:
     keep_tex: yes
     md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
     number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../utils/bowersarticletemplate.latex
+csl: ../utils/american-political-science-review.csl
+bibliography: ../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
 ```
-
-## Thinking
-
-Big framing points/3 pills:
-
-- Contact theory can be effective even if economic incentives opposed
-- Contact theory can be effective even amidst an escalating conflict
-- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
-
-## Discussion Outline
-
-Could be social desirability bias.  Would indicate the program changed social norms -- still valuable.
-
-Could be survey acquescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
-
-More research needed about using intergroup contact to promote peace between people in conflict.
 
 ## Discussion
 
-Take-away: 
+Take-away: Evidence that psychological intervention increased trust between conflicting groups.  Group members feelings of physical security increased.
 
 Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.
 
@@ -55,14 +71,14 @@ Other Mechanisms: assist intergroup bargaining with opportunities for costly sig
 <!--Scaling up with TV/radio -->
 An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
 
-Any attempt to scale-up intergroup contact relies on mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009 used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
+An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009 used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
 <!--From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
 Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.  Future work should also investigate "scaling up" grassroots interventions, especially those involving intergroup contact.  Not every conflicting group can have contact with the other side.   Contact between key actors that could diffuse the positive effects of contact & change social norms.  And research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
 
+Could be social desirability bias?  Would indicate the program changed social norms -- still valuable.
 
-*******
+Could be survey acquescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
 
-<!--
-# Scacco
+More research needed about using intergroup contact to promote peace between people in conflict.
 
--->
+# References
