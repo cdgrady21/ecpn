@@ -54,7 +54,9 @@ Take-away: Evidence that psychological intervention increased trust between conf
 
 Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.
 
-Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?
+Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trut and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
+
+Farmer-pastoralist situation is like an infinitely repeating game.  Gives each group the incentive to cooperate so that the other side will cooperate in the future.
 
 Valuable to think bottom-up and top-down together.  Some calls for more attention to bottom-up approaches [@autesserre2017international; @ditlmann2017addressing; @safunu2012grassroots; @autesserre2016failure].
 
