@@ -1,0 +1,51 @@
+---
+title: "jim_talk_5-23-2019"
+author: "grady"
+date: "May 23, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Comments
+
+- put the contributions at the end of intro earlier.  That is the big, hard hitting stuff.  Grab the reader initially about why the article is important.
+    - he says this might be an old-fashioned view about organization.  Those 4 points, then the theorybuilding, then the specific later.
+    - the 4 points alert the reader to what I am doing.
+- tons of stuff going on with the terms being used.  Prejudice comes in and out and then back in.
+    - animosity vs prejudice?  stick with one term, unless you are trying to draw a distinction.  Use animosity.  Prejudice connects with a large literature, but it brings in a very specific concept that I don't need and invites people to nitpick.
+    - conflict vs dispute?
+    - use the terms that are really key and forget the other terms.  **Do you even need PREJUDICE?**  Or can you just use animosity and trust?  Animosity does not have the specific connotations that prejudice has.
+    - Use _violence_ instead of conflict?  Violence is specific and conveys something.  conflict is another term that is similar to prejudice.
+- Jim was asking himself about the causal pathways -- what is causing what?  Which comes first: increased trust, or reduced conflict.
+    - need something about subgroups not fighting so they can build trust.
+    - Bar-tal says trust cannot be increased before conflict is gone.
+- Reputations?  Most people will prefer the term perceptions.
+- Like the last section: here's why it could fail.  If it doesn't fail, come back to it in discussion.
+- still a bit wordy and wanders a bit.
+
+
+- Potentially one of the most interesting pieces of research he has seen.
+    - don't rush it.
+- the upfront stuff is good.  It needs to be especially good so that the reader overlooks the empirical problems (small-N, self-selection).  Need them to accept the limitations.
+
+
+## Organization
+
+- right now it starts with the very thing you are going to study.  Bring the other points up earlier.  Gotta make those contributions clear earlier.
+
+## Survey Exps
+
+- chapter should be about survey experiments generally, anything Jim wants.
+
+- say something profound, not just repeating/aggregating.
+- what is the "profound" thing we can say about survey experiments?
+
+- strengths and weaknesses
+- how to maximize strengths (of both svys and experiments) and minimize weaknesses.
+- think about what survey experiments are doing in the mind of the respondent.  This tells you how to maximize strengths and minimize weaknesses.
+
+
+INSTEAD OF vs IN ADDITION TO
