@@ -1,8 +1,9 @@
 ---
 title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Theory"
-author: "Christopher Grady"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
+  word_document: default
   pdf_document:
     fig_caption: yes
     fig_height: 7
@@ -10,32 +11,65 @@ output:
     keep_tex: yes
     md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
     number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../utils/bowersarticletemplate.latex
+csl: ../utils/american-political-science-review.csl
+bibliography: ../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
 ```
 
-# Theory: Intergroup Conflict as a Bargaining Problem
+# Theory
+
+## Intergroup Conflict as a Bargaining Problem
 <!--Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  Strong 3rd parties solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem.  Bigger versions of "Intergroup conflict is often conceptualized as a bargaining problem" and "How can groups in conflict escape this spiral of distrust and conflict?" paragraphs from intro.-->
 
 Intergroup conflict is most often conceptualized as a bargaining problem [@fearon1994ethnic; @powell2006war], and most solutions to reducing intergroup conflict strive to help the groups overcome those bargaining problems [@di2017effectiveness; chris: this cite is just for peacekeeping/intervention].  Intergroup conflict is a bargaining problem because both groups want some resource -- land, power, etc -- but cannot reach an agreement about how to distribute that resource peacefully.  Because fighting is costly, the groups are better off reaching a bargained compromise and not fighting.  However, two bargaining problems prevent this: information problems and commitment problems.  To successfully bargain, the groups need (1) accurate information about each other's strengths and preferences, and/or (2) the assurance that each side will abide by its agreements.  
 
-An _information problem_ arises because neither group possesses accurate information about the other, and both groups have an incentive to deceive the other in order to achieve an advantageous bargaining outcome.  Groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are [@fearon1995rationalist]. This causes bargaining failures because neither group knows what agreements the other side is willing to accept or what their side should receive from bargaining.  A _comittment problem_ arises because neither group can credibly commit to honor bargained agreements if bargaining power shifts in the future.  If bargaining power shifts, one side will have an incentive to renege on the status quo agreement to achieve a better agreement.  Neither group can commit to honor agreements made today when both groups know that bargaining power may shift tomorrow.[^bargainChange]  Without the ability to commit to agreements, bargaining will not be successful.
+An _information problem_ arises because neither group possesses accurate information about the other, and both groups have an incentive to deceive the other in order to achieve an advantageous bargaining outcome.  Groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are [@fearon1995rationalist]. This causes bargaining failures because neither group knows what agreements the other side is willing to accept or what their side should receive from bargaining.  A _commitment problem_ arises because neither group can credibly commit to honor bargained agreements if bargaining power shifts in the future.  If bargaining power shifts, one side will have an incentive to renege on the status quo agreement to achieve a better agreement.  Neither group can commit to honor agreements made today when both groups know that bargaining power may shift tomorrow.[^bargainChange]  Without the ability to commit to agreements, bargaining will not be successful.
 
 [^bargainChange]: Power between the groups can shift due to factors that affect each group's preferences and capabilities. Internally, one group may grow in power or size, one group may disarm before the other, the groups may have factions that reject the agreement, the groups may change leaders, or group members attitudes may change for other reasons.  Externally, the groups may gain or lose de facto or de jure state support, other external actors may switch allegiances, or some other shock may change each group's power relative to the other [@fearon2004civil; @reed2016bargaining; chris: need to cite and add more].  Anything that will change group power in the future can cause commitment problems in the present.
 
-Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome information problems through fighting, as they learn about each others capacity and willingness to fight [@smith2003mediation].  Groups can also overcome information problems through mediation.  An interested third party mediator with no stake in the conflict can provide accurate information to both sides, helping each side reach a bargain [@ott1972mediation; @kydd2006can; @beber2012international] <!--mediators also prevent groups from saying inflammatory things to each other [chris: forgot cite] -->  Even if groups overcome information problems, commitment problems could prevent groups from reaching an agreement.  The main way that groups overcome commitment problems is through strong third parties that add large costs to reneging on agreements [@fearon1998comittment; @powell2006war; @doyle2000international].  Though each group may have an incentive to defect on its agreement if bargaining power changes in a vacuum, the groups have no incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements.  With a third party punishing defection, the groups can bargain in good faith knowing that the other will abide by its word.
+Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome information problems through fighting, as they learn about each others capacity and willingness to fight [@smith2003mediation].  Groups can also overcome information problems through mediation.  An interested third party mediator with no stake in the conflict can provide accurate information to both sides, helping each side reach a bargain [@ott1972mediation; @kydd2006can; @beber2012international] <!--mediators also prevent groups from saying inflammatory things to each other [chris: forgot cite] -->  Even if groups overcome information problems, commitment problems could prevent groups from reaching an agreement.  The main way that groups overcome commitment problems is through strong third parties that add large costs to reneging on agreements [@fearon1998commitment; @powell2006war; @doyle2000international].  Though each group may have an incentive to defect on its agreement if bargaining power changes in a vacuum, the groups have no incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements.  With a third party punishing defection, the groups can bargain in good faith knowing that the other will abide by its word.
 
 <!--still left out: "In many conflicts, the conflicting groups are not united and therefore it is not clear who is involved in bargaining and who the external actor should punish if one side defects."-->
 
 If we know how to resolve intergroup conflict, why does conflict persist?  International mediation and intervention are dogged by two issues of motivation.  First, mediators are often motivated for peace.  This motivation implies that mediator's provide information that is biased towards encouraging the groups to negotiate a peace agreement.  This means that peace-biased mediators do not solve information problems.  For mediators to reduce information problems, groups engaged in bargaining must believe that mediators provide accurate, unbiased information.  Since both groups know that mediators are biased towards peace, mediators may not help groups achieve peace [@smith2003mediation; @kydd2006can; @fey2010shuttle].  This same argument prevents mediators who are biased for or against disputants from solving information problems [@kydd2006can].[^mediation]
 
-[^mediation]: Whether mediation is benefited from biased or unbiased information is still a matter of debate.  Some scholars believe bias improves mediation.  The primary mechanisms proposed are that biased mediators are more likely to have relevant private information [@savun2008information] and that a biased mediator who tells his _favored_ group to compromise will be heeded [@kydd2003side; @svensson2009brings].  We tend to side with @beber2012international, @rauchhaus2006mediation, @crescenzi2011supply, and @kydd2006 and believe that unbiased mediation improves mediation outcomes.  @kydd2006can and @beber2012international provide compelling theoretical arguments: effective mediators must be both unbiased and motivated, but that motivation and bias often overlap.  We are also amenable to the argument of @fey2010shuttle that mediator success actually has less to do with information provision and more with agenda setting, offering carrots/threatening sticks, and serving as a back channel.
+[^mediation]: Whether mediation is benefited from biased or unbiased information is still a matter of debate.  Some scholars believe bias improves mediation.  The primary mechanisms proposed are that biased mediators are more likely to have relevant private information [@savun2008information] and that a biased mediator who tells his _favored_ group to compromise will be heeded [@kydd2003side; @svensson2009brings].  We tend to side with @beber2012international, @rauchhaus2006mediation, @crescenzi2011supply, and @kydd2006can and believe that unbiased mediation improves mediation outcomes.  @kydd2006can and @beber2012international provide compelling theoretical arguments: effective mediators must be both unbiased and motivated, but that motivation and bias often overlap.  We are also amenable to the argument of @fey2010shuttle that mediator success actually has less to do with information provision and more with agenda setting, offering carrots/threatening sticks, and serving as a back channel.
 
 Second, international actors may lack the motivation to mediate or to intervene into the conflict, even if one group reneges on its agreement.  Intervention is costly and many international actors either cannot credibly commit to intervene into many conflicts or have no interest in intervening into many conflicts [@kydd2006can; @fey2010shuttle; @beber2012international].  This lack of motivation is especially relevant for intergroup conflict between groups within a state.  Most international actors and strong third parties lack an incentive to intervene into intrastate intergroup conflicts, and these disputes tend to take place within states that lack the capacity to compel both sides themselves.  Since intervention is costly, strong third parties have an incentive to intervene only _after_ fighting escalates, so intervention will generally not be used to prevent conflict from escalating or to reduce the persistent, smaller-scale violence that plague many countries.  Where external actors are motivated to intervene, intervention is a short-term peace solution and its effects do not endure with the departure of the external actor [@rohner2013war; @beardsley2008agreement; @weinstein2005autonomous].  Once the external actor leaves, the groups' commitment problem returns: with no one to punish defection, the groups have no reason to trust each other.
 
-Rather than rely on third parties to mediate or punish defection, groups in conflict can achieve peace by building mutual trust.  Reputations for trustworthiness are how groups overcome bargaining problems in the absence of formal enforcement mechanisms [@ostrom2000; @kydd2000trust, @rohner2013war; @ostrom2003trust].[^reputation]  Mutual trust overcomes bargaining problems because information and commitment problems are both, at their heart, problems of trust.  For information problems, groups do not trust the information they get from the other side.  For commitment problems, groups do not trust the other side to abide by its agreements.  Cultivating a reputation as a trustworthy partner in previous interactions gives a bargaining partner confidence that you are trustworthy in the present interaction.
+Rather than rely on third parties to mediate or punish defection, groups in conflict can achieve peace by building mutual trust.  Reputations for trustworthiness are how groups overcome bargaining problems in the absence of formal enforcement mechanisms [@ostrom2000collective; @kydd2000trust, @rohner2013war; @ostrom2003trust].[^reputation]  Mutual trust overcomes bargaining problems because information and commitment problems are both, at their heart, problems of trust.  For information problems, groups do not trust the information they get from the other side.  For commitment problems, groups do not trust the other side to abide by its agreements.  Cultivating a reputation as a trustworthy partner in previous interactions gives a bargaining partner confidence that you are trustworthy in the present interaction.
 
 [^reputation]: Reputations based on previous behavior work because each group wants to be known as a trustworthy partner.  As a trustworthy partner, they are likely to (1) attract other trustworthy partners, and (2) elicit trusting behavior from partners.  Though defecting may be beneficial in one specific instance, getting a reputation for defection harms a group's ability to achieve agreements in the future.  By relying on reputation and the knowledge that groups desire good reputations, groups can coordinate in the absence of a strong third party.  The reputation argument is generally mobilized for contexts in which many groups observe the behavior of each other group.  Because there are many potential partners in the future, a good reputation has high payoff in the form of many potential cooperative partners in the future.  In our case, there are two main sides forming perceptions about the reputation of each other.  This closely mimics repeating prisoner's dilemma interactions as shown in @axelrod1980effective and @axelrod1980more.
 
@@ -45,7 +79,7 @@ Rather than rely on third parties to mediate or punish defection, groups in conf
 
 Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].-->
 
-However, groups in conflict are unlikely to build trusting relationships.  Intergroup conflict fuels and is fueled by intergroup animosity, and animosity makes peace difficult to attain [@allport1954prejudice; @sherif1958superordinate].  Groups in conflict dehumanize the outgroup [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral], view the outgroup as innately immoral [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435], do not naturally feel empathy for outgroup members [@gutsell2010empathy], are unlikely to forgive outgroup transgression [@tam2007], and believe outgroup members to be untrustworthy and dishonest [@levine1972ethnocentrism; @eidelson2003dangerous].  With this set of attitudes, outgroups are unlikely to develop reputations as trustworthy partners, even if both groups prefer mutual cooperation to war.  The groups are trapped in a mutually-defecting Prisoner's Dilemma.
+However, groups in conflict are unlikely to build trusting relationships.  Intergroup conflict fuels and is fueled by intergroup animosity, and animosity makes peace difficult to attain [@allport1954prejudice; @sherif1958superordinate].  Groups in conflict dehumanize the outgroup [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral], view the outgroup as innately immoral [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435], do not naturally feel empathy for outgroup members [@gutsell2010empathy], are unlikely to forgive outgroup transgression [@tam2007impact], and believe outgroup members to be untrustworthy and dishonest [@levine1972ethnocentrism; @eidelson2003dangerous].  With this set of attitudes, outgroups are unlikely to develop reputations as trustworthy partners, even if both groups prefer mutual cooperation to war.  The groups are trapped in a mutually-defecting Prisoner's Dilemma.
 
 ## How Intergroup Animosity Perpetuates Conflict
 
@@ -67,7 +101,7 @@ Along with psychological benefits, group members may receive social benefits for
 
 Leaders are also constrained by animosity among their group.  Groups are known to punish leaders for cooperating or compromising with the outgroup [@fearon1994domestic], so the set of peace agreements available to the leader of one group is likely unacceptable to the other.<!--chris: domestic audience costs-->.  Leaders of hostile groups also cannot credibly commit to keep their group members in check, as some subgroups may feel confident enough to disobey agreements made by group leaders.  Due to increased (1) likelihood of information and commitment problems, (2) internal psychological evaluations that favor competition over cooperation, and (3) social sanctioning for group members and leaders perceived as betraying the ingroup, animosity reduces the likelihood of successful bargaining and makes violent conflict more likely.<!--chris: need better discussion of internal evaluations -->
 
-Animosity also sabotages peace in indirect, pernicious ways.  Indirectly, intergroup animosity biases interpretations of ingroup and outgroup behavior and prevents accurate perceptions about the attitudes and preferences of the outgroup.  Ingroups will perceive their own belligerent actions as defensive and justified, and are more likely to perceive outgroup actions as aggressive, negatively motivated, and unjustified [@hewstone1990ultimate; @amir1969contact; @hunter1991intergroup chris: also cite confirmation bias, anchoring bias].  <!--If groups want to dislike each other, they will. Klein and Kunda, brewer1991/1999 -->  The perceived negative behavior may be seen as _defining_ the group, whereas any perceived positive behavior may be seen as the _exception_ to the group [@allison1985group; @pettigrew1979ultimate].  Even positive intergroup interactions may be re-interpreted as negative to avoid cognitive dissonance [@festinger1962cognitiveDissonance; @gubler2013humanizing; @paolini2010negative].  Interpreting interactions negatively saps the power of each group to reassure the other with costly signals of willingness to cooperate in future interactions [@kydd2000trust, @rohner2013war].  It also adds to information problems as groups will hold inaccurate views about each other's willingness to cooperate and likelihood of upholding agreements.  As @axelrod1980 shows, perceived untrustworthy behavior by one side often begets a cycle of mistrust.
+Animosity also sabotages peace in indirect, pernicious ways.  Indirectly, intergroup animosity biases interpretations of ingroup and outgroup behavior and prevents accurate perceptions about the attitudes and preferences of the outgroup.  Ingroups will perceive their own belligerent actions as defensive and justified, and are more likely to perceive outgroup actions as aggressive, negatively motivated, and unjustified [@hewstone1990ultimate; @amir1969contact; @hunter1991intergroup chris: also cite confirmation bias, anchoring bias].  <!--If groups want to dislike each other, they will. Klein and Kunda, brewer1991/1999 -->  The perceived negative behavior may be seen as _defining_ the group, whereas any perceived positive behavior may be seen as the _exception_ to the group [@allison1985group; @pettigrew1979ultimate].  Even positive intergroup interactions may be re-interpreted as negative to avoid cognitive dissonance [@festinger1962cognitiveDissonance; @gubler2013humanizing; @paolini2010negative].  Interpreting interactions negatively saps the power of each group to reassure the other with costly signals of willingness to cooperate in future interactions [@kydd2000trust, @rohner2013war].  It also adds to information problems as groups will hold inaccurate views about each other's willingness to cooperate and likelihood of upholding agreements.  As @axelrod1980effective shows, perceived untrustworthy behavior by one side often begets a cycle of mistrust.
 
 <!--reputation as a mean of overcoming comittment problems when there is no third party.  How prejudice and biased interpretations of behavior prevent reputations from forming, even when both groups are the "complier" type.-->
 
@@ -87,9 +121,9 @@ The problems of negative intergroup attitudes suggests that improving those atti
 
 Intergroup contact theory posits several conditions necessary for intergroup contact to improve relations.  Groups must cooperate with equal status to achieve shared goals with the support of elites.  Intergroup contact under these conditions gives the ability give strong costly signals about a group's reputation and the "group type" as a conditional complier: we will honor our agreements if you honor yours.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).  When groups are in conflict, most incidental intergroup contact will be highly adversarial.  
 
-Groups need opportunity to signal trustworthiness and preferences for cooperation [@kydd2000trust, @rohner2013war].  Structured intergroup contact provides opportunities for these signals.  When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1954].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.
+Groups need opportunity to signal trustworthiness and preferences for cooperation [@kydd2000trust, @rohner2013war].  Structured intergroup contact provides opportunities for these signals.  When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1958superordinate].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.
 
-Ingroup identification does not necessitate outgroup hate [@allport; @brewer1999; @halevy2008group].
+Ingroup identification does not necessitate outgroup hate [@allport1954prejudice; @brewer1999ingroupOutgroup; @halevy2008group].
 
 <!--
 Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup policing/censuring [@ditlmann2017addressing; @Fearon1996].  Ingroup policing works because we cannot do things if our community dislikes those things.-->
@@ -129,32 +163,6 @@ Intergroup contact may only reduce prejudice from high-status group to low-statu
 Relative deprivation theory: the groups still see the other as responsible for ingroup deprivations.
 
 ## Hypotheses
-
-**Main**
-
-Increased trust.  
-
-Increased affect.
-
-Increased cooperation.
-
-Increased physical security.  Decreased violence experienced.
-
-Increased contact?
-
-**Secondary**
-
-Increased dispute resolution success
-
-Decreased threat
-
-Ingroup expansion? (social cohesion 1)
-
-Intergroup empathy? (social cohesion 2)
-
-Perceptions of benefit
-
-Sharing resources
 
 
 
