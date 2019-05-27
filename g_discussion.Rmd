@@ -52,7 +52,13 @@ options(SweaveHooks=list(fig=function(){
 
 Take-away: Evidence that psychological intervention increased trust between conflicting groups.  Group members feelings of physical security increased.
 
-Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.
+Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
+
+Not clear that the program increased people's confidence in dispute resolution systems.
+
+Mechanism could be "ability to identify local outgroup from non-local outgroup".
+
+Farmers arresting livestock guard suggests some level of ingroup policing or of viewing the farmer and pastoralist communities as tied together.
 
 Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trut and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
 

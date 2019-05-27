@@ -15,16 +15,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-oOmes after theory, before Intervention details.
-
-## Thinking
-
-Big framing points/3 pills:
-
-- Contact theory can be effective even if economic incentives opposed
-- Contact theory can be effective even amidst an escalating conflict
-- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+<!--
+Comes after theory.  Intervention Details moved to design.
 
 ## Context Outline
 
@@ -32,17 +24,45 @@ Big framing points/3 pills:
 - The setting: rural, economic
 - the background: these populations used to get along, but population booms and climate change reduce land:people ratio
 - The conflict: escalating, burnt village/livestock guard, expulsion
+-->
 
 ## Context
 
-While most attention to conflict in Nigeria focuses Boko Haram, persistent violence between farmers and pastoralists in Nigeria’s Middle Belt has contributed to more casualties (Fulton and Nickels, 2017) and costs the Nigerian economy $13 billion a year (MacDougal et al, 2015). 
+Farmer-pastoralist conflict in Nigeria's Middle Belt provides a context to learn about intergroup conflict.  Nigeria’s Middle Belt divides the country between north and south, and houses a blend of various ethnic groups, with no clear majority. The south comprises primarily Christian farmers from various ethnic groups, while Muslims from the Hausa and Fulani ethnic groups — including the mostly Fulani pastoralists — dominate the north of the country. These religious, ethnic, and occupational identities intersect and create deep fault lines between communities.   Historically, these communities interacted through trade and shared access to land.  However, in recent years, interconnected factors have made these interactions more contentious.  The Middle Belt has been stressed by climate change, population booms, migration, and government policies perceived to favor some groups over others.  These stressors have sparked violent conflict between farmers and pastoralists in recent years.
 
-Groups used to commit to collaboration -- sharing land, sharing manure, sharing crop residue, sharing food (meat for grains, vegetables).  But as situation changed groups could no longer commit.
+Changing climate contributes to conflict in two ways.  First, changing climate has reduced available water sources and less land conducive to farming or grazing.  As the Sahara expands southward [@thomas2018sahara] and water sources dry [@okpara2015conflict], farmers and pastoralists have to share fewer resources.  Second, changing climate pushes pastoralists southward.  Their southward migration causes even more demand for land and water just as those resources are becoming more scarce.  
 
-Fulani have local, territorial desires.
+Land scarcity is exacerbated by Nigeria's population boom.  Nigeria's population increased from 73 million people in 1980 to an estimated 200 million people in 2019.  The rapidly growing population means increasing demand for land, simultaneous with a decreasing supply of land.  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
+
+Semi-nomadic pastoralists pushed south by the expanding Sahara have met resistance as they move into lands occupied by other groups.  The new migrants do not have longstanding agreements with farming communities the way that the longer-term pastoralists do.  Groups used to commit to collaboration -- sharing land, sharing manure, sharing crop residue, sharing food (meat for grains, vegetables).  But as situation changed these agreements have fallen apart.
+
+Grievances related to access land and water points are compounded by the “indigene versus settler” policy, which limits land ownership and other rights, including political representation, to certain
+ethnic groups in each state (Nigeria Research Network 2014). Certain communities—often, though not always, pastoralists, who are seen as “settlers”—are denied the right to run for public office, limiting the incorporation of their views into local policies. Official cattle routes and reserves for moving herds are rarely enforced by the government, leading farmers to plant crops in once-protected areas, which further limits pastoralists’ available grazing space. Compounding matters, the government of Benue State enacted an anti–open grazing law in November 2017, which many pastoralists viewed as biased against them, sparking more violence in the area.
+
+Primarily an economic conflict.  Groups fighting for land rights.  Generally the goals of each side are local and territorial.
+
+Exacerbated by ethnic and religious differences.
+
+Primarily rural conflict.  State does not project power to these areas, and viewed as biased.
 
 
-farmer-pastoralist clashes are a persistent problem throughout the Sahel and savannah areas of Africa, including the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  
+This persistent violence continues to have debilitating effects on Nigerians and the economy. First, it has taken many lives. In 2013 alone, Plateau, Kaduna, Nasarawa, and Benue states registered more than 100 incidents of violent conflict, accounting for more than 1,050 deaths (Mercy Corps 2018).4 The more recent violence left 300,000 displaced (Akinwotu 2018) and more than 1,476 dead in 2018 (Harwood 2019). The Middle Belt is considered Nigeria’s “food basket” and is central to key value chains throughout the country, including beef, dairy, and cash crops such as cassava. This violence has impeded food production and threatens to create a food shortage (Hailemariam 2018). Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year (McDougal et al. 2015).As one reporter said, "the specific original grievance is forgotten and replaced by general animus toward the other group..  The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].
+
+Farmer-pastoralist conflict in the Middle Belt is not dissimilar from current and past conflicts in other parts of the world.  Throughout Sahel -- farmer-pastoralist clashes are a persistent problem throughout the Sahel and savannah areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  In South Sudan, Myanmar, Bosnia.  "Range wars" between farmers and ranchers in 19th and early 20th century American West.  Can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.
+
+
+## Intervention
+
+The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  It started with a series of community meetings, beginning with separate farmer and pastoralist meetings that built up to joint decision-making meetings with the two groups together.  Each joint project committee included an even number of farmers and pastoralists, as well as women and youth representatives, and totaled between 12 and 15 members. Each committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint projects, of approximately \$25,000.
+
+The quick-impact projects were conceived as a trust-building initiative, intended to let community members see that cooperation was possible. Projects, managed by both farmers and pastoralists, included hand pumps, construction or rehabilitation of market stalls and schools, rehabilitation of health centers, and construction of fences along grazing routes to protect farmlands. The joint economic development projects aimed to address an underlying issue related to the conflict: sharing of resources that impact livelihoods. Pollution of water, affecting both farming and livestock, was the primary issue people raised. As a result, each site received a new borehole well, with farmer and pastoralist youth helping to construct the wells.  
+
+The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.
+
+These projects were designed with the conditions of Contact Theory in mind.  Groups (1) cooperated with (2) equal status to achieve (3) shared goals with (4) support of local authorities.  These projects were meant to help the groups solve some underlying resource problems that drove conflict.  Collectively, these project give groups the opportunity so send costly signals about their willingness to cooperate [@kydd2000trust, @rohner2013war].
+
+Will these cooperative interactions allow each group to trust the other?  Will 
+
 
 *******
 
