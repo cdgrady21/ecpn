@@ -128,7 +128,7 @@ Third, we contribute to the literature about the role of social diffusion and in
 
 <!--Fulani getting cleansed -->
 
-Fourth, this paper's focus on farmer-pastoralist conflict is especially important because the pastoralists are of the Fulani ethnic group.  The Fulani are the largest semi-nomadic people on Earth, but their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent conflict between Fulani and settled peoples can help prevent the eradication of a people and their way of life.
+Fourth, this paper's focus on farmer-pastoralist conflict is especially important because the pastoralists are of the Fulani ethnic group.  The Fulani are the largest semi-nomadic people on Earth, but their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent conflict between Fulani and settled peoples can help prevent the eradication of a people and their way of life, and potentially help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa. 
 
 <!--Roadmap.-->
 
