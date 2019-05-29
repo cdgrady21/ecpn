@@ -16,18 +16,22 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Thinking
-
-Big framing points/3 pills:
-
-- Contact theory can be effective even if economic incentives opposed
-- Contact theory can be effective even amidst an escalating conflict
-- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
 
 ## Results Outline
 
 ## Results
 
+# Results
+
+**Sig Increase**: Trust, Security, Contact self-report & observed in markets
+
+**Increase**: Intergroup empathy, some affect survey exps
+
+**Nothing**: Ingroup expansion, observed contact at social events, Dispute resolution index, threat.
+
+**Decrease**: Cooperation in PGG, List Exp.
+
+![](../../figs/ecpn_coefplots_indices.png)
 
 *******
 

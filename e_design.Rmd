@@ -22,52 +22,41 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Design
 
-
-## Intervention
-
-Intervention with two communities in conflict.
-Details of ECPN.  Intergroup contact, including leaders of each group.^[Leaders of each group also received mediation training.]  Groups first meet _separately_ to prepare them to be brought together.
-
-
 ## Site Identification
 
 Inclusion/Exclusion criteria.  To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
 
 ## Evaluation
 
-Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned participants in treatment 
+Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned individual-level study with (1) full participants, (2) nonparticipants, and (3) controls.  Full participants and nonparticipants are both from intervention communities.  Full participants join project committees where they directly interact with outgroup members,  nonparticipants do not.  Controls are individuals in control communities.  In intervention sites individuals self-selected into full participation or nonparticipation. 
 
 ## Outcomes
 
 **Attitudes**
+
 Intergroup Trust: self-report
+
 Intergroup affect: survey experiments
 
 **Behaviors**
+
 Cooperation: PGG
+
 Intergroup contact: self-report, markets/social events
 
 **Violence**
+
 Physical security: self-report
 
 **Mechanisms**
+
 Dispute Resolution: resolution index
+
 Threat: threat index
+
 Ingroup expansion: social cohesion 1
+
 Intergroup empathy: social cohesion 2
-
-*******
-
-# Results
-
-**Sig Increase**: Trust, Security, Contact self-report & observed in markets
-**Increase**: Intergroup empathy, some affect survey exps
-**Nothing**: Ingroup expansion, observed contact at social events, Dispute resolution index, threat.
-**Decrease**: Cooperation in PGG, List Exp.
-
-#### Misc
-
-- Some spillover to control due to site closeness, but this would only bias our estimated downwards.
 
 ## Limitations
 

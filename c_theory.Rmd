@@ -107,21 +107,48 @@ Animosity also sabotages peace in indirect, pernicious ways.  Indirectly, interg
 
 The indirect effect of animosity on intergroup bargaining poses a major obstacle to groups overcoming bargaining problems through trustworthy reputations.  Groups tend to ascribe negative traits to the outgroup, and also tend to remember negative events that corroborate their negative beliefs [@tajfel1981groups, @brewer1999ingroupOutgroup; @klein1992motivated; @brewer1991social].  Groups in conflict are given many events to justify their negative perceptions.  Initial negative perceptions, and the biased interpretations they beget, make it very difficult for a group to develop a positive reputation with a group they are in conflict with, even when both groups are motivated to end the conflict.  This bias likely pushes each group's perception of the other side's willingness to make peace further from their true willingness to make peace and so reputations hinder, rather than aid, intergroup bargaining processes.
 
-Reputations for trustworthiness are also hampered by a lack of opportunities for groups to observe each others behavior and to learn the outgroup's reputation.  Compounding that problem, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup.  This means that the main opportunity to observe outgroup behavior and learn their reputation is your own interactions with the outgroup.  For groups in conflict, these opportunities are likely rare and almost always adversarial.
+Reputations for trustworthiness are also hampered by a lack of opportunities for groups to observe each others behavior and update perceptions of the outgroup's trustworthiness.  Compounding that problem, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, providing fewer opportunities for updating.  This means that the main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup.  For groups in conflict, these opportunities are likely rare and almost always adversarial.
 <!--
 (This also means that the outgroup has less incentive to cooperate with your ingroup because they are less likely to be punished for defecting in a world where reputation is built off of _experienced_ interactions, rather than previous _observed_ interactions. [chris: Scott Page's coursera on overcoming collective action problems cites a model where the more people who can see your interaction the more incentive you have to cooperate.].  Not sure this is relevant.) <!--Mediation can also be good when the groups are likely to say inflammatory things to each other.  Going through a mediator prevents that. chris: don't remember the citation, and this belongs in a diff section. -->
 
 <!--Reputations are most useful when (1) when each group knows its behavior will be viewed by many other groups and (2) a group's reputation can be gleaned from observing the other side's interactions with many other groups.  Unlike trade situations, groups in conflict  are unlikely to have a -->
 
-## Intergroup Contact to Increase Trust and Reduce Conflict (How to Increase Trust and Why it Can Work)
+## Peacebuilding Interventions to Increase Trust
 
-<!--Bottom-up Psychological reconciliation, intergroup contact.  Define what it is, when it should work.-->
+<!--Bottom-up intergroup contact.  Define what it is, when it should work.-->
 
-The problems of negative intergroup attitudes suggests that improving those attitudes could lead to peace-promoting behaviors and reduce conflict.  One approach to improving intergroup attitudes comes from intergroup contact theory.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup relations.  Improving relations -- especially improving trust -- can help groups overcome bargaining problems and reduce the likelihood of violence.
+The problems of negative intergroup attitudes suggests that improving those attitudes could lead to peace-promoting behaviors and reduce conflict.  One approach to improving intergroup attitudes comes from intergroup contact theory [@allport1954prejudice].  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup relations.  Improving relations -- especially improving trust -- can help groups overcome bargaining problems and reduce the likelihood of violence.
 
-Intergroup contact theory posits several conditions necessary for intergroup contact to improve relations.  Groups must cooperate with equal status to achieve shared goals with the support of elites.  Intergroup contact under these conditions gives the ability give strong costly signals about a group's reputation and the "group type" as a conditional complier: we will honor our agreements if you honor yours.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).  When groups are in conflict, most incidental intergroup contact will be highly adversarial.  
+Intergroup contact theory posits four conditions necessary for intergroup contact to improve relations.  Groups must (1) cooperate (2) with equal status (3) to achieve shared goals (4) with the support of elites.[^otherContact]  Myriad ways that contact could improve intergroup relations.  Could change perceptions and replace negative imagined stereotypes with positive direct experiences.   
 
-Groups need opportunity to signal trustworthiness and preferences for cooperation [@kydd2000trust, @rohner2013war].  Structured intergroup contact provides opportunities for these signals.  When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1958superordinate].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.
+Could improve reputations/remove stereotypes.  Increase perception of trustworthiness/intergroup trust.  Contact gives opportunity for costly signals.  Reputations will help groups overcome information and commitment problems.  Groups trust information they get from the other group.  Groups trust the other group to abide by agreements because they believe the other group is also motivated by peace.
+
+
+
+
+
+
+Could change emotional reactions to the group, either by increasing feelings of empathy or decreasing feelings of threat.  
+
+Could cause groups to reconceptualize their ingroup to include the former outgroup.  Seeing our two groups as one, seeing our incentives as aligned.  
+
+Could create cognitive dissonance that allows individuals to re-evaluate their beliefs [@gubler].
+
+Can give group members interactions that reduce perceptual biases.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).  
+
+Costly signals: gives each group the opportunity to give strong costly signals about a group's reputation and the "group type" as a conditional complier: we will honor our agreements if you honor yours.
+
+Other perspectives focus on the achievement of a joint goal that shows both groups they are _materially_ better off [superordinate goal/RGCT].  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1958superordinate].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.
+
+[^otherContact]: Under other conditions -- incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- the structure of the contact may _not_ improve relations [@enos2014causal; @forbes1997ethnic]<!--hhabyarimana et al 2007; vanhanen 1999-->.]
+
+
+
+Groups wondering which type the other group is and making decisions based on that perception.  If other group will cooperate, we should cooperate.  If other group defects, we should defect.  Groups can learn how each other will respond to big interactions by how they respond to smaller interactions.  
+
+When groups are in conflict, most incidental intergroup contact will be highly adversarial. 
+
+Groups need opportunity to signal trustworthiness and preferences for cooperation [@kydd2000trust, @rohner2013war].  Structured intergroup contact provides opportunities for these signals.  When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.  
 
 Ingroup identification does not necessitate outgroup hate [@allport1954prejudice; @brewer1999ingroupOutgroup; @halevy2008group].
 
@@ -130,17 +157,14 @@ Talk about ways this type of thing _could_ solve conflict.  Could solve informat
 
 <!--Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.-->
 
-Could improve reputations/remove stereotypes.  Increase perception of trustworthiness/intergroup trust.  Contact gives opportunity for costly signals.  Reputations will help groups overcome information and commitment problems.  Groups trust information they get from the other group.  Groups trust the other group to abide by agreements because they believe the other group is also motivated by peace.
 
-Can give group members interactions that reduce perceptual biases.  Can decrease prejudice and encourage ingroup policing.  Decrease prejudice also allows leaders to credibly commit entire group to peace.  Encourage ingroup policing.  Create norms against prejudice and violence, or connect existing norms to the outgroup by humanizing the outgroup.
+Can decrease prejudice and encourage ingroup policing.  Decrease prejudice also allows leaders to credibly commit entire group to peace.  Encourage ingroup policing.  Create norms against prejudice and violence, or connect existing norms to the outgroup by humanizing the outgroup.
 
 Could improve dispute resolution and reduce conflict over resources.  Encourage sharing resources _or_ separation of resources.  Mediation training -- help community leaders resolve disputes.
 
 Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
 
 Could increase empathy.  Seeing the other side's argument, seeing their motivations. Increase empathy/less prejudice helps interpret information in non-biased way. [Chris: cite literature on empathy making me interpret information about other people more accurately.  Kertzer?]
-
-Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
 
 Groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good. Realistic Group Conflict Theory -- resource competition causes conflict, and intergroup relations improved when the groups work together to improve material status of both groups.
 
@@ -155,6 +179,8 @@ Yet peacebuilding generally, and intergroup contact specifically, may not work i
 Intergroup conflict is commitment problem solved by strong third party [@fearon1994ethnic; @powell2006war] and bottom-up programs do not provide a strong third party that can enforce commitments.  Psychological reconciliation is not how we've thought of solving commitment problems between conflicting groups or improving reputations.  Can psych reconciliation improve reputations in contexts of ongoing violence?  
 
 Underlying cause of conflict still present.  Groups still engage in competition for resources, which breeds conflict [@campbell1965ethno; @Sherif1988robbersCave].
+
+The intergroup animosity comes from real conflict, not the type of prejudice that Allport and others theorized about.  Through contact, you might learn that the other group _does_ favor itself.  Contact might show you that the other group _will_ defect on agreements.
 
 Few norms against prejudice, possibly group norms that support this particular intergroup prejudice.  If intergroup contact works by activating "norms against prejudice", unlikely to work here.
 
