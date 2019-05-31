@@ -112,7 +112,7 @@ To study the effect of contact-based peacebuilding interventions on violent conf
 
 <!--Say what we found.  It seems primarily through intergroup contact.  -->
 
-We find that the program increased intergroup trust, intergroup contact, and perceptions of physical security.  Compared to the control group, the treatment group expressed more outgroup trust and more willingness to interact with outgroup members.  The control group was also more frequently prevented by violence from engaging in routine tasks, such as working, going to the market, and getting water.  The results also suggests that intergroup contact for a relatively small percentage of a group can indirectly affect attitudes of group members with no exogenous increase in outgroup contact.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe positive spillovers of trust to group members who were not involved in the intergroup contact intervention.
+We find that the program increased intergroup trust, intergroup contact, and perceptions of physical security.  Compared to the control group, the treatment group expressed more outgroup trust and more willingness to interact with outgroup members.  The control group was also more frequently prevented by violence from engaging in routine tasks, such as working, going to the market, and getting water.  We see signs of the positive effects in fieldwork as well as in the data -- the villages where farmers defended pastoralists from the livestock guard was a treatment site.  The results also suggest that intergroup contact for a relatively small percentage of a group can indirectly affect attitudes of group members with no exogenous increase in outgroup contact.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe positive spillovers of trust to group members who were not involved in the intergroup contact intervention.
 
 <!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->
 
@@ -124,7 +124,7 @@ Second, this study is one of the few field experimental interventions to test in
 
 <!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->
 
-Third, we contribute to the literature about the role of social diffusion and informal institutions in shaping attitudes and behaviors.  Bottom-up peacebuilding interventions seek to provide a structure in which groups can solve their own conflicts, and those structures are informal rather than formal.  Understanding how those informal structures form and shape attitudes, norms, and behaviors of the wider population addresses the questions of scale for these programs.
+Third, we contribute to the literature about the role of social diffusion and informal institutions in shaping attitudes and behaviors.  This peacebuilding intervention sought to provide a structure in which groups can solve their own conflicts, and those structures are informal rather than formal.  Understanding how those informal structures form and shape attitudes, norms, and behaviors of the wider population addresses the questions of scale for these programs.
 
 <!--Fulani getting cleansed -->
 

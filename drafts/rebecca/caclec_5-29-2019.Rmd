@@ -1,0 +1,393 @@
+---
+title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../../../../utils/bowersarticletemplate.latex
+  word_document: default
+csl: ../../../../utils/american-political-science-review.csl
+bibliography: ../../../../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+
+\begin{abstract}
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict is often mitigated by international intervention, like foreign military intervention and third party mediation.  However, international intervention is not always effective at reducing intergroup conflicts.  We propose psychological reconciliation through intergroup contact as an alternative to large-scale international intervention.  Groups in conflict often share mutual distrust, which make peace impossible unlikely by sabotaging intergroup bargaining.  Outside intervention often serve as substitutes for intergroup trust, but psychological reconciliation could improve intergroup trust directly.  Improved intergroup trust should allow the conflicting groups to settle disputes even in the absence of outside intervention.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and perceptions of physical security of group members.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
+
+\end{abstract}
+
+
+# Introduction
+
+<!--## Motivating Example
+Story about burnt down village/bad outcomes-->
+Intergroup conflict is responsible for many of the worst displays of human nature.  In Nigeria's Middlebelt, intergroup conflict between farmers and pastoralists claimed 7000 lives in the past five years, forced 180,000 people from their homes in 2018, and costs Nigeria $13 billion of lost economic productivity annually [@council2019nigeria; @daniel2018anti; @mcdougal2015effect].  In the most recent conflict escalation, groups of anti-pastoralist vigilantes mobilized to preempt pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", ransacked pastoralist settlements and violently drove pastoralists from their homes, often with the assistance of the local farming community.  Likewise, pastoralist groups enacted vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists. <!-- In both cases, neighbors often assisted as the other group was forced to flee their homes-->
+
+<!--Story about village defending pastoralists. chris: write first few sentences better.-->
+
+Though farmer-pastoralist conflict was widespread, mass violence between these groups did not break out in all Middlebelt communities.  In one village, farmers and pastoralists defended each other from hostile neighbors.  When a group of livestock guard came for one pastoralist settlement, the neighboring farming village arrested them to protect the pastoralists.  After the arrest, farmers and pastoralists convened to decide what should be done with the prisoners.  They agreed that the group of livestock guard should not be punished, but should be disarmed and released home -- a proposition proposed by _the pastoralists_.  These farmers and pastoralists had struggled with conflict, and people on both sides had died in past violence over farmland and grazing land.  But their recent disputes had not escalated to the point that each side wanted the other removed by any means necessary.  The groups had created structures and relationships that allowed them to settle disputes, and the same structures and relationships allowed them to reach a solution about the livestock guard.
+
+<!--What accounts for the difference? signposting theoretical argument & psych literature: prejudice & trust, bargaining, intergroup contact, social spillover, superordinate goals. Intergroup conflict fuels and is fueled by intergroup prejudice.  -->
+
+Why were some farmer and pastoralist groups able to keep peace whereas others were consumed by the escalating conflict?  Why were some communities able to overcome their disputes whereas others were destroyed by them?  These questions are not unique to Nigeria -- similar intergroup dynamics spurred violence in South Sudan, Myanmar, and Bosnia before those conflicts escalated into war.  Understanding the factors that help groups resolve their disputes is important to mitigate and defuse the myriad intergroup conflicts around the world.  
+
+Using the framework of intergroup conflict as a bargaining failure, we argue that increasing cooperative contact between groups during an ongoing conflict can increase intergroup trust and physical security of group members.  In situations of low trust, groups are essentially locked into a mutually-defecting Prisoner's Dilemma because each side assumes the other will defect if one side cooperates first.  Interventions that increase opportunities for cooperative contact can improve the prospects for peace by helping the groups update their perceptions of each other's trustworthiness.  Intergroup trust ameliorates bargaining problems and increases the likelihood of the groups resolving disputes through bargaining instead of violence.  <!--Peacebuilding programs can help conflicting groups achieve trust through intergroup contact and superordinate goals.-->
+
+<!--## Relevant Literature
+Intergroup conflict is a bargaining problem exacerbated by lack of intergroup trust.  Groups do not trust each other to honor comittments and worry that the other group is deceiving.   -->
+
+Intergroup conflict is often conceptualized as a bargaining problem [@fearon1994ethnic; @powell2006war].  Both groups want some resource -- land, power, etc -- and must decide how to distribute that resource.  Groups can either bargain and split the resource, or groups can fight to claim all of the resource or to increase their later bargaining position.  Fighting is costly, so both groups are better off finding a bargained solution than fighting.  However, bargaining fails if neither group trusts the other side to be truthful or to honor bargained agreements [@rohner2013war;@kydd2000trust;@rohner2013war].  Without a reason to trust in the other side, groups are likely to remain in conflict despite the costs to both sides.
+
+<!--How IR tends to think about solving the trust problem: top-down, some external actor.  Hobbes' Leviathan. But also why we cannot use external actors everywhere.-->
+
+How can groups in conflict escape this spiral of distrust and conflict?  The classic answer is a strong external actor that can increase the cost of fighting, punish defections from bargained agreements, and facilitate information flows [@fearon1994ethnic; @powell2006war; @doyle2000international; @ostrom2003trust; @walter2002committing].  <!--(Removing rest of paragraph based on RW suggestion.)  For many conflicts, international actors fulfill those role through military intervention and mediation [@doyle2000international; @di2017effectiveness].  By providing reliable information and punishing defection from agreements, international intervention helps conflicting actors overcome the bargaining failures that lead to violent conflict [@fearon1994ethnic; @fearon1995rationalist; @powell2006war; @smith2003mediation].  If a strong external actor punishes groups for defecting, each side can trust the other to abide by their agreement because abiding by their agreement is in each group's self-interest.  A strong external actor serves as a substitute for the trust the groups lack.--><!--(Merging with previous paragraph and removing first sentence.) While not universally successful, military intervention and mediation are effective strategies to promote peace in many conflicts [@doyle2000international; @walter2002committing; @hartzell2001stabilizing; @gartner2011signs; @wallensteen2014talking].-->  But strong external actors guaranteeing peace are not desirable or possible everywhere.  Intervening as an external actor is costly, and often there are no external actors strong enough or interested enough to intervene [@kydd2006can; @fey2010shuttle].  This is especially true for the persistent intercommunal and sectarian violence that plagues states without the power or interest to intervene in the conflict.<!--In many such conflicts, the conflicting groups are not united and therefore it is not clear who is involved in bargaining and who the external actor should punish if one side defects.-->  Where an external actor is available, it is often viewed as biased [@smith2003mediation; @kydd2006can] and its effects do not endure with the external actor's departure [@rohner2013war; @beardsley2008agreement; @weinstein2005autonomous].  <!--In fact, external actor can make it more difficult to create social norms that sustain peace long-term [@ostrom2000collective; @frey1994intrinsic; @rohner2013war].  -->Without external actors to halt the conflict, the groups must build trust rather than find a substitute for trust.
+
+<!--RW: Instead, most interventions to address these types of conflicts focus on bottom-up approaches, often based on contact theory and specifically the condition of working on a cooperative goal (Allport 1954). Peacebuilding programs utilizing intergroup contact and superordinate goals are increasingly used to reduce intergroup conflict by peacebuilding organizations (Ditlmann, Samii, and Zeitzoff 2017).For example, the US government spends $26M a year on programs based on contact theory to prevent and mitigate violence. -->
+
+<!--How prejudice exacerbates trust problems and thwarts intergroup trust -->
+
+Increasing trust amidst conflict is difficult, however, for psychological reasons.  Group conflicts are often driven and perpetuated by animosity and distrust long after the original grievance is forgotten [@mcdonnel2017graze; cite more about intergroup conflict].  Animosity can be an insurmountable barrier to peace for direct and indirect reasons.  Directly, these groups are less likely to trust information they receive from the other side or any peace commitment they get from the other side.  In this way, animosity directly inhibit intergroup bargaining and prevents peaceful resolution of the conflict.
+
+Indirectly, animosity biases interpretations of ingroup and outgroup behavior, preventing each group from updating and improving their trust in the other.  Ingroups will perceive their own belligerent actions as defensive and justified, whereas behavior by outgroup members may be perceived as more threatening and more malicious than the same behavior committed by a neutral party [@hewstone1990ultimate; cite fundamental/ultimate attribution error, motivated reasoning, confirmation bias, anchoring bias].  The perceived negative behavior may be seen as _defining_ the group, whereas any perceived positive behavior may be seen as the _exception_ to the group [@allison1985group; @pettigrew1979ultimate].  This biased information processing reinforces negative group stereotypes and can subvert the groups' own attempts to foster peace.  It can also sabotage intergroup bargaining by causing the groups to have inaccurate beliefs about each other and each other's willingness to make peace, adding to information and commitment problems that cause conflict.  <!--chris: I like this paragraph but think it could be a tiny bit clearer.-->
+
+External actor strategies to reduce intergroup conflict do not foster intergroup trust, but many peacebuilding organizations utilize peacebuilding approaches focused on improving intergroup attitudes.  One such approach, intergroup contact theory, hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup attitudes.  Cooperative contact provides positive personal experience with the outgroup, and those experiences reshape outgroup attitudes [@allport1954prejudice; @pettigrew2008does].  This type of structured face-to-face contact also provides groups the opportunity to send costly signals about their trustworthiness and preference for peace [@kydd2000trust; @lupia1998democratic; @rohner2013war].<!--@bohnet1999social increases trust to see other player -->  Intergroup contact is likely especially good at reducing intergroup conflict when groups cooperate to achieve superordinate goals -- goals that require the cooperation of both groups and benefit both groups -- because groups experience the material benefits of cooperation [@sherif1958superordinate; @gaertner2000reducing].  
+
+The effectiveness of intergroup contact has been demonstrated in a variety of contexts and using a variety of methodological approaches [@paluck2017contact; @pettigrew2006meta].  Notably, intergroup contacted programs reduced prejudice between white people and black people in the U.S. South Africa, and Norway [@marmaros2006friendships; @burns2015interaction; @finseraas2017does], Jews and Arabs [@yablon2012we; @ditlmann2016can], and Hindus and Muslims in India [@barnhardt2009near].  In Nigeria, a recent study found that intergroup contact between Muslims and Christians decreased discrimination relative to a group that experienced _intra_group contact, suggesting that intergroup contact can work by countering the adverse effects of ingroup-only experiences [@scacco2018nigeria].
+
+Although research shows support for intergroup contact theory generally, its efficacy to reduce animosity amid real-world conflict is an open question [@ditlmann2017addressing].  Negative experiences with outgroups increase prejudice, and the most prejudiced individuals are most likely to interpret intergroup contact negatively [@paolini2010negative; @gubler2013humanizing].  Its impact on interracial and interethnic attitudes has also been challenged by recent reviews [@paluck2017contact].  Despite a lack of evidence about the effects of contact-based peacebuilding programs in violent contexts, and the risks of programs going badly, peacebuilding organizations implement numerous contact-based interventions in violent contexts each year [@ditlmann2017addressing].  These peacebuilding programs might defuse intergroup conflict, but these programs also might do more harm than good.
+
+<!--Say what we did in context of farmer-pastoralist conflict.  Some context, some intervention design (contact, mediation), some evaluation.-->
+
+To study the effect of contact-based peacebuilding interventions on violent conflict, we conduct a field experiment with farmer and pastoralist communities in Nigeria to determine if an intergroup contact-based program effectively increases intergroup trust and increases the physical security of group members.  We randomly assigned communities with farmer-pastoralist violence to receive the peacebuilding intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, primary health care facilities, etc.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  To measure the effects of the intervention, we conducted pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
+
+[^PGG]: In a public goods game (PGG), research subjects are given money and told they can keep the money or donate it to a public fund.  Money donated to the public fund is multiplied by some amount and then shared with all subjects.  Our PGG is _natural_ because it was conducted in a natural setting, rather than a lab.  The funding for the PGG came from the National Science Foundation under Grant No. 1656871.
+
+<!--Say what we found.  It seems primarily through intergroup contact.  -->
+
+We find that the program increased intergroup trust, intergroup contact, and perceptions of physical security.  Compared to the control group, the treatment group expressed more outgroup trust and more willingness to interact with outgroup members.  The control group was also more frequently prevented by violence from engaging in routine tasks, such as working, going to the market, and getting water.  The results also suggests that intergroup contact for a relatively small percentage of a group can indirectly affect attitudes of group members with no exogenous increase in outgroup contact.  We observe the most positive changes from individuals directly involved in the intergroup committees, but we also observe positive spillovers of trust to group members who were not involved in the intergroup contact intervention.
+
+<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->
+
+This study expands our knowledge about intergroup conflict in several ways.  First, this study teaches us about the capacity of contact-based peacebuilding programs to improve intergroup relations.  To our knowledge this is the first field experimental test of a contact-based peacebuilding program implemented during an active conflict.  We evaluated the program's effects on both attitudinal and behavioral outcomes.  The results suggest that contact-based peacebuilding programs can effectively improve relationships between conflicting groups and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
+
+<!--(2) intergroup contact theory, -->
+
+Second, this study is one of the few field experimental interventions to test intergroup contact theory with groups actively engaged in violence.  Each of the groups in our study were part of an active and escalating conflict, with members of each side being killed within one year of the intervention's onset.  Even in such a context, community members who engaged in direct interpersonal interaction with an outgroup member changed more positively than other community members.  Importantly, the intergroup contact involved achieving superordinate goals that benefited both groups materially.  This suggests that contact with superordinate goals is robust to actively violent contexts.
+
+<!--(5) spillover of effects and social norms/vicarious learning.  <!--(3) social institutions constraining behavior, intergroup bargaining -->
+
+Third, we contribute to the literature about the role of social diffusion and informal institutions in shaping attitudes and behaviors.  Bottom-up peacebuilding interventions seek to provide a structure in which groups can solve their own conflicts, and those structures are informal rather than formal.  Understanding how those informal structures form and shape attitudes, norms, and behaviors of the wider population addresses the questions of scale for these programs.
+
+<!--Fulani getting cleansed -->
+
+Fourth, this paper's focus on farmer-pastoralist conflict is especially important because the pastoralists are of the Fulani ethnic group.  The Fulani are the largest semi-nomadic people on Earth, but their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent conflict between Fulani and settled peoples can help prevent the eradication of a people and their way of life, and potentially help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa. 
+
+<!--Roadmap.-->
+
+In the next section we provide a theoretical framework for how and why contact-based peacebuilding interventions can improve trust between groups and security of group members.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  Last we present the results of the study and conclude by connecting these findings to theories of group conflict and prejudice.
+
+# Theory
+
+## Intergroup Conflict as a Bargaining Problem
+<!--Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  Strong 3rd parties solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem.  Bigger versions of "Intergroup conflict is often conceptualized as a bargaining problem" and "How can groups in conflict escape this spiral of distrust and conflict?" paragraphs from intro.-->
+
+Intergroup conflict is most often conceptualized as a bargaining problem [@fearon1994ethnic; @powell2006war], and most solutions to reducing intergroup conflict strive to help the groups overcome those bargaining problems [@di2017effectiveness; chris: this cite is just for peacekeeping/intervention].  Intergroup conflict is a bargaining problem because both groups want some resource -- land, power, etc -- but cannot reach an agreement about how to distribute that resource peacefully.  Because fighting is costly, the groups are better off reaching a bargained compromise and not fighting.  However, two bargaining problems prevent this: information problems and commitment problems.  To successfully bargain, the groups need (1) accurate information about each other's strengths and preferences, and/or (2) the assurance that each side will abide by its agreements.  
+
+An _information problem_ arises because neither group possesses accurate information about the other, and both groups have an incentive to deceive the other in order to achieve an advantageous bargaining outcome.  Groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are [@fearon1995rationalist]. This causes bargaining failures because neither group knows what agreements the other side is willing to accept or what their side should receive from bargaining.  A _commitment problem_ arises because neither group can credibly commit to honor bargained agreements if bargaining power shifts in the future.  If bargaining power shifts, one side will have an incentive to renege on the status quo agreement to achieve a better agreement.  Neither group can commit to honor agreements made today when both groups know that bargaining power may shift tomorrow.[^bargainChange]  Without the ability to commit to agreements, bargaining will not be successful.
+
+[^bargainChange]: Power between the groups can shift due to factors that affect each group's preferences and capabilities. Internally, one group may grow in power or size, one group may disarm before the other, the groups may have factions that reject the agreement, the groups may change leaders, or group members attitudes may change for other reasons.  Externally, the groups may gain or lose de facto or de jure state support, other external actors may switch allegiances, or some other shock may change each group's power relative to the other [@fearon2004civil; @reed2016bargaining; chris: need to cite and add more].  Anything that will change group power in the future can cause commitment problems in the present.
+
+Groups in conflict overcome these bargaining problems in several ways.  Groups can overcome information problems through fighting, as they learn about each others capacity and willingness to fight [@smith2003mediation].  Groups can also overcome information problems through mediation.  An interested third party mediator with no stake in the conflict can provide accurate information to both sides, helping each side reach a bargain [@ott1972mediation; @kydd2006can; @beber2012international] <!--mediators also prevent groups from saying inflammatory things to each other [chris: forgot cite] -->  Even if groups overcome information problems, commitment problems could prevent groups from reaching an agreement.  The main way that groups overcome commitment problems is through strong third parties that add large costs to reneging on agreements [@fearon1998commitment; @powell2006war; @doyle2000international].  Though each group may have an incentive to defect on its agreement if bargaining power changes in a vacuum, the groups have no incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements.  With a third party punishing defection, the groups can bargain in good faith knowing that the other will abide by its word.
+
+<!--still left out: "In many conflicts, the conflicting groups are not united and therefore it is not clear who is involved in bargaining and who the external actor should punish if one side defects."-->
+
+If we know how to resolve intergroup conflict, why does conflict persist?  International mediation and intervention are dogged by two issues of motivation.  First, mediators are often motivated for peace.  This motivation implies that mediator's provide information that is biased towards encouraging the groups to negotiate a peace agreement.  This means that peace-biased mediators do not solve information problems.  For mediators to reduce information problems, groups engaged in bargaining must believe that mediators provide accurate, unbiased information.  Since both groups know that mediators are biased towards peace, mediators may not help groups achieve peace [@smith2003mediation; @kydd2006can; @fey2010shuttle].  This same argument prevents mediators who are biased for or against disputants from solving information problems [@kydd2006can].[^mediation]
+
+[^mediation]: Whether mediation is benefited from biased or unbiased information is still a matter of debate.  Some scholars believe bias improves mediation.  The primary mechanisms proposed are that biased mediators are more likely to have relevant private information [@savun2008information] and that a biased mediator who tells his _favored_ group to compromise will be heeded [@kydd2003side; @svensson2009brings].  We tend to side with @beber2012international, @rauchhaus2006mediation, @crescenzi2011supply, and @kydd2006can and believe that unbiased mediation improves mediation outcomes.  @kydd2006can and @beber2012international provide compelling theoretical arguments: effective mediators must be both unbiased and motivated, but that motivation and bias often overlap.  We are also amenable to the argument of @fey2010shuttle that mediator success actually has less to do with information provision and more with agenda setting, offering carrots/threatening sticks, and serving as a back channel.
+
+Second, international actors may lack the motivation to mediate or to intervene into the conflict, even if one group reneges on its agreement.  Intervention is costly and many international actors either cannot credibly commit to intervene into many conflicts or have no interest in intervening into many conflicts [@kydd2006can; @fey2010shuttle; @beber2012international].  This lack of motivation is especially relevant for intergroup conflict between groups within a state.  Most international actors and strong third parties lack an incentive to intervene into intrastate intergroup conflicts, and these disputes tend to take place within states that lack the capacity to compel both sides themselves.  Since intervention is costly, strong third parties have an incentive to intervene only _after_ fighting escalates, so intervention will generally not be used to prevent conflict from escalating or to reduce the persistent, smaller-scale violence that plague many countries.  Where external actors are motivated to intervene, intervention is a short-term peace solution and its effects do not endure with the departure of the external actor [@rohner2013war; @beardsley2008agreement; @weinstein2005autonomous].  Once the external actor leaves, the groups' commitment problem returns: with no one to punish defection, the groups have no reason to trust each other.
+
+Rather than rely on third parties to mediate or punish defection, groups in conflict can achieve peace by building mutual trust.  Reputations for trustworthiness are how groups overcome bargaining problems in the absence of formal enforcement mechanisms [@ostrom2000collective; @kydd2000trust, @rohner2013war; @ostrom2003trust].[^reputation]  Mutual trust overcomes bargaining problems because information and commitment problems are both, at their heart, problems of trust.  For information problems, groups do not trust the information they get from the other side.  For commitment problems, groups do not trust the other side to abide by its agreements.  Cultivating a reputation as a trustworthy partner in previous interactions gives a bargaining partner confidence that you are trustworthy in the present interaction.
+
+[^reputation]: Reputations based on previous behavior work because each group wants to be known as a trustworthy partner.  As a trustworthy partner, they are likely to (1) attract other trustworthy partners, and (2) elicit trusting behavior from partners.  Though defecting may be beneficial in one specific instance, getting a reputation for defection harms a group's ability to achieve agreements in the future.  By relying on reputation and the knowledge that groups desire good reputations, groups can coordinate in the absence of a strong third party.  The reputation argument is generally mobilized for contexts in which many groups observe the behavior of each other group.  Because there are many potential partners in the future, a good reputation has high payoff in the form of many potential cooperative partners in the future.  In our case, there are two main sides forming perceptions about the reputation of each other.  This closely mimics repeating prisoner's dilemma interactions as shown in @axelrod1980effective and @axelrod1980more.
+
+<!--@ostrom2003trust ch.2 discusses how reciprocity, reputation, and trust help overcome selfish behavior that leads to pareto-inferior outcomes;  players achieve self-enforcing equilibria by comitting themselves to punishing noncooperators to deter noncooperation; repeated games & uncertainty about player types increases cooperation; face to face interaction increases cooperation bcuz increases trust, also could add subjective value to payoff structure, gives group ID, reinforces normes, not because players realize optimal strategies and not from non-face-to-face promises.  People seek to improve values they find important.  People use heuristics; people use internal evaluations that add or subtract from objective payoffs (+ for feeling good, - for being a sucker);    ch.12 discusses how trust is minimal in situations where reputations for trust cannot be established.  @hardin2003 ch.3 gaming trust -- concept of mutual trust: trust based on long-term interaction between two parties.  Thick trust: diverse layers of interaction; interactions in one layer influence interactions in another; repeated relationships and 3rd party relationships. @hardin2002trustAndTrustworthiness talks about being trustworthy. @kydd2003 and costly signals of trustworthiness. Trust and Reciprocity 2003 ch.15 - knowledge of the other, repeated interactions, and strong possibility of future interactions predict trustworthy and trusting relationships.-->
+
+<!--@tam2007 intergroup prejudice = less likely to forgive, and forgiveness is a key to intergroup cooperation [@axelrod1980effective].  Prejudiced groups cannot put previous transgressions behind them.  @gutsell2010empathy people do not naturally feel empathy for outgroup members. 
+
+Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].-->
+
+However, groups in conflict are unlikely to build trusting relationships.  Intergroup conflict fuels and is fueled by intergroup animosity, and animosity makes peace difficult to attain [@allport1954prejudice; @sherif1958superordinate].  Groups in conflict dehumanize the outgroup [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral], view the outgroup as innately immoral [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435], do not naturally feel empathy for outgroup members [@gutsell2010empathy], are unlikely to forgive outgroup transgression [@tam2007impact], and believe outgroup members to be untrustworthy and dishonest [@levine1972ethnocentrism; @eidelson2003dangerous].  With this set of attitudes, outgroups are unlikely to develop reputations as trustworthy partners, even if both groups prefer mutual cooperation to war.  The groups are trapped in a mutually-defecting Prisoner's Dilemma.
+
+## How Intergroup Animosity Perpetuates Conflict
+
+<!--How prejudice makes intergroup bargaining more difficult.-->
+
+<!--Bigger version of these intro paragraphs: Increasing trust amidst conflict is difficult, however, for psychological reasons.  Group conflicts are often driven and perpetuated by intergroup animosity and prejudice long after the original grievance is forgotten [@mcdonnel2017graze; cite more about intergroup conflict & intergroup prejudice].  Intergroup animosity and intergroup prejudice can be insurmountable barriers to peace for direct and indirect reasons.  Directly, highly prejudiced groups are less likely to trust information they receive from the other side or any peace commitment they get from the other side.  In this way, prejudice directly inhibits intergroup bargaining and prevents peaceful resolution of the conflict.
+
+Indirectly, prejudice biases interpretations of ingroup and outgroup behavior, preventing each group from updating and improving their attitudes about the other.  Ingroups will perceive their own belligerent actions as defensive and justified, whereas behavior by outgroup members may be perceived as more threatening and more malicious than the same behavior committed by a neutral party [@hewstone1990ultimate; cite fundamental/ultimate attribution error, motivated reasoning, confirmation bias, anchoring bias].  The perceived negative behavior may be seen as _defining_ of the group, whereas any perceived positive behavior may be seen as the _exception_ to the group [@allison1985group; @pettigrew1979ultimate].  This biased information processing reinforces negative group stereotypes and can subvert the groups' own attempts to foster peace.  It can also sabotage intergroup bargaining by causing the groups to have inaccurate beliefs about each other and each other's willingness to make peace, adding to information and commitment problems that cause conflict.
+
+Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Biased assessment of actions: Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.  Bargaining of leaders impossible if group members hate each other -- both leaders know that the other guy cannot commit to controlling his group.  The model: two leaders bargaining and their groups having varying levels of cohesion.-->
+
+Pre-existing intergroup animosity prevents peaceful resolution of conflict in multiple ways.  First, and most obviously, animosity directly exacerbates bargaining problems <!-- (1) less trust == higher information and comittment problems.-->.  Mutual distrust creates information and commitment problems.  Animosity also changes the payoff that each group receives from peace and war through non-material rewards and costs, called internal evaluations [@ostrom2003trust].<!--(2) internal evalutions: "animosity may change each group's preferences for peace and war", adding psych value to fighting.  (3) internal evaluations: gains from intergroup differentiation and feelings of superiority.  (4) internal evaluations due to social benefits/domestic audience costs -->  Second, animosity biases perceptions of ingroup and outgroup behavior and preferences.  These biases increase the likelihood that each group misperceives the other side's intentions and prevents groups from developing reputations for trustworthiness. <!--(5) biased info processing, increases likelihood of misperceptions of outgroup type. -->
+
+<!--Wood's 2000 review of persuasion gave two additional functions of attitudes that apply to intergroup attitudes: self-concept and social adjustment [@wood2000attitude].  Self-concept refers to an individual's identity.  If an individual's identity is strongly related to ingroup superiority, she may not want to have better attitudes about the outgroup.  Social adjustment refers to an individual's desire to obtain social rewards.  If an individual's group opposes the outgroup and sanctions those who do not oppose the outgroup, she also has a strong reason to maintain negative outgroup attitudes.-->
+
+Intergroup animosity prevents peace by directly exacerbating bargaining problems.  First, information and commitment problems are more likely to occur because groups are less likely to trust information they receive from the other side or any peace commitment they get from the other side.  Second, animosity may change each groups preferences for peace and war.  Individual group members might receive psychological benefits from "beating" the other side and from social differentiation with the outgroup [@wood2000attitude].  Many groups define "us" by positive differences with a "them", and an individual can derive self-esteem from positively comparing their group identity to a rival group [@tajfel1981groups; @brewer1999ingroupOutgroup].  When group members derive self-esteem from feeling superior to an outgroup, group members may reject actions that recognize the outgroup as equals and rhetoric about group similarity due to cognitive dissonance.  With these internal evaluations of peace and war, any outcome in which the other side achieves _any_ utility could be viewed as a loss.  Groups that see the other side as immoral may even receive some internal benefit from _harming_ the outgroup [@weisel2015ingroup].
+
+Along with psychological benefits, group members may receive social benefits for strong anti-outgroup stances and social sanctioning for cooperative behavior.  The utility a group members gets for attitudes and behaviors depends largely on how those attitudes and behaviors are received by their ingroup [@wood2000attitude].  If group members perceive outgroup animosity as socially desirable, they may profess attitudes and engage in behaviors that signal outgroup animosity.  These social _benefits_ also entail reciprocal social _costs_ that constrain the actions of group members and group leaders.  Individuals who cooperate with the outgroup, as opposed to taking a hard stance against the other side's perceived transgressions, might be accused of betraying the outgroup for cooperating [@dreu2010social].  Individuals in these groups might not engage in ingroup policing, a strong, costly signal to the other side that your group will uphold its peace agreements [@fearon1996explaining].  While cooperation and ingroup policing might be punished, aggressive actions may be seen as righteous self-defense of the ingroup and rewarded.
+
+Leaders are also constrained by animosity among their group.  Groups are known to punish leaders for cooperating or compromising with the outgroup [@fearon1994domestic], so the set of peace agreements available to the leader of one group is likely unacceptable to the other.<!--chris: domestic audience costs-->.  Leaders of hostile groups also cannot credibly commit to keep their group members in check, as some subgroups may feel confident enough to disobey agreements made by group leaders.  Due to increased (1) likelihood of information and commitment problems, (2) internal psychological evaluations that favor competition over cooperation, and (3) social sanctioning for group members and leaders perceived as betraying the ingroup, animosity reduces the likelihood of successful bargaining and makes violent conflict more likely.<!--chris: need better discussion of internal evaluations -->
+
+Animosity also sabotages peace in indirect, pernicious ways.  Indirectly, intergroup animosity biases interpretations of ingroup and outgroup behavior and prevents accurate perceptions about the attitudes and preferences of the outgroup.  Ingroups will perceive their own belligerent actions as defensive and justified, and are more likely to perceive outgroup actions as aggressive, negatively motivated, and unjustified [@hewstone1990ultimate; @amir1969contact; @hunter1991intergroup chris: also cite confirmation bias, anchoring bias].  <!--If groups want to dislike each other, they will. Klein and Kunda, brewer1991/1999 -->  The perceived negative behavior may be seen as _defining_ the group, whereas any perceived positive behavior may be seen as the _exception_ to the group [@allison1985group; @pettigrew1979ultimate].  Even positive intergroup interactions may be re-interpreted as negative to avoid cognitive dissonance [@festinger1962cognitiveDissonance; @gubler2013humanizing; @paolini2010negative].  Interpreting interactions negatively saps the power of each group to reassure the other with costly signals of willingness to cooperate in future interactions [@kydd2000trust, @rohner2013war].  It also adds to information problems as groups will hold inaccurate views about each other's willingness to cooperate and likelihood of upholding agreements.  As @axelrod1980effective shows, perceived untrustworthy behavior by one side often begets a cycle of mistrust.
+
+<!--reputation as a mean of overcoming comittment problems when there is no third party.  How prejudice and biased interpretations of behavior prevent reputations from forming, even when both groups are the "complier" type.-->
+
+The indirect effect of animosity on intergroup bargaining poses a major obstacle to groups overcoming bargaining problems through trustworthy reputations.  Groups tend to ascribe negative traits to the outgroup, and also tend to remember negative events that corroborate their negative beliefs [@tajfel1981groups, @brewer1999ingroupOutgroup; @klein1992motivated; @brewer1991social].  Groups in conflict are given many events to justify their negative perceptions.  Initial negative perceptions, and the biased interpretations they beget, make it very difficult for a group to develop a positive reputation with a group they are in conflict with, even when both groups are motivated to end the conflict.  This bias likely pushes each group's perception of the other side's willingness to make peace further from their true willingness to make peace and so reputations hinder, rather than aid, intergroup bargaining processes.
+
+Reputations for trustworthiness are also hampered by a lack of opportunities for groups to observe each others behavior and to learn the outgroup's reputation.  Compounding that problem, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup.  This means that the main opportunity to observe outgroup behavior and learn their reputation is your own interactions with the outgroup.  For groups in conflict, these opportunities are likely rare and almost always adversarial.
+<!--
+(This also means that the outgroup has less incentive to cooperate with your ingroup because they are less likely to be punished for defecting in a world where reputation is built off of _experienced_ interactions, rather than previous _observed_ interactions. [chris: Scott Page's coursera on overcoming collective action problems cites a model where the more people who can see your interaction the more incentive you have to cooperate.].  Not sure this is relevant.) <!--Mediation can also be good when the groups are likely to say inflammatory things to each other.  Going through a mediator prevents that. chris: don't remember the citation, and this belongs in a diff section. -->
+
+<!--Reputations are most useful when (1) when each group knows its behavior will be viewed by many other groups and (2) a group's reputation can be gleaned from observing the other side's interactions with many other groups.  Unlike trade situations, groups in conflict  are unlikely to have a -->
+
+## Intergroup Contact to Increase Trust and Reduce Conflict (How to Increase Trust and Why it Can Work)
+
+<!--Bottom-up Psychological reconciliation, intergroup contact.  Define what it is, when it should work.-->
+
+The problems of negative intergroup attitudes suggests that improving those attitudes could lead to peace-promoting behaviors and reduce conflict.  One approach to improving intergroup attitudes comes from intergroup contact theory.  Intergroup contact theory hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup relations.  Improving relations -- especially improving trust -- can help groups overcome bargaining problems and reduce the likelihood of violence.
+
+Intergroup contact theory posits several conditions necessary for intergroup contact to improve relations.  Groups must cooperate with equal status to achieve shared goals with the support of elites.  Intergroup contact under these conditions gives the ability give strong costly signals about a group's reputation and the "group type" as a conditional complier: we will honor our agreements if you honor yours.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).  When groups are in conflict, most incidental intergroup contact will be highly adversarial.  
+
+Groups need opportunity to signal trustworthiness and preferences for cooperation [@kydd2000trust, @rohner2013war].  Structured intergroup contact provides opportunities for these signals.  When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1958superordinate].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.
+
+Ingroup identification does not necessitate outgroup hate [@allport1954prejudice; @brewer1999ingroupOutgroup; @halevy2008group].
+
+<!--
+Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup policing/censuring [@ditlmann2017addressing; @Fearon1996].  Ingroup policing works because we cannot do things if our community dislikes those things.-->
+
+<!--Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.-->
+
+Could improve reputations/remove stereotypes.  Increase perception of trustworthiness/intergroup trust.  Contact gives opportunity for costly signals.  Reputations will help groups overcome information and commitment problems.  Groups trust information they get from the other group.  Groups trust the other group to abide by agreements because they believe the other group is also motivated by peace.
+
+Can give group members interactions that reduce perceptual biases.  Can decrease prejudice and encourage ingroup policing.  Decrease prejudice also allows leaders to credibly commit entire group to peace.  Encourage ingroup policing.  Create norms against prejudice and violence, or connect existing norms to the outgroup by humanizing the outgroup.
+
+Could improve dispute resolution and reduce conflict over resources.  Encourage sharing resources _or_ separation of resources.  Mediation training -- help community leaders resolve disputes.
+
+Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
+
+Could increase empathy.  Seeing the other side's argument, seeing their motivations. Increase empathy/less prejudice helps interpret information in non-biased way. [Chris: cite literature on empathy making me interpret information about other people more accurately.  Kertzer?]
+
+Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
+
+Groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good. Realistic Group Conflict Theory -- resource competition causes conflict, and intergroup relations improved when the groups work together to improve material status of both groups.
+
+Can give group members the capacity to affect conflict.
+
+As an alternative to top-down international intervention to reduce conflict, bottom-up peacebuilding programs can reduce conflict by focusing on both the immediate economic concerns contributing to conflict (superordinate goals?) and the psychological attitudes contributing to conflict. Bottom-up psychological reconciliation programs should work for the types of conflicts for which international intervention is rarely used and is unlikely to be successful.  Persistent intergroup conflict that plagues many countries.  Low-level conflict before it builds to large-scale conflict.  There are XX conflicts of this type accounting for XX deaths each year.
+
+## Why Peacebuilding Could Fail
+
+Yet peacebuilding generally, and intergroup contact specifically, may not work in contexts of ongoing violence.  Many top-down attempts to solve bargaining problems with a strong external actor (through mediation and intervention) are ineffective while conflict is going on and only effective at maintaining peace once the formal conflict has ended.  Likewise, psychological reconciliation may prevent resumption of conflict but requires conflict to already be resolved [@bar2000intractable].  Active conflict produces many grievances and high prejudice; cognitive dissonance causes backlash for the most prejudiced people [@festinger1962cognitiveDissonance; @gubler2011diss].  Negative contact experiences reinforce negative stereotypes [@paolini2010negative]. Motivated reasoning for attitudes towards others [@klein1992motivated].  If you don't want to like someone, you will find a reason not to.  Many reasons contact may not work in this context.
+
+Intergroup conflict is commitment problem solved by strong third party [@fearon1994ethnic; @powell2006war] and bottom-up programs do not provide a strong third party that can enforce commitments.  Psychological reconciliation is not how we've thought of solving commitment problems between conflicting groups or improving reputations.  Can psych reconciliation improve reputations in contexts of ongoing violence?  
+
+Underlying cause of conflict still present.  Groups still engage in competition for resources, which breeds conflict [@campbell1965ethno; @Sherif1988robbersCave].
+
+Few norms against prejudice, possibly group norms that support this particular intergroup prejudice.  If intergroup contact works by activating "norms against prejudice", unlikely to work here.
+
+Intergroup contact may only reduce prejudice from high-status group to low-status group.
+
+Relative deprivation theory: the groups still see the other as responsible for ingroup deprivations.
+
+# Context and Intervention
+
+## Context
+
+Farmer-pastoralist conflict in Nigeria's Middle Belt provides a context to learn about intergroup conflict.  Nigeria’s Middle Belt divides the country between north and south, and houses a blend of various ethnic groups, with no clear majority. The south comprises primarily Christian farmers from various ethnic groups, while Muslims from the Hausa and Fulani ethnic groups — including the mostly Fulani pastoralists — dominate the north of the country. These religious, ethnic, and occupational identities intersect and create deep fault lines between communities.   Historically, these communities interacted through trade and shared access to land.  However, in recent years, interconnected factors have made these interactions more contentious.  The Middle Belt has been stressed by climate change, population booms, migration, and government policies perceived to favor some groups over others.  These stressors have sparked violent conflict between farmers and pastoralists in recent years.
+
+Climate change contributes to the conflict in two ways.  First, changing climate has reduced available water sources and land conducive to farming or grazing.  As the Sahara expands southward [@thomas2018sahara] and water sources dry [@okpara2015conflicts], farmers and pastoralists have to share fewer resources.  Second, changing climate pushes more pastoralists southward into the Middle Belt.^[In addition to the role of resource scarcity, @hoffmann2004role also suggests that southward transhumance by Tuareg groups pushes Fulani pastoralists further south.]  Their southward migration of pastoralists who formerly resided in northern Nigeria causes even more demand for land and water as those resources are becoming scarce.
+
+Land scarcity is exacerbated by Nigeria's population boom.  Nigeria's population increased from 73 million people in 1980 to an estimated 200 million people in 2019.  The rapidly growing population means increased demand for farming and grazing land, simultaneous with the decreasing supply of farming and grazing land.  The dual pressures of increasing demand and decreasing supply have fueled farmer-pastoralist conflict in recent years [@unah2018nigeria].  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
+
+Land scarcity and new migrants jeopardize traditional agreements that have managed farmer-pastoralist interactions for decades.  Farmers and pastoralists residing in Nigeria's Middle Belt developed agreements about seasonal land sharing, exchanges for crop residue and animal manure, compensation for damage to crops by livestock, and other arrangements that helped them share resources and avoid conflict.  As land scarcity increased, these traditional agreements were increasingly broken [@cotula2004land; @kuusaana2015land].  These agreements were also less likely to be implemented by the pastoralists migrating into the Middle Belt, who were unaware of these agreements and not involved in forging them.  Their use of land beyond these traditional agreements has further ignited tensions.
+
+Grievances related to access land and water points are compounded by government policies perceived to favor farmers.  Land privatization enacted in recent decades encouraged farmers to plant crops that occupy land continunously, like orchards, and effectively nullified farmer-pastoralist land sharing agreements [@bassett2009mobile].  Official cattle routes and reserves for moving herds are rarely enforced by the government, leading farmers to plant crops in once-protected areas, which further limits pastoralists’ available grazing space.  The “indigene versus settler” policy limits land ownership and other rights, including political representation, to certain ethnic groups in each state [@nigeria2014freedom].  Certain communities -- often pastoralists, who are seen as “settlers” -- are denied the right to run for public office, limiting the incorporation of their views into local policies.   Compounding matters, the government of Benue State enacted an anti–open grazing law in November 2017, sparking more violence because many pastoralists reasonably viewed it as biased against their way of life.
+
+These factors -- climate change, increasing population, migration, and government policy -- have broken the agreements that previously governed interactions between farmers and pastoralists.  These factors have challenged the interdependence among the groups and the benefits and costs of reaching agreements.  As farmers in Nigeria began to raise their own livestock [@hoffmann2004role], the need for manure from pastoralists decreases.  As governments allocate private property to settled people, pastoralists increasingly destroy crops when using ancestral grazing routes.  And as demand for agriculture products rise, prices for crop destruction must increase to account for lost revenue.  These changes could seem like "defecting" on previous agreements, suggesting to each side that the other is untrustworthy.  Perceived untrustworthy behavior begets a cycle of distrust, culminating in the violent farmer-pastoralist conflict of recent years.
+
+<!--The conflict is primarily _economic_ in nature -- groups fighting for land rights, with goals that are mainly local and territorial.  But these conflicts are exacerbated by ethnic and religious differences.-->
+
+This persistent violence continues to have debilitating effects on Nigerians and the economy. First, it has taken many lives. In 2013 alone, Plateau, Kaduna, Nasarawa, and Benue states registered more than 100 incidents of violent conflict, accounting for more than 1,050 deaths (Mercy Corps 2018). The more recent violence left 300,000 displaced [@nyt2018nigeria] and more than 1,476 dead in 2018 [@council2019nigeria]. The Middle Belt is considered Nigeria’s “food basket” and is central to key value chains throughout the country, including beef, dairy, and cash crops such as cassava. This violence has impeded food production and threatens to create a food shortage [@frontera2018nigeria]. Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year [@mcdougal2015effect].  As one reporter noted, "The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].
+
+Farmer-pastoralist conflict in the Middle Belt is not dissimilar from current and past conflicts in other parts of the world.  Throughout Sahel -- farmer-pastoralist clashes are a persistent problem throughout the Sahel and savannah areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  In South Sudan, Myanmar, Bosnia.  "Range wars" between farmers and ranchers in 19th and early 20th century American West.  Can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.  These conflicts are primarily rural and the state does not project power to these areas.  It is often viewed as biased for or against one group.
+
+## Intervention
+
+The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  It started with a series of community meetings, beginning with separate farmer and pastoralist meetings that built up to joint decision-making meetings with the two groups together.  Each joint project committee included an even number of farmers and pastoralists, as well as women and youth representatives, and totaled between 12 and 15 members. Each committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint projects, of approximately \$25,000.
+
+The quick-impact projects were conceived as a trust-building initiative, intended to let community members see that cooperation was possible. Projects, managed by both farmers and pastoralists, included hand pumps, construction or rehabilitation of market stalls and schools, rehabilitation of health centers, and construction of fences along grazing routes to protect farmlands. The joint economic development projects aimed to address an underlying issue related to the conflict: sharing of resources that impact livelihoods. Pollution of water, affecting both farming and livestock, was the primary issue people raised. As a result, each site received a new borehole well, with farmer and pastoralist youth helping to construct the wells.  
+
+The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.
+
+These projects were designed with the conditions of Contact Theory in mind.  Groups (1) cooperated with (2) equal status to achieve (3) shared goals with (4) support of local authorities.  These projects were meant to help the groups solve some underlying resource problems that drove conflict.  Collectively, these project give groups the opportunity so send costly signals about their willingness to cooperate [@kydd2000trust, @rohner2013war].
+
+Will these cooperative interactions allow each group to trust the other?
+
+
+# Design
+
+## Site Identification
+
+Inclusion/Exclusion criteria.  To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
+
+## Evaluation
+
+Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned individual-level study with (1) full participants, (2) nonparticipants, and (3) controls.  Full participants and nonparticipants are both from intervention communities.  Full participants join project committees where they directly interact with outgroup members,  nonparticipants do not.  Controls are individuals in control communities.  In intervention sites individuals self-selected into full participation or nonparticipation. 
+
+## Outcomes
+
+**Attitudes**
+
+Intergroup Trust: self-report
+
+Intergroup affect: survey experiments
+
+**Behaviors**
+
+Cooperation: PGG
+
+Intergroup contact: self-report, markets/social events
+
+**Violence**
+
+Physical security: self-report
+
+**Mechanisms**
+
+Dispute Resolution: resolution index
+
+Threat: threat index
+
+Ingroup expansion: social cohesion 1
+
+Intergroup empathy: social cohesion 2
+
+## Limitations
+
+### Small Number of Communities 
+
+The main limitation of the community-level randomized controlled trial is the number of communities we were able to include in the study. With 30 communities clustered at 15 sites, we have relatively low power to detect an effect of ECPN. We try to increase power by testing multiple hypotheses simultaneously (following Caughey, Dafoe, and Seawright 2017) and by using inverse-covariance-weighted outcome indices,  which should measure our outcomes of interest more precisely than indices constructed using other methods.
+
+### Self-Selection at the Individual Level 
+
+We also initially planned to randomize participation on ECPN committees within intervention communities. However, as discussed above, we had low compliance with the individual-level randomization. As a result, many of the people on the committees self-selected into participation. If we see positive change among committee participants, therefore, it is possible that the type of people who participated would have changed more positively even without ECPN, making it difficult to attribute the change to ECPN. It is also possible that ECPN is effective only on the type of people who elected to participate and would not be as effective on people less interested in the program, making it difficult to generalize the effects of ECPN to the wider population in these areas.
+
+We try to address these concerns in three ways. First, we illustrate that the respondents we resurveyed are not statistically different from baseline respondents on baseline measures. Since the people we resurveyed are an as-if-random sample of all baseline respondents, effects we see in this sample should generalize to other respondents. Second, we demonstrate that on most measures, there are no measurable baseline differences between direct participants, indirect participants, and controls. When there are differences, the control sites start out more positively than intervention sites, which would make it more difficult for us to see an effect (i.e., the differences work against us). Third, we present evidence that these groups do not differ in their baseline-to-endline changes on two placebo outcomes,  suggesting that they have similar trajectories in the absence of ECPN. The results of these balance and placebo tests are presented in Appendix 4. 
+
+### Displacement
+
+ additional limitation of both analyses was the significant displacement in Benue state at the time of the endline. Widespread violence between farmers and pastoralists had forced many of the communities in Benue to flee to safer locations. While we chose randomly among the people we could find, we do not know whether the community members we could locate were somehow different from the broader population in these communities.  Appendix 1 presents evidence that on measured variables, resurveyed respondents in the individual-level analysis are representative of all people from the baseline; we are not able to conduct a similar analysis with the community-level sample. In the discussion section, we provide further explanations for how the interpretation of our results would change if our sample is unrepresentative due to displacement. 
+
+### Program Adaptations
+
+Finally, due to the fluid nature of conflict dynamics and the need to adapt the program when necessary, we were not able to maintain separation between intervention and control sites (i.e., there was contamination). For example, the team conducted an intercommunity peace forum in one intervention site, but community leaders requested that leaders from a neighboring site—which happened to be a control site—attend the forum because of a recent conflict event that had spread across the area. The program team decided to risk contamination of the research by including the control site in that one forum, for the sake of the program’s success. This type of contamination was limited as much as possible, and to the extent that it may affect results of the study, it would attenuate the results, working against our hypotheses rather than in favor of them. 
+
+
+# Results
+
+**Sig Increase**: Trust, Security, Contact self-report & observed in markets
+
+**Increase**: Intergroup empathy, some affect survey exps
+
+**Nothing**: Ingroup expansion, observed contact at social events, Dispute resolution index, threat.
+
+**Decrease**: Cooperation in PGG, List Exp.
+
+![](../../../../figs/ecpn_coefplots_indices.png)
+
+# Discussion
+
+Take-away: Evidence that psychological intervention increased trust between conflicting groups.  Group members feelings of physical security increased.
+
+Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
+
+Not clear that the program increased people's confidence in dispute resolution systems.
+
+Mechanism could be "ability to identify local outgroup from non-local outgroup".
+
+Farmers arresting livestock guard suggests some level of ingroup policing or of viewing the farmer and pastoralist communities as tied together.
+
+Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trut and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
+
+Farmer-pastoralist situation is like an infinitely repeating game.  Gives each group the incentive to cooperate so that the other side will cooperate in the future.
+
+We see more market interactions.  @rohner2013war says trade can increase intergroup trust.  More opportunities to signal trustworthiness in trade.  More opportunities to see benefit from cooperating with the outgroup (Realistic group conflict theory).  
+
+Valuable to think bottom-up and top-down together.  Some calls for more attention to bottom-up approaches [@autesserre2017international; @ditlmann2017addressing; @safunu2012grassroots; @autesserre2016failure].
+
+Would this happen without NGO?  Presence of outside group encouraging the interaction surely helps.  But the situations that these programs exogenously introduce are often mimicked and inspired by real-life experiences of villages that did not descend into conflict.  Notable in...[chris: I think cites are all in autesserre2017 foreign affairs.  Stuff about Congo? Resisting War: How Communities Protect Themselves.  ].  This program "randomly assigns" what those villages developed endogenously.
+
+Cannot _only_ be bottom-up.  Context and policy matter, and elites and governments control policy and set the context.  
+
+Future: mechanisms and ways to scale up.  Mechanisms could be many things.  Ways to scale up: cannot have every group in conflict meet.  Scale up with contact between key actors that could diffuse the positive effects of contact & change social norms.  Media programs and observational/vicarious contact.
+
+Some mechanisms of intergrop contact theory clearly will not function here.  Reduced outgroup threat (("Sullivan, Pierson, & Marcus, 1982; Gibson, 2006). If citizens perceive or experience threat from an out-group, they are more likely to be intolerant toward that group)".  Ingroup expands to include outgroup -- no way.  Empathy yes.  Belief that working together will benefit us == yes.
+
+Other Mechanisms: assist intergroup bargaining with opportunities for costly signaling, increased trust.  Increase ingroup policing.  Increase social norms against intergroup violence.  Change interpsonal attitudes?
+
+<!--Scaling up with TV/radio -->
+An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
+
+An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009jsp used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
+
+<!--From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
+Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.  Future work should also investigate "scaling up" grassroots interventions, especially those involving intergroup contact.  Not every conflicting group can have contact with the other side.   Contact between key actors that could diffuse the positive effects of contact & change social norms.  And research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
+
+Could be social desirability bias?  Would indicate the program changed social norms -- still valuable.
+
+Could be survey acquescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
+
+More research needed about using intergroup contact to promote peace between people in conflict.
+
+
+# References

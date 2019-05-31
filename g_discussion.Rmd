@@ -50,13 +50,13 @@ options(SweaveHooks=list(fig=function(){
 
 ## Discussion
 
-Take-away: Evidence that psychological intervention increased trust between conflicting groups.  Group members feelings of physical security increased.
+Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
 
-Not directly testing prejudice, not directly testing bargaining.  More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
+More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
 
 Not clear that the program increased people's confidence in dispute resolution systems.
 
-Mechanism could be "ability to identify local outgroup from non-local outgroup".
+Mechanism could be "ability to identify local outgroup from non-local outgroup"?
 
 Farmers arresting livestock guard suggests some level of ingroup policing or of viewing the farmer and pastoralist communities as tied together.
 
@@ -81,7 +81,7 @@ Other Mechanisms: assist intergroup bargaining with opportunities for costly sig
 <!--Scaling up with TV/radio -->
 An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
 
-An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009 used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
+An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009jsp used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
 <!--From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
 Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.  Future work should also investigate "scaling up" grassroots interventions, especially those involving intergroup contact.  Not every conflicting group can have contact with the other side.   Contact between key actors that could diffuse the positive effects of contact & change social norms.  And research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
 

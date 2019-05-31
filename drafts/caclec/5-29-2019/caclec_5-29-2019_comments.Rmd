@@ -1,0 +1,82 @@
+---
+title: "Untitled"
+author: "grady"
+date: "May 29, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Caglayan
+
+- likes intro, improved organization/framework.
+- 3rd theory section: why discuss all of that stuff?
+    - Just do the things that you will discuss/test.  Make shorter, don't mention other things.
+- 4th theory section: do you even need this section?  We already have all this information from section 2.  A lot of repition.
+- Like the context and intervention part, but it is too long.  You don't need to discuss the specifics of the problems (how climate change and scarcity contribute to the conflict).  Will probably need to be cut anyway, since it's not really part of the project.
+    - **Chris**: And generally need to tie this stuff better to the theory.
+- ANywere you use "psychological intervention" should become "peacebuilding".
+
+# Ekrem
+
+- Not a lot of high order things.  Coming together nicely in a short amount of time.
+- word limit for APSR is 12,000, including references and appendices (but not online appendices).  You have a lot to say, but need to cut some things.
+    - Still some repition -- say "bargaining problem" too many times.
+    - orgainize mechanism under higher-order headings.  "This animsoity influences bargaining through two main ways.  X and Y."  Then give a couple examples, and leave the others out.
+    - pretty much every section after intro can follow that pattern.
+- Saying information problems are trust problems, but not all information problems are trust problems.  Most people think trust problem = commitment problem.  And information problems are another type.
+    - this is a textbook commitment problem.  
+    - kydd and information flow.  it is clear how the "cleaning the pipes" stuff resolves information problems, but maybe don't need it.
+- use some jargony Modeling terms: mutually-defecting PD, the word "type".  Don't need to use those terms.  Those terms usually imply that you are modeling, and some people will be ticked off at their casual use.  And non-modelers will understand better.
+- would be nice to see results for fulani and pastoralists separately.
+- reiterate that I am still talking strongly in substitution language.  It's still _instead of_ international intervention.  Nuole also thinks you can read this as "top-down is bad".  Paragraph that reads: "Rather than rely on third parties to mediate".
+    - Here's an angle why he thinks this: When he takes away that substitution logic from my argument, suppose I succeeded in this intervention and there is no animosity or information problems.  YET these groups still have conflicting incentives.  Third-party intervention can solve that, this intervention did not.
+- Talk about top-down interventions as something different than the problem of trust.  I still trust YOU, because I believe the top-down guy will punish you.  So it's still trusting you.
+
+# Alice
+
+- This is a better version of my previous version.  The flavor of her comments are similar.
+- Biggest thing that jumped out: often leading readers down _optional detours_ instead of bringing them to the main attraction.
+  - people could be misled into thinking something else is the main attraction (peacebuilding, animosity, descriptions of the context).  Context description is too in-depth.
+  - With word constraints, try to write more concisely.  Don't cut sections, make each paragraph shorter and then combine paragraphs.  Trim wordiness, not substance.
+  - Sometimes saying things in 5 sentences when you could say it in 1 sentence.  Really question: do I need this extra reiteration of the same concept.
+- With signposting, she is sitll getting confused with terminology: intergroup: attitudes, animosity, prejudice, mistrust, conflict, violence.  Not sure that conflict is different than violence, less than, or greater than.  Are we okay with the conflict continuing to exist and we just want to reduce violence?  Is animosity the same as "lack of trust", or is it "lack of trust + something else"?  Conceptual clarity.  Can help to keep the reader on track.  Caglayan agrees with this.
+- She sees the substitution vs complementarity point.  But I should still highlight what this intervention does that traditional interventions don't do.  But need to do it without implying that they are bad.
+- Signposting: Alice likes numbering things, as opposed to just listing them.  Where I say how traditional interventions don't do things, need to categorize them into a list.  Like: "these interventions, as opposed to the traditional intervention, do 3 things".  Then list them.
+- Before knowing this project, she would not have known that farmers and pastoralist exist as separate groups.  But still need to say how that farmers and pastoralists do not live together in some part of the world.
+    - just say that in the context.  One of the first things.
+- "Limitations" section is bite-sized pieces of information and not paper-like.  Keep thread of the argument flowing through the limitations.  **Keep arguing all throughout, even as I give nitty-gritty facts.**
+
+# Nuole
+
+- Agrees with a lot of things.
+- Take out the section about peacebuilding failures and why it could feel.  Not needed
+- Agree with Alice that you have a lot of terms.  **A figure will help**
+    - psych terms and IR terms. psych people will know psych terms, IR people will like/know IR terms.  But each will get caught up on each others terms.
+    - intergroup conflict/animosity/trust/contact.
+    - **Create some kind of visual that shows how things tie together.**  For "intergroup conflict is a bargaining problem" needs a flowchart. We are trying to solve it with intergroup contact, which can increase intergroup trust and can decrease intergroup animosity.  So that's a natural flowchart: contact->trust and contact->animosity
+- Limitations should come after results.
+- Forgot to update abstract.
+- Leftover from previous drafts: top-down and bottom-up.  Need to remove it entirely.
+- Animosity is important to keep in, but she kept interpreting it as "mistrust".  Need to say how it equates to something or does the job of something.
+- INtro: people won't know that's the treatment group.  Need to say that the group I reference at beginning is one of the treatment groups.
+    - also bring in other stories.  Anecdotal evidence is good.  **Discuss it when I discuss the market interaction behavior.**
+
+# Include Animosity?
+
+## Caglayan
+- repreats a lot of things that were in previous paragraphs.  Since don't directly test it, maybe don't need that long of a section.  But has really useful information.
+    - 3 issues through which animosity reduces likelihood of successful bargaining.  That framework helps people understand the comittment problems.
+    - Take the section and give shorter explanation of these factors.  Add to previous section.
+    - Animosity can indirectly bias interpretations of ingroup/outgroup behavior.  Talk about indirect and direct as different things.  Not clear why indirect impact are different than information problems.  Clarification would be good.  If similar, remove and add small sentence to section on information problem.
+
+# General
+
+- ekrem: so why would we expect this to work at all?  
+    - COnflict --> less interaction and less opportunities to send signals.  
+    - Onflict breeds animsoity.  ANimosity clogs th epipes so that people don't update rationally.
+    - WHen we make them talk to each other, they get rid of the pipe-clogging problem.
+- Can probably assume that these groups have animosity because of conflict.  Don't remove it because it isn't measured.  Remove it if you don't need it.  It is a factor that leads to mistrust, so need it.  It's a long part, but does not need to be removed completely.  Even if don't measure it, cite the literature.
+    - lots of reasons plausible that we don't see effect on animosity.
