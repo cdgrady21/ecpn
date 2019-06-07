@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
   - people could be misled into thinking something else is the main attraction (peacebuilding, animosity, descriptions of the context).  Context description is too in-depth.
   - With word constraints, try to write more concisely.  Don't cut sections, make each paragraph shorter and then combine paragraphs.  Trim wordiness, not substance.
   - Sometimes saying things in 5 sentences when you could say it in 1 sentence.  Really question: do I need this extra reiteration of the same concept.
-- With signposting, she is sitll getting confused with terminology: intergroup: attitudes, animosity, prejudice, mistrust, conflict, violence.  Not sure that conflict is different than violence, less than, or greater than.  Are we okay with the conflict continuing to exist and we just want to reduce violence?  Is animosity the same as "lack of trust", or is it "lack of trust + something else"?  Conceptual clarity.  Can help to keep the reader on track.  Caglayan agrees with this.
+- With signposting, she is sitll getting confused with terminology: intergroup: **attitudes, animosity, prejudice, mistrust, conflict, violence**.  Not sure that conflict is different than violence, less than, or greater than.  Are we okay with the conflict continuing to exist and we just want to reduce violence?  Is animosity the same as "lack of trust", or is it "lack of trust + something else"?  Conceptual clarity.  Can help to keep the reader on track.  Caglayan agrees with this.
 - She sees the substitution vs complementarity point.  But I should still highlight what this intervention does that traditional interventions don't do.  But need to do it without implying that they are bad.
 - Signposting: Alice likes numbering things, as opposed to just listing them.  Where I say how traditional interventions don't do things, need to categorize them into a list.  Like: "these interventions, as opposed to the traditional intervention, do 3 things".  Then list them.
 - Before knowing this project, she would not have known that farmers and pastoralist exist as separate groups.  But still need to say how that farmers and pastoralists do not live together in some part of the world.
@@ -52,7 +52,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Nuole
 
 - Agrees with a lot of things.
-- Take out the section about peacebuilding failures and why it could feel.  Not needed
+- Take out the section about peacebuilding failures and why it could fail.  Not needed
 - Agree with Alice that you have a lot of terms.  **A figure will help**
     - psych terms and IR terms. psych people will know psych terms, IR people will like/know IR terms.  But each will get caught up on each others terms.
     - intergroup conflict/animosity/trust/contact.
