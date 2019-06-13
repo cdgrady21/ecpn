@@ -31,9 +31,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Decrease**: Cooperation in PGG, List Exp.
 
-![](../../figs/ecpn_coefplots_indices.png)
+![](figs/ecpn_coefplots_indices.png)
+
 
 *******
+
+## Placebo Outcomes
+
+Could be social desirability bias -- respondents in treatment villages learned what the enumerators and NGO wanted to hear.  If so, we should expect effects for dispute resolution, intergroup cohesion, PGG, etc...which we do not see.  Would also expect effects for _the acceptability of violence_.  We measured acceptability of violence with a 5 question index.
+
+
 
 ## Limitations
 
