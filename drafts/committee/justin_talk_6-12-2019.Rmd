@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - being realistic: these interventions do not replace all the history.
     - length of conflict.  Farmer-pastoralists have fairly recent conflict.
 - what if the conflict is over morality?  
-- Land resource has high potential to correct.  Working together is good for everybody.  The selfishness/violence of the past resists that.  But in reality, everyone is better off sharing.
+- Land resource has high potential to be corrected.  Working together is good for everybody.  The selfishness/violence of the past resists that universally better outcome.  In reality, everyone is better off sharing.
     - it's a prisoner's dilemma, not a game where mutually defecting is good.
 - cooperation is a group property -- emergeny property of the group.
 - it pays to defect: what is the defection rate?  Must look at groups.

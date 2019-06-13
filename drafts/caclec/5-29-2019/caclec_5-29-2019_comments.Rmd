@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Saying information problems are trust problems, but not all information problems are trust problems.  Most people think trust problem = commitment problem.  And information problems are another type.
     - this is a textbook commitment problem.  
     - kydd and information flow.  it is clear how the "cleaning the pipes" stuff resolves information problems, but maybe don't need it.
-- use some jargony Modeling terms: mutually-defecting PD, the word "type".  Don't need to use those terms.  Those terms usually imply that you are modeling, and some people will be ticked off at their casual use.  And non-modelers will understand better.
+- use some jargony Modeling terms: mutually-defecting PD, the word "type".  Don't need to use those terms.  Those terms usually imply that you are modeling, and some people will be ticked off at their casual use.  And non-modelers will understand better without those terms.
 - would be nice to see results for fulani and pastoralists separately.
 - reiterate that I am still talking strongly in substitution language.  It's still _instead of_ international intervention.  Nuole also thinks you can read this as "top-down is bad".  Paragraph that reads: "Rather than rely on third parties to mediate".
     - Here's an angle why he thinks this: When he takes away that substitution logic from my argument, suppose I succeeded in this intervention and there is no animosity or information problems.  YET these groups still have conflicting incentives.  Third-party intervention can solve that, this intervention did not.
