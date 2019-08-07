@@ -58,18 +58,19 @@ Need to explain why I am doing things more than tell people details of what I am
 
 Field experiment papers often take a couple paragraphs talking about the field experiment, but I don't want to.
 
-Big framing points:
-
-- Psych reconciliation can be effective at reducing real world conflict.
-- Mechanism seems to be intergroup contact, which increases intergroup trust.  Trust has many positive consequences.
-
 *******
 -->
 ## Introduction
 
+<!--chris: New first paragraph about intergroup conflict generally.  Maybe something from the end 3 paragraphs about contribution.-->
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  Groups fight and die, commit terror attacks, forced migrations, etc.  2 million deaths since 1989 (Melander, 2015),
+and the pronounced gap in quality of life between countries affected by violent
+conflict versus those not affected (World Bank, 2011)—motivates these interventions
+
 <!--## Motivating Example
 Story about burnt down village/bad outcomes-->
-Intergroup conflict is responsible for many of the worst displays of human nature.  In Nigeria's Middlebelt, intergroup conflict between sedentary farmers and semi-nomadic pastoralists is causing dire consequences: 7,000 deaths in the past five years, 300,000 internally displaces peoples from their homes in 2018, and $13 billion of lost economic productivity annually [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.  In the most recent conflict escalation beginning in the 2010s, groups of anti-pastoralist vigilantes have mobilized to preempt pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", ransack pastoralist settlements and violently drive pastoralists from their homes, often with the assistance of the local farming community.  Likewise, pastoralist groups enact vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists. <!-- In both cases, neighbors often assisted as the other group was forced to flee their homes-->
+In Nigeria's Middlebelt, intergroup conflict between sedentary farmers and semi-nomadic pastoralists is causing dire consequences: 7,000 deaths in the past five years, 300,000 internally displaces peoples from their homes in 2018, and $13 billion of lost economic productivity annually [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.  In the most recent conflict escalation beginning in the 2010s, groups of anti-pastoralist vigilantes have mobilized to preempt pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", ransack pastoralist settlements and violently drive pastoralists from their homes, often with the assistance of the local farming community.  Likewise, pastoralist groups enact vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists. <!-- In both cases, neighbors often assisted as the other group was forced to flee their homes-->
 
 <!--Story about village defending pastoralists. chris: write first few sentences better.-->
 
