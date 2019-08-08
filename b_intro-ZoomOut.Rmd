@@ -51,6 +51,18 @@ options(SweaveHooks=list(fig=function(){
 <!--
 # Thinking
 
+Option1 : zoom in  (current)
+- nigeria example
+- what accounts for difference?
+- intergroup conflict as bargaining failure.
+
+
+
+
+Option2: zoom out first
+- intergroup conflict bad; no consistent way to prevent it.
+- intergroup conflict as bargaining failure. 
+
 
 **Intro**
 
@@ -62,26 +74,14 @@ Field experiment papers often take a couple paragraphs talking about the field e
 -->
 ## Introduction
 
-<!--chris: New first paragraph about intergroup conflict generally.  Maybe something from the end 3 paragraphs about contribution.-->
+<!--chris: New first paragraph about intergroup conflict generally.-->
 
-Intergroup conflict is responsible for many of the worst displays of human nature.  Groups fight and die, commit terror attacks, forced migrations, etc.  2 million deaths since 1989 (Melander, 2015).  Despite much research, still no consistent means to prevent group conflict.  
-
-<!--## Motivating Example
-Story about burnt down village/bad outcomes-->
-In Nigeria's Middlebelt, intergroup conflict between sedentary farmers and semi-nomadic pastoralists is causing dire consequences: 7,000 deaths in the past five years, 300,000 internally displaces peoples from their homes in 2018, and $13 billion of lost economic productivity annually [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.  Since the most recent conflict escalation began in 2014, groups of anti-pastoralist vigilantes have mobilized to preempt pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", ransack pastoralist settlements and violently drive pastoralists from their homes, often with the assistance of the local farming community.  Likewise, pastoralist groups enact vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists. <!-- In both cases, neighbors often assisted as the other group was forced to flee their homes-->
-
-<!--Story about village defending pastoralists. chris: write first few sentences better.-->
-
-Though farmer-pastoralist conflict is widespread, mass violence between these groups has not broken out in all Middlebelt communities, and some farmers and pastoralists even defend each other<!-- from hostile neighbors-->.  When a group of livestock guard came for one pastoralist settlement, the neighboring farming village arrested them to protect the pastoralists.  After the arrest, farmers and pastoralists convened to decide what should be done with the prisoners.  They agreed that the group of livestock guard should not be punished, but should be disarmed and released home -- a proposition proposed by _the pastoralists_.  These same farmers and pastoralists had struggled with conflict, and people on both sides had died in past violence over farmland and grazing land.  But their recent disagreements had not escalated to the point that each side wanted the other removed by any means necessary.  The groups had created structures and relationships that allowed them to settle disputes, and the same structures and relationships allowed them to reach a solution about the livestock guard.
-
-<!--What accounts for the difference? signposting theoretical argument & psych literature: prejudice & trust, bargaining, intergroup contact, social spillover, superordinate goals. Intergroup conflict fuels and is fueled by intergroup prejudice.  -->
-
-Why were some farmer and pastoralist groups able to keep peace whereas others were consumed by the escalating conflict?  Why were some communities able to overcome their disagreements whereas others were destroyed by them?  These questions are not unique to Nigeria -- similar intergroup dynamics plagued South Sudan, Myanmar, and Bosnia before those conflicts escalated into war.<!--chris: previous sentence on chopping block? -->  To understand why disagreements between groups devolve into violent conflict, we use the framework of intergroup conflict as a bargaining failure, which highlights trust problems as the primary obstacle to peace between groups.  Groups in conflict have few opportunities to build trust and many to degrade it.  We argue that providing opportunities for trust-building through cooperative intergroup contact improves the prospects for peace.  Intergroup trust ameliorates bargaining problems and increases the likelihood of the groups resolving disputes through bargaining instead of violence.<!--previous sentence really on chopping block. -->
+Group conflict is responsible for many of the worst displays of human nature. It claims lives, threatens food supplies, creates refugees, and extracts a psychological toll on participants and victims.  Despite extensive research, no consistent means of preventing group conflict has been found.  To understand why some groups engage in violent conflict and others maintain peaceful relations, we use the framework of group conflict as a bargaining failure, which highlights trust problems as the primary obstacle to peace between groups [@fearon1995rationalist; @rohner2013war; @kydd2000trust] .  Groups in conflict have few opportunities to build trust and many to degrade it.  We argue that providing opportunities for trust-building through cooperative intergroup contact improves the prospects for peace.  Intergroup trust ameliorates bargaining problems and increases the likelihood of the groups resolving disputes through bargaining instead of violence.<!--previous sentence really on chopping block. -->
 
 <!--## Relevant Literature
 Intergroup conflict is a bargaining problem exacerbated by lack of intergroup trust.  Groups do not trust each other to honor comittments and worry that the other group is deceiving.   -->
 
-Treating intergroup conflict as a bargaining failure is common in conflict studies [@fearon1994ethnic; @powell2006war].  Both groups want some resource -- land, power, etc -- and must decide how to distribute that resource.  Groups can either bargain and split the resource, or groups can fight to claim all of the resource or to increase their later bargaining position.  Fighting is costly, so both groups are better off finding a bargained solution than fighting.  However, bargaining fails if neither group trusts the other side to be truthful or to honor bargained agreements [@rohner2013war; @kydd2000trust; @rohner2013war].  Without a reason to trust each other, groups are likely to fight despite the costs to both sides.
+Treating intergroup conflict as a bargaining failure is common in conflict studies [@fearon1994ethnic; @powell2006war].  Both groups want some resource -- land, power, etc -- and must decide how to distribute that resource.  Groups can either bargain and split the resource, or groups can fight to claim all of the resource or to increase their later bargaining position.  Fighting is costly, so both groups are better off finding a bargained solution than fighting.  However, bargaining fails if neither group trusts the other side to be truthful or to honor bargained agreements [@rohner2013war; @kydd2000trust].  Without a reason to trust each other, groups are likely to fight despite the costs to both sides.
 
 <!--How conflict exacerbates trust problems / thwarts intergroup trust.  (1) Low trust due to history of noncooperation & violence.  (2) Disagree about fairness of proposed deal == Disagree about current power / Disagree about which side transgressed and needs to make amends / Disagree about who is likely to hurt more from conflict today/become stronger tomorrow (p.24 of Ross_Ward_1995-NaiveRealism).  (3) internal evaluations and social evaluations == get psychological and social payoffs from beating other side, psychological and social costs from cooperation.  (4) Biased processing of outgroup behavior.  (5) over-generalizing of outgroup.
 
@@ -90,7 +90,7 @@ Treating intergroup conflict as a bargaining failure is common in conflict studi
 
 CHRIS: "Internal Evaluations", "disagreement about fairness of a deal" do not inhibit trust, only biased perceptions of actions and over-generalizing inhibit trust.  Internal evals and disagree about deal fairness make bargaining more difficult but do not work through trust.-->
 
-A number of psychological mechanisms complicate bargaining amidst conflict.  First, conflicting groups hold biased perceptions of their own behavior and the behavior of the other side [@ward1997naive].  Groups perceive their own belligerent actions as defensive and justified, and perceive the defensive actions of the other side as belligerent and gratuitous.  These perceptual biases create and reinforce negative outgroup stereotypes [@hewstone1990ultimate].  Second, groups in conflict derive psychological benefits from feelings of moral superiority over the outgroup.  These feelings of moral superiority add costs to improving attitudes about the outgroup and to cooperating with the outgroup.  Together these two psychological mechanisms sabotage intergroup bargaining by causing the groups to have inaccurate beliefs about each other and limiting peace agreements acceptable to both sides.
+A number of psychological mechanisms complicate bargaining amidst conflict.  First, conflicting groups hold biased perceptions of their own behavior and the behavior of the other side [@ward1997naive].  Groups perceive their own belligerent actions as defensive and justified, and perceive the defensive actions of the other side as belligerent and gratuitous.  These perceptual biases create and reinforce negative outgroup stereotypes [@hewstone1990ultimate].  Second, groups in conflict derive psychological benefits from feelings of moral superiority over the outgroup [@tajfel1979integrative].  These feelings of moral superiority add costs to improving attitudes about the outgroup and to cooperating with the outgroup.  Together these two psychological mechanisms sabotage intergroup bargaining by causing the groups to have inaccurate beliefs about each other and limiting peace agreements acceptable to both sides.
 
 Many peacebuilding organizations utilize peacebuilding approaches focused on improving intergroup attitudes.  One such approach, intergroup contact theory, hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup attitudes.  Cooperative contact provides positive personal experience with the outgroup, and those experiences reshape outgroup attitudes [@allport1954prejudice; @pettigrew2008does].  This type of structured face-to-face contact also provides groups the opportunity to send costly signals about their trustworthiness and preference for peace [@kydd2000trust; @lupia1998democratic; @rohner2013war].<!--@bohnet1999social increases trust to see other player -->  Intergroup contact is especially good at reducing intergroup conflict when groups cooperate to achieve superordinate goals -- goals that require the cooperation of both groups and benefit both groups -- because groups experience the material benefits of cooperation [@sherif1958superordinate; @gaertner2000reducing].
 
@@ -127,9 +127,17 @@ In the next section we provide a theoretical framework for how and why opposing 
 <!--
 ## Old
 
-In the farmer-pastoralist case, no such intervention was present or likely.  The conflict is rural and unknown to most of the international community.     Far from being an unbiased mediator, the state intervened _on behalf of farmers_.
+## Motivating Example: Story about burnt down village/bad outcomes, then story about village defending pastoralists.
+
+In Nigeria's Middlebelt, intergroup conflict between sedentary farmers and semi-nomadic pastoralists is causing dire consequences: 7,000 deaths in the past five years, 300,000 internally displaces peoples from their homes in 2018, and $13 billion of lost economic productivity annually [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].  Since the most recent conflict escalation began in 2014, groups of anti-pastoralist vigilantes have mobilized to prevent pastoralists from encroaching on land claimed by farmers [@duru2018court; @mcdonnel2017graze].  These groups, dubbed the "livestock guard", ransack pastoralist settlements and violently drive pastoralists from their homes, often with the assistance of the local farming community.  Likewise, pastoralist groups enact vigilante justice, raiding and burning down farming villages seen to encroach on land claimed by pastoralists.
+
+Though farmer-pastoralist conflict is widespread, mass violence between these groups has not broken out in all Middlebelt communities, and some farmers and pastoralists even defend each other.  When a group of livestock guard came for one pastoralist settlement, the neighboring farming village arrested them to protect the pastoralists.  After the arrest, farmers and pastoralists convened to decide what should be done with the prisoners.  They agreed that the group of livestock guard should not be punished, but should be disarmed and released home -- a proposition proposed by _the pastoralists_.  These same farmers and pastoralists had struggled with conflict, and people on both sides had died in past violence over farmland and grazing land.  But their recent disagreements had not escalated to the point that each side wanted the other removed by any means necessary.  The groups had created structures and relationships that allowed them to settle disputes, and the same structures and relationships allowed them to reach a solution about the livestock guard.
+
+Why were some farmer and pastoralist groups able to keep peace whereas others were consumed by the escalating conflict?  Why were some communities able to overcome their disagreements whereas others were destroyed by them?  
 
  -->
+
+****************
 
 
 <!--
