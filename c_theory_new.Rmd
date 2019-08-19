@@ -107,20 +107,17 @@ First, conflicting groups hold biased perceptions of their own behavior and the 
 
 If scholars and practitioners know how to solve the information and commitment problems that cause intergroup conflict, why does conflict persist?  First, it is not possible for third parties to mediate or intervene into every conflict.  Sometimes no third party is willing or able to become involved [@fey2010shuttle, p.530], and sometimes the conflict is too decentralized for a third party to effectively mediate or intervene.  This situation is common for internal conflicts in weak states, where conflicts are diffuse and the state lacks the capacity to mediate or intervene into the conflict.  Second, third party mediation and intervention are not effective in all contexts [@beardsley2008agreement; @beber2012international; @weinstein2005autonomous; @autesserre2017international].
 
-Where third parties cannot effectively intervene, conflicting groups could negotiate based on reputation, but reputations are more likely to hinder than to help the bargaining of groups in conflict.  Group members tend to ascribe negative traits to outgroups [@tajfel1981groups, @brewer1999ingroupOutgroup], including immorality and dishonesty [@weisel2015ingroup; @parker2013lessons; @levine1972ethnocentrism; @eidelson2003dangerous].  Group members also dehumanize outgroup members and refrain from extending them empathy or forgiveness [@haslam2014dehumanization; @opotow1990moral; @bandura1999moral; @gutsell2010empathy; @tam2007impact].  <!--These mechanisms prevent each side from accurately interpreting the other side's signals, create and reinforce negative outgroup stereotypes-->
-
 <!--chris: Could merge previous two paragraphs with last section and begin this section as "psychological barriers to peace".  Any attempt at bargaining is likely to be short-circuited by psychological phenomena. -->
 
 <!--Bias perceptions section.
-Second, animosity biases perceptions of ingroup and outgroup behavior and preferences.  These biases increase the likelihood that each group misperceives the other side's intentions and prevents groups from developing reputations for trustworthiness. <!--(5) biased info processing, increases likelihood of misperceptions of outgroup type.
-Ekrem:   what is #1 about? the biases which don't let us update properly? if so say so, that's a good one.-->
-
 <!--chris:"First, conflicting groups hold biased perceptions of their own behavior and the behavior of the other side [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia].  Groups perceive their own belligerent actions as defensive and justified, and perceive the defensive actions of the other side as belligerent and gratuitous.  These perceptual biases create and reinforce negative outgroup stereotypes [@hewstone1990ultimate]." 
 cite Gubler dissertation page 59, When Humanizing Fails, Self-Image Maintenance Motivation.  Cite Social Identity Theory, self-image maintenance motivation generally. Hogg 2001; Abrams and Hogg 1990. Klein and Kunda, brewer1991/1999. -->
 
-These psychological phenomena introduce significant friction in the ability of groups to build trusting reputations.  Group members interpret the defensive action by outgroup members as belligerent and threatening, while they see the belligerent action of other ingroup members as defensive and justified [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia].  Even positive actions by outgroup members may be re-interpreted as negative to avoid cognitive dissonance [@gubler2013humanizing; @paolini2010negative].  Group members then attribute those negative outgroup behaviors to internal characteristics that define all outgroup members [@hewstone1990ultimate].  At the same time, they under-generalize positive behaviors as exceptional to the outgroup and selectively remember events that corroborate their pre-existing negative perceptions [@de2008motivated].  
+Where third parties cannot effectively intervene, conflicting groups could negotiate based on reputation, but reputations are more likely to hinder than to help the bargaining of groups in conflict.  Psychological phenomena introduce significant friction in the ability of groups to build trusting reputations.  Group members interpret the defensive action by outgroup members as belligerent and threatening, while they see the belligerent action of other ingroup members as defensive and justified [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia].  Even positive actions by outgroup members may be re-interpreted as negative to avoid cognitive dissonance [@gubler2013humanizing; @paolini2010negative].  Group members then attribute those negative outgroup behaviors to internal characteristics that define all outgroup members [@hewstone1990ultimate].  At the same time, they under-generalize positive behaviors as exceptional to the outgroup and selectively remember events that corroborate their pre-existing negative perceptions [@de2008motivated].  
 
-These biased perceptions prevent conflicting groups from developing positive reputations, even when both groups are motivated to end the conflict.  These biases prevent accurate perceptions of the attitudes, preferences, and likely behavior of the outgroup, thereby causing information problems.  They also sap the power of each group to send costly signals of willingness to cooperate in future interactions, undermining the creation of intergroup trust and cooperative reputations to prevent commitment problems [@kydd2000trust, @rohner2013war].<!--chris: the first half fo this paragraph seems to belong elsewhere.  "belief that other side owes your side something/other side has committed transgressions whereas your side is defensive."-->  Do not accurately interpret costly signals.
+These biased perceptions prevent conflicting groups from developing positive reputations, even when both groups are motivated to end the conflict.  These biases prevent accurate perceptions of the attitudes, preferences, and likely behavior of the outgroup, thereby causing information problems.  Biased perceptions also sap the power of each group to correctly interpret the other side's costly signals of willingness to cooperate in future interactions, undermining the creation of intergroup trust to overcome commitment problems [@kydd2000trust, @rohner2013war].<!--chris: the first half fo this paragraph seems to belong elsewhere.  "belief that other side owes your side something/other side has committed transgressions whereas your side is defensive."-->
+
+Perceptions that the other side is untrustworthy, immoral, and subhuman make groups unlikely to believe that the other side would accept a fair peace deal or wants peace.
 
   This bias likely pushes each group's perception of the other side's willingness to make peace further from their true willingness to make peace and so reputations hinder, rather than aid, intergroup bargaining processes.
   
@@ -318,6 +315,11 @@ Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge
 
 Wood's 2000 review of persuasion gave two additional functions of attitudes that apply to intergroup attitudes: self-concept and social adjustment [@wood2000attitude].  Self-concept refers to an individual's identity.  If an individual's identity is strongly related to ingroup superiority, she may not want to have better attitudes about the outgroup.  Social adjustment refers to an individual's desire to obtain social rewards.  If an individual's group opposes the outgroup and sanctions those who do not oppose the outgroup, she also has a strong reason to maintain negative outgroup attitudes.
 
+"Group members tend to ascribe negative traits to outgroups [@tajfel1981groups, @brewer1999ingroupOutgroup], including immorality and dishonesty [@weisel2015ingroup; @parker2013lessons; @levine1972ethnocentrism; @eidelson2003dangerous].  Group members also dehumanize outgroup members and refrain from extending them empathy or forgiveness [@haslam2014dehumanization; @opotow1990moral; @bandura1999moral; @gutsell2010empathy; @tam2007impact]."
+
+
+
+
 ***********
 
 # Moved from Intro
@@ -367,5 +369,6 @@ Animosity increases problems via 2 main channels
 
 *******
 ## stuff about biased perceptions.
-  
+
+
  -->

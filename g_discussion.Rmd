@@ -50,6 +50,10 @@ options(SweaveHooks=list(fig=function(){
 
 ## Discussion
 
+Conclusion/summary: Group conflict as bargaining problem.  In theory, groups should avoid fighting and reach peaceful solution.  Groups in conflict do not because of psychological pehnomena.  These psychological phenomena prevent peaceful resolution of conflict in two main ways.  First, they bias each group's interpretation of the other side's behavior and preferences.  These biases prevent cooperative reputations from forming and facilitating bargaining.  Second, these psychological phenomena increase the costs of cooperation and the benefits of defection.  These costs and benefits limit the number of bargained agreements that each side prefers to fighting.  <!--These mechanisms prevent each side from accurately interpreting the other side's signals, create and reinforce negative outgroup stereotypes-->
+
+Intergroup contact improves intergroup attitudes.  Could contact-based programs effectively improve attitudes amongst groups in conflict?
+
 Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
 
 More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
