@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Results Outline
 
+Awareness of conflict (ask how many conflicts).  Then it's "intervention groups were _more_ aware of conflicts and yet felt more physically secure, despite their heightened awareness."
+
 ## Results
 
 # Results
