@@ -16,7 +16,20 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<!--Groups, in theory, should bargain to avoid violent conflict.  But we see many groups in conflict.  Why?  Intergroup animosity prevents bargaining.  Animosity leads, directly and indirectly, to information and commitment problems.  Animosity prevents trust-building.  Animosity changes payoffs.  Animosity biases perceptions of outgroup.-->
+<!--Groups, in theory, should bargain to avoid violent conflict.  But we see many groups in conflict.  Why?  Intergroup animosity prevents bargaining.  Animosity leads, directly and indirectly, to information and commitment problems.  Animosity prevents trust-building.  Animosity changes payoffs.  Animosity biases perceptions of outgroup.
+
+Groups fight because they don't like each other.
+When groups don't like each other, they suffer bargaining failures.
+Making groups like each other reduces the likelihood of bargaining failures.
+Less bargaining failures == more likely to get peace.
+Intergroup contact can make groups like each other.
+
+VS
+
+groups competing for resources will hate each other, no matter what.
+Competition for resources generates the negative intergroup attitudes.
+Therefore competition for resources will always cause conflict.
+Intergrop contact will do nothing because it doesn't change underlying resource competition.-->
 
 # Abstract
 
