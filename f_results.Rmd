@@ -21,6 +21,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Awareness of conflict (ask how many conflicts).  Then it's "intervention groups were _more_ aware of conflicts and yet felt more physically secure, despite their heightened awareness."
 
+Less sharing of farmland and pastureland could imply bargaining.
+
 ## Results
 
 # Results
@@ -31,7 +33,7 @@ Awareness of conflict (ask how many conflicts).  Then it's "intervention groups 
 
 **Nothing**: Ingroup expansion, observed contact at social events, Dispute resolution index, threat.
 
-**Decrease**: Cooperation in PGG, List Exp.
+**Decrease**: Cooperation in PGG, List Exp, share resources (none sig).
 
 ![](figs/ecpn_coefplots_indices.png)
 

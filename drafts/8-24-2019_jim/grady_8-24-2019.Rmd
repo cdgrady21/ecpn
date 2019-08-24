@@ -1,8 +1,9 @@
 ---
-title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Theory"
+title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria"
 author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
+  word_document: default
   pdf_document:
     fig_caption: yes
     fig_height: 7
@@ -13,10 +14,9 @@ output:
     pandoc_args:
     - -M
     - secPrefix=\S
-    template: ../utils/bowersarticletemplate.latex
-  word_document: default
-csl: ../utils/american-political-science-review.csl
-bibliography: ../utils/cdg_references.bib
+    template: ../../../utils/bowersarticletemplate.latex
+csl: ../../../utils/american-political-science-review.csl
+bibliography: ../../../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -48,9 +48,66 @@ options(SweaveHooks=list(fig=function(){
 	)
 ```
 
-<!--
-Things to fit in: History of conflict -- not imagined disputes. More about perceived deservingness (right now minutely in there as part of psyc phenomena increasing information problems).  More on cognitive dissonance?
--->
+
+\begin{abstract}
+
+Group conflict should be avoidable through intergroup bargaining, yet group conflict is commonplace throughout the world.  We argue that psychological phenomena account for many bargaining failures by inducing barriers to bargaining through two main processes.  First, psychological phenomena prevent groups from developing intergroup trust by biasing interpretations of the behavior of the other side<!--costly signals? -->.  Second, psychological phenomena add costs to compromise<!--limit the number of peace agreements each side prefers to fighting --> because group members derive self-esteem from feelings of group superiority.  Interventions that abate these psychological barriers to bargaining should allow the groups to avoid violent conflict.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, behavioral observation, and a behavioral game.  We find that the program increases intergroup contact, intergroup trust, and perceptions of physical security of group members.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
+
+
+\end{abstract}
+
+
+# Introduction
+
+Group conflict is responsible for many of the worst displays of human nature.  It claims lives, threatens food supplies, creates refugees, and extracts a psychological toll on participants and victims.  Despite extensive research, no consistent means of preventing group conflict is known.  To understand why some groups engage in violent conflict and others maintain peaceful relations, we use the framework of group conflict as a bargaining failure, which highlights trust problems as the primary obstacle to peace between groups [@fearon1995rationalist; @rohner2013war; @kydd2000trust].  Groups in conflict have few opportunities to build trust and many to degrade it.  We argue that providing opportunities for trust-building through cooperative intergroup contact improves the prospects for peace.  Intergroup trust ameliorates bargaining problems and increases the likelihood of the groups resolving disputes through bargaining instead of violence.<!--previous sentence really on chopping block. -->
+
+<!--## Relevant Literature
+Intergroup conflict is a bargaining problem exacerbated by lack of intergroup trust.  Groups do not trust each other to honor comittments and worry that the other group is deceiving.   -->
+
+Treating intergroup conflict as a bargaining failure is common in conflict studies [@fearon1994ethnic; @powell2006war].  Both groups want some resource -- land, power, etc -- and must decide how to distribute that resource.  Groups can either bargain and split the resource, or groups can fight to claim all of the resource or to increase their later bargaining position.  Fighting is costly, so both groups are better off finding a bargained solution than fighting.  However, bargaining fails if neither group trusts the other side to be truthful or to honor bargained agreements [@rohner2013war; @kydd2000trust].  Without a reason to trust each other, groups are likely to fight despite the costs to both sides.
+
+<!--How conflict exacerbates trust problems / thwarts intergroup trust.  (1) Low trust due to history of noncooperation & violence.  (2) Disagree about fairness of proposed deal == Disagree about current power / Disagree about which side transgressed and needs to make amends / Disagree about who is likely to hurt more from conflict today/become stronger tomorrow (p.24 of Ross_Ward_1995-NaiveRealism).  (3) internal evaluations and social evaluations == get psychological and social payoffs from beating other side, psychological and social costs from cooperation.  (4) Biased processing of outgroup behavior.  (5) over-generalizing of outgroup.
+
+(A) Biased perceptions: (1) Low trust, (2) perceive fair deals to be unfair.  This is due to (4) perceive outgroup as more threatening/less trustworthy/more in need of making amends.  And due to (5) over-generalizing of outgroup.
+(B) Internal Evaluations/non-material payoffs: (3) psychological benefits to beating other side/costs to cooperating with other side, (3) Social benefits to fighting other side / costs to cooperating with other side.  
+
+CHRIS: "Internal Evaluations", "disagreement about fairness of a deal" do not inhibit trust, only biased perceptions of actions and over-generalizing inhibit trust.  Internal evals and disagree about deal fairness make bargaining more difficult but do not work through trust.-->
+
+A number of psychological phenomena complicate bargaining amidst conflict.  First, conflicting groups hold biased perceptions of their own behavior and the behavior of the other side [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia].  Groups perceive their own belligerent actions as defensive and justified, and perceive the defensive actions of the other side as belligerent and gratuitous.  These perceptual biases create and reinforce negative outgroup stereotypes [@hewstone1990ultimate].  Second, groups in conflict derive psychological benefits from feelings of moral superiority over the outgroup [@tajfel1979integrative; @fein1997prejudice].  These feelings of moral superiority add costs to improving attitudes about the outgroup and to cooperating with the outgroup.  Together these two psychological phenomena sabotage intergroup bargaining by causing the groups to have inaccurate beliefs about each other and by limiting peace agreements acceptable to both sides.<!--chris: cite Gubler dissertation page 59, When Humanizing Fails, Self-Image Maintenance Motivation.  Cite SOcial Identity Theory, self-image maintenance motivation generally. Hogg 2001; Abrams and Hogg 1990. cikara 2013 "their pain" & other articles. -->
+
+Many peacebuilding organizations utilize peacebuilding approaches focused on improving intergroup attitudes.  One such approach, intergroup contact theory, hypothesizes that interactions in which group members cooperate to achieve shared goals will improve intergroup attitudes.  Cooperative contact provides positive personal experience with the outgroup, and those experiences reshape outgroup attitudes [@allport1954prejudice; @pettigrew2008does].  This type of structured face-to-face contact also provides groups the opportunity to send costly signals about their trustworthiness and preference for peace [@kydd2000trust; @lupia1998democratic; @rohner2013war].<!--@bohnet1999social increases trust to see other player -->  Intergroup contact is especially good at reducing intergroup conflict when groups cooperate to achieve superordinate goals -- goals that require the cooperation of both groups and benefit both groups -- because groups experience the material benefits of cooperation [@sherif1958superordinate; @gaertner2000reducing].
+
+Although research shows support for intergroup contact theory generally [@pettigrew2006meta], its efficacy to improve intergroup attitudes amid real-world conflict is an open question [@ditlmann2017addressing].  Negative experiences with outgroups worsen intergroup relations, and individuals with the most negative attitudes are most likely to interpret intergroup contact negatively [@paolini2010negative; @gubler2013humanizing; @barlow2012contact].  Its impact on interracial and interethnic attitudes has also been challenged by recent reviews [@paluck2017contact].  Despite a lack of evidence about the effects of contact-based peacebuilding programs in violent contexts, and the risks of programs going badly, peacebuilding organizations implement numerous contact-based interventions in violent contexts each year [@ditlmann2017addressing].  These peacebuilding programs may or may not defuse intergroup conflict.
+
+<!--Say what we did in context of farmer-pastoralist conflict.  Some context, some intervention design (contact, mediation), some evaluation.-->
+
+To determine if contact-based peacebuilding interventions improve intergroup attitudes, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated througout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths in the past five years, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.
+
+We randomly assigned communities with ongoing farmer-pastoralist violence to receive a contact-based peacebuilding intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, primary health care facilities, etc.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  To measure the effects of the intervention, we conducted pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
+
+[^PGG]: In a public goods game (PGG), research subjects are given money and told they can keep the money or donate it to a public fund.  Money donated to the public fund is multiplied by some amount and then shared with all subjects.  Our PGG is _natural_ because it was conducted in a natural setting, rather than a lab.  The funding for the PGG came from the National Science Foundation under Grant No. 1656871.
+
+<!--Say what we found.  It seems primarily through intergroup contact.  -->
+
+We find that the program increased intergroup trust, intergroup contact, and perceptions of physical security.  We see signs of the positive effects in fieldwork as well as in data -- in one of the treatment sites, farmers defended pastoralists from a group of anti-pastoralist vigilantes, rather than assist the vigilantes in removing the pastoralists and claiming their land.  Our results also show that the intervention affected communities as a whole, not just community members directly involved in the intergroup contact.  Individuals who directly engaged in intergroup contact changed the most positively from baseline to endline, but we also observe positive spillovers of trust to group members for whom we did not exogenously increase intergroup contact.
+
+<!--Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).  <!--(4) peacebuilding programs and CDD, -->
+
+This study expands our knowledge about intergroup conflict in several ways.  First, this study teaches us about the capacity of contact-based peacebuilding programs to improve intergroup relations.  To our knowledge this is the first field experimental test of a contact-based peacebuilding program implemented during an active conflict.  Each of the groups in our study were part of an active and escalating conflict, with members of each side being killed within one year of the intervention's onset.  We evaluated the program's effects on both attitudinal and behavioral outcomes.  The results suggest that contact-based peacebuilding programs can effectively improve relationships between conflicting groups and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
+
+<!--(3) social institutions constraining behavior, intergroup bargaining. Should I also add (5) spillover of effects and social norms/vicarious learning?  Literature about informal structures solving collective action problems.  Some places have formal institutions, some places have do not.  Those places develop informal structures.  This program showed how informal structures can develop through repeated intergroup interaction.-->
+
+Second, we contribute to the literature about informal structures, such as social norms, in solving collective action problems.  In some contexts, formal institutions ensure collective action by punishing groups and individuals who "defect" on agreements.  In many contexts, such as rural Nigeria, no formal institutions exist to encourage such behavior and so groups in those contexts develop informal structures to achieve collective action [@ostrom2000collective].  This peacebuilding intervention showed how those informal structures can develop through repeated intergroup interaction.  Creating informal structures that diffuse the effects of contact are a way of scaling up peacebuilding interventions.
+
+<!--Fulani getting cleansed -->
+
+Third, this paper teaches us about settling disputes between sedentary peoples and nomadic peoples.  Violent conflict between settled peoples and nomadic peoples is on the rise throughout Africa [@hrc2018farmer; @kuusaana2015land; @mwamfupe2015persistence].  This study focuses on the Fulani, the largest semi-nomadic people on Earth [@fulanisize2017].  Their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent violent conflict between Fulani and settled peoples can help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa.  Preventing such violence could help preserve a dying way of life.
+
+<!--Fourth, this paper teaches us about bottom-up interventions to encourage peace between groups.  Most interventions use top-down approach.  Bottom-up approach can support top-down or be effective on its own. chris: do I even want to include this? -->
+
+<!--Roadmap.-->
+
+In the next section we provide a theoretical framework for how and why opposing groups struggle to solve their disagreements through bargaining and negotiation, and elucidate how contact-based peacebuilding interventions help these groups resolve disagreements by improving intergroup trust.  We then discuss Nigeria's farmer-pastoralist conflict, our experimental intervention, and two designs to evaluate the effect of the intervention.  Last we present the results of the study and conclude by connecting these findings to psychological and economic theories of group conflict.
 
 # Theory
 
@@ -160,186 +217,42 @@ This leads to our alternative hypothesis:
 The effect may also be conditional on group status.  Intergroup contact may only reduce prejudice from high-status group to low-status group.  @ditlmann2016can contact-based intervention did not affect the disadvantaged, minority group.
 
 - $\mathbf{H_1b}:$ **Intergroup contact will improve attitudes of farmers towards pastoralists but not pastoralists towards farmers.**
-<!--
-********
-Contact-based interventions can also assist third-party mediation or intervention.  Helps mediation because the conflicting groups are more likely to update perceptions based on mediated information.  Helps intervention because the groups are still able to commit to agreements without the threat of punishment.
-
-When the contact is group-to-group, trustworthy behavior by the outgroup is immediately known by several ingroup members.
 
 
-<!--
+# Context
 
-Paragraph about emotional reactions. Specifically, empathy and threat. Could change emotional reactions to the group, either by increasing feelings of empathy or decreasing feelings of threat.  ^[though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).]  Seeing the other side's argument, seeing their motivations. Increase empathy helps interpret information in non-biased way. [Chris: cite literature on empathy making me interpret information about other people more accurately.  Kertzer?]
+Farmer-pastoralist conflict in Nigeria's Middle Belt provides a context to learn about intergroup conflict.  Nigeria’s Middle Belt divides the country between north and south, and houses a blend of various ethnic groups, with no clear majority. The south comprises primarily Christian farmers from various ethnic groups, while Muslims from the Hausa and Fulani ethnic groups — including the mostly Fulani pastoralists — dominate the north of the country. These religious, ethnic, and occupational identities intersect and create deep fault lines between communities.   Historically, these communities interacted through trade and shared access to land.  However, in recent years, interconnected factors have made these interactions more contentious.  The Middle Belt has been stressed by climate change, population booms, migration, and government policies perceived to favor some groups over others.  These stressors have sparked violent conflict between farmers and pastoralists in recent years.
 
-Paragraph about materal benefit / realistic group conflict theory. Other perspectives focus on the achievement of a joint goal that shows both groups they are _materially_ better off [superordinate goal/RGCT].  The intergroup contact to focus on superordinate goals so the groups can see how intergroup cooperation benefits both sides materially [@sherif1958superordinate].  Sees how _both groups_ have a self-interested incentive to cooperate with peace agreements.  Groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good. Realistic Group Conflict Theory -- resource competition causes conflict, and intergroup relations improved when the groups work together to improve material status of both groups.
+Climate change contributes to the conflict in two ways.  First, changing climate has reduced available water sources and land conducive to farming or grazing.  As the Sahara expands southward [@thomas2018sahara] and water sources dry [@okpara2015conflicts], farmers and pastoralists have to share fewer resources.  Second, changing climate pushes more pastoralists southward into the Middle Belt.^[In addition to the role of resource scarcity, @hoffmann2004role also suggests that southward transhumance by Tuareg groups pushes Fulani pastoralists further south.]  Their southward migration of pastoralists who formerly resided in northern Nigeria causes even more demand for land and water as those resources are becoming scarce.
 
-*******
+Land scarcity is exacerbated by Nigeria's population boom.  Nigeria's population increased from 73 million people in 1980 to an estimated 200 million people in 2019.  The rapidly growing population means increased demand for farming and grazing land, simultaneous with the decreasing supply of farming and grazing land.  The dual pressures of increasing demand and decreasing supply have fueled farmer-pastoralist conflict in recent years [@unah2018nigeria].  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
 
-Could create cognitive dissonance that allows individuals to re-evaluate their beliefs [@gubler].
+Land scarcity and new migrants jeopardize traditional agreements that have managed farmer-pastoralist interactions for decades.  Farmers and pastoralists residing in Nigeria's Middle Belt developed agreements about seasonal land sharing, exchanges for crop residue and animal manure, compensation for damage to crops by livestock, and other arrangements that helped them share resources and avoid conflict.  As land scarcity increased, these traditional agreements were increasingly broken [@cotula2004land; @kuusaana2015land].  These agreements were also less likely to be implemented by the pastoralists migrating into the Middle Belt, who were unaware of these agreements and not involved in forging them.  Their use of land beyond these traditional agreements has further ignited tensions.
 
-Can give group members interactions that reduce perceptual biases.  And about perceptual fairness/unbiasedness: we will interpret things you do fairly and we will interpret things we do fairly (i.e. we will not think everything we do is justified and everything you do is unjustified).  
+Grievances related to access land and water points are compounded by government policies perceived to favor farmers.  Land privatization enacted in recent decades encouraged farmers to plant crops that occupy land continunously, like orchards, and effectively nullified farmer-pastoralist land sharing agreements [@bassett2009mobile].  Official cattle routes and reserves for moving herds are rarely enforced by the government, leading farmers to plant crops in once-protected areas, which further limits pastoralists’ available grazing space.  The “indigene versus settler” policy limits land ownership and other rights, including political representation, to certain ethnic groups in each state [@nigeria2014freedom].  Certain communities -- often pastoralists, who are seen as “settlers” -- are denied the right to run for public office, limiting the incorporation of their views into local policies.   
 
-Groups wondering which type the other group is and making decisions based on that perception.  If other group will cooperate, we should cooperate.  If other group defects, we should defect.  Groups can learn how each other will respond to big interactions by how they respond to smaller interactions.  
+Compounding matters, the government of Benue State enacted an anti–open grazing law in November 2017, sparking more violence because many pastoralists reasonably viewed the law as biased against their way of life.  Benue mobilized state-sanctioned vigilante groups called "livestock guard" to enforce the law, but the livestock guard have sometimes sought out pastoralists, rather than guard farmland.[chris: @duru2018court benue police arresting livestock guard and benue courts releasing the guard; cite other news articles about livestock guard]
 
-Ingroup identification does not necessitate outgroup hate [@allport1954prejudice; @brewer1999ingroupOutgroup; @halevy2008group].
---->
+These factors -- climate change, increasing population, migration, and government policy -- have broken the agreements that previously governed interactions between farmers and pastoralists.  These factors have challenged the interdependence among the groups and the benefits and costs of reaching agreements.  As farmers in Nigeria began to raise their own livestock [@hoffmann2004role], the need for manure from pastoralists decreases.  As governments allocate private property to settled people, pastoralists increasingly destroy crops when using ancestral grazing routes.  And as demand for agriculture products rise, prices for crop destruction must increase to account for lost revenue.  These changes could seem like "defecting" on previous agreements, suggesting to each side that the other is untrustworthy.  Perceived untrustworthy behavior begets a cycle of distrust, culminating in the violent farmer-pastoralist conflict of recent years.
 
+<!--The conflict is primarily _economic_ in nature -- groups fighting for land rights, with goals that are mainly local and territorial.  But these conflicts are exacerbated by ethnic and religious differences.-->
 
-<!--Things From Peacebuilding But Not Contact Necessarily-->
-<!--
-Other components of peacebuilding interventions can 
+This persistent violence continues to have debilitating effects on Nigerians and the economy. First, it has taken many lives. In 2013 alone, Plateau, Kaduna, Nasarawa, and Benue states registered more than 100 incidents of violent conflict, accounting for more than 1,050 deaths (Mercy Corps 2018). The more recent violence left 300,000 displaced [@nyt2018nigeria] and more than 1,476 dead in 2018 [@council2019nigeria]. The Middle Belt is considered Nigeria’s “food basket” and is central to key value chains throughout the country, including beef, dairy, and cash crops such as cassava. This violence has impeded food production and threatens to create a food shortage [@frontera2018nigeria]. Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year [@mcdougal2015effect].  As one reporter noted, "The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].
 
-Create norms against violence, or connect existing norms to the outgroup by humanizing the outgroup.
+Farmer-pastoralist conflict in the Middle Belt is not dissimilar from current and past conflicts in other parts of the world.  Throughout Sahel -- farmer-pastoralist clashes are a persistent problem throughout the Sahel and savannah areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  In South Sudan, Myanmar, Bosnia.  "Range wars" between farmers and ranchers in 19th and early 20th century American West.  Can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.  These conflicts are primarily rural and the state does not project power to these areas.  It is often viewed as biased for or against one group.
 
-Could improve dispute resolution and reduce conflict over resources.  Encourage sharing resources _or_ separation of resources.  Mediation training -- help community leaders resolve disputes.
+## Intervention
 
-Can give group members the capacity to affect conflict.
--->
-<!--
-Can encourage ingroup policing [@ditlmann2017addressing; @Fearon1996].  Ingroup policing works because we cannot do things if our community dislikes those things.  Decrease negative affect allows leaders to credibly commit entire group to peace.  Encourage ingroup policing.  
--->
-<!--
-**Summary paragraph**
+The intervention formed mixed-group committees with equal numbers of farmers and pastoralists and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  It started with a series of community meetings, beginning with separate farmer and pastoralist meetings that built up to joint decision-making meetings with the two groups together.  Each joint project committee included an even number of farmers and pastoralists, as well as women and youth representatives, and totaled between 12 and 15 members. Each committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint projects, of approximately \$25,000.
 
-Contact-based peacebuilding programs can reduce conflict by focusing on both the immediate economic concerns contributing to conflict (superordinate goals?) and the psychological attitudes contributing to conflict. Bottom-up psychological reconciliation programs should work for the types of conflicts for which international intervention is rarely used and is unlikely to be successful.  Persistent intergroup conflict that plagues many countries.  Low-level conflict before it builds to large-scale conflict.  There are XX conflicts of this type accounting for XX deaths each year.-->
-<!--
-## Why Peacebuilding Could Fail
+The quick-impact projects were conceived as a trust-building initiative, intended to let community members see that cooperation was possible. Projects, managed by both farmers and pastoralists, included hand pumps, construction or rehabilitation of market stalls and schools, rehabilitation of health centers, and construction of fences along grazing routes to protect farmlands. The joint economic development projects aimed to address an underlying issue related to the conflict: sharing of resources that impact livelihoods. Pollution of water, affecting both farming and livestock, was the primary issue people raised. As a result, each site received a new borehole well, with farmer and pastoralist youth helping to construct the wells.  
 
-Yet peacebuilding generally, and intergroup contact specifically, may not work in contexts of ongoing violence.  Many top-down attempts to solve bargaining problems with a strong external actor (through mediation and intervention) are ineffective while conflict is going on and only effective at maintaining peace once the formal conflict has ended.  Likewise, psychological reconciliation may prevent resumption of conflict but requires conflict to already be resolved [@bar2000intractable].  Active conflict produces many grievances and high prejudice; cognitive dissonance causes backlash for the most prejudiced people [@festinger1962cognitiveDissonance; @gubler2011diss].  Negative contact experiences reinforce negative stereotypes [@paolini2010negative]. Motivated reasoning for attitudes towards others [@klein1992motivated].  If you don't want to like someone, you will find a reason not to.  Many reasons contact may not work in this context.
+The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.
 
-Intergroup conflict is commitment problem solved by strong third party [@fearon1994ethnic; @powell2006war] and bottom-up programs do not provide a strong third party that can enforce commitments.  Psychological reconciliation is not how we've thought of solving commitment problems between conflicting groups or improving reputations.  Can psych reconciliation improve reputations in contexts of ongoing violence?  
+These projects were designed with the conditions of Contact Theory in mind.  Groups (1) cooperated with (2) equal status to achieve (3) shared goals with (4) support of local authorities.  These projects were meant to help the groups solve some underlying resource problems that drove conflict.  Collectively, these project give groups the opportunity so send costly signals about their willingness to cooperate [@kydd2000trust, @rohner2013war].
 
--->
-<!--
-## Hypotheses
+Will these cooperative interactions allow each group to trust the other?
 
-We have several hypotheses about the way that contact-based peacebuilding programs can improve intergroup relations.  We add distinctions demarcating families of hypotheses, and we define a family of hypotheses as the set of hypotheses that would help make one decision or answer one question.  If a set of hypotheses are part of one family we will adjust the p-values within those families following the False Discovery Rate (FDR) method.
-
-- $\mathbf{H_0}:$ **The treatment will increase information about city rates among treatment households vs. control households.** (Confirmatory)
-    - The information campaign will increase the amount of information individuals have about the most important citizen-facing services that are under the purview of Zomba City Council, the relationship between city rates and these services, the existence of the ability to make payment through bank transfers, and the existence of a municipal tax forgiveness plan.
-
-
-- $\mathbf{H_0}:$ **The treatment will increase information about city rates among treatment households vs. control households.** (Confirmatory)
-    - The information campaign will increase the amount of information individuals have about the most important citizen-facing services that are under the purview of Zomba City Council, the relationship between city rates and these services, the existence of the ability to make payment through bank transfers, and the existence of a municipal tax forgiveness plan.
-
-  - $\mathbf{H_1}:$ **The treatment will increase the intent to formalize among treatment households vs. control households.** (Confirmatory - Formalization Hypotheses Family)
-
--->
 
 
 # References
-
-<!--
-
-# Other Stuff
-
-**Solving Bargaining Problems section**
-[chris: formerly had bigger discussions of mediation and intervention.]
-
-[^bargainChange]: Commitment problems occur for many reasons.  A prominent reason is shifts in power between the bargaining groups.  Power between the groups can shift due to factors that affect each group's preferences and capabilities. Internally, one group may grow in power or size, one group may disarm before the other, the groups may have factions that reject the agreement, the groups may change leaders, or group members attitudes may change for other reasons.  Externally, the groups may gain or lose de facto or de jure state support, other external actors may switch allegiances, or some other shock may change each group's power relative to the other [@fearon2004civil; @reed2016bargaining].  Anything that will change group power in the future can cause commitment problems in the present.[chris: maybe I do not need this footnote now.]
-
-"Groups in conflict overcome information and commitment problems in several ways.  
-
-The two principal ways that groups overcome information problems are (i) fighting and (ii) third-party mediation.  Through fighting, the groups directly observe each others capacity and willingness to fight [@smith2003mediation].  Through mediation, the groups receive accurate information about each other from a third-party [@ott1972mediation; @kydd2006can; @beber2012international].
-
-The two principal ways that groups overcome commitment problems are through (i) intervention by strong third parties that add large costs to reneging on agreements, and (ii) reputations for trustworthiness.  Though each group may have an incentive to defect on an agreement after it is made, the groups have less incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements [@fearon1998commitment; @powell2006war; @doyle2000international].  Likewise, groups have less incentive to defect on agreements if defection affects a group's reputation.  Future bargaining depends on groups trusting each other to abide by agreements, and groups with reputations for defection are unlikely to attract other trustworthy partners or elicit trusting behavior from partners [@ostrom2003trust; @kydd2000trust; @rohner2013war].  With these incentives for cooperation, the groups can bargain in good faith knowing that the other will abide by its word.[^reputation]"
-
-"If we know how to resolve intergroup conflict, why does conflict persist?  Issues of bias prevent mediation from solving information problems.  Issues of capacity and motivation prevent intervention from solving commitment problems, and psychological biases prevent reputations from solving commitment problems.
-
-Mediation and intervention are dogged by two issues of motivation.  First, mediators are often motivated for peace.  This motivation implies that mediators provide information that is biased towards encouraging the groups to negotiate a peace agreement.  For mediators to reduce information problems, groups engaged in bargaining must believe that mediators provide accurate, unbiased information.  Since both groups know that mediators are biased towards peace, mediators do not solve information problems and may not help groups achieve peace [@smith2003mediation; @kydd2006can; @fey2010shuttle].  This same argument prevents mediators who are biased for or against disputants from solving information problems [@kydd2006can].[^mediation]
-
-Second, international actors may lack the motivation to mediate or to intervene into the conflict, even if one group reneges on its agreement.  Intervention is costly and many international actors either cannot credibly commit to intervene into many conflicts or have no interest in intervening into many conflicts [@kydd2006can; @fey2010shuttle; @beber2012international].  This lack of motivation is especially relevant for intergroup conflict between groups within a state.  Most international actors and strong third parties lack an incentive to intervene into intrastate intergroup conflicts, and these disputes tend to take place within states that lack the capacity to compel both sides themselves.  Since intervention is costly, strong third parties have an incentive to intervene only _after_ fighting escalates, so intervention will generally not be used to prevent conflict from escalating or to reduce the persistent, smaller-scale violence that plague many countries.  Where external actors are motivated to intervene, intervention is a short-term peace solution and its effects do not endure with the departure of the external actor [@rohner2013war; @beardsley2008agreement; @weinstein2005autonomous].  Once the external actor leaves, the groups' commitment problem returns: with no one to punish defection, the groups have no reason to trust each other."
-
-[^mediation]: Whether mediation is benefited from biased or unbiased information is still a matter of debate.  Some scholars believe bias improves mediation.  The primary mechanisms proposed are that biased mediators are more likely to have relevant private information [@savun2008information] and that a biased mediator who tells his _favored_ group to compromise will be heeded [@kydd2003side; @svensson2009brings].  We tend to side with @beber2012international, @rauchhaus2006mediation, @crescenzi2011supply, and @kydd2006can and believe that unbiased mediation improves mediation outcomes.  @kydd2006can and @beber2012international provide compelling theoretical arguments: effective mediators must be both unbiased and motivated, but that motivation and bias often overlap.  We are also amenable to the argument of @fey2010shuttle that mediator success actually has less to do with information provision and more with agenda setting, offering carrots/threatening sticks, and serving as a back channel.
-
-
-
-In this case, bias for or against one side of the conflict can increase the effectiveness of intervention [@kydd2003side; @regan2002third] because it provides motivation for the international community to intervene in the conflict.
-
-"In many conflicts, the conflicting groups are not united and therefore it is not clear who is involved in bargaining and who the external actor should punish if one side defects."
--->
-
-
-<!--
-
-**About Reputation**
-Commitment problems are problems of trust.  The trust can be through a third party or between the groups directly.
-
-Reputations for trustworthiness are how groups overcome bargaining problems in the absence of formal enforcement mechanisms [@ostrom2000collective; @kydd2000trust, @rohner2013war; @ostrom2003trust].  Mutual trust overcomes bargaining problems because information and commitment problems are both, at their heart, problems of trust.  For information problems, groups do not trust the information they receive from the other side.  For commitment problems, groups do not trust the other side to abide by its agreements.  Cultivating a reputation as a trustworthy partner in previous interactions gives a bargaining partner confidence that you are trustworthy in the present interaction.
-
-<!--
-(This also means that the outgroup has less incentive to cooperate with your ingroup because they are less likely to be punished for defecting in a world where reputation is built off of _experienced_ interactions, rather than previous _observed_ interactions. [chris: Scott Page's coursera on overcoming collective action problems cites a model where the more people who can see your interaction the more incentive you have to cooperate.].  Not sure this is relevant.) <!--Mediation can also be good when the groups are likely to say inflammatory things to each other.  Going through a mediator prevents that. chris: don't remember the citation, and this belongs in a diff section. -->
-
-
-<!--
-*******
-
-**Thoughts about trust**
-
-@ostrom2003trust ch.2 discusses how reciprocity, reputation, and trust help overcome selfish behavior that leads to pareto-inferior outcomes;  players achieve self-enforcing equilibria by comitting themselves to punishing noncooperators to deter noncooperation; repeated games & uncertainty about player types increases cooperation; face to face interaction increases cooperation bcuz increases trust, also could add subjective value to payoff structure, gives group ID, reinforces normes, not because players realize optimal strategies and not from non-face-to-face promises.  People seek to improve values they find important.  People use heuristics; people use internal evaluations that add or subtract from objective payoffs (+ for feeling good, - for being a sucker);    ch.12 discusses how trust is minimal in situations where reputations for trust cannot be established.  @hardin2003 ch.3 gaming trust -- concept of mutual trust: trust based on long-term interaction between two parties.  Thick trust: diverse layers of interaction; interactions in one layer influence interactions in another; repeated relationships and 3rd party relationships. @hardin2002trustAndTrustworthiness talks about being trustworthy. @kydd2003 and costly signals of trustworthiness. Trust and Reciprocity 2003 ch.15 - knowledge of the other, repeated interactions, and strong possibility of future interactions predict trustworthy and trusting relationships.-->
-
-<!--
-**Thoughts about intergroup prejudice**
-@tam2007 intergroup prejudice = less likely to forgive, and forgiveness is a key to intergroup cooperation [@axelrod1980effective].  Prejudiced groups cannot put previous transgressions behind them.  @gutsell2010empathy people do not naturally feel empathy for outgroup members. 
-
-Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].
-
-Wood's 2000 review of persuasion gave two additional functions of attitudes that apply to intergroup attitudes: self-concept and social adjustment [@wood2000attitude].  Self-concept refers to an individual's identity.  If an individual's identity is strongly related to ingroup superiority, she may not want to have better attitudes about the outgroup.  Social adjustment refers to an individual's desire to obtain social rewards.  If an individual's group opposes the outgroup and sanctions those who do not oppose the outgroup, she also has a strong reason to maintain negative outgroup attitudes.
-
-"Group members tend to ascribe negative traits to outgroups [@tajfel1981groups, @brewer1999ingroupOutgroup], including immorality and dishonesty [@weisel2015ingroup; @parker2013lessons; @levine1972ethnocentrism; @eidelson2003dangerous].  Group members also dehumanize outgroup members and refrain from extending them empathy or forgiveness [@haslam2014dehumanization; @opotow1990moral; @bandura1999moral; @gutsell2010empathy; @tam2007impact]."
-
-
-
-
-***********
-
-# Moved from Intro
-
-When both groups desire some valuable $X$ they must come to an agreement about the division of $X$ based on the existing strategic situation.  In dynamic settings where the strategic situation is unstable, groups cannot credibly commit to abide by their agrements; when the situation changes, one group will have an incentive to renege on the deal.  Bargaining breaks down because both sides know that neither can credibly commit to any bargaining agreement.  In the absence of a bargained solution groups use violence to settle disputes over $X$.  In this view, the solution to intergroup violence is a strong neutral third-party to solve the comittment problem by compelling each side to honor bargaining agreements.  This is an example of institutions constraining behavior.<!--Possibly next paragraph talks about government intervention over land use to compel each side.  But government is weak and unable to compel each sides; and pastoralists view the government as very partial to the farmers. -->
-<!--
-Intergroup violence is also considered a product of intergroup prejudice and dehumanization ^[cite: humanizing the outgroup stuff, @halperin2011emotional; also cite: tajfel, ].  Chris: argument.  In this view, the solution to intergroup violence is to reduce prejudice and humanize the outgroup; provide superordinate goals that show groups the benefit of working together.  
-
-Even some proponents of the psychological perspective doubt the ability of intergroup contact to reduce violent conflict [@gubler; @saguy2011tension; others.]
--->
-
-<!-- 
-Models say intergroup bargaining should work.  Groups should be able to form reputations for trustworthiness.  Groups are not doing so.
-Negative affect makes it difficult to develop intergroup trust.
-intergroup contact can increase trust even when groups don't like each other.
-
-
-
-The story is "Theoretical models of conflict say that groups should be able to solve their problems through bargaining.  When external actors are not present to guarantee bargained agreements, groups use trust.  But it's hard for groups who don't like each other to develop trust.  Cooperative contact can build trust even in these contexts."
-
-The only thing we do not specifically measure is "these groups don't like each other".  I don't think readers will reject the idea that these groups dislike each other.
-
-The lack of effect on intergroup cohesion, which you cited above, is not a problem for this "trust" theory.  No increase on cohesion means the groups are not seeing themselves as more similar.  The trust theory would not say that these groups would see themselves as more similar.
-
-@ichheiser1949misunderstanding: In this monograph supplement certain implicit assumptions which may distort the analysis of human relationships are discussed. Sources of misinterpretations include: (1) a tendency to over-estimate the unity of personality. (2) emphasis in our culture on success and failure, (3) stereotyped classifications, (4) lack of awareness of the limits of insight, and (5) a tendency to overestimate the role of personal and to underestimate the role of situational factors.
-
-@liberman2004name: PD as community game vs wall street game.
-@ward1997naive: People assume that they are rational.  We thus assume other rational people will share our views. We assume other people deviate either because (1) they don't have the right information, or (2) they are lazy/stupid, or (3) they are biased.  Biased assimilation of information: Historf and Cantril 1954 about sports fans, and Lord et al 1979 about political issues.  Don't forget Gaines & Kuklinski Same Facts Different Interpretations.  Anyone disagreeing with my side is obviously biased and lacks objectivity.  Vallone et al 1985 Israel-Arab conflict.  Partisans think their own side, and the other side, is more consistent/homogenous.  p.23 Keltner and Robinson 1993 - reducing misperceptions about other's construals/beliefs leads opposite sides to view each other more favorably & encourages search for agreement.  ME: We want to make allies! p. 23-24: egocentrism and naive realism creates barriers to negotiation and dispute resolution.
-Difficulty of negotiation: (1) different construal of conflict history and who is to blame/the aggressor, (2) different construal of actions as hostile or defensive, (3) different construals of future gains in strength and trustworthiness of the groups.  Disputants disagree about proposals they give both parties what they need and deserve.  Disagreements about the proposal further heightens enmity and distrust (p.24).  Reactive devaluation: If the other side proposed it, it isn't that great of a deal; we value things we do not have over things we do have.  p.29: perception of self-other similarity can promote conflict resolution.
-Chris: overestimate their own strength.
--->
-
-<!-- EKREM STUFF:
-Ekrem: "I am a proponent of highlighting how contact can complement our existing tools both by using it when intervention is not possible and also by using it when it is possible to make it work better."
-"suppose I succeeded in this intervention and there is no animosity or information problems.  YET these groups still have conflicting incentives.  Third-party intervention can solve that, this intervention did not."
-Earlier Ekrem: "(1) it's not clear how mediation could even function when parties to the conflict are not reasonably organized, but instead conflict is communal / dispersed. so here we could lean more heavily on bottoms-up stuff.  (2) in situations where mediation should work, bottoms-up is still good, because one way bottoms-up solves our problems is by removing frictions which sort of prevent rational belief updating and proper learning from data. so bottoms-up should make mediation more likely to be effective."-->
-
-<!--Ekrem: I think you can make this part leaner and meaner by imposing a structure where you say
-
-Animosity increases problems via 2 main channels
-
-1) Via social/psychological mechanisms which increase costs of cooperation and benefits of defection (1a personal, 1b social, 1c constraining leaders)
-
-2) Prevents accurate interpretations of signals. Blocks the pipes (which is the second part) -->
-
-<!--
-
-*******
-## stuff about biased perceptions.
-
-
- -->
