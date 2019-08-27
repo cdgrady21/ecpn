@@ -50,6 +50,8 @@ options(SweaveHooks=list(fig=function(){
 
 <!--
 Things to fit in: History of conflict -- not imagined disputes. More about perceived deservingness (right now minutely in there as part of psyc phenomena increasing information problems).  More on cognitive dissonance?
+
+Loss aversion: a negotiated deal == give up something, gain something.  We weigh losses more than gains (ross and ward 1995 psych barriers)
 -->
 
 # Theory

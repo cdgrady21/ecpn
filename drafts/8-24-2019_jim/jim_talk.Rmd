@@ -1,0 +1,101 @@
+---
+title: "jimTalk_8-26-2019"
+author: "Chris Grady"
+date: "8/26/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overall
+
+Made it worse.
+
+Mixing start of conflict with ongoing conflict process.  Maybe give an example or two of the phenomenal costs.  Say how two million people have died in the last ten years to tell peope why this is a big problem.  Then the psych processes follow naturally.  Upfront say: "Ongoing conflicts going on all over the place, one of most crucial phenomena to overcome.".  Requires discussion of ongoing vs initiation.
+
+Keep in mind: what makes my study unique?
+
+Two psych methods: Biased interpretation fine.  "Group superiority" needs to be "moral superiority".  
+
+Make it clear that the contact intervention will _remove_ the psych processes/barriers. Or will they continue to operate but this intervention transcends them?
+
+Ongoing vs initiation.
+
+Need more in theoretical argument about _how_ an intervention does this.  Really need to say how these interventions work to undercut ongoing animosity. And that's where the spillover portion needs to go.  Not just individuals being treated by the intervention.  Spills over to others.  That also needs to be in the theoretical story.  
+
+Need to talk more about these types of interventions would work and not work.  Talk about interventions (contact-theory interventions) and how/why they undo these processes.  Talk about the type of intervention and how it interrupts the two processes.  And for real, really talk about the spillover effect to the people who aren't part of the contact has to be part of the theoretical story.  How would the contact spillover?
+
+For the psych processes/barriers I discuss, talk about how they are part of human nature.  hard to overcome.
+
+Singular purpose fo theory section: There are interventions that would work to reduce these psychological processes/barriers/problems.
+
+Bargaining stuff: did not see why it was important.  If theres an outside intervention, then bargaining might come into play.  But much more naturally is just bringing groups together.
+
+If bargaining, the bargaining has to be part of the theory more clearly.
+
+**Trust is not mentioned early**
+
+
+# Writing
+
+A lot of redundancy in there.  Hard to read, have to go back a lot.
+
+It has actually become more complicated.
+
+Never use the term "conflict starting" when you are talking about "ongoing conflict".  IR people make big distinctions.  One slip of the words will mess people up.
+
+# Paragraph by paragaph
+
+1. Big problem throughout the world, seem nonending, terrible consequences.  Would like to be able to solve them.
+2. Biggest obstacle to preventing fighting is a lack of trust. It's the basic problem. (look at Tom's book: they don't like each other so they don't trust each other.  So things aren't gonna happen). To cease this type of conflict, need to help the two groups trust each other.
+3. How can the groups develop trust?  Look to contat theory, with a long history.
+
+**Theory**
+
+got an intervention, want to achieve trust, how would that work?  The intervention is basically giving reasons for why they can trust the other side.  So for theoretical part, "our purpose is to instill trust".  Have to tell the story of how this intervention improves trust.  Generating trust is not easy.  What kinds of things cold bring about trust?
+
+COstly signals.  CIte the robbers cave experiment, done way back when.  These sorts of contacts can bridge trust.  People are doing their part to build the boreholes, build the schools.  Relying on each other.  Psych might call this cooperative experience and IR field they call this "reassurance".  Use one term (cooperative experience) and *Footnote the other*.
+
+Part of it is biased perceptions cause distrust/prevent trust.  But they don't build trust.  Costly signals/reassurance build trust.  Biased perceptions are a symptom and emerge as a function of distrust, and then they add to the distrust, creating a cycle.
+
+How does this intervention affect people not participating (aka spillover)?
+
+How does this experiment overcome major obstacles?  What is it generally about the intervention?  Costly signals.  The other side does things that are obviously costly in terms of time, money, effort.  They would not do that unless they were really serious about cooperating.
+
+Something about conditions that need to be met for an itnervention like this to work.
+
+Not a lot of opportunities for these groups to signal trustworthiness.  Most interactions are in the market: probably not going to icnrease trust.  Buyer wants to get cheapest price, seller wants to get highest price.  Situation where incentives mis-aligned.  Individually a collective goods problem?
+
+Lots of work to do to build these structures.  Not seeing the other side free-riding.  Not seeing them favor their ingroup.
+
+_maybe this section, but jim doesn't seem to like it because it's not simple/straightforward.  Better to earlier develop an argument about how it's really hard to accomplish.  In conclusion section, want the reader to walk away thinking "this is what it takes to accomplish what you accomplish in this study."_
+
+might signal that they are not trustworthy. cannot overcome resource competition. still trying to use same piece of land.  Perceive the other side to be bad and so either don't send signals or interpret those signals incorrectly.
+
+# Jim
+
+## Idea 1
+
+could drop the whole rationalist perspective.  Instead of "they shouldnt fight", say "they do fight because of these two psychological processes".
+
+Write a different paper with Ekrem about how psych processes complicate conflict bargaining processes.
+
+Keep this paper simple but compelling.  I am trying to talk to IR people about prejudice and psych people about bargaining.  And confusing both of them.
+
+Go through each paper and have a bullet point of what each paragraph is going tos say.
+
+ANticipate empirical results while writing upfront stuff.  Gotta know what you found first.
+
+## Idea 2
+
+Drop moral superiority, focus on trust.  Keep it about bargaining.
+
+How do they get into this bargaining thing in the first place?  They _should_ bargain, but the whole point is that they do not.
+
+## Idea 3
+
+COmpeting theories: could work, or could not work?
+
+Groups could signal that they are not trustworthy.
