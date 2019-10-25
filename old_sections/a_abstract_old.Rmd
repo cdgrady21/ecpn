@@ -33,33 +33,7 @@ Intergrop contact will do nothing because it doesn't change underlying resource 
 
 # Abstract
 
-Two separate field of study are concerned with violence between groups: international relations and psychology.
-
-
-Scholars of International Relations and Psychology are both concerned about violent group conflict, but approach the problem in different ways.  IR scholars approach group conflict as a commitment problem/bargaining failure, where the main barrier to peace is a lack of trust.  Psychology scholars see group conflict as a consequence of group identity, where the main barriers to peace are negative affect and biased perceptions.  Combining these perspectives, we see group conflict as a bargaining failure where affective costs of peace and benefits of fighting limit the "bargaining range" (outcomes each side prefers to fighting) and trust is not built due to perceptual biases.  Interventions that reduce the affective costs of peace and reduce perceptual biases should allow groups to reach peaceful agreements.  We analyze an intergroup contact field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  The results suggest that reducing psychological barriers to bargaining between conflicting groups can help the groups build trust.
-
-
-<!--
-IR Perspective on conflict and cooperation.
-  - bargaining; commitment problem; trust
-
-Psych Perspective on conflict and cooperation: has looked at many factors that contribute to conflict.
-  - competition as inevitable consequence of groups (social ID theory, minimal group paradigm)
-  - realistic group conflict theory: inevitable as groups fight over resources
-  - contact theory: prejudice caused by stereotypes/information (original), anxiety (newer), lack of empathy (newer), perceived threat (newer).  Prejudice could cause conflict.  Need cooperative contact with superordinate goals
-  - 
-
-
-Why psych needs IR
-  - IR/Formal Models show us the relevant characteristics of the situation.
-  - Key is trust.  Intervention needs to build trust.
-  - Other factors, such as affect, empathy, or social distance are important only insofar as they influence trust.
-  - ALSO: must have a bargaining range == outcomes each side prefers to fighting.
-
-Why IR needs psych
-  - Psych knows a lot about psychological basis for trust.  Things that affect building trust: biased perceptions of behavior.
-  - ALSO: non-material costs and benefits that change the bargaining range.
--->
+Group conflict should be avoidable through intergroup bargaining, yet group conflict is commonplace throughout the world.  We argue that psychological phenomena account for many bargaining failures by inducing barriers to bargaining through two psychological processes.  First, psychological phenomena prevent groups from developing intergroup trust by biasing interpretations of the behavior of the other side<!--costly signals? -->.  Second, psychological phenomena add costs to compromise<!--limit the number of peace agreements each side prefers to fighting --> because group members derive self-esteem from feelings of group superiority.  Interventions that abate these psychological barriers to bargaining should allow the groups to avoid violent conflict.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior, and a behavioral game.  We find that participation in the program increases intergroup contact, intergroup trust, and perceptions of physical security among group members; many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
 
 
 <!--
@@ -150,9 +124,6 @@ Intergroup conflict is responsible for many of the worst displays of human natur
 In this paper we test the ability of intergroup contact-based interventions to contribute to peace between groups involved in violent conflict.  Intergroup conflict occurs when groups cannot negotiate to resolve disagreements.  Negotiation requires trust that the other side will abide by its agreements, but groups in conflict share mutual distrust, which sabotages negotiations.  Interventions based on intergroup contact can help groups build intergroup trust by giving each group the opportunity to update perceptions of the other side.  Improved intergroup trust should allow the conflicting groups to settle disagreements and establish or maintain peaceful relations.  We test the ability of contact-based interventions to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, behavioral observation, and a behavioral game.  We find that the program increases intergroup contact, intergroup trust, and perceptions of physical security of group members.  These results suggest that building trust between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
 -->
 
-<!--Abstract 6
-Group conflict should be avoidable through intergroup bargaining, yet group conflict is commonplace throughout the world.  We argue that psychological phenomena account for many bargaining failures by inducing barriers to bargaining through two psychological processes.  First, psychological phenomena prevent groups from developing intergroup trust by biasing interpretations of the behavior of the other side.  Second, psychological phenomena add costs to compromise because group members derive self-esteem from feelings of group superiority.  Interventions that abate these psychological barriers to bargaining should allow the groups to avoid violent conflict.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior, and a behavioral game.  We find that participation in the program increases intergroup contact, intergroup trust, and perceptions of physical security among group members; many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
--->
 
 
 
@@ -163,7 +134,9 @@ Group conflict should be avoidable through intergroup bargaining, yet group conf
 
 
 
-<!--
+
+
+
 *******
 
 ## Thinking from Alice Presentation
@@ -199,7 +172,7 @@ Would think ECPN would work because it uses intergroup contact, increased resour
 
 # Other abstracts on topic
 
-
+<!--
 # Scacco abstract
 Can positive social contact between members of antagonistic groups reduce prejudice and discrimination? Despite extensive research on social contact, observational studies are difficult to interpret because prejudiced people may select out of contact with out-group members. We overcome this problem by conducting an education-based, randomized field experiment—the Urban Youth Vocational Training program (UYVT)—with 849 randomly sampled Christian and Muslim young men in riot-prone Kaduna, Nigeria. After sixteen weeks of positive intergroup social contact, we find no changes in prejudice, but heterogeneous-class subjects discriminate significantly less against out-group members than subjects in homogeneous classes.  We trace this finding to increased discrimination by homogeneous-class subjects compared to non-UYVT study participants, and we highlight potentially negative consequences of in-group social contact. By focusing on skill-building instead of peace messaging, our intervention minimizes reporting bias and offers strong experimental evidence that intergroup social contact can alter behavior in constructive ways, even amid violent conflict.
 
