@@ -76,28 +76,33 @@ Field experiment papers often take a couple paragraphs talking about the field e
 
 <!--chris: New first paragraph about intergroup conflict generally.-->
 
-Violent conflicts are one of most crucial phenomena for humans to overcome.  As of 2018, violent conflicts caused 2 million deaths since the year 2000 [@ucdp], were responsible for forcibly displacing over 70 million people from their homes [@unhcr2019], , threatened food supplies in numerous countries [@verwimp2012food], and extracted a psychological toll on participants and victims (chris: cite Schomerus and Rigterink from ISA Toronto?).  Despite extensive research, violent conflict is still common and methods to prevent violent conflict between groups elusive.  
+Violent conflicts are one of most crucial phenomena for humans to overcome.  As of 2018, violent conflicts caused 2 million deaths since the year 2000 [@ucdp], were responsible for forcibly displacing over 70 million people from their homes [@unhcr2019], , threatened food supplies in numerous countries [@verwimp2012food], and extracted a psychological toll on participants and victims (chris: cite Schomerus and Rigterink from ISA Toronto?).  Despite extensive research, violent conflict is still common and methods to prevent violent conflict between groups are elusive.  
 
-<!--The two perspectives: Psych and IR.   What psych brings: a variety of non-material factors that contribute to group violence, including: group identity; economic/other threat; prejudice and emotions; personality/social dominance orientation. Ways to influence those contributors, like intergroup contact (Allport 1954; Scacco and Warren 2018; Paluck 2009), expert appeals (Chang and Peisakhin 2018) increasing material prosperity[chris: realistic group conflict theory?], and perspective-taking (Simonovits et al. 2018). -->
+<!--The two perspectives: Psych and IR.   What psych brings: a variety of non-material factors that contribute to group violence, including: group identity; economic/other threat; prejudice and emotions; personality/social dominance orientation. Ways to influence those contributors, like intergroup contact (Allport 1954; Scacco and Warren 2018; Paluck 2009), expert appeals (Chang and Peisakhin 2018), resource competition [chris: realistic group conflict theory?], and perspective-taking (Simonovits et al. 2018). -->
 
-Two main perspectives about group conflict.  One perspective, coming from psychology, identifies group conflict as a problem of emotion/affect and group identity.  This perspective emphasizes things like perceived threat/fear (cite), anger [@Claassen2014group] ethnic or religious hatred (cite), and dehumanization (cite) as the drivers of group violence.  
+There exists two main perspectives about group conflict.  One perspective, coming from psychology, identifies group conflict as a problem of emotion/affect and group identity.  This perspective emphasizes things like perceived threat [@riek2006threat; @stephan2011threat], anger and aggression [@Claassen2014group; @deWall2011aggression; @halperin2011emotional; @schaller2008intergroup], ethnic or religious hatred [@staub2001ethnopolitical; @cikara2014their; @Petersen2002understanding], and dehumanization [@haslam2014dehumanization; @kteily2016they] as the drivers of group violence.  This perspective points to intergroup contact [@Allport1954; @Scacco2018; @Paluck2009), perspective-taking [@Simonovits2018], and expert appeals [@Chang2018] to reduce violent conflict.
 
-    - emotion and affect (chris: here also include prejudice, aggression, threat/fear, evolution, personality) [@Claassen2014group; Mackie, Devos, and Smith 2000; Tausch et al. 2011; @deWall2011aggression; @mcDonald2012maleWarrior] 
-    - group identity (chris: here also include dehumanization, ethnic/religious hatred, morals/values), aggression [], threat of material deprivation, [@Claassen2014group; chris: relative deprivation theory; @Petersen2002understanding; @scheff2002emotions];
-
-Two psych-oriented theories similar to formal theory of conflict.  (1) Realistic group conflict theory from Campbell 1965: group conflict because groups have "incompatible goals" (p.287).  (2) Nisbett and Cohen 1996 about a reputation for toughness.
-
-FROM LITTLE AND ZEITZOFF: " psychological explanations posit that political violence is primarily driven by emotional or identity
-grievances, ethnic or religious hatred, or in defense of sacred values (Atran 2006; Bar-Tal 2001; Cheung-Blunden and Blunden 2008; Nisbett and Cohen 1996; Petersen 2002; Scheff and Retzinger 2002.).
+<!--    - emotion and affect (chris: here also include prejudice, aggression, threat/fear, evolution, personality) [@Claassen2014group; Mackie, Devos, and Smith 2000; Tausch et al. 2011; @deWall2011aggression; @mcDonald2012maleWarrior] 
+    - group identity (chris: here also include dehumanization, ethnic/religious hatred, morals/values), aggression [], threat of material deprivation, [@Claassen2014group; chris: relative deprivation theory; @Petersen2002understanding; @scheff2002emotions];-->
 
 <!--What IR brings: a model that explicates the characteristics of violent conflict.  Intergroup conflict as a bargaining problem [@fearon1995rationalist; @fearon1994ethnic; @powell2006war].  Points to trust/costly signals and to bargaining range / perceived benefits and costs of conflict. [@rohner2013war; @kydd2000trust; chris: need something about bargaining range/].-->
 
-The second perspective, coming from international relations and rationalism, identifies group conflict as a bargaining problem.  Violent conflict occurs when bargaining fails.  This perspective emphasizes the costs and benefits of conflict, the costs and benefits of peace, and belief that the other side will honor bargained agreements.
-
+The second perspective, coming from international relations, identifies group conflict as a bargaining problem [@fearon1995rationalist; @fearon1994ethnic; @powell2006war].  Two groups want some resource -- land, power, etc -- and must decide how to distribute that resource.  Violent conflict occurs when one or both sides decide their expected utility from fighting is higher than their expected utility from bargaining.  This perspective emphasizes two factors: (1) the range of mutually acceptable bargaining outcomes (i.e. the number of bargained outcomes preferable to fighting; the costs and benefits of conflict versus peace) [@colgan2015revolution; @lake2003international] and (2) trust that the other side will honor bargained agreements [@reed2016bargaining; @powell2006war; @kydd2000trust].  This perspective points to third party mediation [@kydd2006when; @doyle2000international; @fearon1998commitment] and costly signaling of trustworthiness [@kydd2000trust; @rohner2013war] to reduce violent conflict.
 
 <!--Merging IR with psych: Model from IR that structures basic problem; portable and clear.  (1) Trust and (2) benefits/costs of fighting or not fighting.  Other factors only relevant insofar as they affect these two fundamental characteristics of the problem.  From psych, the factors that affect trust and perception of behaviors that signal trust; the non-material costs and benefits that change the bargaining range: . -->
 
 The psychological perspective and the international relations perspective each make valuable contributions to the study of group conflict.  The IR perspectives provides a model that structures the basic problem of group conflict; it is portable and clear.  Group conflict occurs when bargaining fails, bargaining fails when there is no agreement acceptable to both sides or when neither side trusts the other to honor agreements.  The psychological perspectives provides the non-material costs/benefits of conflict that could sabotage agreements acceptable from a purely material standpoing; it also provides the myriad factors that affect trust and the perception of behaviors that signal trust.
+
+IR provides a model that formalizes the situation that causes conflict: .  Psych tells us the factors that affect the situation.
+
+IR provides a model that explicates the characteristics that affect the situation: bargaining space (a deal is possible) and trust (they will honor the deal).  Psych tells us the details of those characteristics: deriving esteem from group superiority reduces the bargaining space, perceptual biases affect behavior that signals trust.
+
+IR tells us this is a bargaining situation.  Psych tells us what makes that bargaining more/less difficult.
+
+The psychological perspective and the international relations perspective each make valuable contributions to the study of group conflict.  The IR perspectives provides a model that structures the basic problem of group conflict; it is portable and clear.  Group conflict is a bargaining situation and violence occurs when bargaining fails.  bargaining fails when there is no agreement acceptable to both sides or when neither side trusts the other to honor agreements.  The psychological perspectives provides the non-material costs/benefits of conflict that could sabotage agreements acceptable from a purely material standpoing; it also provides the myriad factors that affect trust and the perception of behaviors that signal trust.
+
+
+Two psych-oriented theories similar to formal theory of conflict.  (1) Realistic group conflict theory from Campbell 1965: group conflict because groups compete for resources and have "incompatible goals" (p.287).  (2) Nisbett and Cohen 1996 about a reputation for toughness.
 
 
 <!-- Intergroup cooperation for material benefit is primary method that addresses issues relevant to conflict.  Should increase trust by providing structured interactions where group members cooperate for a common goal: group A's actions towards the common goal help group B, and vice versa.  Costly signal.  Something about working together for material benefit.
@@ -105,6 +110,8 @@ The psychological perspective and the international relations perspective each m
 Decrease benefits of conflict because not feeling justified in harming outgroup; decreases costs of peace because not deriving self-esteem from feelings of moral superiority.
 
 Diffuse to others through social norms and vicarious contact.-->
+
+Stuff here merging two perspectives.
 
 
 <!-- We conducted a contact-based field experiment;  -->
@@ -271,5 +278,57 @@ UN peacekeeping not successful at ending _ongoing_ conflicts, but are successful
 
 Studies have not, however, shown how intergroup bargaining is made more difficult by the cognitive and motivational biases of two opposing groups; nor has it shown how those groups can overcome their biases to reduce conflict. 
 -->
+
+<!--
+chris: biased perceptions.
+Once conflict between two groups begins, the
+violence escalation cycle is triggered. Group A
+experiences Group B’s retaliation, which causes
+Group A’s members to have high levels of
+aggressive affect, to perceive Group B as hostile
+and aggressive, and to experience heightened
+arousal. These internal states cause members of Group A to act impulsively on their immediate
+appraisal of Group B as hostile and threatening.
+Group B then experiences the impulsively aggressive
+act from Group A, which sets in motion
+the same set of internal states and appraisal
+and decision processes that result in an even
+more aggressive retaliation (see Figure 2). Both
+groups will trade increasingly aggressive retaliations
+back and forth, which can result in the
+widespread destruction of human life and property.
+[@deWall2011aggression]
+
+
+In most such cases,
+members of conflicting societies or groups view the conflict through a unidimensional,
+biased lens and therefore perceive the other group’s actions
+as unjust, unfair, and incompatible with acceptable norms (White, 1970).
+Often these perceptions are amplified by blindness to the previous wrongdoings
+of one’s own group, which are considered by the opponents to
+be the reasons for their current actions or statements (Bar-Tal & Halperin,
+2010).
+Given these biased appraisals, it is not surprising that intergroup anger
+is a pivotal emotion in every conflict
+[@halperin2011emotional]
+
+-->
+
+<!--
+This approach to intergroup relations (Brewer, 1979; LeVine & Campbell,
+1972; Sherif, 1966) assumes that group conflicts are rational in the
+sense that groups have incompatible goals and compete for scarce resources.
+[@hewstone2011social]
+-->
+
+<!--
+FROM LITTLE AND ZEITZOFF: " psychological explanations posit that political violence is primarily driven by emotional or identity
+grievances, ethnic or religious hatred, or in defense of sacred values (Atran 2006; Bar-Tal 2001; Cheung-Blunden and Blunden 2008; Nisbett and Cohen 1996; Petersen 2002; Scheff and Retzinger 2002.).
+-->
+
+
+
+
+
 
 # References
