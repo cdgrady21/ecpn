@@ -1,0 +1,551 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks},
+  pdftitle={Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Introduction},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{Promoting Peace Amidst Group Conflict: An Intergroup Contact Field
+Experiment in Nigeria - Introduction}
+
+\author{
+Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks
+}
+
+
+\date{October 27, 2019}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\hypertarget{introduction}{%
+\subsection{Introduction}\label{introduction}}
+
+Violent conflicts are one of most crucial phenomena for humans to
+overcome. As of 2018, violent conflicts caused 2 million deaths since
+the year 2000 (Sundberg and Melander 2013), were responsible for
+forcibly displacing over 70 million people from their homes (UNHCR
+statistical yearbook 2019), , threatened food supplies in numerous
+countries (Verwimp and others 2012), and extracted a psychological toll
+on participants and victims (chris: cite Schomerus and Rigterink from
+ISA Toronto?). Despite extensive research, violent conflict is still
+common and methods to prevent violent conflict between groups are
+elusive.
+
+There exists two main perspectives about group conflict. One
+perspective, coming from psychology, identifies group conflict as a
+problem of emotion and group identity. This perspective emphasizes
+things like perceived threat ({\textbf{???}}; {\textbf{???}}), anger and
+aggression ({\textbf{???}}; {\textbf{???}}; {\textbf{???}}; Halperin
+2011), ethnic or religious hatred ({\textbf{???}}; {\textbf{???}};
+Cikara et al. 2014), perceptual biases (Duncan 1976; Hewstone 1990; Ward
+et al. 1997), and dehumanization ({\textbf{???}}; Haslam and Loughnan
+2014) as the drivers of group violence. This perspective points to
+intergroup contact {[}({\textbf{???}}); ({\textbf{???}});
+({\textbf{???}})), perspective-taking ({\textbf{???}}), and expert
+appeals ({\textbf{???}}) to reduce violent conflict.
+
+The second perspective, coming from international relations, identifies
+group conflict as a bargaining problem (Fearon 1994, 1995; Powell 2006).
+Two groups want some resource -- land, power, etc -- and must decide how
+to distribute that resource. Violent conflict occurs when one or both
+sides expect their utility from fighting to be higher than their utility
+from bargaining. This perspective emphasizes two factors: (1) the
+\emph{bargaining range} (i.e.~the number of bargained outcomes
+preferable to fighting) ({\textbf{???}}; {\textbf{???}}) and (2)
+\emph{trust} that the other side will honor bargained agreements (Kydd
+2000; Powell 2006; Reed et al. 2016). This perspective points to third
+party mediation ({\textbf{???}}; Doyle and Sambanis 2000; Fearon 1998)
+and \emph{costly signals of trustworthiness/reputations for
+trustworthiness} (Kydd 2000; Rohner, Thoenig, and Zilibotti 2013) to
+reduce violent conflict.\footnote{Note to lab: Two psych-oriented
+  theories are similar to formal theory of conflict. (1) Realistic group
+  conflict theory from Campbell 1965: group conflict because groups
+  compete for resources and have ``incompatible goals''. (2) Nisbett and
+  Cohen 1996 about a reputation for toughness. I am not sure if I should
+  bring those }
+
+The psychological perspective and the international relations
+perspective each make valuable contributions to the study of group
+conflict, but each is incomplete without the other. The IR perspective
+provides a model that elucides the fundamental causes of group conflict:
+few agreements acceptable to both sides and low trust that the other
+side will honor those agreements. It is portable, parsimonious, and
+provides a basis to understand how other factors affect group conflict
+by influencing the bargaining range or the formation of intergroup
+trust. The IR perspective, however, does not always consider the myriad
+non-material factors that influence bargaining ranges or trust
+formation.\footnote{chris note: This sentence does not feel right. Would
+  like advice.}
+
+The psychological perspective provides details about those other
+factors. The acceptable bargaining range is affected by outgroup
+dehumanization and hatred. Those factors provide non-material costs to
+bargained compromises that limit the number of compromises preferable to
+fighting. The formation of intergroup trust is affected by perceptual
+biases that distort outgroup behavior. Perceptual biases prevent one
+side's costly signals of trustworthiness from being perceived as such by
+the other side. The psychological perspective, however, does not have a
+unified model of conflict to formalize how these various factors affect
+violent conflict.
+
+\textbf{OR}
+
+The psychological perspective and the international relations
+perspective each make valuable contributions to the study of group
+conflict, but each is incomplete without the other. The IR perspective
+provides a model that elucides the fundamental cause of violent group
+conflict: bargaining failure. It is portable, parsimonious, and provides
+a basis to understand how other factors increase or decrease the
+likelihood of violent conflict. The IR perspective, however, does not
+always consider the psychological factors that make bargaining more or
+less difficult. The psychological perspective theorizes about the
+psychological factors that influence group conflict, like emotion and
+perceptual biases. It does not, however, provide a model of group
+conflict from which psychological factors can be understood.
+
+These perspectives work together to provide a more complete
+understanding of group conflict.\footnote{I don't like this sentence.
+  Would it be better as ``\ldots{}work together to provide a model of
+  group conflict and understanding of how psychological factors work
+  within that model.''?} Violent group conflict occurs when two groups
+fail to bargain, and bargaining fails when there are few agreements
+acceptable to both sides and low trust that the other side will honor
+their agreements. The number of agreements acceptable to both sides
+depends on psychological factors like outgroup dehumanization and
+hatred; those factors provide non-material costs to bargained
+compromises that limit the number of compromises preferable to fighting.
+The formation of intergroup trust is affected by perceptual biases that
+distort outgroup behavior; perceptual biases prevent one side's costly
+signals of trustworthiness from being perceived as such by the other
+side. In short, the IR perspective tells us group conflict is a
+bargaining problem and the psychological perspective tells us what makes
+that bargaining more or less difficult.
+
+Synthesizing these perspectives, we argue that cooperative intergroup
+contact can reduce group conflict by increasing the bargaining range and
+building intergroup trust. Cooperative contact -- interactions in which
+both groups cooperate to fulfill joint goals -- humanizes the outgroup,
+promotes positive affect towards outgroup members, dispels
+stereotypes/misperceptions that drive perceptual biases, and provides
+opportunities for unequivocal signals of trustworthiness. Humanizing the
+outgroup and promoting positive affect increase the bargaining range by
+reducing the psychological costs of bargaining with the other side.
+Cooperative contact can also demonstrate to groups the material benefits
+of cooperation, increasing the expected utility of peace. Correcting
+perceptual biases and providing opportunities for costly signals helps
+foster intergroup trust and ensures each side that the other will honor
+bargained agreements. What's more, cooperative contact for some group
+members can diffuse throughout the entire group through the process of
+indirect contact (knowledge of friendships between ingroup and outgroup
+members) and changes to social norms.\footnote{This paragraph is not
+  right yet and, anticipating changes, I have not added the citations.}
+
+To test the ability of cooperative contact to reduce violent conflict,
+we conducted a field experiment with conflicting farmer and pastoralist
+communities in Nigeria. More than an occupational difference, farmers
+who cultivate crops and pastoralists who graze cattle define a major
+social cleavage in many parts of the world. These groups conflict over
+land rights, which define both of their livelihoods. Farmer-pastoralist
+conflict has escalated througout the Sahel in recent years, and nowhere
+more than in Nigeria. The most recent conflict escalation has caused
+7,000 deaths in the past five years, displaced hundreds of thousands of
+people from their homes, and costs \$13 billion annually in lost
+economic productivity (Akinwotu 2018; Daniel 2018; Harwood 2019;
+McDougal et al. 2015).
+
+We randomly assigned communities with ongoing farmer-pastoralist
+violence to receive a contact-based intervention or serve as a control
+group. The intervention formed mixed-group committees and provided them
+with funds to build infrastructure that would benefit both communities;
+committees then collaboratively chose and constructed infrastructure
+projects.\footnote{The communities built boreholes, market stalls,
+  primary health care facilities, etc.} The program also provided
+mediation training to each community's leaders and held forums where the
+groups discussed the underlying drivers of conflict. To measure the
+effects of the intervention, we conducted pre- and post-intervention
+surveys, a post-intervention natural public goods behavioral
+game,\footnote{In a public goods game (PGG), research subjects are given
+  money and told they can keep the money or donate it to a public fund.
+  Money donated to the public fund is multiplied by some amount and then
+  shared with all subjects. Our PGG is \emph{natural} because it was
+  conducted in a natural setting, rather than a lab. The funding for the
+  PGG came from the National Science Foundation under Grant No.~1656871.}
+and twelve months of systematic observations in markets and social
+events during the intervention.
+
+We find that the program increased intergroup contact, intergroup trust,
+and perceptions of physical security. We see signs of the positive
+effects in fieldwork as well as in data -- in one of the treatment
+sites, farmers defended pastoralists from a group of anti-pastoralist
+vigilantes, rather than assist the vigilantes in removing the
+pastoralists and claiming their land. Our results also show that the
+intervention affected communities as a whole, not just community members
+directly involved in the intergroup contact. Individuals who directly
+engaged in intergroup contact changed the most positively from baseline
+to endline, but we also observe positive spillovers of trust to group
+members for whom we did not exogenously increase intergroup contact.
+
+This study expands our knowledge about group conflict in several ways.
+First, this study synthesizes psychological and rationalist explanations
+for violent group conflict, demonstrating how the two perspectives
+complement each other. Rationalist explanations teach that group
+conflict is a bargaining problem and violence is caused by incompatible
+incentives and mistrust; psychological explanations teach that emotions
+and group biases cause violent group conflict. We synthesize these
+perspectives to explain how psychological factors affect intergroup
+bargaining and increase or decrease the likelihood of successful
+bargaining.
+
+Second, this study teaches us about the capacity of intergroup contact
+to improve intergroup relations and reduce conflict. Peacebuilding
+organizations implement numerous contact-based interventions in violent
+contexts each year (Ditlmann, Samii, and Zeitzoff 2017), but its
+efficacy to improve intergroup attitudes amid real-world conflict is an
+open question (Ditlmann, Samii, and Zeitzoff 2017; Paluck, Green, and
+Green 2017). To our knowledge this is the first field experimental test
+of a contact-based intervention implemented during an active conflict.
+The results suggest that contact-based peacebuilding programs can
+effectively improve relationships between conflicting groups and is
+especially relevant to conflict resolution in the cases of intergroup
+and intercommunal conflicts.
+
+Third, we contribute to the literature about informal structures, such
+as social norms, in solving collective action problems. In some
+contexts, formal institutions ensure collective action by punishing
+groups and individuals who ``defect'' on agreements. In many contexts,
+such as rural Nigeria, no formal institutions exist to encourage such
+behavior and so groups in those contexts develop informal structures to
+achieve collective action (Ostrom 2000). This intervention showed how
+informal structures governing interactions between groups can develop
+through repeated intergroup interaction. Our intervention only engaged a
+small percentage of each community, yet its effects diffused to other
+community members. Creating informal structures that diffuse the effects
+of contact are a way of scaling up peacebuilding
+interventions.\footnote{chris: this paragraph is too long and not
+  focused enough. Would appreciate comments.}
+
+Fourth, this paper teaches us about settling disputes between sedentary
+peoples and nomadic peoples. Violent conflict between settled peoples
+and nomadic peoples is on the rise throughout Africa (Kuusaana and
+Bukari 2015; Mwamfupe 2015; Nnoko-Mewanu 2018). This study focuses on
+the Fulani, the largest semi-nomadic people on Earth (Encyclopedia
+2017). Their way of life makes them targets for violence throughout
+Africa. Along with this conflict in Nigeria, Fulani in Mali have been
+the targets of violence so severe that researchers at Armed Conflict
+Location \& Event Data Project called it ``ethnic cleansing'' (Economist
+2019). Understanding how to prevent violent conflict between Fulani and
+settled peoples can help prevent violence that targets other nomadic and
+semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in
+Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa.
+Preventing such violence could help preserve a dying way of life.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-nyt2018nigeria}{}%
+Akinwotu, Emmanuel. 2018. ``Nigeria's Farmers and Herders Fight a Deadly
+Battle for Scarce Resources.'' \emph{New York Times}.
+\url{https://www.nytimes.com/2018/06/25/world/africa/nigeria-herders-farmers.html}.
+
+\leavevmode\hypertarget{ref-cikara2014their}{}%
+Cikara, Mina, Emile Bruneau, Jay J Van Bavel, and Rebecca Saxe. 2014.
+``Their Pain Gives Us Pleasure: How Intergroup Dynamics Shape Empathic
+Failures and Counter-Empathic Responses.'' \emph{Journal of experimental
+social psychology} 55: 110--25.
+
+\leavevmode\hypertarget{ref-daniel2018anti}{}%
+Daniel, Soni. 2018. ``Anti-Open Grazing Law: Nass, Benue, Kwara, Taraba
+Tackle Defence Minister.'' \emph{Vanguard}.
+\url{https://www.vanguardngr.com/2018/06/anti-open-grazing-law-nass-benue-kwara-taraba-tackle-defence-minister/}.
+
+\leavevmode\hypertarget{ref-ditlmann2017addressing}{}%
+Ditlmann, Ruth K, Cyrus Samii, and Thomas Zeitzoff. 2017. ``Addressing
+Violent Intergroup Conflict from the Bottom up?'' \emph{Social Issues
+and Policy Review} 11(1): 38--77.
+
+\leavevmode\hypertarget{ref-doyle2000international}{}%
+Doyle, Michael W, and Nicholas Sambanis. 2000. ``International
+Peacebuilding: A Theoretical and Quantitative Analysis.'' \emph{American
+political science review} 94(4): 779--801.
+
+\leavevmode\hypertarget{ref-duncan1976differential}{}%
+Duncan, Birt L. 1976. ``Differential Social Perception and Attribution
+of Intergroup Violence: Testing the Lower Limits of Stereotyping of
+Blacks.'' \emph{Journal of personality and social psychology} 34(4):
+590.
+
+\leavevmode\hypertarget{ref-economist2019militias}{}%
+Economist, The. 2019. ``Malicious Malitias: States in the Sahel Have
+Unleashed Ethnic Gangs with Guns.'' \emph{The Economist}.
+\url{https://www.economist.com/middle-east-and-africa/2019/05/04/states-in-the-sahel-have-unleashed-ethnic-gangs-with-guns}.
+
+\leavevmode\hypertarget{ref-fulanisize2017}{}%
+Encyclopedia, New World. 2017. ``Fulani --- New World Encyclopedia,''
+\url{//www.newworldencyclopedia.org/p/index.php?title=Fulani\&oldid=1004777}.
+
+\leavevmode\hypertarget{ref-fearon1994ethnic}{}%
+Fearon, James D. 1994. ``Ethnic War as a Commitment Problem.'' In
+\emph{Annual Meetings of the American Political Science Association},
+2--5.
+
+\leavevmode\hypertarget{ref-fearon1995rationalist}{}%
+---------. 1995. ``Rationalist Explanations for War.''
+\emph{International organization} 49(3): 379--414.
+
+\leavevmode\hypertarget{ref-fearon1998commitment}{}%
+---------. 1998. ``Commitment Problems and the Spread of Ethnic
+Conflict.'' \emph{The international spread of ethnic conflict} 107.
+
+\leavevmode\hypertarget{ref-halperin2011emotional}{}%
+Halperin, Eran. 2011. ``The Emotional Roots of Intergroup Aggression:
+The Distinct Roles of Anger and Hatred.''
+
+\leavevmode\hypertarget{ref-council2019nigeria}{}%
+Harwood, Asch. 2019. ``Update: The Numbers Behind Sectarian Violence in
+Nigeria.'' \emph{Council on Foreign Relations}.
+\url{https://www.cfr.org/blog/update-numbers-behind-sectarian-violence-nigeria}.
+
+\leavevmode\hypertarget{ref-haslam2014dehumanization}{}%
+Haslam, Nick, and Steve Loughnan. 2014. ``Dehumanization and
+Infrahumanization.'' \emph{Annual review of psychology} 65: 399--423.
+
+\leavevmode\hypertarget{ref-hewstone1990ultimate}{}%
+Hewstone, Miles. 1990. ``The `Ultimate Attribution Error'? A Review of
+the Literature on Intergroup Causal Attribution.'' \emph{European
+Journal of Social Psychology} 20(4): 311--35.
+
+\leavevmode\hypertarget{ref-kuusaana2015land}{}%
+Kuusaana, Elias Danyi, and Kaderi Noagah Bukari. 2015. ``Land Conflicts
+Between Smallholders and Fulani Pastoralists in Ghana: Evidence from the
+Asante Akim North District (Aand).'' \emph{Journal of rural studies} 42:
+52--62.
+
+\leavevmode\hypertarget{ref-kydd2000trust}{}%
+Kydd, Andrew. 2000. ``Trust, Reassurance, and Cooperation.''
+\emph{International Organization} 54(2): 325--57.
+
+\leavevmode\hypertarget{ref-mcdougal2015effect}{}%
+McDougal, Topher L et al. 2015. ``The Effect of Farmer-Pastoralist
+Violence on Income: New Survey Evidence from Nigeria's Middle Belt
+States.'' \emph{Economics of Peace and Security Journal} 10(1): 54--65.
+
+\leavevmode\hypertarget{ref-mwamfupe2015persistence}{}%
+Mwamfupe, Davis. 2015. ``Persistence of Farmer-Herder Conflicts in
+Tanzania.'' \emph{International Journal of Scientific and Research
+Publications} 5(2): 1--8.
+
+\leavevmode\hypertarget{ref-hrc2018farmer}{}%
+Nnoko-Mewanu, Juliana. 2018. ``Farmer-Herder Conflicts on the Rise in
+Africa.'' \emph{Human Rights Watch}.
+
+\leavevmode\hypertarget{ref-ostrom2000collective}{}%
+Ostrom, Elinor. 2000. ``Collective Action and the Evolution of Social
+Norms.'' \emph{Journal of economic perspectives} 14(3): 137--58.
+
+\leavevmode\hypertarget{ref-paluck2017contact}{}%
+Paluck, Elizabeth Levy, Seth Green, and Donald P Green. 2017. ``The
+Contact Hypothesis Revisited.''
+
+\leavevmode\hypertarget{ref-powell2006war}{}%
+Powell, Robert. 2006. ``War as a Commitment Problem.''
+\emph{International organization} 60(1): 169--203.
+
+\leavevmode\hypertarget{ref-reed2016bargaining}{}%
+Reed, William, David Clark, Timothy Nordstrom, and Daniel Siegel. 2016.
+``Bargaining in the Shadow of a Commitment Problem.'' \emph{Research \&
+Politics} 3(3): 2053168016666848.
+
+\leavevmode\hypertarget{ref-rohner2013war}{}%
+Rohner, Dominic, Mathias Thoenig, and Fabrizio Zilibotti. 2013. ``War
+Signals: A Theory of Trade, Trust, and Conflict.'' \emph{Review of
+Economic Studies} 80(3): 1114--47.
+
+\leavevmode\hypertarget{ref-ucdp}{}%
+Sundberg, Ralph, and Erik Melander. 2013. ``Introducing the Ucdp
+Georeferenced Event Dataset.'' \emph{Journal of Peace Research} 50(4):
+523--32.
+
+\leavevmode\hypertarget{ref-unhcr2019}{}%
+\emph{UNHCR Statistical Yearbook}. 2019.
+https://www.unhcr.org/en-us/figures-at-a-glance.html: United Nations
+High Commission for Refugees.
+
+\leavevmode\hypertarget{ref-verwimp2012food}{}%
+Verwimp, Philip, and others. 2012. ``Food Security, Violent Conflict and
+Human Development: Causes and Consequences.'' \emph{United Nations
+Development Programme Working Paper}: 1--13.
+
+\leavevmode\hypertarget{ref-ward1997naive}{}%
+Ward, Andrew et al. 1997. ``Naive Realism in Everyday Life: Implications
+for Social Conflict and Misunderstanding.'' \emph{Values and knowledge}:
+103--35.
+
+\end{document}
