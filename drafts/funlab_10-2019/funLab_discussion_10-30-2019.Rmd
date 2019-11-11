@@ -1,0 +1,118 @@
+---
+title: "Untitled"
+author: "Chris Grady"
+date: "10/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Goal
+
+- Project in Nigeria about farmer-pastoralist conflict.  Contact-based peacebuilding program that also included mediation training and group discussion.
+- Trying to figure out what we've learned from the study.
+- This idea is: the way I think about conflict.  The model (situation) and then how psych factors modify that situation.
+- Other idea is: here is a field test of contac theory with groups in active conflict, not just groups who don't like each other.
+- Have had several other ideas about pitching it as about peacebuilding, etc...
+
+# Comments
+
+- Rebeca: End of first paragraph says methods to reduce conflict are elusive, but really saying that these two perspectives are complementary and we need to use both of them.
+
+- Jake: Intervention that changes bargaining structure vs changing trust?  **We have outcomes that map onto those.**
+    - what is the paper about?  New way to theorize about conflict?  Then what's the point of the data?  How does it help us understand how these two perspectives work together?
+        - what hypotheses are implied by the rationalist perspective _only_?  What hyps implied by the psych perspective _only_?  What implied by thinking about both of them?
+        - paper is about understanding efforts differently; we are always doing both of them with interventions.
+
+- Cara: Still left with this "Cool!  How do you prove this to me?  How to show that the psych perspective helps the bargaining perspective without this example?".  Could give more stylized example of when bargaining/psych explains something but not something else.  
+    - JAKE: like an annual review article.  Here are all the psych articles, here are all the IR articles, here is where people are confused, and here is our understanding that shows how people are _not_ confused.  
+
+- Lula: All the psych stuff shows why you don't get to an agreement. Lots of mechanisms for why you acquiesce or fight.
+    - kertzer and tingley: psych comes in and explains heterogeneity in characteristics.
+    - diff groups have different traits.
+- have not seen contact theory/conflict IR type thing.
+
+Cara: more realistic?  Or contact theory can look into te details and think about things as a bargaining situation and then move on, or think as a bargaining model and that changes how actual work is done?
+    - contact needs to build trust.  Not just talking.  Costly signaling.
+    - jake: how to design future interventions if we understood things as a bargaining situation?
+
+Jake: can combine two perspectives powerfully.  Call them rationalist and _something, not psych perspective_.  If we understand psych, leads to intervention that leads to other bargaining outcomes.  If you only do one thing, don't do this other thing.
+
+Jake: could write the paper about how anti-conflict work needs to be redesigned, not a formal modeling paper.  Needs to be as simple as possible.
+    - so could be three/four papers: how to structure anti-conflict interventions; test of contact theory; here's how models would be different; and annual review.
+
+Cara: What's gonna make the Nigeria article an APSR: actual conflict situation, but is that enough on its own?  Not just people who don't like each other, people killing each other.  The bargaining might make it really cool.  
+    - use MC case as "how we bring together bargaining and psych theory".  Here's what appened, interventions, results.  ANother way is to draw characteristics and say how we would design intervention.  Taking the two perspectives, here is how we think differently.
+
+Cara: two papers: (1) results you do get and (2) how to help us understand these different perspectives.
+
+Jake: concern that the data don't help me much.  Not varying the things I theorize about.  Definitely a paper about what we randomized.  Different than "if we only understood things differently, we would understand puzzling findings differently."  Rather than: we did a thing.  bargaining does not predict this pattern of effects, psych does not predict this pattern of effects, but our perspective does.
+    - (1) Reduce ongoing conflict using these interventions tested since the 1950s.
+    - (2) more theoretical paper.  
+
+Lula: keeping 1 paper, consider bargaining range and trust as things contac theory should increase.  Then bring in our study as why these perspectives work together.
+    - Cara: Meta reviews find results are mixed.  So could use those and show that certain conditions predict success.
+    - lula: contact theory gives us mixed results.  Why?  Bargaining theory says we need bargaining range and trust.  The studies that increase those things get effects, otherwise they do not.
+
+Jake: A paper talking to practitioners like MC, UNicef, etc...saying peacebuilding designs need to do this stuff.
+    - publish foreign affairs, world affairs, world development, international peacekeeping.
+
+Lula: in IR, something to end conflict/get you out of conflict is hard.  Boreholes not getting you out of it.
+    - WWI: playing soccer did not end the war.
+    - better if you can say something like "contact changes trust" or something.
+
+Jake: Make sure how I frame it is consistent with what I can do with the data.  Will the data advance my story or not?
+
+Cara: It's cool, not a boring contact theory paper.
+
+**What to do with the p-values above 0.05?**
+    - Multiple hypotheses.
+    - Here are the standard outcomes used.  Some of the ones we use in the lab fail.  
+    - We contribute in the following ways: out of lab, active conflict, change outcomes measured and expectations based on what we do here; speculate about how contact interventions work and should be done differently.
+    - It had an effect.  The kind of effect it had is not the same type of effect it would have had if we did it in a lab of college students.
+    - then talk about limitations: not random assignment at individual level.  Would prefer outcomes that measured X instead of Y.
+
+
+**Consensus**
+    - split it and publish cool contact experiment first.
+    - two perspectives comign together is another paper.
+
+
+# Cara Meet
+
+- today: send video.
+
+- 3 paper that cohere quite well together: contact in the field
+    - Thanksgiving!  Get the contact-test paper done by 22nd.
+
+- December 20: theoretical synthesis draft.
+    - look at druckman and kuklinski about token gestures.  Synthesizing and improving the literature, not just citing each other.
+    - Could keep what I have now for front-end.  ANd then eiter: (1) A model and simulating data with Ekrem, or (2) how to design an intervention differently in light of bargaining models.  Use Nigeria intervention as an example.  What we would have liked to do if we had more resources.
+        - Why should we pay attention to each other?  A call for future rsearch.  If compelling, don't need data.
+
+- Jan 6: look at lab data.
+
+
+# Jake Meet
+
+- ask Matt Winters if it is okay to coauthor a dissertation paper.
+- calls and coffee: what's life like.
+
+
+# Rob Carrol
+
+Tragedy of the commons?  Ostrom and collective action problems.  Russel Hardin.  **Ingroup policing**  Oliver Williamson on firm-to-firm collective action: business firms serve as structures for conflict resolution.  Bates/North: but instead of city ppl and pastoralists, farmers and pastoralists.
+
+Coase: transaction costs make things problematic.
+
+Carrol: sunspots.  Thing that doesn't matter to either of us but we both think the other thinks it matter.  Cass and Shell - do sunspots matter?  How do resolve rationality with psychology.  Ppl thought gov itnervention wouldn't help cuz it gets in the way, but keynesian people said something else.  
+
+"Self-Fulfilling Prophecies" and sybils affect things because people think it affects things.
+
+Andrew Coe on costs of peace.  
+
+
+In the absence of these informal institutions, all signals are cheap.
+        

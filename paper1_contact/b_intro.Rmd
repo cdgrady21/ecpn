@@ -1,0 +1,145 @@
+---
+title: "Improving Intergroup Relations Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Introduction"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  word_document: default
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../utils/bowersarticletemplate.latex
+csl: ../utils/american-political-science-review.csl
+bibliography: ../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+
+# Introduction
+
+How can groups in conflict improve intergroup relations?  Conflict between groups has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims (Schomerus and Rigterink 2018).  Improving intergroup relations is vital to stem the human, economic, social, and psychological costs of violent group conflict.  "individual- and group-level prejudice can perpetuate violence even after the initial causes of conflict have become irrelevant (Deutsch 1977; Tajfel and Turner 1979)."
+
+Scholars and policymakers/practicioners consider cooperative intergroup contact one of the most effective tools for improving intergroup relations.  The contact hypothesis motivates many interventions, from [public housing / intergrated schools / college dorms] (chris: need cite) to peacebuilding programs [@ditlmann2017addressing].  Intergroup contacted improved relations between white people and black people in the U.S. South Africa, and Norway [@marmaros2006friendships; @burns2015interaction; @finseraas2017does; @carrell2015impact], Christians and Muslims [@moussa2018overcome; @scacco2018nigeria], Jews and Arabs [@yablon2012we; @ditlmann2016can; @weiss2019curing], and Hindus and Muslims in India [@barnhardt2009near]. <!--chris: add salma mousa 2018 and Rao 2019 familiriaty -->
+
+Despite these successes, cooperative intergroup contact is rarely tested in the field [@paluck2017contact] and never with groups engaged in violent conflict.  Reason to believe it will not improve group relations in the midst of conflict, and could even backlash.  Some scholars believe group reconciliation cannot begin until their conlict is resolved [@bar2000intractable].
+    - Contact supposed to work through information/dispel stereotypes and update to entire group.
+    - Or empathy, which seems to apply to disadvantaged groups [@brockman] but not groups in conflict.
+    - ingroup expansion, which is unlikely for real groups
+    - reduced anxiety/threat felt, which also shouldn't apply to groups in conflict.
+
+    - Personal history/experience with violence
+    - Continuing violence == continuing grievances to blame on other side
+    - Reason not to update about whole group, just particular people
+    - Gubler about cognitive dissonance
+
+
+
+Even if contact changes the attitudes of individuals who experience contact, contact may prove ineffective at reducing violent conflict because it does not reach the rest of the group.  Realistically, contact can only occur for a small portion of each community.
+
+Contact not change the fundamental causes of conflict, and they also cause group dislike.
+    - peace through negotiation, but no bargaining range
+    - peace through negotiation, but cannot trust all group members to abide by deal
+
+
+
+To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.
+
+We randomly assigned communities with ongoing farmer-pastoralist violence to receive a contact-based intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, primary health care facilities, etc.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  To measure the effects of the intervention, we conducted pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
+
+[^PGG]: In a public goods game (PGG), research subjects are given money and told they can keep the money or donate it to a public fund.  Money donated to the public fund is multiplied by some amount and then shared with all subjects.  Our PGG is _natural_ because it was conducted in a natural setting, rather than a lab.  The funding for the PGG came from the National Science Foundation under Grant No. 1656871.
+
+<!-- Findings. -->
+
+We find that the program increased intergroup contact, intergroup trust, and perceptions of physical security.  We see signs of the positive effects in fieldwork as well as in data -- in one of the treatment sites, farmers defended pastoralists from a group of anti-pastoralist vigilantes, rather than assist the vigilantes in removing the pastoralists and claiming their land.  Our results also show that the intervention affected communities as a whole, not just community members directly involved in the intergroup contact.  Individuals who directly engaged in intergroup contact changed the most positively from baseline to endline, but we also observe positive spillovers of trust to group members for whom we did not exogenously increase intergroup contact.
+
+This study expands our knowledge about group conflict in several ways.  First, this study teaches us about the capacity of intergroup contact to improve intergroup relations and reduce conflict.  Peacebuilding organizations implement numerous contact-based interventions in violent contexts each year [@ditlmann2017addressing], but its efficacy to improve intergroup attitudes amid real-world conflict is an open question [@paluck2017contact; @ditlmann2017addressing].  To our knowledge this is the first field experimental test of a contact-based intervention implemented during an active conflict.  The results suggest that contact-based peacebuilding programs can effectively improve relationships between conflicting groups and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
+
+Second, we contribute to the literature about informal structures, such as social norms, in solving collective action problems.  In some contexts, formal institutions ensure collective action by punishing groups and individuals who "defect" on agreements.  In many contexts, such as rural Nigeria, no formal institutions exist to encourage such behavior and so groups in those contexts develop informal structures to achieve collective action [@ostrom2000collective].  This intervention showed how informal structures governing interactions between groups can develop through repeated intergroup interaction.  Our intervention only engaged a small percentage of each community, yet its effects diffused to other community members.  Creating informal structures that diffuse the effects of contact are a way of scaling up peacebuilding interventions.^[chris: this paragraph is too long and not focused enough.  Would appreciate comments.]
+
+Third, this paper teaches us about settling disputes between sedentary peoples and nomadic peoples.  Violent conflict between settled peoples and nomadic peoples is on the rise throughout Africa [@hrc2018farmer; @kuusaana2015land; @mwamfupe2015persistence].  This study focuses on the Fulani, the largest semi-nomadic people on Earth [@fulanisize2017].  Their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent violent conflict between Fulani and settled peoples can help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa.  Preventing such violence could help preserve a dying way of life.
+
+
+
+
+
+*************
+
+## For Discussion
+
+- need more field experiments; this is only one.
+
+
+
+*********
+
+<!--
+chris: biased perceptions.
+Once conflict between two groups begins, the
+violence escalation cycle is triggered. Group A
+experiences Group B’s retaliation, which causes
+Group A’s members to have high levels of
+aggressive affect, to perceive Group B as hostile
+and aggressive, and to experience heightened
+arousal. These internal states cause members of Group A to act impulsively on their immediate
+appraisal of Group B as hostile and threatening.
+Group B then experiences the impulsively aggressive
+act from Group A, which sets in motion
+the same set of internal states and appraisal
+and decision processes that result in an even
+more aggressive retaliation (see Figure 2). Both
+groups will trade increasingly aggressive retaliations
+back and forth, which can result in the
+widespread destruction of human life and property.
+[@deWall2011aggression]
+
+
+In most such cases,
+members of conflicting societies or groups view the conflict through a unidimensional,
+biased lens and therefore perceive the other group’s actions
+as unjust, unfair, and incompatible with acceptable norms (White, 1970).
+Often these perceptions are amplified by blindness to the previous wrongdoings
+of one’s own group, which are considered by the opponents to
+be the reasons for their current actions or statements (Bar-Tal & Halperin,
+2010).
+Given these biased appraisals, it is not surprising that intergroup anger
+is a pivotal emotion in every conflict
+[@halperin2011emotional]
+
+-->
+
+
+# References

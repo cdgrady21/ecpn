@@ -1,0 +1,65 @@
+---
+title: "Improving Intergroup Relations Amid Group Conflict - Design"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Design Outline
+
+
+
+# Design
+
+## Site Identification
+
+Inclusion/Exclusion criteria.  To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
+
+## Evaluation
+
+Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned individual-level study with (1) full participants, (2) nonparticipants, and (3) controls.  Full participants and nonparticipants are both from intervention communities.  Full participants join project committees where they directly interact with outgroup members,  nonparticipants do not.  Controls are individuals in control communities.  In intervention sites individuals self-selected into full participation or nonparticipation. 
+
+## Outcomes
+
+**Outgroup Attitudes**
+
+Intergroup Trust: self-report
+
+Threat: threat index
+
+Ingroup expansion: social cohesion 1
+
+Intergroup empathy: social cohesion 2
+
+
+**Behaviors**
+
+Cooperation: PGG
+
+Intergroup contact: self-report, markets/social events, willingness to have more contact (Percent Experiment), being upset about contact (List experiment).
+
+**Violence**
+
+Physical security: self-report
+
+**Others**
+
+Dispute Resolution: resolution index
+
+
+
+<!--
+# Scacco
+
+-->

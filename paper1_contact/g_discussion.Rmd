@@ -1,0 +1,100 @@
+---
+title: "Improving Intergroup Relations Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Discussion"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  word_document: default
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../utils/bowersarticletemplate.latex
+csl: ../utils/american-political-science-review.csl
+bibliography: ../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+## Discussion
+
+
+
+Conclusion/summary: Intergroup contact improves intergroup attitudes.  Could contact-based programs effectively improve attitudes amongst groups in conflict?  Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
+
+Increased trust.  No sign of other outcomes/mechanisms.
+
+Further research needed to see if improving relations reduces conflict.  One strand of literature sees conflict as a bargaining problem, and violence as a bargaining failure.  In theory, groups should avoid fighting and reach peaceful solution because fighting is costly.  Yet group conflict is common.  This literature points to a lack of trust as the primary cause of conflict.  Improving relations -- especially improving trust -- can help groups overcome commitment problems and reduce the likelihood of violence.
+
+Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trut and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
+
+
+
+
+More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
+
+Not clear that the program increased people's confidence in dispute resolution systems.
+
+Mechanism could be "ability to identify local outgroup from non-local outgroup"?
+
+Farmers arresting livestock guard suggests some level of ingroup policing or of viewing the farmer and pastoralist communities as tied together.
+
+
+We see more market interactions.  @rohner2013war says trade can increase intergroup trust.  More opportunities to signal trustworthiness in trade.  More opportunities to see benefit from cooperating with the outgroup (Realistic group conflict theory).  
+
+Would this happen without NGO?  Presence of outside group encouraging the interaction surely helps.  But the situations that these programs exogenously introduce are often mimicked and inspired by real-life experiences of villages that did not descend into conflict.  Notable in...[chris: I think cites are all in autesserre2017 foreign affairs.  Stuff about Congo? Resisting War: How Communities Protect Themselves.  ].  This program "randomly assigns" what those villages developed endogenously.
+
+Future: mechanisms and ways to scale up.  Mechanisms could be many things.  Ways to scale up: cannot have every group in conflict meet.  Scale up with contact between key actors that could diffuse the positive effects of contact & change social norms.  Media programs and observational/vicarious contact.
+
+Some mechanisms of intergrop contact theory clearly will not function here.  Reduced outgroup threat (("Sullivan, Pierson, & Marcus, 1982; Gibson, 2006). If citizens perceive or experience threat from an out-group, they are more likely to be intolerant toward that group)".  Ingroup expands to include outgroup -- no way.  Empathy yes.  Belief that working together will benefit us == yes.
+
+Other Mechanisms: assist intergroup bargaining with opportunities for costly signaling, increased trust.  Increase ingroup policing.  Increase social norms against intergroup violence.  Change interpsonal attitudes?
+
+<!--Scaling up with TV/radio -->
+An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
+
+An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009jsp used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
+<!--From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
+Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.  Future work should also investigate "scaling up" grassroots interventions, especially those involving intergroup contact.  Not every conflicting group can have contact with the other side.   Contact between key actors that could diffuse the positive effects of contact & change social norms.  And research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
+
+Could be social desirability bias?  Would indicate the program changed social norms -- still valuable.
+
+Could be survey acquescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
+
+More research needed about using intergroup contact to promote peace between people in conflict.
+
+In many bargaining instances, third-party enforcer is the state (law).
+
+# References

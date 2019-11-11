@@ -1,0 +1,232 @@
+---
+title: "Improving Intergroup Relations Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Abstract"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Intergroup contact an important tool for improving intergroup relations, but is it effective reducing group conflict.  The method is mainly tested with groups who dislike each other but are not engaged in violence.  
+
+<!--
+
+The contact hypothesis: .  Ultimate goal is to reduce group conflict.  Mainly tested in labs, mainly tested with groups or people who dislike each other but are not in active conflict.
+
+Contact might not reduce group conflict.
+
+Contact might not improve group relations when groups are in conflict.
+
+WHY NOT?  I DONT KNOW.  WHY DOES IT WORK IN THE FIRST PLACE?  WHY WOULDNT THOSE MECHANISMS FUNCTION IN THE REAL WORLD.  OH WAIT NO ONE KNOWS WHY IT WORKS IN LABS OR NATURAL EXPERIMENTS.  I hate all of this.  There is no framework to point to and say "These are the things that affect whether conflict occurs or not.  Contact won't affect these things if the groups are in conflict because....[give reasons].
+
+Contact might not work for groups in conflict
+    - confirmation bias / cognitive dissonance (Gubler) / perceptual biases / reactive devaluation
+    - history of violence and grievances / dehumanization / emotional benefit to causing the other side pain, emotional cost to allowing grievances to go unavenged.
+    - current violence: existing/continuing grievances to blame on other side.
+    - Common mechanisms
+        - information/dispel stereotypes: 
+        - empathy: what if other group wants to hurt you? Kertzer study
+        - Anxiety reduction: 
+
+
+Look at:
+- Chang_Peisakhin_2018
+- Mackie and Smith 2017 - Group-based emotion in group processes and intergroup relations
+- Castano 2008 - On the Perils of Glorifying the In-group
+- Weisel and Bohm 2015 - “Ingroup love” and “outgroup hate” in intergroup conflict between natural groups
+-->
+
+# Abstract
+
+
+Scholars of International Relations and Psychology are both concerned about violent group conflict, but approach the problem in different ways.  IR scholars approach group conflict as a commitment problem/bargaining failure, where the main barrier to peace is a lack of trust.  Psychology scholars see group conflict as a consequence of group identity, where the main barriers to peace are negative affect and biased perceptions.  Combining these perspectives, we see group conflict as a bargaining failure where affective costs of peace and benefits of fighting limit the "bargaining range" (outcomes each side prefers to fighting) and trust is not built due to perceptual biases.  Interventions that reduce the affective costs of peace and reduce perceptual biases should allow groups to reach peaceful agreements.  We analyze an intergroup contact field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  The results suggest that reducing psychological barriers to bargaining between conflicting groups can help the groups build trust.
+
+
+<!--
+IR Perspective on conflict and cooperation.
+  - bargaining; commitment problem; trust
+
+Psych Perspective on conflict and cooperation: has looked at many factors that contribute to conflict.
+  - competition as inevitable consequence of groups (social ID theory, minimal group paradigm)
+  - realistic group conflict theory: inevitable as groups fight over resources
+  - contact theory: prejudice caused by stereotypes/information (original), anxiety (newer), lack of empathy (newer), perceived threat (newer).  Prejudice could cause conflict.  Need cooperative contact with superordinate goals
+  - 
+
+
+Why psych needs IR
+  - IR/Formal Models show us the relevant characteristics of the situation.
+  - Key is trust.  Intervention needs to build trust.
+  - Other factors, such as affect, empathy, or social distance are important only insofar as they influence trust.
+  - ALSO: must have a bargaining range == outcomes each side prefers to fighting.
+
+Why IR needs psych
+  - Psych knows a lot about psychological basis for trust.  Things that affect building trust: biased perceptions of behavior.
+  - ALSO: non-material costs and benefits that change the bargaining range.
+-->
+
+
+<!--
+*******
+We would like to thank Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Jim Kuklinski, Jake Bowers, and Dave Zhao for their invaluable comments on this work.  We would also like to thank the Mercy Corps Nigeria team and the communities and community members that participated in the study.
+-->
+
+
+
+<!--
+# Thinking
+
+Big framing points:
+
+- Contact theory can be effective at reducing real world conflict.
+- Contact increases intergroup trust, which allows groups to bargain even in the absence of external costs of breaking agreements.
+-->
+<!--
+- Contact theory can be effective even if economic incentives opposed and amidst escalating conflict.
+- Intergroup contact helps increase trust and help groups overcome bargaining/comittment problems
+- Most benefit to direct personal contact, but benefits diffuse to ingroup members with no personal contact.
+-->
+
+<!--
+https://en.wikipedia.org/wiki/Bargaining_model_of_war
+
+## Title
+
+get the big picture stuff about "peace amidst conflict", get the IR conflict people with the word conflict, get the psych people with the word "intergroup contact", get experimental methods people with "field experiment", get Africanists with "Nigeria".
+
+## Pitch 
+
+- Institutions constrain behavior.
+- IR conflict and reducing intergroup conflict with a strong 3rd party.  3rd party (institutions, police, powerful state) holds groups to bargaining agreements, so each group can trust the other.
+  - but we cannot police everything, costly. And rural areas are often beyond state control.  Need something that functions like police but doesn't require a 3rd party walking around and punishing everyone.
+- Intergroup trust can function as an institution that allows bargaining because the each group _trusts_ that the other will fulfill their end of the agreement.
+  - Contracts & law are ways we can trust people without knowing them.  Large costs to defecting on our agreements help everyone trust that agreements will be kept.
+  - But small groups do not necessarily need legal contracts and formal laws.  Ellen Ostrom.
+- Intergroup contact can increase intergroup trust (not generalized trust, specific intergroup trust).
+  - maybe by giving the opportunity for costly signals of trust.  Like ingroup policing.
+- Intergroup contact could also reduce conflict by reducing perceptions of threat or expanding "ingroup" to include the other group.
+    - No evidence that the intergroup contact program reduced threat perceptions.
+    - Very limited evidence that intergroup cohesion increased; does not look like the two groups started to think of eachother as "ingroup"
+- My mechanism: intergroup contact works to reduce intergroup violence and prejudice by creating intergroup trust.  Intergroup trust functions as a social institution that allows bargaining.  Groups can bargain because they trust that the other group's behavior is constrained.
+
+- **Issues**:I don't have an actual measure of violent conflict.  I do not measure things directly related to bargaining process/comittment problem and can only theoretically discuss how intergroup contact relates to comittment problem.
+
+
+# Old
+
+But want to keep this old stuff.
+
+## Pitch 1
+
+- Testing intergroup contact in a violent environment.  Intergroup contact often used in violent places, but not tested in contexts of violence.  Reasons to believe violent contexts would reduce effect of contact.  Have this context where groups are violent and doing intergroup contact intervention between them.  Psych theories would expect it to work, but some psych evidence and rationalist theories of violent conflict would not.  Results show that the program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can reduce prejudice and conflict, even in violent contexts.
+
+- **Major Issue**: Rather unexciting theoretically.  Just another citation in a contact theory meta-analysis.  Too similar to Scacco & Warren 2018.  Brands me as rather atheoretical field experimenter type.  But is super clear.
+
+
+## Pitch 2
+
+- Bridging rationalist theories with psychological theories. Rationalist theories of intergroup violence say intergroup violence is a comittment problem -- groups need something that allows them to credibly commit to a bargaining agreement, and can do that through a strong neutral third party.  Psychological theories say intergroup violence is an emotional/attitudinal problem -- can solve by reducing prejudice/dehumanization and increasing trust, which can be done through intergroup contact.  Have this context where groups are violent and am doing intergroup contact intervention between them.  Rationalist theories would predict this intervention would not affect the conflict or prejudice because does not change strategic situation or enforce bargaining agreements.  Psychological theories would predict this intervention would reduce conflict and prejudice by redefining the outgroup, reducing threat perceptions, and increasing empathy towards the outgroup.  Results show that program is effective -- intervention increased contact, trust, and perceptions of safety/security.  These results suggest that intergroup contact can promote peace between groups in conflict.  Intergroup contact can help solve the commitment problem of intergroup conflict by increasing trust that the other group will abide by its agreements and increasing the psychological costs of conflict (reducing dehumanization of outgroup -- i used to get satisfaction out of killing your group and now I feel very bad about it).  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+- **Issues**: This isn't quite what I want to say.  I want to connect things more to "institutions constrain behavior" not just "Rationalism/IR says need institutions to restrain conflict."  Also, I don't have an actual measure of violent conflict.  I do not measure things directly related to bargaining process/comittment problem and can only theoretically discuss how intergroup contact relates to comittment problem.  Is slightly more work?
+
+### Pitch 2 Abstract
+
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict says intergroup violence is a commitment problem that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or trust because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+## Pitch 3 old abstract
+
+Can intergroup contact contribute to peace between groups involved in violent conflict?  Do these effects diffuse to ingroup members with no direct intergroup contact?  A psychological explanation for conflict says intergroup violence is an emotional/attitudinal problem that can be ameliorated by intergroup contact that increases trust between groups.  But a common rationalist explanation for conflict formulates intergroup violence is a prisoner's dilemma that can only be ameliorated by outside factors that hold the conflicting groups to their commitments.  This rationalist explanation would predict that intergroup contact will not affect intergroup conflict or trust because it does not change either group's strategic incentives or enforce bargaining agreements.  However, we reformulate the committment problem as a trust problem and hypothesize that increasing intergroup trust can help solve comittment problems.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and perceptions of physical security, even for community members not directly involved in the intervention.  These results suggest that intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.  Bridging psychological and rationalist theories can help us more effectively bring peace to violent contexts.
+
+## Abstract 3
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict is often characterized as a bargaining failure.  Both groups would benefit from compromise, but negotiations break down and conflict ensues because neither group trusts the other to abide by their agreements.  The proposed solutions are coercive institutions that prevent groups from defecting on bargained agreements.  However, coercive power cannot reach many group conflicts.  We propose intergroup contact as an alternative to coercive institutions.  Coercive institutions substitute for intergroup trust, but intergroup contact can foster intergroup trust directly by creating situations in which groups can signal their trustworthiness.  Intergroup trust allows groups to bargain even in the absence of coercive institutions.  We test the ability of intergroup contact to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the program increases intergroup trust and physical security.  We do not find evidence for alternative mechanisms through which intergroup contact could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that intergroup trust via intergroup contact can serve as social institution that solves commitment problems and promotes peace between groups in conflict. <!--Chris: maybe remove "serve as a social institutions that solves commitment problems" -->
+
+<!--
+## Abstract 4
+
+Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of an intergroup contact-based peacebuilding program to contribute to peace between groups involved in violent conflict.  Intergroup conflict .  However, international intervention is not always effective at reducing intergroup conflicts.  We propose psychological reconciliation through intergroup contact as an alternative to large-scale international intervention.  Groups in conflict often share mutual distrust, which make peace impossible unlikely by sabotaging intergroup bargaining.  Outside intervention often serve as substitutes for intergroup trust, but psychological reconciliation could improve intergroup trust directly.  Improved intergroup trust should allow the conflicting groups to settle disputes even in the absence of outside intervention.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and perceptions of physical security of group members.  These results suggest that psychological reconciliation can promote peace between groups in conflict.-->
+
+
+<!--intergroup contact can promote peace between groups in conflict by increasing trust that the other group will abide by its agreements.-->
+
+<!--Abstract 5
+
+In this paper we test the ability of intergroup contact-based interventions to contribute to peace between groups involved in violent conflict.  Intergroup conflict occurs when groups cannot negotiate to resolve disagreements.  Negotiation requires trust that the other side will abide by its agreements, but groups in conflict share mutual distrust, which sabotages negotiations.  Interventions based on intergroup contact can help groups build intergroup trust by giving each group the opportunity to update perceptions of the other side.  Improved intergroup trust should allow the conflicting groups to settle disagreements and establish or maintain peaceful relations.  We test the ability of contact-based interventions to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, behavioral observation, and a behavioral game.  We find that the program increases intergroup contact, intergroup trust, and perceptions of physical security of group members.  These results suggest that building trust between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
+-->
+
+<!--Abstract 6
+Group conflict should be avoidable through intergroup bargaining, yet group conflict is commonplace throughout the world.  We argue that psychological phenomena account for many bargaining failures by inducing barriers to bargaining through two psychological processes.  First, psychological phenomena prevent groups from developing intergroup trust by biasing interpretations of the behavior of the other side.  Second, psychological phenomena add costs to compromise because group members derive self-esteem from feelings of group superiority.  Interventions that abate these psychological barriers to bargaining should allow the groups to avoid violent conflict.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior, and a behavioral game.  We find that participation in the program increases intergroup contact, intergroup trust, and perceptions of physical security among group members; many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
+-->
+
+
+
+
+
+
+
+
+
+
+<!--
+*******
+
+## Thinking from Alice Presentation
+
+chris: In intro, need ot talk about hustory of conflict reduction, contact theory.  
+
+Intro
+
+Conflict Reduction
+
+Conflict reduction: want to reduce/resolve conflict with institutions/other things.  Once conflict starts, peacekeeping, police, etc... but that is expensive.  Requires coercion.  Requires outside actors.  Requires strong states, which are not present in many parts of the world with intergroup conflict.  When imposed solutions leave (like peacekeepers, imposed/coercive institutions) the groups go back to fighting.  Need grassroots solution (Ostrom on imposed norms).
+
+- Institutions 
+- Intergroup bargaining processes [@fearon; @powell](Smith and Stam 2004)
+- Mutually Assured Destruction.
+- increased trade relationships
+- making resources less scarce
+
+Propose intergroup contact as another potential solution to intergroup conflict.
+
+
+Contact Theory
+Contact theory: used to reduce prejudice, starting with african-americans and caucasians in USA, movign to other groups.  Want to use it to stop conflict.
+
+
+Theory
+
+Would think ECPN would not work because ECPN does not employ institutions to prevent conflict, intervene through mediation, directly affect the bargaining process or intergroup trade relationships, or change the scarcity of the resources the groups fight over.
+
+Would think ECPN would work because it uses intergroup contact, increased resources.  Intergroup contact could affect trust, which could improve bargaining and trade relationships.
+
+*************
+
+# Other abstracts on topic
+
+
+# Scacco abstract
+Can positive social contact between members of antagonistic groups reduce prejudice and discrimination? Despite extensive research on social contact, observational studies are difficult to interpret because prejudiced people may select out of contact with out-group members. We overcome this problem by conducting an education-based, randomized field experiment—the Urban Youth Vocational Training program (UYVT)—with 849 randomly sampled Christian and Muslim young men in riot-prone Kaduna, Nigeria. After sixteen weeks of positive intergroup social contact, we find no changes in prejudice, but heterogeneous-class subjects discriminate significantly less against out-group members than subjects in homogeneous classes.  We trace this finding to increased discrimination by homogeneous-class subjects compared to non-UYVT study participants, and we highlight potentially negative consequences of in-group social contact. By focusing on skill-building instead of peace messaging, our intervention minimizes reporting bias and offers strong experimental evidence that intergroup social contact can alter behavior in constructive ways, even amid violent conflict.
+
+# Enos abstract
+The effect of intergroup contact has long been a question central to social scientists. As
+political and technological changes bring increased interstate immigration, understanding
+intergroup contact and demographic change is increasingly important to policy and scientifc
+debates. Unfortunately, limitations in causal inference with observational data and the
+practical inability to experiment on demographic context have constrained scholars' ability to
+speak to the effects of intergroup contact. Here I report the results of an experiment testing
+the causal effects of prolonged intergroup contact in which Spanish-speaking confederates
+were randomly assigned to be inserted, for an extended period, into the daily routines of
+unknowing Anglo-whites living in homogeneous communities in the United States, thus
+simulating the conditions of demographic change. The result of this controlled experiment
+is a signifcant shift toward exclusionary attitudes among treated subjects. However there is
+evidence that the initial aversion diminishes over time. This experiment demonstrates that
+even very minor demographic change causes strong exclusionary reactions.
+-->
