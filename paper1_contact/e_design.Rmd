@@ -18,17 +18,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Design Outline
 
+We evaluate the effects of Engaging Communities for Peace in Nigeria (ECPN) with a site-level randomized controlled trial.  We randomly selected the communities in ten of fifteen sites to receive the ECPN program.  We surveyed randomly-selected members of these communities before (September - December 2015) and after (January - April 2018) the intervention.  We also monitored community social events and each community's market to observe organic changes in intergroup contact over the course of the intervention.
 
+Within communities, we also create a panel surveyed 287 individuals who were surveyed at baseline and at endline.  These non-randomly assigned individuals were separated into (1) full participants, (2) nonparticipants, and (3) controls.  Full participants and nonparticipants are both from intervention communities.  Full participants join project committees where they directly interact with outgroup members,  nonparticipants do not.  Controls are individuals in control communities.  In intervention sites individuals self-selected into full participation or nonparticipation. 
 
-# Design
+[chris: figure showing sampling strategy.]
 
-## Site Identification
 
 Inclusion/Exclusion criteria.  To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
 
-## Evaluation
-
-Two complementary comparisons: (1) randomly assigned treatment communities compared to randomly assigned control communities, and (2) non-randomly assigned individual-level study with (1) full participants, (2) nonparticipants, and (3) controls.  Full participants and nonparticipants are both from intervention communities.  Full participants join project committees where they directly interact with outgroup members,  nonparticipants do not.  Controls are individuals in control communities.  In intervention sites individuals self-selected into full participation or nonparticipation. 
 
 ## Outcomes
 

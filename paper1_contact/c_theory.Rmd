@@ -58,6 +58,8 @@ Loss aversion: a negotiated deal == give up something, gain something.  We weigh
 
 To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.
 
+Contact theory assumes that negative stereotypes cause prejudice. Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create prejudice when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between in-group and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re- conceptualize the outgroup.
+
 How intergroup contact works:
     - Knowledge effect: experience with outgroup replaces misperceptions and stereotypes.  Hear their perspective and understand point of view == less prejudice & no longer attribute negative motivations to the outgroup. [@allport1954prejudice]
     - Contact itself: Familiarity breeds liking [@pettigrew2006meta]
@@ -67,6 +69,12 @@ How intergroup contact works:
     - Social norms and extrinsic motivation [@yablon2012we]
     - ingroup policing [@moussa2018overcome; @ditlmann2016can; @fearon1996explaining]
     - mutual interest [@moussa2018overcome.  also realistic group conflict?]
+
+These mechanisms implicitly assume that negative attitudes are caused by a lack of experience with the other side; the contact hypothesis is almost always tested on groups who are spatially segregated and have limited opportunities for interaction -- white people and black people, Muslims and Christians, Jews and Arabs.
+
+The information mechanism assumes minimal previous experience; these groups have many negative experiences, have been directly harmed.  Empathy seems to apply to prejudice that advantaged groups feel towards disadvantaged, but .  Perspective-taking should not improve relations if the other side is expected to be belligerent [@kertzer2018empathy].  Anxiety based on unfamiliarity different than anxiety based on previous violent experiences.  Superordinate identities unlikely for groups in violent conflict, who will have few shared identities and whose material interests are opposed.  Negative contact experiences worsen intergroup relations [@paolini].  Individuals with the worst attitudes may experience backlash effects [@gubler].
+
+How does contact work when negative attitudes are based on negative experience, rather than inexperience?
 
 How real-world conflict makes it not work.
     - Contact supposed to work through information/dispel stereotypes and update to entire group.  But it is true that some members of the other side want to and have caused physical harm to membres of your group.
