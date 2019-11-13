@@ -3,6 +3,7 @@ title: "Improving Intergroup Relations Amid Group Conflict: An Intergroup Contac
 author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
+  word_document: default
   pdf_document:
     fig_caption: yes
     fig_height: 7
@@ -13,10 +14,9 @@ output:
     pandoc_args:
     - -M
     - secPrefix=\S
-    template: ../utils/bowersarticletemplate.latex
-  word_document: default
-csl: ../utils/american-political-science-review.csl
-bibliography: ../utils/cdg_references.bib
+    template: ../../utils/bowersarticletemplate.latex
+csl: ../../utils/american-political-science-review.csl
+bibliography: ../../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -56,9 +56,7 @@ Loss aversion: a negotiated deal == give up something, gain something.  We weigh
 
 # Theory
 
-To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.
-
-Contact theory assumes that negative stereotypes cause prejudice. Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create prejudice when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between in-group and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re- conceptualize the outgroup.
+Summary of typical contact theory stuff.  To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.
 
 How intergroup contact works:
     - Knowledge effect: experience with outgroup replaces misperceptions and stereotypes.  Hear their perspective and understand point of view == less prejudice & no longer attribute negative motivations to the outgroup. [@allport1954prejudice]
@@ -66,67 +64,132 @@ How intergroup contact works:
     - Expand ingroup to include the former outgroup [@gaertner2014reducing]
     - Reduce anxiety, uncertainty, and threat [@lee2001mere; @page2008little; @paolini2004effects; @pettigrew2008does]
     - Increase perspective taking/empathy for outgroup [@pettigrew2008does; @broockman2016durably]
-    - Social norms and extrinsic motivation [@yablon2012we]
-    - ingroup policing [@moussa2018overcome; @ditlmann2016can; @fearon1996explaining]
-    - mutual interest [@moussa2018overcome.  also realistic group conflict?]
 
-These mechanisms implicitly assume that negative attitudes are caused by a lack of experience with the other side; the contact hypothesis is almost always tested on groups who are spatially segregated and have limited opportunities for interaction -- white people and black people, Muslims and Christians, Jews and Arabs.
+Diffuse to others through extended contact or social norms.
 
-The information mechanism assumes minimal previous experience; these groups have many negative experiences, have been directly harmed.  Empathy seems to apply to prejudice that advantaged groups feel towards disadvantaged, but .  Perspective-taking should not improve relations if the other side is expected to be belligerent [@kertzer2018empathy].  Anxiety based on unfamiliarity different than anxiety based on previous violent experiences.  Superordinate identities unlikely for groups in violent conflict, who will have few shared identities and whose material interests are opposed.  Negative contact experiences worsen intergroup relations [@paolini].  Individuals with the worst attitudes may experience backlash effects [@gubler].
 
-How does contact work when negative attitudes are based on negative experience, rather than inexperience?
+## How conflict could prevent relations from improving
 
-How real-world conflict makes it not work.
-    - Contact supposed to work through information/dispel stereotypes and update to entire group.  But it is true that some members of the other side want to and have caused physical harm to membres of your group.
+Contact theory assumes that negative stereotypes cause intergroup animosity.  Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create animosity when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between in-group and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re- conceptualize the outgroup.
+
+The mechanisms through which contact improves an individual's negative outgroup attitudes assume that the negative attitudes are caused by a lack of experience with the other side.  And the contact hypothesis is almost always tested on groups who are spatially segregated and have limited opportunities for interaction -- white people and black people, Muslims and Christians, Jews and Arabs.  How does contact work when negative attitudes are based on negative experience, rather than inexperience?
+
+The information mechanism assumes minimal previous experience; these groups have many negative experiences, and many group members have been directly harmed.  Real information about the other side will not decrease animosity when it is probably true that some members of the other side want to cause physical harm to your side.
+
+Empathy seems to apply to prejudice that advantaged groups feel towards disadvantaged, but empathy/perspective-taking should not improve relations if the other side is expected to be belligerent [@kertzer2018empathy].  Anxiety based on unfamiliarity with outgroup is different than anxiety based on anxiety-inducing previous experiences.  
+
+Superordinate identities unlikely for groups in violent conflict, who will have few shared identities and whose material interests are opposed.  
+
+Negative contact experiences worsen intergroup relations [@paolini2010negative].  Individuals with the worst attitudes may experience backlash effects [@gubler2011diss].
+
+**Contact does not change cause of conflict**
+Real world violence caused by real world problems.  These groups have misaligned incentives.  Literatures in psych, IR, and econ that predict no change after intergroup contact because groups incentives still fundamentally misaligned.  Pastoralists want to graze, farmers do not want them to graze.  Contact not change the fundamental causes of conflict; things that cause conflict also cause negative intergroup attitudes.  Could get peace through negotiation, but no bargaining range.  Could get peace through negotiation, but cannot trust all group members to abide by deal
+
+<!--
+    - Contact supposed to work through information/dispel stereotypes and update to entire group.  But it is true that some members of the other side want to and have caused physical harm to members of your group.
     - Or empathy, which seems to apply to disadvantaged groups [@brockman] but not groups in conflict.
     - ingroup expansion, which is unlikely for real groups living apart in separate communities.
     - reduced anxiety/threat felt, which is also apply to groups in conflict.  There still exist members of that group who are threatening.
 
     - Personal history/experience with violence
     - Continuing violence == continuing grievances to blame on other side
-    - Reason not to update about whole group, just particular people
-    - Gubler about cognitive dissonance
+-->
 
-    - peace through negotiation, but no bargaining range
-    - peace through negotiation, but cannot trust all group members to abide by deal
-    
-    - contact can only occur for a small portion of each community
-    
-    - cannot guarantee contact is positive:
-        - Enos 2014; sands 2017; condra and linardi 2019; chris: more negative contact
+**Contact could do bad things**
 
-If these mechanisms
+not all intergroup contact decreases animosity. Negative intergroup interactions increase prejudice and lead to more negative attitudes towards outgroup members (Paolini et al 2010; Enos 2014; sands 2017; condra and linardi 2019).  Groups in conflict more likely than others to have negative contact experiences.
+
+Even well-structured positive interactions can increase negative attitudes by causing cognitive dissonance in prejudiced individuals, which causes them to cling more strongly to their prejudicial beliefs (Gubler 2011).  Groups in conflict more likely than others to have strong, stable, negative opinions towards the outgroup.
+
+**conditions under which contact work are not present**
+
+Conditions must be met for intergroup contact to improve intergroup relations and reduce violent conflict.  First, ingroup members must generalize their contact with a few outgroup members to the entire outgroup.  Second, the positive effects of contact must diffuse throughout the ingroup.  Third, attitudes of both groups must improve.  Even if contact effectively changes the attitudes of individual group members, contact cannot have meaningful effects on reducing violent conflict unless these conditions are met.
+
+These conditions may not be met by groups engaged in violent conflict.  First, ingroup members who cooperate with outgroup members may not perceive those outgroup members as typical of the outgroup due to previous negative experiences with outgroup members; consequently, ingroup members may not use interactions with those outgroup members to update their attitudes about the outgroup as a whole.  Second, even if contact changes the attitudes of ingroup members who experience contact, norms that affect other ingroup members may not develop.  Liking other group hard to link to a positive ingroup trait, like morality.  Third, cooperative contact may only improve relations of the more powerful group towards the less powerful group; the less powerful group may perceive themselves as victims of the other group's injustice.
+
+<!--
+Typicality: when interacting with the outgroup makes one atypical, how to generalize?  "Typicality" == outgroup member perceived to be typical of group.  Previous negative experience about group == individuals less likely to believe positive experiences with outgroup member are "typical" and so less likely to update about the outgroup; more likely to have good feelings only about the particular people with whom they interact.  even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).  
+-->
+<!--
+- Reason not to update about whole group, just particular people
+
+-->
+
+<!--
+even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).
+
+Some evidence that contact only effects the majority/dominant group.  Because the minority/non-dominant group already has a lot of interaction with dominant?  Because minority actually has things to fear?  Regardless, cooperative contact will not meaningfully reduce violent conflict unless it improves attitudes for both sides of the conflict.
+-->
+
+## How contact can improve relations even amid conflict
+
+Contact as opportunity to show that intergroup cooperation is materially good for both groups.
+
+Contact as opportunity to send costly signal of type: trustworthy, fair, hard-working.
+
+Contact to foster trade?
+
+Contact to create norm of ingroup policing.
+
+Contact increases likelihood of peace through negotiation:
+    - opportunity to find bargaining range
+    - opportunity ot build trust that both groups will abide by deal, sanction ingroup members who defect.
+
+Chris: Remind self not to bring up things I provide no evidence for.
+
+
+## Summary
+
+[If needed, summary of argument.]
+
+## Hypotheses
+
+Separate families of Competing hypotheses.
+
+<!--
+
+***********
+
+Left out "in the literature" mechanisms through which contact can affect intergroup attitudes.
+    - Social norms and extrinsic motivation [@yablon2012we]
+    - ingroup policing [@moussa2018overcome; @ditlmann2016can; @fearon1996explaining]
+    - mutual interest [@moussa2018overcome.  also realistic group conflict?]
+-->
+
+
+**********
+<!--
+From old synthesis paper.
 
 ## Intergroup Contact Interventions to Improve Intergroup Attitudes and Reduce Conflict
-
+-->
 <!--Two ways cooperative contact helps reduce conflict.  (1) Increases trust directly, (2) decreases biased information processing.
 
 Provide opportunities for interaction.  Structure interaction in a way that avoids misperceptions -- incidental contact can make things worse (the @enos2014causal cite and the @forbes1997ethnic cite.  Show that working together is possible.-->
-
+<!--
 One prominent approach to improving relations between groups comes from intergroup contact theory [@allport1954prejudice].  Intergroup contact theory hypothesizes that intergroup relations can be improved through interactions in which group members (1) cooperate (2) with equal status (3) to achieve shared goals (4) with the support of elites.[^unCon]
 
-[^unCon]:Important to differentiate structured vs unstructred contact.  Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic]<!--hhabyarimana et al 2007; vanhanen 1999-->.]  This concern is heightened from groups in conflict, whose incidental interactions are likely antagonistic.
+[^unCon]:Important to differentiate structured vs unstructred contact.  Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic] hhabyarimana et al 2007; vanhanen 1999.]  This concern is heightened from groups in conflict, whose incidental interactions are likely antagonistic.
 
-Structured intergroup contact improves intergroup relations for several reasons.[^contactMechs]  First, intergroup contact provides an opportunity for groups to learn about each other and update opinions based on personal experience, thereby dispelling stereotypes [@allport1954prejudice].  <!--Groups often build elaborate myths about the evil of the other to justify their feelings of ingroup superiority.-->  In the context of conflict resolution, the primary barrier to peace is the stereotype that the other group is untrustworthy.  Intergroup contact provides the opportunity to signal trustworthiness and preferences for cooperation to the other group [@kydd2000trust; @rohner2013war] and has been linked with increased trust even in contexts of ongoing conflict [@hewstone2006intergroup].
+Structured intergroup contact improves intergroup relations for several reasons.[^contactMechs]  First, intergroup contact provides an opportunity for groups to learn about each other and update opinions based on personal experience, thereby dispelling stereotypes [@allport1954prejudice]. Groups often build elaborate myths about the evil of the other to justify their feelings of ingroup superiority.  In the context of conflict resolution, the primary barrier to peace is the stereotype that the other group is untrustworthy.  Intergroup contact provides the opportunity to signal trustworthiness and preferences for cooperation to the other group [@kydd2000trust; @rohner2013war] and has been linked with increased trust even in contexts of ongoing conflict [@hewstone2006intergroup].
 
 [^contactMechs]: A full accounting of the mechanisms through which intergroup contact can improve intergroup relations is beyond the scope of this article.  We discuss the mechanisms mostly likely to affect prejudice for groups in active conflict.  For thorough reviews, see @pettigrew2011advances, @pettigrew2008does, or @pettigrew2013groups.]
 
-Second, intergroup contact can change emotional reactions to group members and reduce feelings of threat and anxiety   Feelings of threat and anxiety often arise from fear of the unknown, and feelings of threat and anxiety reduce as familiarity with outgroup members increases [@page2008little; paolini et al 2004; lee 2001]. <!-- chris: removed reduce empathy cuz no measure -->
+Second, intergroup contact can change emotional reactions to group members and reduce feelings of threat and anxiety   Feelings of threat and anxiety often arise from fear of the unknown, and feelings of threat and anxiety reduce as familiarity with outgroup members increases [@page2008little; paolini et al 2004; lee 2001].
 
-Third, intergroup contact can show that working together is materially beneficial for both groups.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting, increasing incentives to reach a bargain and avoid conflict [@rohner2013war].  <!--Intergroup contact to achieve a goal that benefits both groups (1) alleviates material deprivation and (2) associates intergroup cooperation with positive material outcomes.  By cooperating for joint benefit in the present groups can see how cooperative behavior in the future will benefit both groups.-->
+Third, intergroup contact can show that working together is materially beneficial for both groups.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting, increasing incentives to reach a bargain and avoid conflict [@rohner2013war].  Intergroup contact to achieve a goal that benefits both groups (1) alleviates material deprivation and (2) associates intergroup cooperation with positive material outcomes.  By cooperating for joint benefit in the present groups can see how cooperative behavior in the future will benefit both groups.
   
 Fourth, intergroup contact can reduce the perceived social distance between the groups and even expand the ingroup to include the former outgroup.  Contact can make salient many similarities between the groups, reducing feelings of social distance and even helping to craft a joint identity that encompasses both groups [@gaertner2014reducing].
 
-The effectiveness of intergroup contact has been demonstrated in a variety of contexts and using a variety of methodological approaches [@paluck2017contact; @pettigrew2006meta].  Notably, intergroup contacted programs improved relations between white people and black people in the U.S. South Africa, and Norway [@marmaros2006friendships; @burns2015interaction; @finseraas2017does; @carrell2015impact], Jews and Arabs [@yablon2012we; @ditlmann2016can], and Hindus and Muslims in India [@barnhardt2009near].  In Nigeria, a recent study found that intergroup contact between Muslims and Christians decreased discrimination relative to a group that experienced _intragroup_ contact, suggesting that intergroup contact can work by countering the adverse effects of ingroup-only experiences [@scacco2018nigeria].
+The effectiveness of intergroup contact has been demonstrated in a variety of contexts and using a variety of methodological approaches [@paluck2017contact; @pettigrew2006meta].  Notably, intergroup contact programs improved relations between white people and black people in the U.S. South Africa, and Norway [@marmaros2006friendships; @burns2015interaction; @finseraas2017does; @carrell2015impact], Jews and Arabs [@yablon2012we; @ditlmann2016can], and Hindus and Muslims in India [@barnhardt2009near].  In Nigeria, a recent study found that intergroup contact between Muslims and Christians decreased discrimination relative to a group that experienced _intragroup_ contact, suggesting that intergroup contact can work by countering the adverse effects of ingroup-only experiences [@scacco2018nigeria].
 
 This leads to our main hypothesis:
 
-  - $\mathbf{H_1a}:$ **Intergroup contact will help.**  <!--Specifically, increase trust, decrease animosity, increase physical security.  $\mathbf{H_2a-c}:$ Effect will be mediated by less social distance/more ingroup expansion; decreased threat;  perceptions of economic benefit.-->
+  - $\mathbf{H_1a}:$ **Intergroup contact will help.**
 
 But intergroup contact might not change attitudes or reduce conflict.  Group animosity often arises due to the competition for resources that both groups claim or desire [@sherif1958superordinate].  If competition for resources itself causes poor intergroup relations/negative intergroup attitudes, then competition for resources will cause conflict and intergroup contact will have no effect because it doesn't change underlying resource competition.  With or without structured intergroup contact, the groups are still engaged in competition for resources, which breeds conflict [@campbell1965ethno; @Sherif1988robbersCave].
 
 This concern is heightened for groups in active conflict.  Their negative intergroup attitudes come from real conflict, not the type of prejudice that Allport and others theorized about.  Through contact, you might learn that the other group _does_ favor itself.  Contact might show you that the other group _will_ defect on agreements.  Learning about the other side is not going to improve relations if incentives are completely misaligned and the other side _does_ want to harm you.  Additionally, in contexts of ongoing conflict, there may be few norms against prejudice, and possibly group norms that support this particular intergroup prejudice.  If intergroup contact works by activating "norms against prejudice", contact is unlikely to have an effect for groups in conflict.
-<!--Relative deprivation theory: the groups still see the other as responsible for ingroup deprivations.-->
 
 This leads to our alternative hypothesis:
 
@@ -135,6 +198,8 @@ This leads to our alternative hypothesis:
 The effect may also be conditional on group status.  Intergroup contact may only reduce prejudice from high-status group to low-status group.  @ditlmann2016can contact-based intervention did not affect the disadvantaged, minority group.
 
 - $\mathbf{H_1b}:$ **Intergroup contact will improve attitudes of farmers towards pastoralists but not pastoralists towards farmers.**
+
+-->
 <!--
 ********
 Contact-based interventions can also assist third-party mediation or intervention.  Helps mediation because the conflicting groups are more likely to update perceptions based on mediated information.  Helps intervention because the groups are still able to commit to agreements without the threat of punishment.

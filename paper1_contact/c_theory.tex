@@ -1,0 +1,386 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks},
+  pdftitle={Improving Intergroup Relations Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Theory},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{Improving Intergroup Relations Amid Group Conflict: An Intergroup
+Contact Field Experiment in Nigeria - Theory}
+
+\author{
+Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks
+}
+
+
+\date{November 12, 2019}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\hypertarget{theory}{%
+\section{Theory}\label{theory}}
+
+Summary of typical contact theory stuff. To understand why cooperative
+contact might not work for groups in conflict, we must specify the
+mechanisms through which contact works and then specify why contextual
+factors/conditions somehow block/prevent that mechanism.
+
+How intergroup contact works: - Knowledge effect: experience with
+outgroup replaces misperceptions and stereotypes. Hear their perspective
+and understand point of view == less prejudice \& no longer attribute
+negative motivations to the outgroup. (Allport 1954) - Contact itself:
+Familiarity breeds liking (Pettigrew and Tropp 2006) - Expand ingroup to
+include the former outgroup (Gaertner and Dovidio 2014) - Reduce
+anxiety, uncertainty, and threat (Lee 2001; Page-Gould, Mendoza-Denton,
+and Tropp 2008; Paolini et al. 2004; Pettigrew and Tropp 2008) -
+Increase perspective taking/empathy for outgroup (Broockman and Kalla
+2016; Pettigrew and Tropp 2008)
+
+Diffuse to others through extended contact or social norms.
+
+\hypertarget{how-conflict-could-prevent-relations-from-improving}{%
+\subsection{How conflict could prevent relations from
+improving}\label{how-conflict-could-prevent-relations-from-improving}}
+
+Contact theory assumes that negative stereotypes cause intergroup
+animosity. Stereotypes, natural mental shortcuts that help an individual
+understand his/her experiences, are especially likely to go awry and
+create animosity when an individual has little or no experience with
+members of another group. Without intergroup experience, stereotypes
+will misrepresent groups and create imagined differences between
+in-group and outgroup members. To remove these negative stereotypes new
+experiences must override them, allowing an individual to re-
+conceptualize the outgroup.
+
+The mechanisms through which contact improves an individual's negative
+outgroup attitudes assume that the negative attitudes are caused by a
+lack of experience with the other side. And the contact hypothesis is
+almost always tested on groups who are spatially segregated and have
+limited opportunities for interaction -- white people and black people,
+Muslims and Christians, Jews and Arabs. How does contact work when
+negative attitudes are based on negative experience, rather than
+inexperience?
+
+The information mechanism assumes minimal previous experience; these
+groups have many negative experiences, and many group members have been
+directly harmed. Real information about the other side will not decrease
+animosity when it is probably true that some members of the other side
+want to cause physical harm to your side.
+
+Empathy seems to apply to prejudice that advantaged groups feel towards
+disadvantaged, but empathy/perspective-taking should not improve
+relations if the other side is expected to be belligerent (Kertzer,
+Brutger, and Quek 2018). Anxiety based on unfamiliarity with outgroup is
+different than anxiety based on anxiety-inducing previous experiences.
+
+Superordinate identities unlikely for groups in violent conflict, who
+will have few shared identities and whose material interests are
+opposed.
+
+Negative contact experiences worsen intergroup relations (Paolini,
+Harwood, and Rubin 2010). Individuals with the worst attitudes may
+experience backlash effects (Gubler 2011).
+
+\textbf{Contact does not change cause of conflict} Real world violence
+caused by real world problems. These groups have misaligned incentives.
+Literatures in psych, IR, and econ that predict no change after
+intergroup contact because groups incentives still fundamentally
+misaligned. Pastoralists want to graze, farmers do not want them to
+graze. Contact not change the fundamental causes of conflict; things
+that cause conflict also cause negative intergroup attitudes. Could get
+peace through negotiation, but no bargaining range. Could get peace
+through negotiation, but cannot trust all group members to abide by deal
+
+\textbf{Contact could do bad things}
+
+not all intergroup contact decreases animosity. Negative intergroup
+interactions increase prejudice and lead to more negative attitudes
+towards outgroup members (Paolini et al 2010; Enos 2014; sands 2017;
+condra and linardi 2019). Groups in conflict more likely than others to
+have negative contact experiences.
+
+Even well-structured positive interactions can increase negative
+attitudes by causing cognitive dissonance in prejudiced individuals,
+which causes them to cling more strongly to their prejudicial beliefs
+(Gubler 2011). Groups in conflict more likely than others to have
+strong, stable, negative opinions towards the outgroup.
+
+\textbf{conditions under which contact work are not present}
+
+Conditions must be met for intergroup contact to improve intergroup
+relations and reduce violent conflict. First, ingroup members must
+generalize their contact with a few outgroup members to the entire
+outgroup. Second, the positive effects of contact must diffuse
+throughout the ingroup. Third, attitudes of both groups must improve.
+Even if contact effectively changes the attitudes of individual group
+members, contact cannot have meaningful effects on reducing violent
+conflict unless these conditions are met.
+
+These conditions may not be met by groups engaged in violent conflict.
+First, ingroup members who cooperate with outgroup members may not
+perceive those outgroup members as typical of the outgroup due to
+previous negative experiences with outgroup members; consequently,
+ingroup members may not use interactions with those outgroup members to
+update their attitudes about the outgroup as a whole. Second, even if
+contact changes the attitudes of ingroup members who experience contact,
+norms that affect other ingroup members may not develop. Liking other
+group hard to link to a positive ingroup trait, like morality. Third,
+cooperative contact may only improve relations of the more powerful
+group towards the less powerful group; the less powerful group may
+perceive themselves as victims of the other group's injustice.
+
+\hypertarget{how-contact-can-improve-relations-even-amid-conflict}{%
+\subsection{How contact can improve relations even amid
+conflict}\label{how-contact-can-improve-relations-even-amid-conflict}}
+
+Contact as opportunity to show that intergroup cooperation is materially
+good for both groups.
+
+Contact as opportunity to send costly signal of type: trustworthy, fair,
+hard-working.
+
+Contact to foster trade?
+
+Contact to create norm of ingroup policing.
+
+Contact increases likelihood of peace through negotiation: - opportunity
+to find bargaining range - opportunity ot build trust that both groups
+will abide by deal, sanction ingroup members who defect.
+
+Chris: Remind self not to bring up things I provide no evidence for.
+
+\hypertarget{summary}{%
+\subsection{Summary}\label{summary}}
+
+{[}If needed, summary of argument.{]}
+
+\hypertarget{hypotheses}{%
+\subsection{Hypotheses}\label{hypotheses}}
+
+Separate families of Competing hypotheses.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-allport1954prejudice}{}%
+Allport, Gordon. 1954. ``The Nature of Prejudice.'' \emph{Garden City,
+NJ Anchor}.
+
+\leavevmode\hypertarget{ref-broockman2016durably}{}%
+Broockman, David, and Joshua Kalla. 2016. ``Durably Reducing
+Transphobia: A Field Experiment on Door-to-Door Canvassing.''
+\emph{Science} 352(6282): 220--24.
+
+\leavevmode\hypertarget{ref-gaertner2014reducing}{}%
+Gaertner, Samuel L, and John F Dovidio. 2014. \emph{Reducing Intergroup
+Bias: The Common Ingroup Identity Model}. Psychology Press.
+
+\leavevmode\hypertarget{ref-gubler2011diss}{}%
+Gubler, Joshua R. 2011. ``The Micro-Motives of Intergroup Aggression: A
+Case Study in Israel.'' PhD thesis. University of Michigan.
+
+\leavevmode\hypertarget{ref-kertzer2018empathy}{}%
+Kertzer, Joshua D, Ryan Brutger, and Kai Quek. 2018. ``Strategic Empathy
+and the Security Dilemma: Cross-National Experimental Evidence from
+China and the United States.''
+
+\leavevmode\hypertarget{ref-lee2001mere}{}%
+Lee, Angela Y. 2001. ``The Mere Exposure Effect: An Uncertainty
+Reduction Explanation Revisited.'' \emph{Personality and Social
+Psychology Bulletin} 27(10): 1255--66.
+
+\leavevmode\hypertarget{ref-page2008little}{}%
+Page-Gould, Elizabeth, Rodolfo Mendoza-Denton, and Linda R Tropp. 2008.
+``With a Little Help from My Cross-Group Friend: Reducing Anxiety in
+Intergroup Contexts Through Cross-Group Friendship.'' \emph{Journal of
+personality and social psychology} 95(5): 1080.
+
+\leavevmode\hypertarget{ref-paolini2010negative}{}%
+Paolini, Stefania, Jake Harwood, and Mark Rubin. 2010. ``Negative
+Intergroup Contact Makes Group Memberships Salient: Explaining Why
+Intergroup Conflict Endures.'' \emph{Personality and Social Psychology
+Bulletin} 36(12): 1723--38.
+
+\leavevmode\hypertarget{ref-paolini2004effects}{}%
+Paolini, Stefania, Miles Hewstone, Ed Cairns, and Alberto Voci. 2004.
+``Effects of Direct and Indirect Cross-Group Friendships on Judgments of
+Catholics and Protestants in Northern Ireland: The Mediating Role of an
+Anxiety-Reduction Mechanism.'' \emph{Personality and Social Psychology
+Bulletin} 30(6): 770--86.
+
+\leavevmode\hypertarget{ref-pettigrew2006meta}{}%
+Pettigrew, Thomas F, and Linda R Tropp. 2006. ``A Meta-Analytic Test of
+Intergroup Contact Theory.'' \emph{Journal of personality and social
+psychology} 90(5): 751.
+
+\leavevmode\hypertarget{ref-pettigrew2008does}{}%
+---------. 2008. ``How Does Intergroup Contact Reduce Prejudice?
+Meta-Analytic Tests of Three Mediators.'' \emph{European Journal of
+Social Psychology} 38(6): 922--34.
+
+\end{document}

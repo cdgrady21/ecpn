@@ -1,0 +1,526 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks},
+  pdftitle={Improving Intergroup Relations Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Introduction},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{Improving Intergroup Relations Amid Group Conflict: An Intergroup
+Contact Field Experiment in Nigeria - Introduction}
+
+\author{
+Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks
+}
+
+
+\date{November 12, 2019}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+How can groups in conflict improve intergroup relations? Conflict
+between groups has caused 2 million deaths since the year 2000 (Sundberg
+and Melander 2013), forcibly displaced over 70 million people from their
+homes in 2018 (UNHCR 2019), threatens food supplies in numerous
+countries (Verwimp and others 2012), and extracts a psychological toll
+on participants and victims (Schomerus and Rigterink 2018). Intergroup
+animosity perpetuates conflict long after the original grievance is
+immaterial or forgotten (Deutsch 1973; McDonnel 2017; Tajfel and Turner
+1979), so improving intergroup relations is vital to stem the human,
+economic, social, and psychological costs of violent group conflict.
+
+Scholars and policymakers/practicioners consider cooperative intergroup
+contact one of the most effective tools for improving intergroup
+relations. The hypothesis that cooperative contact improves intergroup
+relations -- known as the contact hypothesis (Allport 1954) -- motivates
+many interventions, from integrated sports teams and public housing to
+roommate assignment in college dorms and location settlement of
+immigrants (chris: add cites) to peacebuilding programs (Ditlmann,
+Samii, and Zeitzoff 2017). Through these types of interventions,
+intergroup contact has improved relations between white people and black
+people in the U.S. South Africa, and Norway (Burns, Corno, and La
+Ferrara 2015; Carrell, Hoekstra, and West 2015; Finseraas and Kotsadam
+2017; Marmaros and Sacerdote 2006), Christians and Muslims in Iraq and
+Nigeria ({\textbf{???}}; Scacco and Warren 2018), Jews and Arabs in
+Israel/Palestine (Ditlmann and Samii 2016; Weiss 2019; Yablon 2012), and
+Hindus and Muslims in India (Barnhardt 2009).
+
+Despite these successes, scholars know little about the effects of
+intergroup contact for groups engaged in a violent conflict. Cooperative
+intergroup contact has only recently been tested in the field and never
+with groups engaged in violent conflict (Maoz 2011; Paluck, Green, and
+Green 2017). If one of the goals of cooperative contact is to mitigate
+violent conflict, interventions based on cooperative contact must be
+tested between groups in a violent conflict.
+
+Many of the conditions present during conflict could interfere with the
+mechanisms through which contact improves relations. Scholars theorize
+that contact improves relations mainly through providing information
+that dispels stereotypes, increasing empathy and perspective-taking,
+reducing anxiety about interacting with outgroup members, and making
+salient a superordinate identity that includes both groups (Broockman
+and Kalla 2016; Dovidio et al. 2017; Gaertner and Dovidio 2014;
+Page-Gould, Mendoza-Denton, and Tropp 2008; Pettigrew and Tropp 2008).
+These mechanisms assume that negative attitudes result from
+unfamiliarity, and that ``familiarity breed{[}s{]} liking'' (Pettigrew
+and Tropp 2006) p.766. But the animosity of groups in conflict is driven
+more by opposing interests and negative experiences than inexperience.
+By preventing these mechanisms, violent conflict could dull, prevent, or
+even reverse the predicted positive effects of contact.
+
+Moreover, contact can only meaningfully improve group relations -- as
+opposed to interpersonal relations between members of opposing groups --
+if several conditions are met. First, cooperative contact with
+individual outgroup members must cause ingroup members to update about
+the entire outgroup. Second, the newly positive attitudes of ingroup
+members who interacted with outgroup members must diffuse to other
+ingroup members. And third, intergroup attitudes must improve for both
+groups. Due to opposing group interests, negative experiences, existing
+grievances, and power differentials, groups involved in violent conflict
+may not meet these conditions. For these reasons, some scholars believe
+group reconciliation cannot begin until their conlict is resolved
+(Bar-Tal 2000).
+
+To learn about whether cooperative contact can improve intergroup
+relations amidst violent group conflict, we conducted a field experiment
+with conflicting farmer and pastoralist communities in Nigeria. More
+than an occupational difference, farmers who cultivate crops and
+pastoralists who graze cattle define a major social cleavage in many
+parts of the world. These groups conflict over land rights, which define
+both of their livelihoods. Farmer-pastoralist conflict has escalated
+throughout the Sahel in recent years, and nowhere more than in Nigeria.
+The most recent conflict escalation has caused 7,000 deaths from
+2014-2019, displaced hundreds of thousands of people from their homes,
+and costs \$13 billion annually in lost economic productivity (Akinwotu
+2018; Daniel 2018; Harwood 2019; McDougal et al. 2015).
+
+We randomly assigned communities with ongoing farmer-pastoralist
+violence to receive a contact-based intervention or serve as a control
+group. The intervention formed mixed-group committees and provided them
+with funds to build infrastructure that would benefit both communities;
+committees then collaboratively chose and constructed infrastructure
+projects.\footnote{The communities built boreholes, market stalls,
+  primary health care facilities, etc.} The program also provided
+mediation training to each community's leaders and held forums where the
+groups discussed the underlying drivers of conflict. To measure the
+effects of the intervention, we conducted pre- and post-intervention
+surveys, a post-intervention natural public goods behavioral
+game,\footnote{In a public goods game (PGG), research subjects are given
+  money and told they can keep the money or donate it to a public fund.
+  Money donated to the public fund is multiplied by some amount and then
+  shared with all subjects. Our PGG is \emph{natural} because it was
+  conducted in a natural setting, rather than a lab. The funding for the
+  PGG came from the National Science Foundation under Grant No.~1656871.}
+and twelve months of systematic observations in markets and social
+events during the intervention.
+
+We find that the program increased intergroup contact, intergroup trust,
+and perceptions of physical security. We see signs of the positive
+effects in fieldwork as well as in data -- in one of the treatment
+sites, farmers defended pastoralists from a group of anti-pastoralist
+vigilantes, rather than assist the vigilantes in removing the
+pastoralists and claiming their land. Our results also show that the
+intervention affected communities as a whole, not just community members
+directly involved in the intergroup contact. Individuals who directly
+engaged in intergroup contact changed the most positively from baseline
+to endline, but we also observe positive spillovers of trust to group
+members for whom we did not exogenously increase intergroup contact.
+
+This study expands our knowledge about group conflict in several ways.
+First, this study teaches us about the capacity of intergroup contact to
+improve intergroup relations and reduce conflict. Peacebuilding
+organizations implement numerous contact-based interventions in violent
+contexts each year (Ditlmann, Samii, and Zeitzoff 2017), but its
+efficacy to improve intergroup attitudes amid real-world conflict is an
+open question (Ditlmann, Samii, and Zeitzoff 2017; Paluck, Green, and
+Green 2017). To our knowledge this is the first field experimental test
+of a contact-based intervention implemented during an active conflict.
+The results suggest that contact-based peacebuilding programs can
+effectively improve relationships between conflicting groups and is
+especially relevant to conflict resolution in the cases of intergroup
+and intercommunal conflicts.
+
+Second, we contribute to the literature about informal structures, such
+as social norms, in solving collective action problems. Conflict between
+farmers and pastoralists is a collective action problem in that both
+groups would be materially better off avoiding violence through
+compromise and cooperation, but each has the incentive to take advantage
+of the other. Individuals within each group face the same dilemma: they
+prefer a compromise, but their incentives are to free-ride and allow
+others to bear the cost of compromise. In rural Nigeria, as with many
+contexts, no formal institutions exist to encourage cooperation and so
+groups must develop informal structures to achieve collective action
+(Ostrom 2000). This intervention showed how informal structures to solve
+collection action problems can naturally develop through repeated
+intergroup interactions. Our intervention only engaged a small
+percentage of each community, yet its effects diffused to other
+community members. Creating informal structures that diffuse the
+attitudinal effects of cooperative contact are a way of scaling up
+contact-based interventions.\footnote{chris: this paragraph is too long
+  and not focused enough. Would appreciate comments.}
+
+Third, this paper teaches us about settling disputes between sedentary
+peoples and nomadic peoples. Violent conflict between settled peoples
+and nomadic peoples is on the rise throughout Africa (Kuusaana and
+Bukari 2015; Mwamfupe 2015; Nnoko-Mewanu 2018). This study focuses on
+the Fulani, the largest semi-nomadic people on Earth (Encyclopedia
+2017). Their way of life makes them targets for violence throughout
+Africa. Along with this conflict in Nigeria, Fulani in Mali have been
+the targets of violence so severe that researchers at Armed Conflict
+Location \& Event Data Project called it ``ethnic cleansing'' (Economist
+2019). Understanding how to prevent violent conflict between Fulani and
+settled peoples can help prevent violence that targets other nomadic and
+semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in
+Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa.
+Preventing such violence could help preserve a dying way of life.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-nyt2018nigeria}{}%
+Akinwotu, Emmanuel. 2018. ``Nigeria's Farmers and Herders Fight a Deadly
+Battle for Scarce Resources.'' \emph{New York Times}.
+\url{https://www.nytimes.com/2018/06/25/world/africa/nigeria-herders-farmers.html}.
+
+\leavevmode\hypertarget{ref-allport1954prejudice}{}%
+Allport, Gordon. 1954. ``The Nature of Prejudice.'' \emph{Garden City,
+NJ Anchor}.
+
+\leavevmode\hypertarget{ref-barnhardt2009near}{}%
+Barnhardt, Sharon. 2009. ``Near and Dear? Evaluating the Impact of
+Neighbor Diversity on Inter-Religious Attitudes.'' \emph{Unpublished
+working paper}.
+
+\leavevmode\hypertarget{ref-bar2000intractable}{}%
+Bar-Tal, Daniel. 2000. ``From Intractable Conflict Through Conflict
+Resolution to Reconciliation: Psychological Analysis.'' \emph{Political
+Psychology} 21(2): 351--65.
+
+\leavevmode\hypertarget{ref-broockman2016durably}{}%
+Broockman, David, and Joshua Kalla. 2016. ``Durably Reducing
+Transphobia: A Field Experiment on Door-to-Door Canvassing.''
+\emph{Science} 352(6282): 220--24.
+
+\leavevmode\hypertarget{ref-burns2015interaction}{}%
+Burns, Justine, Lucia Corno, and Eliana La Ferrara. 2015.
+\emph{Interaction, Prejudice and Performance. Evidence from South
+Africa}. Working paper.
+
+\leavevmode\hypertarget{ref-carrell2015impact}{}%
+Carrell, Scott E, Mark Hoekstra, and James E West. 2015. \emph{The
+Impact of Intergroup Contact on Racial Attitudes and Revealed
+Preferences}. National Bureau of Economic Research.
+
+\leavevmode\hypertarget{ref-daniel2018anti}{}%
+Daniel, Soni. 2018. ``Anti-Open Grazing Law: Nass, Benue, Kwara, Taraba
+Tackle Defence Minister.'' \emph{Vanguard}.
+\url{https://www.vanguardngr.com/2018/06/anti-open-grazing-law-nass-benue-kwara-taraba-tackle-defence-minister/}.
+
+\leavevmode\hypertarget{ref-deutsch1973resolution}{}%
+Deutsch, Morton. 1973. \emph{The Resolution of Conflict: Constructive
+and Destructive Processes}. Yale University Press.
+
+\leavevmode\hypertarget{ref-ditlmann2016can}{}%
+Ditlmann, Ruth K, and Cyrus Samii. 2016. ``Can Intergroup Contact Affect
+Ingroup Dynamics? Insights from a Field Study with Jewish and
+Arab-Palestinian Youth in Israel.'' \emph{Peace and Conflict: Journal of
+Peace Psychology} 22(4): 380.
+
+\leavevmode\hypertarget{ref-ditlmann2017addressing}{}%
+Ditlmann, Ruth K, Cyrus Samii, and Thomas Zeitzoff. 2017. ``Addressing
+Violent Intergroup Conflict from the Bottom up?'' \emph{Social Issues
+and Policy Review} 11(1): 38--77.
+
+\leavevmode\hypertarget{ref-dovidio2017reducing}{}%
+Dovidio, John F, Angelika Love, Fabian MH Schellhaas, and Miles
+Hewstone. 2017. ``Reducing Intergroup Bias Through Intergroup Contact:
+Twenty Years of Progress and Future Directions.'' \emph{Group Processes
+\& Intergroup Relations} 20(5): 606--20.
+
+\leavevmode\hypertarget{ref-economist2019militias}{}%
+Economist, The. 2019. ``Malicious Malitias: States in the Sahel Have
+Unleashed Ethnic Gangs with Guns.'' \emph{The Economist}.
+\url{https://www.economist.com/middle-east-and-africa/2019/05/04/states-in-the-sahel-have-unleashed-ethnic-gangs-with-guns}.
+
+\leavevmode\hypertarget{ref-fulanisize2017}{}%
+Encyclopedia, New World. 2017. ``Fulani --- New World Encyclopedia,''
+\url{//www.newworldencyclopedia.org/p/index.php?title=Fulani\&oldid=1004777}.
+
+\leavevmode\hypertarget{ref-finseraas2017does}{}%
+Finseraas, Henning, and Andreas Kotsadam. 2017. ``Does Personal Contact
+with Ethnic Minorities Affect Anti-Immigrant Sentiments? Evidence from a
+Field Experiment.'' \emph{European Journal of Political Research} 56(3):
+703--22.
+
+\leavevmode\hypertarget{ref-gaertner2014reducing}{}%
+Gaertner, Samuel L, and John F Dovidio. 2014. \emph{Reducing Intergroup
+Bias: The Common Ingroup Identity Model}. Psychology Press.
+
+\leavevmode\hypertarget{ref-council2019nigeria}{}%
+Harwood, Asch. 2019. ``Update: The Numbers Behind Sectarian Violence in
+Nigeria.'' \emph{Council on Foreign Relations}.
+\url{https://www.cfr.org/blog/update-numbers-behind-sectarian-violence-nigeria}.
+
+\leavevmode\hypertarget{ref-kuusaana2015land}{}%
+Kuusaana, Elias Danyi, and Kaderi Noagah Bukari. 2015. ``Land Conflicts
+Between Smallholders and Fulani Pastoralists in Ghana: Evidence from the
+Asante Akim North District (Aand).'' \emph{Journal of rural studies} 42:
+52--62.
+
+\leavevmode\hypertarget{ref-maoz2011protracted}{}%
+Maoz, Ifat. 2011. ``Does Contact Work in Protracted Asymmetrical
+Conflict? Appraising 20 Years of Reconciliation-Aimed Encounters Between
+Israeli Jews and Palestinians.'' \emph{Journal of Peace Research} 48(1):
+115--25.
+
+\leavevmode\hypertarget{ref-marmaros2006friendships}{}%
+Marmaros, David, and Bruce Sacerdote. 2006. ``How Do Friendships Form?''
+\emph{The Quarterly Journal of Economics} 121(1): 79--119.
+
+\leavevmode\hypertarget{ref-mcdonnel2017graze}{}%
+McDonnel, Tim. 2017. ``Why It's Now a Crime to Let Cattle Graze Freely
+in 2 Nigerian States.'' \emph{National Public Radio (NPR)}.
+\url{https://www.npr.org/sections/goatsandsoda/2017/12/12/569913821/why-its-now-a-crime-to-let-cattle-graze-freely-in-2-nigerian-states}.
+
+\leavevmode\hypertarget{ref-mcdougal2015effect}{}%
+McDougal, Topher L et al. 2015. ``The Effect of Farmer-Pastoralist
+Violence on Income: New Survey Evidence from Nigeria's Middle Belt
+States.'' \emph{Economics of Peace and Security Journal} 10(1): 54--65.
+
+\leavevmode\hypertarget{ref-mwamfupe2015persistence}{}%
+Mwamfupe, Davis. 2015. ``Persistence of Farmer-Herder Conflicts in
+Tanzania.'' \emph{International Journal of Scientific and Research
+Publications} 5(2): 1--8.
+
+\leavevmode\hypertarget{ref-hrc2018farmer}{}%
+Nnoko-Mewanu, Juliana. 2018. ``Farmer-Herder Conflicts on the Rise in
+Africa.'' \emph{Human Rights Watch}.
+
+\leavevmode\hypertarget{ref-ostrom2000collective}{}%
+Ostrom, Elinor. 2000. ``Collective Action and the Evolution of Social
+Norms.'' \emph{Journal of economic perspectives} 14(3): 137--58.
+
+\leavevmode\hypertarget{ref-page2008little}{}%
+Page-Gould, Elizabeth, Rodolfo Mendoza-Denton, and Linda R Tropp. 2008.
+``With a Little Help from My Cross-Group Friend: Reducing Anxiety in
+Intergroup Contexts Through Cross-Group Friendship.'' \emph{Journal of
+personality and social psychology} 95(5): 1080.
+
+\leavevmode\hypertarget{ref-paluck2017contact}{}%
+Paluck, Elizabeth Levy, Seth Green, and Donald P Green. 2017. ``The
+Contact Hypothesis Revisited.''
+
+\leavevmode\hypertarget{ref-pettigrew2006meta}{}%
+Pettigrew, Thomas F, and Linda R Tropp. 2006. ``A Meta-Analytic Test of
+Intergroup Contact Theory.'' \emph{Journal of personality and social
+psychology} 90(5): 751.
+
+\leavevmode\hypertarget{ref-pettigrew2008does}{}%
+---------. 2008. ``How Does Intergroup Contact Reduce Prejudice?
+Meta-Analytic Tests of Three Mediators.'' \emph{European Journal of
+Social Psychology} 38(6): 922--34.
+
+\leavevmode\hypertarget{ref-scacco2018nigeria}{}%
+Scacco, Alexandra, and Shana S Warren. 2018. ``Can Social Contact Reduce
+Prejudice and Discrimination? Evidence from a Field Experiment in
+Nigeria.'' \emph{American Political Science Review} 112(3): 654--77.
+
+\leavevmode\hypertarget{ref-ucdp}{}%
+Sundberg, Ralph, and Erik Melander. 2013. ``Introducing the Ucdp
+Georeferenced Event Dataset.'' \emph{Journal of Peace Research} 50(4):
+523--32.
+
+\leavevmode\hypertarget{ref-tajfel1979integrative}{}%
+Tajfel, Henri, and John C Turner. 1979. ``An Integrative Theory of
+Intergroup Conflict.'' \emph{The social psychology of intergroup
+relations} 33(47): 74.
+
+\leavevmode\hypertarget{ref-unhcr2019}{}%
+UNHCR. 2019. \emph{UNHCR Statistical Yearbook}.
+https://www.unhcr.org/en-us/figures-at-a-glance.html: United Nations
+High Commission for Refugees.
+
+\leavevmode\hypertarget{ref-verwimp2012food}{}%
+Verwimp, Philip, and others. 2012. ``Food Security, Violent Conflict and
+Human Development: Causes and Consequences.'' \emph{United Nations
+Development Programme Working Paper}: 1--13.
+
+\leavevmode\hypertarget{ref-weiss2019curing}{}%
+Weiss, Chagai M. 2019. ``Curing Prejudice Through Representative
+Bureaucracies: Evidence from a Natural Experiment in Israeli Medical
+Clinics.''
+
+\leavevmode\hypertarget{ref-yablon2012we}{}%
+Yablon, Yaacov B. 2012. ``Are We Preaching to the Converted? The Role of
+Motivation in Understanding the Contribution of Intergroup Encounters.''
+\emph{Journal of Peace Education} 9(3): 249--63.
+
+\end{document}

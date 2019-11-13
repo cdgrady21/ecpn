@@ -50,7 +50,7 @@ options(SweaveHooks=list(fig=function(){
 
 ## Discussion
 
-
+need more field experiments; this is only one.
 
 Conclusion/summary: Intergroup contact improves intergroup attitudes.  Could contact-based programs effectively improve attitudes amongst groups in conflict?  Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
 

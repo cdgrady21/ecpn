@@ -14,9 +14,9 @@ output:
     pandoc_args:
     - -M
     - secPrefix=\S
-    template: ../utils/bowersarticletemplate.latex
-csl: ../utils/american-political-science-review.csl
-bibliography: ../utils/cdg_references.bib
+    template: ../../utils/bowersarticletemplate.latex
+csl: ../../utils/american-political-science-review.csl
+bibliography: ../../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -57,39 +57,9 @@ Scholars and policymakers/practicioners consider cooperative intergroup contact 
 
 Despite these successes, scholars know little about the effects of intergroup contact for groups engaged in a violent conflict.  Cooperative intergroup contact has only recently been tested in the field and never with groups engaged in violent conflict [@paluck2017contact; @maoz2011protracted].  If one of the goals of cooperative contact is to mitigate violent conflict, interventions based on cooperative contact must be tested between groups in a violent conflict.
 
-Many of the conditions present during conflict could interfere with the mechanisms through which contact improves relations.  Scholars theorize that contact improves relations mainly through providing information that dispels stereotypes, increasing empathy and perspective-taking, reducing anxiety about interacting with outgroup members, and making salient a superordinate identity that includes both groups [@pettigrew2008does; @broockman2016durably; @gaertner2014reducing; @page2008little].  These mechanisms assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta].  But the animosity of groups in conflict is driven more by negative experiences than inexperience.  By preventing these mechanisms, violent conflict could dull, prevent, or even reverse the predicted positive effects of contact.
+Many of the conditions present during conflict could interfere with the mechanisms through which contact improves relations.  Scholars theorize that contact improves relations mainly through providing information that dispels stereotypes, increasing empathy and perspective-taking, reducing anxiety about interacting with outgroup members, and making salient a superordinate identity that includes both groups [@pettigrew2008does; @dovidio2017reducing; @broockman2016durably; @gaertner2014reducing; @page2008little].  These mechanisms assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta] p.766.  But the animosity of groups in conflict is driven more by opposing interests and negative experiences than inexperience.  By preventing these mechanisms, violent conflict could dull, prevent, or even reverse the predicted positive effects of contact.
 
-Moreover, contact can only meaningfully improve group relations if several other conditions are met: (1) individuals who have contact update about the entire outgroup, (2) individuals without contact update attitudes about outgroup, (3) both groups change, as opposed to one group changing.
-
-individuals update about the entire outgroup, not just the particular people with whom they interact.  
-
-Even if contact changes the attitudes of individuals who experience contact, contact may prove ineffective at reducing violent conflict because it does not reach the rest of the group.  Realistically, contact can only occur for a small portion of each community.  The positive effects of contact must diffuse throughout the ingroup for contact to have meaningful effects on reducing violent conflict.
-
-Some evidence that contact only effects the majority/dominant group.  Because the minority/non-dominant group already has a lot of interaction with dominant?  Because minority actually has things to fear?  Regardless, cooperative contact will not meaningfully reduce violent conflict unless it improves attitudes for both sides of the conflict.
-
-For these reasons, some scholars believe group reconciliation cannot begin until their conlict is resolved [@bar2000intractable].   
-
-    - Contact supposed to work through information/dispel stereotypes and update to entire group.
-    - Or empathy, which seems to apply to disadvantaged groups [@brockman] but not groups in conflict.
-    - ingroup expansion, which is unlikely for real groups
-    - reduced anxiety/threat felt, which also shouldn't apply to groups in conflict.
-
-    - likelihood of negative contact experience
-    - Personal history/experience with violence
-    - Continuing violence == continuing grievances to blame on other side
-    - Reason not to update about whole group, just particular people
-    - Gubler about cognitive dissonance
-    
-    - not all intergroup contact decreases animosity. Negative intergroup interactions increase prejudice and lead to more negative attitudes towards outgroup members (Paolini et al 2010). Even well-structured positive interactions can increase negative attitudes by causing cognitive dissonance in prejudiced individuals, which causes them to cling more strongly to their prejudicial beliefs (Gubler 2011). Third, even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).
-
-    - Real world violence caused by real world problems.  These groups have misaligned incentives.  Literatures in psych, IR, and econ that predict no change after intergroup contact because groups incentives still fundamentally misaligned.  Pastoralists want to graze, farmers do not want them to graze.
-
-<!--
-Contact not change the fundamental causes of conflict; things that cause conflict also cause negative intergroup attitudes.
-    - peace through negotiation, but no bargaining range
-    - peace through negotiation, but cannot trust all group members to abide by deal
--->
-
+Moreover, contact can only meaningfully improve group relations -- as opposed to interpersonal relations between members of opposing groups -- if several conditions are met.  First, cooperative contact with individual outgroup members must cause ingroup members to update about the entire outgroup.  Second, the newly positive attitudes of ingroup members who interacted with outgroup members must diffuse to other ingroup members.  And third, intergroup attitudes must improve for both groups.  Due to opposing group interests, negative experiences, existing grievances, and power differentials, groups involved in violent conflict may not meet these conditions.  For these reasons, some scholars believe group reconciliation cannot begin until their conlict is resolved [@bar2000intractable].   
 
 To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria]<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->.
 
@@ -103,19 +73,9 @@ We find that the program increased intergroup contact, intergroup trust, and per
 
 This study expands our knowledge about group conflict in several ways.  First, this study teaches us about the capacity of intergroup contact to improve intergroup relations and reduce conflict.  Peacebuilding organizations implement numerous contact-based interventions in violent contexts each year [@ditlmann2017addressing], but its efficacy to improve intergroup attitudes amid real-world conflict is an open question [@paluck2017contact; @ditlmann2017addressing].  To our knowledge this is the first field experimental test of a contact-based intervention implemented during an active conflict.  The results suggest that contact-based peacebuilding programs can effectively improve relationships between conflicting groups and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
 
-Second, we contribute to the literature about informal structures, such as social norms, in solving collective action problems.  In some contexts, formal institutions ensure collective action by punishing groups and individuals who "defect" on agreements.  In many contexts, such as rural Nigeria, no formal institutions exist to encourage such behavior and so groups in those contexts develop informal structures to achieve collective action [@ostrom2000collective].  This intervention showed how informal structures governing interactions between groups can develop through repeated intergroup interaction.  Our intervention only engaged a small percentage of each community, yet its effects diffused to other community members.  Creating informal structures that diffuse the effects of contact are a way of scaling up peacebuilding interventions.^[chris: this paragraph is too long and not focused enough.  Would appreciate comments.]
+Second, we contribute to the literature about informal structures, such as social norms, in solving collective action problems.  Conflict between farmers and pastoralists is a collective action problem in that both groups would be materially better off avoiding violence through compromise and cooperation, but each has the incentive to take advantage of the other.  Individuals within each group face the same dilemma: they prefer a compromise, but their incentives are to free-ride and allow others to bear the cost of compromise.  In rural Nigeria, as with many contexts, no formal institutions exist to encourage cooperation and so groups must develop informal structures to achieve collective action [@ostrom2000collective].  This intervention showed how informal structures to solve collection action problems can naturally develop through repeated intergroup interactions.  Our intervention only engaged a small percentage of each community, yet its effects diffused to other community members.  Creating informal structures that diffuse the attitudinal effects of cooperative contact are a way of scaling up contact-based interventions.^[chris: this paragraph is too long and not focused enough.  Would appreciate comments.]
 
 Third, this paper teaches us about settling disputes between sedentary peoples and nomadic peoples.  Violent conflict between settled peoples and nomadic peoples is on the rise throughout Africa [@hrc2018farmer; @kuusaana2015land; @mwamfupe2015persistence].  This study focuses on the Fulani, the largest semi-nomadic people on Earth [@fulanisize2017].  Their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent violent conflict between Fulani and settled peoples can help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, and Khoisan of Southern Africa.  Preventing such violence could help preserve a dying way of life.
-
-
-
-
-
-*************
-
-## For Discussion
-
-- need more field experiments; this is only one.
 
 
 
