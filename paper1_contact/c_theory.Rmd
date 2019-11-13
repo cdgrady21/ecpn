@@ -152,6 +152,8 @@ Some evidence that contact only effects the majority/dominant group.  Because th
 
 ## How contact can improve relations even amid conflict
 
+How would intergroup contact work amid conflict?  Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.  In a lab experiment, @grady2019contact suggests that cooperative contact only improves attitudes towards the outgroup if the cooperation achieve its objective.
+
 - Contact as opportunity to show that intergroup cooperation is materially good for both groups.
     - Related: contact to foster trade? [@rohner2013war] (Jha and Shayo 2019 - Valuing Peace).
 
@@ -164,6 +166,14 @@ Some evidence that contact only effects the majority/dominant group.  Because th
     - opportunity ot build trust that both groups will abide by deal, sanction ingroup members who defect.
 
 Chris: Remind self not to bring up things I provide no evidence for.
+
+<!--
+Contact and Allport's conditions: maybe not about the conditions, but about beliefs that cooperation/interaction with the outgroup will help individuals achieve their goals.  People are goal-oriented, with material, social/status, psychological/internalized moral, and evolutionary goals. People do things to achieve those goals.  People like things that help them achieve their goals.  If intergroup cooperation leads to positive outcomes, I will do more of it and I will like that group.
+
+Interacting with some other group with equal status == likely that my opinions/desires taken into account, whereas unequal status == my opinions/desires are subordinated.  Institutional support == likely that social norms are on my side.  No institutional support == very possible that social norms are not on my side.  Common goals == group working on something that is good for me and good for them; can trust them to work on it, too.
+
+Conflict as a collective action problem: both groups better off cooperating but have incentives to defect.  How do we usually solve collective action problems?
+-->
 
 
 ## Summary
