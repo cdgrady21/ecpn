@@ -52,11 +52,16 @@ options(SweaveHooks=list(fig=function(){
 Things to fit in: History of conflict -- not imagined disputes. More about perceived deservingness (right now minutely in there as part of psyc phenomena increasing information problems).  More on cognitive dissonance?
 
 Loss aversion: a negotiated deal == give up something, gain something.  We weigh losses more than gains (ross and ward 1995 psych barriers)
+
+Definition of intergroup conflict (Al Ramiah and Hewstone 2013): "Intergroup conflict involves competition for dominance between two or more groups over physical resources, values, and/or claims to status and power (Coser, 1967). Conflict can usefully be thought of as occurring along a continuum. At one end of the spectrum, conflict can manifest as prejudice, stereotyping, and discrimination and can
+be subtle or take more explicit forms. At the other end of the spectrum, conflict can become both overt and violent and take the form of “ethnic cleansing” and genocide (Fisher, 1994, p. 47).
 -->
 
-# Theory
+# Theory: Improving Intergroup Relations Through Cooperative Intergroup Contact
 
-- Summary of typical contact theory stuff.  
+<!--Summary of typical contact theory stuff.-->
+
+Contact 
 
 - To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.
 
@@ -67,6 +72,13 @@ Loss aversion: a negotiated deal == give up something, gain something.  We weigh
     - Increase perspective taking/empathy for outgroup [@pettigrew2008does; @broockman2016durably]
 
 - Diffuse to others through extended contact or social norms.
+
+<!--
+-Al Ramiah and Hewstone 2013 definitions:
+    - Intergroup anxiety refers to the feelings of discomfort and nervousness that arise in intergroup encounters.
+    - Empathy refers to the ability to share and understand another person’s feelings. It is the process involved when we speak of “putting yourself in another’s shoes.”
+    - Knowledge: Allport (1954) wrote that intergroup contact leads intergroup actors to learn more about their respective outgroups, and this new knowledge can lead to a reduction in prejudice. Pettigrew and Tropp (2008) have argued that an emphasis on knowledge in the sense of “getting to know one another” can take the form of bringing people together in order to realize their mutual similarities, which runs the risk of ignoring important and defining group differences.
+-->
 
 
 ## How conflict could prevent relations from improving
@@ -83,7 +95,7 @@ Empathy seems to apply to prejudice that advantaged groups feel towards disadvan
 
 Superordinate identities unlikely for groups in violent conflict, who will have few shared identities and whose material interests are opposed.  
 
-Negative contact experiences worsen intergroup relations [@paolini2010negative].  Individuals with the worst attitudes may experience backlash effects [@gubler2011diss].
+Negative contact experiences worsen intergroup relations [@paolini2010negative].  Individuals with the worst attitudes may experience backlash effects [@gubler2011diss; @plant2001responses].
 
 <!--
     - Contact supposed to work through information/dispel stereotypes and update to entire group.  But it is true that some members of the other side want to and have caused physical harm to members of your group.
@@ -106,6 +118,13 @@ Even well-structured positive interactions can increase negative attitudes by ca
 Conditions must be met for intergroup contact to improve intergroup relations and reduce violent conflict.  First, ingroup members must generalize their contact with a few outgroup members to the entire outgroup.  Second, the positive effects of contact must diffuse throughout the ingroup.  Third, attitudes of both groups must improve.  Even if contact effectively changes the attitudes of individual group members, contact cannot have meaningful effects on reducing violent conflict unless these conditions are met.
 
 These conditions may not be met by groups engaged in violent conflict.  First, ingroup members who cooperate with outgroup members may not perceive those outgroup members as typical of the outgroup due to previous negative experiences with outgroup members; consequently, ingroup members may not use interactions with those outgroup members to update their attitudes about the outgroup as a whole.  Second, even if contact changes the attitudes of ingroup members who experience contact, norms that affect other ingroup members may not develop.  Liking other group hard to link to a positive ingroup trait, like morality.  Third, cooperative contact may only improve relations of the more powerful group towards the less powerful group; the less powerful group may perceive themselves as victims of the other group's injustice.
+
+<!--
+Typicality
+Group Status
+
+Al Ramiah and Hewstone 2013: "For example, when groups have a history of intergroup tension and animosity, group salience and perceived typicality of outgroup members may lead to more prejudice against individual outgroup members and their group as a whole."
+-->
 
 <!--Many studies suggest intergroup contact only improves the attitudes of the majority/dominant group.  Jews, not Arabs.  White people, not black people.  Minority group has lots of experience with majority group?  Culture does not assign negative traits to majority group because "culture" is dictated by majority?-->
 
@@ -182,7 +201,7 @@ Provide opportunities for interaction.  Structure interaction in a way that avoi
 <!--
 One prominent approach to improving relations between groups comes from intergroup contact theory [@allport1954prejudice].  Intergroup contact theory hypothesizes that intergroup relations can be improved through interactions in which group members (1) cooperate (2) with equal status (3) to achieve shared goals (4) with the support of elites.[^unCon]
 
-[^unCon]:Important to differentiate structured vs unstructred contact.  Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic] hhabyarimana et al 2007; vanhanen 1999.]  This concern is heightened from groups in conflict, whose incidental interactions are likely antagonistic.
+[^unCon]:Important to differentiate structured vs unstructred contact.  Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic] habyarimana et al 2007; vanhanen 1999.]  This concern is heightened from groups in conflict, whose incidental interactions are likely antagonistic.
 
 Structured intergroup contact improves intergroup relations for several reasons.[^contactMechs]  First, intergroup contact provides an opportunity for groups to learn about each other and update opinions based on personal experience, thereby dispelling stereotypes [@allport1954prejudice]. Groups often build elaborate myths about the evil of the other to justify their feelings of ingroup superiority.  In the context of conflict resolution, the primary barrier to peace is the stereotype that the other group is untrustworthy.  Intergroup contact provides the opportunity to signal trustworthiness and preferences for cooperation to the other group [@kydd2000trust; @rohner2013war] and has been linked with increased trust even in contexts of ongoing conflict [@hewstone2006intergroup].
 

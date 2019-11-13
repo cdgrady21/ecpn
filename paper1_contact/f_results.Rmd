@@ -1,5 +1,5 @@
 ---
-title: "IImproving Intergroup Relations Amid Group Conflict - Results"
+title: "Improving Intergroup Relations Amid Group Conflict - Results"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -19,9 +19,56 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Results Outline
 
+- Individual-Level caveat: not randomly assigned or selected
+    - (1): they at baseline look like the random selection at baseline.  Looks like we randomly sampled from baseline respondents.
+    - (2): Participants and nonparticipants look similar to each other at baseline.  Participants were not randomly assigned, but look randomly assigned.
+
+- Main Outcomes:
+    - Attitudes/Affect Towards Outgroup
+        - Social Distance
+        - Trust
+        - Affect: List exp, endorsement experiment.
+    
+    - Awareness/Self-report of violent events + perceived security
+
+    - Willingness to interact: Contact questions, Percent experiment, interaction in markets and social events
+
+
+- Mechanisms:
+    - Threat/anxiety
+    - Empathy (helping other group in trouble) & Perspective-taking (who is responsible for violence)
+    - Ingroup expansion: Social cohesion1 + "x_values", public goods game coordination
+    
+    - Bargaining: Index; Fewer shared resources; fewer disputes & more dispute resolution when shared.
+    - Perceived Benefit: benefit_econ: "You currently benefit economically from cooperating with members of [X GROUP]" **chris: wish we had this question with "your community" also.**
+    - Actual Material Benefit: endline only questions about benefitting
+
 Awareness of conflict (ask how many conflicts).  Then it's "intervention groups were _more_ aware of conflicts and yet felt more physically secure, despite their heightened awareness."
 
 Less sharing of farmland and pastureland could imply bargaining.
+
+- Mediators: 
+    - any mechanism with support --> trust/social distance.
+
+- Moderators
+    - group status: pastoralists vs farmers
+    - state: Nas vs Ben
+    - In Benue: IDP camp vs community
+    - SES/radio
+
+- Placebo: 
+    - attitudes about violence
+
+- Extended contact
+    - effects on individuals not part of the progam
+    - effects more on nonparticipants who knew participants?
+
+
+- Other outcomes?
+    - peace_commit: You would personally commit to peace with X group, even if members of X group used violence against your group.
+
+
+
 
 ## Results
 

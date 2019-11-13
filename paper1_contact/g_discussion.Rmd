@@ -52,6 +52,8 @@ options(SweaveHooks=list(fig=function(){
 
 need more field experiments; this is only one.
 
+Contact and Allport's conditions: maybe not about the conditions, but about beliefs that cooperation/interaction with the outgroup will help individuals achieve their goals.  People are goal-oriented, with material, social/status, psychological/internalized moral, and evolutionary goals. People do things to achieve those goals.  People like things that help them achieve their goals.  If intergroup cooperation leads to positive outcomes, I will do more of it and I will like that group.
+
 Conclusion/summary: Intergroup contact improves intergroup attitudes.  Could contact-based programs effectively improve attitudes amongst groups in conflict?  Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
 
 Increased trust.  No sign of other outcomes/mechanisms.
