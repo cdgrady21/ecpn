@@ -59,11 +59,13 @@ be subtle or take more explicit forms. At the other end of the spectrum, conflic
 
 # Theory: Improving Intergroup Relations Through Cooperative Intergroup Contact
 
-<!--Summary of typical contact theory stuff.-->
+<!--Summary of argument.-->
 
-Contact 
+Mechanisms through which contact works difficult when groups have a lot of animosity, history of conflict, etc.  List reasons why difficult.  Then list some reasons why it still would work.
 
 - To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.
+
+<!--Summary of typical contact theory stuff.-->
 
 - How intergroup contact works:
     - Knowledge effect: experience with outgroup replaces misperceptions and stereotypes.  Hear their perspective and understand point of view == less prejudice & no longer attribute negative motivations to the outgroup. [@allport1954prejudice]
@@ -71,7 +73,10 @@ Contact
     - Reduce anxiety, uncertainty, and threat [@lee2001mere; @page2008little; @paolini2004effects; @pettigrew2008does]
     - Increase perspective taking/empathy for outgroup [@pettigrew2008does; @broockman2016durably]
 
-- Diffuse to others through extended contact or social norms.
+- Diffuse to others through "extended contact".
+    - interpsonal discussion
+    - observational/vicarious learning
+    - social norm changes
 
 <!--
 -Al Ramiah and Hewstone 2013 definitions:
@@ -80,8 +85,8 @@ Contact
     - Knowledge: Allport (1954) wrote that intergroup contact leads intergroup actors to learn more about their respective outgroups, and this new knowledge can lead to a reduction in prejudice. Pettigrew and Tropp (2008) have argued that an emphasis on knowledge in the sense of “getting to know one another” can take the form of bringing people together in order to realize their mutual similarities, which runs the risk of ignoring important and defining group differences.
 -->
 
-
-## How conflict could prevent relations from improving
+### Why intergroup relations might not improve
+<!--Why relations might not improve.-->
 
 **Predicted mechanisms assume negative stereotypes, arising from lack of knowledge/experience, cause dislike**
 

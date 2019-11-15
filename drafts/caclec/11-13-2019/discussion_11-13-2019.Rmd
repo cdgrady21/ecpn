@@ -1,0 +1,97 @@
+---
+title: "discussion_11-13-2019"
+author: "Chris Grady"
+date: "11/13/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Luke
+
+- Conditions under which contact _would_ work needed.  
+- Contact theory may help reduce conflict because these groups do not normally interact with each other, but if they did interact then .  But groups are not interacting by choice, so external validity?  What recommendations based off findings.  Field experiment forces groups, who do not normally interact, to interact.  Contact procses does not naturally occur.
+    - what conditions do you need to get them to want to interact?
+    - is the point "does contact theory work the same way in conflict situations?" Or are there different situations needed for it to be successful.
+
+## Nuole
+
+- Why would contact work during conflict?  Why would it work in these environments?  Need to know why it would work.
+- Talk a little bit about diffusion.  Very cool, but need more about it in the intro.  What are the mechanisms through which it spreads?
+    - vicarious/imagined contact going well.  Learning based on watching others do well.
+    - social norms
+    - interpersonal communication.
+    - **nuole**: diffusion.  still an information update story.  such a small thing, to talk.
+- Is there some feedback between diffusion and contact being successful?  Feedback mechanism makes contact even more powerful?
+- If not about diffusion, under what conditions is contact successful?
+    - Farmers and pastoralists important: complementary groups?
+
+- when killing each other, how?  
+    - *machete*, guns, burning.  Not dropping a bomb from a plane.  Need to dehumanize to kill with your hands.  About the hard test: xonstantly engaging ina ctions where you don't view the other side as people.
+
+## Alice
+
+- hard to write a summary of the theory:
+    - setting up this difference between "animosity" and "actual conflict".  In all cases, two groups at odds with one another.  In some cases there is ongoing conflict.  ANimosity vs conflict?  Nonviolent vs violent?  Ending current conflict?  etc...
+    - overall: weird that all pairs of groups have a negative history, often violent in the past.  Interventions tested in nonviolent times preceded by violent times.  Weird to Alice: Conflict == all the information, nonconflict == no information.  Are these two different beasts?  Or is this really one theoretical explanation?  
+        - **information based on what**?
+    - situations where there is a lot of contact that is BAD, vs situations where there is not a lot of conflict.  After conflict settled, generations who have not interacted much.  All informtion they have come from a history of conflict or secondhand information; easy for a traditional contact intervention to provide it.  But current conflictual situation: lots of contact; Conflict == abundant negative interaction.
+    - not sure mechanism is conflict vs nonconflict condition.  Is this just toughest test of mechanisms?  Or is it a qualitatively different thing?  What to think about history of conflict?
+    - getting something good mechanism is not same as information mechanism.  Information mechanism == learning something true about those people.  Outcome does not affect the process of getting to know them.  Information: getting to know you vs learning what I can get by cooperating with you.
+- More on diffusion.  Talk a little more in the intro, and a LOT more in the theory.  Even the parts you cannot show empirically.  Even if "within the context of this data, cannot differentiate the two."
+- Nice intro, but not yet a clear map of the pieces of the theory.
+- Doesn't work because diff scope condition, or highest test, or two different things?
+
+- rather than: this is why it won't work; instead, this is why it's a hard test.
+
+- small groups also stands out as difference.  Small groups slaughtering each other.
+
+## Ekrem: 4 broad comments
+
+- no reason to think there is something qualitatively different about violence compared to general conflict of interest.  But this is not a problem at all: talk about violence as the most difficult case.  FOr us to even think about intergroup relations, those relations should be verybad in te first place.  Violence is just the most salient conflict of interests; bargaining failures are so _there_ and active.  VIolent conflict is the worst type of disagreemnt, but still in same class as others.  Most difficult and important case is where there is still violence.  Most trying of settings.  _Cast it this way_.  Don't say things you don't buy.
+    - more conflict == less natural contact == more stereotypes because no contact.  Prime example: everybody is thinking the other group is about killing, so show the other group doing not killing.  If it's gonna work, it's gonna work in the same way as the other group.
+- Contribution from previous IR talk: is it a positive-sum game?  Get something now as opposed to get it after fighting.  Clearly there is room for cooperation to improve things.
+
+- connection between diffusion and norms.  Okay to just have diffusion stuff, and then talk about norms.  Very different things.  Diffusion can lead to norms that are conducive to cooperation.  If doing that, helpful to add an anecdote that suggest learning/diffusion can turn into a norm.  Sprinkle around some anecdotal stories.  _Maybe norms estbalished by elites and chiefs/ardos paving the way._ Ask Israel about anecdotes.
+    - probably won't get reviewers who say "norms are an instution, need to be self-enforcing."  But econ people would.
+
+- Focus on differences in findings betwene me and others.  Accept that violence is a _degree_ difference, not a _type_ difference.  Most difficult case for the theory, but also: something special about violence itself.  Traumatic, triggering primal stuff, etc.  Use those things to justify why violence is the most difficult case, without arguing that different mechanisms for the theory applies.  In contributions can say: *ekrem moved on and stopped talking*
+    - focus on keyword: violence.  Instead of conflict.  ANd not "killing constantly", violence itself.  Not killing: spilling blood of their loved ones.  FOcus on that.  Personal experience of a bad thing very different than mere knowledge of a bad thing.
+
+- Last paragraph: sedentary and nomadic peoples. Can talk about this thing in two ways: sednetary and nomadic, or can highlight Fulani issues specifically.
+    - right now it is between the two.  Needs to either talk about sedentary vs nomadic or Fulani specific.  
+    - I want to make it about nomadic pastoralist vs farmer more.  Use Fulani as a major example.
+
+
+
+
+- chris: add to contributions: mechanisms through which contact can work.
+
+
+- violence + personal dehumanization.  
+
+- question: why is there no trade during war?  There is still trade with farmers/pastoralists.  local vs general equilibrium.
+    - they get along better _while_ fighting. 
+
+
+## Theoretical Mechanism
+
+- Talk about contribution that is not from contact theory: outcome of contact.  If our cooperation leads to good outcomes, we get along.  Otherwise, we do not.  Contact has to produce something.
+- Bake into intro and theory, or talk about in discussion?
+
+- Experiment not designed to distinguish between several things:
+    - only contact matters?
+    - only benefit matters?
+    - contact that leads to benefit.  
+    - _maybe do not setup people to expect this comparison between achieving a goal vs not_.
+
+- test with high fidelity to original.  These are the conditions under whic contact _should work_.  
+    - materail benefit as part of the intervention, not an alternative to the theoretical story.
+- any NGOs that just give stuff to people in conflict?
+
+- Main attraction: Contact in a very difficult setting.
+    - secondary: diffusion
+    - different mechanism of good outcomes
+    - farmers and not pastoralists
