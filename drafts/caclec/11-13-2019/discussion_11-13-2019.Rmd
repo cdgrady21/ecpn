@@ -93,5 +93,5 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Main attraction: Contact in a very difficult setting.
     - secondary: diffusion
-    - different mechanism of good outcomes
-    - farmers and not pastoralists
+    - secondary: different mechanism of "good outcomes" instead of information/affect.
+    - other paper: disaggregating the ATE: farmers improve their attitudes more than pastoralists.
