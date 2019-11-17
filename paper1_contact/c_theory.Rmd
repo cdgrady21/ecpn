@@ -63,7 +63,7 @@ be subtle or take more explicit forms. At the other end of the spectrum, conflic
 
 Contact summary.  Contact mainly tested in lab between minimally different groups. Contact said to work through: knowledge, anxiety, empathy, ingroup expansion.  Mechanisms through which contact works difficult when groups have a lot of animosity, history of conflict, etc.  List reasons why difficult.  Then list some reasons why it still would work: achieving common goal, shows that groups can benefit from cooperation.-->
 
-Cooperative intergroup contact has long been posited to improve intergroup relations.  Initially presented by Gordon @allport1954prejudice, the contact hypothesis assumes that negative stereotypes cause intergroup animosity.  Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create animosity when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between ingroup and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re-conceptualize the outgroup.
+Cooperative intergroup contact has long been posited as a means to improve intergroup relations.  Initially presented by Gordon @allport1954prejudice, the contact hypothesis assumes that negative stereotypes cause intergroup animosity.  Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create animosity when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between ingroup and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re-conceptualize the outgroup.
 
 Allport and subsequent authors specified four conditions under which contact will remove stereotypes and improve intergroup relations.  First, the contact must involve ongoing personal interaction between members of both groups.  Second, both groups must have equal status in the interaction.  Third, the interaction must involve cooperation towards a common goal.  And fourth, the intergroup interaction must have the support of institutions and authorities.
 
@@ -187,6 +187,8 @@ Similar to @kydd costly signal: assure other side that working together will be 
 Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side.
 
 @jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.
+
+These groups don't _really_ have misaligned incentives.  Can complement each other: farmers provide crop residue, pastoralists provide manure; farmers provide grains & vegetables, pastoralists provide milk and meat.
 
 
 - Contact as opportunity to show that intergroup cooperation is materially good for both groups.
