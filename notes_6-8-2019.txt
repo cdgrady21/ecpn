@@ -4,3 +4,16 @@
 (2) Check effects of farmer vs pastoralists.
 
 (3) Separte trust into (a) trust and (b) social distance.
+
+(4) Compare percentages of males/females in each comm.
+	- compare male/female attitudes
+
+(5) Do everything as factors...???? What did I mean by that?
+
+(6) Make over-time plots for markets/events data.  Like diff-in-diff plots.
+
+(70 Make diff-in-diff plots showing every community, with all TR in red and all CO in blue.
+
+***********
+
+(0) Separate panel analysis into files like aggregate analysis

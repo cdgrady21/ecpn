@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Results Outline
 
 - Individual-Level caveat: not randomly assigned or selected
-    - (1): they at baseline look like the random selection at baseline.  Looks like we randomly sampled from baseline respondents.
+    - (1): panel respondents at baseline _do not_ look like a random selection of baseline respondents.
     - (2): Participants and nonparticipants look similar to each other at baseline.  Participants were not randomly assigned, but look randomly assigned.
 
 - Main Outcomes:
