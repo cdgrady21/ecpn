@@ -16,6 +16,28 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<!--
+Thinking about trust needed to overcome commitment problem.  But what does each group need to trust?
+
+What each group must trust is that the other side will punish its own people if they break the agreement.  Before the between-group intergroup bargaining problem can be solved, pastoralists have to believe that farmers will keep each other in line and vice versa.  Otherwise bargaining is still sabotaged by a commitment problem.  
+
+If this is right, then a key take-away for contact theory people is that contact must to provide opportunities for each side to sanction their own group.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.  Group A needs to believe that Group B has solved the within-group collective action problem.
+
+What each group must trust is that the other side will punish its own people if they break the agreement.  Before the group-level intergroup bargaining problem can be solved, pastoralists have to believe that farmers will keep each other in line and vice versa.  Otherwise bargaining is still sabotaged by a commitment problem.  If this is right, then a key take-away for contact theory people is that contact must to provide opportunities for each side to sanction their own group.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.  Group A needs to believe that Group B has solved the within-group collective action problem.
+
+Consistent with Allport about information that shows other group is similar to my group: I might think my group will sanction me for defecting, but the other group will not.  Information (seeing the other group punish its own) shows me that the other group is like my group.
+
+
+Two levels of problem:
+
+Level 1: bargaining between farmers and pastoralists.  Level 2: collective action problem of individual farmers/pastoralists abiding by agreements despite individual-level incentives to defect.
+
+Look at the conflict from a “rationalist” and a “psychological” perspective and try to show how each perspective benefits from the intuitions and models of the other.  In that one I start by thinking about the conflict as a bargaining situation where commitments problems are the primary barrier to peace (a la Fearon or Powell) and perhaps the perceived lack of a bargaining range.  I then consider how psychological/social factors affect bargaining by (1) biasing perceptions of the other group’s behavior in a way that prevents each side from receiving costly signals or accurate beliefs about the other group and (2) adding to the utility of fighting and subtracting from the utility of cooperating.  Then I propose cooperative contact as a means to overcome those issues and try to describe how contact builds trust and reduces utility of fighting relative to cooperating.  It’s not a formal theory paper (I am not qualified to write a formal theory paper), but I try to use the ideas and models that come out of formal theory in a paper meant for a poli psych audience.
+
+The thing that’s been missing from the paper I just described is a discussion of and solution to the collective action problem within farmer and pastoralist groups.  As you said, both groups’ knowledge that a pareto-optimal solution exists does not guarantee the pareto-optimal solution is reached.  In this case, I think a key factor is that these groups are heterogeneous.  What each group must trust is that the other side will punish its own people if they break the agreement.  Before the group-level intergroup bargaining problem can be solved, pastoralists have to believe that farmers will keep each other in line and vice versa.  Otherwise bargaining is still sabotaged by a commitment problem.
+
+-->
+
 <!--Groups, in theory, should bargain to avoid violent conflict.  But we see many groups in conflict.  Why?  Psych phenomena cause information and commitment problems that prevent bargaining.  Psych phenomena change payoffs,  bias perceptions of outgroup.
 
 Groups fight because they don't like each other.
