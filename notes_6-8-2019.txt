@@ -12,8 +12,17 @@
 
 (6) Make over-time plots for markets/events data.  Like diff-in-diff plots.
 
-(70 Make diff-in-diff plots showing every community, with all TR in red and all CO in blue.
+(7) Make diff-in-diff plots showing every community, with all TR in red and all CO in blue.
 
 ***********
 
 (0) Separate panel analysis into files like aggregate analysis
+
+(0ther) send thank yous from the talk to:
+1- Kostas about the underlying mechanism of shared interest; information vs empathy. thinking about the Roma analogy. something beyond pure economic interest to bond over: shared religion, subsistence, 
+2- Rob about federal gov policy, yams vs rice vs other crops and opportunities for win-win coopeation; incentives for cheap talk; 
+3- Nick about context around the conflict, dwindling resources, environmental shocks.
+4- Avital about mechanisms and activating a latent shared/common interest
+5- Ben about rationalist and psych explanations
+6 - Aleks about identity of ingroup changing in TR condition.
+7 - Brian: graphs
