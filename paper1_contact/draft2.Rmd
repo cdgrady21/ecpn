@@ -1,0 +1,33 @@
+---
+title: "draft2"
+author: "Chris Grady"
+date: "11/21/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+- Switches order of paragraps.  
+    - Say contact works in all these contexts.  
+    - Then say mechanisms and my "common thread"/overarching understanding.  
+    - Then say we know little about contact in violent contexts & maybe violence prevents contact form working. 
+    - Then say reasons for optimism?
+
+## R Markdown
+
+Scholars and policymakers/practicioners consider cooperative intergroup contact -- contact in which members of two groups work together to achieve common goals -- to be one of the most effective tools for improving intergroup relations.  The hypothesis that cooperative contact improves intergroup relations, known as the contact hypothesis [@allport1954prejudice], motivates many policy interventions, from integrated public housing [@deutsch1951interracial] and college dorms [@marmaros2006friendships] to workplace and school desegregation [@cook1971race; @cook1985experimenting; @rao2019familiarity].  The contact hypothesis also increasingly motivates peacebuilding programs [@ditlmann2017addressing; @lemmer2015can].  Through these types of interventions, intergroup contact has improved relations between white people and black people in the U.S. and South Africa [@marmaros2006friendships; @burns2015interaction; @carrell2015impact], Christians and Muslims in Iraq and Nigeria [@mousa2018overcome; @scacco2018nigeria], Jews and Arabs in Israel/Palestine [@yablon2012we; @ditlmann2016can; @weiss2019curing], and Hindus and Muslims in India [@barnhardt2009near].
+
+Scholars theorize that contact improves relations mainly through providing information that dispels stereotypes, increasing empathy and perspective-taking, reducing anxiety about interacting with outgroup members, and making salient a superordinate identity that includes both groups [@pettigrew2008does; @dovidio2017reducing; @broockman2016durably; @gaertner2014reducing; @page2008little].  These mechanisms assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta p.766].  We posit that familiarity through cooperative contact allows groups to identify their latent shared interests.  Shared interests may remain latent when groups hold negative stereotypes about each other, feel anxiety when interacting, cannot see from the perspective of the other side, and do not identify any shared similarities or identities.  Cooperative contact should improve group relations when there exists a latent shared interest to make salient.
+
+Despite the success of contact to improve relations in many contexts, scholars know little about the effects of intergroup contact for groups engaged in a violent conflict.  Cooperative intergroup contact has only recently been tested in the field with groups who have a recent history of violence [@paluck2017contact; @lemmer2015can], and never with communities who are perpetrating violence against each other.  Historical and ongoing violence pose the most difficult tests for contact and could interefere with mechanisms through which contact improves relations.  By obscuring shared interests and highlighting and reinforcing group differences, violent conflict could dull, prevent, or even reverse the predicted positive effects of contact.  For these reasons, some scholars believe group reconciliation cannot begin until conlict is resolved [@bar2000intractable].
+
+Despite these reasons for caution, there are reasons to expect cooperative contact to improve intergroup relations even in contexts of ongoing violence.  Cooperative contact involves groups working together towards a common goal, which provides groups with the shared interest of achieving that goal.  Working on one shared interest reveals that the existence of shared interests are possible; also removes the psychological barriers to identifying shared interests -- stereotypes, feelings of threat, lack of empathy, and social categorization.  Benefit accrued to group, so group pressure to cooperate.  Fighting often leaves both groups worse off than peace.  Gives groups reason to be motivated to like each other [@klein1992motivated].
+
+
+
+
+Humans are goal-oriented, and cooperative contact provides opportunities for each group to see that working together helps them achieve their goals.  Conflict and a history of violence should not interfere with self- and group-interest.
+
+ Something that group animosity is preventing the groups from seeing.

@@ -108,6 +108,8 @@ Negative intergroup interactions worsen intergroup relations and
 
 Groups in conflict or with a history of conflict likely have strong, stable, negative attitudes.
 
+Moreover, contact can only meaningfully improve group relations -- as opposed to improving interpersonal relations between a few members of opposing groups -- if several conditions are met.  First, cooperative contact with some outgroup members must cause ingroup members to update their beliefs about the entire outgroup, not just the outgroup members with whom the ingroup members interacted.  Second, the newly positive attitudes of ingroup members who interacted with outgroup members must diffuse to other ingroup members.  And third, cooperative contact must impact both grups, even if there are existing power asymmetries.  Due to opposing group interests, negative experiences, existing grievances, and power differentials, groups involved in violent conflict may not meet these conditions.  
+
 
 
 
@@ -189,6 +191,10 @@ Also applies to indirect contact: have to hear about or observe contact going we
 @jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.
 
 These groups don't _really_ have misaligned incentives.  Can complement each other: farmers provide crop residue, pastoralists provide manure; farmers provide grains & vegetables, pastoralists provide milk and meat.
+
+_Cooperative contact reveals group-level benefit, so group members put pressure on other group members to cooperate._
+
+But the animosity between groups can be driven by opposing interests and negative experiences as much as inexperience.  When there is a latent shared interest to be activated/made salient, contact helps reveal that latent shared interest.  Violent past and present, group differences, group animosity, Something that group animosity is preventing the groups from seeing
 
 
 - Contact as opportunity to show that intergroup cooperation is materially good for both groups.
