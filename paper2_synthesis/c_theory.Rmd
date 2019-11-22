@@ -54,6 +54,10 @@ Things to fit in: History of conflict -- not imagined disputes. More about perce
 Loss aversion: a negotiated deal == give up something, gain something.  We weigh losses more than gains (ross and ward 1995 psych barriers)
 -->
 
+<!--
+Reiter_2003: "modern bargaining-model scholarship, discussed in greater detail below, this logic gets translated into the critical assumption that war itself-the actual fighting, aside from the political issues at stake-is always costly. Although this idea may seem truistic, some scholars (also discussed below) see **fighting itself as serving a function: as an expression of cultural or gen- dered tendencies to aggression, as an affirmation of identity, or as a means of quelling domestic dissent.**"-->
+
+
 # Theory
 
 ## Intergroup Conflict as a Bargaining Problem

@@ -27,18 +27,15 @@ Despite the success of contact to improve relations in many contexts, scholars k
 
 Even when attitudes change for the individuals involved in intergroup contact, contact can only meaningfully improve group relations if the effects of contact diffuse to group members who do not have direct contact with outgroup members.  Diffusion to other group members occurs in two ways.  First is the knowledge that other ingroup members had positive contact with outgroup members, either through word of mouth or through observing positive intergroup interactions [@wright1997extended].  The second is changing social norms about cross-group interaction [@paluck2009jsp; @christ2014contextual].  But historical and ongoing violence may also prevent the effects of contact from diffusing, even if contact improves attitudes for the individuals involved in contact.  Intergroup animosity may bias perceptions of cross-group interaction and social norms may stay staunchly opposed to intergroup cooperation.
 
-Despite these reasons for caution, there are reasons to expect cooperative contact to improve intergroup relations even in contexts of ongoing violence.  Cooperative contact involves groups working together towards a common goal, which provides groups with the shared interest of achieving that goal.  Working on one shared interest reveals that the existence of shared interests are possible; also removes the psychological barriers to identifying shared interests -- stereotypes, feelings of threat, lack of empathy, and social categorization.  Benefit accrued to group, so group pressure to cooperate.  Fighting often leaves both groups worse off than peace.  Gives groups reason to be motivated to like each other [@klein1992motivated].
+<!--
+- Provides example of working together for shared interest.  There exists shared interest: fighting often leaves groups worse off than peace.
+- Removes psych barriers to identifying a shared group interest: stereotypes, feelings of threat, lack of empathy, and social categorization, etc...
+    - Expected behaviors change attitudes [@van2019actions].  Expectation of working with group motivates individuals to see group more positively [@klein1992motivated].
+        - currently not saying anything about this.
+    - group pressure to cooperate once it is revelaed that cooperation is in the group's interest.
+cooperative contact provides opportunities for each group to see that working together helps them achieve their goals.-->
 
-
-
-
-Humans are goal-oriented, and cooperative contact provides opportunities for each group to see that working together helps them achieve their goals.  Conflict and a history of violence should not interfere with self- and group-interest.
-
- Something that group animosity is preventing the groups from seeing.
- 
-
-
-
+Despite these reasons for caution, there are reasons to expect cooperative contact to improve intergroup relations even in contexts of ongoing violence.  Contact should improve relations when there exists shared group interests.  Even in contexts of group violence, it is often in each group's shared interest to reach a peaceful compromise because fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation in that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
 
 To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->  In our sample, members of each community had been killed by members of the other community within the year before the project began.  Past and present violence, occupational and ethnic differences, and fighting over resources necessary for livelihoods all make this context a hard test for contact theory.  
 
