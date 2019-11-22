@@ -50,7 +50,7 @@ options(SweaveHooks=list(fig=function(){
 
 ## Discussion
 
-need more field experiments; this is only one.
+need more field experiments; this is only one.  Contact mainly tested in lab between minimally different groups.
 
 Contact and Allport's conditions: maybe not about the conditions, but about beliefs that cooperation/interaction with the outgroup will help individuals achieve their goals.  People are goal-oriented, with material, social/status, psychological/internalized moral, and evolutionary goals. People do things to achieve those goals.  People like things that help them achieve their goals.  If intergroup cooperation leads to positive outcomes, I will do more of it and I will like that group.
 

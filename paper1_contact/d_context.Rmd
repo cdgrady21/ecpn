@@ -28,6 +28,10 @@ Comes after theory.  Intervention Details moved to design.
 
 <!--
 particularly hard case _because_ the conflict is very violent and escalating.  Also, the groups have a power disadvantage, their ways of life are different, fighting for land resources, also differ in ethnicity and sometimes religion.  BUT things work because there is a latent shared interest/identity to be activated.
+
+Dehumanization of killing: 
+- Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].  Killing members of the other group causes further dehumanization.
+
 -->
 
 ## Context
