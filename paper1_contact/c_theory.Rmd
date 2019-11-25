@@ -113,7 +113,17 @@ Motivated reasoning should prevent attitude change for two reasons [@kunda1990mo
 
 ## Violent conflict as a hard test for cooperative contact
 
-Violent conflict between opposing groups poses a hard test for contact because groups may have no shared interests.  Even if opportunities for cooperation to help both groups achieve goals, the barriers to cooperation may prevent contact from working.
+<!--Key points
+- hard test for reasons
+    - status quo is violence; groups competing and fighting for resources & trends pushing them apart.
+    - engaging in actions that dehumanize the outgroup (killing)
+    - motivated reasoning & confirmation bias & social norms: each group motivated to think of other group badly (motivated reasoning, social pressure), negative events salient and confirming of existing beliefs so most likely to be remembered.  lots of direct experiences to draw from.
+-->
+
+Definition of intergroup conflict (Al Ramiah and Hewstone 2013): "Intergroup conflict involves competition for dominance between two or more groups over physical resources, values, and/or claims to status and power (Coser, 1967). Conflict can usefully be thought of as occurring along a continuum. At one end of the spectrum, conflict can manifest as prejudice, stereotyping, and discrimination and can
+be subtle or take more explicit forms. At the other end of the spectrum, conflict can become both overt and violent and take the form of “ethnic cleansing” and genocide (Fisher, 1994, p. 47).
+
+Violent conflict between opposing groups poses a hard test for contact.   because groups may have no shared interests.  Even if opportunities for cooperation to help both groups achieve goals, the barriers to cooperation may prevent contact from working.
 
 "Motivated reasoning should prevent attitude change for two reasons.  First, people are likely to attend to information and observations that echoes their current beliefs, and their interpretations of new information and observations may ignoring contradictory information or frame the information to bolster existing beliefs [@vallone1985hostileMedia].  Second, even if intolerant people understand and interpret a new observed behavior as pro-tolerance, they may reject that information and develop a counter-narrative.  For example, if shown a narrative where a member of a hated out-group interacts amicably with a member of their ingroup, the learner may counter that by thinking of a time when he/she encountered hostility with a member of the outgroup.  Finally, even if the intolerant learner accepts the message, the resulting psychological discomfort and cognitive dissonance may drive the learner _further_ from tolerance [@gubler2013humanizing]."  from prospectus.
 

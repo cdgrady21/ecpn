@@ -16,6 +16,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Key Points
+
+- focus on increased contact + security as behaviorally-relevant outcomes, unlikely for SDB; also trust.  Downplay outcomes that confuse the story.
 
 ## Results Outline
 

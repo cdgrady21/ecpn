@@ -16,6 +16,16 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Key Points
+
+- two designs: community-level and individual-level
+    - comm: level of randomization
+    - ind: self-selection, but same people over time
+- baseline/endline + control group
+    - control group captures secular trend over time; necessary for long-term analyses
+- endline PGG
+- between observations in markets and social events
+
 # Design Outline
 
 We evaluate the effects of Engaging Communities for Peace in Nigeria (ECPN) with a site-level randomized controlled trial.  We randomly selected the communities in ten of fifteen sites to receive the ECPN program.  We surveyed randomly-selected members of these communities before (September - December 2015) and after (January - April 2018) the intervention.  We also monitored community social events and each community's market to observe organic changes in intergroup contact over the course of the intervention.

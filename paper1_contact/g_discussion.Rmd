@@ -48,6 +48,19 @@ options(SweaveHooks=list(fig=function(){
 	)
 ```
 
+# Key points
+
+- Contact mainly tested in lab between minimally different groups. We tested with groups actiely fighting.  Toughest test because these groups have most reasons for animosity, trends/forces driving them apart and pushing them towards conflict.  Despite that, we see many positive effects.
+
+
+### Challengs == Opportunities
+
+- more field experiments; this is only one.
+- randomization at individual-level
+- groups equally benefitting from
+- vary the mechanisms as much as possible
+- systematically vary the benefit received from contact (contact itself or contact's success)
+
 ## Discussion
 
 need more field experiments; this is only one.  Contact mainly tested in lab between minimally different groups.

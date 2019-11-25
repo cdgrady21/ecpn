@@ -15,6 +15,21 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# Key points
+
+- lots of reasons contact might not be successful
+    - active & escalating conflict
+    - fighting over livelihood resources
+    - different ethnic groups and ways of life
+    - government favors one side
+- Some complementarity, formerly working together: 
+    - farmers have vegs/grains and need meat/milk.
+    - farmers need manure and pastoralists need cow feed
+
+- hard case because conflict is violent and escalating, groups do not have equal status from gov policy, fighting for dwindling livelihood resources (not something symbolic), different ways of life, ethnic groups, and often religious views.
+
+
 <!--
 Comes after theory.  Intervention Details moved to design.
 
