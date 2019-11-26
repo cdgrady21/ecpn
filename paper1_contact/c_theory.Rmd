@@ -95,13 +95,14 @@ These mechanisms support the reduction of stereotypes for individuals involved i
 
 We interpret the existing literature as suggesting that cooperative contact improves intergroup relations when it reveals that the groups have latent shared interests.  Shared interests are goals, values, and other commonalities between the groups.  These interests remain latent due to psychological barriers to identifying those shared interests: negative stereotypes, feelings of outgroup threat, a lack of empathy, and a lack of perceived similarities.  These barriers prevent groups from identifying their shared interests by providing motivation to maintain negative beliefs [@kunda1990motivatedReasoning] and biasing perceptions of the other side [@ward1997naive].  For example, opposing groups perceive the defensive actions of the other side as belligerent and gratuitous while their perceiving own belligerent actions as defensive and justified [@duncan1976differential; @vallone1985hostileMedia].  Even cooperative actions and compromises may be reactively devalued or perceived as cynical attempts to manipulate the ingroup [@ward1997naive; @ross1991barriers].  If each group believes the other group is untrustworthy, immoral, and threatening, both groups are unlikely to believe cooperation could be in their interest.
 
-Cooperative contact removes those psychological barriers to groups identifying their shared interests and makes shared interests salient.  Contact removes psychological barriers by providing experiences with outgroups that override stereotypes, reduce anxiety, present the other side's perspective, and demonstrate cross-group commonalities.  Without negative stereotypes and automatic emotional reactions, groups can identify shared interests if shared interests are present.  The ecpectation of working with outgroup members can even motivate individuals to see group more positively, rather than motivated individuals ot maintain negative perceptions [@klein1992motivated].  With those barriers removed, cooperative contact towards a common goal provides an obvious example of shared interest: a common goal that both groups work towards.  Cooperative contact provides a shared interest and removes the barriers to grops identifying shared interesets.
+Cooperative contact removes those psychological barriers to groups identifying their shared interests and makes shared interests salient.  Contact removes psychological barriers by providing experiences with outgroups that override stereotypes, reduce anxiety, present the other side's perspective, and demonstrate cross-group commonalities.  Without negative stereotypes and automatic emotional reactions, groups can identify shared interests if shared interests are present.  The mere expectation of working with outgroup members can even motivate individuals to see group more positively, rather than motivate individuals to maintain negative perceptions [@klein1992motivated].  With those barriers removed groups can identify shared interests, and cooperative contact provides an obvious example of shared interest: a common goal that both groups work towards.  Cooperative contact provides a shared interest and removes the barriers to grops identifying shared interests.
 
-Cooperative contact can also change the motivations of group members to hold positive or negative attitudes towards outgroups, even for group members who do not engage in contact.  Ingroup members vicariously learn from observing or learning about cross-group interaction, and that knowledge signals to group members that the other side is not as bad as previously believed.  Knowledge of cross-group contact also creates the expectation of cross-group contact, and the expectation of interacting with group members motivates individuals to see group more positively [@klein1992motivated; @van2019actions].  Group members are also motivated to follow social norms, and if cross-group cooperation benefits to the ingroup, ingroup members may exert social pressure on fellow ingroup members to cooperate.  This can take the form of ingroup policing [@fearon1996explaining; @ditlmann2017addressing].  
+Ingroup members also learn about the outgroup socially as well as personally.  Social learning about the outgroup improves attitudes for all group members, including group members who do not engage in contact.  First, from hearing or observing that fellow ingroup members interact with outgroup members, ingroup members learn about the outgroup and that cross-group interaction is safe and socially acceptable.  Second, cross-group cooperation can create social pressure to cooperate with the outgroup, especially if cooperation is deemed beneficial to the ingroup [@ditlmann2017addressing; @fearon1996explaining].  Third, awareness of cross-group cooperation creates the expectation of future interaction with outgroup members, and that expectation motivates individuals to see the outgroup more positively [@klein1992motivated; @van2019actions].  In these ways, cooperative contact improves attitudes indirectly, even for ingroup members with no cross-group contact.
 <!--cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
 
 - see/hear about more outgroup interaction.  Learn it's okay.
-    - expectations of contact for them == motivated to be okay with cross-group interaction.
+    - Group members think: if cross-group contact is good for those ingroup members, it could be good for me, too.
+- expectations of contact for them == motivated to be okay with cross-group interaction.
 - cooperation good for ingroup == social pressure/norms to cooperate.  Ingroup policing.
 -->
 
@@ -111,151 +112,65 @@ Cooperative contact should improve attitudes towards the outgroup when there exi
 <!--Extra stuff from bottom half of this section.
 Motivated reasoning should prevent attitude change for two reasons [@kunda1990motivatedReasoning].  First, people are likely to attend to information and observations that echoes their current beliefs, and their interpretations of new information and observations may ignoring contradictory information or frame the information to bolster existing beliefs [@vallone1985hostileMedia].  Second, even if intolerant people understand and interpret a new observed behavior as pro-tolerance, they may reject that information and develop a counter-narrative.  For example, if shown a narrative where a member of a hated out-group interacts amicably with a member of their ingroup, the learner may counter that by thinking of a time when he/she encountered hostility with a member of the outgroup.  Finally, even if the intolerant learner accepts the message, the resulting psychological discomfort and cognitive dissonance may drive the learner _further_ from tolerance [@gubler2013humanizing].-->
 
-## Violent conflict as a hard test for cooperative contact
+## Cooperative intergroup contact in the context of violent group conflict
 
 <!--Key points
-- hard test for reasons
-    - status quo is violence; groups competing and fighting for resources & trends pushing them apart.
-    - engaging in actions that dehumanize the outgroup (killing)
-    - motivated reasoning & confirmation bias & social norms: each group motivated to think of other group badly (motivated reasoning, social pressure), negative events salient and confirming of existing beliefs so most likely to be remembered.  lots of direct experiences to draw from.
--->
+- mechanisms blocked
+    - highlights opposing group interests, group competition; overcome trends pushing groups apart.
+    - negative stereotypes being reinforced
+    - justified threat/menace (from Allport)
+    - empathy == put self in others shoes == other would/wants to hurt you
+    - reinforces group differences (Fearon and Laitin 2000)
+    - no generalization when any cross-group contact viewed as atypical; limited opportunities for contact
+    - harder to overturn norms / lots of examples of bad cross-group interaction (like conflict over resources) to work against good exmples
+- Worst case for psychological barriers
+    - motivated reasoning
+        - more likely to perceive interactions as bad 
+        - more likely to notice and remember bad interactions. 
+        - Salience of negative events.
+        - need a lot of motivation to change attitudes [@devine2002regulation], but when individual's identity is related to ingroup superiority, she may not want to have better attitudes about the outgroup.
+    - cognitive dissonance: more likely to get snapback to more prejudiced
+    - perpetrating violence dehumanizes the victim
+- can make things worse
+- path forward: if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test.
 
-Definition of intergroup conflict (Al Ramiah and Hewstone 2013): "Intergroup conflict involves competition for dominance between two or more groups over physical resources, values, and/or claims to status and power (Coser, 1967). Conflict can usefully be thought of as occurring along a continuum. At one end of the spectrum, conflict can manifest as prejudice, stereotyping, and discrimination and can
-be subtle or take more explicit forms. At the other end of the spectrum, conflict can become both overt and violent and take the form of “ethnic cleansing” and genocide (Fisher, 1994, p. 47).
+***********
 
-Violent conflict between opposing groups poses a hard test for contact.   because groups may have no shared interests.  Even if opportunities for cooperation to help both groups achieve goals, the barriers to cooperation may prevent contact from working.
+<!--Section 1: - mechanisms blocked by conflict
+    - highlights opposing group interests, group competition; overcome trends pushing groups apart.
+    - negative stereotypes being reinforced
+    - justified threat/menace (from Allport)
+    - empathy == put self in others shoes == other would/wants to hurt you
+    - reinforces group differences (Fearon and Laitin 2000)
+    - no generalization when any cross-group contact viewed as atypical; limited opportunities for contact
+    - harder to overturn norms / lots of examples of bad cross-group interaction (like conflict over resources) to work against good exmples -->
 
-"Motivated reasoning should prevent attitude change for two reasons.  First, people are likely to attend to information and observations that echoes their current beliefs, and their interpretations of new information and observations may ignoring contradictory information or frame the information to bolster existing beliefs [@vallone1985hostileMedia].  Second, even if intolerant people understand and interpret a new observed behavior as pro-tolerance, they may reject that information and develop a counter-narrative.  For example, if shown a narrative where a member of a hated out-group interacts amicably with a member of their ingroup, the learner may counter that by thinking of a time when he/she encountered hostility with a member of the outgroup.  Finally, even if the intolerant learner accepts the message, the resulting psychological discomfort and cognitive dissonance may drive the learner _further_ from tolerance [@gubler2013humanizing]."  from prospectus.
+Violent group conflict poses a hard test for cooperative intergroup contact.  Cooperative contact works by allowing groups to see their shared interests, but group conflict entails group competition, which highlights groups' opposed interests.  In contexts of violence, learning about the other side may instead reveal misaligned interests.  Competition over values or for resources makes group distinctions salient [cite], and violent conflict is an extreme case of group competition [@al2013intergroup; cite].  Groups in conflict may not perceive any shared intersets, either because there truly are no shared interests or because psychological and social barriers prevent groups from identifying those interests.
+
+Contact is meant to work by reducing stereotypes, creating empathy, reducing threat, and revealing common identities.  Violence reinforces negative stereotypes about the outgroup.  In contexts of violence, learning about the other side may instead confirm that the other side is threatening, rather than dispel negative stereotypes and reduce anxiety.  Empathy/perspective-taking should not improve relations if the other side is expected to be belligerent [@kertzer2018empathy]
 
 Want it to work here.  Important for world.  Hard to test.
 
-violent conflict coincides with a decrease in contact due to danger and social pressure. Limited opportunities for groups to identify those shared interests.  Incidental contact doesn't work -- need the contact to include personal interaction, occur in situation of equal status, etc.
 
-Opposed interests are salient.  Willingness to engage in interaction may mark an outgroup member as atypical.
-
+Intergroup contact was not originally formulated as a way of improving intergroup relations when interests conflicting; it was originally formulated as a way to diminish prejudice, which @allport1954 differentiated from justified negative feelings towards an "actual menace" (p.8).  Subsequent scholars have noted that intergrop contact may not improve group relations if the groups have genuine conflicts of interests [@forbes1997ethnic; @hewstone1996contact].
 
 
-But: cooperation in each groups interest; fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation in that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
+**Typicality**
+Opposed interests are salient.  Willingness to engage in interaction may mark an outgroup member as atypical.  
 
-Cooperation is generally beneficial.  More can be accomplished with cooperation than working alone.
+Previous negative experience about group == individuals less likely to believe positive experiences with outgroup member are "typical" and so less likely to update about the outgroup; more likely to have good feelings only about the particular people with whom they interact.  even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).
 
-Important that outgroup status is salient; will be salient in conflict settings.
-
-***********************
-
-## How contact can improve relations even amid conflict
-
-Provide opportunities for interaction.  Structure interaction in a way that avoids misperceptions.  Show that working together is possible and advantageous.
-
-How would intergroup contact work amid conflict?  Key condition: cooperation towards a joint goal.  Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.  In a lab experiment, @grady2019contact suggests that cooperative contact only improves attitudes towards the outgroup if the cooperation achieve its objective.
-
-intergroup contact can show that working together is materially beneficial for both groups, associates intergroup cooperation with positive material outcomes.  By cooperating for joint benefit in the present groups can see how cooperative behavior in the future will benefit both groups.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting [@rohner2013war].
-
-Similar to @kydd costly signal: assure other side that working together will be good.
-
-Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side.
-
-@jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.
-
-These groups don't _really_ have misaligned incentives.  Can complement each other: farmers provide crop residue, pastoralists provide manure; farmers provide grains & vegetables, pastoralists provide milk and meat.
-
-_Cooperative contact reveals group-level benefit, so group members put pressure on other group members to cooperate._
-
-But the animosity between groups can be driven by opposing interests and negative experiences as much as inexperience.  When there is a latent shared interest to be activated/made salient, contact helps reveal that latent shared interest.  Violent past and present, group differences, group animosity, Something that group animosity is preventing the groups from seeing.   Contact should work when there is a latent shared interest to activate.  Mechanisms of contact show how shared interest exists.  
-
-Contact removes barriers to identifying shared itnersts.  Hard to believe there is a shared interest while holding negative stereotypes about the other group, such as their lack of trustworthiness and their ingroup favoritism.  Hard to see a shared interest when interacting with the other group causes anxiety due to feelings of threat.  Hard to see a shared interest when you do not identify any shared identities.  Contact removes these barriers.
+First, ingroup members who cooperate with outgroup members may not perceive those outgroup members as typical of the outgroup due to previous negative experiences with outgroup members; consequently, ingroup members may not use interactions with those outgroup members to update their attitudes about the outgroup as a whole.
 
 
-- Contact as opportunity to show that intergroup cooperation is materially good for both groups.
-    - Related: contact to foster trade? [@rohner2013war] (Jha and Shayo 2019 - Valuing Peace).
-
-- Contact as opportunity to send costly signal of type: trustworthy, fair, hard-working.
-
-- Contact to create norm of ingroup policing.
-
-- Contact increases likelihood of peace through negotiation:
-    - opportunity to find bargaining range
-    - opportunity ot build trust that both groups will abide by deal, sanction ingroup members who defect.
-
-Chris: Remind self not to bring up things I provide no evidence for.
-
-<!--
-Contact and Allport's conditions: maybe not about the conditions, but about beliefs that cooperation/interaction with the outgroup will help individuals achieve their goals.  People are goal-oriented, with material, social/status, psychological/internalized moral, and evolutionary goals. People do things to achieve those goals.  People like things that help them achieve their goals.  If intergroup cooperation leads to positive outcomes, I will do more of it and I will like that group.
-
-Interacting with some other group with equal status == likely that my opinions/desires taken into account, whereas unequal status == my opinions/desires are subordinated.  Institutional support == likely that social norms are on my side.  No institutional support == very possible that social norms are not on my side.  Common goals == group working on something that is good for me and good for them; can trust them to work on it, too.
-
-Conflict as a collective action problem: both groups better off cooperating but have incentives to defect.  How do we usually solve collective action problems?
--->
-
-
-
-
-
-***********************
-
-<!--this all supposes groups have overlapping preferences, don't want to hurt each other, are really nice people, etc.  None of that applies to most groups in conflict.  Ekrem: "Rational agents have 100% empathy, but they still fight." (rational agents know what the other guy will do == empathy as it is defined). -->
-
-<!--To understand why cooperative contact might not work for groups in conflict, we must specify the mechanisms through which contact works and then specify why contextual factors/conditions somehow block/prevent that mechanism.-->
-
-The mechanisms through which contact improves an individual's negative outgroup attitudes assume that the negative attitudes are caused by a lack of experience with the other side.  The information mechanism says that contact allows for personal experiences that override the stereotypes that arise when individuals have little experience with outgroup members.  The anxiety-reduction mechanism says that contact reduces the anxiety that individuals naturally feel towards the unknown.  The perspective-taking mechanism says that contact allows individuals to understand the feelings of the other side, which they could not do due to lack of experience with the other side.  And the ingroup categorization mechanism says that contact can reveal or make salient similarities and shared interests that were not apparent before contact.   
-
-While a lack of experience may contribute to negative outgroup attitudes, grievances, competition, and conflicting interests also likely contribute to negative outgroup attitudes, especially for groups in violent conflicts.  In the case where animosity is caused by conflicting interests, learning about the other side may instead reveal misaligned interests, confirm that the other side is threatening, rather than dispel negative stereotypes and reduce anxiety.  Empathy/perspective-taking should not improve relations if the other side is expected to be belligerent [@kertzer2018empathy], and few shared interests make group recategorization unlikely.  Intergroup contact was not originally formulated as a way of improving intergroup relations when interests conflicting; it was originally formulated as a way to diminish prejudice, which @allport1954 differentiated from justified negative feelings towards an "actual menace" (p.8).  Subsequent scholars have noted that intergrop contact may not improve group relations if the groups have genuine conflicts of interests [@forbes1997ethnic; @hewstone1996contact].
-<!--
-But information from personal experience with the other side will not decrease animosity when it is probably true that some members of the other side want to cause physical harm to your side.
-
-Superordinate identities unlikely for groups in violent conflict, who will have few shared identities and whose material interests are opposed.-->
-
-Not all intergroup contact decreases animosity. Negative intergroup interactions lead to more negative attitudes towards outgroup members [@paolini2010negative; @enos2014causal; @condra2019casual], and are most likely to occur for individuals with the most negative outgroup attitudes [@gubler2011diss; @plant2001responses].  Groups in conflict more likely than others to have negative contact experiences.  incidental contact can make things worse (the @enos2014causal cite and the @forbes1997ethnic cite; vanhanen 1999
-
-Even well-structured positive interactions can increase negative attitudes by causing cognitive dissonance in prejudiced individuals, which causes them to cling more strongly to their prejudicial beliefs (Gubler 2011).  Groups in conflict more likely than others to have strong, stable, negative opinions towards the outgroup.
-
-Negative intergroup interactions worsen intergroup relations and 
-
-Groups in conflict or with a history of conflict likely have strong, stable, negative attitudes.
-
-Moreover, contact can only meaningfully improve group relations -- as opposed to improving interpersonal relations between a few members of opposing groups -- if several conditions are met.  First, cooperative contact with some outgroup members must cause ingroup members to update their beliefs about the entire outgroup, not just the outgroup members with whom the ingroup members interacted.  Second, the newly positive attitudes of ingroup members who interacted with outgroup members must diffuse to other ingroup members.  And third, cooperative contact must impact both grups, even if there are existing power asymmetries.  Due to opposing group interests, negative experiences, existing grievances, and power differentials, groups involved in violent conflict may not meet these conditions.  
-
-
-
-
-Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].  Killing members of the other group causes further dehumanization.
-
-<!--
-    - Contact supposed to work through information/dispel stereotypes and update to entire group.  But it is true that some members of the other side want to and have caused physical harm to members of your group.
-    - Or empathy, which seems to apply to disadvantaged groups [@brockman] but not groups in conflict.
-    - ingroup expansion, which is unlikely for real groups living apart in separate communities.
-    - reduced anxiety/threat felt, which is also apply to groups in conflict.  There still exist members of that group who are threatening.
-
-    - Personal history/experience with violence
-    - Continuing violence == continuing grievances to blame on other side
--->
-
-
-**Conditions under which contact works are not present**
-
-Conditions under which contact is positive might not be possible.  Equal status in interactions -- if groups have unequal status in life, how can any interactions be with equal status?  Institutional support maybe for interactions in the contact setting, where interaction is to achieve a goal that both sides have.  But will that institutional support extend to contact in other settings?  And if institutions/authorities have animosity, will norms of tolerance emerge?  
-
-Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic] habyarimana et al 2007; vanhanen 1999.]  This concern is heightened for groups in conflict whose incidental interactions are likely antagonistic. **[chris: maybe don't need this here.  Could go in next section]**
-
-
-**Conditions under which positive attitudes generalize and diffuse are not present**
-
-Conditions must be met for intergroup contact to improve intergroup relations and reduce violent conflict.  First, ingroup members must generalize their contact with a few outgroup members to the entire outgroup.  Second, the positive effects of contact must diffuse throughout the ingroup.  Third, attitudes of both groups must improve.  Even if contact effectively changes the attitudes of individual group members, contact cannot have meaningful effects on reducing violent conflict unless these conditions are met.
-
-These conditions may not be met by groups engaged in violent conflict.  First, ingroup members who cooperate with outgroup members may not perceive those outgroup members as typical of the outgroup due to previous negative experiences with outgroup members; consequently, ingroup members may not use interactions with those outgroup members to update their attitudes about the outgroup as a whole.  Second, even if contact changes the attitudes of ingroup members who experience contact, norms that affect other ingroup members may not develop.  Liking other group hard to link to a positive ingroup trait, like morality.  Third, cooperative contact may only improve relations of the more powerful group towards the less powerful group; the less powerful group may perceive themselves as victims of the other group's injustice.
+**Group status**
+cooperative contact may only improve relations of the more powerful group towards the less powerful group; the less powerful group may perceive themselves as victims of the other group's injustice.
 
 @ditlmann2016can contact-based intervention did not affect the disadvantaged, minority group.
 
-<!--
-Typicality
-Group Status
 
-Al Ramiah and Hewstone 2013: "For example, when groups have a history of intergroup tension and animosity, group salience and perceived typicality of outgroup members may lead to more prejudice against individual outgroup members and their group as a whole."
--->
-
-<!--Many studies suggest intergroup contact only improves the attitudes of the majority/dominant group.  Jews, not Arabs.  White people, not black people.  Minority group has lots of experience with majority group?  Culture does not assign negative traits to majority group because "culture" is dictated by majority?-->
-
-**Contact does not change cause of conflict**
+**Real Problems**
+this all supposes groups have overlapping preferences, don't want to hurt each other, are really nice people, etc.  None of that applies to most groups in conflict.  Ekrem: "Rational agents have 100% empathy, but they still fight." (rational agents know what the other guy will do == empathy as it is defined).
 
 Real world violence caused by real world problems.  These groups have misaligned incentives.  Literatures in psych, IR, and econ that predict no change after intergroup contact because groups incentives still fundamentally misaligned.  Pastoralists want to graze, farmers do not want them to graze.  Contact not change the fundamental causes of conflict; things that cause conflict also cause negative intergroup attitudes.  Could get peace through negotiation, but no bargaining range.  Could get peace through negotiation, but cannot trust all group members to abide by deal.
 
@@ -263,29 +178,91 @@ Group animosity often arises due to the competition for resources that both grou
 
 This concern is heightened for groups in active conflict.  Their negative intergroup attitudes come from real conflict, not the type of prejudice that Allport and others theorized about.  Through contact, you might learn that the other group _does_ favor itself. Learning about the other side is not going to improve relations if incentives are completely misaligned and the other side _does_ want to harm you [@kertzer2018empathy].  Additionally, in contexts of ongoing conflict, there may be few norms against prejudice, and possibly group norms that support this particular intergroup prejudice.  If intergroup contact works by activating "norms against prejudice", contact is unlikely to have an effect for groups in conflict.
 
-**Summary**
+**Limited opps for non-intervention contact**
 
-The contact hypothesis was devised to explain racial animus in the United States.  It's mechanisms address problems that arise due to lack of experience: replacement of incorrect stereotypes, reduced anxiety due to uncertainty, ability to see things from outgroup's perspective, and seeing a shared identity with the outgroup.  The contact hypothesis is almost always tested on groups who are spatially segregated and have limited opportunities for interaction -- white people and black people, Muslims and Christians, Jews and Arabs^[chris: do Jews and Arabs fit into this?].  These mechanisms may not function for groups with a recent history of negative and violent interaction.  How would contact improve attitudes when negative attitudes are based on negative experience, rather than inexperience?
+From Scacco: 
+- Members of groups in conflict often live under de
+jure or de facto residential and social segregation. By
+limiting intergroup contact, segregation can intensify
+existing prejudices (Enos and Gidron 2016; Kunovich
+and Hodson 2002), limit cross-group trust (Kasara
+2013), undermine cross-group cooperation (Alexander
+and Christia 2011), increase political participation due
+to fear of the out-group (Enos 2016), and contribute
+to information failures that perpetuate cycles of conflict
+(Acemoglu and Wolitzky 2014).
 
-<!--
-Typicality: when interacting with the outgroup makes one atypical, how to generalize?  "Typicality" == outgroup member perceived to be typical of group.  Previous negative experience about group == individuals less likely to believe positive experiences with outgroup member are "typical" and so less likely to update about the outgroup; more likely to have good feelings only about the particular people with whom they interact.  even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).  
--->
-<!--
-- Reason not to update about whole group, just particular people
 
--->
+<!--Section 2: Worst case for psychological barriers
+    - motivated reasoning
+        - more likely to perceive interactions as bad 
+        - more likely to notice and remember bad interactions. 
+        - Salience of negative events.
+        - need a lot of motivation to change attitudes [@devine2002regulation], but when individual's identity is related to ingroup superiority, she may not want to have better attitudes about the outgroup.
+    - cognitive dissonance: more likely to get snapback to more prejudiced
+    - perpetrating violence dehumanizes the victim-->
 
-<!--
-even when positive interactions improve attitudes for the individuals who are interacting, the improved attitudes may not be generalized to the outgroup (Doosje et al 1995).
+Start here.
 
-Some evidence that contact only effects the majority/dominant group.  Because the minority/non-dominant group already has a lot of interaction with dominant?  Because minority actually has things to fear?  Regardless, cooperative contact will not meaningfully reduce violent conflict unless it improves attitudes for both sides of the conflict.
--->
+"Motivated reasoning should prevent attitude change for two reasons.  First, people are likely to attend to information and observations that echoes their current beliefs, and their interpretations of new information and observations may ignoring contradictory information or frame the information to bolster existing beliefs [@vallone1985hostileMedia].  Second, even if intolerant people understand and interpret a new observed behavior as pro-tolerance, they may reject that information and develop a counter-narrative.  For example, if shown a narrative where a member of a hated out-group interacts amicably with a member of their ingroup, the learner may counter that by thinking of a time when he/she encountered hostility with a member of the outgroup.  Finally, even if the intolerant learner accepts the message, the resulting psychological discomfort and cognitive dissonance may drive the learner _further_ from tolerance [@gubler2013humanizing]."  from prospectus.
+
+
+Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].  Killing members of the other group causes further dehumanization.
+
+<!--Section 3: Risk of negative contact making things worse-->
+
+violent conflict coincides with a decrease in contact due to danger and social pressure. Limited opportunities for groups to identify those shared interests.  Incidental contact doesn't work -- need the contact to include personal interaction, occur in situation of equal status, etc.
+
+Not all intergroup contact decreases animosity. Negative intergroup interactions lead to more negative attitudes towards outgroup members [@paolini2010negative; @enos2014causal; @condra2019casual], and are most likely to occur for individuals with the most negative outgroup attitudes [@gubler2011diss; @plant2001responses].  Groups in conflict more likely than others to have negative contact experiences.  incidental contact can make things worse (the @enos2014causal cite and the @forbes1997ethnic cite; vanhanen 1999
+
+Even well-structured positive interactions can increase negative attitudes by causing cognitive dissonance in prejudiced individuals, which causes them to cling more strongly to their prejudicial beliefs (Gubler 2011).  Groups in conflict more likely than others to have strong, stable, negative opinions towards the outgroup.
+
+Negative intergroup interactions worsen intergroup relations.  Groups in conflict or with a history of conflict likely have strong, stable, negative attitudes.
+
+
+Conditions under which contact is positive might not be possible.  Equal status in interactions -- if groups have unequal status in life, how can any interactions be with equal status?  Institutional support maybe for interactions in the contact setting, where interaction is to achieve a goal that both sides have.  But will that institutional support extend to contact in other settings?  And if institutions/authorities have animosity, will norms of tolerance emerge?  
+
+Contact under other conditions -- such as incidental contact, intergroup competition, interactions in which one group has power over the other, elite disapproval of intergroup contact -- is unlikely to improve intergroup relations [@enos2014causal; @forbes1997ethnic] habyarimana et al 2007; vanhanen 1999.]  This concern is heightened for groups in conflict whose incidental interactions are likely antagonistic. **[chris: maybe don't need this here.  Could go in next section]**
+
+
+From Scacco: 
+- Observational evidence from
+Jerusalem suggests that when tensions are high, increased
+intergroup interactions can actually increase
+the probability of violence (Bhavnani et al. 2014).
+
+<!--Section 4: Way forward/why it could still work.
+    - if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test. -->
+
+But: cooperation in each groups interest; fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation in that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
+
+Cooperation is generally beneficial.  More can be accomplished with cooperation than working alone.  Cooperation towards a joint goal.  Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.
+
+Cooperative contact reveals group-level benefit, so group members put pressure on other group members to cooperate.
+
+Important that outgroup status is salient; will be salient in conflict settings.
+
+Provide opportunities for interaction and example of cooperation to benefit both groups.  Structure interaction in a way that avoids misperceptions.  Show that working together is possible and advantageous.
+
+**************
+
+
+
 
 
 
 ## Summary
 
 [If needed, summary of argument.]
+
+The contact hypothesis was devised to explain racial animus in the United States.  It's mechanisms address problems that arise due to lack of experience: replacement of incorrect stereotypes, reduced anxiety due to uncertainty, ability to see things from outgroup's perspective, and seeing a shared identity with the outgroup.  The contact hypothesis is almost always tested on groups who are spatially segregated and have limited opportunities for interaction -- white people and black people, Muslims and Christians, Jews and Arabs^[chris: do Jews and Arabs fit into this?].  These mechanisms may not function for groups with a recent history of negative and violent interaction.  How would contact improve attitudes when negative attitudes are based on negative experience, rather than inexperience?
+
+
+The animosity between groups can be driven by opposing interests and negative experiences as much as inexperience.  When there is a latent shared interest to be activated/made salient, contact helps reveal that latent shared interest.  Violent past and present, group differences, group animosity, Something that group animosity is preventing the groups from seeing.   Contact should work when there is a latent shared interest to activate.  Mechanisms of contact show how shared interest exists.  
+
+Contact removes barriers to identifying shared itnersts.  Hard to believe there is a shared interest while holding negative stereotypes about the other group, such as their lack of trustworthiness and their ingroup favoritism.  Hard to see a shared interest when interacting with the other group causes anxiety due to feelings of threat.  Hard to see a shared interest when you do not identify any shared identities.  Contact removes these barriers.
+
+
 
 ## Hypotheses
 
@@ -295,22 +272,18 @@ Hyp 1: Contact good.
 
 Hyp 2: Contact bad/neutral.
 
-<!--
-
-***********
-
-Left out "in the literature" mechanisms through which contact can affect intergroup attitudes.
-    - Social norms and extrinsic motivation [@yablon2012we]
-    - ingroup policing [@moussa2018overcome; @ditlmann2016can; @fearon1996explaining]
-    - mutual interest [@moussa2018overcome.  also realistic group conflict?]
-
-Can encourage ingroup policing [@ditlmann2017addressing; @Fearon1996].  Ingroup policing works because we cannot do things if our community dislikes those things.  Decrease negative affect allows leaders to credibly commit entire group to peace.  Encourage ingroup policing.
-
-**Changing attitudes about outgroups**: Wood's 2000 review of persuasion gave two additional functions of attitudes that apply to intergroup attitudes: self-concept and social adjustment [@wood2000attitude].  Self-concept refers to an individual's identity.  If an individual's identity is strongly related to ingroup superiority, she may not want to have better attitudes about the outgroup.  Social adjustment refers to an individual's desire to obtain social rewards.  If an individual's group opposes the outgroup and sanctions those who do not oppose the outgroup, she also has a strong reason to maintain negative outgroup attitudes.
--->
-
 
 
 
 # References
 
+
+<!--
+Why mechs are about lack of experience.
+- The mechanisms through which contact improves an individual's negative outgroup attitudes assume that the negative attitudes are caused by a lack of experience with the other side.  The information mechanism says that contact allows for personal experiences that override the stereotypes that arise when individuals have little experience with outgroup members.  The anxiety-reduction mechanism says that contact reduces the anxiety that individuals naturally feel towards the unknown.  The perspective-taking mechanism says that contact allows individuals to understand the feelings of the other side, which they could not do due to lack of experience with the other side.  And the ingroup categorization mechanism says that contact can reveal or make salient similarities and shared interests that were not apparent before contact.   
+
+
+Definition of intergroup conflict (Al Ramiah and Hewstone 2013): "Intergroup conflict involves competition for dominance between two or more groups over physical resources, values, and/or claims to status and power (Coser, 1967). Conflict can usefully be thought of as occurring along a continuum. At one end of the spectrum, conflict can manifest as prejudice, stereotyping, and discrimination and can
+be subtle or take more explicit forms. At the other end of the spectrum, conflict can become both overt and violent and take the form of “ethnic cleansing” and genocide (Fisher, 1994, p. 47).
+
+-->

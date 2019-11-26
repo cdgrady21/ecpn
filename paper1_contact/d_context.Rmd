@@ -18,12 +18,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Key points
 
-- lots of reasons contact might not be successful
+- lots of reasons contact might not be successful; trends pushing groups apart.
     - active & escalating conflict
     - fighting over livelihood resources
     - different ethnic groups and ways of life
     - government favors one side
-- Some complementarity, formerly working together: 
+- Not completely misaligned itnerests.  Some complementarity, formerly working together: 
     - farmers have vegs/grains and need meat/milk.
     - farmers need manure and pastoralists need cow feed
 

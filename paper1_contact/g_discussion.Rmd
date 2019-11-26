@@ -51,15 +51,23 @@ options(SweaveHooks=list(fig=function(){
 # Key points
 
 - Contact mainly tested in lab between minimally different groups. We tested with groups actiely fighting.  Toughest test because these groups have most reasons for animosity, trends/forces driving them apart and pushing them towards conflict.  Despite that, we see many positive effects.
+- Importance of cooperation == group benefit?
+    - Humans are goal-driven.  In a lab experiment, @grady2019contact suggests that cooperative contact only improves attitudes towards the outgroup if the cooperation achieve its objective.
+    - Similar to @kydd costly signal: assure other side that working together will be good. Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side. @jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting [@rohner2013war].
 
 
 ### Challengs == Opportunities
 
 - more field experiments; this is only one.
 - randomization at individual-level
-- groups equally benefitting from
+- groups equally benefitting from intervention
 - vary the mechanisms as much as possible
 - systematically vary the benefit received from contact (contact itself or contact's success)
+
+### Other future
+
+- why group status affects impact?  Minority group has lots of experience with majority group?  Culture does not assign negative traits to majority group because "culture" is dictated by majority?
+
 
 ## Discussion
 
