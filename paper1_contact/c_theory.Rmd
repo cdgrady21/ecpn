@@ -193,11 +193,13 @@ the probability of violence (Bhavnani et al. 2014).
 <!--Section 4: Way forward/why it could still work.
     - if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test. -->
 
-But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Even amid conflict, cooperation in each groups interest because fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
+But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Regardless of other differences, conflicting groups share an interest in obtaining peace.  Fighting is costly and each group is better off cooperating than fighting [@fearon1995rationalist].  Intergroup contact can help groups identify this shared interest, which may not be clear due to misinformation and misperceptions [cite: fearon, others].  Contact to achieve a common goal also provides groups with an example a shared interest that can be reached through cooperation, and that experience can make groups open to future cooperation.  
 
-- Cooperation is generally beneficial.  More can be accomplished with cooperation than working alone.  Cooperation towards a joint goal.  Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.
-- Important that outgroup status is salient; will be salient in conflict settings.
-- Provide opportunities for interaction and example of cooperation to benefit both groups.  Structure interaction in a way that avoids misperceptions.  Show that working together is possible and advantageous.
+Give motivations to cooperate and not conflict [@klein1992motivated; @van2019actions].  Reveal group heterogeneity and realize aggressive/belligerent set is minority [chris: cite].  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.
+
+Lastly, cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms like ingroup policing of aggressive/beligerent actions [@ditlmann2017addressing; @fearon1996explaining].
+
+Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.
 
 <!--[one paragraph summary of argument.]-->
 
@@ -249,4 +251,7 @@ this all supposes groups have overlapping preferences, don't want to hurt each o
 Group animosity often arises due to the competition for resources that both groups claim or desire [@sherif1958superordinate].  If competition for resources itself causes poor intergroup relations/negative intergroup attitudes, then competition for resources will cause conflict and intergroup contact will have no effect because it doesn't change underlying resource competition.  With or without structured intergroup contact, the groups are still engaged in competition for resources, which breeds conflict [@campbell1965ethno; @Sherif1988robbersCave].
 
 
+
+**Why contact will still work**
+- Important that outgroup status is salient; will be salient in conflict settings.
 -->
