@@ -29,6 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - hard case because conflict is violent and escalating, groups do not have equal status from gov policy, fighting for dwindling livelihood resources (not something symbolic), different ways of life, ethnic groups, and often religious views.
 
+These groups have misaligned incentives.  Pastoralists want to graze, farmers do not want them to graze.  Contact not change the fundamental causes of conflict; things that cause conflict also cause negative intergroup attitudes.
 
 <!--
 Comes after theory.  Intervention Details moved to design.
