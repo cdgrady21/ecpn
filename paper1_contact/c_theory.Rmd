@@ -193,27 +193,13 @@ the probability of violence (Bhavnani et al. 2014).
 <!--Section 4: Way forward/why it could still work.
     - if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test. -->
 
-But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Regardless of other differences, conflicting groups share an interest in obtaining peace.  Fighting is costly and each group is better off cooperating than fighting [@fearon1995rationalist].  Intergroup contact can help groups identify this shared interest, which may not be clear due to misinformation and misperceptions [cite: fearon, others].  Contact to achieve a common goal also provides groups with an example a shared interest that can be reached through cooperation, and that experience can make groups open to future cooperation.  
-
-Give motivations to cooperate and not conflict [@klein1992motivated; @van2019actions].  Reveal group heterogeneity and realize aggressive/belligerent set is minority [chris: cite].  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.
-
-Lastly, cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms like ingroup policing of aggressive/beligerent actions [@ditlmann2017addressing; @fearon1996explaining].
-
-Contact provides opportunities for each group to see that working together helps each group achieve their goals.  Humans are goal-driven.
+But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Regardless of other differences, conflicting groups share an interest in obtaining peace.  Fighting is costly and each group is better off cooperating than fighting [@fearon1995rationalist].  Intergroup contact can help groups identify this shared interest, which may not be clear due to misinformation and misperceptions [@fearon1995rationalist; @ward1997naive].  Cooperative contact can remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat, by diminishing the perception that all outgroup members are the same [@quattrone1980perception].  Contact to achieve a common goal also provides groups with an example of a shared interest that can be reached through cooperation, and that experience can make groups open to future cooperation.  Cross-group cooperation that achievs a goal in the group's interest can generate group pressure to cooperate and social norms like ingroup policing of actions that harm the outgroup [@ditlmann2017addressing; @fearon1996explaining].
 
 <!--[one paragraph summary of argument.]-->
 
-The contact hypothesis has never been tested with groups who are in a violent conflict.  Hard to test.  Want it to work here.  Important for world.
+The contact hypothesis has never been tested with groups who are in a violent conflict, and violent conflict poses a hard to test for the effects of group contact.  Literatures in psychology [@sherif1958superordinate] and international relations [@powell2002bargaining] would that predict no change after intergroup contact because groups' incentives are still fundamentally misaligned and because contact does not reveal information relevant to group bargaining.   @allport1954 himself differentiated prejudice, which contact should diminish, from justified negative feelings towards an "actual menace" (p.8).  Subsequent scholars have noted that intergrop contact may not improve group relations if the groups have genuine conflicts of interests [@forbes1997ethnic; @hewstone1996contact], and violent conflict is a serious conflict of interests.  But contact can still work by revealing latent shared interests and removing barriers to identifying those interests.
 
-Literatures in psychology [@sherif1958superordinate] and international relations [@powell2002bargaining] would that predict no change after intergroup contact because groups' incentives are still fundamentally misaligned and because contact does not reveal information relevant to group bargaining.   @allport1954 himself differentiated prejudice, which contact should diminish, from justified negative feelings towards an "actual menace" (p.8).  Subsequent scholars have noted that intergrop contact may not improve group relations if the groups have genuine conflicts of interests [@forbes1997ethnic; @hewstone1996contact], and violent conflict is a serious conflict of interests.  But contact can still work by revealing latent shared interests.
-
-
-When there is a latent shared interest to be activated/made salient, contact helps reveal that latent shared interest.  Violent past and present, group differences, group animosity, is preventing the groups from seeing latent shared interest.   Contact should work when there is a latent shared interest to activate.  Mechanisms of contact show how shared interest exists.  
-
-Contact removes barriers to identifying shared itnersts.  Hard to believe there is a shared interest while holding negative stereotypes about the other group, such as their lack of trustworthiness and their ingroup favoritism.  Hard to see a shared interest when interacting with the other group causes anxiety due to feelings of threat.  Hard to see a shared interest when you do not identify any shared identities.  Contact removes these barriers.
-
-
-
+<!-- chris: doesn't read well to have the hypotheses right here.
 ## Hypotheses
 
 Separate families of Competing hypotheses.
@@ -221,7 +207,7 @@ Separate families of Competing hypotheses.
 Hyp 1: Contact good.
 
 Hyp 2: Contact bad/neutral.
-
+-->
 
 
 
@@ -254,4 +240,5 @@ Group animosity often arises due to the competition for resources that both grou
 
 **Why contact will still work**
 - Important that outgroup status is salient; will be salient in conflict settings.
+- Humans are goal-driven. Contact provides opportunities for each group to see that working together helps each group achieve their goals.
 -->

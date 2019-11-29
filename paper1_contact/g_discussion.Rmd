@@ -54,6 +54,7 @@ options(SweaveHooks=list(fig=function(){
 - Importance of cooperation == group benefit?
     - Humans are goal-driven.  In a lab experiment, @grady2019contact suggests that cooperative contact only improves attitudes towards the outgroup if the cooperation achieve its objective.
     - Similar to @kydd costly signal: assure other side that working together will be good. Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side. @jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting [@rohner2013war].
+    - Reveal latent shared interests by removing barriers to identifying those interests.  Hard to believe there is a shared interest while holding negative stereotypes about the other group, such as their lack of trustworthiness and their ingroup favoritism.  Hard to see a shared interest when interacting with the other group causes anxiety due to feelings of threat.  Hard to see a shared interest when you do not identify any shared identities.  Contact removes these barriers.
 
 
 ### Challengs == Opportunities

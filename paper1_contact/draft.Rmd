@@ -1,8 +1,9 @@
 ---
 title: "Untitled"
 author: "Chris Grady"
-date: "11/21/2019"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}

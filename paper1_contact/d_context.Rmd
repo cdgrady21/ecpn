@@ -23,7 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
     - fighting over livelihood resources
     - different ethnic groups and ways of life
     - government favors one side
-- Not completely misaligned itnerests.  Some complementarity, formerly working together: 
+    - dehumanizing effects of killing other group
+- Not completely misaligned interests.  Some complementarity, formerly working together: 
     - farmers have vegs/grains and need meat/milk.
     - farmers need manure and pastoralists need cow feed
 
@@ -32,19 +33,6 @@ knitr::opts_chunk$set(echo = TRUE)
 These groups have misaligned incentives.  Pastoralists want to graze, farmers do not want them to graze.  Contact not change the fundamental causes of conflict; things that cause conflict also cause negative intergroup attitudes.
 
 <!--
-Comes after theory.  Intervention Details moved to design.
-
-## Context Outline
-
-- distirbution of the lands: map that shows the regions: Fulani region, farmer region
-- The setting: rural, economic
-- the background: these populations used to get along, but population booms and climate change reduce land:people ratio
-- The conflict: escalating, burnt village/livestock guard, expulsion
--->
-
-<!--
-particularly hard case _because_ the conflict is very violent and escalating.  Also, the groups have a power disadvantage, their ways of life are different, fighting for land resources, also differ in ethnicity and sometimes religion.  BUT things work because there is a latent shared interest/identity to be activated.
-
 Dehumanization of killing: 
 - Conflicting groups dehumanize the outgroup, meaning that they do not acknowledge the outgroup as fully human [@haslam2014dehumanization; @leyens2007infra; @opotow1990moral; @bandura1999moral].  Dehumanized groups are deemed unworthy of moral considerations; they do not deserve empathy, compassion, or fair treatment.  Along with not extending morality to outgroup members, ingroups often view of the outgroup themselves as immoral -- a group without values who cannot be trusted due to their innate moral deficiencies [@weisel2015ingroup; @parker2013lessons; @brewer1999ingroupOutgroup, p.435].  Killing members of the other group causes further dehumanization.
 
@@ -72,6 +60,11 @@ This persistent violence continues to have debilitating effects on Nigerians and
 
 Farmer-pastoralist conflict in the Middle Belt is not dissimilar from current and past conflicts in other parts of the world.  Throughout Sahel -- farmer-pastoralist clashes are a persistent problem throughout the Sahel and savannah areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  In South Sudan, Myanmar, Bosnia.  "Range wars" between farmers and ranchers in 19th and early 20th century American West.  Can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.  These conflicts are primarily rural and the state does not project power to these areas.  It is often viewed as biased for or against one group.
 
+<!--Summary-->
+
+particularly hard case _because_ the conflict is very violent and escalating.  Also, the groups have a power disadvantage, their ways of life are different, fighting for land resources, also differ in ethnicity and sometimes religion.  BUT things work because there is a latent shared interest/identity to be activated.
+
+
 ## Intervention
 
 The intervention formed mixed-group committees with equal numbers of farmers and pastoralists and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  It started with a series of community meetings, beginning with separate farmer and pastoralist meetings that built up to joint decision-making meetings with the two groups together.  Each joint project committee included an even number of farmers and pastoralists, as well as women and youth representatives, and totaled between 12 and 15 members. Each committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint projects, of approximately \$25,000.
@@ -91,6 +84,12 @@ To ensure support of authorities, community leaders were involved in the project
 *******
 
 <!--
-# Scacco
+Comes after theory.  Intervention Details moved to design.
 
+## Context Outline
+
+- distirbution of the lands: map that shows the regions: Fulani region, farmer region
+- The setting: rural, economic
+- the background: these populations used to get along, but population booms and climate change reduce land:people ratio
+- The conflict: escalating, burnt village/livestock guard, expulsion
 -->
