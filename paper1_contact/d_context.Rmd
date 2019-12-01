@@ -19,8 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # Key points
 
 - Brief Nigeria's Middlebelt
-    - divides and blends country's north and south
-    - mix of religions, ethnicities, and occupations.  In recent years, violent conflict between farming and pastoral occupational groups have ravaged the region.  More than an occupational divide: cultural, ethnic, can be religious (Pastoralists are almost universally Muslim, farmers are a mix).  
+    <!--- divides and blends country's north and south.  mix of religions, ethnicities, and occupations. [chris: not relevant, I think]-->
+    - In recent years, violent conflict between farming and pastoral occupational groups have ravaged the region.  More than an occupational divide: cultural, ethnic, can be religious (Pastoralists are almost universally Muslim, farmers are a mix).  
     - farmers and pastoralists both need access to land for livelihoods.  The most recent conflict escalation, beginning roughly in 2014, has caused 7,000 deaths, displaced hundreds of thousands of people from their homes.  Economic damage unknown, but farmer-pastoralist conflict before the escalation costs Nigeria $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].  Threatens Nigeria's food supply, since the Middle Belt is Nigeria's "food basket" and a key source of products like beef, dairy, yams, and cassava (https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/).  This violence has impeded food production and threatens to create a food shortage (Hailemariam 2018).
     - Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year (McDougal et al. 2015).
     - pop booms, migration, gov policy driving conflict
@@ -39,13 +39,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Context: Farmer-pastoralist conflict in Nigeria's Middle Belt
 
-Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who  and pastoralists.  
+Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who claim land for agricultural production, and pastoralists, who claim land for animal grazing, increasingly clash over claims to the same land.  Both groups depend on land for their livelihoods, but their divide is also cultural, ethnolinguistic, and, in some locations, religious.  The pastoralists are almost homogenously of the Fulani ethnic group, speak Fulfulde as their primary language, and practice Islam.  They maintain a semi-nomadic way of life, belonging to a home community while traversing vast distances to secure access to pastureland and water as seasons change.  The farmers live in sedentary villages and exploit land for agriculture.  The ethnic group, language, and religion change by village.  In our study, farmers came from more than a dozen ethnic groups, often residing in the same village.
 
-Nigeria’s Middle Belt divides the country between north and south, and houses a blend of various ethnic groups, with no clear majority. Nigeria's south comprises primarily Christian farmers from various ethnic groups, while Muslims from the Hausa and Fulani ethnic groups — including the mostly Fulani pastoralists — dominate the north of the country. These religious, ethnic, and occupational identities intersect and create deep cleavages between communities.   
+Historically, these communities cooperated through trade and sharing land that was abundant relative to populations.  Pastoralists would graze their animals on crop residue after harvests and follow migration paths away from farmland during planting seasons.  The groups were complementary: pastoralists gained food for their animals and farmers gained animal manure/urine to replenish soil; farmers bought milk and meat from pastoralists and pastoralists bought grains and vegetables from farmers.  There were tensions, but these were typically overcome by negotiation and violence seems to have been rare.  The Middle Belt came to be known as Nigeria's "food basket" due to the abundance of foodstuffs coming out of the region, like beef, dairy, yam, and cassava^[https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/].  
 
-Farmer-pastoralist conflict ravages Nigeria's Middle Belt.  More than an occupational divide,  
+In recent years, this relationship has been stressed by populations booms and climate change.  Nigeria's population at independence in 1960 was about 50 million; Nigeria's population in 2019 is estimated around 200 million.  At the same time, the Sahara's size expanded over 10%, decreasing land available for farming and grazing [@thomas2018sahara; @okpara2015conflicts].  As the number of farmers, pastoralists, and mouths to feed increased, the amount of land available to produce food declined.  These factors also pushed pastoralists southward, towards farming communities with whom the pastoralists had no pre-existing relationship.
 
-Historically, these communities interacted through trade and shared access to land.  However, in recent years, interconnected factors have made these interactions more contentious.  The Middle Belt has been stressed by climate change, population booms, migration, and government policies perceived to favor some groups over others.  These stressors have sparked violent conflict between farmers and pastoralists in recent years.
+Government policies perceived to favor farmers exacerbate things.
+
+These stressors have sparked violent conflict between farmers and pastoralists in recent years [@unah2018nigeria]. The most recent conflict escalation, beginning roughly in 2014, has caused 7,000 deaths, displaced hundreds of thousands of people from their homes.  Economic damage unknown, but farmer-pastoralist conflict before the escalation costs Nigeria $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
+
+Threatens Nigeria's food supply, since the Middle Belt is Nigeria's "food basket" and a key source of products like beef, dairy, yams, and cassava (https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/).  This violence has impeded food production and threatens to create a food shortage (Hailemariam 2018).
+
+- Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year (McDougal et al. 2015).
+- pop booms, migration, gov policy driving conflict
+
+
+
+
+These tensions pose a tough test for intergroup contact to improve relations.
+
+*****************
 
 
 
