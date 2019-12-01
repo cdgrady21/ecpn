@@ -16,6 +16,34 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+We evaluate the effects of Engaging Communities for Peace in Nigeria (ECPN) with a randomized controlled trial (RCT) at the community level to examine the overall impact of the program on communities. We triangulate the results of the community-level RCT by using a pre-/post-intervention analysis of the program’s effect on (1) the individuals most engaged in program activities (committee members/direct participants), (2) those who were merely exposed to program activities (non–committee members in communities that participated in the interventions/indirect participants), and (3) those with no exposure to the program at all (a control group). See Figure 1 for a diagram of our sampling strategy. The baseline survey was conducted between September and December 2015, and the endline was conducted between January and April 2018.
+
+## Community-level analysis
+
+For the community-level RCT, we first established a list of sites eligible for the ECPN intervention, where each site contained one farmer and one pastoralist community. To identify eligible sites, Mercy Corps undertook a scoping exercise to determine whether the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one. We defined “demonstrated need” as the communities’ having engaged in violent clashes within one year of the scoping exercise. Willingness to participate in the program was assessed through conversations with community leaders, none of whom refused the program. The scoping exercise initially led to the identification of 30 eligible sites; through further visits and interviews, we narrowed the list to 15 sites (30 communities).7 We then randomly selected 10 of these 15 sites to receive the program and monitored 5 of the sites as a control group.^[The control sites received the program after this impact evaluation was conducted; at the time of the endline survey, however, they were not aware that they would receive the program.]
+
+To collect data within the 30 communities, we took a random sample using a “listing exercise” procedure, whereby all houses in a community were numbered, and then, from that list, 50 were randomly chosen for the survey.9 This procedure yielded over 1,500 survey respondents at baseline and endline.
+
+## Individual-level analysis
+
+For the individual-level analysis, we surveyed 287 individuals at baseline and endline. Using the initial list of 1,539 baseline respondents, we identified a subset we would survey again at endline. We selected about 10 individuals per community, ensuring equal numbers of farmers and pastoralists.^[Since we were unable to locate many people from the baseline sample, the endline sample resembles a convenience sample more than a random sample. In addition, to ensure that we maintained a random sample at the community-level, we did not remove respondents who were in the individual-level analysis from the community-level baseline. Therefore, p-values from the two sets of analyses are not completely independent.] We also made sure that we surveyed an equal number of males and females. In intervention sites, this was a simple random sample from two baseline groups: (1) people who joined ECPN committees after the survey was conducted and (2) people who did not participate in ECPN committees but had responded to the survey at baseline. In control sites, we surveyed a simple random sample from all baseline respondents. Overall, there were three groups of respondents (1) ECPN committee participants (i.e., direct participants), (2) ECPN indirect participants (i.e., indirect participants), and (3) the control group.
+
+As discussed in the “Context and Program” section, we set up three committees at each intervention site: (1) a joint project committee, (2) an early warning system committee, and (3) a peace committee. We initially randomly assigned baseline survey respondents to be part of these committees, but random assignment proved difficult. Many people who were not selected wanted to be on the committees, and some people who were selected were not able to participate or could not be located when the committees were launched. As a result, in most cases, people self-selected into committees. Despite this self-selection, committee members and non–committee members we resurveyed were not statistically different on observable attributes at baseline, before ECPN began. Their baseline similarity increases our confidence that having served on a committee, not preexisting dispositions, explains differences in attitudinal, perceptual and behavioral change between committee members and non–committee members from baseline to endline.
+
+Our final sample included 74 individuals from intervention communities who participated in ECPN project committees, 121 individuals from intervention communities who did not participate in any ECPN activities, and 92 individuals from control communities. We refer to those people who participated in the committees as “direct participants,” those from intervention sites who did not participate in committees as “indirect participants,” and those in control communities as “controls.”
+
+Within the individual-level analysis, we make three comparisons to investigate differential effects of ECPN. The first comparison is between participants (both direct and indirect) and controls, to assess how direct exposure to the program affected participants, compared with people who had no exposure. The second comparison is between indirect participants and controls, to assess whether individuals at intervention sites without direct exposure to the program benefited, compared with people in control communities who were not exposed to the program at all (i.e., to observe any ripple or spillover effects of the committees). The third comparison is between direct participants and indirect participants in intervention communities, to assess the added value of being on a project committee, compared with being exposed to the program indirectly. Overall, if ECPN had an effect on people in intervention communities, we would expect more positive change in direct participants than in indirect participants, and more positive change in indirect participants than in individuals from control communities (direct participants > indirect participants > controls).
+
+Below, we describe our estimation procedure for the community-level analysis and the individual-level analysis. For both analyses, we estimate one-tailed greater-than tests, unless otherwise noted, because our hypotheses are that the change in outcomes for treated units will be greater than those for the controls, not that the change in outcomes for treated units will be different from those for the controls. The tests are adjusted for these multiple comparisons using the false discovery rate (FDR) and the Family Wise Error Rate (FWER)11 method. In the “Results” section, we report the unadjusted p-values in the text and note the adjusted p-values in the footnotes.
+
+$$OutcomeChange = \beta_0 + \beta_{ECPN} + \beta_{State} + \epsilon$$  
+
+In that equation \beta{0} is the average change in outcome from control communities and \beta_{ECPN} is the amount that treatment communities changed more than or less than control communities.  \beta_{ECPN} is our outcome of interest.
+
+Where baseline values were not balanced, we use a difference-in-difference analysis to estimate the effect of ECPN on measures for which we have baseline and endline data. In this model, each community has one observation, the change in outcome from baseline to endline, represented by Y. In this formulation, our regression equation is as follows:
+
+<!--
+
 # Key Points
 
 - two designs: community-level and individual-level
@@ -67,7 +95,7 @@ Physical security: self-report
 
 Dispute Resolution: resolution index
 
-
+-->
 
 <!--
 # Scacco
