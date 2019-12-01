@@ -20,7 +20,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Brief Nigeria's Middlebelt
     - divides and blends country's north and south
-    - farmers and pastoralists both need access to land for livelihoods
+    - mix of religions, ethnicities, and occupations.  In recent years, violent conflict between farming and pastoral occupational groups have ravaged the region.  More than an occupational divide: cultural, ethnic, can be religious (Pastoralists are almost universally Muslim, farmers are a mix).  
+    - farmers and pastoralists both need access to land for livelihoods.  The most recent conflict escalation, beginning roughly in 2014, has caused 7,000 deaths, displaced hundreds of thousands of people from their homes.  Economic damage unknown, but farmer-pastoralist conflict before the escalation costs Nigeria $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].  Threatens Nigeria's food supply, since the Middle Belt is Nigeria's "food basket" and a key source of products like beef, dairy, yams, and cassava (https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/).  This violence has impeded food production and threatens to create a food shortage (Hailemariam 2018).
+    - Before the latest surge in violence, the conflict was costing the Nigerian economy $13.7 billion a year (McDougal et al. 2015).
     - pop booms, migration, gov policy driving conflict
 - lots of reasons contact might not be successful; trends pushing groups apart.
     - active & escalating conflict
@@ -35,7 +37,9 @@ knitr::opts_chunk$set(echo = TRUE)
     - farmers have vegs/grains and need meat/milk.
     - farmers need manure and pastoralists need cow feed
 
-# Context: Farmer-pastoralist conflict in Nigeria
+# Context: Farmer-pastoralist conflict in Nigeria's Middle Belt
+
+Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who  and pastoralists.  
 
 Nigeria’s Middle Belt divides the country between north and south, and houses a blend of various ethnic groups, with no clear majority. Nigeria's south comprises primarily Christian farmers from various ethnic groups, while Muslims from the Hausa and Fulani ethnic groups — including the mostly Fulani pastoralists — dominate the north of the country. These religious, ethnic, and occupational identities intersect and create deep cleavages between communities.   
 
