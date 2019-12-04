@@ -1,0 +1,353 @@
+---
+title: "Promoting Peace Amidst Group Conflict: An Intergroup Contact Field Experiment in Nigeria"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  word_document: default
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../../../utils/bowersarticletemplate.latex
+csl: ../../../utils/american-political-science-review.csl
+bibliography: ../../../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+<!--
+\begin{abstract}
+
+Group conflict should be avoidable through intergroup bargaining, yet group conflict is commonplace throughout the world.  We argue that psychological phenomena account for many bargaining failures by inducing barriers to bargaining through two psychological processes.  First, psychological phenomena prevent groups from developing intergroup trust by biasing interpretations of the behavior of the other side.  Second, psychological phenomena add costs to compromise because group members derive self-esteem from feelings of group superiority.  Interventions that abate these psychological barriers to bargaining should allow the groups to avoid violent conflict.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior, and a behavioral game.  We find that participation in the program increases intergroup contact, intergroup trust, and perceptions of physical security among group members; many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
+
+\end{abstract}
+-->
+
+# Introduction
+
+How can groups in conflict improve intergroup relations?  Violent group conflict has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims (Schomerus and Rigterink 2018).  Intergroup animosity perpetuates conflict long after the original grievance is immaterial or forgotten [@mcdonnel2017graze; @deutsch1973resolution; @tajfel1979integrative], so improving intergroup relations is vital to stem the human, economic, social, and psychological costs of violent group conflict.
+
+Scholars and policymakers/practitioners consider cooperative intergroup contact -- contact in which members of two groups work together to achieve common goals -- to be one of the most effective tools for improving intergroup relations.  The hypothesis that cooperative contact improves intergroup relations, known as the contact hypothesis [@allport1954prejudice], motivates many policy interventions, from integrated public housing [@deutsch1951interracial] and college dorms [@marmaros2006friendships] to workplace and school desegregation [@cook1971race; @cook1985experimenting; @rao2019familiarity].  The contact hypothesis also increasingly motivates peacebuilding programs [@ditlmann2017addressing; @lemmer2015can].  Through these types of interventions, intergroup contact has improved relations between white people and black people in the U.S. and South Africa [@marmaros2006friendships; @burns2015interaction; @carrell2015impact], Christians and Muslims in Iraq and Nigeria [@mousa2018overcome; @scacco2018nigeria], Jews and Arabs in Israel/Palestine [@yablon2012we; @ditlmann2016can; @weiss2019curing], and Hindus and Muslims in India [@barnhardt2009near].
+
+<!--chris: could combine this paragraph with another.  Maybe keep first sentence of firsts paragraph only. -->
+Despite these successes, scholars know little about the effects of intergroup contact for groups engaged in a violent conflict.  Cooperative intergroup contact has only recently been tested in the field with groups who have a recent history of violence [@paluck2017contact; @lemmer2015can], and never with communities who are perpetrating violence against each other.  If one of the goals of cooperative contact is to mitigate violent conflict, interventions based on cooperative contact must be tested between groups in a violent conflict.
+
+Historical and ongoing violence poses the most difficult test for contact and could interfere with mechanisms through which contact improves relations. Scholars theorize that contact improves relations mainly through providing information that dispels stereotypes, increasing empathy and perspective-taking, reducing anxiety about interacting with outgroup members, and making salient a superordinate identity that includes both groups [@pettigrew2008does; @dovidio2017reducing; @broockman2016durably; @gaertner2014reducing; @page2008little].  These mechanisms assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta p.766].  We posit that familiarity through cooperative contact allows groups to identify their latent shared interests.  By obscuring shared interests and highlighting and reinforcing group differences, violent conflict could dull, prevent, or even reverse the predicted positive effects of contact.  For these reasons, some scholars believe group reconciliation cannot begin until conflict is resolved [@bar2000intractable].
+
+Moreover, cooperative contact between some ingroup members and some outgroup members can only meaningfully improve group relations under two conditions.  First, group members must generalize their positive attitudes to the outgroup as a whole, not just the outgroup members with whom the ingroup members interacted.  Attitudes generalize when the outgroup members involved in contact are viewed as typical of the outgroup [@hewstone1996contact].  Second, effects of contact must diffuse to other ingroup members.  Diffusion can occur through the knowledge that other ingroup members had positive contact with outgroup members [@wright1997extended] or through changing social norms about cross-group interaction [@paluck2009jsp; @christ2014contextual].  In contexts of historical or ongoing violence, any cross-group interaction may mark an outgroup member as atypical, and social norms may stay staunchly opposed to intergroup cooperation.
+
+Despite these reasons for caution, there are reasons to expect cooperative contact to improve intergroup relations even in contexts of ongoing violence.  Contact should improve relations when there exists shared group interests.  Even in contexts of group violence, it is often in each group's shared interest to reach a peaceful compromise because fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation in that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
+
+To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->  In our sample, members of each community had been killed by members of the other community within the year before the project began.  Past and present violence, occupational and ethnic differences, and fighting over resources necessary for livelihoods all make this context a hard test for contact theory.  
+
+We randomly assigned communities with ongoing farmer-pastoralist violence to receive a contact-based intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, primary health care facilities, etc.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  To measure the effects of the intervention, we conducted pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
+
+[^PGG]: In a public goods game (PGG), research subjects are given money and told they can keep the money or donate it to a public fund.  Money donated to the public fund is multiplied by some amount and then shared with all subjects.  Our PGG is _natural_ because it was conducted in a natural setting, rather than a lab.  The funding for the PGG came from the National Science Foundation under Grant No. 1656871.
+
+<!-- Findings. -->
+
+We find that the program increased intergroup contact, intergroup trust, and perceptions of physical security.  We see signs of the positive effects in fieldwork as well as in data -- in one of the treatment sites, farmers defended pastoralists from a group of anti-pastoralist vigilantes, rather than assist the vigilantes in removing the pastoralists and claiming their land.  Our results also show that the intervention affected communities as a whole, not just community members directly involved in the intergroup contact.  Individuals who directly engaged in intergroup contact changed the most positively from baseline to endline, but we also observe positive spillovers of trust to group members for whom we did not exogenously increase intergroup contact.
+
+This study expands our knowledge about group conflict in several ways.  First, this study teaches us about the capacity of intergroup contact to improve intergroup relations and reduce conflict.  Peacebuilding organizations implement numerous contact-based interventions in violent contexts each year [@ditlmann2017addressing], but its efficacy to improve intergroup attitudes amid real-world conflict is an open question [@paluck2017contact; @ditlmann2017addressing].  To our knowledge this is the first field experimental test of a contact-based intervention implemented during an active conflict.  The results suggest that contact-based peacebuilding programs can effectively improve relationships between conflicting groups and is especially relevant to conflict resolution in the cases of intergroup and intercommunal conflicts.
+
+Second, we contribute to the literature about informal structures, such as social norms, in solving collective action problems.  Conflict between farmers and pastoralists is a collective action problem in that both groups would be materially better off avoiding violence through compromise and cooperation, but each has the incentive to take advantage of the other.  Individuals within each group face the same dilemma: they prefer a compromise, but their incentives are to free-ride and allow others to bear the cost of compromise.  In rural Nigeria, as with many contexts, no formal institutions exist to encourage cooperation and so groups must develop informal structures to achieve collective action [@ostrom2000collective].  This intervention showed how informal structures to solve collection action problems can naturally develop through repeated intergroup interactions.  Our intervention only engaged a small percentage of each community, yet its effects diffused to other community members.  Creating informal structures that diffuse the attitudinal effects of cooperative contact are a way of scaling up contact-based interventions.^[chris: this paragraph is too long and not focused enough.  Would appreciate comments.]
+
+Third, this paper teaches us about settling disputes between sedentary peoples and nomadic peoples.  Violent conflict between settled peoples and nomadic peoples is on the rise throughout Africa [@hrc2018farmer; @kuusaana2015land; @mwamfupe2015persistence].  This study focuses on the Fulani, the largest semi-nomadic people on Earth [@fulanisize2017].  Their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent violent conflict between Fulani and settled peoples can help prevent violence that targets other nomadic and semi-nomadic peoples, such as the Tuaregs in West Africa, Uyghurs in Central Asia, Kochi in Afghanistan, Khoisan of Southern Africa, and Romani of Europe.  Preventing such violence could help preserve a dying way of life.
+
+
+
+# Theory: Improving Intergroup Relations Through Cooperative Intergroup Contact
+
+<!--Section goal:  Contact summary + conditions.  Contact said to work through: knowledge, anxiety, empathy, ingroup expansion.  How contact generalizes/diffuses.  THEN ME: overarching understanding of contact and when it should/should not work.-->
+
+<!--Contact summary + conditions -->
+
+Cooperative intergroup contact has long been posited as a means to improve intergroup relations.  Initially presented by Gordon @allport1954prejudice, the contact hypothesis assumes that negative stereotypes cause intergroup animosity.  Stereotypes, natural mental shortcuts that help an individual understand his/her experiences, are especially likely to go awry and create animosity when an individual has little or no experience with members of another group. Without intergroup experience, stereotypes will misrepresent groups and create imagined differences between ingroup and outgroup members. To remove these negative stereotypes new experiences must override them, allowing an individual to re-conceptualize the outgroup.
+
+Allport and subsequent authors specified four conditions under which contact will remove stereotypes and improve intergroup relations.  First, the contact must involve ongoing personal interaction between members of both groups.  Second, both groups must have equal status in the interaction.  Third, the interaction must involve cooperation towards a common goal.  And fourth, the intergroup interaction must have the support of institutions and authorities.
+
+<!--Contact said to work through: knowledge, anxiety, empathy, ingroup expansion. -->
+
+Contact is said to work through four main mechanisms.  The first is an informational mechanism wherein direct experience with outgroup members allows members of each group to see how similar they are and overrides negative stereotypes [@allport1954prejudice].  The second and third are emotional mechanisms.  Intergroup contact reduces the feelings of threat and anxiety that arise from fear of the unknown [@stephan1985intergroup; @page2008little]; intergroup contact also enables empathy so that ingroup members understand the perspective of the outgroup [@batson1997empathy; @broockman2016durably].  The fourth is a social categorization mechanism wherein frequent interactions with outgroup members makes salient a shared identity based on the groups' similarities and shared interests [@gaertner1993common; @gaertner2014reducing].  Personal interaction with specific outgroup members then generalize to the entire outgroup if the specific outgroup members are typical of the outgroup (their behavior tells you about the behavior of other outgroup members) [@hewstone1996contact].
+
+<!--How contact generalizes/diffuses. -->
+
+These mechanisms support the reduction of stereotypes for individuals involved in the intergroup interaction.  Since it is not feasible for all members of two groups to interact, the positive effects of contact must diffuse to individuals not involved in the interaction for intergroup contact to meaningfully improve intergroup relations.  This diffusion to other group members occurs via indirect contact, and indirect contact can occur in two ways.  First is the knowledge that other ingroup members had positive contact with outgroup members, either through word of mouth or through observing positive intergroup interactions [@wright1997extended].  The second is changing social norms about cross-group interaction [@paluck2009jsp; @christ2014contextual].<!--^[Though the mechanisms through which indirect contact improves attitudes is beyond the scope of this paper, @vezzali2014indirect suggests that anxiety reduction mediates the effects of direct and indirect contact.  Social cognitive theory, which is the theoretical backing of vicarious contact, suggests that individuals adopt behaviors and attitudes that they observe; specifically, when they believe those observed behaviors and attitudes will help them achieve their goals [@Bandura1971], such as fitting in with their group.]-->
+
+<!--Here is the overarching understanding of contact/common thread; here is what it means for when contact should work and when contact should not.
+- cannot think cooperation will be in the group's interest if the other side is untrustworthy and immoral (stereotypes), threatening (threat/anxiety), 
+-->
+
+We interpret the existing literature as suggesting that cooperative contact improves intergroup relations when it reveals that the groups have latent shared interests.  Shared interests are goals, values, and other commonalities between the groups.  These interests remain latent due to psychological barriers to identifying those shared interests: negative stereotypes, feelings of outgroup threat, a lack of empathy, and a lack of perceived similarities.  These barriers prevent groups from identifying their shared interests by providing motivation to maintain negative beliefs [@kunda1990motivatedReasoning] and biasing perceptions of the other side [@ward1997naive].  For example, opposing groups perceive the defensive actions of the other side as belligerent and gratuitous while their perceiving own belligerent actions as defensive and justified [@duncan1976differential; @vallone1985hostileMedia].  Even cooperative actions and compromises may be reactively devalued or perceived as cynical attempts to manipulate the ingroup [@ward1997naive; @ross1991barriers].  If each group believes the other group is untrustworthy, immoral, and threatening, both groups are unlikely to believe cooperation could be in their interest.
+
+Cooperative contact removes those psychological barriers to groups identifying their shared interests and makes shared interests salient.  Contact removes psychological barriers by providing experiences with outgroups that override stereotypes, reduce anxiety, present the other side's perspective, and demonstrate cross-group commonalities.  Without negative stereotypes and automatic emotional reactions, groups can identify shared interests if shared interests are present.  The mere expectation of working with outgroup members can even motivate individuals to see group more positively, rather than motivate individuals to maintain negative perceptions [@klein1992motivated].  With those barriers removed groups can identify shared interests, and cooperative contact provides an obvious example of shared interest: a common goal that both groups work towards.  Cooperative contact provides a shared interest and removes the barriers to groups identifying shared interests.
+
+Ingroup members also learn about the outgroup socially as well as personally.  Social learning about the outgroup improves attitudes for all group members, including group members who do not engage in contact.  First, from hearing or observing that fellow ingroup members interact with outgroup members, ingroup members learn about the outgroup and that cross-group interaction is safe and socially acceptable.  Second, cross-group cooperation can create social pressure to cooperate with the outgroup, especially if cooperation is deemed beneficial to the ingroup [@ditlmann2017addressing; @fearon1996explaining].  Third, awareness of cross-group cooperation creates the expectation of future interaction with outgroup members, and that expectation motivates individuals to see the outgroup more positively [@klein1992motivated; @van2019actions].  In these ways, cooperative contact improves attitudes indirectly, even for ingroup members with no cross-group contact.
+<!--cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
+
+- see/hear about more outgroup interaction.  Learn it's okay.
+    - Group members think: if cross-group contact is good for those ingroup members, it could be good for me, too.
+- expectations of contact for them == motivated to be okay with cross-group interaction.
+- cooperation good for ingroup == social pressure/norms to cooperate.  Ingroup policing.
+-->
+
+<!--Summary -->
+Cooperative contact should improve attitudes towards the outgroup when there exists a latent shared interest to make salient.  Shared interests may remain latent because psychological biases prevent groups from identifying opportunities for both groups to benefit from cooperation.  Cooperative contact can help group members identify shared interests, and cooperative social norms can arise when groups identify that cross-group cooperation is good for the group.  However, when groups have no latent shared interests, contact is unlikely to improve group relations.
+
+<!--Extra stuff from bottom half of this section.
+Motivated reasoning should prevent attitude change for two reasons [@kunda1990motivatedReasoning].  First, people are likely to attend to information and observations that echoes their current beliefs, and their interpretations of new information and observations may ignoring contradictory information or frame the information to bolster existing beliefs [@vallone1985hostileMedia].  Second, even if intolerant people understand and interpret a new observed behavior as pro-tolerance, they may reject that information and develop a counter-narrative.  For example, if shown a narrative where a member of a hated out-group interacts amicably with a member of their ingroup, the learner may counter that by thinking of a time when he/she encountered hostility with a member of the outgroup.  Finally, even if the intolerant learner accepts the message, the resulting psychological discomfort and cognitive dissonance may drive the learner _further_ from tolerance [@gubler2013humanizing].-->
+
+## Cooperative intergroup contact in the context of violent group conflict
+
+<!--Key points
+- mechanisms blocked
+    - highlights opposing group interests, group competition; overcome trends pushing groups apart.
+    - negative stereotypes being reinforced
+    - justified threat/menace (from Allport)
+    - empathy == put self in others shoes == other would/wants to hurt you
+    - reinforces group differences (Fearon and Laitin 2000)
+    - no generalization when any cross-group contact viewed as atypical; limited opportunities for contact
+    - harder to overturn norms / lots of examples of bad cross-group interaction (like conflict over resources) that people observe and that work against good examples
+- Worst case for psychological barriers
+    - motivated reasoning
+        - more likely to perceive interactions as bad 
+        - more likely to notice and remember bad interactions. 
+        - Salience of negative events.
+        - need a lot of motivation to change attitudes [@devine2002regulation], but when individual's identity is related to ingroup superiority, she may not want to have better attitudes about the outgroup.
+    - cognitive dissonance: more likely to get snapback to more prejudiced
+    - perpetrating violence dehumanizes the victim
+- can make things worse
+- path forward: if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test.
+
+***********
+
+<!--Section 1: - mechanisms blocked by conflict
+    - highlights opposing group interests, group competition; overcome trends pushing groups apart.
+    - negative stereotypes being reinforced
+    - justified threat
+    - empathy == put self in others shoes == other would/wants to hurt you
+    - reinforces group differences (Fearon and Laitin 2000)
+    - no generalization when any cross-group contact viewed as atypical; limited opportunities for contact
+    - harder to overturn norms / lots of examples of bad cross-group interaction (like conflict over resources) to work against good examples
+    - Allport: not for a genuine menace
+    
+    - limited opportunities for contact == likely to have prejudice, low trust, inability to cooperate, information failures (from Scacco p.656).
+        - chris: not integral, not included.  Just another way to say "these groups have negative attitudes".
+    - If it works for one group only (majority group), then it doesn't really work at all.
+        - could not fit this in.
+    -->
+
+Violent group conflict poses a hard test for cooperative intergroup contact to improve attitudes.  Cooperative contact is meant to reveal commonalities, but violent conflict occurs due to a conflict of interests, highlights conflicting interests, and creates further conflicting interests.  Instead of commonalities, contact between these groups may reinforce reasons to fight.  
+
+Where commonalities are present, they may not be identified because of two psychological biases: motivated reasoning and cognitive dissonance [@kunda1990motivatedReasoning; @festinger1962cognitiveDissonance].  Groups justify perpetrating violence by dehumanizing the outgroup [@haslam2014dehumanization], and group members must maintain that dehumanization or come to terms with their transgressions.  Individual's maintain their negative attitudes in two ways.  First, individuals will perceive cross-group interactions negatively so that those interactions conform to pre-existing beliefs about the outgroup.  Second, individuals will notice and remember negative interactions that conform to pre-existing views of the outgroup.  If an individual's cross-group experience does not correspond to pre-exiting beliefs about the outgroup, the resulting psychological discomfort and cognitive dissonance can cause a backlash and worsen attitudes [@gubler2013humanizing].
+
+Violent conflict could also block the mechanisms through which contact improves attitudes.  Contact is meant to work through reducing stereotypes, creating empathy, reducing threat, and revealing common identities.  But contexts of violence offer plentiful examples that reinforce negative stereotypes about the outgroup, and groups create narratives that support those stereotypes [@bar2017development].  Empathy, the ability to take the perspective of the other side, will not improve cross-group relations if taking their perspective reveals incentives to be belligerent [@kertzer2018empathy].  When outgroup members are a genuine threat learning about the outgroup through contact may confirm that they pose a threat, rather than reduce anxiety.  And far from revealing common identities, violence leads to the construction of opposing group identities and reinforces group differences [@fearon2000violence].  For these reasons, violent conflict may override the mechanisms through which contact improves attitudes.
+
+Even if intergroup contact created cross-group friendships for the individuals cooperating, aspects of violent contexts may block generalization of those attitudes to other outgroup members.  Groups in conflict have limited contact, so any outgroup member engaging in contact my be viewed as atypical and not informative about other outgroup members [@doosje1995bad].  Conditions of conflict environments may also prevent from indirectly extending to ingroup members without contact.  Conflicting groups share emotions of outgroup prejudice and norms that delegitimize the outgroup [@bar2017development].  With pre-existing norms that reinforce negative attitudes, cooperative norms that reach all ingroup members are unlikely to form.  These pre-existing norms may also discourage ingroup members with positive attitudes from displaying those attitudes, either through talking about or engaging in cross-group interaction publicly.  With no opportunities to hear about or observe positive cross-group interaction, the effects of contact cannot extend to ingroup members without contact.  
+
+<!--Section 2: Worst case for psychological barriers. NOTE: now in 1st section.
+    - motivated reasoning
+        - more likely to perceive interactions as bad 
+        - more likely to notice and remember bad interactions. 
+        - Salience of negative events.
+        - need a lot of motivation to change attitudes [@devine2002regulation], but when individual's identity is related to ingroup superiority, she may not want to have better attitudes about the outgroup.
+            - chris: did not fit this point in.
+    - cognitive dissonance: more likely to get backlash to more prejudiced
+    - perpetrating violence dehumanizes the victim
+        - fits with motivation.  Have built a worldview of the other group as less than human.
+        - chris: could not fit this in.
+        "Conflicting groups dehumanize the outgroup .   Killing members of the other group causes further dehumanization.
+"
+-->
+
+<!--Section 3: Risk of negative contact making things worse
+- chris: removed.  not pertinent.
+
+Not all intergroup contact decreases animosity. Negative intergroup interactions lead to more negative attitudes towards outgroup members [@paolini2010negative; @enos2014causal; @condra2019casual], and are most likely to occur for individuals with the most negative outgroup attitudes [@gubler2011diss; @plant2001responses].  Groups in conflict more likely than others to have negative contact experiences.  incidental contact can make things worse (the @enos2014causal cite and the @forbes1997ethnic cite; vanhanen 1999).  Even well-structured positive interactions can increase negative attitudes by causing cognitive dissonance in prejudiced individuals, which causes them to cling more strongly to their prejudicial beliefs (Gubler 2011).  Groups in conflict more likely than others to have strong, stable, negative opinions towards the outgroup.
+
+Conditions under which contact is positive might not be possible.  Equal status in interactions -- if groups have unequal status in life, how can any interactions be with equal status?  Institutional support maybe for interactions in the contact setting, where interaction is to achieve a goal that both sides have.  But will that institutional support extend to contact in other settings?  And if institutions/authorities have animosity, will norms of tolerance emerge?  
+
+From Scacco: 
+- Observational evidence from
+Jerusalem suggests that when tensions are high, increased
+intergroup interactions can actually increase
+the probability of violence (Bhavnani et al. 2014).
+
+-->
+
+<!--Section 4: Way forward/why it could still work.
+    - if still existence of shared interest then still possibility of cooperative contact highlighting/bringing out that shared interest.  Hard test, not impossible test. -->
+
+But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Regardless of other differences, conflicting groups share an interest in obtaining peace.  Fighting is costly and each group is better off cooperating than fighting [@fearon1995rationalist].  Intergroup contact can help groups identify this shared interest, which may not be clear due to misinformation and misperceptions [@fearon1995rationalist; @ward1997naive].  Cooperative contact can remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat, by diminishing the perception that all outgroup members are the same [@quattrone1980perception].  Contact to achieve a common goal also provides groups with an example of a shared interest that can be reached through cooperation, and that experience can make groups open to future cooperation.  Cross-group cooperation that achieves a goal in the group's interest can generate group pressure to cooperate and social norms like ingroup policing of actions that harm the outgroup [@ditlmann2017addressing; @fearon1996explaining].
+
+<!--[one paragraph summary of argument.]-->
+
+The contact hypothesis has never been tested with groups who are in a violent conflict, and violent conflict poses a hard to test for the effects of group contact.  Literatures in psychology [@sherif1958superordinate] and international relations [@powell2002bargaining] would that predict no change after intergroup contact because groups' incentives are still fundamentally misaligned and because contact does not reveal information relevant to group bargaining.   @allport1954 himself differentiated prejudice, which contact should diminish, from justified negative feelings towards an "actual menace" (p.8).  Subsequent scholars have noted that intergroup contact may not improve group relations if the groups have genuine conflicts of interests [@forbes1997ethnic; @hewstone1996contact], and violent conflict is a serious conflict of interests.  But contact can still work by revealing latent shared interests and removing barriers to identifying those interests.
+
+# Context: Farmer-pastoralist conflict in Nigeria's Middle Belt
+
+Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who claim land for agricultural production, and pastoralists, who claim land for animal grazing, increasingly clash over claims to the same land.  Both groups depend on land for their livelihoods, but their divide is also cultural, ethnolinguistic, and, in some locations, religious.  The pastoralists are almost homogeneously of the Fulani ethnic group, speak Fulfulde as their primary language, and practice Islam.  They maintain a semi-nomadic way of life, belonging to a home community but traversing vast distances to secure access to pastureland and water as seasons change.  The farmers live in sedentary villages and exploit land for agriculture.  The ethnic group, language, and religion change by village.  In our study, farmers came from more than a dozen ethnic groups, often residing in the same village.
+
+Historically, these communities cooperated through trade and sharing land that was abundant relative to populations.  Pastoralists would graze their animals on crop residue after harvests and follow migration paths away from farmland during planting seasons.  The groups were complementary: pastoralists gained food for their animals and farmers gained animal manure/urine to replenish soil; farmers bought milk and meat from pastoralists and pastoralists bought grains and vegetables from farmers.  There were tensions, but these were typically overcome by negotiation and violence seems to have been rare.  The Middle Belt came to be known as Nigeria's "food basket" due to the abundance of foodstuffs coming out of the region, like beef, dairy, yam, and cassava^[https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/].  
+
+In recent years, this relationship has been stressed by populations booms and climate change.  Nigeria's population at independence in 1960 was about 50 million; Nigeria's population in 2019 is estimated around 200 million.  At the same time, the Sahara's size expanded over 10%, decreasing land available for farming and grazing [@thomas2018sahara; @okpara2015conflicts].  As the number of farmers, pastoralists, and mouths to feed increased, the amount of land available to produce food declined.  These factors also pushed pastoralists southward, towards farming communities with whom the pastoralists had no pre-existing relationship.  Land scarcity and new migrants jeopardize traditional cooperative agreements that have managed farmer-pastoralist interactions for decades [@cotula2004land; @kuusaana2015land].  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
+
+Government policies exacerbated the issues caused by demographic and geographic changes.  Land privatization encouraged farmers to plant crops that occupy land continuously, like orchards, and effectively nullified farmer-pastoralist land sharing agreements [@bassett2009mobile].  Official cattle reserves for moving herds are rarely enforced by the government, leading farmers to plant crops in once-protected areas and further limiting pastoralists’ available grazing space.  The “indigene versus settler” policy limits economic and political rights to certain ethnic groups in each state, often denying the "settler" pastoralists the ability to own land and run for political office [@nigeria2014freedom].
+
+These stressors have sparked violent conflict between farmers and pastoralists in recent years [@fa2019deadly]. The most recent conflict escalation, beginning roughly in 2014, has caused 7,000 deaths [@council2019nigeria] and displaced hundreds of thousands of people from their homes [@daniel2018anti; @nyt2018nigeria].  The scale of economic damage is unknown, but farmer-pastoralist conflict _before_ this escalation cost Nigeria $13 billion annually in lost economic productivity [@mcdougal2015effect].  This violence has impeded food production, leading to an impending food crisis [@fa2019deadly; @frontera2018nigeria; @unah2018nigeria].  Compounding matters, state governments' response to the conflict has been to enact anti-grazing laws.  These laws spark more violence because many pastoralists reasonably viewed the law as biased against their way of life.  In the state of Benue, the government mobilized state-sanctioned vigilante groups called "livestock guard" to enforce the law, but the livestock guard have sometimes sought out pastoralists, rather than guard farmland [@duru2018court].
+
+Though we've discussed the conflict as between two large and cohesive groups ("Farmers" and "Pastoralists"), the conflict occurs between numerous small, independent farming and pastoral groups.  The groups typically reside a couple miles from each other -- like people from the next town over.  These independent groups are aware of the broader context of farmer-pastoralist conflict, but their concerns are local and mostly unrelated to what happens in distant villages.  Different versions of the same story initiate and sustain the local conflicts.  First, cattle graze on farmland.^[In past decades, compensation for crop damage would have been standardized, but these traditional agreements have fallen apart in recent years [@cotula2004land; @kuusaana2015land].  With no agreed upon compensation and no authority to punish illegal grazing or illegal cattle rustling, groups take justice into their own hands.]  Next, a farmer retaliates by stealing cattle from the pastoralists (because the farmer does not know _which_ herd grazed on his land, the stolen cattle do not necessarily come from the transgressing herd).  This cycle continues and eventually explodes when a member of one side physically attacks a member of the other side.  From there, a little war often breaks out.  As one reporter noted, "The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].
+
+<!--1-2 paragraphs about this being tough test for contact theory.
+- lots of reasons contact might not be successful; trends pushing groups apart.
+    - fighting over livelihood resources
+        - misaligned incentives with regards to those resources: Pastoralists want to graze, farmers do not want them to graze.
+    - active & escalating conflict
+        - dehumanizing effects of killing other group
+    - different ethnic groups and ways of life, often differ religious values
+    - government favors one side
+- Contact not change any of these causes of conflict; things that cause conflict also cause negative intergroup attitudes.
+- Not completely misaligned interests.  Some complementarity, formerly working together: 
+    - peace is in everyone's interest because fighting is costly.  Destroyed crops, stolen cattle, burned homes, murdered neighbors, constant fear and insecurity.
+    - farmers have vegs/grains and need meat/milk.
+    - farmers need manure and pastoralists need cow feed
+-->
+Farmer-pastoralist conflict poses a tough test for intergroup contact to improve group relations.  The material, social, and psychological incentives of these groups are opposed.  They want the same land for different purposes and their livelihoods depend on that land.  The groups are involved in a bloody, violent, and escalating conflict for land in which thousands of farmers and thousands of pastoralists have been killed by members of the other group.  Within an individual's community, several people will have been attacked or killed; several others will have attacked or killed members of the other side.  To justify killing, groups create collective myths about the retaliatory/defensive nature of their belligerent action and the iniquity and inhumanity of the other side.  Despite their physical proximity, the groups have little to bond over; they are distinct culturally, ethnically, linguistically, and often religiously.  And finally, government favoritism of farmers over pastoralists creates a power disparity between the groups.
+
+<!--One para on why it could still work. -->
+Despite the forces pushing these groups into conflict, their interests are not completely misaligned.  Peace is in the interest of both groups because fighting is costly, both materially and psychologically.  The conflict has destroyed billions of dollars in agricultural produce, animal products, and physical infrastructure.  Crops have been destroyed, cattle stolen, homes burned, and neighbors murdered.  Farmers fear violence when working in their fields; pastoralists fear violence when grazing their cattle.  Peace can end the economic, social, and human costs.  Moreover, the groups formerly maintained mutually beneficial trade agreements: farmers trade the crop residue left on their fields for animal manure/urine to replenish soil; farmers traded grains and vegetables in exchange the pastoralists' milk and meat.  Peace rekindles the possibility of these mutually-beneficial trade agreements.  Cooperative intergroup contact should improve group relations by revealing these shared interests.
+
+<!--One paragraph relating Nigerian conflict to other parts of the world conflicts.  Include Roma. -->
+Farmer-pastoralist conflict not confined to Nigeria's Middle Belt.  Farmer-pastoralist clashes are a persistent problem throughout the Sahel and savanna areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  Similar conflict dynamics exist in Europe with Roma: an outgroup viewed as culturally, ethnically, and linguistically distinct, apart from the rest of the polity.  Similar to Jews and Arabs over land that both claim.  Can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.
+
+## Intervention: Engaging Communities for Peace in Nigeria
+
+To address farmer-pastoralist conflict, peacebuilding NGO Mercy Corps implemented a four-year, USAID-funded program titled Engaging Communities for Peace in Nigeria (ECPN) in Middle Belt sites embroiled in violent conflict. The main objective of the program was to foster positive contact between farmers and pastoralists, improve attitudes, improve intergroup relations, and ameliorate conflict.  Mercy Corps implemented the project in two Middle Belt states, Benue and Nassarawa, which have been focal points for farmer-pastoralist conflict. 
+
+The intervention formed mixed-group committees with equal numbers of farmers and pastoralists and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  It started with separate farmer and pastoralist community meetings to avoid negative contact experiences.  These intra-community meetings eventually built up to joint decision-making meetings with the two groups together.  Each joint project committee included an even number of farmers and pastoralists, as well as women and youth representatives, and totaled between 12 and 15 members. Each committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint projects, of approximately \$25,000.
+
+The quick-impact projects were conceived as a trust-building initiative, intended to let community members see that cooperation was possible. Projects, managed by both farmers and pastoralists, included hand pumps; construction or rehabilitation of market stalls, schools, and health centers; and construction of fences along grazing routes to protect farmlands and avoid accidental crop damage. The joint economic development projects aimed to address an underlying issue related to the conflict: sharing of resources that impact livelihoods. Pollution of water, affecting both farming and livestock, was the primary issue people raised. As a result, each site chose to build a new borehole well, with members of both farmer and pastoralist communities helping to construct the wells.  
+
+To ensure support of authorities, the program involved community leaders from both sides in all aspects of the project.  They were involved in the quick-impact projects and joint economic development projects.  We also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.
+
+These projects were designed with the conditions of Contact Theory in mind.  Groups (1) cooperated with (2) equal status to achieve (3) shared goals with (4) support of local authorities.  These projects were meant to help the groups solve, through intergroup cooperation, problems relevant to both groups.  This would reveal to groups that they shared many of the same struggles and that cooperation could help them overcome these struggles.  Collectively, these project give groups the opportunity so send costly signals about their willingness to cooperate [@kydd2000trust, @rohner2013war].
+
+In the next section we describe the research design to determine the effects of intergroup contact on intergroup attitudes and behaviors.
+
+# Research Design
+
+We evaluate the effects of Engaging Communities for Peace in Nigeria (ECPN) with a site-level field experiment.  Each site contains two communities, one of farmers and one of pastoralists.  The communities within a site engaged in deadly clashes within one year of our scoping exercise.[^scope]  We identified fifteen sites eligible for the study and surveyed ~50 randomly selected respondents per community.  We then randomly selected the communities in ten of fifteen sites to receive the ECPN program, blocking by state so that an equal proportion of sites in Benue and Nassarawa received the program.  After 18 months, we surveyed another ~50 randomly selected respondents and ~10 respondents from the baseline survey per community.  In between the surveys, we monitored farmer-pastoralist interactions in markets and at social events.
+
+[^scope]: To identify eligible sites, we undertook a scoping exercise to determine if the two communities in an implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.  
+
+This designs gives us two datasets to analyze.  First, we aggregate the randomly-sampled individuals to compare communities before and after ECPN.  Communities were randomly assigned to receive ECPN or function as a control group, which allows us to determine the causal effect of ECPN at a community-level.  This comparison between communities that received or did not receive ECPN is our main analysis.
+
+Second, we supplement the community-level analysis by creating a dataset of ~10 respondents per community before and after ECPN.  From our baseline random sample, we identified and resurveyed (1) ECPN committee participants, (2) respondents who lived in intervention sites but did not participate in ECPN committees, and (3) respondents from the control group, who neither participated in ECPN committees nor lived in communities where ECPN was implemented.  We then compare the change of participants and nonparticipants in intervention sites to the change in control respondents.  The main goal of this analysis is to learn about the effect of participating directly in ECPN committees, and thus directly experiencing intergroup contact, relative to the effect of living in communities where ECPN was implemented but not participating in committees, and thus only experiencing indirect intergroup contact.  Our ability to make generalizable causal claims about participation is limited, though, because individuals in intervention sites were not randomized into participation or nonparticipation with ECPN committees.[^indRand]
+
+[^indRand]: We initially randomly assigned baseline survey respondents to be part of ECPN committees, but random assignment proved difficult. Many people who were not selected wanted to be on the committees, and some people who were selected were not able to participate or could not be located when the committees were launched. As a result, people self-selected into committees.
+
+[chris: figure showing sampling strategy, numbers per group, and timeline.]
+
+## Estimation
+
+<!--
+- controlling for vs differencing
+- randomization inference
+- bootstrapping SEs
+-->
+
+Here we describe our estimation procedure for the community-level analysis and the individual-level analysis.  For both analyses we estimate one-tailed "greater than" tests because our hypotheses are that the change in outcomes for treatment units will be _greater than_ control, not that the change in outcomes for treatment units will be _different_ than control.  Both analyses also use randomization inference for $p$-values and bootstrapping for standard errors.  The specifics of each procedure are described in Appendix A.
+
+We use the difference-in-differences framework to estimate the effect of ECPN.  We have two observations per community: a baseline outcome and an endline outcome.  To maximize precision, we generally predict endline outcomes while controlling for baseline outcomes. 
+
+$Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + X_{i,j} + \delta_j + \epsilon_{i,j}$
+
+Where $i$ is the community in state $j$, $Z$ is the treatment indicator, $X$ is the outcome at baseline, and $Y$ is the outcome at endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+
+However, the "controlling-for" method is biased when treatment assignment correlates with baseline outcomes.[^control_vs_diff]  Therefore, when the baseline difference between treatment and control groups is greater than 0.20 standard deviations, we use the "differencing" method typical of difference-in-differences estimation.  This method sacrifices power to ensure an unbiased estimate of the average treatment effect.
+
+[^control_vs_diff]: For a comparison between the controlling-for method and the differencing method, see https://declaredesign.org/blog/2019-01-15-change-scores.html.
+
+$Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + \delta_j + \epsilon_{i,j}$
+
+Where $i$ is the community in state $j$, $Z$ is the treatment indicator, and $Y$ is the change in outcome from baseline to endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+
+We use randomization inference for $p$-values and bootstrapping for standard errors because our units of analysis, communities and individuals, are clustered in sites and we have only fifteen sites.  Analytic standard errors may underestimate the uncertainty of our causal estimate [cite].  With randomization inference, we first shuffle the treatment variable to break the relationship between treatment and outcomes.  Next we regress outcomes on treatment using the equations specified above.  We then store the resulting coefficient.  Lastly, we repeat that process 10,000 times to create the distribution of coefficients we would observe if treatment had no effect on outcomes -- the null hypothesis.  Our $p$-value is the proportion of the null distribution that is greater than or equal to our observed coefficient.  Bootstrapping for standard errors is similar, but instead of shuffling the treatment indicator we resample units with replacement.  Bootstrapping yields a distribution of possible treatment effects given the observed data, and the 95% confidence interval is between the coefficients at the 2.5th percentile and the 97.5th percentile.  More details can be found in Appendix A.[^appA]
+
+[^appA]: Randomization inference: We mimic our randomization process by randomizing the intervention to communities in site-level clusters and within state blocks. This means that both communities in an implementation site (farmers and pastoralists) will always be treated together and that assignment to the intervention is conducted separately in Nassarawa and Benue, just as the intervention was assigned in this study.  This procedure ensures that our null distribution is created by randomizing the intervention between exchangeable units.
+
+## Outcomes
+
+We measured three outcomes to estimate the effect of ECPN: (1) intergroup attitudes, (2) intergroup contact, and (3) insecurity.  We measured three mechanisms through which contact could affect outcomes: (1) empathy/perspective-taking, (2) perceived threat, and (3) ingroup recategorization.  We also measured a placebo outcome that the program did not address but that may be affected by social desirability: attitudes about violence.  We measured these outcomes with survey self-reports, survey experiments, a natural-field behavioral game, and monitoring of farmer-pastoralist interaction in markets and social events.
+
+For most survey self-reports, we combine together several survey questions to create an index.  We create both additive indices and inverse-covariance weighted indices. Inverse-covariance weighting constructs an index by down-weighting index questions that are correlated with other index questions and up-weighting those that are uncorrelated with other questions. This approach maximizes the amount of unique information the index takes from each question and prevents “double counting” when two questions measure the same thing.  We report results using inverse-covariance weighted indices, but results hold with additive indices.  Results with additive indices are included in Appendix 2.
+
+### Primary outcomes
+
+**Intergroup contact**: We measure intergroup contact with survey self-reports, two survey experiments, and monitoring of farmer-pastoralists interactions in markets and social events.  The survey questions ask if and how often the respondent interacted with the other group in the past month. The respondents are asked about interaction in markets, at public social events, in the respondent's own home, at the home of a member of the other group, and in any other way.  The responses are then ranked, scaled from 0-1, and combined into an index.
+
+The first survey experiment is a list experiment.  List experiments are used to provide anonymity to respondents and encourage them to give honest answers to sensitive questions.  In a list experiment, the researcher randomly assigns respondents to one of two (or more) conditions. Individuals in the control condition are presented with a list of items; individuals in the treatment condition see the same list plus an additional item, which is the item of interest and the one on which the experimenter wants to ensure the respondent of anonymity. The average difference between the treatment and control conditions represents the percentage of respondents who responded to the sensitive item in a socially undesirable way.  In our case, the sensitive item reads "When you have to interact with a member of [the other group] in the market."
+
+The second survey experiment asks respondents two questions about their willingness to interact with members of the other side.  We asked respondents if they would (1) join a group and (2) live in a community with some percentage of the other group.  The percentage is randomized between 5%, 25%, 50%, and 75%; the percentage is the same for those two questions but varies across individuals.  We take the mean response so that a respondent saying yes to both is assigned a 1, a respondent saying yes to one is assigned a 0.5, and a respondent saying no to both is assigned a 0.  These questions allow us to determine if treatment communities become more willing to interact with outgroup members and if treatment communities become less sensitive to higher proportions of the outgroup.
+
+In the markets, we measured interactions related to buying and selling market goods, such as the number of farmer and pastoralist sellers present and the number of farmer and pastoralist buyers.  We then create a farmers index and a pastoralist index to measure the presence of farmers and pastoralists in the market.  At social events, we measured the number of members of the other group in attendance and the number who ate or drank anything^[Taking food or beverages at a social event is a sign of closeness and intimacy in these contexts. Casual attendees would not take food or beverages], both in absolute numbers and as a percentage of total attendees.  We then create measures for the number of farmers and pastoralists attending social events and the number of farmers and pastoralists eating at social events.
+
+Observations were made in two periods: July 2016 – February 2017, immediately after the project commenced but before joint project committees convened, and September 2017 – December 2017, after project committees convened but before the endline survey began.  Events that occurred February 2017 or earlier are baseline measurements; events occurring September 2017 or later are endline measurements.
+
+**Insecurity**: We measure perceived insecurity with a series of survey questions asking respondents if and how insecurity affected their lives.  We ask if if they avoid any areas during the day or night due to insecurity and if insecurity restricted them from engaging in various activities, such as grazing their animals, working on their farms, fetching water for their families, and working for wages, in the previous year.  We combined the insecurity questions into an index, with high values indicating low perceptions of insecurity and low values indicating high perceptions of insecurity.
+
+**Intergroup trust**: We measure intergroup trust with survey report and an endorsement experiment.  We asked six self-report survey questions, ranging from trust in the other group to comfort with engaging in various activities with members of the other group, such as trading, sharing a meal, and having a family member marry someone from the other group.
+
+In an endorsement experiment, respondents are asked how much they support a hypothetical policy. In the treatment condition, the policy is ‘endorsed’ by a group that the respondent has a positive or negative opinion about. In the control condition, the policy is not endorsed by any group. The average difference in support between the endorsed and unendorsed policy represents the change in support for the policy because of the group's endorsement.  In our case, we asked respondents how much they would support a water policy if it was endorsed by a farmer organization (asked of pastoralists), if it was endorsed by a pastoralist organization (asked of farmers), or if no endorsement was mentioned (the control condition posed to both pastoralists and farmers). Support was measured on a 5-point scale, where high values indicated support and low values indicated opposition.
+
+**Violence Placebo**: We use attitudes about violence as a placebo.  Attitudes about violence are a good candidate for a placebo because ECPN does not address attitudes about violence, but respondents may feel social pressure to answer violence questions in a desirable way.  We measure attitudes about violence with a six question index asking respondents if it is always, sometimes, rarely, or never justified to use violence in certain situations, such as retaliating against violence or bringing criminals to justice.
+
+### Mechanisms
+
+**Threat**: We use three self-report survey questions to measure threat felt by the outgroup.
+
+**Empathy/Perspective-taking**: We measure empathy and perspective-taking with three questions.  First, a question asking if the respondent's group would help a member of the other side if something unfortunate happened to that person, like a serious illness or the death of a parent.  Second, the same question but asking if someone from the other group would help someone from the respondent's group.  And third, a question asking who the respondent believes is responsible for the violence between their community and the other community: the other group or both groups.
+
+**Ingroup recategorization**: We measured respondents' recategorization of the ingroup to include the outgroup with survey self-reports and a public goods game.  Five survey questions ask respondents to answer questions about “people in this area, including people from the other group”, such as if the groups share the same morals and if the groups work together to achieve common goals.  Three more questions ask the respondent about the groups working together on specific goals, such as repairing a road or solving a water supply problem.  <!--survey social cohesion 1 and part of 2, PGG cooperation, -->
+
+We also used a natural-field public goods game to measure the ability of the groups to cooperate to achieve a common goal. Compared with lab-based behavioral games, whose choice-making situations are necessarily artificial, the choice-making situation of a natural-field game is akin to the choices people make in their lives (Harrison and List 2004; Winking and Mizer 2013). Because these communities often decide how to contribute to some public good, such as repairing a borehole or a market, we chose to use a natural-field public goods game (PGG) as a realistic behavioral measure of cooperation.^[This game is similar to the one implemented by Fearon, Humphreys, and Weinstein (2009) as part of a similar study on community-driven development in Liberia.]
+
+These designs and measurements put us in a strong position to identify effects if effects exist.  First, we have data at the community-level and individual-level.  If the two analyses show similar relationships, we can be more sure that those relationships are not spurious.  Second, both community and individual-level analyses use a baseline/endline + control group design to differentiate a secular trend from a treatment effect.  Many things change in the social environment between the beginning and the end of ECPN that could deteriorate intergroup relations, especially an economic downturn in Nigeria and the anti-grazing law in Benue.  By comparing the _change_ in the treatment group to the _change_ in the control, we are more certain that differences are due to ECPN and not other factors.  Third, outcomes are measured using survey self-reports, survey experiments, a behavioral game, and monitoring of social behavior.  If we observe similar relationships across multiple modes we can be more certain that the relationship is not spurious.
+
+
+
+
+# References
