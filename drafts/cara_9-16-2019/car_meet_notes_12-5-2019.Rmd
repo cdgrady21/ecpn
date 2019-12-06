@@ -1,0 +1,54 @@
+---
+title: "meeting"
+author: "Chris Grady"
+date: "12/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overall
+
+Right now is too much.
+
+Lit review about theories, section on case, don't need to talk about other cases until conclusion.
+
+Then dive into "this is what we did".  
+
+A little schizophrenic: either a difficult coordination problem in everyone's interest to minimize conflict, OR a free-rider problem.  Fearon stuff sounds like "we need coordination because all suffering".  Either all in our interest or we have a free-rider problem.
+
+Spillover: changing norms and learning vicariously.  Buy-in from community leaders important, maybe worth re-emphasizing.
+
+Coordinate just while MC is here just while they are here.  Changing norms and diffusion of information.  Some sentences about how spillover is happening and affecting norms.
+
+When you mention something in one section, don't mention it in other sections.  (Except intro, which is a summary of of everything).
+
+Provide a map.  Talking about magnitude of problem is only in intro & context/case section.  Example: in design section, weird reminder ot people that the communities .
+
+In intro, don't need a paragraph about the program.  Just: did a thing, saw effects on 
+
+Intro as a sales pitch.  Maybe not first between groups that are active conflict.  But something like real-life setting with long-run effects.  Programmatic intervention, on the ground with goal of contact to minimize killings.  also using different language all the time to describe it.  For someone aware of a lot of literature, need to describe what is particularly unique.
+
+### Intro
+
+Intro can be punchier, move theory stuff.
+
+can highlight devastation in this case, and what is at stake here.  For the intervention and for contact theory in conflict environments.  Is this just an application?
+
+Term: cooperative contact.  If going to use it, need to define it.  Define it as "contact that meets Allport's conditions, not incidental contact." Either in intro or theory section.  "Take Allport's conditions into effect, calling it cooperative contact because we took into account ALlport's conditions."  Footnote to say many people suggest these conditions do not need to be met.  And explain how the equal status _in_ the contact, how the authorities _in_ the communities sanction it, how they choose a goal jointly, etc.  Then footnote the "possible all conditions don't need to be met, but 
+
+Second "Grossman" paragraph, lots of assumed/ambiguous stuff.  Norms, free-riding, sanctioning, etc...maybe move it to the discussion.  It's distracting.
+
+### Design
+
+Operationalization.  We've been talking about theory, now here is the design.  I'm gonna ask about intergroup trust because it links to contact in these ways.  In surveys we are asking these questions _because_.  These questions let us capture these concepts and these mechanisms.  Otherwise it seems like "where did these come from".  Right now, trust and insecurity don't appear, and then I don't give reasons in the design section.  
+
+Fine to leave mechanisms in and say "more exploratory".  Make sure to foreshadow them well in the theory section.
+
+# todo
+
+9th: full draft of contact paper
+
+20th: tech report of lab experiment.  Right up the most descriptive level and lm_robust and stuff.  Don't make fancy graphs, maybe simple graphs.

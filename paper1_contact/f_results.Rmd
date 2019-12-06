@@ -19,88 +19,76 @@ knitr::opts_chunk$set(echo = TRUE)
 # Key Points
 
 - focus on increased contact + security as behaviorally-relevant outcomes, unlikely for SDB; also trust.  Downplay outcomes that confuse the story.
+- Intergroup attitudes: trust index, endorsement experiment.
+- Intergroup contact: contact index, list experiment, percentile experiment, markets/social events
+- Insecurity: insecurity index
+    - Awareness of conflict (ask how many conflicts).  Then it's "intervention groups were _more_ aware of conflicts and yet felt more physically secure, despite their heightened awareness."
+- Then atts about violence placebo.
 
-## Results Outline
-
-- Individual-Level caveat: not randomly assigned or selected
-    - (1): panel respondents at baseline _do not_ look like a random selection of baseline respondents.
-    - (2): Participants and nonparticipants look similar to each other at baseline.  Participants were not randomly assigned, but look randomly assigned.
-
-- Main Outcomes:
-    - Attitudes/Affect Towards Outgroup
-        - Social Distance
-        - Trust
-        - Affect: List exp, endorsement experiment.
-    
-    - Awareness/Self-report of violent events + perceived security
-
-    - Willingness to interact: Contact questions, Percent experiment, interaction in markets and social events
-
-
-- Mechanisms:
-    - Threat/anxiety
-    - Empathy (helping other group in trouble) & Perspective-taking (who is responsible for violence)
-    - Ingroup expansion: Social cohesion1 + "x_values", public goods game coordination
-    
-    - Bargaining: Index; Fewer shared resources; fewer disputes & more dispute resolution when shared.
-    - Perceived Benefit: benefit_econ: "You currently benefit economically from cooperating with members of [X GROUP]" **chris: wish we had this question with "your community" also.**
-    - Actual Material Benefit: endline only questions about benefitting
-
-Awareness of conflict (ask how many conflicts).  Then it's "intervention groups were _more_ aware of conflicts and yet felt more physically secure, despite their heightened awareness."
-
-Less sharing of farmland and pastureland could imply bargaining.
-
-- Mediators: 
-    - any mechanism with support --> trust/social distance.
-
-- Moderators
-    - group status: pastoralists vs farmers
-    - state: Nas vs Ben
-    - In Benue: IDP camp vs community
-    - SES/radio
-
-- Placebo: 
-    - attitudes about violence
-
-- Extended contact
-    - effects on individuals not part of the progam
-    - effects more on nonparticipants who knew participants?
-
+- then exploratory about mechanisms.
 
 - Other outcomes?
     - peace_commit: You would personally commit to peace with X group, even if members of X group used violence against your group.
 
 
-
-
-## Results
+<!--
+- Moderators
+    - group status: pastoralists vs farmers
+    - state: Nas vs Ben
+    - In Benue: IDP camp vs community
+    - SES/radio
+-->
 
 # Results
 
-**Sig Increase**: Trust, Security, Contact self-report & observed in markets
+Our major finding is that the program improved intergroup attitudes, spurred intergroup contact outside of the program, and reduced feelings of insecurity.  The program had the largest impact on respondents who participated on ECPN committees, but the effect extended to respondents who did not participate with ECPN.  We use coefficient plots to report average treatment effects in our community-level data and in our individual-level data.  We also use coefficient plots to show differences between participants, nonparticipants, and controls in our individual-level data.  All coefficient plots show bootstrapped 95% confidence intervals and standardized coefficients.
 
-**Increase**: Intergroup empathy, some affect survey exps
 
-**Nothing**: Ingroup expansion, observed contact at social events, Dispute resolution index, threat.
+### Contact
 
-**Decrease**: Cooperation in PGG, List Exp, share resources (none sig).
+The effect of ECPN on contact is substantial.  [figure1] shows the effect of ECPN on each contact outcome.  Respondents in treatment communities report more contact and more willingness to engage in contact at all levels of the percent experiment; we also observe more pastoralists in markets interacting with farmers.  Since the markets are all located in the farming community, the sustained presence of pastoralists there suggests that (1) farmers were accepting/tolerant of pastoralists in their community and (2) pastoralists felt comfortable spending time in the farmer community.  The number of farmers present in the markets does not change in either group, which makes sense because the market is inside the farming community.
 
-![](figs/ecpn_coefplots_indices.png)
+chris: side-by-side community and individual coefplots.
+![](../figs/ecpn_coefplots_indices.png)
+
+Descriptively, the data show that intergroup contact declined sharply in control communities but rose slightly in treatment communities.  It is impressive that ECPN increased contact while the social environment led to a sharp decline in control sites.  The secular decline is due to the displacement in Benue, where intergroup contact went down for every group, though it declined far less in treatment sites. In Nasarawa, intergroup contact increased in both treatment and control sites, but far more in treatment sites.  
+
+At the individual-level, intergroup contact increased for committee participants but stayed largely the same for nonparticipants and controls.  The large community-level effect, however, suggests that the effects of ECPN _did_ extend to nonparticipants in treatment comunities.  But the effect did not extend to the type of nonparticipant who we could track down and resurvey.
+
+The list experiment coefficient, however, suggests that the program _increased_ dislike of interacting with the other group in markets, relative to the change in the control group.  Descriptively, dislike of interacting with other groups declines in both the treatment and the control group, but the decline is much larger in the control group.  In fact, the list experiment suggests that, on average, _no one_ in the control group is upset about interacting with the other side in markets.  The endline difference between the 4-item and the 3-item list in the control group is slightly negative, implying that the presence of the 4th item slightly decreased the number of reported items.  The endline difference in almost half of communities is negative, indicating that the list experiment failed.
+
+![](../figs/conCommPlot.png)
+
+### Insecurity
+
+ECPN's substantially increased feelings of security in the treatment group.  The effect is large in both the community-level and the individual-level data.  At the individual-level, there is no difference between participants and nonparticipants, suggesting that these increases reflect a change in the conflict environment that impacts nonparticipants and participants equally.  These improvements in treatment communities are especially powerful because other survey questions show that ECPN increased awareness of the conflict -- respondents in ECPN communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+
+[chris: coefplots side by side]
+
+Descriptively, ECPN communities initially felt less secure than control communities but ended up feeling more secure at the end of the program.  The effect is especially large in Nassarawa, where control communities did not increase but treatment communities increased a very large amount.^[chris note: put in the SD effect].
+
+[chris: diff-in-diff plot]
+
+### Intergroup Affect
+
+ECPN also bolstered intergroup affect on .  Respondents answered
+
+Descriptively, affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.
+
+
+### Placebo Outcomes
+
+Could be social desirability bias -- respondents in treatment villages learned what the enumerators and NGO wanted to hear.  If so, we should expect effects for dispute resolution, intergroup cohesion, PGG, etc...which we do not see.  Would also expect effects for _the acceptability of violence_.  We measured acceptability of violence with a 5 question index.
+
 
 
 *******
 
-## Potential Mechanisms
+## Alternative Mechanisms
 
 **Material Improvement** If the result is explained by the material improvement, we'd expect people who used the borehole to express the most improvement on outcomes.
 
 
-
-
-
-## Placebo Outcomes
-
-Could be social desirability bias -- respondents in treatment villages learned what the enumerators and NGO wanted to hear.  If so, we should expect effects for dispute resolution, intergroup cohesion, PGG, etc...which we do not see.  Would also expect effects for _the acceptability of violence_.  We measured acceptability of violence with a 5 question index.
 
 
 
@@ -118,7 +106,7 @@ We try to address these concerns in three ways. First, we illustrate that the re
 
 ### Displacement
 
- additional limitation of both analyses was the significant displacement in Benue state at the time of the endline. Widespread violence between farmers and pastoralists had forced many of the communities in Benue to flee to safer locations. While we chose randomly among the people we could find, we do not know whether the community members we could locate were somehow different from the broader population in these communities.  Appendix 1 presents evidence that on measured variables, resurveyed respondents in the individual-level analysis are representative of all people from the baseline; we are not able to conduct a similar analysis with the community-level sample. In the discussion section, we provide further explanations for how the interpretation of our results would change if our sample is unrepresentative due to displacement. 
+An additional limitation of both analyses was the significant displacement in Benue state at the time of the endline. Widespread violence between farmers and pastoralists had forced many of the communities in Benue to flee to safer locations. While we chose randomly among the people we could find, we do not know whether the community members we could locate were somehow different from the broader population in these communities.  Appendix 1 presents evidence that on measured variables, resurveyed respondents in the individual-level analysis are representative of all people from the baseline; we are not able to conduct a similar analysis with the community-level sample. In the discussion section, we provide further explanations for how the interpretation of our results would change if our sample is unrepresentative due to displacement. 
 
 ### Program Adaptations
 
