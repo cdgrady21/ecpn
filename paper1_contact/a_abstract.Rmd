@@ -18,6 +18,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Intergroup contact an important tool for improving intergroup relations, but is it effective reducing group conflict.  The method is mainly tested with groups who dislike each other but are not engaged in violence.  
 
+
+Acknowledgements: Israel Okpe, Hadiza Nuhu, and Mercy Corps Nigeria team for making this project possible and doing the hard work of implementing the program.  Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Cara Wong, Jim Kuklinski, Jake Bowers, and Dave Zhao for their invaluable comments on this work.  Thank the National Science Foundation for supporting this research under Grant No. 1656871. Thank USAID for supporting the Mercy Corps intervention.  A big thank you to the communities and community members who participated in the study.
+
 <!--
 
 The contact hypothesis: .  Ultimate goal is to reduce group conflict.  Mainly tested in labs, mainly tested with groups or people who dislike each other but are not in active conflict.
