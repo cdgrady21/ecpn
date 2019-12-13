@@ -1,6 +1,8 @@
 ---
 title: "Improving Intergroup Relations Amid Group Conflict - Results"
 author: "Christopher Grady"
+header-includes:
+   - \usepackage{float}
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
   pdf_document:
@@ -15,7 +17,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+<!--
 # Key Points
 
 - focus on increased contact + security as behaviorally-relevant outcomes, unlikely for SDB; also trust.  Downplay outcomes that confuse the story.
@@ -43,50 +45,113 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Our major finding is that the program improved intergroup attitudes, spurred intergroup contact outside of the program, and reduced feelings of insecurity.  The program had the largest impact on respondents who participated on ECPN committees, but the effect extended to respondents who did not participate with ECPN.  We use coefficient plots to report average treatment effects in our community-level data and in our individual-level data.  We also use coefficient plots to show differences between participants, nonparticipants, and controls in our individual-level data.  All coefficient plots show bootstrapped 95% confidence intervals and standardized coefficients.
 
+Figure 1 and 2 shows ECPN's effect on outcomes.  Figure 1 shows the main analyses, where the solid lines are the community-level data and the dashed lines are the individual-level data.  Figure 2 shows participants and nonparticipants compared to controls.
 
-### Intergroup Affect
-
-ECPN bolstered intergroup affect in treatment communities.  [Figure1] shows the effect of ECPN on the two intergroup affect outcomes.  Respondents in treatment communities report more trust the other group and are more comfortable engaging in various relationships with the outgroup, such as trading goods and intermarriage.  Intergroup affect as measured by the endorsement experiment also improves more in the treatment group than the control group, though the difference is not statistically significant at conventional levels.
-
-Descriptively, affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.  As measured by the endorsement experiment, affect declines in both treatment and control communities, but declines more in control communities.  Both measures suggest that ECPN improved affect towards the outgroup.
-
-
-### Contact
-
-The effect of ECPN on contact is substantial.  [figure2] shows the effect of ECPN on each contact outcome.  Respondents in treatment communities report more contact and more willingness to engage in contact at all levels of the percent experiment; we also observe more pastoralists in markets interacting with farmers.  Since the markets are all located in the farming community, the sustained presence of pastoralists there suggests that (1) farmers were accepting/tolerant of pastoralists in their community and (2) pastoralists felt comfortable spending time in the farmer community.  The number of farmers present in the markets does not change in either group, which makes sense because the market is inside the farming community.
-
-chris: side-by-side community and individual coefplots.
-![](../figs/ecpn_coefplots_indices.png)
-
-Descriptively, the community-level self-reports show that intergroup contact declined sharply in control communities but rose slightly in treatment communities.  It is impressive that ECPN increased contact while the social environment led to a sharp decline in control sites.  The secular decline is due to the displacement in Benue, where intergroup contact went down for every group, though it declined far less in treatment sites. In Nasarawa, intergroup contact increased in both treatment and control sites, but far more in treatment sites.  
-
-At the individual-level, intergroup contact increased for committee participants but stayed largely the same for nonparticipants and controls.  The large community-level effect, however, suggests that the effects of ECPN _did_ extend to nonparticipants in treatment comunities.  But the effect did not extend to the type of nonparticipant who we could track down and resurvey.
+\begin{figure}[!h]
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/ecpn_coefplots_MainOuts-cats.png}
+		%\caption{Look at fig 1!}
+		\label{fig:fig1}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/ecpn_coefplots_MainOuts_panel-cats.png}
+		%\caption{Look at fig 2!}
+		\label{fig:fig2}
+	\end{minipage}
+\end{figure}
 
 
-![](../figs/conCommPlot.png)
+## Intergroup Affect
 
-### Insecurity
+ECPN bolstered intergroup affect in treatment communities.  Respondents in treatment communities report more trust the other group and are more comfortable engaging in various relationships with the outgroup, such as trading goods and intermarriage.  Intergroup affect as measured by the endorsement experiment also improves more in the treatment group than the control group, though the difference is not statistically significant at conventional levels.
 
-ECPN's substantially increased feelings of security in the treatment group.  The effect is large in both the community-level and the individual-level data.  ECPN communities improved [chris: SD effect] more from baseline to endline than control communities.  At the individual-level, participants and nonparticipants improved equally, suggesting that these increases reflect a change in the conflict environment that impacts the entire community, not just respondents involved in ECPN committees.  These improvements in treatment communities are especially powerful because other survey questions show that ECPN increased awareness of the conflict -- respondents in ECPN communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+Figures 3 and 4 show the effect of ECPN on the intergroup affect survey index. Descriptively, affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.  As measured by the endorsement experiment, affect declines in both treatment and control communities, but declines more in control communities.  Both measures suggest that ECPN improved affect towards the outgroup.
 
-[chris: coefplots side by side]
+\begin{figure}[!h]
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/affectComm_plot.png}
+		%\caption{Look at fig 1!}
+		\label{fig:fig3}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/affectPan_plot.png}
+		%\caption{Look at fig 2!}
+		\label{fig:fig4}
+	\end{minipage}
+\end{figure}
 
-Descriptively, the security of control communities is largely unchanged from baseline to endline but the security of treatment communities increased substantially.  ECPN communities initially felt less secure than control communities but were more secure at the end of the program.  The effect is especially large in Nassarawa, where control communities did not increase but treatment communities increased a very large amount.^[chris note: put in the SD effect].  ECPN substantially the security of people in intervention communities.
+## Contact
 
-[chris: diff-in-diff plot]
+The effect of ECPN on contact is substantial.  Respondents in treatment communities report more contact and more willingness to engage in contact at all levels of the percent experiment; we also observe more pastoralists in markets interacting with farmers.  Since the markets are all located in the farming community, the sustained presence of pastoralists there suggests that (1) farmers were accepting/tolerant of pastoralists in their community and (2) pastoralists felt comfortable spending time in the farmer community.  The number of farmers present in the markets does not change in either group, which makes sense because the market is inside the farming community.
 
+\begin{figure}[!h]
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/conComm_plot.png}
+		%\caption{Look at fig 1!}
+		\label{fig:fig5}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/conPan_plot.png}
+		%\caption{Look at fig 2!}
+		\label{fig:fig6}
+	\end{minipage}
+\end{figure}
 
-### Placebo outcome: attitudes about violence
+Figures 5 and 6 shows the effect of ECPN on the contact survey outcomes. Descriptively, the community-level self-reports show that intergroup contact declined sharply in control communities but rose slightly in treatment communities.  It is impressive that ECPN increased contact while the social environment led to a sharp decline in control sites.  The secular decline is due to the displacement in Benue, where intergroup contact went down for every group, though it declined far less in treatment sites. In Nasarawa, intergroup contact increased in both treatment and control sites, but far more in treatment sites.  
 
-To provide evidence that these survey results are due to intergroup contact and not due to social desirability bias, we analyze the effect of ECPN on attitudes about violence.  If ECPN affects attitudes about violence, then we worry that other self-reports were affected by social desirability bias.  If ECPN has no effect on attitudes about violence, then it is unlikely that other self-reports were affected by social desirabilty bias.  
+At the individual-level, intergroup contact increased for committee participants but stayed largely the same for nonparticipants and controls.  The large community-level effect, however, suggests that the effects of ECPN _did_ extend to nonparticipants in treatment communities.  But the effect did not extend to the type of nonparticipant who we could track down and resurvey.
 
-ECPN has no effect on attitudes about violence in the community-level data or the individual-level data.  Table [chris: insert table] shows two different ways of estimating the effect and two different ways of measuring attitudes about violence.
+## Insecurity
+
+ECPN's substantially decreased feelings of insecurity in the treatment group.  The effect is large in both the community-level and the individual-level data.  Security in ECPN communities improved far more from baseline to endline than in control communities.  At the individual-level, participants and nonparticipants improved equally, suggesting that these increases reflect a change in the conflict environment that impacts the entire community, not just respondents involved in ECPN committees.  These improvements in treatment communities are especially powerful because other survey questions show that ECPN increased awareness of the conflict -- respondents in ECPN communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+
+\begin{figure}[!h]
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/inComm_plot.png}
+		%\caption{Look at fig 1!}
+		\label{fig:fig7}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../figs/inPan_plot.png}
+		%\caption{Look at fig 2!}
+		\label{fig:fig8}
+	\end{minipage}
+\end{figure}
+
+Figures 7 and 8 show the effect of ECPN on insecurity.  Descriptively, the insecurity of control communities is largely unchanged from baseline to endline but insecurity in treatment communities declines substantially.  ECPN communities initially felt more insecure than control communities but were more secure at the end of the program.  ECPN substantially the security of people in intervention communities.
+
+## Placebo: attitudes about violence
+
+To provide evidence that these survey results are due to intergroup contact and not due to social desirability bias, we analyze the effect of ECPN on attitudes about violence.  If ECPN affects attitudes about violence, then we worry that other self-reports were affected by social desirability bias.  If ECPN has no effect on attitudes about violence, then it is unlikely that other self-reports were affected by social desirability bias.  
+
+ECPN has no effect on attitudes about violence in the community-level data or the individual-level data.  [note: will add table] Table 1 shows two different ways of estimating the effect and two different ways of measuring attitudes about violence.
 
 ## Mechanisms: Empathy, Threat, and Ingroup Expansion
 
-Our results suggest that ECPN improved intergroup relations between farmers and pastoralists.  
+Our results suggest that ECPN improved intergroup relations between farmers and pastoralists.  We also undertook an exploratory analysis to learn the mechanisms through which ECPN affected attitudes.  Based on the literature about contact theory, we looked for evidence that ECPN worked through empathy and perspective-taking, reduced feelings of threat, and expansion of the respondent's ingroup to include the former outgroup.
 
+Our exploratory analysis suggests that ECPN may have worked through increasing empathy.  ECPN led to increased empathy in the community and individual-level analyses.  In turn, increased empathy correlated with improved intergroup affect in the community-level data and with increases in intergroup affect and intergroup contact at the individual level.  Increased perspective-taking also correlated with intergroup affect and intergroup contact in both analyses. ECPN may have led to increased perspective-taking, though not quite to a statistically significant level.  Though this analysis is only exploratory, it suggests that increased empathy is a plausible mechanism through which ECPN improved intergroup relations.  Because empathy was not randomly assigned, though, it's equally plausible that ECPN improved intergroup affect and fostered intergroup contact, and that those outcomes led to increased empathy.
 
+There is no evidence that ECPN reduced perceptions of threat or expanded perceptions of the ingroup.  ECPN did not effect either survey index, and the public goods game shows that the treatment group was not better at coordinating than the control group.  Treatment communities donated _less_ to the shared community fund than control communities.  At the individual-level, ECPN participants donated less than nonparticipants who donated less than respondents in the control group.  This is the opposite pattern of what we would expect if intergroup contact caused the communities to think of each other as part of one ingroup.  Reduced threat and ingroup expansion are still plausible psychological mechanisms -- each correlated strongly with at least one outcome -- though neither was increased by ECPN.
+
+[Table: Rows are mechanisms, columns are outcomes, separated by community vs individual analyses.  Show coefficient (pvalue).]
+
+<!--
+Community:
+-ECPN maybe increases empathy increases, by these measures (Below 0.10 pvalue).  Empathy correlates with intergroup attitudes; some correlation with security.
+-ECPN does not cause perspective-taking, but again only one question.  Perspective-taking does correlated with intergroup attitudes, contact, and somewhat security (p<.10).
+-Cannot work through reduced feelings of threat because ECPN does not correlate with feelings of threat.  Threat is negatively correlated with intergroup affect, though.
+-ECPN does not increase ingroup expansion.  But change here correlates with intergroup attitudes.
+
+Individual: 
+-ECPN does increase empathy.  Improving empathy correlated with improving intergroup attitudes, intergroup contact, but not security.  -ECPN increases perspective-taking a bit, but not to a statistically significant level (remember, only measured with one question).  perspective-taking correlates with intergroup attitudes and contact.  Plausible mechanism with some suggestive/exploratory evidence.
+-ECPN does not reduce feelings of threat.  But feelings of threat negatively correlated with intergroup attitudes, contact, and security.  Plausible mechanism.
+-ECPN does not cause ingroup expansion, but ingroup expansion correlated with intergroup attitudes and contact.  Somewhat with security.
+-->
 
 <!--
 ## Alternative Mechanisms

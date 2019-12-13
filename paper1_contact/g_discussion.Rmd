@@ -48,20 +48,33 @@ options(SweaveHooks=list(fig=function(){
 	)
 ```
 
+This paper provides evidence that intergroup contact can improve intergroup relations, even in dire circumstances.  We tested a programmatic contact intervention in an active and escalating conflict between farmers and pastoralists in Nigeria.  This context poses a tough test for contact to improve intergroup relations because the groups' material, social, and psychological incentives are opposed.  Despite the difficult context, the program improved intergroup affect, fostered more intergroup contact, and decreased feelings of insecurity in these communities.  Methodologically, this study highlights the benefits of measuring outcomes at baseline and endline in a treatment group and in a control group as a means of capturing the secular trend.
+
+We join a number of studies testing the effects of contact in real-world conflict situations.  More studies need to be conducted to determine the limits of contact and the conditions under which contact can effectively improve intergroup relations.  In our case, we believe that the presence of a shared latent interest was the condition necessary for contact to improve relations and improve prospects for peace.  Cooperative contact helps reveal the latent shared interest to both groups by demonstrating how the groups can work together to achieve a common goal and removing psychological and social barriers to identifying the shared interest.  Contact also provides the groups with opportunities to send costly signals of their intent to cooperate, which are important for intergroup cooperation [@kydd2000trust].
+
+This study highlights several opportunities to learn about the effects of contact in conflict environments.  First, since our goal was to test the hypothesis that contact would improve group relations in an active conflict, we did not attempt to bring causal evidence to the question of _how_ contact improves group relations.  Our analysis of mechanisms was only exploratory but suggests that contact may have worked through increased empathy.  Second, our program was implemented and randomized at the community-level, not at the individual-level.  Future studies should consider how much contact it takes to improve attitudes, as well as how social norms and interpersonal discussion diffuse the positive effects of contact to individuals without outgroup contact.
+
+Third, contact interventions, explicitly or implicitly, involve the groups cooperating to _achieve_ a joint goal.  But what if contact is not successful and the goal is not achieved?  Does contact itself still improve attitudes, or does contact work because groups begin to associate cross-group cooperation with good outcomes?  In a similar vein, are Allport's conditions necessary for contact to achieve its aims, or are they only needed insofar as they ensure the intergroup cooperation generates positive outcomes for both groups?
+
+Lastly, we see an opportunity for collaboration between scholars of intergroup contact and scholars of conflict.  These literatures are often concerned with the same end goals -- reducing conflict -- but rarely speak to one another.  Conflict scholars often see conflict as a bargaining problem, and violence as a bargaining failure.  This literature points to a lack of trust as the primary cause of conflict and usually posit a strong third party actor as necessary to guarantee peace.  Intergroup contact research hints that intergroup contact can create cooperative norms that serve the same function as a strong third party, perhaps by encouraging ingroup policing [@fearon1996explaining].  Improving relations -- especially improving trust -- through psychological interventions like intergroup contact can help groups overcome commitment problems and reduce the likelihood of violence.
+
+
+<!--
+
 # Key points
 
-- Contact mainly tested in lab between minimally different groups. We tested with groups actiely fighting.  Toughest test because these groups have most reasons for animosity, trends/forces driving them apart and pushing them towards conflict.  Despite that, we see many positive effects.
+- Contact mainly tested in lab between minimally different groups. We tested with groups actively fighting.  Toughest test because these groups have most reasons for animosity, trends/forces driving them apart and pushing them towards conflict.  Despite that, we see many positive effects.
 - Importance of cooperation == group benefit?
     - Humans are goal-driven.  In a lab experiment, @grady2019contact suggests that cooperative contact only improves attitudes towards the outgroup if the cooperation achieve its objective.
-    - Similar to @kydd costly signal: assure other side that working together will be good. Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side. @jha2013trade: interethnic trade that benefitted both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting [@rohner2013war].
+    - Similar to @kydd costly signal: assure other side that working together will be good. Also applies to indirect contact: have to hear about or observe contact going well to want contact with the other side. @jha2013trade: interethnic trade that benefited both parties created norms of interethnic cooperation; those norms continued to have effects centuries later.  Intergroup contact often entails reciprocal exchanges like trade, which can provide tangible evidence that both groups are materially better off cooperating than fighting [@rohner2013war].
     - Reveal latent shared interests by removing barriers to identifying those interests.  Hard to believe there is a shared interest while holding negative stereotypes about the other group, such as their lack of trustworthiness and their ingroup favoritism.  Hard to see a shared interest when interacting with the other group causes anxiety due to feelings of threat.  Hard to see a shared interest when you do not identify any shared identities.  Contact removes these barriers.
 
 
-### Challengs == Opportunities
+### Challenges == Opportunities
 
 - more field experiments; this is only one.
 - randomization at individual-level
-- groups equally benefitting from intervention
+- groups equally benefiting from intervention
 - vary the mechanisms as much as possible
 - systematically vary the benefit received from contact (contact itself or contact's success)
 
@@ -77,24 +90,16 @@ need more field experiments; this is only one.  Contact mainly tested in lab bet
 Methodological: "baseline/endline + control group as a means of capturing the secular trend".
 
 Contact and Allport's conditions: maybe not about the conditions, but about beliefs that cooperation/interaction with the outgroup will help individuals achieve their goals.  People are goal-oriented, with material, social/status, psychological/internalized moral, and evolutionary goals. People do things to achieve those goals.  People like things that help them achieve their goals.  If intergroup cooperation leads to positive outcomes, I will do more of it and I will like that group.
-
 Interacting with some other group with equal status == likely that my opinions/desires taken into account, whereas unequal status == my opinions/desires are subordinated.  Institutional support == likely that social norms are on my side.  No institutional support == very possible that social norms are not on my side.  Common goals == group working on something that is good for me and good for them; can trust them to work on it, too.  @grady2019contact suggests that cooperative contact most effectively improves attitudes towards the outgroup if the cooperation achieve its objective.  Economic incentives improve attitudes about peace (Jha and Shayo 2019 - Valuing Peace).
 
 
 Conclusion/summary: Intergroup contact improves intergroup attitudes.  Could contact-based programs effectively improve attitudes amongst groups in conflict?  Take-away: Evidence that this peacebuilding intervention increased trust between conflicting groups.  And group members feelings of physical security increased.
 
-Increased trust.  No sign of other outcomes/mechanisms.
-
 Further research needed to see if improving relations reduces conflict.  One strand of literature sees conflict as a bargaining problem, and violence as a bargaining failure.  In theory, groups should avoid fighting and reach peaceful solution because fighting is costly.  Yet group conflict is common.  This literature points to a lack of trust as the primary cause of conflict.  Improving relations -- especially improving trust -- can help groups overcome commitment problems and reduce the likelihood of violence.
 
-Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trut and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
+Bridging formal theory and rationalist perspectives with psychological perspectives.  Thinking about psychological implications on games like bargaining, prisoner's dilemma/collective action problems, stag hunt, and trust/trust + reassurance games.  How do psychological conditions like prejudice change preferences and behavior in these games?  Ostrom called for interdisciplinary work about variables affecting likelihood of collective action [@ostrom2003trust]. Cannot always test these variables in a lab -- groups have histories that create trust and distrust, violence occurs in real world, signals of trust are embedded in and can get dwarfed by wider social contexts, my self-conception as a "nice" person is connected to my real world behavior but maybe not my lab behavior, etc...
 
 
-
-
-More work to confirm effect, specify conditions and mechanisms.  Not clear that program improved attitudes/reduced animosity, other than trust and social distance.  No significant increase in cohesion.  No reduction in threat.
-
-Not clear that the program increased people's confidence in dispute resolution systems.
 
 Mechanism could be "ability to identify local outgroup from non-local outgroup"?
 
@@ -107,20 +112,21 @@ Would this happen without NGO?  Presence of outside group encouraging the intera
 
 Future: mechanisms and ways to scale up.  Mechanisms could be many things.  Ways to scale up: cannot have every group in conflict meet.  Scale up with contact between key actors that could diffuse the positive effects of contact & change social norms.  Media programs and observational/vicarious contact.
 
-Some mechanisms of intergrop contact theory clearly will not function here.  Reduced outgroup threat (("Sullivan, Pierson, & Marcus, 1982; Gibson, 2006). If citizens perceive or experience threat from an out-group, they are more likely to be intolerant toward that group)".  Ingroup expands to include outgroup -- no way.  Empathy yes.  Belief that working together will benefit us == yes.
+Some mechanisms of intergroup contact theory clearly will not function here.  Reduced outgroup threat (("Sullivan, Pierson, & Marcus, 1982; Gibson, 2006). If citizens perceive or experience threat from an out-group, they are more likely to be intolerant toward that group)".  Ingroup expands to include outgroup -- no way.  Empathy yes.  Belief that working together will benefit us == yes.
 
-Other Mechanisms: assist intergroup bargaining with opportunities for costly signaling, increased trust.  Increase ingroup policing.  Increase social norms against intergroup violence.  Change interpsonal attitudes?
+Other Mechanisms: assist intergroup bargaining with opportunities for costly signaling, increased trust.  Increase ingroup policing.  Increase social norms against intergroup violence.  Change interpersonal attitudes?
 
-<!--Scaling up with TV/radio -->
 An important question is scaling intergroup contact to larger conflicts.  Intergroup contact is unlikely to deter violence between groups involved in large-scale ethnic war where opposing armies commit atrocities, for example.  It's also unlikely to naturally occur between groups with limited contact to each other, or for people who consciously select out of intergroup contact situations.
 
 An attempt to scale-up intergroup contact can use mechanisms of social or vicarious learning.  Research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].  @paluck2009jsp used dramatic radio programs to influence attitudes and behaviors in a post-conflict setting to some effect, and a similar strategy could be used in a conflict setting.
-<!--From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.-->
+
+From original intro; Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.
+
 Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.  Future work should also investigate "scaling up" grassroots interventions, especially those involving intergroup contact.  Not every conflicting group can have contact with the other side.   Contact between key actors that could diffuse the positive effects of contact & change social norms.  And research shows that even _observing_ interactions between a member of your group and a member of a disliked group can improve attitudes [@vezzali2014indirect].  Television and radio programs may thus provide intergroup contact between groups with limited exposure to each other [@mazziotta2011vicarious].
 
 Could be social desirability bias?  Would indicate the program changed social norms -- still valuable.
 
-Could be survey acquescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
+Could be survey acquiescence bias -- randomization exp "yes" up on all topics.  But other "placebo" outcomes don't go up.
 
 More research needed about using intergroup contact to promote peace between people in conflict.
 
@@ -146,7 +152,7 @@ An additional limitation of both analyses was the significant displacement in Be
 
 Finally, due to the fluid nature of conflict dynamics and the need to adapt the program when necessary, we were not able to maintain separation between intervention and control sites (i.e., there was contamination). For example, the team conducted an intercommunity peace forum in one intervention site, but community leaders requested that leaders from a neighboring site—which happened to be a control site—attend the forum because of a recent conflict event that had spread across the area. The program team decided to risk contamination of the research by including the control site in that one forum, for the sake of the program’s success. This type of contamination was limited as much as possible, and to the extent that it may affect results of the study, it would attenuate the results, working against our hypotheses rather than in favor of them. 
 
-
+-->
 
 
 

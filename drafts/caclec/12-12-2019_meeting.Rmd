@@ -1,0 +1,83 @@
+---
+title: "paper_12-12-2019"
+author: "Chris Grady"
+date: "12/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Nuole
+
+- methods section needs to be tighter.  explain both estimators separately and then why i used one or the other.  Nuole wrote down tighter language.  This is too much "here is the process" and we just need to know what you did, not why you did it.
+
+- Doesn't like discussion of latent interests.  And you only bring it up once as a last sentence, and then move on.  And then in the discussion you don't say much about it.  Much bigger thing, drives what I think in the first place.  More in intro, theory, and discussion.  Feels out of nowhere because not mentioned much.
+    - can be "new part of theory that is missing", but don't test it, so maybe not.  Just feels rough.
+
+- Sampling & randomization is confusing.  Need a figure to show how you are doing what.
+- can use captions on figures: also replace "panel" with "individual" in diff-in-diff plots.
+
+## Ekrem
+
+- Generally when talking about theory, "common interset" vs "opposed intersest" thing is not clear in paper; confusing and not consistent across the paper.  sometimes just mention opposing intersts, sometimes mentioning common intersts comes far later.  They should be mentioned together every time in close proximity.  Otherwise will be confusing.
+
+- Except the coefplot, other figures should be changed.  Coefplots tell us everything; other DiD plots just give us a bit more detail/show the trend.
+    - maybe a panel of boxplots.
+    - lack of uncertainty in them is weird.
+    - even if keep current ones, add something about distributions.
+
+- results broken down by farmers and pastoralists.  
+    - where the current figures are is a great place to look at farmer/pastoralist differences.
+
+- methods discussion is too detailed.  Too much information makes discussion seem scattered.  Given that I have all these ways of measuring things and different tests, too much is going on.  Half of detail can go away.
+    - Placebo can go to an appendix probably.
+    - Economize something.
+    - Can talk about all of te measurement stuff in appendix.  "Here is our measure of X.  Anyone intersted in X can learn about it in the appendix."
+
+- Mechanisms in some parts are too repetitive.  Too many versions of same sentence over and over again.  One time intro, one time theory, one time discussion.  Don't need to mention it so many times.
+
+## Caglayan
+
+- Organization of results: complicated to track all the things I did.  Primary outcomes: a table which the outcomes that are under each main outcome.  Outgroup affect, contact, etc...
+    - similar thing for variables as well.  See page 15.  Make a table for the measures.  Make a table for all the tests.
+
+- coming from non-psych perspective, thinking a lot about power dynamics between farmers and pastoralists.  How do power dynamics work before conflict? What about during conflict?  If one is weaker, more desire to engage in cooperation and end conflict.  Address this point.
+
+- Mention that groups are not able to identify their latent shared interest.  BUt why not?  Not completely clear yet.  Suggestion: when talking about the mechanisms (empathy, threat, expansion), link these to reasons why groups are not able to identify latent shared interest.  _Latent shared interest needs to come earlier._ 
+    - underlying reason need contact: cannot identify latent interest _because_ lack empathy, feel threat, etc.  why cannot they identify their latent shared interest?
+    - not able to foresee long-term interest?  Latent is long-term?
+    - page 6: reference powell and bargaining.  maybe bring that perspective more for a reason groups are fighting.  And how that works with psych variables.  What is my response to that perspective?
+        - chris: cannot do this because psych ppl
+        - don't need to make it against bargaining people.  Ekrem says need to remove.
+
+- Now framing paper as "ppl tested contact in other cases, but not in ongoing conflit cases."  Since this is main frame, provide more detail about why ongoing conflict is particularly important/hard.  Why more interesting than testing it right after conflict or just before conflict?  Talking about fighting and learning capabilities.
+    - Ekrem: still needs to highlight more the violence more strongly.  Active conflict and blood and stuff.  More about killing and blood and stuff.
+    - chris: need to do this without making scacco et al upset.
+
+- perception of threat vs real threat accurately perceived?
+
+## Alice
+
+- we always knew research was good, but not write up is good.
+- a lot of reactions similar to: how to tighten and remove.  can be made punchier, mostly through better figures and tables.
+- intro and conclusions are good and tight.  summary without being repetitive.
+    - other sections have some repetition.  stand out as being less tight in comparison to intro and conclusion.
+- statement of contribution + discussion of implications at the end is very tight.
+- section 3: context.  bordering on too much information.  But really likes it.
+    - could cut if need space.  caglayan agrees.
+- methods: half can go in appendix.  What happened; slid/reverted back to report-y style a little bit.  Frequent headers, section-y, has report-y vibe.  Also too much information.
+    - measures of outcomes: can be closer in space to the result about the measure.
+    - needs: graphical representation about randomization, big summary table of all tests on this project (with words to desribe), captions on other images.  Need to understand everything from table about randomization, coefplot, and summary.
+- mention that it was pre-registered.  Footnotes "the backbone of the study was pre-registered [link].  Sentence saying what big chunks are not pre-registered."
+    - ask matt (jake?) about this.
+    - nuole: "these outcomes are part of a group of outcomes that were pre-registered."
+- most meta comment: been talking about these two groups being embedded in a much bigger context.  fighting for sparse resource becoming sparser, gov favoring one group over the other, etc..  what do interventions like this get us?  Above the big factors these interventions cannot effect?
+    - still limit the violence.  Not a panacea for stopping war/conflict. But acting in currently conflictual conflict to de-escalate, move people to less violent resolutions.
+    - one additional paragraph in discussion.  Bring the paper up to a larger level about conflict.  What do we learn about conflict management?  IR not disputing that stereotypes contribute, but these groups are not just fighting because stereotypes.  How to integrate this as a tool in conflict management when other big factors are present.
+
+- small dissonance: talking about cooperative contact being one with a common goal.  But then talk about contact that does not involve cooperation, like school desegregation.  That is just "contact".
+
+
+
