@@ -1,0 +1,19 @@
+---
+title: "z_appendices"
+author: "Christopher Grady"
+date: "December 13, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Appendix 1: Randomization Inference and Bootstrapping
+
+**Randomization inference and bootstrapping**: With randomization inference, we first shuffle the treatment variable to break the relationship between treatment and outcomes.  Next we regress outcomes on treatment using the equations specified above.  We then store the resulting coefficient.  Lastly, we repeat that process 10,000 times to create the distribution of coefficients we would observe if treatment had no effect on outcomes -- the null hypothesis.  Our $p$-value is the proportion of the null distribution that is greater than or equal to our observed coefficient.  Bootstrapping for standard errors is similar, but instead of shuffling the treatment indicator we resample units with replacement.  In each of these procedures, we mimic our randomization process by randomizing the intervention to communities in site-level clusters and within state blocks. This means that both communities in an implementation site (farmers and pastoralists) will always be treated together and that assignment to the intervention is conducted separately in Nasarawa and Benue, just as the intervention was assigned in this study.  This procedure ensures that our null distribution is created by randomizing the intervention between exchangeable units.
+
+chris: code.
+
+
+# Appendix 2: Results for additive indices
