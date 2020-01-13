@@ -16,10 +16,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Intergroup contact an important tool for improving intergroup relations, but is it effective reducing group conflict.  The method is mainly tested with groups who dislike each other but are not engaged in violence.  
+Cooperative intergroup contact, originally designed as a tool for prejudice reduction, offers a promising means to resolve group conflict.  Evidence for contact-based interventions, however, is sparse, and violence may nullify the effects of contact.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior, and a behavioral game.  We find that participation in the program increases intergroup contact, intergroup trust, and perceptions of physical security among group members; many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to bargaining between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
 
 
-Acknowledgements: Israel Okpe, Hadiza Nuhu, and Mercy Corps Nigeria team for making this project possible and doing the hard work of implementing the program.  Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Cara Wong, Jim Kuklinski, Jake Bowers, and Dave Zhao for their invaluable comments on this work.  Thank the National Science Foundation for supporting this research under Grant No. 1656871. Thank USAID for supporting the Mercy Corps intervention.  A big thank you to the communities and community members who participated in the study.
+<!--Acknowledgements: Rebecca Wolfe, Lisa Links, Danjuma Dawop, Israel Okpe, Hadiza Nuhu, Tahiru Ahmadu, Ibraham Hassan and the rest of the Mercy Corps Nigeria team for making this project possible and doing the hard work of implementing the program.  Nuole Chen, Ekrem Baser, Alice Iannantuoni, Caglayan Baser, Charla Waeiss, Cara Wong, Jim Kuklinski, and Jake Bowers for their invaluable comments on this work.  Thank the National Science Foundation for supporting this research under Grant No. 1656871. Thank USAID for supporting the Mercy Corps program.  A big thank you to the communities and community members who participated in the study.-->
 
 <!--
 
