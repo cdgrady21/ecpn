@@ -1,5 +1,5 @@
 ---
-title: "Promoting Peace Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria - Overall Outline"
+title: "A collective action problem causes the between-group commitment problem "
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
@@ -16,105 +16,16 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Abstract
+# Brainstorm
 
-Intergroup conflict is responsible for many of the worst displays of human nature.  In this paper we test the ability of psychological reconciliation through intergroup contact to contribute to peace between groups involved in violent conflict.  Intergroup conflict often mitigated by groups outside the conflict, like foreign military intervention (peacekeepers), foreign mediation, or 3rd party that enforces bargaining agreements.  However, intervention by outside groups is costly, time-consuming, cannot influence many intergroup conflicts, and not universally successful at reducing violence.  We propose psychological reconciliation through intergroup contact as an alternative to outside factors.  Groups in conflict develop negative attitudes about the other group that make peace impossible.  Outside groups often serve as substitutes for positive intergroup attitudes, but psychological reconciliation could improve intergroup attitudes directly.  Improved intergroup attitudes should allow the conflicting groups to settle disputes even in the absence of outside actors.  We test the ability of psychological reconciliation programs to promote peace between violently conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We find that the programs increase intergroup trust and the physical security of group members.  We do not find evidence for alternative mechanisms through which psychological reconciliation could reduce violence, such as reducing outgroup threat or expanding the conception of ingroup to include the former outgroup.  These results suggest that psychological reconciliation can promote peace between groups in conflict.
-
-
-# Intro
-
-<!--Start concrete with a story so people really understand.  Then zoom out for generalizing/abstraction about conflict and a theory we have about it, then zoom in again on the particular conflict in Nigeria and then zoom out again with what we can learn from it. -->
-
-Story about burnt down village
-
-Story about village defending pastoralists.  Making conflict and contact concrete.
-
-What accounts for the difference?  Say our argument about intergroup prejudice fueling and being fuled by intergroup conflict.  Psychological reconciliation can reduce intergroup prejudice and mitigate violence.  Peacebuilding programs can achieve this through intergroup contact and superordinate goals.
-
-Intergroup conflict is a bargaining problem exacerbated by lack of intergroup trust.  Groups do not trust each other to honor comittments and worry that the other group is deceiving.
-
-Groups in conflict often highly prejudied, hold strongly negative attitudes that make peace difficult.  Psych reconciliation, like intergroup contact, can improve intergroup attitudes and increase intergroup trust.  Reducing intergroup prejudice —> increases trust —> lessens info and commit probs —> increases likelihood of solving disputes through bargaining rather than violence.
-
-Say what we did in context of farmer-pastoralist conflict.  Some context, some intervention design, some evaluation.
-
-Say what we found.  It seems primarily through intergroup contact.  
-
-Say implications for: (1) conflict resolution, especially intergroup and intercommunal violence.  On the rise, Fulani being massacred in Mali (Economist March 30, 2019).
-
-(2) intergroup contact theory, 
-
-(3) social institutions constraining behavior, 
-
-(4) peacebuilding programs and CDD, 
-
-(5) spillover of effects and social norms/vicarious learning.
-
-Future work should further investigate mechanisms through which grassroots strategies can be successful.  Conditions under which different conflict resolution strategies are successful -- when outside actors needed, when groups can be assisted in solving own conflict.
-
-Roadmap.
-
-# Theory
-
-Typical solutions strive to solve intergroup bargaining problem.  Information and comittment problems.  Define these problems.  3rd parties (peacekeepers, states) solve comittments problems by adding large costs to defecting on agreements.  Mediation works when it solves the information problem.
-
-Not always feasible to do these things, and these things don't always work.  Say why: costly, biased mediators, no state to project power, etc.
-
-Talk about psychological challenges to resolving conflict.  Groups in conflict develop attitudes that make peace difficult.  _The other is innately bad, the other cannot be trusted_.  Might get psychological benefits to positive group differentiation.  Social norms might encourage animosity and punish cooperation. Group members might receive social payoffs for harming the other group.  Outgroup Defense of self becomes violent assault, my violent assault becomes justified retribution. fundamental attribution error, motivated reasoning.
-
-Psychological reconciliation, intergroup contact.  Define what it is, when it should work.
-
-## Psych Reconciliation not working (orthodox view/pessimist group)
-
-- Many reasons contact may not work in this context
-    - Intergroup conflict as commitment problem [@fearon1994ethnic; @powell2006war]; contact is not an institution that can enforce commitments
-    - Competition for resources [@campbell1965ethno; @Sherif1988robbersCave].  Psych Reconciliation does not change the underlying cause of conflict.
-    - Psychological reconciliation can prevent resumption of conflict but requires conflict to already be resolved  [@bar2000intractable]
-\pause
-\bigskip
-    - Active conflict produces many grievances and high prejudice; cognitive dissonance causes backlash for the most prejudiced people [@festinger1962cognitiveDissonance; @gubler2011diss]
-    - Negative contact experiences reinforce negative stereotypes [@paolini2010negative]
-    - Motivated reasoning for attitudes towards others [@klein1992motivated]
-    - Few norms against prejudice <!--Extent that contact activates "norms against prejudice", no good here. -->
-
-## Psych reconciliaiton could work
-
-Talk about ways this type of thing _could_ solve conflict.  Could solve information problem, could solve comittment problem.  Could encourage sharing/bargaining over resources instead of competition/conflict over resources.  Receive information directly, not from a mediator (who may be biased for one side or for peace).  Opportunities for costly signaling and ingroup censuring [@ditlmann2017addressing; @Fearon1996]
-
-Could change stereotypes -- attributes that are applied to the outgroup, focusing on trustworthiness. Solving commit problem. Solve information problem.
-
-Could decrease threat, though in cases of active conflict this might exacerbate rather than solve conflict (information about reduced outgroup threat == higher chance of my group winning).
-
-Could increase empathy.  Seeing the other side's argument, seeing their motivations. Increase empathy/less prejudice helps interpret information in non-biased way. Chris: look for literature on empathy making me interpret information about other people more accurately.  Kertzer?
-
-Could expand ingroup/make group similarities salient.  Seeing our two groups as one, seeing our incentives as aligned.
-
-Chris: in ECPN program, groups work together to gain more material resources, improves us now, makes me think working together in the _future_ would be good.  Also role of leaders in mediating disputes (mediaiton training).
-
-# Context
-
-Conflict bad.  State cannot project power.  No mediators, biased.  Farmer-pastoralist conflict on rise.
-
-"the specific original grievance is forgotten and replaced by general animus toward the other group..  The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze]
-
-# Intervention and Experimental Design
-
-- The NGO Mercy Corps implemented a peacebuilding program called Engaging Communities for Peace in Nigeria (ECPN) from 2015-2018
-- Sites with (1) farmer-pastoralist conflict and (2) leaders who wanted assistance in reducing the conflict 
-- Program engages farmers and pastoralists to work together on projects that benefit both communities
-- Each implementation site runs two "conflict forums" where communities discuss grievances
+Group conflict is generally thought of as the consequence of a commitment problem: the two sides cannot make a peace agreement because neither can credibly commit to honor the agreement if a future situation gives them an advantage.  Groups are made of individual group members, peace is a public good, and everyone wants peace without bearing its cost.  Groups can solve their commitment problem by signaling a willingness and capacity to compel their members to abide by a peace agreement.  Conflicting groups have limited opportunities to send those signals and psychological phenomena that bias perceptions cause groups to misinterpret each other's signals.   Intergroup contact is one means by which the groups can receive those signals, and it removes the psychological barriers to receiving those signals.
 
 
-- Randomly assign 10/15 implementation sites to receive the program
-- \sout{Randomly assign 50 individuals in each community to participate or not participate in project committees}
-- Individuals effectively self-selected into participation or nonparticipation
-- Three groups: (1) Participants, (2) Nonparticipants, (3) Control
+Thinking of a group as a collection of individuals rather than a monolith.
 
-- Track communities and individuals over time
-- Baseline: Randomly select ~50 people per community for the survey
-- Endline: (1) Randomly select ~50 people per community for the community-level survey, (2) randomly select 10 respondents from the baseline survey per community for the individual-level survey.
+Thinking of peace as a public good.  A peace agreement requires the cooperation of all group members but can be broken by one.
 
-# Results
+In many cases, the reason groups cannot credibly commit to honor an agreement is because groups cannot control their members.  If groups could credibly signal to each other their willingness and capacity to control group members -- through a mechanism like ingroup policing -- then groups have solved their commitment problem and a peace agreement is possible. 
 
 
-# Discussion
 
