@@ -1,0 +1,168 @@
+---
+title: "Group Conflict, Collective Action Problems, and Intergroup Contact - Outline"
+author: "Christopher Grady"
+date: "April 22, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Outlining
+
+## Intro
+
+Conflict bad.
+
+Conflict is a bargaining situation where lack of trust between groups causes violence.  What does it mean to trust a group?  A group is not a homogenous unit; each group is a collection of individuals with their own behavioral incentives.  Peace is a public good so group members have individual-level incentives to defect and enjoy everyone else's contribution to the public good.  Therefore, underlying the Commitment Problem is a Collective Action Problem: cannot trust _all_ members of the other side, and cannot trust other side to punish their own defectors.
+
+<!--Here or paragraph above prob need to say the typical way to solve commitment problems in conflict literature: strong 3rd party intervention.  But also need to say how (1) it's impractical for many conflicts, and (2) it's costly so the strong third party actor doesn't have an incentive to do it until the conflict becomes a big problem. 1-2 sentences. -->
+Groups can send costly signals to the other side about their intention to honor a peace agreement and to punish ingroup defectors.  But how to get that signal across?  And why would Side A not see Side B's "signal" as a cynical attempt to manipulate?  Conflict causes and is caused by prejudice, and prejudice biases perceptions of the other group’s behavior in a way that prevents each side from receiving costly signals or forming accurate beliefs about the other group.  Conflict also creates combative social norms, so group members have social motivation to see other side in bad light.
+
+Contact helps groups send and see costly signals.  Can observe the other side directly.
+
+<!--chris: this one needs to be more clear in my head. -->
+Contact can reduce prejudice and provide motivation to view the other side positively.  
+    - Psych/material benefits of cooperation change motivational structure of war/peace.  Especially when groups achieve (a goal/something of value) through contact.  Cooperative contact that achieves a goal can also demonstrate to groups the material benefits of cooperation, increasing the expected utility of peace and motivating positive attitude change.
+    - Prejudice provides motivation to view outgroup badly == prejudice causes perceptual biases that distort outgroup intentions.  These perceptual biases prevent one side's costly signals of trustworthiness from being perceived as such by the other side.
+
+Contact can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
+
+Implications for peacebuilding programs.  (1) Contact should provide opportunities for groups to observe the other side sanctioning/policing its own.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.  (2) Contact should show groups how cooperation can be materially good.  Material benefits of cooperation provide more motivation to change attitudes towards other side.
+
+Implications for other peacebuilding programs: reinforce joint/formal/public institutions that dispense justice.  Key is to create a feeling of legitimacy/fairness in the other side's court/criminal justice institutions.  For a US analogy, if courts not going to protect black people from KKK and white gangs, need Black Panthers.
+
+Implications for conflict research: structural contributors (commitment problem, collective action problem) but also psychological/social contributors to conflict.
+
+Especially relevant to group conflicts where group discipline is relatively low / groups are more heterogeneous / groups are made up of several separate subgroups.  Also relevant when there is no strong third party.
+
+Continuing issues: (1) Getting the ball rolling: how to initiate contact for groups at war/in conflict.  (2) Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides have an incentive to play as the "cooperative type".  (3) Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
+
+<!--Alternative mechanism for contact: heuristic that "I treat people in my group good way, treat people out of my group bad way.  People I interact with a lot are in my group, people I interact with rarely are in my outgroup".   -->
+
+
+## Theory: Commitment Problems, Collective Action, and Perceptual Biases
+
+Conflict as a commitment problem.  Groups do not make agreements because they do not trust the other side to honor the agreement.  They do not trust the other side because the other side has an incentive to break the agreement if things change in the future.  [chris: explain why more]
+
+But what does it mean for one group to "trust" another group?  Groups are made of individuals, and some aggregation of the behavior of individuals makes the group's behavior.  A group may have an incentive to provide something to its members, but members have an incentive to only take the thing and not contribute to it.  This is the collective action problem: hard to provide things that are good for _all_ the group members but can be enjoyed without contributing.  A peace deal that stops conflict but puts restrictions on group members is a public good: all group members get the benefit of peace, but contributing to peace requires an individual to abide by costly restrictions on behavior.  As is true of all public goods, group members want access to the good without bearing its cost.  Some group members will be tempted to disobey those restrictions/defect.
+
+<!--Strategic behavior: If some % of group members violate the agreement, the agreement is broken.  So violate just below that percentage.  But groups cannot coordinate on this because no one knows that % and because of imperfect information about if others violated the agreement already. -->
+Since individuals have to make the decision to comply or defect with the group decision, "trusting" a group to abide by an agreement == individuals in one group trusting the individuals in the other group to abide by the agreement.  If some percentage of the other side seems to be violating the agreement, the agreement is broken.  So with groups, commitment problem driven by a collective action problem: how to compel group members to abide by agreement?  Peace is a public good so group members have individual-level incentives to defect.  Commitment problem can be solved if each group thinks the other has solved their collective action problem.
+<!--chris: here need to think about a domino effect.  Everyone has their own % of times the outgroup can violate the agreement.  Imagine mine is 1%, person #2 is 2%, person #3 is 3%, etc.  And imagine I retaliate once it hits 1%, person 2 retaliates at 2%, etc.  And imagine when one side "retaliates" the other retaliates in kind.  So they hit 1% defection, and I retaliate, which causes them to retaliate, which causes person #2 to retaliate.  Spiral outcome from Fearon ingroup policing paper.-->
+<!-- Also need to think about identifiability of defector.  Not known to outgroup, who will retaliate against any ingroup member. -->
+
+To solve their collective action problem, groups need to send a costly signal that they are committed to peace and can compel group members to abide by peace agreement.  This signal can be send by ingroup policing: when the ingroup punishes their own for violating the rights of an outgroup member.  [chris: more description].  Need to convince the outgroup that they dont need to take retribution.
+
+But signals like ingroup policing short-circuited because (1) biased perceptions interpreting those signals and (2) few opportunities to send those signals.
+
+<!--chris: para too long and should be combined with following paragraph. too many details right now. 
+groups are motivated towards prejudice to gain the benefits of feeling superior, justifying aggressive behavior, and preserving attitude consistency.  Biased interpretations of outgroup behavior help maintain prejudice and protect these benefits. -->  
+Biased perceptions block groups from correctly perceiving the other side's signals of a commitment to peace and thus prevents groups from avoiding conflict.  Perceptions of behavior are highly dependent on motivation [@klein1992motivated], and groups have motivation to maintain prejudice to continue gaining the self-image boost of<!--uphold--> a positive comparison between ingroup and outgroup, justify aggressive behavior, and preserve attitude consistency.  Biased perceptions manifest when group members interpret positive cross-group interactions as negative to avoid cognitive dissonance [@gubler2013humanizing; @paolini2010negative].  Groups also interpret defensive action by outgroup members as belligerent and threatening but see the same action by ingroup members as defensive and justified [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia].  Group members then attribute those negative outgroup behaviors to internal characteristics that define all outgroup members, under-generalize positive behaviors as exceptional to the outgroup, and selectively remember events that corroborate their pre-existing negative perceptions [[@hewstone1990ultimate; @de2008motivated].  
+
+These tendences lead group members to ascribe negative traits, like immorality and untrustworthiness, to outgroup as an innate characteristic  [@tajfel1981groups; @brewer1999ingroupOutgroup; @levine1972ethnocentrism; @eidelson2003dangerous].  They also lead groups to reactively devalue any compromise the outgroup is willing to concede, lowering the perceived costliness of any cooperative signal [@ward1997naive; @ross1991barriers].  The inability to cultivate trust through costly signals prevents groups from solving commitment problems.  These biases also exacerbate information problems by preventing accurate perceptions of the preferences of the outgroup and by distorting perceptions of which group is in the wrong and should make concessions [@ward1997naive].  These perceptions, once arisen, are very difficult to correct [@nyhan2010corrections; @kunda1990motivatedReasoning].<!--@klein1992motivated might be a better cite, actually -->
+
+Compounding these perceptual problems, reputations for trustworthiness are hampered by a lack of opportunities to learn about the other side from observing their interactions with other groups.  Even if opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup.  For groups in conflict, these opportunities are likely rare and almost always adversarial.
+
+
+### Intergroup Contact
+
+Intergroup contact can help solve the commitment problem that leads to conflict.  
+
+Provides opportunity for each group to observe the other side policing its own.
+
+Reduces prejudice, which has two benefits.
+  - Reducing prejudice should reduce psychological benefits to fighting/costs of peace.   
+  - Reducing prejudice should also allow attitudes to update "cleanly".  Prejudice provides motivation to view outgroup badly == prejudice causes perceptual biases that distort outgroup intentions.  These perceptual biases prevent one side's costly signals of trustworthiness from being perceived as such by the other side.
+      - "I now see them as rational beings, but I see how a rational being would want to cheat us."  Need that person to notice costly signals.
+
+Can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
+
+Attitude change is a motivated process: people need motivation to adopt more positive attitues towards people and groups [@klein1992motivated; @grady2020lab]: Cooperative contact that achieves a goal can also demonstrate to groups the material benefits of cooperation, increasing the expected utility of peace and motivating positive attitude change.
+    - trade interactions make war more costly relative to peace [@rohner2013war]: "conflict can be reduced by policies...fostering interethnic trade...Coercieve peace policies, such as peacekeeping forces or externally imposed regime changes, have no enduring effect."
+
+Some evidence that expecting to interact with a group improves attitudes .
+
+chris: need to integrate cognitive dissonance/motivated reasoning as a barrier to improving attitudes.
+
+
+
+## Discussion/Implications
+
+### Contact-Based Peacebuilding Programs
+
+Contact should provide opportunities for groups to observe the other side sanctioning/policing its own.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.
+
+Contact should show groups how cooperation can be materially good.  Material benefits of cooperation provide more motivation to change attitudes towards other side.
+
+### Other Peacebuilding Programs
+
+Key is to create a feeling of legitimacy/fairness in the other side's court/criminal justice institutions.  For a US analogy, if courts not going to protect black people from KKK and white gangs, need Black Panthers.
+
+
+## Conclusion/Summary
+
+This framework has implications for conflict research: structural contributors (commitment problem, collective action problem) but also psychological/social contributors to conflict.
+
+There are continued problems to address.  1 - Getting the ball rolling: how to initiate contact for groups at war/in conflict.  2 - Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides may have an incentive to play as the "cooperative type".  3 - Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
+
+
+**********
+
+# Brainstorming
+
+## Barriers to Peace
+
+Commitment Problem: cannot trust other side.  But what does it mean to "trust' a group?  A group is not a homogenous unit; each group is a collection of individuals with their own behavioral incentives.  Underlying the Commitment Problem is a Collective Action Problem: cannot trust _all_ members of the other side, and cannot trust other side to punish their own defectors.
+
+Psych/Social factors provide benefits to fighting, costs to peace, and prevent accurate updating of other side's intentions.
+
+## Ways contact solves these problems
+
+Provides opportunity for each group to observe the other side policing its own.  Ingroup policing is a costly signal.
+
+Reduces prejudice, which has two benefits.
+  - Reducing prejudice should reduce psychological benefits to fighting/costs of peace.   
+  - Reducing prejudice should also allow attitudes to update "cleanly".  Prejudice provides motivation to view outgroup badly == prejudice causes perceptual biases that distort outgroup intentions.  These perceptual biases prevent one side's costly signals of trustworthiness from being perceived as such by the other side.
+      - "I now see them as rational beings, but I see how a rational being would want to cheat us."  Need that person to notice costly signals.
+
+Can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
+
+Cooperative contact that achieves a goal can also demonstrate to groups the material benefits of cooperation, increasing the expected utility of peace and motivating positive attitude change.
+
+chris: need to integrate cognitive dissonance/motivated reasoning as a barrier to improving attitudes.
+
+## Implications for Peacebuilding Programs
+
+### Contact-Based
+
+Contact should provide opportunities for groups to observe the other side sanctioning/policing its own.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.
+
+Contact should show groups how cooperation can be materially good.  Material benefits of cooperation provide more motivation to change attitudes towards other side.
+
+### Other Programs
+
+Key is to create a feeling of legitimacy/fairness in the other side's court/criminal justice institutions.  For a US analogy, if courts not going to protect black people from KKK and white gangs, need Black Panthers.
+
+## Continued Problems
+
+1 - Getting the ball rolling: how to initiate contact for groups at war/in conflict
+
+2 - Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides have an incentive to play as the "cooperative type".
+
+3 - Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
+
+
+
+# Other writing summaries
+
+- conflict as a bargaining situation where commitments problems are the primary barrier to peace (a la Fearon or Powell) and perhaps the perceived lack of a bargaining range.
+  - with groups, commitment problem driven by a collective action problem: if reach agreement, how to compel group members to abide by agreement?  Peace is a public good so group members have individual-level incentives to defect.
+- conflict also encouraged by psychological/social factors that affect bargaining by (1) biasing perceptions of the other group’s behavior in a way that prevents each side from receiving costly signals or forming accurate beliefs about the other group and (2) adding to the utility of fighting and subtracting from the utility of cooperating.  
+- cooperative contact as a means to overcome those issues.
+  - (1) builds trust by letting groups observe costly signals + removes perceptual biases that cause costly signals to be misperceived.
+  - (2) reduces utility of fighting relative to cooperating.
+
+chris: still figuring where "bargaining range" fits.  Maybe it's in the motivation to avoid/accept conflict?  Or maybe it doesn't fit and I should drop it and assume there is always a bargaining range.
+

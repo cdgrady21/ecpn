@@ -1,0 +1,22 @@
+---
+title: "Group Conflict, Collective Action Problems, and Intergroup Contact - Abstract"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+
+Scholars think of conflict as a commitment problem.  Conflict occurs because neither group 
+
