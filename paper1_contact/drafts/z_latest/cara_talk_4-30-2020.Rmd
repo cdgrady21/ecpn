@@ -1,0 +1,55 @@
+---
+title: "cara talk ecpn paper"
+author: "Chris Grady"
+date: "4/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Agenda
+
+1 - Cara thoughts on paper
+    - specific: to do before defend
+    - specific: to do before publish
+
+2 - send lab experiment paper now and talk about it week of May 11?  Or I make revisions based on comments so far and send to her week of may 11th.
+    - other stuff: collective action paper, Wendy incomplete, Jake incomplete.
+
+3 - defense in late june or early july?
+
+4 - summer RA: plans for projects
+
+
+# Paper
+
+- liked a lot.
+- close to being able to submit. writing is good.
+    - first reaction: abstract, are first two sentences necessary?  Could this be written in even more boring way?  Where is the "this is awesome!?  We even did this placebo test?
+    - Sell it in the abstract.
+    - want to get people to read the paper.
+    - the abstract is...accurate.  but doesn't talk about why it's unique.  talk about case to get africanists, talk about stuff to get conflict people.  Give enough info to peak interest.
+
+- need an appendix with the survey questions and outcome measures.
+- liked violence placebo.
+- figures 1 and 2, the main outcomes coefplots.
+    - different set of outcomes.  and it jumps out at you. need to at least say it in caption or text.  Next to each other is inviting person to compare.
+    - just separate the coefplot cuz they look weird together.
+
+- mechanisms part: 
+    - either need more about empathy and perspective-taking.  have similar measures been used?  The empathy stuff doesn't seem a mechanism.  It seems more like an outcome. Being willing to help people...
+    - threat and anxiety: could be affect instead of threat.
+    - Cara likes the idea to talk about mechanisms, but isn't convinced by them as outcomes.
+    - PGG/ingroup expansion and their no effect, Cara has another idea.  Just had these people participate when money was given for the participants to do stuff.  Now we are asking if they want to give money to another thing.  And people are saying "I already did that!  What the heck?"  Already engaged and spent all these hours on the projects, why would I donate more money?  
+        - people checked that box.
+
+- "Lots of potential mechanisms.  Study not designed for this, but we can look at one that's really hot: Perspective-taking."
+    - discussion of mechanisms is useful.  RIght now it plays prominent role, and it could be rejected for its weakness.
+
+
+- possible: contact effects isolated to farmers vs pastoralists. Can still hint at mechanisms in discussion.
+    - maybe only talk about perspective-taking in the mechanism paper.
+- farmer-pastoralist could be a separate paper.
+    -numerical minority: constantly serve as teacher of majority group could have negative consequences.  Annoying to teach the majority group.
