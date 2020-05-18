@@ -13,30 +13,50 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Intro
 
+<!--conflict is bad motivation paragraph -->
 Conflict bad.
 
-Conflict is a bargaining situation where lack of trust between groups causes violence.  What does it mean to trust a group?  A group is not a homogenous unit; each group is a collection of individuals with their own behavioral incentives.  Peace is a public good so group members have individual-level incentives to defect and enjoy everyone else's contribution to the public good.  Therefore, underlying the Commitment Problem is a Collective Action Problem: cannot trust _all_ members of the other side, and cannot trust other side to punish their own defectors.
+<!--conflict occurs when bargaining fails, bargaining fails because trust.  what does it mean for a group to trust another group?  collective action problem -->
+Conflict is a bargaining situation where lack of trust between groups causes violence.  What does it mean to trust a group?  A group is not a homogenous unit; each group is a collection of individuals with their own behavioral incentives.  Peace is a public good so group members have individual-level incentives to defect and enjoy everyone else's contribution to the public good.  Therefore, underlying the Commitment Problem is a Collective Action Problem: cannot trust _all_ members of the other side.
 
 <!--Here or paragraph above prob need to say the typical way to solve commitment problems in conflict literature: strong 3rd party intervention.  But also need to say how (1) it's impractical for many conflicts, and (2) it's costly so the strong third party actor doesn't have an incentive to do it until the conflict becomes a big problem. 1-2 sentences. -->
+
+<!--Groups can solve their ingroup collective action problem through ingroup policing. ingroup policing compels members to obey == collective action problem solved, & is costly cooperative signal == helps solve commitment problem.-->
+Can trust members of other side to cooperate if trust other side to punish their own defectors.
+
+<!--commitment problem can remain if signal misinterpreted.  axelrod tit-for-tat with misperceptions. misinterpretation likely for groups in conflict because motivated reasoning.  Things get distorted. Social/psych payoffs for seeing other side badly.  Norms support conflict, self-image can be maintained by a comparison to lesser group, need to justify previous discriminatory behavior and attitudes rather than admit I am a bad person.-->
 Groups can send costly signals to the other side about their intention to honor a peace agreement and to punish ingroup defectors.  But how to get that signal across?  And why would Side A not see Side B's "signal" as a cynical attempt to manipulate?  Conflict causes and is caused by prejudice, and prejudice biases perceptions of the other group’s behavior in a way that prevents each side from receiving costly signals or forming accurate beliefs about the other group.  Conflict also creates combative social norms, so group members have social motivation to see other side in bad light.
 
-Contact helps groups send and see costly signals.  Can observe the other side directly.
+<!--important to send clear signals and to reduce motivation to misinterpret those signals.  But how?  Cooperative intergroup contact a method to send clear signals and reduce motivation to misinterpret those signals. Joint "court" institutions so both sides are represented in all cross-group disputes. -->
+Contact helps groups send and see costly signals.
 
-<!--chris: this one needs to be more clear in my head. -->
+<!--ways that contact helps:
+(1) Can observe the other side directly.  Can personally see ingroup policing; many group members can send and receive signals directly instead of inferring from observed behavior.
+(2) reduce motivated reasoning, provide motivation to see other side positively.
+  - material incentive: working with other side beneficial to my group/me
+  - psychological: I think of myself as a good person; i see that other group is not all bad people; I now feel bad for treating them badly
+  - social: cooperative norms because cross-group cooperation benefitted my group.  I am now punished for holding/expressing negative attitudes.
+chris: this one needs to be more clear in my head. -->
 Contact can reduce prejudice and provide motivation to view the other side positively.  
     - Psych/material benefits of cooperation change motivational structure of war/peace.  Especially when groups achieve (a goal/something of value) through contact.  Cooperative contact that achieves a goal can also demonstrate to groups the material benefits of cooperation, increasing the expected utility of peace and motivating positive attitude change.
     - Prejudice provides motivation to view outgroup badly == prejudice causes perceptual biases that distort outgroup intentions.  These perceptual biases prevent one side's costly signals of trustworthiness from being perceived as such by the other side.
+    - Contact can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
 
-Contact can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
+<!--Ways joint "court" institutions helps: each group trusts criminal justice system-->
+ingroup policing mechanism: we do not need to punish beyond the formal punishment.  Trust in criminal justice system affects something, affected by vicarious experience (cite Mondak vicarious).
 
+<!--Implications (1): contact program design: work together for a material benefit, opportunities for ingroup policing -->
 Implications for peacebuilding programs.  (1) Contact should provide opportunities for groups to observe the other side sanctioning/policing its own.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.  (2) Contact should show groups how cooperation can be materially good.  Material benefits of cooperation provide more motivation to change attitudes towards other side.
 
+<!--Implications (2): non-contact peacebulding programs: trust in court system by representing both groups -->
 Implications for other peacebuilding programs: reinforce joint/formal/public institutions that dispense justice.  Key is to create a feeling of legitimacy/fairness in the other side's court/criminal justice institutions.  For a US analogy, if courts not going to protect black people from KKK and white gangs, need Black Panthers.
 
+<!--Implications for conflict research -->
 Implications for conflict research: structural contributors (commitment problem, collective action problem) but also psychological/social contributors to conflict.
 
 Especially relevant to group conflicts where group discipline is relatively low / groups are more heterogeneous / groups are made up of several separate subgroups.  Also relevant when there is no strong third party.
 
+<!--Future research -->
 Continuing issues: (1) Getting the ball rolling: how to initiate contact for groups at war/in conflict.  (2) Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides have an incentive to play as the "cooperative type".  (3) Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
 
 <!--Alternative mechanism for contact: heuristic that "I treat people in my group good way, treat people out of my group bad way.  People I interact with a lot are in my group, people I interact with rarely are in my outgroup".   -->
@@ -105,8 +125,7 @@ Key is to create a feeling of legitimacy/fairness in the other side's court/crim
 
 This framework has implications for conflict research: structural contributors (commitment problem, collective action problem) but also psychological/social contributors to conflict.
 
-There are continued problems to address.  1 - Getting the ball rolling: how to initiate contact for groups at war/in conflict.  2 - Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides may have an incentive to play as the "cooperative type".  3 - Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
-
+There are continued problems to address.  1 - Getting the ball rolling: how to initiate contact for groups at war/in conflict.  2 - Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides may have an incentive to play as the "cooperative type".  3 - Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?  4 - Groups with most ability to solve collective action problems should be most likely to win conflicts because can compel group members to sacrifice for the group.
 
 **********
 
@@ -120,7 +139,14 @@ Psych/Social factors provide benefits to fighting, costs to peace, and prevent a
 
 ## Ways contact solves these problems
 
-Provides opportunity for each group to observe the other side policing its own.  Ingroup policing is a costly signal.
+Group must solve its collective action problem _and_ be able to signal that to outgroup.  Ingroup must see defection as taking something away from the ingroup, not just taking something from the outgroup.  Defectors taking the likelihood of peace away, and peace is of immense value.  Ingroup has material reason to prevent defectors.  Outgroup can see that Ingroup believes it has rational/material incentive to prevent defectors.
+
+Contact provides opportunity for each group to observe the other side policing its own.  Ingroup policing is a costly signal.
+    - In Fearon & Laitin 1996, ingroup policing works because ingroups can identify the individual who is responsible for defecting, whereas outgroups cannot identify.  In my idea here, I think maybe the outgroup can identify sometimes (F&L p.12), but the ingroup and outgroup have different ideas about fair punishment.  Punishment must be PUBLIC and viewed as fair.  Honoring the punishment is part of honoring the agreement, and those who seek to punish more (or less, in the case that someone wants to pay an ingroup member's fine) must themselves be punished.
+    - farmer-pastoralist groups used to have this: agreed upon Naira per acre cropland destroyed. But these have fallen apart as (1) grain prices change (more ppl to feed & less available land == higher prices), (2) different groups of pastoralists come through.  And it seems that there was not a standardized cost for planting on grazing land; it just was not done.  Anyway, this mimics p.12 F&L "mediator", but the cost of compensation grew rapidly in farmer-pastoralist relations.
+    - *Mediator types can "present a solution which is agreeable to both sides but which the disputants may be unwilling to propose for fear of appearing 'weak'." from F&L p. 17, Morrow (1992).*
+    - ingroup policing can fail when there exists "explicit coordination and collusion within groups" (p.10); the policing must be public to prevent collusion within groups (p.10).
+    - "players face a collective action problem under the spiral regime.  Opportunistic behavior with ethnic others is individually beneficial but socially costly due to indisriminate punishment."
 
 Reduces prejudice, which has two benefits.
   - Reducing prejudice should reduce psychological benefits to fighting/costs of peace.   
@@ -153,7 +179,9 @@ Key is to create a feeling of legitimacy/fairness in the other side's court/crim
 
 3 - Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
 
+4 - Groups with most ability to solve collective action problems should be most likely to win conflicts because can compel group members to sacrifice for the group.
 
+5 - Punishment system crowds out voluntary compliance?  I think not;  People unlikely to get a "warm glow" from abiding by an agreement with enemies.
 
 # Other writing summaries
 
@@ -166,3 +194,6 @@ Key is to create a feeling of legitimacy/fairness in the other side's court/crim
 
 chris: still figuring where "bargaining range" fits.  Maybe it's in the motivation to avoid/accept conflict?  Or maybe it doesn't fit and I should drop it and assume there is always a bargaining range.
 
+# Quotes
+
+Fearon & Laitin 1996.  Rationalist perspective: vioolence occurs when one group threatens another's access to material benefits.  Psych perspective: violence occurs when psychological satisfactions (group belonging, self-esteem) are threatened by another group or member's of one's own group.

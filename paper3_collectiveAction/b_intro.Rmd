@@ -1,0 +1,72 @@
+---
+title: "Group Conflict and Collective Action: Intro"
+author: "Christopher Grady"
+date: "May 11, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+<!--conflict is bad motivation paragraph -->
+Conflict bad.  Lots of interest in resolving conflicts.  Violence between groups, political party competition, sports team competition, teams within organizations.  Conflict makes them all less 
+
+<!--conflict occurs when bargaining fails, bargaining fails because trust.  what does it mean for a group to trust another group?  collective action problem -->
+Conflict is a bargaining situation where lack of trust between groups causes violence.  What does it mean to trust a group?  A group is not a homogenous unit; each group is a collection of individuals with their own behavioral incentives.  Peace is a public good so group members have individual-level incentives to defect and enjoy everyone else's contribution to the public good.  Therefore, underlying the Commitment Problem is a Collective Action Problem: cannot trust _all_ members of the other side.  @sambanis2013social "a small but sufficiently potent group of ethnic radicals can derail a peaceful equilibrium."  Knowing that, the key question for each group is if the other can control their most radical members.
+
+<!--Solving collective action problems.
+Here or paragraph above prob need to say the typical way to solve commitment problems in conflict literature: strong 3rd party intervention.  But also need to say how (1) it's impractical for many conflicts, and (2) it's costly so the strong third party actor doesn't have an incentive to do it until the conflict becomes a big problem. 1-2 sentences. -->
+Typical way to solve commitment problem of conflict is strong 3rd party, and that applies here.  Strong 3rd party monitors and punishes defection.  But that is impractical: 3rd party action is costly to the 3rd party, so 3rd party actor doesn't have incentive until conflict is a big problem for the 3rd party.  Even 3rd party cannot monitor everything all the time.
+
+Other solutions to solving collective action problems will not work here: (1) motivational/other-regarding preferences, but how to increase that? more communication and opportunity to make and keep promises?; (2) strategic / something about reputation/repeated nature of interactions.  not relevant here.  SO we are back to (3) structural / change payoffs. Ingroup policing (replace 3rd party with ingroup), social norms (also replace 3rd party with ingroup).
+
+<!--Groups can solve their ingroup collective action problem through ingroup policing. ingroup policing compels members to obey == collective action problem solved, & is costly cooperative signal == helps solve commitment problem.
+Also look at Ostrom for other ways groups solve collective action problems.-->
+Can trust members of other side to cooperate if trust other side to punish their own defectors.
+
+<!--commitment problem can remain if signal misinterpreted.  axelrod tit-for-tat with misperceptions. misinterpretation likely for groups in conflict because motivated reasoning.  Things get distorted. Social/psych payoffs for seeing other side badly.  Norms support conflict, self-image can be maintained by a comparison to lesser group, need to justify previous discriminatory behavior and attitudes rather than admit I am a bad person.-->
+Groups can send costly signals to the other side about their intention to honor a peace agreement and to punish ingroup defectors.  But how to get that signal across?  And why would Side A not see Side B's "signal" as a cynical attempt to manipulate?  Conflict causes and is caused by prejudice, and prejudice biases perceptions of the other group’s behavior in a way that prevents each side from receiving costly signals or forming accurate beliefs about the other group.  Conflict also creates combative social norms, so group members have social motivation to see other side in bad light. 
+
+- @sambanis2013social "conflict and identification patterns reinforce each other." & @bernad2011conflict "intergroup conflict shapes emotional bonds between group members, promotes ingroup and outgroup stereotyping, encourages self-sacrifice for the group, and changes the social structure of the group."
+- @declerck2013people cooperation depends on extrinsic incentives to cooperate & how the brain processes trust signals.
+- @de2014parochial benefits individuals' within-group reputation/status.
+- @declerck2010oxytocin lab/field experimental evidence shows that "cooperation increases when extrinstic incentives are incorporated into the decision-making context, such that the cooperative decision itself becomes rewarding (Bornstein, 2003)""
+
+<!--important to send clear signals and to reduce motivation to misinterpret those signals.  But how?  Cooperative intergroup contact a method to send clear signals and reduce motivation to misinterpret those signals. Joint "court" institutions so both sides are represented in all cross-group disputes. -->
+Contact helps groups send and see costly signals.
+
+<!--ways that contact helps:
+(1) Can observe the other side directly.  Can personally see ingroup policing; many group members can send and receive signals directly instead of inferring from observed behavior.
+(2) reduce motivated reasoning, provide motivation to see other side positively.
+  - material incentive: working with other side beneficial to my group/me vs. we win and take all, or they win and take all.
+  - psychological: I think of myself as a good person; i see that other group is not all bad people; I now feel bad for treating them badly. vs previously when I did not feel bad for treating them badly.
+  - social: cooperative norms because cross-group cooperation benefitted my group.  I am now punished for holding/expressing negative attitudes.
+chris: this one needs to be more clear in my head. -->
+Contact can reduce prejudice and provide motivation to view the other side positively.  
+    - Psych/material benefits of cooperation change incentive structure of war/peace.  Especially when groups achieve (a goal/something of value) through contact.  Cooperative contact that achieves a goal can also demonstrate to groups the material benefits of cooperation, increasing the expected utility of peace and motivating positive attitude change.
+    - Prejudice provides motivation to view outgroup badly == prejudice causes perceptual biases that distort outgroup intentions.  These perceptual biases prevent one side's costly signals of trustworthiness from being perceived as such by the other side.
+    - Contact can create cooperative/non-prejudiced social norm.  The social norm will affect people who weren't exposed to group contact.
+
+@fearon1996explaining: groups give material and psychological benefits to members (717/p.4).
+
+<!--Ways joint "court" institutions helps: each group trusts criminal justice system-->
+ingroup policing mechanism: we do not need to punish beyond the formal punishment.  Trust in criminal justice system affects something, affected by vicarious experience (cite Mondak vicarious).
+
+<!--Implications (1): contact program design: work together for a material benefit, opportunities for ingroup policing -->
+Implications for peacebuilding programs.  (1) Contact should provide opportunities for groups to observe the other side sanctioning/policing its own.  Ingroup sanctioning is a costly signal, whereas everything else might be construed as cheap talk.  (2) Contact should show groups how cooperation can be materially good.  Material benefits of cooperation provide more motivation to change attitudes towards other side.
+
+<!--Implications (2): non-contact peacebulding programs: trust in court system by representing both groups -->
+Implications for other peacebuilding programs: reinforce joint/formal/public institutions that dispense justice.  Key is to create a feeling of legitimacy/fairness in the other side's court/criminal justice institutions.  For a US analogy, if courts not going to protect black people from KKK and white gangs, need Black Panthers.
+
+<!--Implications for conflict research -->
+Implications for conflict research: structural contributors (commitment problem, collective action problem) but also psychological/social contributors to conflict.
+
+Especially relevant to group conflicts where group discipline is relatively low / groups are more heterogeneous / groups are made up of several separate subgroups.  Also relevant when there is no strong third party.
+
+<!--Future research -->
+Continuing issues: (1) Getting the ball rolling: how to initiate contact for groups at war/in conflict.  (2) Each groups capacity/ability to accurately perceive the signals from the other side.  Especially given that all sides have an incentive to play as the "cooperative type".  (3) Longevity: nothing structurally has changed, so what prevents these groups from falling back into conflict?
+
+<!--Alternative mechanism for contact: group-heuristic model (Yamagishi and Kiyonari 2000 - the group as the container of generalized reciprocity.  heuristic that "I treat people in my group good way, treat people out of my group bad way.  People I interact with a lot are in my group, people I interact with rarely are in my outgroup".   -->
