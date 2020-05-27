@@ -159,6 +159,8 @@ Cooperative contact that achieves a goal can also demonstrate to groups the mate
 
 chris: need to integrate cognitive dissonance/motivated reasoning as a barrier to improving attitudes.
 
+Gambetta: People cooperate for 4 reasons; "coercion, interests, values, personal bonds". "(1) for fear of sanctions; (2) because cooperation enhances their mutual economic interests; (3) because they have general reasons, whether cultural, moral or religious, to believe that cooperation is good irrespective of sanctions and rewards; and finally (4) because they are related to one another by bonds of kin or friendship."
+
 ## Implications for Peacebuilding Programs
 
 ### Contact-Based
@@ -193,6 +195,8 @@ Key is to create a feeling of legitimacy/fairness in the other side's court/crim
   - (2) reduces utility of fighting relative to cooperating.
 
 chris: still figuring where "bargaining range" fits.  Maybe it's in the motivation to avoid/accept conflict?  Or maybe it doesn't fit and I should drop it and assume there is always a bargaining range.
+
+Some kind of knowledge that there are only two possible long-term behavioral patterns: C-C or D-D.
 
 # Quotes
 

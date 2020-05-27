@@ -55,6 +55,8 @@ Cooperative intergroup contact, originally designed as a tool for prejudice redu
 
 \end{abstract}
 
+<!--chris: NEED to add hameiri2014challenges about difficulties of positive attitude change in ongoing conflict. -->
+
 # Introduction
 
 How can groups in conflict improve intergroup relations?  Violent group conflict has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims (Schomerus and Rigterink 2018).  Intergroup animosity perpetuates conflict long after the original grievance is immaterial or forgotten [@mcdonnel2017graze; @deutsch1973resolution; @tajfel1979integrative], so improving intergroup relations is vital to stem the human, economic, social, and psychological costs of violent group conflict.
