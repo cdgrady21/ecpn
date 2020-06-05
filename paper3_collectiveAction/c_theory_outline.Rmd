@@ -1,0 +1,25 @@
+---
+title: "Group Conflict and Collective Action: theory outline"
+author: "Christopher Grady"
+date: "May 11, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problems with 3rd parties specific to heterogeneous groups
+
+Third parties should also face specific limitations enforcing agreements among heterogeneous and decentralized groups.  The punishment used by the third party must be applied to those who would defect on the agreement if it is to deter their defection.  This process works better for homogeneous groups like armies, where responsibility for the behavior of any group member can be assigned to the group as a whole, than for heterogeneous groups, where identification and punishment must occur at a much more granular level.  Punishing the entire group for the behavior of a few radicals will likely undermine the third party's credibility, rather than promote peace.^[Many instances of conflict, even those described as wars, are often characterized by small-scale fighting by decentralized groups.  Most of the fighting in what are today called the American Indian Wars took this form, as did the range wars and sheep wars of the American West, present conflicts between farmers and pastoralist in the African Sahel, and many insurgencies involving autonomous insurgent groups.]
+
+specific problems: cannot have repeated interactions with most outgroup members; most of the group can be trusted and thought to have good intentions, but peace can be derailed by a few radicals.
+Repeated interactions also face problems specific to heterogeneous groups.  If groups are heterogeneous, repeated action with each outgroup member unlikely.  Reputation.
+
+
+
+## How Psychological and Social Factors Exacerbate Commitment Problems / Psych costs to peace and benefits to conflict
+
+In general, repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, groups and individuals often deviate from their material interest [@fehr2002social].  In the case of conflict, groups may not want peace because of psychological costs to peace and benefits to fighting.  **Group members often think in relative, not absolute, gains and are often willing to accept lower absolute gains to increase relative gain over the outgroup [@garcia2013psychology; @turner1979social; @festinger1954theory].  Group members may also receive psychological benefit from _harming_ the outgroup [@weisel2015ingroup; @cikara2014their], and a peace agreement prohibits group members from receiving those benefits.  These psychological phenomena add costs to peace agreements.**
+
+Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because of psychological costs to peace and benefits to fighting.  Group members are often willing to accept lower absolute gains to increase relative gain over the outgroup [@waltz2010theory; @halevy2010relative; @turner1979social; @festinger1954theory].  Group members may also receive psychological benefit from _harming_ the outgroup [@weisel2015ingroup; @cikara2014their], and a peace agreement prohibits group members from receiving those benefits.

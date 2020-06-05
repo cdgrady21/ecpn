@@ -1,0 +1,15 @@
+---
+title: "z_gameSetup"
+author: "Chris Grady"
+date: "6/2/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Game for paper: repeated prisoner's dilemma?  First each group solves its collective action problem, which depends on something from 2nd stage PD game?
+
+Repeated game with signalf that vary in strength.  Stronger signal == more likely to be interpreted correctly.  
+
