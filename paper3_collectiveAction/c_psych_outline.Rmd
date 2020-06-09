@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Problems with 3rd parties specific to heterogeneous groups
 
+Not good when conflict too decentralized for a third party to effectively mediate or intervene.
+
 Third parties should also face specific limitations enforcing agreements among heterogeneous and decentralized groups.  The punishment used by the third party must be applied to those who would defect on the agreement if it is to deter their defection.  This process works better for homogeneous groups like armies, where responsibility for the behavior of any group member can be assigned to the group as a whole, than for heterogeneous groups, where identification and punishment must occur at a much more granular level.  Punishing the entire group for the behavior of a few radicals will likely undermine the third party's credibility, rather than promote peace.^[Many instances of conflict, even those described as wars, are often characterized by small-scale fighting by decentralized groups.  Most of the fighting in what are today called the American Indian Wars took this form, as did the range wars and sheep wars of the American West, present conflicts between farmers and pastoralist in the African Sahel, and many insurgencies involving autonomous insurgent groups.]
 
 specific problems: cannot have repeated interactions with most outgroup members; most of the group can be trusted and thought to have good intentions, but peace can be derailed by a few radicals.
@@ -35,3 +37,7 @@ For groups to want peace, they must perceive that the benefits of peace outweigh
 ## Challenges to peace
 
 Risk of cooperation being perceived as defection.  Also risk of defection being perceived as cooperation (an accident), and the worry that ingroup will not punish outgroup defection.
+
+
+
+

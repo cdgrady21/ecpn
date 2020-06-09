@@ -1,0 +1,22 @@
+---
+title: "Group Conflict and Collective Action: theory outline"
+author: "Christopher Grady"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How contact helps
+
+Intergroup contact can remove stereotypes, reduce feeling of threat, engender feelings of empathy, and make commonalities salient [@allport1954prejudice; @pettigrew2008does; @page2008little; @batson1997empathy; @broockman2016durably; @gaertner1993common].  
+
+Intergroup contact can serve as confidence-building measure by giving each group the opportunity to send costly signals of cooperative intent and willingness to punish ingroup offenders.  
+
+
+
+## Ingroup Policing vs joint-group policing
+<!--8 - directly address fearon and laitin, which I love. But they say both groups is less efficient/stable than ingroup -->
+@fearon1996explaining showed that groups are capable of maintaining peaceful relations by allowing each side to police its own miscreants and credits the relative paucity of group conflict to such institutions.  Groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  I suggest that ingroup policing is an excellent institution for preventing violence from escalating and for maintaining peace, but that mistrust between groups in or with a recent history of conflict may make ingroup policing unsustainable as a solution to prevent or cease violence.  @nadler2006intergroup showed that expressions of empathy worsened attitudes towards outgroup unless a basic level of trust was present.  Groups in conflict reactively devalue offers from the other side [@ward1997naive; @ross1995psychological; @maoz2002reactive; @millard2018testing] such that any offer by them is perceived as less valuable than if the same offer was made by the ingroup or a neutral party (@kahneman1992reference calls a similar phenomenon "concession aversion").  The logic goes: "If they are willing to offer $X$, then $X$ must not be very valuable."  The same applies to ingroup policing: "If they are willing to punish X, then the punishment must not be very severe."
+
