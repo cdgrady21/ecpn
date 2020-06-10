@@ -1,0 +1,59 @@
+---
+title: "e_application_outline"
+author: "Christopher Grady"
+date: "June 8, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+VI: Avenues for Empirical Research
+-	Test contact programs with groups in conflict and with history of conflict.
+-	Compare contact programs that do and do not (1) work to achieve goal, (2) actually achieve it.
+-	
+-	Best means to demonstrate material rationality of peace.  Trade, differentiated groups?
+-	Need for enforcement at onset to incentivize Cooperation?
+-	Role of elites: contact says must support
+-	Difficulty with very decentralized groups
+-	Power disparities between groups
+-	Contact’s differential effects with these power disparities.
+-	Something
+-	In US, black-white relations.  Black people following social rules and getting punished by joint-punishment institution: the police.  Low legitimacy of institution.
+
+
+# Avenues for Future Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************
+
+
+<!--10 – Outstanding issues: (1) Onset of these structures: How to get the ball rolling?  A place for 3rd parties? (2) How to keep ball rolling.  (3) Limitation: all out war, lack of bargaining range.-->
+After considering farmer-pastoralist conflict, I address outstanding issues and avenues for empirical research.  The first issue is how to begin

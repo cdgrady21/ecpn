@@ -1,0 +1,63 @@
+---
+title: "e_application_outline"
+author: "Christopher Grady"
+date: "June 8, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+V: Implications for Peacebuilding Programs
+-	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
+- Think about incentives of individual group members, not just groups as a whole.
+-	Do not try to solve groups conflict externally; help groups solve own problems.
+-	Programs that demonstrate material rationality of peace.  Contact, what about others?
+-	Important for both groups to benefit equally.  Otherwise creating a power disparity.
+-	Reduce psych biases
+-	Groups need strength to compel group members.
+-	Opportunities to observe other side, signal C.
+-	Contact programs _can_ do these things, but others may also.  More contact mismanaged runs risk of exacerbating conflict.
+-	Joint punishment institutions: legitimacy of institutions paramount.
+-	Aid to governments?
+-	Favoring one group: makes things worse.
+
+
+
+# Policy Implications for Peacebuilding Programs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************
+
+<!--11 - Implications for peacebuilding programs. -->
+I conclude by discussing implications for peacebuilding programs.  Both groups must want to cooperate and believe the same is true of the other group, even absent the peacebuilding program.  Contact that achieves a goal so that it is in each group's interest to cooperate.  Contact must actually achieve the goal -- contact that does not may cause scapegoating and reinforce the perspective that cooperation with the other side is a waste of time.   Programs that only bring groups into contact (discussion forums) are unlikely to change group relations because they do not affect the fundamental causes of conflict: psychological costs to peace/benefits to fighting and .  Programs should also help groups constrain the behavior of ingroup members whose attitudes are not improved by contact.  I identify joint criminal justice institutions as the best means to 
+
+
+In this I agree with @rohner2013war that tools to increase gains from interaction, and therefore increase the opportunity cost of fighting, are most likely to deter conflict.

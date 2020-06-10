@@ -9,6 +9,77 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+II: Non-material factors that cause conflict, including collective action problem
+-	Adding costs to peace
+    -	Constraints on leaders
+-	Adding value to fighting
+-	Biasing perceptions (even if groups prefer peace to fighting)
+-	Difficulty solving collective action problem: harm ingroup members for benefit of group.
+
+## Non-material factors that increase conflict
+
+Violent conflict is not materially rational because it destroys the resources groups are fighting for.  As such, several non-material factors should contribute to conflict.  By looking at groups as a collection of individual group members, I identify two main ways that these non-material factors contribute to conflict.  First, they shrink the range of peace agreements that each side prefers to peace by adding costs to peace and benefits to fighting.  Second, they bias perceptions of the other side's preferences such that neither side thinks the other prefers peace or can be trusted to abide by peace agreements.  I also identify an internal collective action problem that leads to conflict and explain why that problem is exceptionally difficult for group's to solve.
+
+<!--costs to peace:
+(1) self-esteem loss
+(2) cost of losing justification for past aggressive/discriminatory behaviors
+(3) general costs to attitude change: I thought those people were bad, now we're supposed to work with them?
+(4) cost of changing norms/institutions that discriminated against the outgroup.
+(5) domestic audience costs to leaders?
+(6) making peace with an enemy?
+(7) sunk cost fallacy / "dissonant...to accept terms today that could have been achieved, without the ensuing costs...,at some earlier point in time."-->
+
+Non-material factors add costs to peace in three main ways: (1) costs of changing attitudes and institutions, (2) loss of self-esteem, and (3) costs of admitting sunk costs.  First, to the extent that accepting peace requires individuals in the group to change attitudes about the outgroup, group members must accept the psychological costs of attitude change.  Individuals use many strategies to maintain existing attitudes -- searching for information that confirms pre-existing beliefs, counterarguing information divergent with their beliefs -- suggesting that costs to attitude change are not insubstantial [@nickerson1998confirmation; @kunda1990motivatedReasoning].  Changing negative attitudes towards an enemy may be especially challenging because negative outgroup attitudes are supported by a "sociopsychological infrastructure" that feeds conflict [@bar2007sociopsychological].  At the group-level, a peace agreement requires groups to dismantle the sociopsychological infrastructure that fed conflict and any social norms/institutions developed from it.
+
+Second, peace agreements may cause a loss of self-esteem for individual group members.  Group members derive self-esteem from positively comparing their group to a rival group, and and any agreement in which their side acknowledges the legitimacy of the other challenges this group-based boost to self-esteem [@tajfel1981groups; @wood2000attitude; @tajfel1979integrative; @fein1997prejudice; @martiny2012shall].  Group members may also pay psychological costs to their self-esteem from losing their rationalization for engaging in discriminatory or aggressive behaviors towards outgroup members.  People rationalize their behavior to maintain a moral self-image [@bandura1999moral; @bandura2014social; @mazar2008dishonesty], and people who harmed the outgroup must come to terms with past behaviors that are now deemed immoral.
+
+Third, groups/individuals affectd by sunk cost fallacy and need the gain from a peace deal to make up for the cost of fighting even though those costs were already born [@arkes1985psychology].  Accepting a peace agreement after fighting that could have been achieved without fighting is to admit that past behavior was a mistake.  It is "dissonant for the disputing parties to accept terms today that could have been achieved, without the ensuing costs, at some earlier point in time" [@ross1995psychological, p.264]
+
+[chris: I feel that sunk costs are important but I have not yet been able to articulate it well. Is it a loss of self-esteem?]
+
+
+<!--Example of costs to peace -->
+To see how these psychological costs to peace might sabotage peace efforst, imagine that groups fighting over land sign a peace agreement that assigns some land to each group.  This agreement may make material sense in that each group can enjoy the benefits of the land instead of fighting for it.  But in addition to the material cost of losing potential access to the land, the agreement acknowledges that one group is not intrinsically better and more deserving of the land than the other.  It also admits that For an individual 
+
+Discriminatory behaviors (like overcharing outgroup members for goods and services) and aggressive behaviors (like physically harming an outgroup member) can be justified when groups are in conflict, but not after the group has acknowledged the humanity of the other side.  
+
+acknowledging each side's right to land claimed by the ingroup rather than one group's sole right to the land.   I, 
+
+
+<!--Benefit to fighting-->
+Obviously, individuals may overestimate their chances of winning.
+
+<!--Costs to peace, benefits to fighting: no possible peace agreements -->
+As a result of these costs to peace and benefits to conflict, there may exist no peace agreement that both sides prefer to fighting.  Each side will only accept a peace agreement that favors their side.  Many group members are willing to accept lower absolute gains to increase relative gain over the outgroup [@turner1970social; @waltz2010theory; @halevy2010relative;].  The preference for gains relative to the outgroup makes any mutually beneficial peace agreement impossible.  
+
+
+
+<!--Bias perceptions-->
+Something needs to grease the gears.
+
+Loss aversion: anything we give up is weighed more heavily than what we gain.  And reactive devaluation: anything the other side gives is not as valuable as it would seem.
+potential gain of 50% weighed less than potential loss of 50%.
+
+<!--Limited opportunities for interaction -->
+Limited Compounding these perceptual problems, reputations for trustworthiness are hampered by a lack of opportunities to learn about the other side from observing their interactions with other groups.  Even if opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup.
+
+<!--Problem of collective action -->
+
+Made more difficult because individuals may not receive the group payoff -- could die.
+
+
+
+
+
+
+
+
+
+
+
+
+**********
+
 ## Problems with 3rd parties specific to heterogeneous groups
 
 Not good when conflict too decentralized for a third party to effectively mediate or intervene.

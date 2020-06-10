@@ -9,18 +9,47 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+IV: Farmer-pastoralist conflict
+-	Describe conflict
+-	Describe damage
+-	Describe joint punishment institutions: adhoc and agreed upon code of laws.
+-	Describe typical conflict escalation without joint-punishment institution: case of poisoned crop residue
+-	Describe similar situation with joint-punishment institution: case of captured vigilantes (accidental D).
+
+
+# Application: Farmer-Pastoralist Conflict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************
+
 <!--10 – Perspective/Application: Nigeria farmer-pastoralist: pastoralists graze cattle on farmland, farmers attack cattle and sow seeds in grazing lands.  Ingroups not preventing this aggression.  Farmers do not know whose cattle, pastoralists do not know who attacked their cattle.  Attack outgroup generally.  Through a contact intervention, groups established joint criminal punishment institutions when a farmer/pastoralist have grievances.  Representative from each side’s “government” (chiefs) meet and agree on punishment, make sure ingroup abides by ruling.
 Perspective/Application: Race Protests/Riots 2020: black people (ingroup) following social rules, punished extremely by cops (outgroup) anyway, no punishment for outgroup defectors, eventually ingroup starts punishing members of outgroup == spiral equilibrium (F&L). Ingroup cannot identify outgroup members who defected so punish any others perceived as outgroup.  Low trust in criminal justice system, low legitimacy, low compliance.
 o	Use trials; need members of ingroup and outgroup at trial.-->
 I apply this perspective on reducing group conflict through contact and joint-punishment institutions to the domain of conflict between farmers and pastoralists in Africa.  Describe conflict.  @grady2020farmer reports that a contact-based intervention increased trust between groups, reduced insecurity due to violence, and increased non-intervention interaction between farmers and pastoralists.  One of the program's main implementers in conflicting communities, Israel Okpe, identified joint punishment institutions as key for the success of the program.
 <!--Chiefs meet adhoc basis.  Pre-agreed upon costs for behaviors (code of laws).  Failed outgroup: spray poison on crop residue to kill cows; burn farmers house; refuse to trade with each other; attack village/ruga; migration; army. -->
-
-
-<!--10 – Outstanding issues: (1) Onset of these structures: How to get the ball rolling?  A place for 3rd parties? (2) How to keep ball rolling.  (3) Limitation: all out war, lack of bargaining range.-->
-After considering farmer-pastoralist conflict, I address outstanding issues and avenues for empirical research.  The first issue is how to begin
-
-<!--11 - Implications for peacebuilding programs. -->
-I conclude by discussing implications for peacebuilding programs.  Both groups must want to cooperate and believe the same is true of the other group, even absent the peacebuilding program.  Contact that achieves a goal so that it is in each group's interest to cooperate.  Contact must actually achieve the goal -- contact that does not may cause scapegoating and reinforce the perspective that cooperation with the other side is a waste of time.   Programs that only bring groups into contact (discussion forums) are unlikely to change group relations because they do not affect the fundamental causes of conflict: psychological costs to peace/benefits to fighting and .  Programs should also help groups constrain the behavior of ingroup members whose attitudes are not improved by contact.  I identify joint criminal justice institutions as the best means to 
-
-
-In this I agree with @rohner2013war that tools to increase gains from interaction, and therefore increase the opportunity cost of fighting, are most likely to deter conflict.
