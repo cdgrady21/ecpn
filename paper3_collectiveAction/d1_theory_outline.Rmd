@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 IIIa: Intergroup contact to remove those factors
 -	Make groups want peace: Goal achievement through cooperation: cooperation in each group’s interest
 -	Give groups incentive to solve collective action problem: Norms for cooperation
--	Reduces psych biases to perception: removes stereotypes, anxiety/threat; adds empathy, identification of similarities/joint interests
+-	Reduces psych biases to perception: removes stereotypes, anxiety/threat; adds empathy, identification of similarities/joint interests.  Something needs to grease the gears.
 -	Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.  Confidence-building measure.
 
 # Intergroup Contact

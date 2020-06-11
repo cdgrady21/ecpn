@@ -10,8 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 IV: Farmer-pastoralist conflict
--	Describe conflict
--	Describe damage
+-	Describe conflict dynamics (graze, farm)
+-	Describe damage (costs of conflict)
+- Describe non-material costs/benefits to conflict
 -	Describe joint punishment institutions: adhoc and agreed upon code of laws.
 -	Describe typical conflict escalation without joint-punishment institution: case of poisoned crop residue
 -	Describe similar situation with joint-punishment institution: case of captured vigilantes (accidental D).
