@@ -31,7 +31,7 @@ Violent conflict is not materially rational because it destroys the resources gr
 
 ## Costs of Peace and Benefits of Fighting
 
-Non-material factors add costs to peace in three main ways: (1) costs of changing attitudes and institutions, (2) loss of self-esteem, and (3) loss of sunk costs.  First, to the extent that accepting peace requires individuals in the group to change attitudes about the outgroup, group members must accept the psychological costs of attitude change.  Individuals use many strategies to maintain existing attitudes -- searching for information that confirms pre-existing beliefs, counterarguing information divergent with their beliefs -- suggesting that costs to attitude change are not insubstantial [@nickerson1998confirmation; @kunda1990motivatedReasoning].  Changing negative attitudes towards an enemy may be especially challenging because negative outgroup attitudes are supported by a "sociopsychological infrastructure" that feeds conflict [@bar2007sociopsychological].  At the group-level, a peace agreement requires groups to dismantle the sociopsychological infrastructure that fed conflict and any social norms/institutions developed from it that encouraged violence against the outgroup [@bornstein2003group].  Those institutions must be reformed to prevent, not encourage, intergroup violence.
+Non-material factors add costs to peace in three main ways: (1) costs of changing attitudes and institutions, (2) loss of self-esteem, and (3) loss of sunk costs.  First, to the extent that accepting peace requires individuals in the group to change attitudes about the outgroup, group members must accept the psychological costs of attitude change.  Individuals use many strategies to maintain existing attitudes -- searching for information that confirms pre-existing beliefs, counterarguing information divergent with their beliefs -- suggesting that costs to attitude change are not insubstantial [@nickerson1998confirmation; @kunda1990motivatedReasoning].  Changing negative attitudes towards an enemy may be especially challenging because negative outgroup attitudes are supported by a "sociopsychological infrastructure" that feeds conflict [@bar2007sociopsychological].  At the group-level, a peace agreement requires groups to dismantle the sociopsychological infrastructure that fed conflict and any social norms/institutions developed from it that encouraged violence against the outgroup [@bornstein2003intergroup].  Those institutions must be reformed to prevent, not encourage, intergroup violence.
 
 Second, peace agreements may cause a loss of self-esteem for individual group members.  Group members derive self-esteem from positively comparing their group to a rival group, and and any agreement in which their side acknowledges the legitimacy of the other challenges this group-based boost to self-esteem [@tajfel1981groups; @wood2000attitude; @tajfel1979integrative; @fein1997prejudice; @martiny2012shall; @brown2019group].  Group members may also pay psychological costs to their self-esteem from losing their rationalization for engaging in discriminatory or aggressive behaviors towards outgroup members.  People rationalize their behavior to maintain a moral self-image [@bandura1999moral; @bandura2014social; @mazar2008dishonesty], and people who harmed the outgroup must come to terms with past behaviors that are now deemed immoral.
 
@@ -43,61 +43,63 @@ Third, groups/individuals are affectd by the sunk cost fallacy and want the gain
 To see how these psychological costs to peace might sabotage peace efforts, imagine that groups fighting over land sign a peace agreement that assigns some land to each group.  This agreement may make material sense in that each group can enjoy the benefits of some land instead of fighting for all of it.  But in addition to the material cost of losing potential access to land granted to the other side, each group must begin punishing outgroup violence rather than encouraging it.  Individuals in the group must adjust their behavior to conform to new norms and rethink the status of their group relative to the outgroup; they can no longer "bask in the reflected glory" of their group's superiority [@brown2019group, p.312].  Individuals who felt justified in overcharged outgroup members for services or physically harming outgroup members are now told that such behaviors are wrong and immoral.  Individuals must also accept that their sacrifices to benefit fighting -- dead friends and loved ones, material deprivation, time and energy spent fighting -- were for naught: the sacrifices did not help the group win.  Sustaining conflict against the outgroup allows group members to maintain existing attitudes and behaviors and preserves the possibility that their group will be victorious.
 
 <!--Benefit to fighting-->
-Other than avoiding these costs, group members may gain non-material benefits from fighting.  First, group members may feel pleasure in response to outgroup pain [@weisel2015ingroup; @cikara2014their].  This pleasure adds psychological utility to participating in conflict for individual group members.  Second, individuals may like gaining glory and other social rewards for participaing in violent conflict.  Societies use various social carrots and sticks to encourage participation in conflict [@gneezy2012conflict], and group members give up those rewards when conflict ends.  These social rewards add social utility to participating in conflict.
+Other than avoiding these costs, group members may prefer fighting due to its non-material benefits.  First, group members may feel pleasure in response to outgroup pain [@weisel2015ingroup; @cikara2014their].  This pleasure adds psychological utility to participating in conflict for individual group members.  Second, individuals may like gaining glory and other social rewards for participaing in violent conflict.  Societies use various social carrots and sticks to encourage participation in conflict [@gneezy2012conflict], and group members give up those rewards when conflict ends.  These social rewards add social utility to participating in conflict.  Third, in addition to non-material benefits of fighting, each side may overestimate their chances of victory, causing them to discount the costs of conflict [@johnson2009overconfidence].
+
 
 <!--Costs to peace, benefits to fighting: no possible peace agreements -->
 As a result of these costs to peace and benefits to conflict, there may exist no peace agreement that both sides prefer to fighting.  Each side prefers mutual cooperation in repeated interactions only if their utility from mutual cooperation exceeds their utility from mutual defection.  Due to non-material costs of peace and benefits of fighting, sides may prefer fighting, to say nothing of each side's tendency to overestimate their chances of victory [@johnson2009overconfidence]  Even if side's do not overestimate their chance of victory, each side may only accept a peace agreement that materially favor their side because the material gains from peace must overcome its non-material costs.  Indeed, many group members are willing to accept lower absolute gains to increase relative gain over the outgroup [@turner1970social; @waltz2010theory; @halevy2010relative;].  The preference for gains relative to the outgroup makes any mutually beneficial peace agreement impossible.
 
 [chris: tikz graph showing payoffs?  "Conflict often discussed as an iterative PD.  In one-off, both sides prefer to defect, but in repeated interactions each side cooperates if their cooperation incites cooperation in the other side.  But adding costs to cooperation and benefits to fighting change that calculus."]
 
-## Perceptions
+## Biased Perceptions
 
 <!--Bias perceptions-->
 Though non-material factors can increase the costs of peace and increase benefits of conflict, the high cost of conflict may be such that both sides still prefer peace.  Even when both sides prefer peace, psycholigical biases can prevent each side from accurately perceiving the other's desire for peace and negotiating a peace agreement.  This happens in two main ways: (1) cognitive dissonance, motivated reasoning, and confirmation bias[^biasDefs1] cause each side to interpret the other's behavior in a way that supports existing negative attitudes and (2) loss aversion and reactive devaluation[^biasDefs2] cause the two sides to overvalue concessions they give up and undervalue concessions they receive.  These phenomena introduce significant friction in the ability of groups to build trusting relationships and avoid conflict.
 
 [^biasDefs1]: _Cognitive dissonance_ is the mental discomfort that occurs when one individual holds two contradictory beliefs.  Individuals resolve this dissonance by rejecting one of the contradictory beliefs [@festinger1962cognitiveDissonance; @tavris2008mistakes].  Individuals tend to resolve this dissonance by rejecting the newer/less central belief because it is costly to reject older/more central beliefs [@schwartz1990towards; @converse1970attitudes; @bryan2019values].  _Motivated reasoning_ and _confirmation bias_ are related concepts.  Motivated reasoning is the tendency for individuals to "reason" in whatever way allows them to reach their desired conclusion [@kunda1990motivatedReasoning].  Confirmation bias is the tendency for individuals to interpret new information and search memory for information to confirm existing beliefs [@nickerson1998confirmation].
 
-[^biasDefs2]: _Loss aversion_ refers to individuals' tendency to avoid losses more than they seek equivalent gains [@kahneman2013prospect].  Reactive devaluation is the tendency for individuals to undervalue concessions and proposals from antagonists [@ward1997naive].
+[^biasDefs2]: _Loss aversion_ refers to individuals' tendency to avoid losses more than they seek equivalent gains [@kahneman2013prospect].  Reactive devaluation is the tendency for individuals to undervalue concessions and proposals from antagonists [@ward1997naive; @ross1991barriers].
 
 Cognitive dissonance, motivated reasoning, and confirmation bias cause group members to interpret and recall outgroup behavior in negative ways that prevent building trust.  Defensive action by outgroup members may be interpreted as belligerent and threatening while belligerent action by one's own group is seen as defensive and justified [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia]; positive actions by outgroup members may be re-interpreted as negative to avoid cognitive dissonance [@gubler2013humanizing; @paolini2010negative]; and unequivocally positive behavior may be dismissed as an exception while negative attributes are believed to define all outgroup members [@hewstone1990ultimate].  These phenomena can prevent costly signals of cooperative intent, one of the main ways groups solve commitment problems [@kydd2000trust; @rohner2013war], from being interpreted accurately and reassuring each side of the other's desire for peace.  <!--chris: cut this because seemed to be overkill.
 When recalling information about the outgroup, individuals selectively recall events that corroborate their pre-existing negative perceptions [@de2008motivated].-->
 
 <!--paragraph about loss aversion and reactive devaluation -->
-If groups manage to signal their desire for peace despite these psychological biases, other biases can sabotage the negotiation process.
+If groups manage to signal their desire for peace despite these psychological biases, loss aversion and reactive devaluation can sabotage the negotiation process.  Individuals tend to weigh losses more heavily than equivalent gains, so anything the group gives up may be magnified in importance [@kahneman2013prospect].  At the same time, individuals tend to undervalue concessions from antagonists [@ward1997naive; @ross1991barriers].  These biased valuations of concessions made and concessions given can prevent groups from reaching a mutually beneficial agreement.  They also interfere with group's sending costly signals of cooperative intent by lowering the perceived costliness of any cooperative signal.
 
-Loss aversion: anything we give up is weighed more heavily than what we gain.  And reactive devaluation: anything the other side gives is not as valuable as it would seem.
-potential gain of 50% weighed less than potential loss of 50%.
-
-Groups also reactively devalue any compromise the outgroup is willing to concede, lowering the perceived costliness of any cooperative signal [@ward1997naive; @ross1991barriers].
-
-And ach side may overestimate their chances of winning [@johnson2009overconfidence.
-
-<!--Example -->
-Imagine members of two conflicting groups.
+<!--Example: Imagine members of two conflicting groups.
+chris: decided to forego another example paragraph.-->
 
 <!--Limited opportunities for interaction -->
-Limited Compounding these perceptual problems, reputations for trustworthiness are hampered by a lack of opportunities to learn about the other side from observing their interactions with other groups.  Even if opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup.
+Compounding these perceptual problems, intergroup trust is hampered by a lack of opportunities to learn about the other side.  Groups in conflict tend to limit contact between the two sides [@bornstein2003intergroup], so most learning must come from observing the outgroup's interactions with other groups.  Even if those opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup, which are limited and hampered by perceptual biases.
 
 
 ## Problem of Collective Action
 
 <!--Problem of collective action -->
+Implicit in the discussion of these non-material factors is that groups are made up of individuals and that individual cognitive and psychological biases influence conflict dynamics.  Following that logic -- that groups are collections of individuals with preferences that may differ from the group as a whole -- leads to an additional challenge to groups' negotiationg peace agreements: peace is a public good.  Group members must refrain from behavior that benefits them individually at the expense of the outgroup, but if peace is achieved group members enjoy its benefits whether or not they bore its costs.  Without the ability to compel behavior for the public good, groups cannot credibly commit to honor negotiated agreements.[^bornstein]
 
-Made more difficult because individuals may not receive the group payoff -- could die.
+Collective action problems are notoriously difficult to solve.  In the case of intergroup conflict, compelling group members to sacrifice now for the long-term good of the group is made even more difficult because individuals may be killed before peace is achieved and thus never enjoy the benefits of collective action.  Individuals are notoriously bad even at saving for retirement, where individuals can sacrifice now to benefit themselves later [@benartzi2013behavioral; @warner2001personal].  Individuals may rationally discount future payoffs quite significantly in conflict settings where the benefits acrrue to a group.
 
-Bornstein (@bornstein1992free; @bornstein2003intergroup) was among the first to consider the collective action problems that conflicting groups faced during conflict because groups were composed of individuals, not unitary actors.  His insight was that groups must develop means to encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.
+[^bornstein]: Bornstein (@bornstein1992free; @bornstein2003intergroup) was among the first to consider how the preferences of individuals complicate discussions of group conflict.  His focus, and the focus of most subsequent scholarship, was how groups encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.
 
+@fearon1996explaining showed that ingroup policing, an institution wherein groups punish their own miscreants, can help groups avoid an escalation of intergroup violence; they credit the relative paucity of group conflict to such institutions.  Ingroup policing is an excellent institution for preventing violence from escalating and for maintaining peace in many contexts, but I suggest that perceptual biases and mistrust between groups in or with a recent history of conflict makes ingroup policing unsustainable as a solution in those contexts.  With ingroup policing, groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  Since ingroup policing depends on the perceptions group members, if those perceptions are biased such that members of each group suspect the other is trying to take advantage of the ingroup policing institution, then the institution breaks down as each group does not trust the other to allocate sufficient punishment to their own side.
 
-
-
-
-
-
+In the next section, I will discuss ways to reduce the biases that cause misperceptions and a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
 
 
 
 
 
+<!--Reactive devaluation applies to ingroup policing: "If they are willing to punish X, then the punishment must not be very severe."
+
+@nadler2006intergroup showed that expressions of empathy worsened attitudes towards outgroup unless a basic level of trust was present.-->
+
+
+
+
+
+
+<!--
 **********
 
 ## Problems with 3rd parties specific to heterogeneous groups
@@ -108,27 +110,4 @@ Third parties should also face specific limitations enforcing agreements among h
 
 specific problems: cannot have repeated interactions with most outgroup members; most of the group can be trusted and thought to have good intentions, but peace can be derailed by a few radicals.
 Repeated interactions also face problems specific to heterogeneous groups.  If groups are heterogeneous, repeated action with each outgroup member unlikely.  Reputation.
-
-
-
-## How Psychological and Social Factors Exacerbate Commitment Problems / Psych costs to peace and benefits to conflict
-
-In general, repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, groups and individuals often deviate from their material interest [@fehr2002social].  In the case of conflict, groups may not want peace because of psychological costs to peace and benefits to fighting.  **Group members often think in relative, not absolute, gains and are often willing to accept lower absolute gains to increase relative gain over the outgroup [@garcia2013psychology; @turner1979social; @festinger1954theory].  Group members may also receive psychological benefit from _harming_ the outgroup [@weisel2015ingroup; @cikara2014their], and a peace agreement prohibits group members from receiving those benefits.  These psychological phenomena add costs to peace agreements.**
-
-Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because of psychological costs to peace and benefits to fighting.  Group members are often willing to accept lower absolute gains to increase relative gain over the outgroup [@waltz2010theory; @halevy2010relative; @turner1979social; @festinger1954theory].  Group members may also receive psychological benefit from _harming_ the outgroup [@weisel2015ingroup; @cikara2014their], and a peace agreement prohibits group members from receiving those benefits.
-
-
-## What is needed for peace
-
-(1) Persuade each group to want peace enough to punish ingroup members who do not, (2) persuade each group that the other wants peace and will punish ingroup members.  (2) theory of mind/social cognition: group members will put themselves in the mind of outgroup members and imagine what the outgroup will do.  To persuade each group that the other wants peace, must remove psychological barriers to perceiving other group's behavior. 
-
-For groups to want peace, they must perceive that the benefits of peace outweigh the benefits of fighting; a solution should both increase the expected payoff of peace (through examples of cross-group cooperation working well), encourage seeking absolute gains over relative gains, and reduce psychological benefits from harming outgroup.
-
-
-## Challenges to peace
-
-Risk of cooperation being perceived as defection.  Also risk of defection being perceived as cooperation (an accident), and the worry that ingroup will not punish outgroup defection.
-
-
-
-
+-->
