@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 V: Implications for Peacebuilding Programs
+- achieving a joint goal _that could not be achieved alone_.
+    - comparative advantage.
 -	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
 - Think about incentives of individual group members, not just groups as a whole.
 -	Do not try to solve groups conflict externally; help groups solve own problems.

@@ -14,13 +14,39 @@ IIIa: Intergroup contact to remove those factors
 -	Reduces psych biases to perception: removes stereotypes, anxiety/threat; adds empathy, identification of similarities/joint interests.  Something needs to grease the gears.
 -	Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.  Confidence-building measure.
 
-# Intergroup Contact
+# Reducing group conflict
+
+In the previous section, I discussed the non-material factors that contribute to conflict by (1) adding costs to peace and benefits to fighting, and (2) biasing perceptions of the other side such that neither group can reassure the other side about peaceful intentions.  I also discussed how groups suffer from a collective action problem in compelling group members to honor peace agreements and why ingroup policing may not help groups in conflict reassure the other side that they have solved their collective action problem.  In this section, I discuss intergroup contact as a method to reduce the costs of peace, the benefits of fighting, and the biases that cause misperceptions.  I then propose a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
+
+## Intergroup contact
+<!--overall goal of section: how intergroup contact helps reducing costs to peace, benefits to fighting, and perceptual biases.-->
+
+<!--Make groups want peace: Goal achievement through cooperation: cooperation in each group’s interest.
+perceive that the benefits of peace outweigh the benefits of fighting; a solution should increase the expected payoff of peace (through examples of cross-group cooperation working well) and reduce psychological benefits from harming outgroup.
+
+Peace in group's itnerest == Give groups incentive to solve collective action problem: Norms for cooperation
+-->
+Intergroup contact, interactions between group members in which members of different groups work together to achieve common goals, could help groups overcome problems that cause conflict.  First, achieving a goal by working with the outgroup could make groups prefer peace to fighting by demonstrating the benefits of cross-group cooperation.  Whereas some psychological phenomena add costs to peace, intergroup contact could add previously unforeseen benefits to peace.  The prospect of benefits through cooperation can motivate individuals to develop more positive attitudes towards cooperation [@grady2020lab; @rohner2013war] and groups to develop norms that encourage cooperation [@axelrod1986evolutionary; chris: cite?].  More positive individual attitudes and social norms towards the outgroup should also add costs to fighting, since harming the outgroup loses its luster.<!--@gambetta_ch13, summarizing Hayek's (1978) Three Sources of Human Values.  trust is "nothing more than trust in the success of previous cooperation."-->
+
+<!--also tells each group that the other side wants to cooperate.  Can trust other side to do what is in their own interest. -->
+Second, along with increasing the utility of cooperation so that each group prefers cooperation to fighting, achieving a joint goal through cooperation reassures each group that the other side also prefers cooperation.  If each side prefers cooperation but neither side is aware of the other side's preferences, groups may not cooperate to avoid the costs of being betrayed.  Each side can trust the other to engage in cooperative behavior when both side's know that it is in each side's interest to do so [@gambetta_ch13].
+<!-- @gambetta_ch13: "It is necessary not only to trust others before acting cooperatively, but also to believe that one is trusted by others."
+@gambetta_ch13: "The importance of interest is twofold: it can be seen to govern action independently of a given level of trust, but it can also act on trust itself by making behaviour more predictable."  "cooperative behaviour does not depend on trust alone" but on interest/incentives.
+        On closer inspection we find that when that pressure is commonly shared and this fact is known to both sides, then cooperation is motivated and trust itself may increase as a result."  Later, quoting Hume: "'...interest is the first obligation to the performance of promises. Afterwards a sentiment of morals concurs with interest, and becomes a new obligation upon mankind (1969: 574)."
+-->
+
+<!--reduces perceptual biases, greases the gears. -->
+Third, intergroup contact can reduce perceptual biases that prevent groups from accurately perceiving the other side's preferences and building trust.  Intergroup contact allows groups members to learn about each other based on personal experience, which can dispel stereotypes, reduce feeling of threat and anxiety, engender feelings of empathy, and make group commonalities salient [@allport1954prejudice; @pettigrew2008does; @page2008little; @batson1997empathy; @broockman2016durably; @gaertner1993common].  All of these mechanisms increase the likelihood that group members perceive cooperation to be in their interest. It is unlikely that one side will expect cross-group interaction to be in the group's interest if that group member fears outgroup members and holds negative stereotypes about the outgroup's work ethic and honesty.  Through these mechanisms, contact builds trust even between conflicting groups [@grady2020farmer; @hewstone2006intergroup].
+<!--@gambetta_ch13: Contact builds familiarity, which may be necessary for trust to form: "trust may be a by-product...of familiarity and friendship, both of which imply that those involved have some knowledge of each other and some respect for each other’s welfare."-->
+
+<!--Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.
+small cooperation helps build large.  Confidence-building measure-->
+Fourth, intergroup contact provides groups with opportunities to interact and send direct signals of trustworthiness.  Direct cross-group interaction and communication reduces competition in behavioral games [@bornstein2003intergroup] and in formal models [@rohner2013war].  These signals can serve as confidence-building measures and allow groups to start small and low-risk and gradually increasing as groups build trust over time; trust is one of the few resources that increases with use [@gambetta_ch13].  Importantly, intergroup contact gives each group the opportunity to signal willingness to punish their own members if those members jeopardize peace.
+
+Contact does X, Y, Z.  It is not a panacea, hwoever, and groups can still misperceive the behavior of the other.  When both groups desire peace and begin cooperating, misperceptions are the main threat to enduring peace.  Risk of cooperation being perceived as defection.  Risk of defection being perceived as cooperation (an accident). the worry that ingroup will not punish outgroup defection.  Institutional structure that minimizes misperceptions and their effect.
 
 
-
-
-
-
+## Joint-punishment institutions to avoid misperceptions
 
 
 

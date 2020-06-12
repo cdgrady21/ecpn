@@ -8,11 +8,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-IIIa: Intergroup contact to remove those factors
--	Make groups want peace: Goal achievement through cooperation: cooperation in each group’s interest
--	Give groups incentive to solve collective action problem: Norms for cooperation
--	Reduces psych biases to perception: removes stereotypes, anxiety/threat; adds empathy, identification of similarities/joint interests
--	Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.  Confidence-building measure.
+IIIb: Joint punishment institutions to minimize misperceptions
+-	Situation is an iterative Prisoner’s Dilemma: best off with [C,C] but really want to avoid [D,D]. Describe iterative PD.
+-	When groups prefer peace and intend to cooperate, misperceptions/accidents main challenge to peace: Try to throw C, accidentally throw D.  OR Throw C, gets interpreted as D.
+-	Collective action problem: societies heterogeneous, some don’t want peace.  A bad apple could throw D; C is then punishing your own.  Two levels of misperception: (1) that D was purposeful on part of group, and (2) that the punishment was not severe enough and the punishment C was actually a D.
+-	Solution described (police your own) subject to misperceiving.
+-	Social norms/institutions minimize “accidental” individual D.  Institutions to minimize misperception of C to D.
+-	Joint punishment: both groups decide together.  Pros/cons.
+
 
 # Misperceptions and Joint Punishment Institutions
 
