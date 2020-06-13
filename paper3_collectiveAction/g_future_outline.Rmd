@@ -10,17 +10,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 VI: Avenues for Empirical Research
--	Test contact programs with groups in conflict and with history of conflict.
+
+-	Test contact programs with groups in conflict and with history of conflict.  Look for collaborative institutions.
+
 -	Compare contact programs that do and do not (1) work to achieve goal, (2) actually achieve it.
--	
+
 -	Best means to demonstrate material rationality of peace.  Trade, differentiated groups?
+
+- Best means to reduce psych/cognitive biases
+
 -	Need for enforcement at onset to incentivize Cooperation?
--	Role of elites: contact says must support
+
+-	Role of elites: contact says they must support
+
 -	Difficulty with very decentralized groups
+
 -	Power disparities between groups
+
 -	Contact’s differential effects with these power disparities.
--	Something
--	In US, black-white relations.  Black people following social rules and getting punished by joint-punishment institution: the police.  Low legitimacy of institution.
 
 
 # Avenues for Future Research

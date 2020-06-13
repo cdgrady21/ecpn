@@ -1,0 +1,326 @@
+---
+title: "TBD, tentatively: Group Conflict, Collective Action Problems, and Intergroup Contact"
+author: "Christopher Grady"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../../../../utils/bowersarticletemplate.latex
+  word_document: default
+csl: ../../../../utils/american-political-science-review.csl
+bibliography: ../../../../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+
+\begin{abstract}
+
+Group conflict of all types plagues humanity's dealings with itself.  Group conflict is caused by a commitment problem wherein neither side trusts the other to honor agreements.  Peace is a public good, so the commitment problem can be solved if groups have ways to compel radical group members to honor agreements + signal the ability and intent to compel radicals to other side.  Psychological barriers like prejudice may prevent groups from desiring peace/wanting to prevent radicals, and from sending/receiving signals about commitment to peace.  Intergroup contact that achieves a joint goal can remove prejudice, provide incentive for peace and cooperation, and allow signals to be more accurately perceived.  To send strong, unambiguous signals, however, both groups must be involved in punishing defectors: only ingroup punishing their own can be perceived as too lenient, only outgroup punishing other side can be perceived as too harsh.  I apply this perspective to the the cases of farmer-pastoralist conflict in Nigeria.  I close by discussing outstanding issues, such as initiating the onset of joint-punishment institutions, and implications for peacebuilding programs.
+
+\end{abstract}
+
+<!--chris: NEED to add hameiri2014challenges about difficulties of positive attitude change in ongoing conflict. -->
+
+# Introduction
+
+<!--1 – Violence is bad.  Results from commitment/trust problem.  Explain comm/trust problem.-->
+Groups fight for the resources -- land, wealth, power, or otherwise -- that fighting destroys.  As such, groups could almost always divide the resources before war in a way that benefits them more than their postwar settlement.  This is the enigma of violent conflict: why do groups engage in violent conflict when violent conflict often destroys the very thing the groups are fighting for?  The general answer is that groups suffer from a commitment problem: both sides are better off negotiating a peaceful agreement, but conflict occurs because neither group trusts the other to abide by negotiated agreements [@fearon1995rationalist; @powell2006war; @reed2016bargaining].  If groups trusted each other to abide by agreements, they would not need to fight and each group would enjoy superior outcomes relative to their outcomes after fighting.  
+
+<!--2 – Comm/trust problems between groups usually solved by 3rd parties or reputations/repeated interactions. Explain how these things solve problem.  -->
+
+One of the most common mechanisms for overcoming commitment problems and resolving group conflict is third-party enforcement of agreements.  Third party enforcement reduces commitment problems by incentivizing each side to honor agreements out of their own interest.  Though each group may have an incentive to defect on an agreement after it is made, the groups have less incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements [@fearon1994ethnic].  Third parties to enforce agreements can often effectively reduce conflict [@doyle2000international; @di2017effectiveness; @walter2002committing; @hartzell2001stabilizing; @gartner2011signs; @wallensteen2014talking], but they also suffer from limitations. First, third party intervention is costly.  The cost results in intervention only when the third party has an interest in one side winning the dispute or when conflict has already escalated into violence, so intervention is rarely used to reduce the persistent, smaller-scale violence that plague many countries [@greig2005stepping; @kydd2006can; @fey2010shuttle].  Second, third parties are relatively ineffective at ending ongoing conflicts compared to maintaining peace in a post-conflict setting [@gilligan2008interventions; @doyle2006making; @bratt1996assessing].  And third, third party punishment is exogenous to the conflicting groups and therefore does not create trust between those groups that will last beyond the third party's presence [@gambetta_ch13; @rohner2013war].  @weinstein2005autonomous estimated that 75% of civil wars resume within 10 years of UN intervention, and @beardsley2008agreement showed that international mediation reduces conflict in the short-term but not the long-term.
+
+<!--3 – many ways, other than 3rd parties, to build trust between groups.  reputation/repeated interactions.-->
+
+Commitment problems can be overcome and conflict resolved without relying on third party intervention.  Groups can build trust and resolve conflicts by cultivating reputations for trustworthiness in repeated interactions.  Repeated interactions between groups, like third parties, help overcome commitment problems by providing each group with the incentive to honor agreements out of their own interest.  Here the incentive comes not from fear of punishment but the prospect of better future outcomes from cooperation than defection.  Though each group may have an incentive to defect on an agreement today if the groups will not interact tomorrow, the groups have an incentive to cooperate now if their behavior today will be reciprocated by the other side in future interactions [@ostrom2003trust; @kydd2000trust; @axelrod1981evolution].[^reputation]  Both groups stand to gain more from enduring cooperation than enduring defection.
+
+[^reputation]: I discuss repeated interactions and reputations together, but these mechanisms are subtly different.  The repeated interaction mechanism is generally mobilized for contexts with just two groups.  In those contexts, cooperation in previous interactions assists in obtaining cooperative behavior in the future from the same partner; other potential partners are unnecessary.  The reputation mechanism is generally mobilized for contexts in which many groups observe the behavior of many other groups.  In those contexts a good reputation assists in obtaining _other_ cooperative partners; repeated interactions with the same partner are unnecessary.  I discuss these mechanisms together because both rely on creating cooperative expectations from bargaining partners in future interactions.
+
+<!--4 - general problems with rep/repeated interactions: don't want peace because psych costs; even if want peace, incentive to act tough to get best deal; even if want peace and not acting tough, biased perceptions of outgroup means each group is likely to misinterpret each other's cooperative signals.-->
+Solving commitment problems through repeated interactions also faces limitations, however, especially for groups in or with a history of conflict.  Repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because they derive psychological benefit from feelings of group superiority and from harm to a hated outgroup [@weisel2015ingroup; @cikara2014their; @tajfel2981groups; @fein1997prejudice] and when their animosity leads them to prefer relative gains over the outgroup to absolute gains for themselves [@waltz2010theory; @halevy2010relative; @turner1979social].  Even if groups desire peace, they maintain an incentive to act "tough" to get the best deal, and so may not signal their desire for peace [@ross1995psychological].  And even if groups signal their desire for peace, phenomena like confirmation bias, cognitive dissonance, and motivated reasoning can bias perceptions of outgroup behavior and prevent groups from accurately perceiving peaceful intentions [@de2008motivated; @ward1997naive; @duncan1976differential; @vallone1985hostileMedia; @festinger1962cognitiveDissonance; @kunda1990motivatedReasoning; @tajfel1969cognitive; @nickerson1998confirmation].  These non-material factors can prevent future interactions from solving groups' commitment problem.
+
+<!--5 - Challenge not yet identified for building trust between groups: there is a within-group Collective action problem in addition to a between-group commitment problem.  Groups made of individuals.  What does it mean to trust a group?  It means trusting that sufficient number of group members will cooperate and that they can and will compel other group members who do not want to cooperate.  Sambanis: “peace can be derailed by a few radicals.” Beyond most members of a group signaling a commitment to peace, they must also signal a willingness and capacity to punish ingroup members who do not contribute to peace.  -->
+
+An additional challenge with building trust between groups has not received much attention in the literature: each group faces a within-group collective action problem in addition to the between-group commitment problem.  The collective action problem occurs because each group is a collection of individual group members with their own behavioral incentives, not cohesive entities.  Peace benefits all members of a group, but contributing to peace is costly for group members because they must refrain from engaging in behaviors that benefit themselves at the expense of the outgroup.  Achieving peace, as with any public good, requires overcoming this collective action problem: the group must compel group members to contribute to peace despite the members' individual incentive to shirk and rely on others to bear its cost.  <!--What does it mean for a group to trust another group?-->One group trusting the other to honor an agreement, then, means not only trusting that a high proportion of outgroup members desire peace, but also that those outgroup members can and will compel less cooperative group members to honor a peace agreement [@fearon1996explaining].  Peace, after all, can be derailed by a few radicals [@sambanis2013social; @de2009effects].
+<!--chris: do I need to say something about third party actors being unable to solve group's internal collective action problem? -->
+
+<!--6 - Neither 3rd parties nor repeated interaction/reputation often sufficient to build trust between groups. -->
+This is a bleak picture.  Often, neither the presence of third parties nor repeated interaction are sufficient to build trust between groups.  Third parties may be unwilling to intervene early enough to prevent violence, rarely intervene with enough force to stop ongoing conflict, and do not necessarily create the trust needed for long-term peace<!--, though they are effective at preventing a relapse into violence in the immediate aftermath of conflict-->.  Repeated interactions can create the trust needed for long-term peace, but getting cooperation started is difficult because of psychological costs to cooperation, incentives to increase bargaining power by acting uncooperative, and cognitive biases that prevent groups from receiving each other's cooperative signals.  And beyond signaling the intent of the group's majority to abide by peace agreements, groups must go further and signal their willingness and capacity to punish their own group members if a group member defects on the agreement.
+
+<!--7 - Insights from psych on how to change attitudes and relieve biased perceptions.  Intergroup contact to achieve goal. Groups expect the other side to do what is in their interest; if each side recognizes that the other will cooperate out of self-interest, can trust other side to cooperate.
+
+Contact gives groups a reason to get along.  Contact is Confidence-building measure, costly signal. chris: Need to incorporate.
+
+the solution needs to (1) remove psych costs to peace and psych/social barriers to trusting other side, (2) signal that each group has solved its collective action problem and can compel radical group members to not take aggressive action against outgroup.
+-->
+Despite the bleakness, insights from psychology and political science provide means to overcome the issues that prevent groups from developing trust in repeated interactions.  When repeated interactions help groups cooperate they do so because each group sees that peaceful cooperation is in both their interests; repeated interactions fail to bring about peace when groups prefer fighting or when groups think the other side prefers fighting.  To help groups overcome their commitment problems through repeated interactions, an intervention must shift preferences towards peace and provide an opportunity for each group to observe this preference in the other.  Structured intergroup contact -- cross-group interactions in which groups cooperate to achieve shared goals -- can show groups that peace is in both their interests, remove the psychological barriers to each group identifying that the other wants peace, and provide opportunities for each group to send costly signals of their intent to cooperate and willingness to punish ingroup members who do not.  Achieving a joint goal demonstrates to each group that both their interests are best served through cooperation.  The prospect of benefit through cross-group cooperation motivates cooperation and attitude change [@grady2020lab; @rohner2013war] as well as the adoption of group norms to ensure cooperation, like punishment of ingroup members whose behavior undermines peace [@axelrod1986evolutionary; @fearon1996explaining].  Believing that the other side wants peace also creates the expectation that the other side will solve its collective action problem and police their own because it is in their interest to do so.
+
+<!--8 - Mistakes happen; need to reduce chances for misinterpretation of other side's signals.  Joint-punishment apparatus. Not ingroup policing-->
+Intergroup contact is a good first step to show groups that both benefit from cooperation and help groups send and receive signals of cooperation.  Even if contact reduces biases that cause misperceptions of these signals, however, misperceptions are still possible and can derail cooperative equilibria [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  Members of one group may accidentally engage in action that harms the other or may perceive outgroup behavior as aggressive when it is not.  For long-term peace, institutions must minimize and manage these misperceptions.
+
+One common mechanism for reducing group conflict is ingroup policing in which each side polices its own miscreants [@fearon1996explaining].  Ingroup policing is generally an excellent institution for preventing escalations of violence and for maintaining peace, but I suggest that mistrust between groups in or with a recent history of conflict may make ingroup policing unsustainable as a solution to prevent violence because of the potential for one group to devalue the costs imposed by the ingroup on their defector.  Groups in conflict reactively devalue costly behaviors done by the other side [@ward1997naive; @ross1995psychological; @maoz2002reactive; @millard2018testing] on the logic that "$X$ behavior must not be very costly, since they were willing to do it" (@kahneman1992reference calls a similar phenomenon "concession aversion").  This reactive devaluation causes problems for ingroup policing, since it can create the perception that any ingroup punishment was too lenient.  This can cause the outgroup to exact their own punishment, which may be viewed as too harsh, causing a spiral of violence.  Instead of ingroup policing, I propose that both groups should be involved in the punishment of group members who harm the other side.  The involvement of both groups minimizes the possibility that either side believes the punishment was too lenient or harsh.
+
+<!--Roadmap paragraph -->
+I begin by describing how non-material factors can lead to group conflict by preventing each group from trusting the other to cooperate even when it is in each group's material interest to cooperate.  Next I propose intergroup contact and joint-punishment institutions as a way that groups avoid falling into a spiral of violence.  I then apply this perspective to farmer-pastoralist conflict in Nigeria and describe the form that joint-punishment institutions have taken there, as well as consequences for conflict when no such institutions exist.  I conclude by describing implications for peacebuilding programs and considering avenues for empirical research.
+
+
+# Non-material factors that increase likelihood of conflict
+
+Violent conflict is not materially rational because it destroys the resources groups are fighting for.  As such, several non-material factors should contribute to conflict.  By looking at groups as a collection of individual group members, I identify two main ways that these non-material factors contribute to conflict.  First, they shrink the range of peace agreements that each side prefers to peace by adding costs to peace and benefits to fighting.  Second, they bias perceptions of the other side's preferences such that neither side thinks the other prefers peace or can be trusted to abide by peace agreements.  I also identify an internal collective action problem that leads to conflict and explain why that problem is exceptionally difficult for group's to solve.
+
+<!--costs to peace:
+(1) self-esteem loss
+(2) cost of losing justification for past aggressive/discriminatory behaviors
+(3) general costs to attitude change: I thought those people were bad, now we're supposed to work with them?
+(4) cost of changing norms/institutions that discriminated against the outgroup.
+(5) domestic audience costs to leaders?
+(6) making peace with an enemy?
+(7) sunk cost fallacy / "dissonant...to accept terms today that could have been achieved, without the ensuing costs...,at some earlier point in time."-->
+
+## Costs of Peace and Benefits of Fighting
+
+Non-material factors add costs to peace in three main ways: (1) costs of changing attitudes and institutions, (2) loss of self-esteem, and (3) loss of sunk costs.  First, to the extent that accepting peace requires individuals in the group to change attitudes about the outgroup, group members must accept the psychological costs of attitude change.  Individuals use many strategies to maintain existing attitudes -- searching for information that confirms pre-existing beliefs, counterarguing information divergent with their beliefs -- suggesting that costs to attitude change are not insubstantial [@nickerson1998confirmation; @kunda1990motivatedReasoning].  Changing negative attitudes towards an enemy may be especially challenging because negative outgroup attitudes are supported by a "sociopsychological infrastructure" that feeds conflict [@bar2007sociopsychological].  At the group-level, a peace agreement requires groups to dismantle the sociopsychological infrastructure that fed conflict and any social norms/institutions developed from it that encouraged violence against the outgroup [@bornstein2003intergroup].  Those institutions must be reformed to prevent, not encourage, intergroup violence.
+
+Second, peace agreements may cause a loss of self-esteem for individual group members.  Group members derive self-esteem from positively comparing their group to a rival group, and and any agreement in which their side acknowledges the legitimacy of the other challenges this group-based boost to self-esteem [@tajfel1981groups; @wood2000attitude; @tajfel1979integrative; @fein1997prejudice; @martiny2012shall; @brown2019group].  Group members may also pay psychological costs to their self-esteem from losing their rationalization for engaging in discriminatory or aggressive behaviors towards outgroup members.  People rationalize their behavior to maintain a moral self-image [@bandura1999moral; @bandura2014social; @mazar2008dishonesty], and people who harmed the outgroup must come to terms with past behaviors that are now deemed immoral.
+
+Third, individuals are affected by the sunk cost fallacy and want the gain from a peace deal to make up for the cost of fighting even though those costs were already born [@arkes1985psychology].  Accepting a peace agreement after fighting that could have been achieved without fighting is to admit that past behavior was a mistake, and people are loathe to admit their mistakes [@tavris2008mistakes].  It is "dissonant for the disputing parties to accept terms today that could have been achieved, without the ensuing costs, at some earlier point in time" [@ross1995psychological, p.264].
+
+[chris: I feel that sunk costs are important but I have not yet been able to articulate it well. Is it a loss of self-esteem?]
+
+<!--Example of costs to peace. harm, discrimination. -->
+To see how these psychological costs to peace might sabotage peace efforts, imagine that groups fighting over land sign a peace agreement that assigns some land to each group.  This agreement may make material sense in that each group can enjoy the benefits of some land instead of fighting for all of it.  But in addition to the material cost of losing potential access to land granted to the other side, each group must begin punishing outgroup violence rather than encouraging it.  Individuals in the group must adjust their behavior to conform to new norms and rethink the status of their group relative to the outgroup; they can no longer "bask in the reflected glory" of their group's superiority [@brown2019group, p.312].  Individuals who felt justified in overcharged outgroup members for services or physically harming outgroup members are now told that such behaviors are wrong and immoral.  Individuals must also accept that their sacrifices to benefit fighting -- dead friends and loved ones, material deprivation, time and energy spent fighting -- were for naught: the sacrifices did not help the group win.  Sustaining conflict against the outgroup allows group members to maintain existing attitudes and behaviors and preserves the possibility that their group will be victorious.
+
+<!--Benefit to fighting-->
+Other than avoiding these costs, group members may prefer fighting due to its non-material benefits.  First, group members may feel pleasure in response to outgroup pain [@weisel2015ingroup; @cikara2014their].  This pleasure adds psychological utility to participating in conflict for individual group members.  Second, individuals may like gaining glory and other social rewards for participating in violent conflict.  Societies use various social carrots and sticks to encourage participation in conflict [@gneezy2012conflict], and group members give up those rewards when conflict ends.  These social rewards add social utility to participating in conflict.  Third, in addition to non-material benefits of fighting, each side may overestimate their chances of victory, causing them to discount the costs of conflict [@johnson2009overconfidence].
+
+
+<!--Costs to peace, benefits to fighting: no possible peace agreements -->
+As a result of these costs to peace and benefits to conflict, there may exist no peace agreement that both sides prefer to fighting.  Each side prefers mutual cooperation in repeated interactions only if their utility from mutual cooperation exceeds their utility from mutual defection.  Due to non-material costs of peace and benefits of fighting, sides may prefer fighting, to say nothing of each side's tendency to overestimate their chances of victory [@johnson2009overconfidence]  Even if side's do not overestimate their chance of victory, each side may only accept a peace agreement that materially favor their side because the material gains from peace must overcome its non-material costs.  Indeed, many group members are willing to accept lower absolute gains to increase relative gain over the outgroup [@turner1970social; @waltz2010theory; @halevy2010relative;].  The preference for gains relative to the outgroup makes any mutually beneficial peace agreement impossible.
+
+[chris: tikz graph showing payoffs?  "Conflict often discussed as an iterative PD.  In one-off, both sides prefer to defect, but in repeated interactions each side cooperates if their cooperation incites cooperation in the other side.  But adding costs to cooperation and benefits to fighting change that calculus."]
+
+## Biased Perceptions
+
+<!--Bias perceptions-->
+Though non-material factors can increase the costs of peace and increase benefits of conflict, the high cost of conflict may be such that both sides still prefer peace.  Even when both sides prefer peace, psychological biases can prevent each side from accurately perceiving the other's desire for peace and negotiating a peace agreement.  This happens in two main ways: (1) cognitive dissonance, motivated reasoning, and confirmation bias[^biasDefs1] cause each side to interpret the other's behavior in a way that supports existing negative attitudes and (2) loss aversion and reactive devaluation[^biasDefs2] cause the two sides to overvalue concessions they give up and undervalue concessions they receive.  These phenomena introduce significant friction in the ability of groups to build trusting relationships and avoid conflict.
+
+[^biasDefs1]: _Cognitive dissonance_ is the mental discomfort that occurs when one individual holds two contradictory beliefs.  Individuals resolve this dissonance by rejecting one of the contradictory beliefs [@festinger1962cognitiveDissonance; @tavris2008mistakes].  Individuals tend to resolve this dissonance by rejecting the newer or less central belief because it is costly to reject older and more central beliefs [@schwartz1990towards; @converse1970attitudes; @bryan2019values].  _Motivated reasoning_ and _confirmation bias_ are related concepts.  Motivated reasoning is the tendency for individuals to "reason" in whatever way allows them to reach their desired conclusion [@kunda1990motivatedReasoning].  Confirmation bias is the tendency for individuals to interpret new information and search memory for information to confirm existing beliefs [@nickerson1998confirmation].
+
+[^biasDefs2]: _Loss aversion_ refers to individuals' tendency to avoid losses more than they seek equivalent gains [@kahneman2013prospect].  Reactive devaluation is the tendency for individuals to undervalue concessions and proposals from antagonists [@ward1997naive; @ross1991barriers].
+
+Cognitive dissonance, motivated reasoning, and confirmation bias cause group members to interpret and recall outgroup behavior in negative ways that prevent building trust.  Defensive action by outgroup members may be interpreted as belligerent and threatening while belligerent action by one's own group is seen as defensive and justified [@ward1997naive; @duncan1976differential; @vallone1985hostileMedia]; positive actions by outgroup members may be re-interpreted as negative to avoid cognitive dissonance [@gubler2013humanizing; @paolini2010negative; @good2000individuals]; and unequivocally positive behavior may be dismissed as an exception while negative attributes are believed to define all outgroup members [@hewstone1990ultimate].  These phenomena can prevent costly signals of cooperative intent, one of the main ways groups solve commitment problems, from being interpreted accurately and reassuring each side of the other's desire for peace [@kydd2000trust; @rohner2013war; @gambetta_ch13].  <!--chris: cut this because seemed to be overkill.
+When recalling information about the outgroup, individuals selectively recall events that corroborate their pre-existing negative perceptions [@de2008motivated].-->
+
+<!--paragraph about loss aversion and reactive devaluation -->
+If groups manage to signal their desire for peace despite these psychological biases, loss aversion and reactive devaluation can sabotage the negotiation process.  Individuals tend to weigh losses more heavily than equivalent gains, so anything the group gives up may be magnified in importance [@kahneman2013prospect].  At the same time, individuals tend to undervalue concessions from antagonists [@ward1997naive; @ross1991barriers].  These biased valuations of concessions made and concessions given can prevent groups from reaching a mutually beneficial agreement.  They also interfere with group's sending costly signals of cooperative intent by lowering the perceived costliness of any cooperative signal.
+
+<!--Example: Imagine members of two conflicting groups.
+chris: decided to forego another example paragraph.-->
+
+<!--Limited opportunities for interaction -->
+Compounding these perceptual problems, intergroup trust is hampered by a lack of opportunities to learn about the other side.  Groups in conflict tend to limit contact between the two sides [@bornstein2003intergroup], so most learning must come from observing the outgroup's interactions with other groups.  Even if those opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup, which are limited and hampered by perceptual biases.
+
+
+## Problem of Collective Action
+
+<!--Problem of collective action -->
+Implicit in the discussion of these non-material factors is that groups are made up of individuals and that individual cognitive and psychological biases influence conflict dynamics.  Following that logic -- that groups are collections of individuals with preferences that may differ from the group as a whole -- leads to an additional challenge to groups' negotiating peace agreements: peace is a public good.  Group members must refrain from behavior that benefits them individually at the expense of the outgroup, but if peace is achieved group members enjoy its benefits whether or not they bore its costs.  Without the ability to compel behavior for the public good, groups cannot credibly commit to honor negotiated agreements.[^bornstein]
+
+Collective action problems are notoriously difficult to solve.  In the case of intergroup conflict, compelling group members to sacrifice now for the long-term good of the group is made even more difficult because individuals may be killed before peace is achieved and thus never enjoy the benefits of collective action.  Individuals are notoriously bad even at saving for retirement, where individuals can sacrifice now to benefit themselves later [@benartzi2013behavioral; @warner2001personal].  Individuals may rationally discount future payoffs quite significantly in conflict settings where the benefits accrue to a group.
+
+[^bornstein]: Bornstein (@bornstein1992free; @bornstein2003intergroup) was among the first to consider how the preferences of individuals complicate discussions of group conflict.  His focus, and the focus of most subsequent scholarship, was how groups encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.
+
+@fearon1996explaining showed that ingroup policing, an institution wherein groups punish their own miscreants, can help groups avoid an escalation of intergroup violence; they credit the relative paucity of group conflict to such institutions.  Ingroup policing is an excellent institution for preventing violence from escalating and for maintaining peace in many contexts, but I suggest that perceptual biases and mistrust between groups in or with a recent history of conflict makes ingroup policing unsustainable as a solution in those contexts.  With ingroup policing, groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  Since ingroup policing depends on the perceptions group members, if those perceptions are biased such that members of each group suspect the other is trying to take advantage of the ingroup policing institution, then the institution breaks down as each group does not trust the other to allocate sufficient punishment to their own side.
+
+In the next section, I will discuss ways to reduce the biases that cause misperceptions and a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
+
+
+# Reducing group conflict
+
+In the previous section, I discussed the non-material factors that contribute to conflict by (1) adding costs to peace and benefits to fighting, and (2) biasing perceptions of the other side such that neither group can reassure the other side about peaceful intentions.  I also discussed how groups suffer from a collective action problem in compelling group members to honor peace agreements and why ingroup policing may not help groups in conflict reassure the other side that they have solved their collective action problem.  In this section, I discuss intergroup contact as a method to reduce the costs of peace, the benefits of fighting, and the biases that cause misperceptions.  I then propose a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
+
+## Intergroup contact
+<!--overall goal of section: how intergroup contact helps reducing costs to peace, benefits to fighting, and perceptual biases.-->
+
+<!--Make groups want peace: Goal achievement through cooperation: cooperation in each group’s interest.
+perceive that the benefits of peace outweigh the benefits of fighting; a solution should increase the expected payoff of peace (through examples of cross-group cooperation working well) and reduce psychological benefits from harming outgroup.
+
+Peace in group's itnerest == Give groups incentive to solve collective action problem: Norms for cooperation
+-->
+Intergroup contact, interactions between group members in which members of different groups work together to achieve common goals, could help groups overcome problems that cause conflict.  First, achieving a goal by working with the outgroup could make groups prefer peace to fighting by demonstrating the benefits of cross-group cooperation.  Whereas some psychological phenomena add costs to peace, intergroup contact could add previously unforeseen benefits to peace.  The prospect of benefits through cooperation can motivate individuals to develop more positive attitudes towards cooperation [@grady2020lab; @rohner2013war] and groups to develop norms that encourage cooperation [@axelrod1986evolutionary; chris: cite?].  More positive individual attitudes and social norms towards the outgroup should also add costs to fighting, since harming the outgroup loses its luster.<!--@gambetta_ch13, summarizing Hayek's (1978) Three Sources of Human Values.  trust is "nothing more than trust in the success of previous cooperation."-->
+
+<!--also tells each group that the other side wants to cooperate.  Can trust other side to do what is in their own interest. -->
+Second, along with increasing the utility of cooperation so that each group prefers cooperation to fighting, achieving a joint goal through cooperation reassures each group that the other side also prefers cooperation.  If each side prefers cooperation but neither side is aware of the other side's preferences, groups may not cooperate to avoid the costs of being betrayed.  Each side can trust the other to engage in cooperative behavior when both side's know that it is in each side's interest to do so [@gambetta_ch13].
+<!-- @gambetta_ch13: "It is necessary not only to trust others before acting cooperatively, but also to believe that one is trusted by others."
+@gambetta_ch13: "The importance of interest is twofold: it can be seen to govern action independently of a given level of trust, but it can also act on trust itself by making behaviour more predictable."  "cooperative behaviour does not depend on trust alone" but on interest/incentives.
+        On closer inspection we find that when that pressure is commonly shared and this fact is known to both sides, then cooperation is motivated and trust itself may increase as a result."  Later, quoting Hume: "'...interest is the first obligation to the performance of promises. Afterwards a sentiment of morals concurs with interest, and becomes a new obligation upon mankind (1969: 574)."
+-->
+
+<!--reduces perceptual biases, greases the gears. -->
+Third, intergroup contact can reduce perceptual biases that prevent groups from accurately perceiving the other side's preferences and building trust.  Intergroup contact allows groups members to learn about each other based on personal experience, which can dispel stereotypes, reduce feeling of threat and anxiety, engender feelings of empathy, and make group commonalities salient [@allport1954prejudice; @pettigrew2008does; @page2008little; @batson1997empathy; @broockman2016durably; @gaertner1993common].  All of these mechanisms increase the likelihood that group members perceive cooperation to be in their interest. It is unlikely that one side will expect cross-group interaction to be in the group's interest if that group member fears outgroup members and holds negative stereotypes about the outgroup's work ethic and honesty.  Through these mechanisms, contact builds trust even between conflicting groups [@grady2020farmer; @hewstone2006intergroup].
+<!--@gambetta_ch13: Contact builds familiarity, which may be necessary for trust to form: "trust may be a by-product...of familiarity and friendship, both of which imply that those involved have some knowledge of each other and some respect for each other’s welfare."-->
+
+<!--Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.
+small cooperation helps build large.  Confidence-building measure-->
+Fourth, intergroup contact provides groups with opportunities to interact and send direct signals of trustworthiness.  Direct cross-group interaction and communication reduces competition in behavioral games [@bornstein1989within; @ostrom2006value] and in formal models [@rohner2013war].  These signals can serve as confidence-building measures and allow groups to start small and low-risk and gradually increasing as groups build trust over time; trust is one of the few resources that increases with use [@gambetta_ch13].  Importantly, intergroup contact gives each group the opportunity to signal willingness to punish their own members if those members jeopardize peace.
+
+Intergroup contact can provide incentives for cooperation, reduce perceptual biases, and provide opportunities for costly signals of trustworthiness.  It is not a panacea, however, and groups can still misperceive the behavior and intentions of the other side.  When both groups desire cooperation, the risk of cooperative behavior being misperceived as uncooperative behavior is the main threat to enduring peace [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  If groups trust each other to police their own, each side must worry that the other group will not punish their own members with sufficient force to deter their harmful or discriminatory actions.  Groups are, after all, biased in favor of their own side.  Groups need a collaborative institutional structure to minimize misperceptions and their effect.
+
+
+## Misperceptions and joint-punishment institutions
+
+<!--
+IIIb: Joint punishment institutions to minimize misperceptions
+-	Situation is an iterative Prisoner’s Dilemma: best off with [C,C] but really want to avoid [D,D]. Describe iterative PD.
+-	When groups prefer peace and intend to cooperate, misperceptions/accidents main challenge to peace: Try to throw C, accidentally throw D.  OR Throw C, gets interpreted as D.
+-	Collective action problem: societies heterogeneous, some don’t want peace.  A bad apple could throw D; C is then punishing your own.  Two levels of misperception: (1) that D was purposeful on part of group, and (2) that the punishment was not severe enough and the punishment C was actually a D.
+-	Solution described (police your own) subject to misperceiving.
+-	Social norms/institutions minimize “accidental” individual D.  Institutions to minimize misperception of C to D.
+-	Joint punishment: both groups decide together.  Pros/cons.
+-->
+
+<!---	real situation that is an iterative Prisoner’s Dilemma -->
+When groups are cooperating, misperceptions are a major danger to continued cooperation.  To see why, imagine that two groups are cooperating over a joint feast.  One group is charged with bringing meat and milk, the other with bringing vegetables and grains.  Imagine the vegetable and grain side contributes less than their fair share due to a bad harvest.  What should the other side do?  Since they do not know why the other side has come without sufficient food, they cannot rule out the possibility that the other side is being treacherous.  Do they allow the non-contributors to partake in the feast, or do they take their food and go home?  If they allow the non-contributors to join the feast, they might be preserving cooperative relations and ensuring future feasts, which is good for both sides.  Or they might be allowing the other side to get away with betrayal, which is bad for their side and good for the side of the non-contributors.[^IPD]
+
+[^IPD]: This situation follows @axelrod1981evolution and @fearon1996explaining in conceptualizing intergroup cooperation as an iterative prisoners dilemma.  Two groups interact simultaneously for an unlimited number of rounds, either cooperating or defecting.  Both sides most prefer to defect when the other cooperates and least prefer to cooperate when the other defects; mutual cooperation is the Pareto efficient outcome in that it maximizes overall value.  When each side cooperates, there is a small chance that it accidentally defects or that it's cooperation gets interpreted as defection.
+
+<!---	When groups prefer peace and intend to cooperate, misperceptions/accidents main challenge to peace: Try to throw C, accidentally throw D.  OR Throw C, gets interpreted as D. -->
+In this scenario, both sides have intended to cooperate, but one side's attempt to cooperate looks like defection.  Since both group's prefer to cooperate, mutual cooperation can only be interrupted by an accident (one side tries to cooperate and accidentally defects) or misinterpretation (one side cooperates but it gets interpreted as defection).  In this case, the continuation of cooperation depends on the meat and milk side perceiving the grain and vegetable side's meager contribution as cooperation and not defection.  If their perceptions are biased against the outgroup, they may attribute the lack of food to ill intent.
+
+<!--Collective action problem: societies heterogeneous, some don’t want peace.  A bad apple could throw D; C is then punishing your own.  Two levels of misperception: (1) that D was purposeful on part of group, and (2) that the punishment was not severe enough and the punishment C was actually a D.-->
+The problem of misperceptions is exacerbated when considering the groups as collections of individuals with different preferences.  Rather than the groups meeting to cooperate or defect, members of each group meet to cooperate or defect.  Imagine a member of Group A defects against a member of Group B.  If the groups are relying on each side to punish their own, then Group A punishes their defector.  Suppose he defects against Group B again at his next opportunity.  It may appear to Group B that (1) Group A has not punished their own group member, so he continues to defect, or (2) Group A's punishment against their own group member was too lenient.  In either scenario, Group B might punish him more harshly to deter future defection.^[Ingroup policing has many virtues over other means to punish defectors.  Most important is that the ingroup is most likely to know who defected, whereas the outgroup is only likely to know that someone from the other group defected [@fearon1996explaining].]
+
+<!--
+Solution described (police your own) subject to misperceiving.
+-->
+Since Group B does not have a say in Group A's punishment, they must trust that Group A punishes their defectors and does so sufficiently to deter future defection.  But neither group can know with certainty how much punishment is "enough" to deter future defection, so some punishments are bound to fail.  These failures can delegitimize the institution of ingroup policing unless the groups share a substantial amount of intergroup trust.  This amount of intergroup trust is unlikely to characterize the relationships of groups in or with a recent history of violent conflict.
+
+<!--	Social norms/institutions minimize “accidental” individual D.  Institutions to minimize misperception of C to D.
+-	Joint punishment: both groups decide together.  Pros/cons. -->
+Rather than the institution of ingroup policing as the way for groups to ensure cooperation, I suggest that many groups use collaborative "joint-punishment" institutions.  These collaborative institutions involve representatives from both sides who jointly decide on an appropriate punishment for any behavior in which a member of one group harms a member of the other.  Having both groups involved vastly reduces the possibility that either side believes a defector went unpunished or misperceives a genuine attempt at punishment as overly lenient.  It maintains the main benefit of ingroup policing in that each group still helps identify their defecting group members but does more to shield both groups from the temptation to punish outgroup defection themselves.
+
+In the next section, I apply this perspective to farmer-pastoralist conflict in Nigeria and describe the form that institutions to improve intergroup cooperation have taken in that context.
+
+
+# Application: Farmer-Pastoralist Conflict
+
+The conflict between farmers and pastoralists in Nigeria is a textbook case of a commitment problem preventing peace.  The groups maintain complementary ways of life, making cooperation beneficial for both.  Pastoralists have an excess of protein in the form of meat, milk, and other animal products, but they grow little in the way of grains, tubers and vegetables; the farmers have an excess of grains, tubers, and vegetables but they own few animals and have limited access to animal products.[^chicken]  Farmers also want animals to graze on their lands after harvest season to replenish the soil with animal waste, and pastoralists want to graze their animals on crop residue (stalks, leaves, seed pods, and other inedible parts of the plant) that is left on the fields after harvest.
+
+[^chicken]: Farming villages typically stock chickens for eggs and meat as their main protein source, with a few goats and sheep.  They do not have excess food year round to support large animals like cows.  Pastoralists are semi-migratory so few stay in one place long enough to cultivate crops.  Those who stay in a "home base" will set aside some land from rice or yams, but most of the land is left for cattle to graze.
+
+By all accounts, farmers and pastoralists benefited from their complementarity for several generations [@tonah2002fulani; @icg2017nigeria; @thebaud2001sahel].  There were, of course, disagreements between sedentary farmers and mobile pastoralists, but their relationship was characterized more by harmony than conflict.  Recent decades, however, have brought farmers and pastoralists more into conflict.  Historically, farming was more common in southern Nigeria and pastoralism more common in the north, but the two ways of life increasingly overlap geographically.  Farmers have moved north into marginal agricultural lands by the increasing food needs of Nigeria's booming population, which grew from 50 million at Independence in 1960 to 200 million today [@abbass2012no; @kuusaana2015land].  At the same time, pastoralists have been pushed further south by the expansion of the Sahara, which brought them to higher population density areas [@thomas2018sahara; @okpara2015conflicts].  Less land and more people who depend on the land is a recipe for conflict over land and resources.
+
+Farmer-pastoralist conflict has exploded in recent years.  The most recent conflict escalation caused 7,000 deaths from 2014-2019 and displaced hundreds of thousands of people from their homes [@council2019nigeria; @daniel2018anti; @fa2019deadly; @nyt2018nigeria].  The scale of economic damage is unknown, but farmer-pastoralist conflict _before_ this escalation cost Nigeria $13 billion annually in lost economic productivity [@mcdougal2015effect].  This violence has also impeded food production, leading to an impending food crisis [@fa2019deadly; @frontera2018nigeria; @unah2018nigeria].  
+
+The proximate causes of violence are farmers sowing seeds on pastoralists' grazing lands and pastoralists grazing their cattle on farmers' crops.  If either side retaliates -- a farmer by stealing cattle from the pastoralists' herds, a pastoralist by grazing on more farmland -- the scope of the conflict can rapidly expand.  The farmer whose crops were destroyed by cattle does not know which herd grazed on his land; cattle he steals in revenge do not necessarily come from the transgressing herd.  Pastoralists, likewise, do not know which farmer stole their cattle; the crops they destroy in revenge do not necessarily come from the transgressing farm.  From there, a little war often breaks out.  As one reporter noted, "The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].  In one case I witnessed, a farmer took revenge against cattle grazing on his farmland by poisoning the crop residue left on his fields after harvest.  After grazing on the residue, the cattle of dozens of pastoralists became sick and died.  More violence followed. 
+
+<!-- Describe non-material costs/benefits to conflict-->
+The land conflict is exacerbated by ethnic and religious differences between groups, which feeds mutual distrust.  The pastoralists are almost all from the Fulani ethnic group and practice Islam; the farmers are from a non-Fulani ethnic groups and practice Islam and Christianity, though the violence is worst where the farmers are homogeneously Christian.  Each group sees the other as biased towards their own side for economic, cultural, and religious reasons.  Each group also sees their way of life as superior.  Farmers see nomadic life as outdated, backwards, and anti-progress; the pastoralists think that sedentary farming makes one weak.  One pastoralist commented to me that if he dropped off a sedentary adult and his young child in the forest, the sedentary adult would depend on his child to survive.
+
+Despite their cultural differences and competition for scarce land, mutual complementarity remains.  Pastoralists still have animal products -- though more farmers have bought animals in recent years, pastoralists still control roughly 90% of Nigeria's livestock [@icg2017nigeria] -- and farmers still have tubers, vegetables, grains, and the resultant crop residue.  The violence is extremely costly to both sides, so both have an incentive to avoid conflict.  Community leaders recognize that peace is in the interest of their communities, but many have been unable to prevent the violence.  In interviews conducted in 2016 and 2019 by @grady2020farmer, community leaders from farming and pastoral communities expressed their desire for peace between the two groups and blamed deviants from the other side for ongoing violence.  Farmers argue that the local pastoralists do not prevent other pastoralists who migrate through from destroying cropland, and pastoralists argue that farmers on the outskirts of the farming village encroach on grazing routes more each year.   <!--Both sides believe only they have a valid claim to the land -- pastoralists because they began grazing it before farmers sowed crops, and farmers because the government recognizes property rights of farmerse over pastoralists.-->
+
+Peace between many farming and pastoral groups is prevented by a lack of trust.  Both sides are better off cooperating peacefully than fighting, but neither side trusts the other to honor agreements that would prevent fighting.  This is a classic commitment problem.  The reasons each group does not trust the other side, however, is not that they believe the other side doesn't desire peace, but rather that the farming group cannot credibly commit to preventing all farmers from expanding into grazing lands, and the pastoral group cannot credibly commit to preventing all herders from grazing cattle on croplands.  Their between-group commitment problem is driven by a within-group collective action problem because neither group trusts the other to punish their own.
+
+## Resolving farmer-pastoralist conflict
+
+Though conflict between farming and pastoral groups is common, not all farming and pastoral groups are in conflict.  Communities that have successfully navigated farmer-pastoralist tension generally have a noticeable commonality: an institution comprised of farmers and pastoralists to handle cases that threaten intergroup relations.  This institution can tap into ingroup networks to identify transgressors from each side, much like an ingroup policing institution.  Since both groups are represented, however, neither the plaintiff, the defendant, nor their group can credibly claim that the case was decided unfairly due to group bias.
+
+These joint institutions function much like trial by jury.  Representatives from each group meet, hear from the case's "plaintiff" and "defendant", and decide an appropriate punishment.  For common occurrences -- crop damage, cattle rustling, and the like -- there may also be a code of laws: predecided penalties, such as a set cost per acre of cropland destroyed or head of cattle stolen.  In past decades, agreements between the traditional leaders of each community function similarly, by setting compensation for specific actions.  Conflict is often blamed on the breakdown of such institutions [@tonah2002fulani; @cotula2004land; @kuusaana2015land].
+
+@grady2020farmer evaluated a contact-based intervention that increased trust between farmers and pastoralists.  Though they do not measure the extent to which the intervention affected institutional structures that govern intergroup relations, they describe farmers and pastoralists who had participated in the contact intervention meeting to jointly decide an appropriate punishment for vigilante farmers who intended to harm pastoralists.  The would-be perpetrators, hailing from a nearby village, were noticed and arrested by the hometown farmers while on their way to steal the pastoralists' cattle.  Rather than decide unilaterally how to punish the vigilantes, leaders from the farming community called in leaders from the pastoral community to jointly decide a punishment.  Together the groups decided to disarm the vigilantes and let them go free without further punishment -- a solution proposed by the _pastoralists_.  Had the farmers unilaterally decided to let the vigilantes go free, the pastoralists may have interpreted the punishment as too lenient and accused the farmers of bias.  Since the pastoralists had a say in the decision-making process, however, the group's were able to build trust through cooperation.  The pastoralists appreciated the farmers calling a joint meeting, and the farmers appreciated the pastoralists magnanimity in proposing a lenient punishment.
+
+@grady2020farmer also describe a contrasting situation in which a farmers and pastoralists who had not participated in the contact intervention failed due to the lack of any joint institutions.  In that situation, both sides were participating in a public goods game in which money raised would be jointly administered by both groups.  These groups had no preexisting structure to handle situations that concerned both sides, and neither side trusted the other to hold the money.  The pastoralists claimed that the money would be squandered by the corruption of the farming community's leader if a farmer held it; the farmers claimed that the pastoralists would migrate away with the money if a pastoralist held it.  In the end, the groups agreed that the NGO administering the public goods game would hold the money and disburse it in chunks when the pastoralist leader and the farming leader agreed on its use.
+
+[paragraph saying something specific about contact interventions?  Or just short summary paragraph.]
+
+
+# Policy Implications for Peacebuilding Programs
+
+- achieving a joint goal _that could not be achieved alone_.
+    - comparative advantage of each group.
+
+-	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
+
+- Think about incentives of individual group members, not just groups as a whole.
+
+-	Do not try to solve groups conflict externally; help groups solve own problems.
+
+-	Programs that demonstrate material rationality of peace.  Contact, what about others?
+
+-	Important for both groups to benefit equally.  Otherwise creating a power disparity.  Favoring one group probably makes things worse.
+
+-	Reduce psych biases
+
+-	Groups need strength to compel group members.
+
+-	Opportunities to observe other side, signal C.
+
+-	Contact programs _can_ do these things, but others may also.  More contact, if mismanaged, runs risk of exacerbating conflict.
+
+-	Joint punishment institutions: legitimacy of institutions paramount.
+
+
+# Avenues for Future Research
+
+-	Test contact programs with groups in conflict and with history of conflict.  Look for collaborative institutions.
+
+-	Compare contact programs that do and do not (1) work to achieve goal, (2) actually achieve it.
+
+-	Best means to demonstrate material rationality of peace.  Trade, differentiated groups?
+
+- Best means to reduce psych/cognitive biases
+
+-	Need for enforcement at onset to incentivize Cooperation?
+
+-	Role of elites: contact says they must support
+
+-	Difficulty with very decentralized groups
+
+-	Power disparities between groups
+
+-	Contact’s differential effects with these power disparities.
+
+
+
+
+
+
+
+
+# References

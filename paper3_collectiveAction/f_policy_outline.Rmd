@@ -10,20 +10,30 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 V: Implications for Peacebuilding Programs
+
 - achieving a joint goal _that could not be achieved alone_.
-    - comparative advantage.
+    - comparative advantage of each group.
+
 -	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
+
 - Think about incentives of individual group members, not just groups as a whole.
+
 -	Do not try to solve groups conflict externally; help groups solve own problems.
+
 -	Programs that demonstrate material rationality of peace.  Contact, what about others?
--	Important for both groups to benefit equally.  Otherwise creating a power disparity.
+
+-	Important for both groups to benefit equally.  Otherwise creating a power disparity.  Favoring one group probably makes things worse.
+
 -	Reduce psych biases
+
 -	Groups need strength to compel group members.
+
 -	Opportunities to observe other side, signal C.
--	Contact programs _can_ do these things, but others may also.  More contact mismanaged runs risk of exacerbating conflict.
+
+-	Contact programs _can_ do these things, but others may also.  More contact, if mismanaged, runs risk of exacerbating conflict.
+
 -	Joint punishment institutions: legitimacy of institutions paramount.
--	Aid to governments?
--	Favoring one group: makes things worse.
+
 
 
 
