@@ -1,0 +1,1548 @@
+%\documentclass[]{article}
+\documentclass[11pt]{article}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{tgtermes}
+\usepackage{amssymb,amsmath}
+%\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper,bottom=1in,top=1in,right=1.25in,left=1.25in,includemp=FALSE]{geometry}
+\usepackage{pdfpages}
+\usepackage[small]{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\usepackage{fontspec}
+\ifxetex
+\usepackage{xltxtra,xunicode}
+\fi
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\newcommand{\euro}{€}
+\fi
+%
+
+\usepackage{fancyvrb}
+
+\usepackage{ctable,longtable}
+
+\usepackage[section]{placeins}
+\usepackage{float} % provides the H option for float placement
+\restylefloat{figure}
+\usepackage{dcolumn} % allows for different column alignments
+\newcolumntype{.}{D{.}{.}{1.2}}
+
+\usepackage{booktabs} % nicer horizontal rules in tables
+
+%Assume we want graphics always
+%\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+%% \makeatletter
+%% \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+%%   \else\Gin@nat@width\fi}
+%% \makeatother
+%% \let\Oldincludegraphics\includegraphics
+%% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+%%\graphicspath{{.}{../Soccom_Code/socom_2013/}}
+
+
+%% \ifxetex
+%% \usepackage[pagebackref=true, setpagesize=false, % page size defined by xetex
+%% unicode=false, % unicode breaks when used with xetex
+%% xetex]{hyperref}
+%% \else
+\usepackage[pagebackref=true, unicode=true, bookmarks=true, pdftex]{hyperref}
+% \fi
+
+
+\hypersetup{breaklinks=true,
+  bookmarks=true,
+  pdfauthor={Christopher Grady},
+  pdftitle={TBD, tentatively: Group Conflict, Collective Action Problems, and Intergroup Contact},
+  colorlinks=true,
+  linkcolor=BrickRed,
+  citecolor=blue, %MidnightBlue,
+  urlcolor=BrickRed,
+  % urlcolor=blue,
+  % linkcolor=magenta,
+  pdfborder={0 0 0}}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% Insist on this.
+\setcounter{secnumdepth}{2}
+
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\title{TBD, tentatively: Group Conflict, Collective Action Problems, and
+Intergroup Contact}
+
+\author{
+Christopher Grady
+}
+
+
+\date{June 13, 2020}
+
+
+\usepackage{versions}
+\makeatletter
+\renewcommand*\versionmessage[2]{\typeout{*** `#1' #2. ***}}
+\renewcommand*\beginmarkversion{\sffamily}
+  \renewcommand*\endmarkversion{}
+\makeatother
+
+\excludeversion{comment}
+
+%\usepackage[margins=1in]{geometry}
+
+\usepackage[compact,bottomtitles]{titlesec}
+%\titleformat{ ⟨command⟩}[⟨shape⟩]{⟨format⟩}{⟨label⟩}{⟨sep⟩}{⟨before⟩}[⟨after⟩]
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\subsubsection}[hang]{\bfseries}{\thesubsubsection}{1ex}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+\titleformat{\paragraph}[runin]{\bfseries\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.2\baselineskip}}
+
+%%\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%%\titleformat*{\subsection}{\bfseries\scshape}
+%%%\titleformat{\subsubsection}[leftmargin]{\footnotesize\filleft}{\thesubsubsection}{.5em}{}{}
+%%\titleformat{\subsubsection}[hang]{\small\bfseries}{\thesubsubsection}{.5em}{\hspace{0in}}[\vspace{-.2\baselineskip}]
+%%\titleformat{\paragraph}[runin]{\itshape}{\theparagraph}{1ex}{}{\vspace{-.5\baselineskip}}
+
+%\titlespacing*{ ⟨command⟩}{⟨left⟩}{⟨beforesep⟩}{⟨aftersep⟩}[⟨right⟩]
+\titlespacing{\section}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+\titlespacing{\subsubsection}{0pc}{1.5ex plus .1ex minus .2ex}{.5ex plus .1ex minus .1ex}
+
+
+
+%% These next lines tell latex that it is ok to have a single graphic
+%% taking up most of a page, and they also decrease the space around
+%% figures and tables.
+\renewcommand\floatpagefraction{.9}
+\renewcommand\topfraction{.9}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+\setlength{\intextsep}{2ex}
+\setlength{\floatsep}{2ex}
+\setlength{\textfloatsep}{2ex}
+
+
+
+\begin{document}
+\VerbatimFootnotes
+
+%\begin{titlepage}
+%  \maketitle
+%\vspace{2in}
+%
+%\begin{center}
+%  \begin{large}
+%    PROPOSAL WHITE PAPER
+%
+%BAA 14-013
+%
+%Can a Hausa Language Television Station Change Norms about Violence in Northern Nigeria? A Randomized Study of Media Effects on Violent Extremism
+%
+%Jake Bowers
+%
+%University of Illinois @ Urbana-Champaign (jwbowers@illinois.edu)
+%
+%\url{http://jakebowers.org}
+%
+%Phone: +12179792179
+%
+%Topic Number: 1
+%
+%Topic Title: Identity, Influence and Mobilization
+%
+%\end{large}
+%\end{center}
+%\end{titlepage}
+
+\maketitle
+
+\begin{abstract}
+
+Group conflict of all types plagues humanity's dealings with itself.  Group conflict is caused by a commitment problem wherein neither side trusts the other to honor agreements.  Peace is a public good, so the commitment problem can be solved if groups have ways to compel radical group members to honor agreements + signal the ability and intent to compel radicals to other side.  Psychological barriers like prejudice may prevent groups from desiring peace/wanting to prevent radicals, and from sending/receiving signals about commitment to peace.  Intergroup contact that achieves a joint goal can remove prejudice, provide incentive for peace and cooperation, and allow signals to be more accurately perceived.  To send strong, unambiguous signals, however, both groups must be involved in punishing defectors: only ingroup punishing their own can be perceived as too lenient, only outgroup punishing other side can be perceived as too harsh.  I apply this perspective to the the cases of farmer-pastoralist conflict in Nigeria.  I close by discussing outstanding issues, such as initiating the onset of joint-punishment institutions, and implications for peacebuilding programs.
+
+\end{abstract}
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Groups fight for the resources -- land, wealth, power, or otherwise --
+that fighting destroys. As such, groups could almost always divide the
+resources before war in a way that benefits them more than their postwar
+settlement. This is the enigma of violent conflict: why do groups engage
+in violent conflict when violent conflict often destroys the very thing
+the groups are fighting for? The general answer is that groups suffer
+from a commitment problem: both sides are better off negotiating a
+peaceful agreement, but conflict occurs because neither group trusts the
+other to abide by negotiated agreements (Fearon 1995; Powell 2006; Reed
+et al. 2016). If groups trusted each other to abide by agreements, they
+would not need to fight and each group would enjoy superior outcomes
+relative to their outcomes after fighting.
+
+One of the most common mechanisms for overcoming commitment problems and
+resolving group conflict is third-party enforcement of agreements. Third
+party enforcement reduces commitment problems by incentivizing each side
+to honor agreements out of their own interest. Though each group may
+have an incentive to defect on an agreement after it is made, the groups
+have less incentive to defect if a strong third party is capable of and
+willing to punish defection from bargained agreements (Fearon 1994).
+Third parties to enforce agreements can often effectively reduce
+conflict (Di Salvatore and Ruggeri 2017; Doyle and Sambanis 2000;
+Gartner 2011; Hartzell, Hoddie, and Rothchild 2001; Wallensteen and
+Svensson 2014; Walter 2002), but they also suffer from limitations.
+First, third party intervention is costly. The cost results in
+intervention only when the third party has an interest in one side
+winning the dispute or when conflict has already escalated into
+violence, so intervention is rarely used to reduce the persistent,
+smaller-scale violence that plague many countries (Fey and Ramsay 2010;
+Greig 2005; Kydd 2006). Second, third parties are relatively ineffective
+at ending ongoing conflicts compared to maintaining peace in a
+post-conflict setting (Bratt 1996; Doyle and Sambanis 2006; Gilligan,
+Sergenti, and others 2008). And third, third party punishment is
+exogenous to the conflicting groups and therefore does not create trust
+between those groups that will last beyond the third party's presence
+(Gambetta and others 2000; Rohner, Thoenig, and Zilibotti 2013).
+Weinstein (2005) estimated that 75\% of civil wars resume within 10
+years of UN intervention, and Beardsley (2008) showed that international
+mediation reduces conflict in the short-term but not the long-term.
+
+Commitment problems can be overcome and conflict resolved without
+relying on third party intervention. Groups can build trust and resolve
+conflicts by cultivating reputations for trustworthiness in repeated
+interactions. Repeated interactions between groups, like third parties,
+help overcome commitment problems by providing each group with the
+incentive to honor agreements out of their own interest. Here the
+incentive comes not from fear of punishment but the prospect of better
+future outcomes from cooperation than defection. Though each group may
+have an incentive to defect on an agreement today if the groups will not
+interact tomorrow, the groups have an incentive to cooperate now if
+their behavior today will be reciprocated by the other side in future
+interactions (Axelrod and Hamilton 1981; Kydd 2000; Ostrom and Walker
+2003).\footnote{I discuss repeated interactions and reputations
+  together, but these mechanisms are subtly different. The repeated
+  interaction mechanism is generally mobilized for contexts with just
+  two groups. In those contexts, cooperation in previous interactions
+  assists in obtaining cooperative behavior in the future from the same
+  partner; other potential partners are unnecessary. The reputation
+  mechanism is generally mobilized for contexts in which many groups
+  observe the behavior of many other groups. In those contexts a good
+  reputation assists in obtaining \emph{other} cooperative partners;
+  repeated interactions with the same partner are unnecessary. I discuss
+  these mechanisms together because both rely on creating cooperative
+  expectations from bargaining partners in future interactions.} Both
+groups stand to gain more from enduring cooperation than enduring
+defection.
+
+Solving commitment problems through repeated interactions also faces
+limitations, however, especially for groups in or with a history of
+conflict. Repeated interactions only solve commitment problems if both
+groups prefer peace (cooperation) to fighting (defection). Though peace
+is in each group's material interest, preferences often deviate from
+material interest (Fehr and Fischbacher 2002). In the case of conflict,
+groups may not want peace because they derive psychological benefit from
+feelings of group superiority and from harm to a hated outgroup (Cikara
+et al. 2014; Fein and Spencer 1997; Tajfel 1981; Weisel and Böhm 2015)
+and when their animosity leads them to prefer relative gains over the
+outgroup to absolute gains for themselves (Halevy et al. 2010; Turner,
+Brown, and Tajfel 1979; Waltz 2010). Even if groups desire peace, they
+maintain an incentive to act ``tough'' to get the best deal, and so may
+not signal their desire for peace (Ross and Ward 1995). And even if
+groups signal their desire for peace, phenomena like confirmation bias,
+cognitive dissonance, and motivated reasoning can bias perceptions of
+outgroup behavior and prevent groups from accurately perceiving peaceful
+intentions (De Dreu, Nijstad, and Knippenberg 2008; Duncan 1976;
+Festinger 1962; Kunda 1990; Nickerson 1998; Tajfel 1969; Vallone, Ross,
+and Lepper 1985; Ward et al. 1997). These non-material factors can
+prevent future interactions from solving groups' commitment problem.
+
+An additional challenge with building trust between groups has not
+received much attention in the literature: each group faces a
+within-group collective action problem in addition to the between-group
+commitment problem. The collective action problem occurs because each
+group is a collection of individual group members with their own
+behavioral incentives, not cohesive entities. Peace benefits all members
+of a group, but contributing to peace is costly for group members
+because they must refrain from engaging in behaviors that benefit
+themselves at the expense of the outgroup. Achieving peace, as with any
+public good, requires overcoming this collective action problem: the
+group must compel group members to contribute to peace despite the
+members' individual incentive to shirk and rely on others to bear its
+cost. One group trusting the other to honor an agreement, then, means
+not only trusting that a high proportion of outgroup members desire
+peace, but also that those outgroup members can and will compel less
+cooperative group members to honor a peace agreement (Fearon and Laitin
+1996). Peace, after all, can be derailed by a few radicals (De Sanctis
+and Galla 2009; Sambanis and Shayo 2013).
+
+This is a bleak picture. Often, neither the presence of third parties
+nor repeated interaction are sufficient to build trust between groups.
+Third parties may be unwilling to intervene early enough to prevent
+violence, rarely intervene with enough force to stop ongoing conflict,
+and do not necessarily create the trust needed for long-term peace.
+Repeated interactions can create the trust needed for long-term peace,
+but getting cooperation started is difficult because of psychological
+costs to cooperation, incentives to increase bargaining power by acting
+uncooperative, and cognitive biases that prevent groups from receiving
+each other's cooperative signals. And beyond signaling the intent of the
+group's majority to abide by peace agreements, groups must go further
+and signal their willingness and capacity to punish their own group
+members if a group member defects on the agreement.
+
+Despite the bleakness, insights from psychology and political science
+provide means to overcome the issues that prevent groups from developing
+trust in repeated interactions. When repeated interactions help groups
+cooperate they do so because each group sees that peaceful cooperation
+is in both their interests; repeated interactions fail to bring about
+peace when groups prefer fighting or when groups think the other side
+prefers fighting. To help groups overcome their commitment problems
+through repeated interactions, an intervention must shift preferences
+towards peace and provide an opportunity for each group to observe this
+preference in the other. Structured intergroup contact -- cross-group
+interactions in which groups cooperate to achieve shared goals -- can
+show groups that peace is in both their interests, remove the
+psychological barriers to each group identifying that the other wants
+peace, and provide opportunities for each group to send costly signals
+of their intent to cooperate and willingness to punish ingroup members
+who do not. Achieving a joint goal demonstrates to each group that both
+their interests are best served through cooperation. The prospect of
+benefit through cross-group cooperation motivates cooperation and
+attitude change (C. D. Grady 2020; Rohner, Thoenig, and Zilibotti 2013)
+as well as the adoption of group norms to ensure cooperation, like
+punishment of ingroup members whose behavior undermines peace (Axelrod
+1986; Fearon and Laitin 1996). Believing that the other side wants peace
+also creates the expectation that the other side will solve its
+collective action problem and police their own because it is in their
+interest to do so.
+
+Intergroup contact is a good first step to show groups that both benefit
+from cooperation and help groups send and receive signals of
+cooperation. Even if contact reduces biases that cause misperceptions of
+these signals, however, misperceptions are still possible and can derail
+cooperative equilibria (Bendor, Kramer, and Stout 1991; Jervis 2017; Wu
+and Axelrod 1995). Members of one group may accidentally engage in
+action that harms the other or may perceive outgroup behavior as
+aggressive when it is not. For long-term peace, institutions must
+minimize and manage these misperceptions.
+
+One common mechanism for reducing group conflict is ingroup policing in
+which each side polices its own miscreants (Fearon and Laitin 1996).
+Ingroup policing is generally an excellent institution for preventing
+escalations of violence and for maintaining peace, but I suggest that
+mistrust between groups in or with a recent history of conflict may make
+ingroup policing unsustainable as a solution to prevent violence because
+of the potential for one group to devalue the costs imposed by the
+ingroup on their defector. Groups in conflict reactively devalue costly
+behaviors done by the other side (Maoz et al. 2002; Millard and Porter
+2018; Ross and Ward 1995; Ward et al. 1997) on the logic that ``\(X\)
+behavior must not be very costly, since they were willing to do it''
+(Kahneman (1992) calls a similar phenomenon ``concession aversion'').
+This reactive devaluation causes problems for ingroup policing, since it
+can create the perception that any ingroup punishment was too lenient.
+This can cause the outgroup to exact their own punishment, which may be
+viewed as too harsh, causing a spiral of violence. Instead of ingroup
+policing, I propose that both groups should be involved in the
+punishment of group members who harm the other side. The involvement of
+both groups minimizes the possibility that either side believes the
+punishment was too lenient or harsh.
+
+I begin by describing how non-material factors can lead to group
+conflict by preventing each group from trusting the other to cooperate
+even when it is in each group's material interest to cooperate. Next I
+propose intergroup contact and joint-punishment institutions as a way
+that groups avoid falling into a spiral of violence. I then apply this
+perspective to farmer-pastoralist conflict in Nigeria and describe the
+form that joint-punishment institutions have taken there, as well as
+consequences for conflict when no such institutions exist. I conclude by
+describing implications for peacebuilding programs and considering
+avenues for empirical research.
+
+\hypertarget{non-material-factors-that-increase-likelihood-of-conflict}{%
+\section{Non-material factors that increase likelihood of
+conflict}\label{non-material-factors-that-increase-likelihood-of-conflict}}
+
+Violent conflict is not materially rational because it destroys the
+resources groups are fighting for. As such, several non-material factors
+should contribute to conflict. By looking at groups as a collection of
+individual group members, I identify two main ways that these
+non-material factors contribute to conflict. First, they shrink the
+range of peace agreements that each side prefers to peace by adding
+costs to peace and benefits to fighting. Second, they bias perceptions
+of the other side's preferences such that neither side thinks the other
+prefers peace or can be trusted to abide by peace agreements. I also
+identify an internal collective action problem that leads to conflict
+and explain why that problem is exceptionally difficult for group's to
+solve.
+
+\hypertarget{costs-of-peace-and-benefits-of-fighting}{%
+\subsection{Costs of Peace and Benefits of
+Fighting}\label{costs-of-peace-and-benefits-of-fighting}}
+
+Non-material factors add costs to peace in three main ways: (1) costs of
+changing attitudes and institutions, (2) loss of self-esteem, and (3)
+loss of sunk costs. First, to the extent that accepting peace requires
+individuals in the group to change attitudes about the outgroup, group
+members must accept the psychological costs of attitude change.
+Individuals use many strategies to maintain existing attitudes --
+searching for information that confirms pre-existing beliefs,
+counterarguing information divergent with their beliefs -- suggesting
+that costs to attitude change are not insubstantial (Kunda 1990;
+Nickerson 1998). Changing negative attitudes towards an enemy may be
+especially challenging because negative outgroup attitudes are supported
+by a ``sociopsychological infrastructure'' that feeds conflict (Bar-Tal
+2007). At the group-level, a peace agreement requires groups to
+dismantle the sociopsychological infrastructure that fed conflict and
+any social norms/institutions developed from it that encouraged violence
+against the outgroup (Bornstein 2003). Those institutions must be
+reformed to prevent, not encourage, intergroup violence.
+
+Second, peace agreements may cause a loss of self-esteem for individual
+group members. Group members derive self-esteem from positively
+comparing their group to a rival group, and and any agreement in which
+their side acknowledges the legitimacy of the other challenges this
+group-based boost to self-esteem (Brown and Pehrson 2019; Fein and
+Spencer 1997; Martiny, Kessler, and Vignoles 2012; Tajfel 1981; Tajfel
+and Turner 1979; Wood 2000). Group members may also pay psychological
+costs to their self-esteem from losing their rationalization for
+engaging in discriminatory or aggressive behaviors towards outgroup
+members. People rationalize their behavior to maintain a moral
+self-image (Bandura 1999, 2014; Mazar, Amir, and Ariely 2008), and
+people who harmed the outgroup must come to terms with past behaviors
+that are now deemed immoral.
+
+Third, individuals are affected by the sunk cost fallacy and want the
+gain from a peace deal to make up for the cost of fighting even though
+those costs were already born (Arkes and Blumer 1985). Accepting a peace
+agreement after fighting that could have been achieved without fighting
+is to admit that past behavior was a mistake, and people are loathe to
+admit their mistakes (Tavris and Aronson 2008). It is ``dissonant for
+the disputing parties to accept terms today that could have been
+achieved, without the ensuing costs, at some earlier point in time''
+(Ross and Ward 1995, 264).
+
+{[}chris: I feel that sunk costs are important but I have not yet been
+able to articulate it well. Is it a loss of self-esteem?{]}
+
+To see how these psychological costs to peace might sabotage peace
+efforts, imagine that groups fighting over land sign a peace agreement
+that assigns some land to each group. This agreement may make material
+sense in that each group can enjoy the benefits of some land instead of
+fighting for all of it. But in addition to the material cost of losing
+potential access to land granted to the other side, each group must
+begin punishing outgroup violence rather than encouraging it.
+Individuals in the group must adjust their behavior to conform to new
+norms and rethink the status of their group relative to the outgroup;
+they can no longer ``bask in the reflected glory'' of their group's
+superiority (Brown and Pehrson 2019, 312). Individuals who felt
+justified in overcharged outgroup members for services or physically
+harming outgroup members are now told that such behaviors are wrong and
+immoral. Individuals must also accept that their sacrifices to benefit
+fighting -- dead friends and loved ones, material deprivation, time and
+energy spent fighting -- were for naught: the sacrifices did not help
+the group win. Sustaining conflict against the outgroup allows group
+members to maintain existing attitudes and behaviors and preserves the
+possibility that their group will be victorious.
+
+Other than avoiding these costs, group members may prefer fighting due
+to its non-material benefits. First, group members may feel pleasure in
+response to outgroup pain (Cikara et al. 2014; Weisel and Böhm 2015).
+This pleasure adds psychological utility to participating in conflict
+for individual group members. Second, individuals may like gaining glory
+and other social rewards for participating in violent conflict.
+Societies use various social carrots and sticks to encourage
+participation in conflict (Gneezy and Fessler 2012), and group members
+give up those rewards when conflict ends. These social rewards add
+social utility to participating in conflict. Third, in addition to
+non-material benefits of fighting, each side may overestimate their
+chances of victory, causing them to discount the costs of conflict
+(Johnson 2009).
+
+As a result of these costs to peace and benefits to conflict, there may
+exist no peace agreement that both sides prefer to fighting. Each side
+prefers mutual cooperation in repeated interactions only if their
+utility from mutual cooperation exceeds their utility from mutual
+defection. Due to non-material costs of peace and benefits of fighting,
+sides may prefer fighting, to say nothing of each side's tendency to
+overestimate their chances of victory (Johnson 2009) Even if side's do
+not overestimate their chance of victory, each side may only accept a
+peace agreement that materially favor their side because the material
+gains from peace must overcome its non-material costs. Indeed, many
+group members are willing to accept lower absolute gains to increase
+relative gain over the outgroup {[}Turner, Brown, and Tajfel (1979);
+Waltz (2010); Halevy et al. (2010);{]}. The preference for gains
+relative to the outgroup makes any mutually beneficial peace agreement
+impossible.
+
+{[}chris: tikz graph showing payoffs? ``Conflict often discussed as an
+iterative PD. In one-off, both sides prefer to defect, but in repeated
+interactions each side cooperates if their cooperation incites
+cooperation in the other side. But adding costs to cooperation and
+benefits to fighting change that calculus.''{]}
+
+\hypertarget{biased-perceptions}{%
+\subsection{Biased Perceptions}\label{biased-perceptions}}
+
+Though non-material factors can increase the costs of peace and increase
+benefits of conflict, the high cost of conflict may be such that both
+sides still prefer peace. Even when both sides prefer peace,
+psychological biases can prevent each side from accurately perceiving
+the other's desire for peace and negotiating a peace agreement. This
+happens in two main ways: (1) cognitive dissonance, motivated reasoning,
+and confirmation bias\footnote{\emph{Cognitive dissonance} is the mental
+  discomfort that occurs when one individual holds two contradictory
+  beliefs. Individuals resolve this dissonance by rejecting one of the
+  contradictory beliefs (Festinger 1962; Tavris and Aronson 2008).
+  Individuals tend to resolve this dissonance by rejecting the newer or
+  less central belief because it is costly to reject older and more
+  central beliefs (Bryan, Yeager, and Hinojosa 2019; Converse 1970;
+  Schwartz and Bilsky 1990). \emph{Motivated reasoning} and
+  \emph{confirmation bias} are related concepts. Motivated reasoning is
+  the tendency for individuals to ``reason'' in whatever way allows them
+  to reach their desired conclusion (Kunda 1990). Confirmation bias is
+  the tendency for individuals to interpret new information and search
+  memory for information to confirm existing beliefs (Nickerson 1998).}
+cause each side to interpret the other's behavior in a way that supports
+existing negative attitudes and (2) loss aversion and reactive
+devaluation\footnote{\emph{Loss aversion} refers to individuals'
+  tendency to avoid losses more than they seek equivalent gains
+  (Kahneman and Tversky 2013). Reactive devaluation is the tendency for
+  individuals to undervalue concessions and proposals from antagonists
+  (Ross and Stillinger 1991; Ward et al. 1997).} cause the two sides to
+overvalue concessions they give up and undervalue concessions they
+receive. These phenomena introduce significant friction in the ability
+of groups to build trusting relationships and avoid conflict.
+
+Cognitive dissonance, motivated reasoning, and confirmation bias cause
+group members to interpret and recall outgroup behavior in negative ways
+that prevent building trust. Defensive action by outgroup members may be
+interpreted as belligerent and threatening while belligerent action by
+one's own group is seen as defensive and justified (Duncan 1976;
+Vallone, Ross, and Lepper 1985; Ward et al. 1997); positive actions by
+outgroup members may be re-interpreted as negative to avoid cognitive
+dissonance (Good 2000; Gubler 2013; Paolini, Harwood, and Rubin 2010);
+and unequivocally positive behavior may be dismissed as an exception
+while negative attributes are believed to define all outgroup members
+(Hewstone 1990). These phenomena can prevent costly signals of
+cooperative intent, one of the main ways groups solve commitment
+problems, from being interpreted accurately and reassuring each side of
+the other's desire for peace (Gambetta and others 2000; Kydd 2000;
+Rohner, Thoenig, and Zilibotti 2013).
+
+If groups manage to signal their desire for peace despite these
+psychological biases, loss aversion and reactive devaluation can
+sabotage the negotiation process. Individuals tend to weigh losses more
+heavily than equivalent gains, so anything the group gives up may be
+magnified in importance (Kahneman and Tversky 2013). At the same time,
+individuals tend to undervalue concessions from antagonists (Ross and
+Stillinger 1991; Ward et al. 1997). These biased valuations of
+concessions made and concessions given can prevent groups from reaching
+a mutually beneficial agreement. They also interfere with group's
+sending costly signals of cooperative intent by lowering the perceived
+costliness of any cooperative signal.
+
+Compounding these perceptual problems, intergroup trust is hampered by a
+lack of opportunities to learn about the other side. Groups in conflict
+tend to limit contact between the two sides (Bornstein 2003), so most
+learning must come from observing the outgroup's interactions with other
+groups. Even if those opportunities are available, few of the outgroup's
+interactions will be with groups that are relevant for predicting the
+outgroup's behavior towards the ingroup, reducing the usefulness of
+observational learning (Kazdin 1974; Yang 2013). The main opportunity to
+observe outgroup behavior and learn their reputation is the ingroup's
+own interactions with the outgroup, which are limited and hampered by
+perceptual biases.
+
+\hypertarget{problem-of-collective-action}{%
+\subsection{Problem of Collective
+Action}\label{problem-of-collective-action}}
+
+Implicit in the discussion of these non-material factors is that groups
+are made up of individuals and that individual cognitive and
+psychological biases influence conflict dynamics. Following that logic
+-- that groups are collections of individuals with preferences that may
+differ from the group as a whole -- leads to an additional challenge to
+groups' negotiating peace agreements: peace is a public good. Group
+members must refrain from behavior that benefits them individually at
+the expense of the outgroup, but if peace is achieved group members
+enjoy its benefits whether or not they bore its costs. Without the
+ability to compel behavior for the public good, groups cannot credibly
+commit to honor negotiated agreements.\footnote{Bornstein (Bornstein
+  (1992); Bornstein (2003)) was among the first to consider how the
+  preferences of individuals complicate discussions of group conflict.
+  His focus, and the focus of most subsequent scholarship, was how
+  groups encourage group members to participate in violence against the
+  other side, since winning the fight benefits all group members but
+  only group members who fight bear the costs.}
+
+Collective action problems are notoriously difficult to solve. In the
+case of intergroup conflict, compelling group members to sacrifice now
+for the long-term good of the group is made even more difficult because
+individuals may be killed before peace is achieved and thus never enjoy
+the benefits of collective action. Individuals are notoriously bad even
+at saving for retirement, where individuals can sacrifice now to benefit
+themselves later (Benartzi and Thaler 2013; Warner and Pleeter 2001).
+Individuals may rationally discount future payoffs quite significantly
+in conflict settings where the benefits accrue to a group.
+
+Fearon and Laitin (1996) showed that ingroup policing, an institution
+wherein groups punish their own miscreants, can help groups avoid an
+escalation of intergroup violence; they credit the relative paucity of
+group conflict to such institutions. Ingroup policing is an excellent
+institution for preventing violence from escalating and for maintaining
+peace in many contexts, but I suggest that perceptual biases and
+mistrust between groups in or with a recent history of conflict makes
+ingroup policing unsustainable as a solution in those contexts. With
+ingroup policing, groups are restrained from overly lenient punishment
+of their own people by the threat of violence escalating if either group
+suspects the other of acting in bad faith. Since ingroup policing
+depends on the perceptions group members, if those perceptions are
+biased such that members of each group suspect the other is trying to
+take advantage of the ingroup policing institution, then the institution
+breaks down as each group does not trust the other to allocate
+sufficient punishment to their own side.
+
+In the next section, I will discuss ways to reduce the biases that cause
+misperceptions and a modification of ingroup policing that should be
+less susceptible to misperceptions when they do occur.
+
+\hypertarget{reducing-group-conflict}{%
+\section{Reducing group conflict}\label{reducing-group-conflict}}
+
+In the previous section, I discussed the non-material factors that
+contribute to conflict by (1) adding costs to peace and benefits to
+fighting, and (2) biasing perceptions of the other side such that
+neither group can reassure the other side about peaceful intentions. I
+also discussed how groups suffer from a collective action problem in
+compelling group members to honor peace agreements and why ingroup
+policing may not help groups in conflict reassure the other side that
+they have solved their collective action problem. In this section, I
+discuss intergroup contact as a method to reduce the costs of peace, the
+benefits of fighting, and the biases that cause misperceptions. I then
+propose a modification of ingroup policing that should be less
+susceptible to misperceptions when they do occur.
+
+\hypertarget{intergroup-contact}{%
+\subsection{Intergroup contact}\label{intergroup-contact}}
+
+Intergroup contact, interactions between group members in which members
+of different groups work together to achieve common goals, could help
+groups overcome problems that cause conflict. First, achieving a goal by
+working with the outgroup could make groups prefer peace to fighting by
+demonstrating the benefits of cross-group cooperation. Whereas some
+psychological phenomena add costs to peace, intergroup contact could add
+previously unforeseen benefits to peace. The prospect of benefits
+through cooperation can motivate individuals to develop more positive
+attitudes towards cooperation (C. D. Grady 2020; Rohner, Thoenig, and
+Zilibotti 2013) and groups to develop norms that encourage cooperation
+{[}Axelrod (1986); chris: cite?{]}. More positive individual attitudes
+and social norms towards the outgroup should also add costs to fighting,
+since harming the outgroup loses its luster.
+
+Second, along with increasing the utility of cooperation so that each
+group prefers cooperation to fighting, achieving a joint goal through
+cooperation reassures each group that the other side also prefers
+cooperation. If each side prefers cooperation but neither side is aware
+of the other side's preferences, groups may not cooperate to avoid the
+costs of being betrayed. Each side can trust the other to engage in
+cooperative behavior when both side's know that it is in each side's
+interest to do so (Gambetta and others 2000).
+
+Third, intergroup contact can reduce perceptual biases that prevent
+groups from accurately perceiving the other side's preferences and
+building trust. Intergroup contact allows groups members to learn about
+each other based on personal experience, which can dispel stereotypes,
+reduce feeling of threat and anxiety, engender feelings of empathy, and
+make group commonalities salient (Allport 1954; Batson et al. 1997;
+Broockman and Kalla 2016; Gaertner et al. 1993; Page-Gould,
+Mendoza-Denton, and Tropp 2008; Pettigrew and Tropp 2008). All of these
+mechanisms increase the likelihood that group members perceive
+cooperation to be in their interest. It is unlikely that one side will
+expect cross-group interaction to be in the group's interest if that
+group member fears outgroup members and holds negative stereotypes about
+the outgroup's work ethic and honesty. Through these mechanisms, contact
+builds trust even between conflicting groups (C. Grady 2020; Hewstone et
+al. 2006).
+
+Fourth, intergroup contact provides groups with opportunities to
+interact and send direct signals of trustworthiness. Direct cross-group
+interaction and communication reduces competition in behavioral games
+(Bornstein et al. 1989; Ostrom 2006) and in formal models (Rohner,
+Thoenig, and Zilibotti 2013). These signals can serve as
+confidence-building measures and allow groups to start small and
+low-risk and gradually increasing as groups build trust over time; trust
+is one of the few resources that increases with use (Gambetta and others
+2000). Importantly, intergroup contact gives each group the opportunity
+to signal willingness to punish their own members if those members
+jeopardize peace.
+
+Intergroup contact can provide incentives for cooperation, reduce
+perceptual biases, and provide opportunities for costly signals of
+trustworthiness. It is not a panacea, however, and groups can still
+misperceive the behavior and intentions of the other side. When both
+groups desire cooperation, the risk of cooperative behavior being
+misperceived as uncooperative behavior is the main threat to enduring
+peace (Bendor, Kramer, and Stout 1991; Jervis 2017; Wu and Axelrod
+1995). If groups trust each other to police their own, each side must
+worry that the other group will not punish their own members with
+sufficient force to deter their harmful or discriminatory actions.
+Groups are, after all, biased in favor of their own side. Groups need a
+collaborative institutional structure to minimize misperceptions and
+their effect.
+
+\hypertarget{misperceptions-and-joint-punishment-institutions}{%
+\subsection{Misperceptions and joint-punishment
+institutions}\label{misperceptions-and-joint-punishment-institutions}}
+
+When groups are cooperating, misperceptions are a major danger to
+continued cooperation. To see why, imagine that two groups are
+cooperating over a joint feast. One group is charged with bringing meat
+and milk, the other with bringing vegetables and grains. Imagine the
+vegetable and grain side contributes less than their fair share due to a
+bad harvest. What should the other side do? Since they do not know why
+the other side has come without sufficient food, they cannot rule out
+the possibility that the other side is being treacherous. Do they allow
+the non-contributors to partake in the feast, or do they take their food
+and go home? If they allow the non-contributors to join the feast, they
+might be preserving cooperative relations and ensuring future feasts,
+which is good for both sides. Or they might be allowing the other side
+to get away with betrayal, which is bad for their side and good for the
+side of the non-contributors.\footnote{This situation follows Axelrod
+  and Hamilton (1981) and Fearon and Laitin (1996) in conceptualizing
+  intergroup cooperation as an iterative prisoners dilemma. Two groups
+  interact simultaneously for an unlimited number of rounds, either
+  cooperating or defecting. Both sides most prefer to defect when the
+  other cooperates and least prefer to cooperate when the other defects;
+  mutual cooperation is the Pareto efficient outcome in that it
+  maximizes overall value. When each side cooperates, there is a small
+  chance that it accidentally defects or that it's cooperation gets
+  interpreted as defection.}
+
+In this scenario, both sides have intended to cooperate, but one side's
+attempt to cooperate looks like defection. Since both group's prefer to
+cooperate, mutual cooperation can only be interrupted by an accident
+(one side tries to cooperate and accidentally defects) or
+misinterpretation (one side cooperates but it gets interpreted as
+defection). In this case, the continuation of cooperation depends on the
+meat and milk side perceiving the grain and vegetable side's meager
+contribution as cooperation and not defection. If their perceptions are
+biased against the outgroup, they may attribute the lack of food to ill
+intent.
+
+The problem of misperceptions is exacerbated when considering the groups
+as collections of individuals with different preferences. Rather than
+the groups meeting to cooperate or defect, members of each group meet to
+cooperate or defect. Imagine a member of Group A defects against a
+member of Group B. If the groups are relying on each side to punish
+their own, then Group A punishes their defector. Suppose he defects
+against Group B again at his next opportunity. It may appear to Group B
+that (1) Group A has not punished their own group member, so he
+continues to defect, or (2) Group A's punishment against their own group
+member was too lenient. In either scenario, Group B might punish him
+more harshly to deter future defection.\footnote{Ingroup policing has
+  many virtues over other means to punish defectors. Most important is
+  that the ingroup is most likely to know who defected, whereas the
+  outgroup is only likely to know that someone from the other group
+  defected (Fearon and Laitin 1996).}
+
+Since Group B does not have a say in Group A's punishment, they must
+trust that Group A punishes their defectors and does so sufficiently to
+deter future defection. But neither group can know with certainty how
+much punishment is ``enough'' to deter future defection, so some
+punishments are bound to fail. These failures can delegitimize the
+institution of ingroup policing unless the groups share a substantial
+amount of intergroup trust. This amount of intergroup trust is unlikely
+to characterize the relationships of groups in or with a recent history
+of violent conflict.
+
+Rather than the institution of ingroup policing as the way for groups to
+ensure cooperation, I suggest that many groups use collaborative
+``joint-punishment'' institutions. These collaborative institutions
+involve representatives from both sides who jointly decide on an
+appropriate punishment for any behavior in which a member of one group
+harms a member of the other. Having both groups involved vastly reduces
+the possibility that either side believes a defector went unpunished or
+misperceives a genuine attempt at punishment as overly lenient. It
+maintains the main benefit of ingroup policing in that each group still
+helps identify their defecting group members but does more to shield
+both groups from the temptation to punish outgroup defection themselves.
+
+In the next section, I apply this perspective to farmer-pastoralist
+conflict in Nigeria and describe the form that institutions to improve
+intergroup cooperation have taken in that context.
+
+\hypertarget{application-farmer-pastoralist-conflict}{%
+\section{Application: Farmer-Pastoralist
+Conflict}\label{application-farmer-pastoralist-conflict}}
+
+The conflict between farmers and pastoralists in Nigeria is a textbook
+case of a commitment problem preventing peace. The groups maintain
+complementary ways of life, making cooperation beneficial for both.
+Pastoralists have an excess of protein in the form of meat, milk, and
+other animal products, but they grow little in the way of grains, tubers
+and vegetables; the farmers have an excess of grains, tubers, and
+vegetables but they own few animals and have limited access to animal
+products.\footnote{Farming villages typically stock chickens for eggs
+  and meat as their main protein source, with a few goats and sheep.
+  They do not have excess food year round to support large animals like
+  cows. Pastoralists are semi-migratory so few stay in one place long
+  enough to cultivate crops. Those who stay in a ``home base'' will set
+  aside some land from rice or yams, but most of the land is left for
+  cattle to graze.} Farmers also want animals to graze on their lands
+after harvest season to replenish the soil with animal waste, and
+pastoralists want to graze their animals on crop residue (stalks,
+leaves, seed pods, and other inedible parts of the plant) that is left
+on the fields after harvest.
+
+By all accounts, farmers and pastoralists benefited from their
+complementarity for several generations (Herders against farmers 2017;
+Thébaud and Batterbury 2001; Tonah 2002). There were, of course,
+disagreements between sedentary farmers and mobile pastoralists, but
+their relationship was characterized more by harmony than conflict.
+Recent decades, however, have brought farmers and pastoralists more into
+conflict. Historically, farming was more common in southern Nigeria and
+pastoralism more common in the north, but the two ways of life
+increasingly overlap geographically. Farmers have moved north into
+marginal agricultural lands by the increasing food needs of Nigeria's
+booming population, which grew from 50 million at Independence in 1960
+to 200 million today (Abbass 2012; Kuusaana and Bukari 2015). At the
+same time, pastoralists have been pushed further south by the expansion
+of the Sahara, which brought them to higher population density areas
+(Okpara et al. 2015; Thomas and Nigam 2018). Less land and more people
+who depend on the land is a recipe for conflict over land and resources.
+
+Farmer-pastoralist conflict has exploded in recent years. The most
+recent conflict escalation caused 7,000 deaths from 2014-2019 and
+displaced hundreds of thousands of people from their homes (Akinwotu
+2018; Daniel 2018; Harwood 2019; Ilo, Ier, and Adamolekun 2019). The
+scale of economic damage is unknown, but farmer-pastoralist conflict
+\emph{before} this escalation cost Nigeria \$13 billion annually in lost
+economic productivity (McDougal et al. 2015). This violence has also
+impeded food production, leading to an impending food crisis
+(Hailemariam 2018; Ilo, Ier, and Adamolekun 2019; Unah 2018).
+
+The proximate causes of violence are farmers sowing seeds on
+pastoralists' grazing lands and pastoralists grazing their cattle on
+farmers' crops. If either side retaliates -- a farmer by stealing cattle
+from the pastoralists' herds, a pastoralist by grazing on more farmland
+-- the scope of the conflict can rapidly expand. The farmer whose crops
+were destroyed by cattle does not know which herd grazed on his land;
+cattle he steals in revenge do not necessarily come from the
+transgressing herd. Pastoralists, likewise, do not know which farmer
+stole their cattle; the crops they destroy in revenge do not necessarily
+come from the transgressing farm. From there, a little war often breaks
+out. As one reporter noted, ``The countryside is littered with the
+charred ruins of homes, schools, police stations, mosques and
+churches.'' (McDonnel 2017). In one case I witnessed, a farmer took
+revenge against cattle grazing on his farmland by poisoning the crop
+residue left on his fields after harvest. After grazing on the residue,
+the cattle of dozens of pastoralists became sick and died. More violence
+followed.
+
+The land conflict is exacerbated by ethnic and religious differences
+between groups, which feeds mutual distrust. The pastoralists are almost
+all from the Fulani ethnic group and practice Islam; the farmers are
+from a non-Fulani ethnic groups and practice Islam and Christianity,
+though the violence is worst where the farmers are homogeneously
+Christian. Each group sees the other as biased towards their own side
+for economic, cultural, and religious reasons. Each group also sees
+their way of life as superior. Farmers see nomadic life as outdated,
+backwards, and anti-progress; the pastoralists think that sedentary
+farming makes one weak. One pastoralist commented to me that if he
+dropped off a sedentary adult and his young child in the forest, the
+sedentary adult would depend on his child to survive.
+
+Despite their cultural differences and competition for scarce land,
+mutual complementarity remains. Pastoralists still have animal products
+-- though more farmers have bought animals in recent years, pastoralists
+still control roughly 90\% of Nigeria's livestock (Herders against
+farmers 2017) -- and farmers still have tubers, vegetables, grains, and
+the resultant crop residue. The violence is extremely costly to both
+sides, so both have an incentive to avoid conflict. Community leaders
+recognize that peace is in the interest of their communities, but many
+have been unable to prevent the violence. In interviews conducted in
+2016 and 2019 by C. Grady (2020), community leaders from farming and
+pastoral communities expressed their desire for peace between the two
+groups and blamed deviants from the other side for ongoing violence.
+Farmers argue that the local pastoralists do not prevent other
+pastoralists who migrate through from destroying cropland, and
+pastoralists argue that farmers on the outskirts of the farming village
+encroach on grazing routes more each year.
+
+Peace between many farming and pastoral groups is prevented by a lack of
+trust. Both sides are better off cooperating peacefully than fighting,
+but neither side trusts the other to honor agreements that would prevent
+fighting. This is a classic commitment problem. The reasons each group
+does not trust the other side, however, is not that they believe the
+other side doesn't desire peace, but rather that the farming group
+cannot credibly commit to preventing all farmers from expanding into
+grazing lands, and the pastoral group cannot credibly commit to
+preventing all herders from grazing cattle on croplands. Their
+between-group commitment problem is driven by a within-group collective
+action problem because neither group trusts the other to punish their
+own.
+
+\hypertarget{resolving-farmer-pastoralist-conflict}{%
+\subsection{Resolving farmer-pastoralist
+conflict}\label{resolving-farmer-pastoralist-conflict}}
+
+Though conflict between farming and pastoral groups is common, not all
+farming and pastoral groups are in conflict. Communities that have
+successfully navigated farmer-pastoralist tension generally have a
+noticeable commonality: an institution comprised of farmers and
+pastoralists to handle cases that threaten intergroup relations. This
+institution can tap into ingroup networks to identify transgressors from
+each side, much like an ingroup policing institution. Since both groups
+are represented, however, neither the plaintiff, the defendant, nor
+their group can credibly claim that the case was decided unfairly due to
+group bias.
+
+These joint institutions function much like trial by jury.
+Representatives from each group meet, hear from the case's ``plaintiff''
+and ``defendant'', and decide an appropriate punishment. For common
+occurrences -- crop damage, cattle rustling, and the like -- there may
+also be a code of laws: predecided penalties, such as a set cost per
+acre of cropland destroyed or head of cattle stolen. In past decades,
+agreements between the traditional leaders of each community function
+similarly, by setting compensation for specific actions. Conflict is
+often blamed on the breakdown of such institutions (Cotula et al. 2004;
+Kuusaana and Bukari 2015; Tonah 2002).
+
+C. Grady (2020) evaluated a contact-based intervention that increased
+trust between farmers and pastoralists. Though they do not measure the
+extent to which the intervention affected institutional structures that
+govern intergroup relations, they describe farmers and pastoralists who
+had participated in the contact intervention meeting to jointly decide
+an appropriate punishment for vigilante farmers who intended to harm
+pastoralists. The would-be perpetrators, hailing from a nearby village,
+were noticed and arrested by the hometown farmers while on their way to
+steal the pastoralists' cattle. Rather than decide unilaterally how to
+punish the vigilantes, leaders from the farming community called in
+leaders from the pastoral community to jointly decide a punishment.
+Together the groups decided to disarm the vigilantes and let them go
+free without further punishment -- a solution proposed by the
+\emph{pastoralists}. Had the farmers unilaterally decided to let the
+vigilantes go free, the pastoralists may have interpreted the punishment
+as too lenient and accused the farmers of bias. Since the pastoralists
+had a say in the decision-making process, however, the group's were able
+to build trust through cooperation. The pastoralists appreciated the
+farmers calling a joint meeting, and the farmers appreciated the
+pastoralists magnanimity in proposing a lenient punishment.
+
+C. Grady (2020) also describe a contrasting situation in which a farmers
+and pastoralists who had not participated in the contact intervention
+failed due to the lack of any joint institutions. In that situation,
+both sides were participating in a public goods game in which money
+raised would be jointly administered by both groups. These groups had no
+preexisting structure to handle situations that concerned both sides,
+and neither side trusted the other to hold the money. The pastoralists
+claimed that the money would be squandered by the corruption of the
+farming community's leader if a farmer held it; the farmers claimed that
+the pastoralists would migrate away with the money if a pastoralist held
+it. In the end, the groups agreed that the NGO administering the public
+goods game would hold the money and disburse it in chunks when the
+pastoralist leader and the farming leader agreed on its use.
+
+{[}paragraph saying something specific about contact interventions? Or
+just short summary paragraph.{]}
+
+\hypertarget{policy-implications-for-peacebuilding-programs}{%
+\section{Policy Implications for Peacebuilding
+Programs}\label{policy-implications-for-peacebuilding-programs}}
+
+\begin{itemize}
+\item
+  achieving a joint goal \emph{that could not be achieved alone}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    comparative advantage of each group.
+  \end{itemize}
+\item
+  Identify whether conflict is materially irrational? Think about
+  conflict as deviation from rationality and how to demonstrate the
+  rationality of peace to each group.
+\item
+  Think about incentives of individual group members, not just groups as
+  a whole.
+\item
+  Do not try to solve groups conflict externally; help groups solve own
+  problems.
+\item
+  Programs that demonstrate material rationality of peace. Contact, what
+  about others?
+\item
+  Important for both groups to benefit equally. Otherwise creating a
+  power disparity. Favoring one group probably makes things worse.
+\item
+  Reduce psych biases
+\item
+  Groups need strength to compel group members.
+\item
+  Opportunities to observe other side, signal C.
+\item
+  Contact programs \emph{can} do these things, but others may also. More
+  contact, if mismanaged, runs risk of exacerbating conflict.
+\item
+  Joint punishment institutions: legitimacy of institutions paramount.
+\end{itemize}
+
+\hypertarget{avenues-for-future-research}{%
+\section{Avenues for Future
+Research}\label{avenues-for-future-research}}
+
+\begin{itemize}
+\item
+  Test contact programs with groups in conflict and with history of
+  conflict. Look for collaborative institutions.
+\item
+  Compare contact programs that do and do not (1) work to achieve goal,
+  (2) actually achieve it.
+\item
+  Best means to demonstrate material rationality of peace. Trade,
+  differentiated groups?
+\item
+  Best means to reduce psych/cognitive biases
+\item
+  Need for enforcement at onset to incentivize Cooperation?
+\item
+  Role of elites: contact says they must support
+\item
+  Difficulty with very decentralized groups
+\item
+  Power disparities between groups
+\item
+  Contact's differential effects with these power disparities.
+\end{itemize}
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-abbass2012no}{}%
+Abbass, Isah Mohammed. 2012. ``No Retreat No Surrender: Conflict for
+Survival Between Fulani Pastoralists and Farmers in Northern Nigeria.''
+\emph{European Scientific Journal} 8(1): 331--46.
+
+\leavevmode\hypertarget{ref-nyt2018nigeria}{}%
+Akinwotu, Emmanuel. 2018. ``Nigeria's Farmers and Herders Fight a Deadly
+Battle for Scarce Resources.'' \emph{New York Times}.
+\url{https://www.nytimes.com/2018/06/25/world/africa/nigeria-herders-farmers.html}.
+
+\leavevmode\hypertarget{ref-allport1954prejudice}{}%
+Allport, Gordon. 1954. ``The Nature of Prejudice.'' \emph{Garden City,
+NJ Anchor}.
+
+\leavevmode\hypertarget{ref-arkes1985psychology}{}%
+Arkes, Hal R, and Catherine Blumer. 1985. ``The Psychology of Sunk
+Cost.'' \emph{Organizational behavior and human decision processes}
+35(1): 124--40.
+
+\leavevmode\hypertarget{ref-axelrod1986evolutionary}{}%
+Axelrod, Robert. 1986. ``An Evolutionary Approach to Norms.''
+\emph{American political science review} 80(4): 1095--1111.
+
+\leavevmode\hypertarget{ref-axelrod1981evolution}{}%
+Axelrod, Robert, and William D Hamilton. 1981. ``The Evolution of
+Cooperation.'' \emph{science} 211(4489): 1390--6.
+
+\leavevmode\hypertarget{ref-bandura1999moral}{}%
+Bandura, Albert. 1999. ``Moral Disengagement in the Perpetration of
+Inhumanities.'' \emph{Personality and social psychology review} 3(3):
+193--209.
+
+\leavevmode\hypertarget{ref-bandura2014social}{}%
+---------. 2014. ``Social Cognitive Theory of Moral Thought and
+Action.'' In \emph{Handbook of Moral Behavior and Development},
+Psychology Press, 69--128.
+
+\leavevmode\hypertarget{ref-bar2007sociopsychological}{}%
+Bar-Tal, Daniel. 2007. ``Sociopsychological Foundations of Intractable
+Conflicts.'' \emph{American Behavioral Scientist} 50(11): 1430--53.
+
+\leavevmode\hypertarget{ref-batson1997empathy}{}%
+Batson, C Daniel et al. 1997. ``Empathy and Attitudes: Can Feeling for a
+Member of a Stigmatized Group Improve Feelings Toward the Group?''
+\emph{Journal of personality and social psychology} 72(1): 105.
+
+\leavevmode\hypertarget{ref-beardsley2008agreement}{}%
+Beardsley, Kyle. 2008. ``Agreement Without Peace? International
+Mediation and Time Inconsistency Problems.'' \emph{American journal of
+political science} 52(4): 723--40.
+
+\leavevmode\hypertarget{ref-benartzi2013behavioral}{}%
+Benartzi, Shlomo, and Richard H Thaler. 2013. ``Behavioral Economics and
+the Retirement Savings Crisis.'' \emph{Science} 339(6124): 1152--3.
+
+\leavevmode\hypertarget{ref-bendor1991doubt}{}%
+Bendor, Jonathan, Roderick M Kramer, and Suzanne Stout. 1991. ``When in
+Doubt... Cooperation in a Noisy Prisoner's Dilemma.'' \emph{Journal of
+conflict resolution} 35(4): 691--719.
+
+\leavevmode\hypertarget{ref-bornstein1992free}{}%
+Bornstein, Gary. 1992. ``The Free-Rider Problem in Intergroup Conflicts
+over Step-Level and Continuous Public Goods.'' \emph{Journal of
+Personality and Social Psychology} 62(4): 597.
+
+\leavevmode\hypertarget{ref-bornstein2003intergroup}{}%
+---------. 2003. ``Intergroup Conflict: Individual, Group, and
+Collective Interests.'' \emph{Personality and social psychology review}
+7(2): 129--45.
+
+\leavevmode\hypertarget{ref-bornstein1989within}{}%
+Bornstein, Gary, Amnon Rapoport, Lucia Kerpel, and Tani Katz. 1989.
+``Within-and Between-Group Communication in Intergroup Competition for
+Public Goods.'' \emph{Journal of Experimental Social Psychology} 25(5):
+422--36.
+
+\leavevmode\hypertarget{ref-bratt1996assessing}{}%
+Bratt, Duane. 1996. ``Assessing the Success of Un Peacekeeping
+Operations.'' \emph{International Peacekeeping} 3(4): 64--81.
+
+\leavevmode\hypertarget{ref-broockman2016durably}{}%
+Broockman, David, and Joshua Kalla. 2016. ``Durably Reducing
+Transphobia: A Field Experiment on Door-to-Door Canvassing.''
+\emph{Science} 352(6282): 220--24.
+
+\leavevmode\hypertarget{ref-brown2019group}{}%
+Brown, Rupert, and Samuel Pehrson. 2019. \emph{Group Processes: Dynamics
+Within and Between Groups}. John Wiley \& Sons.
+
+\leavevmode\hypertarget{ref-bryan2019values}{}%
+Bryan, Christopher J, David S Yeager, and Cintia P Hinojosa. 2019. ``A
+Values-Alignment Intervention Protects Adolescents from the Effects of
+Food Marketing.'' \emph{Nature human behaviour} 3(6): 596--603.
+
+\leavevmode\hypertarget{ref-cikara2014their}{}%
+Cikara, Mina, Emile Bruneau, Jay J Van Bavel, and Rebecca Saxe. 2014.
+``Their Pain Gives Us Pleasure: How Intergroup Dynamics Shape Empathic
+Failures and Counter-Empathic Responses.'' \emph{Journal of experimental
+social psychology} 55: 110--25.
+
+\leavevmode\hypertarget{ref-converse1970attitudes}{}%
+Converse, Philip E. 1970. ``Attitudes and Non-Attitudes: Continuation of
+a Dialogue.'' \emph{The quantitative analysis of social problems} 168:
+189.
+
+\leavevmode\hypertarget{ref-cotula2004land}{}%
+Cotula, Lorenzo, Camilla Toulmin, Ced Hesse, and others. 2004.
+\emph{Land Tenure and Administration in Africa: Lessons of Experience
+and Emerging Issues}. International Institute for Environment;
+Development London.
+
+\leavevmode\hypertarget{ref-daniel2018anti}{}%
+Daniel, Soni. 2018. ``Anti-Open Grazing Law: Nass, Benue, Kwara, Taraba
+Tackle Defence Minister.'' \emph{Vanguard}.
+\url{https://www.vanguardngr.com/2018/06/anti-open-grazing-law-nass-benue-kwara-taraba-tackle-defence-minister/}.
+
+\leavevmode\hypertarget{ref-de2008motivated}{}%
+De Dreu, Carsten KW, Bernard A Nijstad, and Daan van Knippenberg. 2008.
+``Motivated Information Processing in Group Judgment and Decision
+Making.'' \emph{Personality and Social Psychology Review} 12(1): 22--49.
+
+\leavevmode\hypertarget{ref-de2009effects}{}%
+De Sanctis, Luca, and Tobias Galla. 2009. ``Effects of Noise and
+Confidence Thresholds in Nominal and Metric Axelrod Dynamics of Social
+Influence.'' \emph{Physical Review E} 79(4): 046108.
+
+\leavevmode\hypertarget{ref-di2017effectiveness}{}%
+Di Salvatore, Jessica, and Andrea Ruggeri. 2017. ``Effectiveness of
+Peacekeeping Operations.'' \emph{Oxford Research Encyclopedia of
+Politics}.
+
+\leavevmode\hypertarget{ref-doyle2000international}{}%
+Doyle, Michael W, and Nicholas Sambanis. 2000. ``International
+Peacebuilding: A Theoretical and Quantitative Analysis.'' \emph{American
+political science review} 94(4): 779--801.
+
+\leavevmode\hypertarget{ref-doyle2006making}{}%
+---------. 2006. \emph{Making War and Building Peace: United Nations
+Peace Operations}. Princeton University Press.
+
+\leavevmode\hypertarget{ref-duncan1976differential}{}%
+Duncan, Birt L. 1976. ``Differential Social Perception and Attribution
+of Intergroup Violence: Testing the Lower Limits of Stereotyping of
+Blacks.'' \emph{Journal of personality and social psychology} 34(4):
+590.
+
+\leavevmode\hypertarget{ref-fearon1994ethnic}{}%
+Fearon, James D. 1994. ``Ethnic War as a Commitment Problem.'' In
+\emph{Annual Meetings of the American Political Science Association},
+2--5.
+
+\leavevmode\hypertarget{ref-fearon1995rationalist}{}%
+---------. 1995. ``Rationalist Explanations for War.''
+\emph{International organization} 49(3): 379--414.
+
+\leavevmode\hypertarget{ref-fearon1996explaining}{}%
+Fearon, James D, and David D Laitin. 1996. ``Explaining Interethnic
+Cooperation.'' \emph{American political science review} 90(4): 715--35.
+
+\leavevmode\hypertarget{ref-fehr2002social}{}%
+Fehr, Ernst, and Urs Fischbacher. 2002. ``Why Social Preferences
+Matter--the Impact of Non-Selfish Motives on Competition, Cooperation
+and Incentives.'' \emph{The economic journal} 112(478): C1--C33.
+
+\leavevmode\hypertarget{ref-fein1997prejudice}{}%
+Fein, Steven, and Steven J Spencer. 1997. ``Prejudice as Self-Image
+Maintenance: Affirming the Self Through Derogating Others.''
+\emph{Journal of personality and Social Psychology} 73(1): 31.
+
+\leavevmode\hypertarget{ref-festinger1962cognitiveDissonance}{}%
+Festinger, Leon. 1962. 2 \emph{A Theory of Cognitive Dissonance}.
+Stanford university press.
+
+\leavevmode\hypertarget{ref-fey2010shuttle}{}%
+Fey, Mark, and Kristopher W Ramsay. 2010. ``When Is Shuttle Diplomacy
+Worth the Commute? Information Sharing Through Mediation.'' \emph{World
+Politics} 62(4): 529--60.
+
+\leavevmode\hypertarget{ref-gaertner1993common}{}%
+Gaertner, Samuel L et al. 1993. ``The Common Ingroup Identity Model:
+Recategorization and the Reduction of Intergroup Bias.'' \emph{European
+review of social psychology} 4(1): 1--26.
+
+\leavevmode\hypertarget{ref-gambetta_ch13}{}%
+Gambetta, Diego, and others. 2000. ``Can We Trust Trust.'' \emph{Trust:
+Making and breaking cooperative relations} 13: 213--37.
+
+\leavevmode\hypertarget{ref-gartner2011signs}{}%
+Gartner, Scott Sigmund. 2011. ``Signs of Trouble: Regional Organization
+Mediation and Civil War Agreement Durability.'' \emph{The Journal of
+Politics} 73(2): 380--90.
+
+\leavevmode\hypertarget{ref-gilligan2008interventions}{}%
+Gilligan, Michael J, Ernest J Sergenti, and others. 2008. ``Do Un
+Interventions Cause Peace? Using Matching to Improve Causal Inference.''
+\emph{Quarterly Journal of Political Science} 3(2): 89--122.
+
+\leavevmode\hypertarget{ref-gneezy2012conflict}{}%
+Gneezy, Ayelet, and Daniel MT Fessler. 2012. ``Conflict, Sticks and
+Carrots: War Increases Prosocial Punishments and Rewards.''
+\emph{Proceedings of the Royal Society B: Biological Sciences}
+279(1727): 219--23.
+
+\leavevmode\hypertarget{ref-good2000individuals}{}%
+Good, David. 2000. ``Individuals, Interpersonal Relations, and Trust.''
+\emph{Trust: Making and breaking cooperative relations}: 31--48.
+
+\leavevmode\hypertarget{ref-grady2020farmer}{}%
+Grady, Christopher. 2020. ``Promoting Peace Amidst Group Conflict: An
+Intergroup Contact Field Experiment in Nigeria.'' PhD thesis. University
+of Illinois.
+
+\leavevmode\hypertarget{ref-grady2020lab}{}%
+Grady, Christopher D. 2020. ``Contact Itself or Contact's Success? How
+Intergroup Contact Improves Attitudes.'' PhD thesis. University of
+Illinois.
+
+\leavevmode\hypertarget{ref-greig2005stepping}{}%
+Greig, J Michael. 2005. ``Stepping into the Fray: When Do Mediators
+Mediate?'' \emph{American Journal of Political Science} 49(2): 249--66.
+
+\leavevmode\hypertarget{ref-gubler2013humanizing}{}%
+Gubler, Joshua R. 2013. ``When Humanizing the Enemy Fails: The Role of
+Dissonance and Justification in Intergroup Conflict.'' In \emph{Annual
+Meeting of the American Political Science Association},
+
+\leavevmode\hypertarget{ref-frontera2018nigeria}{}%
+Hailemariam, Adium. 2018. ``Nigeria: Violence in the Middle Belt Becomes
+Major Concern for President Buhari.'' \emph{Frontera}.
+\url{https://frontera.net/news/africa/nigeria-violence-in-the-middle-belt-becomes-major-concern-for-president-buhari/}.
+
+\leavevmode\hypertarget{ref-halevy2010relative}{}%
+Halevy, Nir, Eileen Y Chou, Taya R Cohen, and Gary Bornstein. 2010.
+``Relative Deprivation and Intergroup Competition.'' \emph{Group
+Processes \& Intergroup Relations} 13(6): 685--700.
+
+\leavevmode\hypertarget{ref-hartzell2001stabilizing}{}%
+Hartzell, Caroline, Matthew Hoddie, and Donald Rothchild. 2001.
+``Stabilizing the Peace After Civil War: An Investigation of Some Key
+Variables.'' \emph{International organization} 55(1): 183--208.
+
+\leavevmode\hypertarget{ref-council2019nigeria}{}%
+Harwood, Asch. 2019. ``Update: The Numbers Behind Sectarian Violence in
+Nigeria.'' \emph{Council on Foreign Relations}.
+\url{https://www.cfr.org/blog/update-numbers-behind-sectarian-violence-nigeria}.
+
+\leavevmode\hypertarget{ref-icg2017nigeria}{}%
+\emph{Herders Against Farmers: Nigeria's Expanding Deadly Conflict}.
+2017. International Crisis Group.
+
+\leavevmode\hypertarget{ref-hewstone1990ultimate}{}%
+Hewstone, Miles. 1990. ``The `Ultimate Attribution Error'? A Review of
+the Literature on Intergroup Causal Attribution.'' \emph{European
+Journal of Social Psychology} 20(4): 311--35.
+
+\leavevmode\hypertarget{ref-hewstone2006intergroup}{}%
+Hewstone, Miles et al. 2006. ``Intergroup Contact, Forgiveness, and
+Experience of `the Troubles' in Northern Ireland.'' \emph{Journal of
+Social Issues} 62(1): 99--120.
+
+\leavevmode\hypertarget{ref-fa2019deadly}{}%
+Ilo, Udo Jude, Jonathan-Ichavar Ier, and Yemi Adamolekun. 2019. ``The
+Deadliest Conflict You've Never Heard of: Nigeria's Cattle Herders and
+Farmers Wage a Resource War.'' \emph{Foreign Affairs}.
+\url{https://www.foreignaffairs.com/articles/nigeria/2019-01-23/deadliest-conflict-youve-never-heard}.
+
+\leavevmode\hypertarget{ref-jervis2017perception}{}%
+Jervis, Robert. 2017. \emph{Perception and Misperception in
+International Politics: New Edition}. Princeton University Press.
+
+\leavevmode\hypertarget{ref-johnson2009overconfidence}{}%
+Johnson, Dominic DP. 2009. \emph{Overconfidence and War}. Harvard
+University Press.
+
+\leavevmode\hypertarget{ref-kahneman1992reference}{}%
+Kahneman, Daniel. 1992. ``Reference Points, Anchors, Norms, and Mixed
+Feelings.'' \emph{Organizational behavior and human decision processes}
+51(2): 296--312.
+
+\leavevmode\hypertarget{ref-kahneman2013prospect}{}%
+Kahneman, Daniel, and Amos Tversky. 2013. ``Prospect Theory: An Analysis
+of Decision Under Risk.'' In \emph{Handbook of the Fundamentals of
+Financial Decision Making: Part I}, World Scientific, 99--127.
+
+\leavevmode\hypertarget{ref-kazdin1974covertModeling}{}%
+Kazdin, Alan E. 1974. ``Covert Modeling, Model Similarity, and Reduction
+of Avoidance Behavior.'' \emph{Behavior Therapy} 5(3): 325--40.
+
+\leavevmode\hypertarget{ref-kunda1990motivatedReasoning}{}%
+Kunda, Ziva. 1990. ``The Case for Motivated Reasoning.''
+\emph{Psychological bulletin} 108(3): 480.
+
+\leavevmode\hypertarget{ref-kuusaana2015land}{}%
+Kuusaana, Elias Danyi, and Kaderi Noagah Bukari. 2015. ``Land Conflicts
+Between Smallholders and Fulani Pastoralists in Ghana: Evidence from the
+Asante Akim North District (Aand).'' \emph{Journal of rural studies} 42:
+52--62.
+
+\leavevmode\hypertarget{ref-kydd2000trust}{}%
+Kydd, Andrew. 2000. ``Trust, Reassurance, and Cooperation.''
+\emph{International Organization} 54(2): 325--57.
+
+\leavevmode\hypertarget{ref-kydd2006can}{}%
+Kydd, Andrew H. 2006. ``When Can Mediators Build Trust?'' \emph{American
+Political Science Review} 100(3): 449--62.
+
+\leavevmode\hypertarget{ref-maoz2002reactive}{}%
+Maoz, Ifat, Andrew Ward, Michael Katz, and Lee Ross. 2002. ``Reactive
+Devaluation of an `Israeli' Vs.`Palestinian' Peace Proposal.''
+\emph{Journal of Conflict Resolution} 46(4): 515--46.
+
+\leavevmode\hypertarget{ref-martiny2012shall}{}%
+Martiny, Sarah E, Thomas Kessler, and Vivian L Vignoles. 2012. ``Shall I
+Leave or Shall We Fight? Effects of Threatened Group-Based Self-Esteem
+on Identity Management Strategies.'' \emph{Group Processes \& Intergroup
+Relations} 15(1): 39--55.
+
+\leavevmode\hypertarget{ref-mazar2008dishonesty}{}%
+Mazar, Nina, On Amir, and Dan Ariely. 2008. ``The Dishonesty of Honest
+People: A Theory of Self-Concept Maintenance.'' \emph{Journal of
+marketing research} 45(6): 633--44.
+
+\leavevmode\hypertarget{ref-mcdonnel2017graze}{}%
+McDonnel, Tim. 2017. ``Why It's Now a Crime to Let Cattle Graze Freely
+in 2 Nigerian States.'' \emph{National Public Radio (NPR)}.
+\url{https://www.npr.org/sections/goatsandsoda/2017/12/12/569913821/why-its-now-a-crime-to-let-cattle-graze-freely-in-2-nigerian-states}.
+
+\leavevmode\hypertarget{ref-mcdougal2015effect}{}%
+McDougal, Topher L et al. 2015. ``The Effect of Farmer-Pastoralist
+Violence on Income: New Survey Evidence from Nigeria's Middle Belt
+States.'' \emph{Economics of Peace and Security Journal} 10(1): 54--65.
+
+\leavevmode\hypertarget{ref-millard2018testing}{}%
+Millard, Matt, and Chase Porter. 2018. ``Testing the Hard Case: The
+Psychological Roots of Reactive Devaluation and the Iranian Nuclear
+Deal.'' \emph{Journal of Political Science} 46.
+
+\leavevmode\hypertarget{ref-nickerson1998confirmation}{}%
+Nickerson, Raymond S. 1998. ``Confirmation Bias: A Ubiquitous Phenomenon
+in Many Guises.'' \emph{Review of general psychology} 2(2): 175--220.
+
+\leavevmode\hypertarget{ref-okpara2015conflicts}{}%
+Okpara, Uche T, Lindsay C Stringer, Andrew J Dougill, and Mohammed D
+Bila. 2015. ``Conflicts About Water in Lake Chad: Are Environmental,
+Vulnerability and Security Issues Linked?'' \emph{Progress in
+Development Studies} 15(4): 308--25.
+
+\leavevmode\hypertarget{ref-ostrom2006value}{}%
+Ostrom, Elinor. 2006. ``The Value-Added of Laboratory Experiments for
+the Study of Institutions and Common-Pool Resources.'' \emph{Journal of
+Economic Behavior \& Organization} 61(2): 149--63.
+
+\leavevmode\hypertarget{ref-ostrom2003trust}{}%
+Ostrom, Elinor, and James Walker. 2003. \emph{Trust and Reciprocity:
+Interdisciplinary Lessons for Experimental Research}. Russell Sage
+Foundation.
+
+\leavevmode\hypertarget{ref-page2008little}{}%
+Page-Gould, Elizabeth, Rodolfo Mendoza-Denton, and Linda R Tropp. 2008.
+``With a Little Help from My Cross-Group Friend: Reducing Anxiety in
+Intergroup Contexts Through Cross-Group Friendship.'' \emph{Journal of
+personality and social psychology} 95(5): 1080.
+
+\leavevmode\hypertarget{ref-paolini2010negative}{}%
+Paolini, Stefania, Jake Harwood, and Mark Rubin. 2010. ``Negative
+Intergroup Contact Makes Group Memberships Salient: Explaining Why
+Intergroup Conflict Endures.'' \emph{Personality and Social Psychology
+Bulletin} 36(12): 1723--38.
+
+\leavevmode\hypertarget{ref-pettigrew2008does}{}%
+Pettigrew, Thomas F, and Linda R Tropp. 2008. ``How Does Intergroup
+Contact Reduce Prejudice? Meta-Analytic Tests of Three Mediators.''
+\emph{European Journal of Social Psychology} 38(6): 922--34.
+
+\leavevmode\hypertarget{ref-powell2006war}{}%
+Powell, Robert. 2006. ``War as a Commitment Problem.''
+\emph{International organization} 60(1): 169--203.
+
+\leavevmode\hypertarget{ref-reed2016bargaining}{}%
+Reed, William, David Clark, Timothy Nordstrom, and Daniel Siegel. 2016.
+``Bargaining in the Shadow of a Commitment Problem.'' \emph{Research \&
+Politics} 3(3): 2053168016666848.
+
+\leavevmode\hypertarget{ref-rohner2013war}{}%
+Rohner, Dominic, Mathias Thoenig, and Fabrizio Zilibotti. 2013. ``War
+Signals: A Theory of Trade, Trust, and Conflict.'' \emph{Review of
+Economic Studies} 80(3): 1114--47.
+
+\leavevmode\hypertarget{ref-ross1991barriers}{}%
+Ross, Lee, and Constance Stillinger. 1991. ``Barriers to Conflict
+Resolution.'' \emph{Negotiation journal} 7(4): 389--404.
+
+\leavevmode\hypertarget{ref-ross1995psychological}{}%
+Ross, Lee, and Andrew Ward. 1995. ``Psychological Barriers to Dispute
+Resolution.'' In \emph{Advances in Experimental Social Psychology},
+Elsevier, 255--304.
+
+\leavevmode\hypertarget{ref-sambanis2013social}{}%
+Sambanis, Nicholas, and Moses Shayo. 2013. ``Social Identification and
+Ethnic Conflict.'' \emph{American Political Science Review} 107(2):
+294--325.
+
+\leavevmode\hypertarget{ref-schwartz1990toward}{}%
+Schwartz, Shalom H, and Wolfgang Bilsky. 1990. ``Toward a Theory of the
+Universal Content and Structure of Values: Extensions and Cross-Cultural
+Replications.'' \emph{Journal of personality and social psychology}
+58(5): 878.
+
+\leavevmode\hypertarget{ref-tajfel1969cognitive}{}%
+Tajfel, Henri. 1969. ``Cognitive Aspects of Prejudice.'' \emph{Journal
+of biosocial science} 1(S1): 173--91.
+
+\leavevmode\hypertarget{ref-tajfel1981groups}{}%
+---------. 1981. \emph{Human Groups and Social Categories: Studies in
+Social Psychology}. CUP Archive.
+
+\leavevmode\hypertarget{ref-tajfel1979integrative}{}%
+Tajfel, Henri, and John C Turner. 1979. ``An Integrative Theory of
+Intergroup Conflict.'' \emph{The social psychology of intergroup
+relations} 33(47): 74.
+
+\leavevmode\hypertarget{ref-tavris2008mistakes}{}%
+Tavris, Carol, and Elliot Aronson. 2008. \emph{Mistakes Were Made (but
+Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful
+Acts}. Houghton Mifflin Harcourt.
+
+\leavevmode\hypertarget{ref-thebaud2001sahel}{}%
+Thébaud, Brigitte, and Simon Batterbury. 2001. ``Sahel Pastoralists:
+Opportunism, Struggle, Conflict and Negotiation. A Case Study from
+Eastern Niger.'' \emph{Global environmental change} 11(1): 69--78.
+
+\leavevmode\hypertarget{ref-thomas2018sahara}{}%
+Thomas, Natalie, and Sumant Nigam. 2018. ``Twentieth-Century Climate
+Change over Africa: Seasonal Hydroclimate Trends and Sahara Desert
+Expansion.'' \emph{Journal of Climate} 31(9): 3349--70.
+
+\leavevmode\hypertarget{ref-tonah2002fulani}{}%
+Tonah, Steve. 2002. ``Fulani Pastoralists, Indigenous Farmers and the
+Contest for Land in Northern Ghana.'' \emph{Africa Spectrum}: 43--59.
+
+\leavevmode\hypertarget{ref-turner1979social}{}%
+Turner, John C, Rupert J Brown, and Henri Tajfel. 1979. ``Social
+Comparison and Group Interest in Ingroup Favouritism.'' \emph{European
+journal of social psychology} 9(2): 187--204.
+
+\leavevmode\hypertarget{ref-unah2018nigeria}{}%
+Unah, Linus. 2018. ``In Nigeria's Diverse Middle Belt, a Drying
+Landscape Deepens Violent Divides.'' \emph{Christian Science Minitor}.
+
+\leavevmode\hypertarget{ref-vallone1985hostileMedia}{}%
+Vallone, Robert P, Lee Ross, and Mark R Lepper. 1985. ``The Hostile
+Media Phenomenon: Biased Perception and Perceptions of Media Bias in
+Coverage of the Beirut Massacre.'' \emph{Journal of personality and
+social psychology} 49(3): 577.
+
+\leavevmode\hypertarget{ref-wallensteen2014talking}{}%
+Wallensteen, Peter, and Isak Svensson. 2014. ``Talking Peace:
+International Mediation in Armed Conflicts.'' \emph{Journal of Peace
+Research} 51(2): 315--27.
+
+\leavevmode\hypertarget{ref-walter2002committing}{}%
+Walter, Barbara F. 2002. \emph{Committing to Peace: The Successful
+Settlement of Civil Wars}. Princeton University Press.
+
+\leavevmode\hypertarget{ref-waltz2010theory}{}%
+Waltz, Kenneth N. 2010. \emph{Theory of International Politics}.
+Waveland Press.
+
+\leavevmode\hypertarget{ref-ward1997naive}{}%
+Ward, Andrew et al. 1997. ``Naive Realism in Everyday Life: Implications
+for Social Conflict and Misunderstanding.'' \emph{Values and knowledge}:
+103--35.
+
+\leavevmode\hypertarget{ref-warner2001personal}{}%
+Warner, John T, and Saul Pleeter. 2001. ``The Personal Discount Rate:
+Evidence from Military Downsizing Programs.'' \emph{American Economic
+Review} 91(1): 33--53.
+
+\leavevmode\hypertarget{ref-weinstein2005autonomous}{}%
+Weinstein, Jeremy M. 2005. ``Autonomous Recovery and International
+Intervention in Comparative Perspective.'' \emph{Available at SSRN
+1114117}.
+
+\leavevmode\hypertarget{ref-weisel2015ingroup}{}%
+Weisel, Ori, and Robert Böhm. 2015. ```Ingroup Love' and `Outgroup Hate'
+in Intergroup Conflict Between Natural Groups.'' \emph{Journal of
+experimental social psychology} 60: 110--20.
+
+\leavevmode\hypertarget{ref-wood2000attitude}{}%
+Wood, Wendy. 2000. ``Attitude Change: Persuasion and Social Influence.''
+\emph{Annual review of psychology} 51(1): 539--70.
+
+\leavevmode\hypertarget{ref-wu1995cope}{}%
+Wu, Jianzhong, and Robert Axelrod. 1995. ``How to Cope with Noise in the
+Iterated Prisoner's Dilemma.'' \emph{Journal of Conflict resolution}
+39(1): 183--89.
+
+\leavevmode\hypertarget{ref-yang2013similarity}{}%
+Yang, Nianhua. 2013. ``A Similarity Based Trust and Reputation
+Management Framework for Vanets.'' \emph{International Journal of Future
+Generation Communication and Networking} 6(2): 25--34.
+
+\end{document}
