@@ -7,12 +7,13 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+<!--
 IIIa: Intergroup contact to remove those factors
 -	Make groups want peace: Goal achievement through cooperation: cooperation in each group’s interest
 -	Give groups incentive to solve collective action problem: Norms for cooperation
 -	Reduces psych biases to perception: removes stereotypes, anxiety/threat; adds empathy, identification of similarities/joint interests.  Something needs to grease the gears.
 -	Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.  Confidence-building measure.
+-->
 
 # Reducing group conflict
 
@@ -41,14 +42,57 @@ Third, intergroup contact can reduce perceptual biases that prevent groups from 
 
 <!--Provides opportunity for costly signaling: groups interact and can directly observe outgroup’s preferences and behavior.
 small cooperation helps build large.  Confidence-building measure-->
-Fourth, intergroup contact provides groups with opportunities to interact and send direct signals of trustworthiness.  Direct cross-group interaction and communication reduces competition in behavioral games [@bornstein2003intergroup] and in formal models [@rohner2013war].  These signals can serve as confidence-building measures and allow groups to start small and low-risk and gradually increasing as groups build trust over time; trust is one of the few resources that increases with use [@gambetta_ch13].  Importantly, intergroup contact gives each group the opportunity to signal willingness to punish their own members if those members jeopardize peace.
+Fourth, intergroup contact provides groups with opportunities to interact and send direct signals of trustworthiness.  Direct cross-group interaction and communication reduces competition in behavioral games [@bornstein1989within; @ostrom2006value] and in formal models [@rohner2013war].  These signals can serve as confidence-building measures and allow groups to start small and low-risk and gradually increasing as groups build trust over time; trust is one of the few resources that increases with use [@gambetta_ch13].  Importantly, intergroup contact gives each group the opportunity to signal willingness to punish their own members if those members jeopardize peace.
 
-Contact does X, Y, Z.  It is not a panacea, hwoever, and groups can still misperceive the behavior of the other.  When both groups desire peace and begin cooperating, misperceptions are the main threat to enduring peace.  Risk of cooperation being perceived as defection.  Risk of defection being perceived as cooperation (an accident). the worry that ingroup will not punish outgroup defection.  Institutional structure that minimizes misperceptions and their effect.
-
-
-## Joint-punishment institutions to avoid misperceptions
+Intergroup contact can provide incentives for cooperation, reduce perceptual biases, and provide opportunities for costly signals of trustworthiness.  It is not a panacea, however, and groups can still misperceive the behavior and intentions of the other side.  When both groups desire cooperation, the risk of cooperative behavior being misperceived as uncooperative behavior is the main threat to enduring peace [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  If groups trust each other to police their own, each side must worry that the other group will not punish their own members with sufficient force to deter their harmful or discriminatory actions.  Groups are, after all, biased in favor of their own side.  Groups need a collaborative institutional structure to minimize misperceptions and their effect.
 
 
+## Misperceptions and joint-punishment institutions
+
+<!--
+IIIb: Joint punishment institutions to minimize misperceptions
+-	Situation is an iterative Prisoner’s Dilemma: best off with [C,C] but really want to avoid [D,D]. Describe iterative PD.
+-	When groups prefer peace and intend to cooperate, misperceptions/accidents main challenge to peace: Try to throw C, accidentally throw D.  OR Throw C, gets interpreted as D.
+-	Collective action problem: societies heterogeneous, some don’t want peace.  A bad apple could throw D; C is then punishing your own.  Two levels of misperception: (1) that D was purposeful on part of group, and (2) that the punishment was not severe enough and the punishment C was actually a D.
+-	Solution described (police your own) subject to misperceiving.
+-	Social norms/institutions minimize “accidental” individual D.  Institutions to minimize misperception of C to D.
+-	Joint punishment: both groups decide together.  Pros/cons.
+-->
+
+<!---	real situation that is an iterative Prisoner’s Dilemma -->
+When groups are cooperating, misperceptions are a major danger to continued cooperation.  To see why, imagine that two groups are cooperating over a joint feast.  One group is charged with bringing meat and milk, the other with bringing vegetables and grains.  Imagine the vegetable and grain side contributes less than their fair share due to a bad harvest.  What should the other side do?  Since they do not know why the other side has come without sufficient food, they cannot rule out the possibility that the other side is being treacherous.  Do they allow the non-contributors to partake in the feast, or do they take their food and go home?  If they allow the non-contributors to join the feast, they might be preserving cooperative relations and ensuring future feasts, which is good for both sides.  Or they might be allowing the other side to get away with betrayal, which is bad for their side and good for the side of the non-contributors.[^IPD]
+
+[^IPD]: This situation follows @axelrod1981evolution and @fearon1996explaining in conceptualizing intergroup cooperation as an iterative prisoners dilemma.  Two groups interact simultaneously for an unlimited number of rounds, either cooperating or defecting.  Both sides most prefer to defect when the other cooperates and least prefer to cooperate when the other defects; mutual cooperation is the pareto efficient outcome in that it maximizes overall value.  When each side cooperates, there is a small chance that it accidentally defects or that it's cooperation gets interpreted as defection.
+
+<!---	When groups prefer peace and intend to cooperate, misperceptions/accidents main challenge to peace: Try to throw C, accidentally throw D.  OR Throw C, gets interpreted as D. -->
+In this scenario, both sides have intended to cooperate, but one side's attempt to cooperate looks like defection.  Since both group's prefer to cooperate, mutual cooperation can only be interrupted by an accident (one side tries to cooperate and accidentally defects) or misinterpretation (one side cooperates but it gets interpreted as defection).  In this case, the continuation of cooperation depends on the meat and milk side perceiving the grain and vegetable side's meager contribution as cooperation and not defection.  If their perceptions are biased against the outgroup, they may attribute the lack of food to ill intent.
+
+<!--Collective action problem: societies heterogeneous, some don’t want peace.  A bad apple could throw D; C is then punishing your own.  Two levels of misperception: (1) that D was purposeful on part of group, and (2) that the punishment was not severe enough and the punishment C was actually a D.-->
+The problem of misperceptions is exacerbated when considering the groups as collections of individuals with different preferences.  Rather than the groups meeting to cooperate or defect, members of each group meet to cooperate or defect.  Imagine a member of Group A defects against a member of Group B.  If the groups are relying on each side to punish their own, then Group A punishes their defector.  Suppose he defects against Group B again at his next opportunity.  It may appear to Group B that (1) Group A has not punished their own group member, so he continues to defect, or (2) Group A's punishment against their own group member was too lenient.  In either scenario, Group B might punish him more harshly to deter future defection.^[Ingroup policing has many virtues over other means to punish defectors.  Most important is that the ingroup is most likely to know who defected, whereas the outgroup is only likely to know that someone from the other group defected [@fearon1996explaining].]
+
+<!--
+Solution described (police your own) subject to misperceiving.
+-->
+Since Group B does not have a say in Group A's punishment, they must trust that Group A punishes their defectors and does so sufficiently to deter future defection.  But neither group can know with certainty how much punishment is "enough" to deter future defection, so some punishments are bound to fail.  These failures can delegitimize the institution of ingroup policing unless the groups share a substantial amount of intergroup trust.  This amount of intergroup trust is unlikely to characterize the relationships of groups in or with a recent history of violent conflict.
+
+<!--	Social norms/institutions minimize “accidental” individual D.  Institutions to minimize misperception of C to D.
+-	Joint punishment: both groups decide together.  Pros/cons. -->
+Rather than the institution of ingroup policing as the way for groups to ensure cooperation, I suggest that many groups use collaborative "joint-punishment" institutions.  These collaborative institutions involve representatives from both sides who jointly decide on an appropriate punishment for any behavior in which a member of one group harms a member of the other.  Having both groups involved vastly reduces the possibility that either side believes a defector went unpunished or misperceives a genuine attempt at punishment as overly lenient.  It maintains the main benefit of ingroup policing in that each group still helps identify their defecting group members but does more to sheild both groups from the temptation to punish outgroup defection themselves.
+
+In the next section, I apply this perspective to farmer-pastoralist conflict in Nigeria and describe the form that institutions to improve intergroup cooperation have taken in that context.
+
+
+<!--
+To see why misperceptions are such a danger to intergroup cooperation and trust, imagine two groups contributing to a joint meal.  One brings meat and milk, the other brings vegetables and grains.  They each bring as much food as they can and split the food evenly amongst themselves.  Each group most prefers to eat their own food and the food of the other side and least prefers to share their own food and get nothing from the other side; the outcome that maximizes overall utility is that both group's contribute equally to the meal.
+
+Imagine that the two groups have been cooperating successfully for multiple days, each group bringing similar amounts of food to the meal.  Now imagine the next day one group contributes very little.  How does the other group respond?  Do they split their food evenly, even though their partners did not contribute their fair share, or do they cancel the joint meal and keep their food for themselves?  If they do not split their food, they run the risk of breaking down the cooperative dynamics the two groups have achieved.  If they do split their food, however, they may be allowing the other side to get away with betrayal, signaling that they are "suckers".
+
+The question is: why did the first group not contribute their share of food?  Did they intend to contribute but were prevented by events outside their control?  Or 
+-->
+
+<!--
+This situation follows @axelrod1981evolution and @fearon1996explaining in conceptualizing intergroup cooperation as an iterative prisoners dilemma.  Two groups interact simultaneously for an unlimited number of rounds, either cooperating or defecting.  Both sides most prefer to defect when the other cooperates and least prefer to cooperate when the other defects; mutual cooperation is the pareto efficient outcome in that it maximizes overall value.  When each side cooperates, there is a small chance that it accidentally defects or that it's cooperation gets interpreted as defection.
+-->
 
 
 
