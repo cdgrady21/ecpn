@@ -1,0 +1,229 @@
+---
+title: "paper3_caclec_6-14-2020"
+author: "Christopher Grady"
+date: "June 14, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Last paper for dissertation.
+1- ECPN
+2- Lab Exp
+3- this one, which no one has seen.  But everyone has read these ideas; this is mostly the old ECPN theory section + new thoughts I've had about it.
+
+Goals for the paper: 
+Want to frame conflict as commitment problem in a way psych people will understand
+Want to talk about problems with conflict resolution caused by psych/cognitive factors
+Wanted to propose a solution to the problems caused by psych/cognitive factors (contact & collaborative instutions)
+Wanted to discuss these issues in an example/application/case-study (but not really a case study)
+Wanted to offer policy recommendations (not yet included)
+
+# Individual's Comments
+
+# Alice
+
+- Goals mostly accomplished, some better than others.
+- favorite part is the "case-study".
+- framing/organization reminds her of WD piece.
+
+- general reaction: very dense paper with a lot.
+- hard time reading and digesting it.
+- help it the most: more fleshed out roadmap at the beginning.
+- when reading it, the individual points make sense, but their organization is not clear.  hard to hold all pieces of the theory together in her head.
+- would be hard to restate argument back to me/other people.
+- hard to figure out punchline.
+    - within group commitment problem not being considered as much as between-group commitment problem?  And how to solve them?
+
+- take-away: from beginning better map of argument
+- language wise: using a few more markers to help the reader figure out what my argument is, in addition to what exists.
+    - building on a lot of concepts and re-explaining them to a different audience: at some point something new is coming in, and I need to signal that.  "I argue, I add, etc...".  Help the reader figure out what is my summary of things already said and what is my added piece.
+    - within group? material/non-material psych factors? hard to tell what is my contribution.
+- content-wise: tikz figure? formal model? This works well with -c, +benefit, misperceptions.
+
+- **chris**: need to frame this as "bringing the individual back" maybe?  Get the psych factors, get the collective action problem.
+
+
+# Caglayan
+
+- agree with Alice's points.
+- arguments vague and difficult to get main argument early on.  in general, paper will benefit from identifying main arguments early on & clearly identifying mechanisms early on.  Hold readers hand.
+- Include the goals/aims that I said to open CACLEC in the paper.  Not clear in paper right now.
+- conceptual clarification? combining commitment probolem/collective action stuff? ingroup punishment stuff?  need somewhere early to state main arguments.
+- a lot of everything, but narrowing down would be helpful.
+
+Two main directions:
+- how psych biases prevent cooperation & introduce group contact for shared aims and how it alleviates the biases.
+- how these biases not accounted for in commitment problem framework, and how thinking about these biases can help us solve commitment problems.
+
+- narrow ideas more depending on aim.  Is arg that group contact will solve commitment problem?  Or that biases prevent reaching cooperation, and contact alleviates them?
+- currently do things piece by piece, but need a concrete outline.
+
+- not clear how I expanded argument from contact theory to joint-punishment institution.
+- how does cooperating for mutual aim help people believe ingroup punishment institutions are reliable?  About observing those groups so each side believes?  How does contact theory + punishment structure relate?
+- How does it solve the psych biases I mention?  Like sunk cost fallacy and self-esteem.
+
+
+# Nuole
+
+General comments
+- from IR perspective, I like the reasons for why groups may want to continue fighting.  Costs of peace.
+    - IR talks about why groups cannot reach peace, but not about the benefits of fighting/costs of peace.
+    - Andrew Coe  has some "cost of peace" stuff.
+- big question: who is the audience? It's psych group, not the IR group.  It's not clear in the paper; seems like trying to talk with both.
+    - ways to reframe stuff for psych people.  need: How do psych concepts map onto commitment problem?  Right now is: how commitment problems map onto psych concepts.
+-  Big need: section 3.  Spell everything out more.  Why should contact work?  If it decreases cost of peace, increases benefits, reduces misperceptions, what mechanisms?  Why joint policing solve these misperceptions/biases?  Spell it out.  Hold our hands.
+    - Really interesting to go through scope conditions for when this would work.  Will help fill out section 3.  When does it work/build trust?  When does it backfire?  What are the conditions for contact working?  It will also lead to the application more: here are the scenarios where I would expect contact & joint punishment works.
+
+- agree with Alice and Caglayan.
+
+- not clear why joint-policing would work.
+
+
+# Ekrem
+
+Preamble: am not the intended audience, but very close to the material I discuss.  More prone to seeing smaller issues as bigger issues.  Maybe audience doesn't care.  Given some issues with the field experiment paper (framing, going back in forth, committee's reactions), Ekrem is hesitant to cause me further inefeciency due to his perspective.
+
+This paper is a big undertaking.  Trying to bridge political economy and political psychology perspectives on conflict.  That is a big thing to try and do, especially in a short amount of time. Everything is "huff bait" once you start writing.
+
+Bottom line: good idea is to take what others have said and let committee tell me what to do for dissertation.  Ekrem is going to say what a _nice_ political economy person would say if reviewing this paper.
+
+Seven general points
+- seems to be confusion about what commitment problem means: lots of language where I think main tension is preferences over peace vs conflict.  Which is not the commitment problem.  if you prefer fighting, you are an aggressive jerk and you do what you like. not a commitment problem.
+    - in my head or lost in the writing of things?
+- Talk as if conflict stems from commitment problems _period_.  Typically poli econ literature thinks there are 3 general reasons for people fighting: (1) commitment problem, (2) info problem, (3) indivisibility.  Literature focuses more on information problems than commitment problems anyway.  So they do not believe that commitment problems are the big problem.
+    - chris: ask about dropping the "third party intervention" paragaph.
+    - Fearon 1995: about information problems, but i discuss commitment problem as if it is only thing.
+- Possible peace agreements preferred to fighting: information problem.  I discuss it as if it has to do with a commitment problem.
+- 2b: About contact, and a lot of my contact discussion is about prejudices/stereotypes/etc.  Use word signaling a lot with relation to contact.  For signaling to be relevant, one side has to not know something about you.  Solves information problems.  PD is not an information problem.
+    - talk about signaling aspect, need to mention information problem.
+    - **can bring in information problems and engage with them separately. Info problems can cause conflict in absence of commitment problems. "I dont know what I should offer you because we both have incentives to bluff."  Alleviating info problem can also help commitment problem by signaling preferences (reputation).**
+        - **contact helps with information stuff, and helping information stuff can help with commitment stuff.** is easier way to go.
+    - Ekrem uses information problems to get out of commitment problems.  Reputation and trust: the two problems interact in repeated game framework, things get blurred/jumbled up.
+- 3: Not fan of material vs non-material distinction.  What is material/non-material?  How to make any distinction.
+    - don't need to make the distinction.  Just use "resources" and "bias/perceptions". Material/non-material is mischaracterization of how poli econ people think.
+- 4: I say three main ways non-material stuff affects conflict.  WHy 3?  Why main? Why those things?
+    - also #1 is so broad, #2 and #3 are subsumed, and anything/everything we could think of fits in it also.
+- 5: I say I identify within-group collective action prooblem as impediment to itnergroup peace?
+    - F&L don't specifically address the problem, but are very cognizent of it.
+    - If people talk about collective action and security dilemma as "how to compel group members to go fight", then I should say that specifically.  Highlight how my idea differs gives me better credibility.
+
+Comments about my bottom-lines.
+- 6: Ingroup-policing/joint-punishment.  I don't need it.  I can just say "poli psych framework", "poli econ framework", think about those two frameworks together.
+    - if I am doing that, I don't need to put forward another assertion/argument that would change how those paradigms think.
+    - "Ingroup policing is unsustainable because free-riding" is another paper.
+    - "Joint-punishment institutions can solve the free-riding problem" is a third paper.
+    - they need to be separate papers to give them enough work to be compelling.
+
+- 7: Ingroup policing being unsustainable: if going to push this argument, need to engage at a much deeper level.  if we take their framework as true, why is what I am saying plausible?
+    - in particular: "discount punishment that I exact because the two sides hate each other".  F&L would ask: why don't we correct for that bias and give ingroup members harsher punishments.  Why would this change the equilibria?
+    - joint-enforcement institution: given that ingroup policing not sustainable, here is a proposal that works better.  It is a formal institution that monitors/enforces agreements and punishes defection.  That is a state, and the quintessential third party thing.
+    - Existance of formal institution itself is a peace agreement.  How did they agree to that?  Specifics are difficult: how many of us, how many of you on the committee?  etc lots of questions people cannot agree on to begin with.
+    - "instead of ingroup policing, need to think more about institutional structures."  But then it has the same kind of problems from the state-building literature.
+
+
+# Discussion
+
+- framing is biggest difference.  Poli econ, poli psych, same topics, reconcile the two.
+
+- chris: maybe put all of these ideas in one thing.  A roadmap for future research.
+
+- psych to commitemtn, rather thhan commitment to psych.  Use psych as the framework and say how they map onto commitment problems.  Rather than commitment problems and how they map onto psych stuff.
+    - depends on where I want to publish.
+
+- upfront: poli econ has a framework, I am using it.  Warn the psych people.  Explain where the concepts are coming from.
+
+- article that surveyed theories of conflict in econ, poli sci, psych, and business.
+
+
+# My questions
+
+dump all third party intervention stuff from beginning?
+    - yeah, it works to footnote this.  It is not important for the rest of the article.  Say "things can also be solved by strong 3rd party, that requires outside actor, I am going to assume there is no strong 3rd party and focus on repeated interactions".  Just say that the state is not capable or willing.
+        - instead of footnote, could 2 sentence.
+        - most people think of it as the _state_.  3rd party is only where there is no state -- nations.
+    - Or put it in a lit review type section where I summarize literature from poli econ.
+    
+
+talk about farmer-pastoralist thing as a case study instead of an application?
+(I don't know what a case study is)
+    - dont need to make it a case study.  the IR/psych thing is enough for one paper.
+    - Could be there as an application.  Explain how these two frameworks can be bridged, then apply to a situation I know well.
+    - don't need to test anything, in data or with a case.  Just use it an a way to make the reader understand by using an application/example to talk about things.  Illustrative example.  
+
+Contact --> joint institutions as two-step process?  So contact first, then joint institutions?
+    - could drop.  could rework it to get reactions from my committee.
+    - maybe make this a "future research" subsection.
+
+## to do
+
+-structure vs substance might be useful.  make it easier for the reader to read.
+
+
+# known issues
+
+1 - transitions not always great
+2 - lack of explanation about solutions joint-punishment institution.
+	- what is it
+	- why does it solve problems
+	- when will it work/not work
+- only get some of that in the "application" section.
+3 - repetitiveness
+4 - dense; lots of pieces of information, not a great structure to organize them.
+
+
+*********
+
+# the plan
+
+- intro more structured so that it's more clear what I am trying to say.  Talk about the IR/psych framework thing.  Talk about the goals I have for writing it.
+- talk about information problems.
+- relate psych concepts back to IR concepts.
+- move "jont-punishment" to "future research"
+
+
+*****
+
+# Nuole recommendation
+
+Info and commit prob.s  In psych, we think about them as biased perceptions, lack of trust, lack of knowledge/theory of mind.  The psych concepts get us into these problems.  Hard to get out of these prooblems: no trust so cannot commit.  Psych equivalent reason for why we cannot ge tout of them.  How do we solve them?  In poli econ here is how, in psych we do this (contact).
+
+Commitment problem made worse by collective action problem.
+
+# The Problems
+
+## Conflict: groups don't want peace.
+    - even though they rationally should if they care about the resources they are fighting for.
+    - here are psych things that explain why groups would want to fight.
+
+## Conflict: general information problem.
+    - groups don't have knowledge about each other's preferences.
+    - what does this mean in psychology?  Biases, misperceptions, incorrect information.
+
+## Conflict: commitment problem.
+    - groups don't trust each other to abide by agreements.
+    - in psych, lack of trust.
+
+- collective action problem can cause the lack of trust (commitment problem).  Other side seeing that you have solved your collective action problem is information that lets other side trust you; that trust lets groups solve commitment problem.
+
+# Solving the Problems
+
+## groups don't want peace: make cooperation in their interest
+    - punish them for not cooperating, show them how repeated interactinos make cooperation in their interst
+    - psych equivaleint:  changing preferences == attitude change?
+
+## information problems: give groups information
+    - econ: costly signaling
+    - psych: contact, get firsthand experience with other group.
+
+## commitment problem: build trust
+    - econ: reputation/repeated interactions (information about the group helps build trust), 3rd party.
+    - psych: anything that builds trust. Contact, vicarious contact, information that helps get trust.  
+
+
+
+Comm probs in poli econ as leading to conflict.  within comm problems, I identify that collective action problem needs to be solved to solve the information problem.  

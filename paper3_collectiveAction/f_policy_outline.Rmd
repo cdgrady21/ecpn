@@ -11,29 +11,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 V: Implications for Peacebuilding Programs
 
-- achieving a joint goal _that could not be achieved alone_.
-    - comparative advantage of each group.
-
--	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
-
-- Think about incentives of individual group members, not just groups as a whole.
-
--	Do not try to solve groups conflict externally; help groups solve own problems.
-
+I: In each group's interest
 -	Programs that demonstrate material rationality of peace.  Contact, what about others?
-
+    - achieving a joint goal _that could not be achieved alone_.
+        - comparative advantage of each group.
+-	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
+-	Opportunities to observe other side, signal C.
+-	Do not try to solve groups conflict externally; help groups solve own problems.
 -	Important for both groups to benefit equally.  Otherwise creating a power disparity.  Favoring one group probably makes things worse.
 
+II: Think about incentives of individual group members, not just groups as a whole.
 -	Reduce psych biases
-
 -	Groups need strength to compel group members.
 
--	Opportunities to observe other side, signal C.
-
--	Contact programs _can_ do these things, but others may also.  More contact, if mismanaged, runs risk of exacerbating conflict.
-
+III: Preventing misperceptions is key for long-term peace
 -	Joint punishment institutions: legitimacy of institutions paramount.
 
+IV: contact programs have promise; other programs can work; all programs can be mismanaged and make things worse.
+- Contact programs _can_ do these things, but others may also.  More contact, if mismanaged, runs risk of exacerbating conflict.
+
+V: Multi-step process
+- ???
+- contact
 
 
 
@@ -41,17 +40,49 @@ V: Implications for Peacebuilding Programs
 
 
 
+<!--Both groups perceive cooperation in their interest; shared knowledge of this. achieve joint goal. -->
+The first major policy implication is that groups cooperate when it is in their interest to do so.  Peace is not intrinsically preferable to fighting.  Cooperation is only in a group's interest if the other group also plans to cooperate.  Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
+
+<!--Consequence of above about "in their interest": comparative advantage -->
+Best chances for peace are group's who have distinct comparative advantage.  Farmers and pastoralists.  Though cultural differenes may seem like a hindrance to peace, these groups have the most to gain from cooperation.  Two groups of farmers have little to offer each other that the group's could not obtain on their own.
+
+<!--Consequence of above about "in their interest": do not try to solve group's problems externally.  The benefits of cooperating must be factors that will not chance when a third party leaves. -->
+Policy interventions should focus should be on helping groups solve their own problems, rather than the intervention solving the problem.  Third party punishment may be necessary in certain contexts, but it undermines each group learning that the other prefers peace to fighting.  Each group's cooperation might be due to the fear of punishment rather than the benefits of peace.
+
+<!--Consequence of above about "in their interest": both groups benefit equally -->
+Policy interventions that help groups achieve a joint goal must be sure that both group's benefit equally.  The group's are likely comparing their gains relative to the gains of the outgroup, and any disparity could ruin chances for peace.  Differing gains can cause a commitment problem and violent conflict because the group gaining less has an incentive to fight _now_ before the other side gets stronger.  The side gaining more cannot credibly commit to a deal based on today's balance of power when their power will increase tomorrow.  
+
+<!--Groups are composed of individuals with different preferences from the group-->
+The second policy implication is that group's should not be considered unitary actors.  Each group is composed of individuals with preferences that may differ from the group's preferences.  
+
+-	Reduce psych biases
+-	Groups need strength to compel group members.
+
+<!--consequence of above about "groups made of individuals": different capacity to compel individuals, leads into paragaph about militaries. -->
+Group's differ in their capacity to compel group members to behave in the group's interest.  Group's with the power to compel will be better at fighting because they can compel group members to participate in violence [@bornstein2003intergroup] but should also be more able to credibly commit to preventing their own from defecting.
+
+<!--consequence of individuals/collective action causing conflict:  this stuff likely doesn't apply to professional militaries. -->
+Conflict between groups with professional armies is unlikely to be caused by collective action problem. Militaries: they solve the collective action problem. that is what army discipline is.  This collective action problem stuff and things about individual preferences for fighting do not apply to wars between hierarchical, professional organizations (like militaries).  To the extent that wars between those organizations are caused by commitment problems, the commitment problem is unlikely to be caused by a collective action problem.  More likely to be caused by factors like overconfidence, commitment problems because power changes over time, desire for tough reputation, goods that are difficult/impossible to divide (holy lands), etc [@fearon1995rationalist; @powell2006war; @reed2016bargaining; @johnson2009overconfidence; chris: need cites for tough reputation].  Could be caused by differing valuations of concessions and other perceptual biases.  Open question how individual psychological and cognitive biases function in the group context.
 
 
+<!--Cooperation breeds more cooperation; threat to sustainability is accidental defection/misperceptions.  Must avoid misperceptions. -->
+Third implication is that misperception is often the greatest threat to enduring peace between groups.  If groups desire peace, the perception that the other side does not desire peace can prevent cooperation.  Once groups are cooperating, misperceiving cooperation as defection can cause a series of defections.  Any institution that limits misperceptions can maintain peace.
+
+Joint-punishment institutions limit misperceptions.  Legitimacy of the institution is paramount.
 
 
+<!--Fourth: contact programs have promise; other programs can work; all programs can be mismanaged and make things worse. -->
+Contact programs promising means to reduce conflict.  
+Contact downstream effects: maybe only certain people in each group should participate in contact program, but that's okay.  The contact program can effect other people indirectly if norms shift.  Contact programs likely to backfire for most prejudiced people because they have the most motivation to maintain existing attitudes [@gubler2013harmoniziong].  Vicarious contact through media programs can also affect these people.
 
+<!--contact can backfire -->
+Mismanaged contact: one group achieves more from joint goal; bad people participate in contact; relevant authorities not on board with contact or not consulted.  Contact programs are hard and can easily backfire if mismanaged.
 
+<!--other programs can work. -->
+Other programs can work.  Groups can see that it is in each other's interest to cooperate without contact.  But difficult to build trust without interaction between groups.
 
-
-
-
-
+<!--well-meaning programs can exacerbate conflict -->
+Programs, if mismanaged, can exacerbate group conflict.  (1) Adding resources to ongoing conflict, those resources can get captured by the conflicting groups.  (2) Programs designed to increase economic status: make land worth fighting for, change traditional agreements that govern cost of messing with land.  (3) When  aid programs end, creating economic instability. removing incentive for groups to work together.  Can crowd out local institutions.
 
 
 
