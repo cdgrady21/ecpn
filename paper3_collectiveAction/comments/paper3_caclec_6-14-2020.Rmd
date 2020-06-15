@@ -73,7 +73,7 @@ Two main directions:
 General comments
 - from IR perspective, I like the reasons for why groups may want to continue fighting.  Costs of peace.
     - IR talks about why groups cannot reach peace, but not about the benefits of fighting/costs of peace.
-    - Andrew Coe  has some "cost of peace" stuff.
+    - ekreM: Andrew Coe  has some "cost of peace" stuff.
 - big question: who is the audience? It's psych group, not the IR group.  It's not clear in the paper; seems like trying to talk with both.
     - ways to reframe stuff for psych people.  need: How do psych concepts map onto commitment problem?  Right now is: how commitment problems map onto psych concepts.
 -  Big need: section 3.  Spell everything out more.  Why should contact work?  If it decreases cost of peace, increases benefits, reduces misperceptions, what mechanisms?  Why joint policing solve these misperceptions/biases?  Spell it out.  Hold our hands.
@@ -93,12 +93,12 @@ This paper is a big undertaking.  Trying to bridge political economy and politic
 Bottom line: good idea is to take what others have said and let committee tell me what to do for dissertation.  Ekrem is going to say what a _nice_ political economy person would say if reviewing this paper.
 
 Seven general points
-- seems to be confusion about what commitment problem means: lots of language where I think main tension is preferences over peace vs conflict.  Which is not the commitment problem.  if you prefer fighting, you are an aggressive jerk and you do what you like. not a commitment problem.
+1 - seems to be confusion about what commitment problem means: lots of language where I think main tension is preferences over peace vs conflict.  Which is not the commitment problem.  if you prefer fighting, you are an aggressive jerk and you do what you like. not a commitment problem.
     - in my head or lost in the writing of things?
-- Talk as if conflict stems from commitment problems _period_.  Typically poli econ literature thinks there are 3 general reasons for people fighting: (1) commitment problem, (2) info problem, (3) indivisibility.  Literature focuses more on information problems than commitment problems anyway.  So they do not believe that commitment problems are the big problem.
+2a- Talk as if conflict stems from commitment problems _period_.  Typically poli econ literature thinks there are 3 general reasons for people fighting: (1) commitment problem, (2) info problem, (3) indivisibility.  Literature focuses more on information problems than commitment problems anyway.  So they do not believe that commitment problems are the big problem.
     - chris: ask about dropping the "third party intervention" paragaph.
     - Fearon 1995: about information problems, but i discuss commitment problem as if it is only thing.
-- Possible peace agreements preferred to fighting: information problem.  I discuss it as if it has to do with a commitment problem.
+    - Possible peace agreements preferred to fighting: information problem.  I discuss it as if it has to do with a commitment problem.
 - 2b: About contact, and a lot of my contact discussion is about prejudices/stereotypes/etc.  Use word signaling a lot with relation to contact.  For signaling to be relevant, one side has to not know something about you.  Solves information problems.  PD is not an information problem.
     - talk about signaling aspect, need to mention information problem.
     - **can bring in information problems and engage with them separately. Info problems can cause conflict in absence of commitment problems. "I dont know what I should offer you because we both have incentives to bluff."  Alleviating info problem can also help commitment problem by signaling preferences (reputation).**
@@ -117,7 +117,7 @@ Comments about my bottom-lines.
     - if I am doing that, I don't need to put forward another assertion/argument that would change how those paradigms think.
     - "Ingroup policing is unsustainable because free-riding" is another paper.
     - "Joint-punishment institutions can solve the free-riding problem" is a third paper.
-    - they need to be separate papers to give them enough work to be compelling.
+    - they need to be separate papers to give them enough attention to be compelling.
 
 - 7: Ingroup policing being unsustainable: if going to push this argument, need to engage at a much deeper level.  if we take their framework as true, why is what I am saying plausible?
     - in particular: "discount punishment that I exact because the two sides hate each other".  F&L would ask: why don't we correct for that bias and give ingroup members harsher punishments.  Why would this change the equilibria?

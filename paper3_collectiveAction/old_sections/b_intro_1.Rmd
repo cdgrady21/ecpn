@@ -1,0 +1,82 @@
+---
+title: "Group Conflict and Collective Action: Intro"
+author: "Christopher Grady"
+date: "May 11, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+<!--1 – Violence is bad.  Results from commitment/trust problem.  Explain comm/trust problem.-->
+
+Groups fight for the resources -- land, wealth, power, or otherwise -- that fighting destroys.  As such, groups could almost always divide the resources before war in a way that benefits them more than their postwar settlement.  This is the enigma of violent conflict: why do groups engage in violent conflict when violent conflict often destroys the very thing the groups are fighting for?  The general answer is that groups suffer from a commitment problem: both sides are better off negotiating a peaceful agreement, but conflict occurs because neither group trusts the other to abide by negotiated agreements [@fearon1995rationalist; @powell2006war; @reed2016bargaining].  If groups trusted each other to abide by agreements, they would not need to fight and each group would enjoy superior outcomes relative to their outcomes after fighting.  
+
+<!--2 – What does it mean to trust a group?  Collective action problem.  Sambanis: “peace can be derailed by a few radicals.” Footnote that people have talked about collective action in conflict being about compelling group members to sacrifice to defeat the other group [@bornstein and others]-->
+
+This formulation rings true, but also begs the question: what does it mean for one group to trust another group?  Each group is a collection of individual group members with their own behavioral incentives.  <!--To trust a group to honor a peace agreement, then, is to trust that a sufficiently high proportion of group members will honor the agreement.  -->Peace, in this context, is a public good; all group members benefit from peace but contributing to peace is costly because group members must refrain from engaging in behaviors that benefit them at the expense of the outgroup.  Achieving any public good requires overcoming a collective action problem because group members have an incentive to shirk and rely on others to bear the costs of providing the good.  One group trusting the other to honor an agreement means not only trusting that a high proportion of group members will honor the agreement, but also that those group members can and will compel less cooperative group members to honor the agreement.  Peace, after all, can be derailed by a few radicals [@sambanis2013social].
+
+<!--3 – Comm/trust problems between groups usually solved by 3rd parties or reputations/repeated interactions. Explain how these things solve problem.  -->
+
+Thinking about groups as collections of individuals complicates common mechanisms for overcoming commitment problems and resolving group conflict like third-party enforcement of agreements.  Third party enforcement reduces commitment problems by incentivizing each side to honor agreements out of their own interest.  Though each group may have an incentive to defect on an agreement after it is made, the groups have less incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements [@fearon1994ethnic].  Third parties to enforce agreements can often effectively reduce conflict [@doyle2000international; @di2017effectiveness; @walter2002committing; @hartzell2001stabilizing; @gartner2011signs; @wallensteen2014talking], but they also suffer from general limitations, such as high cost, which deters third parties from intervening in disputes before they escalate [@greig2005stepping; @kydd2006can].[^3rdParty]  Third parties should also face specific limitations enforcing agreements among heterogeneous and decentralized groups.  The punishment used by the third party must be applied to those who would defect on the agreement if it is to deter their defection.  This process works better for homogeneous groups like armies, where responsibility for the behavior of any group member can be assigned to the group as a whole, than for heterogeneous groups, where identification and punishment must occur at a much more granular level.  Punishing the entire group for the behavior of a few radicals will likely undermine the third party's credibility, rather than promote peace.^[Many instances of conflict, even those described as wars, are often characterized by small-scale fighting by decentralized groups.  Most of the fighting in what are today called the American Indian Wars took this form, as did the range wars and sheep wars of the American West, present conflicts between farmers and pastoralist in the African Sahel, and many insurgencies involving autonomous insurgent groups.]
+
+[^3rdParty]: The main limitation of third party intervention, in my view, is its high cost.  The cost results in intervention only when the third party is biased towards one side of the dispute or when conflict has already escalated into violence, so intervention is rarely used to reduce the persistent, smaller-scale violence that plague many countries.  This hesitation to intervene is compounded by the relative ineffectiveness of third party actors at ending ongoing conflicts.  Third parties are most effective at maintaining peace in a post-conflict setting, not at ending ongoing conflicts [@gilligan2008interventions; @doyle2006making; @bratt1996assessing].  Another important limitation is that third party punishment is exogenous to the conflicting groups and therefore does not create trust between those groups that will last beyond the third party's presence [@gambetta_ch13].
+
+<!--5 – problems with reputation/repeated interactions.-->
+
+Rather than rely on third party intervention, groups can also resolve conflicts themselves through repeated interactions and incentives to cultivate a trustworthy reputation.  Like third parties, repeated interactions help overcome commitment problems by providing each group with the incentive to honor agreements out of their own interest.  Here the incentive comes not from fear of punishment but the prospect of better future outcomes from cooperation than defection.  Though each group may have an incentive to defect on an agreement today if the groups will not interact tomorrow, the groups have an incentive to cooperate today if their behavior today will be reciprocated by the other side tomorrow [@ostrom2003trust; @kydd2000trust; @axelrod1981evolution].  Both groups stand to gain more from enduring cooperation than enduring defection.[^reputation]
+
+[^reputation]: I discuss repeated interactions and reputations together, but these mechanisms are subtley different.  The repeated interaction mechanism is generally mobilized for contexts with just two groups.  In those contexts, cooperation in previous interactions assists in obtaining cooperative behavior in the future from the same partner; other potential partners are unnecessary.  The reputation mechanism is generally mobilized for contexts in which many groups observe the behavior of many other groups.  In those contexts a good reputation assists in obtaining _other_ cooperative partners; repeated interactions with the same partner are unnecessary.  I discuss these mechanisms together because both rely on creating cooperative expectations from bargaining partners in future interactions.
+
+<!--general problems: don't want peace because psych costs; even if want peace, incentive to act tough to get best deal; even if want peace and not acting tough, biased perceptions of outgroup means each group is likely to misinterpret each other's cooperative signals.
+specific problems: cannot have repeated interactions with most outgroup members; most of the group can be trusted and thought to have good intentions, but peace can be derailed by a few radicals.-->
+Solving commitment problems through repeated interactions also faces general problems and problems specific to heterogeneous groups.  In general, repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because they prefer relative gains over the outgroup [@waltz2010theory; @halevy2010relative; @turner1979social] and because they derive psychological benefit from _harming_ a hated outgroup [@weisel2015ingroup; @cikara2014their].  These psyhological factors add costs to peace agreements.  Even if groups desire peace, they maintain an incentive to act "tough" to get the best deal, and so may not signal their desire for peace [need cite].  And even if groups signal their desire for peace, phenomena like confirmation bias, cognitive dissonance, and motivated reasoning can bias perceptions of outgroup behavior and prevent groups from accurately perceiving peaceful intentions [@de2008motivated; @ward1997naive; @duncan1976differential; @vallone1985hostileMedia; @festinger1962cognitiveDissonance; @kunda1990motivatedReasoning; @tajfel1969cognitive; @nickerson1998confirmation].  Repeated interactions also face problems specific to heterogeneous groups.  If groups are heterogeneous, repeated action with each outgroup member unlikely.  Reputation
+
+
+<!--6 – the solution needs to (1) remove psych costs to peace and psych/social barriers to trusting other side, (2) signal that each group has solved its collective action problem and can compel radical group members to not take aggressive action against outgroup.-->
+Third party actors and repeated interactions are often not enough to solve commitment problems and prevent conflict.  
+
+<!--7 – structured intergroup contact to remove psych/social barriers to trust (like prejudice): contact must show the groups that it is in the other side’s interest to cooperate.  H.L. Mencken: “It is hard to believe that a man is telling the truth when you would lie in his place.”  Show that cooperation is in both groups interest: contact helps each group achieve something they desire/achieve a goal.  Groups need a reason to get along.  Contact is Confidence-building measure-->
+
+<!--8 – Once enough trust is developed, Joint criminal justice institutions: outgroup policing defectors is bad because chance that ingroup perceives outgroup punishment as too harsh, causes spiral.  Ingroup policing defectors is bad because chance that outgroup perceives ingroup punishment as too lenient, causes outgroup punishment.-->
+
+Ingroup only punishment: reactive devaluation.
+
+<!--9 – Perspective/Application: Nigeria farmer-pastoralist: pastoralists graze cattle on farmland, farmers attack cattle and sow seeds in grazing lands.  Ingroups not preventing this aggression.  Farmers do not know whose cattle, pastoralists do not know who attacked their cattle.  Attack outgroup generally.  Through a contact intervention, groups established joint criminal punishment institutions when a farmer/pastoralist have grievances.  Representative from each side’s “government” (chiefs) meet and agree on punishment, make sure ingroup abides by ruling.
+Perspective/Application: Race Protests/Riots 2020: black people (ingroup) following social rules, punished extremely by cops (outgroup) anyway, no punishment for outgroup defectors, eventually ingroup starts punishing members of outgroup == spiral equilibrium (F&L). Ingroup cannot identify outgroup members who defected so punish any others perceived as outgroup.  Low trust in criminal justice system, low legitimacy, low compliance.
+o	Use trials; need members of ingroup and outgroup at trial.-->
+
+<!--10 – Outstanding issues: (1) Onset of these structures: How to get the ball rolling?  A place for 3rd parties? (2) How to keep ball rolling-->
+
+<!--11 - Implications for peacebuilding programs. -->
+
+
+
+
+
+###
+
+Trust not based on material outcomes would be a + psychological payoff to cooperation/trustworthy behavior.
+
+2nd paragraph
+This formulation, while true, begs the question: what does it mean for one group to trust another group?  Each group is a collection of individual group members with their own behavioral incentives.  If all group members benefit from peace but contributing to peace is costly, then group members are best off if their group has peace without them contributing to it; peace is a public good and achieving peace requires overcoming a collective action problem.  Peace can be derailed by a few radicals [@sambanis2013social].  To trust a group to honor an agreement, then, is to trust that a sufficiently high proportion of group members want to contribute to peace and can compel other group members to contribute to the public good of peace.
+
+Why would any group member not honor the agreement when their group's outcome from peace is superior to the group's outcome from fighting?
+
+
+3rd paragraph
+The efficacy of a third party depends on its ability to monitor behavior, detect defection, assign blame, and punish the offender.  This process works well for homogeneous groups like armies, where responsibility for the behavior of any group member can be assigned to the group as a whole.  The same is not true for heterogeneous and decentralized groups, where the third party must observe the behavior of all groups members and cannot identify which group members defected on the agreement.
+
+
+5th paragraph
+psych costs to peace and benefits to conflict might make no agreements mutually acceptable to both sides (no bargaining range).
+
+relative gains citations:  (Gilpin 1981, 1987; Gowa 1986; Grieco
+ 1988a, 1988b, 1990; Jervis 1988; Kennedy
+ 1987; Krasner 1987; Lake 1984; Larson  1988; 
+Lipson 1984; Stein 1982; Waltz 1979)
+
+Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because of psychological costs to peace and benefits to fighting.  Group members are often willing to accept lower absolute gains to increase relative gain over the outgroup [@waltz2010theory; @halevy2010relative; @turner1979social; @festinger1954theory].  Group members may also receive psychological benefit from _harming_ the outgroup [@weisel2015ingroup; @cikara2014their], and a peace agreement prohibits group members from receiving those benefits.

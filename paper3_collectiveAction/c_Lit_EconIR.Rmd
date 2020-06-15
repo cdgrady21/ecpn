@@ -1,0 +1,56 @@
+---
+title: "Group Conflict and Collective Action: Intro"
+author: "Christopher Grady"
+date: "June 15, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Information Problem
+
+Formalized in Table [chris: tab name].
+
+\begin{table}[H]
+\begin{center}
+\setlength{\extrarowheight}{2pt}
+\begin{tabular}{cc|c|c|}
+    & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Player $2$}\\
+    & \multicolumn{1}{c}{} & \multicolumn{1}{c}{$Cooperate$}  & \multicolumn{1}{c}{$Defect$} \\\cline{3-4}
+    \multirow{2}*{Player $1$}  & $Cooperate$ & $(4,4)$ & $(0,3)$ \\\cline{3-4}
+      & $Defect$ & $(3,0)$ & $(1,1)$ \\\cline{3-4}
+\end{tabular}
+\caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
+\end{center}
+\end{table}
+
+
+
+
+\hline
+  & Cooperate & Defect\\
+\hline
+Cooperate & 4,4 & 0,3 \\
+\hline
+Defect & 3,1 & 1,1 \\
+\hline
+
+
+\begin{document}
+  \begin{table}
+    
+  \end{table}
+\end{document}
+
+
+
+
+## Commitment Problem
+
+
+
+## Preferences Problem
+
+Not a bargaining issue.
