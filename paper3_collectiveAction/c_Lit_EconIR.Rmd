@@ -1,8 +1,22 @@
 ---
-title: "Group Conflict and Collective Action: Intro"
+title: 'Group Conflict and Collective Action: Poli Econ Review'
 author: "Christopher Grady"
 date: "June 15, 2020"
-output: html_document
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../../utils/bowersarticletemplate.latex
+  word_document: default
+csl: ../../utils/american-political-science-review.csl
+bibliography: ../../utils/cdg_references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Formalized in Table [chris: tab name].
 
-\begin{table}[H]
+\begin{table}[h!]
 \begin{center}
 \setlength{\extrarowheight}{2pt}
 \begin{tabular}{cc|c|c|}
@@ -27,28 +41,13 @@ Formalized in Table [chris: tab name].
 \end{table}
 
 
-
-
-\hline
-  & Cooperate & Defect\\
-\hline
-Cooperate & 4,4 & 0,3 \\
-\hline
-Defect & 3,1 & 1,1 \\
-\hline
-
-
-\begin{document}
-  \begin{table}
-    
-  \end{table}
-\end{document}
-
+Text.
 
 
 
 ## Commitment Problem
 
+Text.
 
 
 ## Preferences Problem
