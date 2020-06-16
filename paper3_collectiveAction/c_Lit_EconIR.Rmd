@@ -23,9 +23,35 @@ bibliography: ../../utils/cdg_references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Commitment Problem
+
+An example of groups having a Commitment problem is formalized in Table [chris: tab name].
+
+\begin{table}[h!]
+\begin{center}
+\setlength{\extrarowheight}{2pt}
+\begin{tabular}{cc|c|c|}
+    & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Player $2$}\\
+    & \multicolumn{1}{c}{} & \multicolumn{1}{c}{$Cooperate$}  & \multicolumn{1}{c}{$Defect$} \\\cline{3-4}
+    \multirow{2}*{Player $1$}  & $Cooperate$ & $(2,2)$ & $(0,3)$ \\\cline{3-4}
+      & $Defect$ & $(3,0)$ & $(1,1)$ \\\cline{3-4}
+\end{tabular}
+\caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
+\end{center}
+\end{table}
+
+Sides would commit to mutual cooperation if they could to avoid dual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
+
+Solution is some way for each side to commit to cooperating.  Typically done by adding costs to defection or through repeated interactions.
+
+
 ## Information Problem
 
-Formalized in Table [chris: tab name].
+Imagine a situation in which both groups prefer to cooperate if the other side cooperates, but groups do not know the preferences of the other side.  They will fail to cooperate if neither side knows the preferences of the other.
+
+An example of groups having an information problem is Formalized in Table [chris: tab name].
+
+<!--chris: need to make two subtables?  Situation where you want to cooperate, situation where you dont want to cooperate.-->
 
 \begin{table}[h!]
 \begin{center}
@@ -41,15 +67,25 @@ Formalized in Table [chris: tab name].
 \end{table}
 
 
-Text.
 
 
-
-## Commitment Problem
-
-Text.
 
 
 ## Preferences Problem
 
-Not a bargaining issue.
+Not a bargaining issue if one or both sides prefer fighting.
+
+\begin{table}[h!]
+\begin{center}
+\setlength{\extrarowheight}{2pt}
+\begin{tabular}{cc|c|c|}
+    & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Player $2$}\\
+    & \multicolumn{1}{c}{} & \multicolumn{1}{c}{$Cooperate$}  & \multicolumn{1}{c}{$Defect$} \\\cline{3-4}
+    \multirow{2}*{Player $1$}  & $Cooperate$ & $(1,1)$ & $(0,3)$ \\\cline{3-4}
+      & $Defect$ & $(3,0)$ & $(2,2)$ \\\cline{3-4}
+\end{tabular}
+\caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
+\end{center}
+\end{table}
+
+Sides would not commit to cooperation even if they could; knowledge about each other's preferences does not avoid defection.
