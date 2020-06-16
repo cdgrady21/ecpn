@@ -17,8 +17,8 @@ Last paper for dissertation.
 3- this one, which no one has seen.  But everyone has read these ideas; this is mostly the old ECPN theory section + new thoughts I've had about it.
 
 Goals for the paper: 
-Want to frame conflict as commitment problem in a way psych people will understand
-Want to talk about problems with conflict resolution caused by psych/cognitive factors
+Want to frame conflict as bargaining failure in a way psych people will understand
+Want to look at groups as collections of individuals to talk about problems with conflict resolution caused by psych/cognitive factors
 Wanted to propose a solution to the problems caused by psych/cognitive factors (contact & collaborative instutions)
 Wanted to discuss these issues in an example/application/case-study (but not really a case study)
 Wanted to offer policy recommendations (not yet included)

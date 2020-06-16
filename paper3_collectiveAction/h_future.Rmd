@@ -34,9 +34,15 @@ VI: Avenues for Empirical Research
 
 # Avenues for Future Research
 
-The gears are not greased; things are lost in translation.
 
 
+
+<!--8 - Mistakes happen; need to reduce chances for misinterpretation of other side's signals.  Joint-punishment apparatus. Not ingroup policing-->
+Intergroup contact is a good first step to show groups that both benefit from cooperation and help groups send and receive signals of cooperation.  Even if contact reduces biases that cause misperceptions of these signals, however, misperceptions are still possible and can derail cooperative equilibria [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  Members of one group may accidentally engage in action that harms the other or may perceive outgroup behavior as aggressive when it is not.  For long-term peace, institutions must minimize and manage these misperceptions.
+
+One common mechanism for reducing group conflict is ingroup policing in which each side polices its own miscreants [@fearon1996explaining].  Ingroup policing is generally an excellent institution for preventing escalations of violence and for maintaining peace.  The research summarized in this paper, however, suggests that mistrust between groups in or with a recent history of conflict may make ingroup policing unsustainable as a solution to prevent violence because of the potential for one group to devalue the costs imposed by the ingroup on their defector.  Groups in conflict reactively devalue costly behaviors done by the other side [@ward1997naive; @ross1995psychological; @maoz2002reactive; @millard2018testing] on the logic that "$X$ behavior must not be very costly, since they were willing to do it" (@kahneman1992reference calls a similar phenomenon "concession aversion").  This reactive devaluation causes problems for ingroup policing, since it can create the perception that any ingroup punishment was too lenient.  This can cause the outgroup to exact their own punishment, which may be viewed as too harsh, causing a spiral of violence.  Instead of ingroup policing, perhaps misperceptions could be minimized by a peace agreement in which both groups are involved in the punishment of defectors who harm their outgorup.  The involvement of both groups minimizes the possibility that either side believes the punishment was too lenient or harsh.^[The ingroup could of course account for this bias and assign even harsher punishments to ingroup defectors, but those excessive punishments may reduce support for ingroup policing because group views the punishment as disproportionate to the crime.]
+
+The possibility of ingroup policing being unsustainable due to misperceptions, and of the potential for joint-punishment institutions to reduce misperceptions, should be considered in future research.
 
 
 

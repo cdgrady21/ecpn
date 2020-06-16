@@ -16,6 +16,12 @@ II: Non-material factors that cause conflict, including collective action proble
 -	Biasing perceptions (even if groups prefer peace to fighting)
 -	Difficulty solving collective action problem: harm ingroup members for benefit of group.
 
+
+<!--4 - general problems with rep/repeated interactions: don't want peace because psych costs; even if want peace, incentive to act tough to get best deal; even if want peace and not acting tough, biased perceptions of outgroup means each group is likely to misinterpret each other's cooperative signals.-->
+Solving commitment problems through repeated interactions also faces limitations, however, especially for groups in or with a history of conflict.  Repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because they derive psychological benefit from feelings of group superiority and from harm to a hated outgroup [@weisel2015ingroup; @cikara2014their; @tajfel2981groups; @fein1997prejudice] and when their animosity leads them to prefer relative gains over the outgroup to absolute gains for themselves [@waltz2010theory; @halevy2010relative; @turner1979social; @tajfel1971social].  Even if groups desire peace, they maintain an incentive to act "tough" to get the best deal, and so may not signal their desire for peace [@ross1995psychological].  And even if groups signal their desire for peace, phenomena like confirmation bias, cognitive dissonance, and motivated reasoning can bias perceptions of outgroup behavior and prevent groups from accurately perceiving peaceful intentions [@de2008motivated; @ward1997naive; @duncan1976differential; @vallone1985hostileMedia; @festinger1962cognitiveDissonance; @kunda1990motivatedReasoning; @tajfel1969cognitive; @nickerson1998confirmation].  These non-material factors can prevent future interactions from solving groups' commitment problem.
+
+
+
 # Non-material factors that increase likelihood of conflict
 
 Violent conflict is not materially rational because it destroys the resources groups are fighting for.  As such, several non-material factors should contribute to conflict.  By looking at groups as a collection of individual group members, I identify two main ways that these non-material factors contribute to conflict.  First, they shrink the range of peace agreements that each side prefers to peace by adding costs to peace and benefits to fighting.  Second, they bias perceptions of the other side's preferences such that neither side thinks the other prefers peace or can be trusted to abide by peace agreements.  I also identify an internal collective action problem that leads to conflict and explain why that problem is exceptionally difficult for group's to solve.
@@ -30,6 +36,10 @@ Violent conflict is not materially rational because it destroys the resources gr
 (7) sunk cost fallacy / "dissonant...to accept terms today that could have been achieved, without the ensuing costs...,at some earlier point in time."-->
 
 ## Costs of Peace and Benefits of Fighting
+
+@horowitz2001deadly and @petersen2002understanding show how "emotions stemming from past interethnic violence serve as impediments to peaceful resolutions to present-day conflicts". (from Little and Zeitzoff)
+
+<!--chris: be clear that adding costs to peace does not make groups necessarily "prefer fighting to peace", but may make them prefer fighting to the set of bargains the other side will agree to.-->
 
 Non-material factors add costs to peace in three main ways: (1) costs of changing attitudes and institutions, (2) loss of self-esteem, and (3) loss of sunk costs.  First, to the extent that accepting peace requires individuals in the group to change attitudes about the outgroup, group members must accept the psychological costs of attitude change.  Individuals use many strategies to maintain existing attitudes -- searching for information that confirms pre-existing beliefs, counter-arguing information divergent with their beliefs -- suggesting that costs to attitude change are not insubstantial [@nickerson1998confirmation; @kunda1990motivatedReasoning].  Changing negative attitudes towards an enemy may be especially challenging because negative outgroup attitudes are supported by a "sociopsychological infrastructure" that feeds conflict [@bar2007sociopsychological].  At the group-level, a peace agreement requires groups to dismantle the sociopsychological infrastructure that fed conflict and any social norms/institutions developed from it that encouraged violence against the outgroup [@bornstein2003intergroup].  Those institutions must be reformed to prevent, not encourage, intergroup violence.
 
@@ -86,8 +96,20 @@ Collective action problems are notoriously difficult to solve.  In the case of i
 
 In the next section, I will discuss ways to reduce the biases that cause misperceptions and a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
 
+<!--Bleak picture; next section potential solution. -->
+This is a bleak picture.  Repeated interactions can create the trust needed for long-term peace, but getting cooperation started is difficult because of psychological costs to cooperation, incentives to increase bargaining power by acting uncooperative, and cognitive biases that prevent groups from receiving each other's cooperative signals.  And beyond signaling the intent of the group's majority to abide by peace agreements, groups must go further and signal their willingness and capacity to punish their own group members if a group member defects on the agreement.
+
+<!--7 - Insights from psych on how to change attitudes and relieve biased perceptions.  Intergroup contact to achieve goal. Groups expect the other side to do what is in their interest; if each side recognizes that the other will cooperate out of self-interest, can trust other side to cooperate.
+
+Contact gives groups a reason to get along.  Contact is Confidence-building measure, costly signal. chris: Need to incorporate.
+
+the solution needs to (1) remove psych costs to peace and psych/social barriers to trusting other side, (2) signal that each group has solved its collective action problem and can compel radical group members to not take aggressive action against outgroup.
+-->
+Despite the bleakness, insights from psychology and political science provide means to overcome the issues that prevent groups from developing trust in repeated interactions.  When repeated interactions help groups cooperate they do so because each group sees that peaceful cooperation is in both their interests; repeated interactions fail to bring about peace when groups prefer fighting or when groups think the other side prefers fighting.  To help groups overcome their commitment problems through repeated interactions, an intervention must shift preferences towards peace and provide an opportunity for each group to observe this preference in the other.  Structured intergroup contact -- cross-group interactions in which groups cooperate to achieve shared goals -- can show groups that peace is in both their interests, remove the psychological barriers to each group identifying that the other wants peace, and provide opportunities for each group to send costly signals of their intent to cooperate and willingness to punish ingroup members who do not.  Achieving a joint goal demonstrates to each group that both their interests are best served through cooperation.  The prospect of benefit through cross-group cooperation motivates cooperation and attitude change [@grady2020lab; @rohner2013war] as well as the adoption of group norms to ensure cooperation, like punishment of ingroup members whose behavior undermines peace [@axelrod1986evolutionary; @fearon1996explaining].  Believing that the other side wants peace also creates the expectation that the other side will solve its collective action problem and police their own because it is in their interest to do so.
 
 
+
+************************
 
 
 <!--Reactive devaluation applies to ingroup policing: "If they are willing to punish X, then the punishment must not be very severe."

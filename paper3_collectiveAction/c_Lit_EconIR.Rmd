@@ -48,10 +48,21 @@ Each group wants to defect regardless of the other side's choice, so both sides 
 
 Solution is to make cooperation in each group's interest.  Can do that by adding costs to defection so that neither side benefits from defection.  Can also do that through repeated interactions.
 
+Another way to represent the commitment problem is that groups need to split a resource, both knowing each other's fighting strength and valuation of the resource.  Presumably, groups could then allocate some of that resource to each side, with the side having better fighting strength and higher valuation of the resource taking a larger percentage.  The problem, however, is that once that group takes a higher percentage of the resource, they now have more fighting strength and could renegotiate an even more advantageous<!--prosperous/lucrative--> deal for themselves.  Knowing this, the weaker side prefers to fight for the possibility of winning rather than acquiesce to a series of peace agreements under weaker and weaker bargaining power.
+
+### Collective Action Problems
+
+<!--5 - Challenge not yet identified for building trust between groups: there is a within-group Collective action problem in addition to a between-group commitment problem.  Groups made of individuals.  What does it mean to trust a group?  It means trusting that sufficient number of group members will cooperate and that they can and will compel other group members who do not want to cooperate.  Sambanis: “peace can be derailed by a few radicals.” Beyond most members of a group signaling a commitment to peace, they must also signal a willingness and capacity to punish ingroup members who do not contribute to peace.  -->
+
+An additional challenge with building trust between groups has not received much attention in the literature: each group faces a within-group collective action problem in addition to the between-group commitment problem.  The collective action problem occurs because each group is a collection of individual group members with their own behavioral incentives, not cohesive entities.  Peace benefits all members of a group, but contributing to peace is costly for group members because they must refrain from engaging in behaviors that benefit themselves at the expense of the outgroup.  Achieving peace, as with any public good, requires overcoming this collective action problem: the group must compel group members to contribute to peace despite the members' individual incentive to shirk and rely on others to bear its cost.  <!--What does it mean for a group to trust another group?-->One group trusting the other to honor an agreement, then, means not only trusting that a high proportion of outgroup members desire peace, but also that those outgroup members can and will compel less cooperative group members to honor a peace agreement [@fearon1996explaining].  Peace, after all, can be derailed by a few radicals [@sambanis2013social; @de2009effects].
+<!--chris: do I need to say something about third party actors being unable to solve group's internal collective action problem? -->
+
 
 ## Information Problem
 
-An _information problem_ arises when neither group possesses accurate information about the other.   An information problem causes bargaining failures when both sides prefer mutual cooperation because neither group the other side's preferences.[^infoProblem]
+@fey2011uncertainty: information asymmetries cause bargaining failures.
+
+An _information problem_ arises when neither group possesses accurate information about the other.   An information problem causes bargaining failures when both sides prefer mutual cooperation but neither group knows the other side's preferences.[^infoProblem]
 
 [^infoProblem]: Information problems can also cause bargaining failures if neither side knows how the other values items that the two sides are bargaining over.  Both groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are in order to achieve an advantageous bargaining outcome [@fearon1995rationalist].
 
@@ -96,6 +107,8 @@ An example of groups having an information problem is Formalized in Table [chris
 
 Not a bargaining issue if one or both sides prefer fighting to cooperation.  I will refer to this as a "Preferences Problem" causing conflict.  The preferences problem is not really a problem in the same way as a commitment problem or an information problem.  In those problems, groups end up with outcomes neither group likes and which does not maximize overall utility.  In the preferences problem mutual fighting maximizes overall utility, so this is only a problem normatively in that we normatively dislike fighting.
 
+Lack of information and overconfidence can cause "preferences problem" in that groups may prefer fighting relative to any peace deal the other side is willing to accept.
+
 \begin{table}[h!]
 \begin{center}
 \setlength{\extrarowheight}{2pt}
@@ -110,3 +123,17 @@ Not a bargaining issue if one or both sides prefer fighting to cooperation.  I w
 \end{table}
 
 Sides would not commit to cooperation even if they could; knowledge about each other's preferences does not avoid defection.
+
+
+# Solutions
+
+<!--2 – Comm/trust problems between groups usually solved by 3rd parties or reputations/repeated interactions. Explain how these things solve problem.  -->
+
+One common mechanism for overcoming commitment problems and resolving group conflict is third-party enforcement of agreements.  Third party enforcement reduces commitment problems by incentivizing each side to honor agreements out of their own interest.  Though each group may have an incentive to defect on an agreement after it is made, the groups have less incentive to defect if a strong third party is capable of and willing to punish defection from bargained agreements [@fearon1994ethnic].  Third parties to enforce agreements can often effectively reduce conflict [@doyle2000international; @di2017effectiveness; @walter2002committing; @hartzell2001stabilizing; @gartner2011signs; @wallensteen2014talking], but they also suffer from limitations. First, third party intervention is costly.  The cost results in intervention only when the third party has an interest in one side winning the dispute or when conflict has already escalated into violence, so intervention is rarely used to reduce the persistent, smaller-scale violence that plague many countries [@greig2005stepping; @kydd2006can; @fey2010shuttle].  Second, third parties are relatively ineffective at ending ongoing conflicts compared to maintaining peace in a post-conflict setting [@gilligan2008interventions; @doyle2006making; @bratt1996assessing].  And third, third party punishment is exogenous to the conflicting groups and therefore does not create trust between those groups that will last beyond the third party's presence [@gambetta_ch13; @rohner2013war].  @weinstein2005autonomous estimated that 75% of civil wars resume within 10 years of UN intervention, and @beardsley2008agreement showed that international mediation reduces conflict in the short-term but not the long-term.
+
+<!--3 – many ways, other than 3rd parties, to build trust between groups.  reputation/repeated interactions.-->
+
+Commitment problems can be overcome and conflict resolved without relying on third party intervention.  Groups can build trust and resolve conflicts by cultivating reputations for trustworthiness in repeated interactions.  Repeated interactions between groups, like third parties, help overcome commitment problems by providing each group with the incentive to honor agreements out of their own interest.  Here the incentive comes not from fear of punishment but the prospect of better future outcomes from cooperation than defection.  Though each group may have an incentive to defect on an agreement today if the groups will not interact tomorrow, the groups have an incentive to cooperate now if their behavior today will be reciprocated by the other side in future interactions [@ostrom2003trust; @kydd2000trust; @axelrod1981evolution].[^reputation]  Both groups stand to gain more from enduring cooperation than enduring defection.
+
+[^reputation]: I discuss repeated interactions and reputations together, but these mechanisms are subtly different.  The repeated interaction mechanism is generally mobilized for contexts with just two groups.  In those contexts, cooperation in previous interactions assists in obtaining cooperative behavior in the future from the same partner; other potential partners are unnecessary.  The reputation mechanism is generally mobilized for contexts in which many groups observe the behavior of many other groups.  In those contexts a good reputation assists in obtaining _other_ cooperative partners; repeated interactions with the same partner are unnecessary.  I discuss these mechanisms together because both rely on creating cooperative expectations from bargaining partners in future interactions.
+
