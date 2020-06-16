@@ -25,7 +25,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Commitment Problem
 
-An example of groups having a Commitment problem is formalized in Table [chris: tab name].
+A _commitment problem_ arises when neither group can credibly commit to honor bargained agreements.  A commitment problem causes bargaining failures because neither group will commit to agreements today that they believe will be broken tomorrow.  The canonical example of a commitment problem is the prisoners' dilemma: why stay silent if you expect your partner to rat you out?[^commitProblem]
+
+[^commitProb]: A commitment problem can occur for many reasons.  It often surfaces due to the potential for bargaining power to shift after an agreement.  If bargaining power shifts after an agreement, one side will have an incentive to renege on that agreement to achieve a better outcome.  
+
+The Prisoner's Dilemma example of groups having a Commitment problem is formalized in Table \ref{tab:comProb}.
 
 \begin{table}[h!]
 \begin{center}
@@ -36,16 +40,20 @@ An example of groups having a Commitment problem is formalized in Table [chris: 
     \multirow{2}*{Player $1$}  & $Cooperate$ & $(2,2)$ & $(0,3)$ \\\cline{3-4}
       & $Defect$ & $(3,0)$ & $(1,1)$ \\\cline{3-4}
 \end{tabular}
-\caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
+\caption{\label{tab:comProb}\textbf{Example of Commitment Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
 \end{center}
 \end{table}
 
-Sides would commit to mutual cooperation if they could to avoid dual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
+Each group wants to defect regardless of the other side's choice, so both sides defect.  No one is happy with the resulting outcome.  Sides would commit to mutual cooperation to avoid mutual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
 
-Solution is some way for each side to commit to cooperating.  Typically done by adding costs to defection or through repeated interactions.
+Solution is to make cooperation in each group's interest.  Can do that by adding costs to defection so that neither side benefits from defection.  Can also do that through repeated interactions.
 
 
 ## Information Problem
+
+An _information problem_ arises when neither group possesses accurate information about the other.   An information problem causes bargaining failures when both sides prefer mutual cooperation because neither group the other side's preferences.[^infoProblem]
+
+[^infoProblem]: Information problems can also cause bargaining failures if neither side knows how the other values items that the two sides are bargaining over.  Both groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are in order to achieve an advantageous bargaining outcome [@fearon1995rationalist].
 
 Imagine a situation in which both groups prefer to cooperate if the other side cooperates, but groups do not know the preferences of the other side.  They will fail to cooperate if neither side knows the preferences of the other.
 
@@ -56,12 +64,25 @@ An example of groups having an information problem is Formalized in Table [chris
 \begin{table}[h!]
 \begin{center}
 \setlength{\extrarowheight}{2pt}
+\begin{subtable}{0.48\linewidth}
+\caption{\label{tab:info_a}\textbf{World A} \\Both sides prefer to cooperate if the other side cooperates but defect if the other side defects.}
 \begin{tabular}{cc|c|c|}
     & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Player $2$}\\
     & \multicolumn{1}{c}{} & \multicolumn{1}{c}{$Cooperate$}  & \multicolumn{1}{c}{$Defect$} \\\cline{3-4}
     \multirow{2}*{Player $1$}  & $Cooperate$ & $(4,4)$ & $(0,3)$ \\\cline{3-4}
       & $Defect$ & $(3,0)$ & $(1,1)$ \\\cline{3-4}
 \end{tabular}
+\end{subtable}%
+\hfill
+\begin{subtable}{0.48\linewidth}
+\caption{\label{tab:info_b}\textbf{World B} \\Player 1 prefers mutual cooperation, but Player 2 prefers to defect regardless of Player 1's Behavior.}
+\begin{tabular}{cc|c|c|}
+    & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Player $2$}\\
+    & \multicolumn{1}{c}{} & \multicolumn{1}{c}{$Cooperate$}  & \multicolumn{1}{c}{$Defect$} \\\cline{3-4}
+    \multirow{2}*{Player $1$}  & $Cooperate$ & $(4,2)$ & $(0,3)$ \\\cline{3-4}
+      & $Defect$ & $(3,0)$ & $(1,1)$ \\\cline{3-4}
+\end{tabular}
+\end{subtable}
 \caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
 \end{center}
 \end{table}
@@ -73,7 +94,7 @@ An example of groups having an information problem is Formalized in Table [chris
 
 ## Preferences Problem
 
-Not a bargaining issue if one or both sides prefer fighting.
+Not a bargaining issue if one or both sides prefer fighting to cooperation.  I will refer to this as a "Preferences Problem" causing conflict.  The preferences problem is not really a problem in the same way as a commitment problem or an information problem.  In those problems, groups end up with outcomes neither group likes and which does not maximize overall utility.  In the preferences problem mutual fighting maximizes overall utility, so this is only a problem normatively in that we normatively dislike fighting.
 
 \begin{table}[h!]
 \begin{center}
@@ -84,7 +105,7 @@ Not a bargaining issue if one or both sides prefer fighting.
     \multirow{2}*{Player $1$}  & $Cooperate$ & $(1,1)$ & $(0,3)$ \\\cline{3-4}
       & $Defect$ & $(3,0)$ & $(2,2)$ \\\cline{3-4}
 \end{tabular}
-\caption{\label{tab:infoProb}\textbf{Example of Information Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
+\caption{\label{tab:prefProb}\textbf{Example of Preferences Problem.} Numbers represent payoffs to players.  The first number in each cell represents Player 1's payoffs, the second number represents Player 2's payoffs.  Player's want the highest payoff.}
 \end{center}
 \end{table}
 
