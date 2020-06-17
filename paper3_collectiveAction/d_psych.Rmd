@@ -26,7 +26,7 @@ Solving commitment problems through repeated interactions also faces limitations
 
 
 
-# Non-material factors that increase likelihood of conflict
+# Applying the Identity Perspective to Bargaining
 
 Violent conflict is not materially rational because it destroys the resources groups are fighting for.  As such, several non-material factors should contribute to conflict.  By looking at groups as a collection of individual group members, I identify two main ways that these non-material factors contribute to conflict.  First, they shrink the range of peace agreements that each side prefers to peace by adding costs to peace and benefits to fighting.  Second, they bias perceptions of the other side's preferences such that neither side thinks the other prefers peace or can be trusted to abide by peace agreements.  I also identify an internal collective action problem that leads to conflict and explain why that problem is exceptionally difficult for group's to solve.
 
@@ -87,18 +87,21 @@ chris: decided to forego another example paragraph.-->
 Compounding these perceptual problems, intergroup trust is hampered by a lack of opportunities to learn about the other side.  Groups in conflict tend to limit contact between the two sides [@bornstein2003intergroup], so most learning must come from observing the outgroup's interactions with other groups.  Even if those opportunities are available, few of the outgroup's interactions will be with groups that are relevant for predicting the outgroup's behavior towards the ingroup, reducing the usefulness of observational learning [@kazdin1974covertModeling; @yang2013similarity]. The main opportunity to observe outgroup behavior and learn their reputation is the ingroup's own interactions with the outgroup, which are limited and hampered by perceptual biases.
 
 
+## Solutions in the Identity Perspective
+
+Contact.  Contact (1) changes incentives for fighting and peace, debiases perceptions, and provides opportunities for costly signaling.
+
+
+
+
+
+
+***************
+
+
+
 ## Problem of Collective Action
 
-<!--Problem of collective action -->
-Implicit in the discussion of these non-material factors is that groups are made up of individuals and that individual cognitive and psychological biases influence conflict dynamics.  Following that logic -- that groups are collections of individuals with preferences that may differ from the group as a whole -- leads to an additional challenge to groups' negotiating peace agreements: peace is a public good.  Group members must refrain from behavior that benefits them individually at the expense of the outgroup, but if peace is achieved group members enjoy its benefits whether or not they bore its costs.  Without the ability to compel behavior for the public good, groups cannot credibly commit to honor negotiated agreements.[^bornstein]
-
-Collective action problems are notoriously difficult to solve.  In the case of intergroup conflict, compelling group members to sacrifice now for the long-term good of the group is made even more difficult because individuals may be killed before peace is achieved and thus never enjoy the benefits of collective action.  Individuals are notoriously bad even at saving for retirement, where individuals can sacrifice now to benefit themselves later [@benartzi2013behavioral; @warner2001personal].  Individuals may rationally discount future payoffs quite significantly in conflict settings where the benefits accrue to a group.
-
-[^bornstein]: Bornstein (@bornstein1992free; @bornstein2003intergroup) was among the first to consider how the preferences of individuals complicate discussions of group conflict.  His focus, and the focus of most subsequent scholarship, was how groups encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.
-
-@fearon1996explaining showed that ingroup policing, an institution wherein groups punish their own miscreants, can help groups avoid an escalation of intergroup violence; they credit the relative paucity of group conflict to such institutions.  Ingroup policing is an excellent institution for preventing violence from escalating and for maintaining peace in many contexts, but I suggest that perceptual biases and mistrust between groups in or with a recent history of conflict makes ingroup policing unsustainable as a solution in those contexts.  With ingroup policing, groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  Since ingroup policing depends on the perceptions group members, if those perceptions are biased such that members of each group suspect the other is trying to take advantage of the ingroup policing institution, then the institution breaks down as each group does not trust the other to allocate sufficient punishment to their own side.
-
-In the next section, I will discuss ways to reduce the biases that cause misperceptions and a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
 
 <!--Bleak picture; next section potential solution. -->
 This is a bleak picture.  Repeated interactions can create the trust needed for long-term peace, but getting cooperation started is difficult because of psychological costs to cooperation, incentives to increase bargaining power by acting uncooperative, and cognitive biases that prevent groups from receiving each other's cooperative signals.  And beyond signaling the intent of the group's majority to abide by peace agreements, groups must go further and signal their willingness and capacity to punish their own group members if a group member defects on the agreement.
