@@ -23,6 +23,10 @@ bibliography: ../../utils/cdg_references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Bargaining Perspective on Group Conflict
+
+The bargaining perspective considers conflict the result of a bargaining failure.  The two groups both want something and can either fight for it or negotiate over it.  
+
 ## Commitment Problem
 
 A _commitment problem_ arises when neither group can credibly commit to honor bargained agreements.  A commitment problem causes bargaining failures because neither group will commit to agreements today that they believe will be broken tomorrow.  The canonical example of a commitment problem is the prisoners' dilemma: why stay silent if you expect your partner to rat you out?[^commitProblem]

@@ -29,7 +29,7 @@ Though these perspectives are rarely used together, I argue that they are compat
 <!--Bargaining tends to assume or black-box the formation of preferences, trust, and information asymmetries.  Black-box: reputation can form from costly signaling.  But what will each group see as a costly signal?-->
 
 
-There is growing interest in bridging political psychology and political economy explanations for concepts that both literatures actively research, like group conflict [@little2017bargaining; @kertzer2018political]
+There is growing interest in bridging political psychology and political economy explanations for concepts that both literatures actively research, like group conflict [@little2017bargaining; @kertzer2018political].  
 
 <!--Compatibility Example: many cognitive biases prevent groups from developing trust.-->
 Preferences.  Identity perspective would explain why 
@@ -48,7 +48,7 @@ I begin by reviewing the bargaining perspective on group conflict, focusing on i
 
 
 <!-- 
-[^overlap]: There is overlap in idea from these two perspectives.  (1) Realistic group conflict theory from Campbell 1965: group conflict because groups compete for resources and have "incompatible goals".  (2) Nisbett and Cohen 1996 about a reputation for toughness.  (3) Bounded generalized reciprocity (Yamagishi et al. 1999) is similar to reputation mechanism.
+[^overlap]: There is overlap in idea from these two perspectives.  (1) Realistic group conflict theory from Campbell 1965: group conflict because groups compete for resources and have "incompatible goals".  Bargaining perspective basically assumes that fighting only happens if groups have incompatible goals.  (2) Nisbett and Cohen 1996 about a reputation for toughness.  (3) Bounded generalized reciprocity (Yamagishi et al. 1999) is similar to reputation mechanism.
 -->
 
 ********************
