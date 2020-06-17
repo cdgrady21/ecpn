@@ -25,15 +25,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Bargaining Perspective on Group Conflict
 
-The bargaining perspective considers conflict the result of a bargaining failure.  The two groups both want something and can either fight for it or negotiate over it.  
+The bargaining perspective considers conflict the result of a bargaining failure.  The two groups both want something and can either fight for it or negotiate over it.  Both groups are better off negotiating pre-war to get their expected outcome post-war, without paying the cost of fighting.  But sides cannot agree to negotiated bargain due primarily to commitment problems and information problems [@fearon1995rationalist].  These problems cause a bargaining failure, and sides resort to fighting.
 
-## Commitment Problem
+**Commitment Problem**: One reason sides resort to fighting is that neither group can credibly commit to honor bargained agreements.  This "commitment problem" prevents any agreement from being made because neither group will commit to agreements today that they believe will be broken tomorrow.  Because they cannot reach an agreement, the groups fight.[^commitProblem] Commitment problems are a common explanation for the ineffeciency puzzle of violent conflict [@fearon1994ethnic; @powell2006war; @fearon1998commitment; @reed2016bargaining; @lake2003international]
 
-A _commitment problem_ arises when neither group can credibly commit to honor bargained agreements.  A commitment problem causes bargaining failures because neither group will commit to agreements today that they believe will be broken tomorrow.  The canonical example of a commitment problem is the prisoners' dilemma: why stay silent if you expect your partner to rat you out?[^commitProblem]
+[^commitProb]: A commitment problem can occur for many reasons.  It often surfaces due to the potential for bargaining power to shift after an agreement.  If bargaining power shifts after an agreement, one side will have an incentive to renege on that agreement to achieve a better outcome.
 
-[^commitProb]: A commitment problem can occur for many reasons.  It often surfaces due to the potential for bargaining power to shift after an agreement.  If bargaining power shifts after an agreement, one side will have an incentive to renege on that agreement to achieve a better outcome.  
+The canonical example of a commitment problem is the prisoners' dilemma.  In the Prisoner's Dilemma, two criminals are arrested and interrogated separately.  The law enforcement officers lack the information to convict the criminals for the full extent of their crimes but have enough information to convict each criminal for a lesser charge.  The officers offer each criminal a deal: testify against your partner and you will be set free; your partner will spend three years in prison.  If both criminals stay silent, they will each serve one year in prison.  If they both testify, they will each serve two years in prison.  The prisoners face a dilemma: why stay silent if you are best off testifying regardless of what your partner does?
 
-The Prisoner's Dilemma example of groups having a Commitment problem is formalized in Table \ref{tab:comProb}.
+The Prisoner's Dilemma is formalized in Table \ref{tab:comProb}.  The criminals are referred to as "players".  Staying silent is referred to as "cooperating" with your partner; testifying is referred to as "defecting" against your partner.  Each player wants their highest payoff.
 
 \begin{table}[h!]
 \begin{center}
@@ -48,33 +48,18 @@ The Prisoner's Dilemma example of groups having a Commitment problem is formaliz
 \end{center}
 \end{table}
 
-Each group wants to defect regardless of the other side's choice, so both sides defect.  No one is happy with the resulting outcome.  Sides would commit to mutual cooperation to avoid mutual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
+Unless the criminals value cooperation above freedom or have some way of punishing defection -- both of which change the above payoff structure --, both criminals have an incentive to defect regardless of their partners behavior.  If Player 1 defects, Player 2 is best off defecting.  If Player 1 cooperates, Player 2 is also best off defecting.  No one is happy with the resulting outcome.  The two sides would commit to mutual cooperation to avoid mutual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
 
-Solution is to make cooperation in each group's interest.  Can do that by adding costs to defection so that neither side benefits from defection.  Can also do that through repeated interactions.
-
-Another way to represent the commitment problem is that groups need to split a resource, both knowing each other's fighting strength and valuation of the resource.  Presumably, groups could then allocate some of that resource to each side, with the side having better fighting strength and higher valuation of the resource taking a larger percentage.  The problem, however, is that once that group takes a higher percentage of the resource, they now have more fighting strength and could renegotiate an even more advantageous<!--prosperous/lucrative--> deal for themselves.  Knowing this, the weaker side prefers to fight for the possibility of winning rather than acquiesce to a series of peace agreements under weaker and weaker bargaining power.
-
-### Collective Action Problems
-
-<!--5 - Challenge not yet identified for building trust between groups: there is a within-group Collective action problem in addition to a between-group commitment problem.  Groups made of individuals.  What does it mean to trust a group?  It means trusting that sufficient number of group members will cooperate and that they can and will compel other group members who do not want to cooperate.  Sambanis: “peace can be derailed by a few radicals.” Beyond most members of a group signaling a commitment to peace, they must also signal a willingness and capacity to punish ingroup members who do not contribute to peace.  -->
-
-An additional challenge with building trust between groups has not received much attention in the literature: each group faces a within-group collective action problem in addition to the between-group commitment problem.  The collective action problem occurs because each group is a collection of individual group members with their own behavioral incentives, not cohesive entities.  Peace benefits all members of a group, but contributing to peace is costly for group members because they must refrain from engaging in behaviors that benefit themselves at the expense of the outgroup.  Achieving peace, as with any public good, requires overcoming this collective action problem: the group must compel group members to contribute to peace despite the members' individual incentive to shirk and rely on others to bear its cost.  <!--What does it mean for a group to trust another group?-->One group trusting the other to honor an agreement, then, means not only trusting that a high proportion of outgroup members desire peace, but also that those outgroup members can and will compel less cooperative group members to honor a peace agreement [@fearon1996explaining].  Peace, after all, can be derailed by a few radicals [@sambanis2013social; @de2009effects].
-<!--chris: do I need to say something about third party actors being unable to solve group's internal collective action problem? -->
+This can be applied to group conflict where "cooperation" is abiding by a peace agreement and "defection" is breaking it.  If one side abides by a peace agreement and disarms, for example, the other side has an incentive to break the agreement by staying armed.  Since neither can trust the other to honor the peace agreement, both sides defect.
 
 
-## Information Problem
+**Information Problem**: Another reason groups fight is that neither side knows the preferences of the other.  This "information problem" prevents peace agreements from being made, even if both sides prefer mutual cooperation, because neither side knows that the other would reciprocate cooperation.  Because they cannot reach an agreement, the groups fight.  The information problem of conflict is one of the most common explanations for violent conflict [@fey2011uncertainty; @smith2003mediation; @fearon1995rationalist; @kydd2000trust; @moon2016audience; @rohner2013war; @wolford2011information]
 
-@fey2011uncertainty: information asymmetries cause bargaining failures.
+<!--@fey2011uncertainty: information asymmetries cause bargaining failures.  Fighting to gain information: @smith2003mediation. -->
 
-An _information problem_ arises when neither group possesses accurate information about the other.   An information problem causes bargaining failures when both sides prefer mutual cooperation but neither group knows the other side's preferences.[^infoProblem]
+We can observe an information problem by modifying the Prisoner's Dilemma above.  Imagine that each criminal is "honorable" and values reciprocating cooperation.  This bonus to cooperation can be seen as the psychological value that each side places on being honorable; it is represented by adding +2 to the payoff of joint cooperation.  Each criminal wants to cooperate if the other cooperates but wants to defect if the other defects.  Each criminal player knows that they are honorable, but neither knows that the other is also honorable.
 
-[^infoProblem]: Information problems can also cause bargaining failures if neither side knows how the other values items that the two sides are bargaining over.  Both groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are in order to achieve an advantageous bargaining outcome [@fearon1995rationalist].
-
-Imagine a situation in which both groups prefer to cooperate if the other side cooperates, but groups do not know the preferences of the other side.  They will fail to cooperate if neither side knows the preferences of the other.
-
-An example of groups having an information problem is Formalized in Table [chris: tab name].
-
-<!--chris: need to make two subtables?  Situation where you want to cooperate, situation where you dont want to cooperate.-->
+This modified Prisoner's Dilemma, often called a Trust Game [@kydd2000trust], is formalized in Table \ref{tab:infoProb}.  Player 1 first chooses to cooperate or defect, then Player 2 chooses to cooperate or defect.  Player 1 is honorable and prefers to cooperate if Player 2 will cooperate but defect if Player 2 will defect.  Player 1 is unsure if Player 2 is also honorable.^[In a Trust Game, Player 1 would believe Player 2 is honorable with probability $p$, where $p$ represents Player 1's trust in Player 2.]  World A represents the payoffs if Player 2 is honorable; World B represents the payoffs if Player 2 is not.
 
 \begin{table}[h!]
 \begin{center}
@@ -102,16 +87,18 @@ An example of groups having an information problem is Formalized in Table [chris
 \end{center}
 \end{table}
 
+If Player 2 is honorable, Player 1 wants to cooperate.  If Player 2 is not honorable, then Player 1 is in the Prisoner's Dilemma above and wants to defects.  Player 1 cooperates or defects depending on her belief that Player 2 is honorable.  Without a way to for Player 2 to signal honor, Player 1 defects.  Again, no one is happy with the resulting outcome.  The two sides would prefer mutual cooperation even to betraying the other player, but because neither side knows the other's preferences both players defect.
+
+This can again be applied to group conflict where "cooperation" is abiding by a peace agreement and "defection" is breaking it.  In the case where both players are honorable, there is no commitment problem: both players will cooperate if the other player cooperates.  Unless both sides know that the other will reciprocate cooperation, however, both sides defect to avoid being betrayed.
+
+Another way to represent the information problem in a conflict setting is to say that two groups need to split a resource, but neither knows each other's fighting strength (capacity) or valuation of the resource (willingness).  Without knowing the other side's capacity and willingness to fight, neither side knows what they should receive from a peace agreement.  If, for example, each side believes they are stronger than the other, neither side will find a peace agreement in which they receive more than they expect to receive through fighting.  This information problem can cause bargaining failures even if the two sides communicate.  Both groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are in order to achieve an advantageous bargaining outcome [@fearon1995rationalist].
+
+Groups can suffer from information problems and commitment problems simultaneously. In this example of splitting a resource, groups may fight even if both know each other's fighting strength and valuation of the resource under dispute (i.e. under complete information).  With this complete information, groups could presumably allocate a portion of that resource to each side, with the higher-strength side taking a larger portion.  The problem, however, is that once a group takes a larger portion of the resource, they now have more fighting strength and could renegotiate an even more advantageous deal for themselves.  Knowing this, the weaker side may prefer to fight rather than acquiesce to a series of peace agreements under weaker and weaker bargaining power.
 
 
+**Preferences Problem**: A third reason groups fight is that one or both sides prefers fighting to peace.  I will refer to this as a "preferences problem".  This preferences problem is not a bargaining issue; if one or both sides prefer fighting to any peace deal, then fighting is not a bargaining failure because groups are not bargaining for peace.  Nor is this a "problem" the way as commitment problems and information problems are a problem.  In those problems, conflict is a puzzle because groups end up with outcomes neither group likes and which do not maximize overall utility.  If mutual fighting maximizes overall utility, that is only a problem normatively in that we normatively dislike fighting; it is only a puzzle if we think groups should not prefer fighting.  For these reasons, preferences for fighting over peace are less commonly discussed in published literature [@coe2012costly; @slantchev2012borrowed].
 
-
-
-## Preferences Problem
-
-Not a bargaining issue if one or both sides prefer fighting to cooperation.  I will refer to this as a "Preferences Problem" causing conflict.  The preferences problem is not really a problem in the same way as a commitment problem or an information problem.  In those problems, groups end up with outcomes neither group likes and which does not maximize overall utility.  In the preferences problem mutual fighting maximizes overall utility, so this is only a problem normatively in that we normatively dislike fighting.
-
-Lack of information and overconfidence can cause "preferences problem" in that groups may prefer fighting relative to any peace deal the other side is willing to accept.
+We can observe a preferences problem by again modifying the Prisoner's Dilemma.  Imagine that the criminals hate each other and would regret not ratting out the other guy.  This is represented by adding +1 to the payoff of joint defection and -1 to the payoff of joint cooperation.  Their payoffs may look something like Table \ref{prefProb}.  
 
 \begin{table}[h!]
 \begin{center}
@@ -126,10 +113,21 @@ Lack of information and overconfidence can cause "preferences problem" in that g
 \end{center}
 \end{table}
 
-Sides would not commit to cooperation even if they could; knowledge about each other's preferences does not avoid defection.
+This setup, like the Prisoner's Dilemma, results in mutual defection.  Unlike the Prisoner's Dilemma, the players would not commit to cooperation even if they could; nor does knowledge about each other's preferences avoid defection.  Mutual defection is the Pareto-optimal outcome in that it maximizes the total utility of both sides.
+
+Preferences for fighting can be applied to group conflict.  Each side may <!-- where "cooperation" is abiding by a peace agreement and "defection" is breaking it.  In the case where both players are honorable, there is no commitment problem: both players will cooperate if the other player cooperates.  Unless both sides know that the other will reciprocate cooperation, however, both sides defect to avoid being betrayed.-->
+
+
+
+Lack of information and overconfidence can cause "preferences problem" in that groups may prefer fighting relative to any peace deal the other side is willing to accept.
+
 
 
 # Solutions
+
+Solution is to make cooperation in each group's interest.  Can do that by adding costs to defection so that neither side benefits from defection.  Can also do that through repeated interactions.
+
+Solve information problem: Player 2 signals that they are honorable.
 
 <!--2 – Comm/trust problems between groups usually solved by 3rd parties or reputations/repeated interactions. Explain how these things solve problem.  -->
 
@@ -140,4 +138,6 @@ One common mechanism for overcoming commitment problems and resolving group conf
 Commitment problems can be overcome and conflict resolved without relying on third party intervention.  Groups can build trust and resolve conflicts by cultivating reputations for trustworthiness in repeated interactions.  Repeated interactions between groups, like third parties, help overcome commitment problems by providing each group with the incentive to honor agreements out of their own interest.  Here the incentive comes not from fear of punishment but the prospect of better future outcomes from cooperation than defection.  Though each group may have an incentive to defect on an agreement today if the groups will not interact tomorrow, the groups have an incentive to cooperate now if their behavior today will be reciprocated by the other side in future interactions [@ostrom2003trust; @kydd2000trust; @axelrod1981evolution].[^reputation]  Both groups stand to gain more from enduring cooperation than enduring defection.
 
 [^reputation]: I discuss repeated interactions and reputations together, but these mechanisms are subtly different.  The repeated interaction mechanism is generally mobilized for contexts with just two groups.  In those contexts, cooperation in previous interactions assists in obtaining cooperative behavior in the future from the same partner; other potential partners are unnecessary.  The reputation mechanism is generally mobilized for contexts in which many groups observe the behavior of many other groups.  In those contexts a good reputation assists in obtaining _other_ cooperative partners; repeated interactions with the same partner are unnecessary.  I discuss these mechanisms together because both rely on creating cooperative expectations from bargaining partners in future interactions.
+
+
 
