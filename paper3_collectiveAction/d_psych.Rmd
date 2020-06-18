@@ -16,19 +16,18 @@ II: Non-material factors that cause conflict, including collective action proble
 -	Biasing perceptions (even if groups prefer peace to fighting)
 -	Difficulty solving collective action problem: harm ingroup members for benefit of group.
 
-
 Psych: how Players can signal their intention to cooperate.  In the Trust Game, "trust can be a product of several things." [@kydd2000trust, p.331].  
 
-Bargaining perspective uses psychological concepts used to explain conflict.  Commitment problems, for example, are about the psychological state of trust.  But I believe the identity perspective has much to offer the bargaining perspective.  Specifically, the identity perspective highlights many of the non-material factors that contribute to information problems, commitment problems, and preference problems.
 
 <!--4 - general problems with rep/repeated interactions: don't want peace because psych costs; even if want peace, incentive to act tough to get best deal; even if want peace and not acting tough, biased perceptions of outgroup means each group is likely to misinterpret each other's cooperative signals.-->
-Solving commitment problems through repeated interactions also faces limitations, however, especially for groups in or with a history of conflict.  Repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because they derive psychological benefit from feelings of group superiority and from harm to a hated outgroup [@weisel2015ingroup; @cikara2014their; @tajfel2981groups; @fein1997prejudice] and when their animosity leads them to prefer relative gains over the outgroup to absolute gains for themselves [@waltz2010theory; @halevy2010relative; @turner1979social; @tajfel1971social].  Even if groups desire peace, they maintain an incentive to act "tough" to get the best deal, and so may not signal their desire for peace [@ross1995psychological].  And even if groups signal their desire for peace, phenomena like confirmation bias, cognitive dissonance, and motivated reasoning can bias perceptions of outgroup behavior and prevent groups from accurately perceiving peaceful intentions [@de2008motivated; @ward1997naive; @duncan1976differential; @vallone1985hostileMedia; @festinger1962cognitiveDissonance; @kunda1990motivatedReasoning; @tajfel1969cognitive; @nickerson1998confirmation].  These non-material factors can prevent future interactions from solving groups' commitment problem.
-
+<!--
+Solving commitment problems through repeated interactions also faces limitations, however, especially for groups in or with a history of conflict.  Repeated interactions only solve commitment problems if both groups prefer peace (cooperation) to fighting (defection).  Though peace is in each group's material interest, preferences often deviate from material interest [@fehr2002social].  In the case of conflict, groups may not want peace because they derive psychological benefit from feelings of group superiority and from harm to a hated outgroup [@weisel2015ingroup; @cikara2014their; @tajfel2981groups; @fein1997prejudice] and when their animosity leads them to prefer relative gains over the outgroup to absolute gains for themselves [@waltz2010theory; @halevy2010relative; @turner1979social; @tajfel1971social].  Even if groups desire peace, they maintain an incentive to act "tough" to get the best deal, and so may not signal their desire for peace [@ross1995psychological].  And even if groups signal their desire for peace, phenomena like confirmation bias, cognitive dissonance, and motivated reasoning can bias perceptions of outgroup behavior and prevent groups from accurately perceiving peaceful intentions [@de2008motivated; @ward1997naive; @duncan1976differential; @vallone1985hostileMedia; @festinger1962cognitiveDissonance; @kunda1990motivatedReasoning; @tajfel1969cognitive; @nickerson1998confirmation].  These non-material factors can prevent future interactions from solving groups' commitment problem.-->
 
 
 # Applying the Identity Perspective to Bargaining
 
-Violent conflict is not materially rational because it destroys the resources groups are fighting for.  As such, several non-material factors should contribute to conflict.  By looking at groups as a collection of individual group members, I identify two main ways that these non-material factors contribute to conflict.  First, they shrink the range of peace agreements that each side prefers to peace by adding costs to peace and benefits to fighting.  Second, they bias perceptions of the other side's preferences such that neither side thinks the other prefers peace or can be trusted to abide by peace agreements.  I also identify an internal collective action problem that leads to conflict and explain why that problem is exceptionally difficult for group's to solve.
+<!--The identity perspective highlights many of the factors that contribute to information problems, commitment problems, and the lack of a bargaining range. -->
+The bargaining perspective explains fighting as a consequence of commitment problems, information problems, or lack of a bargaining range.  I argue that the identity perspective adds to these explanations by describing how perceptual and cognitive factors (1) decrease the bargaining range by providing incentives for groups to fight, (2) cause commitment problems by preventing the formation of trust, and (3) causes information problems by biasing information processing about the other group and perceptions of their preferences.  By looking at groups as a collection of individual group members and focusing on individuals' perceptual and cognitive biases, the identity perspective 
 
 <!--costs to peace:
 (1) self-esteem loss
@@ -39,7 +38,7 @@ Violent conflict is not materially rational because it destroys the resources gr
 (6) making peace with an enemy?
 (7) sunk cost fallacy / "dissonant...to accept terms today that could have been achieved, without the ensuing costs...,at some earlier point in time."-->
 
-## Costs of Peace and Benefits of Fighting
+## Costs of Peace and Benefits of Fighting Reduce the Bargaining Range
 
 @horowitz2001deadly and @petersen2002understanding show how "emotions stemming from past interethnic violence serve as impediments to peaceful resolutions to present-day conflicts". (from Little and Zeitzoff)
 
@@ -65,7 +64,7 @@ As a result of these costs to peace and benefits to conflict, there may exist no
 
 [chris: tikz graph showing payoffs?  "Conflict often discussed as an iterative PD.  In one-off, both sides prefer to defect, but in repeated interactions each side cooperates if their cooperation incites cooperation in the other side.  But adding costs to cooperation and benefits to fighting change that calculus."]
 
-## Biased Perceptions
+## Biased Perceptions Cause Information and Commitment Problems
 
 <!--Bias perceptions-->
 Though non-material factors can increase the costs of peace and increase benefits of conflict, the high cost of conflict may be such that both sides still prefer peace.  Even when both sides prefer peace, psychological biases can prevent each side from accurately perceiving the other's desire for peace and negotiating a peace agreement.  This happens in two main ways: (1) cognitive dissonance, motivated reasoning, and confirmation bias[^biasDefs1] cause each side to interpret the other's behavior in a way that supports existing negative attitudes and (2) loss aversion and reactive devaluation[^biasDefs2] cause the two sides to overvalue concessions they give up and undervalue concessions they receive.  These phenomena introduce significant friction in the ability of groups to build trusting relationships and avoid conflict.
