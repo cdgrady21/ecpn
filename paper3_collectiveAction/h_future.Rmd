@@ -31,6 +31,8 @@ VI: Avenues for Empirical Research
 
 - How to get things started?
 
+- Network graph showing how often poli econ and poli psych stuff cite themselves and not other perspective's articles.
+
 
 # Avenues for Future Research
 
@@ -45,6 +47,7 @@ Implicitly identified by @fearon1996explaining.  Most literature about collectiv
 
 #### Collective Action Problem
 
+from Nuole: war not equally costly to all members of society; peace no equally beneficial.  Public good better for some people than for others.
 
 <!--Problem of collective action -->
 Implicit in the discussion of these non-material factors is that groups are made up of individuals and that individual cognitive and psychological biases influence conflict dynamics.  Following that logic -- that groups are collections of individuals with preferences that may differ from the group as a whole -- leads to an additional challenge to groups' negotiating peace agreements: peace is a public good.  Group members must refrain from behavior that benefits them individually at the expense of the outgroup, but if peace is achieved group members enjoy its benefits whether or not they bore its costs.  Without the ability to compel behavior for the public good, groups cannot credibly commit to honor negotiated agreements.[^bornstein]
@@ -59,6 +62,8 @@ Need to think about ways to reduce the biases that cause misperceptions and a mo
 
 
 ## Joint-Punishment Institutions
+
+@jervis2017perception: misperceptions often influence how political actor's perceive each other.
 
 <!--8 - Mistakes happen; need to reduce chances for misinterpretation of other side's signals.  Joint-punishment apparatus. Not ingroup policing-->
 Intergroup contact is a good first step to show groups that both benefit from cooperation and help groups send and receive signals of cooperation.  Even if contact reduces biases that cause misperceptions of these signals, however, misperceptions are still possible and can derail cooperative equilibria [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  Members of one group may accidentally engage in action that harms the other or may perceive outgroup behavior as aggressive when it is not.  For long-term peace, institutions must minimize and manage these misperceptions.
