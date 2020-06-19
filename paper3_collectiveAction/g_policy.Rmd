@@ -11,44 +11,77 @@ knitr::opts_chunk$set(echo = TRUE)
 
 V: Implications for Peacebuilding Programs
 
-I: In each group's interest
--	Programs that demonstrate material rationality of peace.  Contact, what about others?
+The first policy implication is that groups will only cooperate when it is in their interest to do so.  Preferences problem == no amount of information will reduce group conflict.  First need to show groups that peace is in their interest.
+- contact good way to do this.
     - achieving a joint goal _that could not be achieved alone_.
-        - comparative advantage of each group.
--	Identify whether conflict is materially irrational?  Think about conflict as deviation from rationality and how to demonstrate the rationality of peace to each group.
--	Opportunities to observe other side, signal C.
--	Do not try to solve groups conflict externally; help groups solve own problems.
--	Important for both groups to benefit equally.  Otherwise creating a power disparity.  Favoring one group probably makes things worse.
+    - comparative advantage of each group.
+    -	Opportunities to observe other side, signal C.
 
-II: Think about incentives of individual group members, not just groups as a whole.
+The second policy implication is that preferences for cooperation do not guarantee peace.
+- Cooperation is only in a group's interest if the other group also plans to cooperate.
+
+The third policy implication is that groups are collections of individuals, not unitary actors.
 -	Reduce psych biases
 -	Groups need strength to compel group members.
 
-III: Preventing misperceptions is key for long-term peace
--	Joint punishment institutions: legitimacy of institutions paramount.
+The fourth policy implication is that misperceptions are a major threat to peace.
 
-IV: contact programs have promise; other programs can work; all programs can be mismanaged and make things worse.
-- Contact programs _can_ do these things, but others may also.  More contact, if mismanaged, runs risk of exacerbating conflict.
+The fifth implication is that there is not one solution to group conflict.
+- contact does not solve all problems.  ingroup policing does not solve all problems.  
 
-V: Multi-step process
-- ???
-- contact
-
+The last implication is that attempts to solve group conflict can easily backfire.
+    - benefit one group more == creating a power disparity.  Favoring one group probably makes things worse.
+    - try to solve problem by imposing costs to defection but not changing underlying payoff structure that led to violent conflict.  when program ends, conflict resumes.
+-	Do not try to solve groups conflict externally; help groups solve own problems.
+-	Important for both groups to benefit equally.  
 
 
 # Policy Implications for Peacebuilding Programs
 
-<!--Both groups perceive cooperation in their interest; shared knowledge of this. achieve joint goal. -->
-The first major policy implication is that groups can only cooperate when it is in their interest to do so, but preferences for cooperation do not guarantee peace.  Peace is not intrinsically preferable to fighting.  Cooperation is only in a group's interest if the other group also plans to cooperate.  Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
+I will discuss six policy implications from farmer-pastoralist conflict and the bargaining and identity perspectives. I also discuss some consequences of these implications.  The implications are: (1) peace is not intrinsically preferable to fighting; (2) preferences for cooperation over fighting to not guarantee peace; (3) groups are collections of individuals, not unitary actors; (4) Misperceptions are a major threat to peace; (5) there is not one solution to group conflict; and (6) some attempts to alleviate group conflict can backfire.
 
-<!--Consequence of above about "in their interest": comparative advantage -->
-Best chances for peace are group's who have distinct comparative advantage.  Farmers and pastoralists.  Though cultural differenes may seem like a hindrance to peace, these groups have the most to gain from cooperation.  Two groups of farmers have little to offer each other that the group's could not obtain on their own.
+<!--1-The first policy implication is that groups will only cooperate when it is in their interest to do so. -->
+The first policy implication is that peace is not intrinsically preferable to fighting.  Some groups fight because the group members want to fight.  No information or signaling will reduce conflict in these cases because the groups' preferences are misaligned.  In those cases, the first step to peace is each side coming to believe that cooperation is superior to peace.
+
+<!--1a: comparative advantage -->
+The best chance for groups to identify that cooperation is in their material interest are distinct group-based comparative advantages.  Farmers and pastoralists each have group-based comparative advantages -- farmers in produce, pastoralists in animals -- that make identifying a shared interest easy.  Though cultural differences may seem like a hindrance to peace, these groups have much to gain from cooperation.  Two groups of farmers have little to offer each other that the group's could not obtain on their own, so there is less room for complementarity.
+
+<!--1b: psych and social value -->
+Material interest is not everything, however, and many motivators for preferences are psychological and social.  Groups may prefer fighting due to psychological and social rewards and penalties.  Group members may resist peace if it is costly to self-esteem and self-image.  Some segment of each group may embrace fighting because it offers them the opportunity to garner social rewards.  
+
+Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
+
+
+
+<!--2nd: preferences for cooperation do not guarantee peace -->
+
+
+<!--3rd: groups are collections of individuals, not unitary actors -->
+
+
+<!--4th: misperceptions are a major threat to peace. -->
+Misperceptions and changes to payoff structure.
+
+
+<!--5th: there is not one solution to group conflict -->
+Do not be wed to an ideological idea about reducing group conflict.
+
+
+<!--6th: attempts to solve group conflict can easily backfire -->
+
+<!--6b- both groups must benefit equally -->
+Policy interventions that help groups achieve a joint goal must be sure that both group's benefit equally.  The group's are likely comparing their gains relative to the gains of the outgroup, and any disparity could ruin chances for peace.  Differing gains can _cause_ a commitment problem and violent conflict because the group gaining less has an incentive to fight _now_ before the other side gets stronger.  The side gaining more cannot credibly commit to a deal based on today's balance of power when their power will increase tomorrow.  
+
+<!--other aid programs -->
+Changes to payoff structure of each side can make traditional agreements useless.
+
+
+**************
+
 
 <!--Consequence of above about "in their interest": do not try to solve group's problems externally.  The benefits of cooperating must be factors that will not chance when a third party leaves. -->
 Policy interventions should focus should be on helping groups solve their own problems, rather than the intervention solving the problem.  Third party punishment may be necessary in certain contexts, but it undermines each group learning that the other prefers peace to fighting.  Each group's cooperation might be due to the fear of punishment rather than the benefits of peace.
 
-<!--Consequence of above about "in their interest": both groups benefit equally -->
-Policy interventions that help groups achieve a joint goal must be sure that both group's benefit equally.  The group's are likely comparing their gains relative to the gains of the outgroup, and any disparity could ruin chances for peace.  Differing gains can cause a commitment problem and violent conflict because the group gaining less has an incentive to fight _now_ before the other side gets stronger.  The side gaining more cannot credibly commit to a deal based on today's balance of power when their power will increase tomorrow.  
 
 <!--Groups are composed of individuals with different preferences from the group-->
 The second policy implication is that group's should not be considered unitary actors.  Each group is composed of individuals with preferences that may differ from the group's preferences.  

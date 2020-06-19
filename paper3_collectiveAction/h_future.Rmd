@@ -36,6 +36,9 @@ VI: Avenues for Empirical Research
 
 # Avenues for Future Research
 
+Not addressed some reason for preferences problem.  Outside factors can also make fighting now more attractive than peace now -- fighting may signal to other groups that yours is not to be trifled with.
+
+
 ## Collective Action Problems
 
 <!--Collective Action leads to commitment problems/lack of trust between groups.  There is a within-group Collective action problem in addition to a between-group commitment problem.  Groups made of individuals.  What does it mean to trust a group?  It means trusting that sufficient number of group members will cooperate and that they can and will compel other group members who do not want to cooperate.  Sambanis: “peace can be derailed by a few radicals.” Beyond most members of a group signaling a commitment to peace, they must also signal a willingness and capacity to punish ingroup members who do not contribute to peace.  -->
