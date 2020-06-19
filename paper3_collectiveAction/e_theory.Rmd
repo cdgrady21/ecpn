@@ -49,8 +49,6 @@ Since Group B does not have a say in Group A's punishment, they must trust that 
 -	Joint punishment: both groups decide together.  Pros/cons. -->
 Rather than the institution of ingroup policing as the way for groups to ensure cooperation, I suggest that many groups use collaborative "joint-punishment" institutions.  These collaborative institutions involve representatives from both sides who jointly decide on an appropriate punishment for any behavior in which a member of one group harms a member of the other.  Having both groups involved vastly reduces the possibility that either side believes a defector went unpunished or misperceives a genuine attempt at punishment as overly lenient.  It maintains the main benefit of ingroup policing in that each group still helps identify their defecting group members but does more to sheild both groups from the temptation to punish outgroup defection themselves.
 
-In the next section, I apply this perspective to farmer-pastoralist conflict in Nigeria and describe the form that institutions to improve intergroup cooperation have taken in that context.
-
 
 <!--
 To see why misperceptions are such a danger to intergroup cooperation and trust, imagine two groups contributing to a joint meal.  One brings meat and milk, the other brings vegetables and grains.  They each bring as much food as they can and split the food evenly amongst themselves.  Each group most prefers to eat their own food and the food of the other side and least prefers to share their own food and get nothing from the other side; the outcome that maximizes overall utility is that both group's contribute equally to the meal.

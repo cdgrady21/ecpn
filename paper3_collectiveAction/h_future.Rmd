@@ -63,7 +63,8 @@ Need to think about ways to reduce the biases that cause misperceptions and a mo
 
 ## Joint-Punishment Institutions
 
-@jervis2017perception: misperceptions often influence how political actor's perceive each other.
+Intergroup contact is not a panacea, however, and groups can still misperceive the behavior and intentions of the other side.  When both groups desire cooperation, the risk of cooperative behavior being misperceived as uncooperative behavior is the main threat to enduring peace [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  If groups trust each other to police their own, each side must worry that the other group will not punish their own members with sufficient force to deter their harmful or discriminatory actions.  Groups are, after all, biased in favor of their own side.  Groups need a collaborative institutional structure to minimize misperceptions and their effect.
+
 
 <!--8 - Mistakes happen; need to reduce chances for misinterpretation of other side's signals.  Joint-punishment apparatus. Not ingroup policing-->
 Intergroup contact is a good first step to show groups that both benefit from cooperation and help groups send and receive signals of cooperation.  Even if contact reduces biases that cause misperceptions of these signals, however, misperceptions are still possible and can derail cooperative equilibria [@jervis2017misperception; @wu1995cope; @bendor1991doubt].  Members of one group may accidentally engage in action that harms the other or may perceive outgroup behavior as aggressive when it is not.  For long-term peace, institutions must minimize and manage these misperceptions.
