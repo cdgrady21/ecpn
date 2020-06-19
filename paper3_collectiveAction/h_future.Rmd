@@ -42,7 +42,13 @@ VI: Avenues for Empirical Research
 
 An additional challenge with building trust between groups has not received much attention in the literature: each group faces a within-group collective action problem in addition to the between-group commitment problem.  The collective action problem occurs because each group is a collection of individual group members with their own behavioral incentives, not cohesive entities.  Peace benefits all members of a group, but contributing to peace is costly for group members because they must refrain from engaging in behaviors that benefit themselves at the expense of the outgroup.  Achieving peace, as with any public good, requires overcoming this collective action problem: the group must compel group members to contribute to peace despite the members' individual incentive to shirk and rely on others to bear its cost.  <!--What does it mean for a group to trust another group?-->One group trusting the other to honor an agreement, then, means not only trusting that a high proportion of outgroup members desire peace, but also that those outgroup members can and will compel less cooperative group members to honor a peace agreement [@fearon1996explaining].  Peace, after all, can be derailed by a few radicals [@sambanis2013social; @de2009effects].
 
-Implicitly identified by @fearon1996explaining.  Most literature about collective action problems in conflict concern each group's attempt to compel group members to _fight_ the other side, not each group's attempt to compel group members to _cooperate_ with the other side.
+Implicitly identified by @fearon1996explaining.  This within-group collective action problem illustrates that most groups are a collection of individual group members with their own behavioral incentives, not cohesive entities.  Without considering groups as collections of individuals, theories of group conflict  reveals a potential source of between-group commitment problems: a within-group collective action problem.  
+
+Most literature about collective action problems in conflict concern each group's attempt to compel group members to _fight_ the other side, not each group's attempt to compel group members to _cooperate_ with the other side.
+
+Especially interesting when costs of peace and war are not standard across all group members.  Certain group members may be more likely to benefit from peace, while others bear the costs of peace.  In the case of farmers and pastoralists, farmers on the outskirts of the community bear the brunt of "defections" during peace time, so peace may not be more costly than war for them.
+
+
 <!--chris: do I need to say something about third party actors being unable to solve group's internal collective action problem? -->
 
 #### Collective Action Problem
