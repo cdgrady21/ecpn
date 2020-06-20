@@ -15,10 +15,10 @@ The first policy implication is that groups will only cooperate when it is in th
 - contact good way to do this.
     - achieving a joint goal _that could not be achieved alone_.
     - comparative advantage of each group.
-    -	Opportunities to observe other side, signal C.
 
 The second policy implication is that preferences for cooperation do not guarantee peace.
 - Cooperation is only in a group's interest if the other group also plans to cooperate.
+-	Opportunities to observe other side, signal C.
 
 The third policy implication is that groups are collections of individuals, not unitary actors.
 -	Reduce psych biases
@@ -47,13 +47,16 @@ The first policy implication is that peace is not intrinsically preferable to fi
 The best chance for groups to identify that cooperation is in their material interest are distinct group-based comparative advantages.  Farmers and pastoralists each have group-based comparative advantages -- farmers in produce, pastoralists in animals -- that make identifying a shared interest easy.  Though cultural differences may seem like a hindrance to peace, these groups have much to gain from cooperation.  Two groups of farmers have little to offer each other that the group's could not obtain on their own, so there is less room for complementarity.
 
 <!--1b: psych and social value -->
-Material interest is not everything, however, and many motivators for preferences are psychological and social.  Groups may prefer fighting due to psychological and social rewards and penalties.  Group members may resist peace if it is costly to self-esteem and self-image.  Some segment of each group may embrace fighting because it offers them the opportunity to garner social rewards.  
-
-Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
-
+Material interest is not everything, however, and many motivators for preferences are psychological and social.  Groups may prefer fighting due to psychological and social rewards and penalties.  Group members may resist peace if it sacrifices self-esteem and self-image.  Some segment of each group may embrace fighting because it offers them the opportunity to garner social rewards.  These costs and benefits can make it so that there is no peace agreement each sides prefers to fighting.  Changing attitudes and norms can reduce the costs of peace and the benefits of fighting.  Attitude and norm change can potentially be motivated by showing the groups that they can better accomplish their goals through cooperation than conflict [@grady2020lab].
 
 
 <!--2nd: preferences for cooperation do not guarantee peace -->
+The first policy implication is that preferences for cooperation over fighting do not necessarily end group conflict.  Even if a group prefers mutual cooperation.
+
+Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
+
+- Cooperation is only in a group's interest if the other group also plans to cooperate.
+-	Opportunities to observe other side, signal C.
 
 
 <!--3rd: groups are collections of individuals, not unitary actors -->
