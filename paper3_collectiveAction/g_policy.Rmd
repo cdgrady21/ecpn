@@ -51,23 +51,26 @@ Material interest is not everything, however, and many motivators for preference
 
 
 <!--2nd: preferences for cooperation do not guarantee peace -->
-The first policy implication is that preferences for cooperation over fighting do not necessarily end group conflict.  Even if a group prefers mutual cooperation.
+The second policy implication is that preferences for cooperation over fighting do not necessarily end group conflict.  Even if both groups prefers mutual cooperation to mutual defection, lack of information about the other side's preferences and an inability to commit to cooperate can prevent peace.  Cooperation is only in a group's interest if the other group also plans to cooperate.  Policies that promote peace must therefore assure each side that the other will cooperate.  The easiest way to assure each side that the other will cooperate is to impose external punishment for defection or external reward for cooperation.  That method of assurance, however, is not available in many contexts and does not build the intergroup trust necessary for cooperation once the external punishment mechanism is removed.  It may nonetheless serve as a short-term solution to reducing group conflict and as a starting point for group cooperation.
 
-Intergroup contact in which groups work together to achieve a joint goal is best way to show both groups peace is in their interest and that the other side also sees that.  Discussion forums where groups talk are unlikely to change group's perceptions.  Cheap talk.  Need opportunities to send costly signals.
+In the absence of external rewards and punishment, intergroup contact in which groups work together to achieve a joint goal can show both groups that cooperation is in their interest and that the other side also sees that.  Achieving a joint goal is good for both groups, and both groups see their group and the other side benefitting from cooperation, which helps each side update about the other's preferences -- the other side can be trusted to do what is in their own interest.  Intergroup contact also brings group members into close personal contact, which offers opportunities for learning and costly signaling.
 
-- Cooperation is only in a group's interest if the other group also plans to cooperate.
--	Opportunities to observe other side, signal C.
+These first two policy implications suggest that contact-based programs where the groups do not work towards a joint goal, like discussion forums, may have no effect on group conflict.  Discussion forums do not directly change preferences; nor do they provide credible information about the other side's preferences.  It is possible that this minimal form of contact could reduce perceptual baises by exposing each group to the other's view points, but they mainly seem to be avenues for "cheap talk" which both sides will discount.
 
 
 <!--3rd: groups are collections of individuals, not unitary actors -->
+The third policy implication is that groups are collections of group members and the preferences of the group should not be taken as the preferences fo each group member.  Group members preferences are likely correlated with the preferences of the amorphous "group", but they also deviate in important ways.  For example, the group as a unitary actor does not face a collective action problem, but the group as a collection of individuals does because each individual wants to rely on others to provide public goods.  An important attribute of a group, then, is its capacity to compel group members to contribute to the public good of peace.  The group is a useful but limited unit of analysis because it can only influence group conflict through its effect on group members.
+
+Thinking of the group as a collection of group members also highlights (1) the psychological and social factors that make conflict attractive and (2) the perceptual and cognitive biases that color groups views of each other.  These type of individual-based factors are not readily apparent when thinking of the groups as homogenous units, but they likely contribute to group conflict.  They may also systematically cause some group members to benefit more from peace than others, so peace as a public good is not equally valuable or desirable to all group members.
 
 
 <!--4th: misperceptions are a major threat to peace. -->
-Misperceptions and changes to payoff structure.
+The fourth policy implication is that misperceptions are a major threat to peace.  It is easy to focus on changes to payoff structure and changes to the value of resources under dispute as the driver of conflict.  In the farmer-pastoralist example, we readily blame population booms and land scarcity for the recent surge in violence, and these factors no doubt precipitated that surge.  However, they do not necessarily result in group conflict unless they reduce the bargaining range to zero.  They may instead cause conflict by creating the misperception that the other side now prefers fighting for the chance to control all of the land to cooperating to share the land between the two groups.
 
+<!--Misperceptions are also a significant cause of information and commitment problems.  Conflict often occurs not because incentives are inherently misaligned but because each group believes that the other will not cooperate.  Inaccurate beliefs about the other side creates the belief that the other side will betray your side's cooperation.-->
 
 <!--5th: there is not one solution to group conflict -->
-Do not be wed to an ideological idea about reducing group conflict.
+The fifth policy implication is that there are many ways to resolve group conflict.  Preferences can be aligned, information can be shared, commitments can be made in different ways.  Do not be wed to an ideological idea about reducing group conflict.
 
 
 <!--6th: attempts to solve group conflict can easily backfire -->
