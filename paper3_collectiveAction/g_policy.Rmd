@@ -84,9 +84,6 @@ Programs that do not explicitly seek to reduce group conflict can also cause of 
 
 
 
-
-
-
 **************
 
 ## Didn't make the cut

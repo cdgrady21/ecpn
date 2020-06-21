@@ -11,61 +11,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 VI: Avenues for Empirical Research
 
--	Test contact programs with groups in conflict and with history of conflict.  Look for collaborative institutions.
-
+- More putting together of bargaining and identity perspective; other perspectives on group conflict.
+- Collective action problems as potential driver of between-group commitment problems.
+- Ingroup policing as potentially unsustainable due to perceptual biases and reactive devaluation?
+- Collaborative institutions for ensuring peace, like joint-punishment institutions of Nigerian farmers and pastoralists.
+-	Test contact programs with groups in conflict and with history of conflict.
 -	Compare contact programs that do and do not (1) work to achieve goal, (2) actually achieve it.
-
 -	Best means to demonstrate material rationality of peace.  Trade, differentiated groups?
-
 - Best means to reduce psych/cognitive biases
-
 -	Need for enforcement at onset to incentivize Cooperation?
-
 -	Role of elites: contact says they must support
-
 -	Difficulty with very decentralized groups
-
 -	Power disparities between groups
-
 -	Contact’s differential effects with these power disparities.
-
 - How to get things started?
-
 - Network graph showing how often poli econ and poli psych stuff cite themselves and not other perspective's articles.
 
 
 # Avenues for Future Research
 
-Not addressed some reason for preferences problem.  Outside factors can also make fighting now more attractive than peace now -- fighting may signal to other groups that yours is not to be trifled with.
+This paper sought to show how combining two perspectives on group conflict, the bargaining perspective and the identity perspective, can provide a better understanding of the causes and consequences of group conflict.  Doing so reveals several avenues for future research.  The first avenue is to synthesize models of group conflict from the numerous disciplines that study it.  Group conflict is an interdisciplinary research topic with scholarship in political science [@lopez2017determinants], economics [@kimbrough2017war], psychology [@bohm2018psychology], management science [@mccarter2018models], biology [@rusch2017logic], and evolutionary anthropology [@glowacki2017evolutionary].  Each discipline emphasizes different causes and consequences of group conflict.  A synthesis of perspectives from these distinct viewpoints could provide insights into causes of conflict and more effective methods to reduce it.
 
+The second avenue is to further consider the role that collective action problems play in group conflict.  As we saw with farmer-pastoralist conflict and as has been written about by @fearon1996explaining and @sambanis2013social, among others, peace can be derailed by a small set of group members who refuse to "play ball" with the other side.  Without the ability to compel cooperative behavior from group members, groups cannot credibly commit to honor negotiated agreements.  This points to within-group collective action problems as the driver of some between-group commitment problems.  Peace is a public good: group members must forego behaviors that benefit them individually for peace to be achieved, but once achieved all group members enjoy its benefits whether or not they bore its costs.  
 
-## Collective Action Problems
+Overcoming collective action problems is notoriously difficult.  In the case of intergroup conflict, collective action problems may be even more difficult to solve because costs must be born before benefits are obtained, and group members may be killed in the meantime and thus never enjoy the benefits of their sacrifice.  Individuals are notoriously bad even at saving for retirement, where they can sacrifice now to benefit themselves later in a low-risk environment [@benartzi2013behavioral; @warner2001personal].  Individuals may rationally discount future payoffs quite significantly in conflict settings where individuals may never see the future and the benefits accrue to a group.
 
-<!--Collective Action leads to commitment problems/lack of trust between groups.  There is a within-group Collective action problem in addition to a between-group commitment problem.  Groups made of individuals.  What does it mean to trust a group?  It means trusting that sufficient number of group members will cooperate and that they can and will compel other group members who do not want to cooperate.  Sambanis: “peace can be derailed by a few radicals.” Beyond most members of a group signaling a commitment to peace, they must also signal a willingness and capacity to punish ingroup members who do not contribute to peace.  -->
+Bornstein (@bornstein1992free and @bornstein2003intergroup) was among the first to consider how groups dealt with the preferences of individual group members in the context of group conflict.  His focus, and the focus of most subsequent scholarship, was how groups encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.  Most literature about collective action problems in conflict is thus concerned with each group's attempt to compel group members to _fight_ the other side or resist external pressure; relatively little has been written about each group's attempt to compel group members to _cooperate_ with the other side [@keefer2012follow; @kaplan2010civilian; @rubin2020rebel].
 
-An additional challenge with building trust between groups has not received much attention in the literature: each group faces a within-group collective action problem in addition to the between-group commitment problem.  The collective action problem occurs because each group is a collection of individual group members with their own behavioral incentives, not cohesive entities.  Peace benefits all members of a group, but contributing to peace is costly for group members because they must refrain from engaging in behaviors that benefit themselves at the expense of the outgroup.  Achieving peace, as with any public good, requires overcoming this collective action problem: the group must compel group members to contribute to peace despite the members' individual incentive to shirk and rely on others to bear its cost.  <!--What does it mean for a group to trust another group?-->One group trusting the other to honor an agreement, then, means not only trusting that a high proportion of outgroup members desire peace, but also that those outgroup members can and will compel less cooperative group members to honor a peace agreement [@fearon1996explaining].  Peace, after all, can be derailed by a few radicals [@sambanis2013social; @de2009effects].
+Implicit in the discussion of collective action problems is that groups are made up of individuals with preferences that differ from the group.  Following that logic, war may not be equally costly to all members of society, and peace not equally beneficial.  The public good of peace is more beneficial for some group members than for others.  In the case of farmers and pastoralists, farmers on the outskirts of the community bear the brunt of "defections" during peace time, so peace may not be more costly than war for them.  If group elites bear few costs from conflict and may suffer in prestige from peace, they could resist peace agreements.  Future scholarship should consider who bears the costs of conflict and who stands to benefit from peace.
 
-Implicitly identified by @fearon1996explaining.  This within-group collective action problem illustrates that most groups are a collection of individual group members with their own behavioral incentives, not cohesive entities.  Without considering groups as collections of individuals, theories of group conflict  reveals a potential source of between-group commitment problems: a within-group collective action problem.  
+A third avenue for future research is to study the manner in which groups solve their own commitment problems, with an eye to the within-group collective problem as the driver of the between-group commitment problem.  @fearon1996explaining showed that ingroup policing, an institution wherein groups punish their own miscreants, can help groups avoid an escalation of intergroup violence.  They credit the relative paucity of group conflict to such institutions.  Ingroup policing is an excellent example of within-group institutions that prevent violence from escalating and for maintaining peace in many contexts.  
 
-Most literature about collective action problems in conflict concern each group's attempt to compel group members to _fight_ the other side, not each group's attempt to compel group members to _cooperate_ with the other side.
-
-Especially interesting when costs of peace and war are not standard across all group members.  Certain group members may be more likely to benefit from peace, while others bear the costs of peace.  In the case of farmers and pastoralists, farmers on the outskirts of the community bear the brunt of "defections" during peace time, so peace may not be more costly than war for them.
-
-
-<!--chris: do I need to say something about third party actors being unable to solve group's internal collective action problem? -->
-
-#### Collective Action Problem
-
-from Nuole: war not equally costly to all members of society; peace no equally beneficial.  Public good better for some people than for others.
-
-<!--Problem of collective action -->
-Implicit in the discussion of these non-material factors is that groups are made up of individuals and that individual cognitive and psychological biases influence conflict dynamics.  Following that logic -- that groups are collections of individuals with preferences that may differ from the group as a whole -- leads to an additional challenge to groups' negotiating peace agreements: peace is a public good.  Group members must refrain from behavior that benefits them individually at the expense of the outgroup, but if peace is achieved group members enjoy its benefits whether or not they bore its costs.  Without the ability to compel behavior for the public good, groups cannot credibly commit to honor negotiated agreements.[^bornstein]
-
-Collective action problems are notoriously difficult to solve.  In the case of intergroup conflict, compelling group members to sacrifice now for the long-term good of the group is made even more difficult because individuals may be killed before peace is achieved and thus never enjoy the benefits of collective action.  Individuals are notoriously bad even at saving for retirement, where individuals can sacrifice now to benefit themselves later [@benartzi2013behavioral; @warner2001personal].  Individuals may rationally discount future payoffs quite significantly in conflict settings where the benefits accrue to a group.
-
-[^bornstein]: Bornstein (@bornstein1992free; @bornstein2003intergroup) was among the first to consider how the preferences of individuals complicate discussions of group conflict.  His focus, and the focus of most subsequent scholarship, was how groups encourage group members to participate in violence against the other side, since winning the fight benefits all group members but only group members who fight bear the costs.
-
-@fearon1996explaining showed that ingroup policing, an institution wherein groups punish their own miscreants, can help groups avoid an escalation of intergroup violence; they credit the relative paucity of group conflict to such institutions.  Ingroup policing is an excellent institution for preventing violence from escalating and for maintaining peace in many contexts, but I suggest that perceptual biases and mistrust between groups in or with a recent history of conflict makes ingroup policing unsustainable as a solution in those contexts.  With ingroup policing, groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  Since ingroup policing depends on the perceptions group members, if those perceptions are biased such that members of each group suspect the other is trying to take advantage of the ingroup policing institution, then the institution breaks down as each group does not trust the other to allocate sufficient punishment to their own side.
+Consideration of perceptual biases and mistrust between groups in or with a recent history of conflict indicates a potential limitation of ingroup policing in violent contexts.  With ingroup policing, groups are restrained from overly lenient punishment of their own people by the threat of violence escalating if either group suspects the other of acting in bad faith.  Since ingroup policing depends on the perceptions of group members, if those perceptions are biased such that members of each group suspect the other is trying to take advantage of the ingroup policing institution, then the institution could break down as each group does not trust the other to allocate sufficient punishment to their own side.  Groups could account for the biases of the other side and punish harshly to overcome the bias, but overly harsh punishments could reduce the legitimacy of ingroup policing among the ingroup.
 
 Need to think about ways to reduce the biases that cause misperceptions and a modification of ingroup policing that should be less susceptible to misperceptions when they do occur.
 
