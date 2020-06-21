@@ -1,61 +1,25 @@
 ---
 title: "Bargaining and Identity Perspectives on Group Conflict"
-author: "Christopher Grady"
+author:
+- affiliation: <cdgrady2@illinois.edu>, University of Illinois at Urbana-Champaign, Department of Political Science.
+  name: Chris Grady
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
+abstract: "There are two major perspectives on group conflict in political science.  One, which I refer to as the _bargaining perspective_, considers group conflict the result of information and commitment problems.  The other, which I refer to as the _identity perspective_, considers group conflict the result of the prejudice and other negative emotions that naturally arise between groups or arise when groups compete for resources.  These two perspectives are rarely combined, but their synthesis could benefit both literature's attempts to understand group conflict and craft policies to reduce it.  In this paper, I apply insights about group biases from the identity perspective to the bargaining perspective's framework of information and commitment problems.  I show how a solution originating from the identity perspective, intergroup contact, alleviates information and and commitment problems.  I then use farmer-pastoralist conflict in Nigeria as an illustrative example of how to understand group conflict using both perspectives.  I close by proposing six policy implications of combining these perspectives and offering five avenues for future research."
+keywords: " political psychology, bargaining, group conflict, intergroup contact"
 thanks: "Thanks to Caglayan Baser, Ekrem Baser, Nuole Chen, and Alice Iannantuoni for useful conversations and feedback on earlier drafts of this paper.  Thanks to Jake Bowers, Jim Kuklinski, Justin Rhodes, and Cara Wong for feedback and guidance.  Thanks to Danjuma Dawop, Lisa Inks, Rebecca Wolfe, and the Mercy Corps Nigeria team for granting me the opportunity to work with them on farmer-pastoralist conflict in Nigeria.  Thanks to Tahiru Ahmadu and Israel Okpe for their keen insights and knowledge about group conflict between farmers and pastoralists."
-
 output:
   pdf_document:
     fig_caption: yes
     fig_height: 7
     fig_width: 7
     keep_tex: yes
-    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
     number_sections: yes
-    pandoc_args:
-    - -M
-    - secPrefix=\S
     template: ../../../utils/bowersarticletemplate.latex
   word_document: default
-csl: ../../../utils/american-political-science-review.csl
 bibliography: ../../../utils/cdg_references.bib
 ---
 
-```{r setup, include=FALSE}
-require(knitr)
-knitr::opts_chunk$set(
-  tidy=FALSE,     # display code as typed
-  size="footnotesize",    # slightly smaller font for code
-  echo=TRUE,
-  results='markup',
-  strip.white=TRUE,
-  cache=FALSE,
-  highlight=TRUE,
-  width.cutoff=132,
-  out.width='.9\\textwidth',
-  message=FALSE,
-  comment=NA)
-
-options(SweaveHooks=list(fig=function(){
-			   par(mar=c(3.5, 3, 1.1, 0),
-			       pty="s",
-			       mgp=c(1.5,0.5,0),
-			       oma=c(0,0,0,0))},
-			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
-			 options(prompt=" ")
-			 }),
-	digits=4,
-	scipen=8,
-	width=132
-	)
-```
-
-\begin{abstract}
-
-There are two major perspectives on group conflict in political science.  One, which I refer to as the \textit{bargaining perspective}, considers group conflict the result of information and commitment problems.  The other, which I refer to as the \textit{identity perspective}, considers group conflict the result of the prejudice and other negative emotions that naturally arise between groups or arise when groups compete for resources.  These two perspectives are rarely combined, but their synthesis could benefit both literature's attempts to understand group conflict and craft policies to reduce it.  In this paper, I apply insights about group biases from the identity perspective to the bargaining perspective's framework of information and commitment problems.  I show how a solution originating from the identity perspective, intergroup contact, alleviates information and and commitment problems.  I then use farmer-pastoralist conflict in Nigeria as an illustrative example of how to understand group conflict using both perspectives.  I close by proposing six policy implications of combining these perspectives and offering five avenues for future research.
-
-\end{abstract}
-
+\newpage
 
 # Introduction
 
@@ -85,9 +49,9 @@ I begin by reviewing the bargaining perspective on group conflict, focusing on i
 
 # Bargaining Perspective on Group Conflict
 
-The bargaining perspective considers conflict the result of a bargaining failure.  The two groups both want something and can either fight for it or negotiate over it.  Both groups are better off negotiating pre-war to get their expected outcome post-war, without paying the cost of fighting.  But sides cannot agree to negotiated bargain due primarily to commitment problems and information problems [@fearon1995rationalist].  These problems cause a bargaining failure, and sides resort to fighting.
+The bargaining perspective considers conflict the result of a bargaining failure.  The two groups both want something and can either fight for it or negotiate over it.  Both groups are better off negotiating pre-war to get their expected outcome post-war, without paying the cost of fighting.  But sides cannot agree to negotiated bargain due primarily to commitment problems and information problems [@fearon1995rationalist].  These problems cause a bargaining failure, and sides resort to fighting.\newline
 
-**Commitment Problem**: One reason sides resort to fighting is that neither group can credibly commit to honor bargained agreements.  This "commitment problem" prevents any agreement from being made because neither group will commit to agreements today that they believe will be broken tomorrow.  Because they cannot reach an agreement, the groups fight.[^commitProblem] Commitment problems are often called trust problems because the problem arises because neither group _trusts_ the other to honor commitments.  Commitment/Trust problems are a common explanation for the inefficiency puzzle of violent conflict [@fearon1994ethnic; @powell2006war; @fearon1998commitment; @reed2016bargaining; @lake2003international]
+\noindent \textbf{Commitment Problem}: One reason sides resort to fighting is that neither group can credibly commit to honor bargained agreements.  This "commitment problem" prevents any agreement from being made because neither group will commit to agreements today that they believe will be broken tomorrow.  Because they cannot reach an agreement, the groups fight.[^commitProblem] Commitment problems are often called trust problems because the problem arises because neither group _trusts_ the other to honor commitments.  Commitment/Trust problems are a common explanation for the inefficiency puzzle of violent conflict [@fearon1994ethnic; @powell2006war; @fearon1998commitment; @reed2016bargaining; @lake2003international]
 
 [^commitProblem]: A commitment problem can occur for many reasons.  It often surfaces due to the potential for bargaining power to shift after an agreement.  If bargaining power shifts after an agreement, one side will have an incentive to renege on that agreement to achieve a better outcome.
 
@@ -110,10 +74,9 @@ The Prisoner's Dilemma is formalized in Table \ref{tab:comProb}.  The criminals 
 
 Unless the criminals value cooperation above freedom or have some way of punishing defection -- both of which change the above payoff structure --, both criminals have an incentive to defect regardless of their partners behavior.  If Player 1 defects, Player 2 is best off defecting.  If Player 1 cooperates, Player 2 is also best off defecting.  No one is happy with the resulting outcome.  The two sides would commit to mutual cooperation to avoid mutual defection, but they cannot credibly commit to cooperating because they both prefer to defect regardless of what the other does.
 
-This can be applied to group conflict where "cooperation" is abiding by a peace agreement and "defection" is breaking it.  If one side abides by a peace agreement and disarms, for example, the other side has an incentive to break the agreement by staying armed.  Since neither can trust the other to honor the peace agreement, both sides defect.
+This can be applied to group conflict where "cooperation" is abiding by a peace agreement and "defection" is breaking it.  If one side abides by a peace agreement and disarms, for example, the other side has an incentive to break the agreement by staying armed.  Since neither can trust the other to honor the peace agreement, both sides defect.\newline
 
-
-**Information Problem**: Another reason groups fight is that neither side knows the preferences of the other.  This "information problem" prevents peace agreements from being made, even if both sides prefer mutual cooperation, because neither side knows that the other would reciprocate cooperation.  Because both sides fear defection if they cooperate, the groups fight.  The information problem of conflict is one of the most common explanations for violent conflict [@fey2011uncertainty; @smith2003mediation; @fearon1995rationalist; @kydd2000trust; @moon2016audience; @rohner2013war; @wolford2011information]
+\noindent \textbf{Information Problem}: Another reason groups fight is that neither side knows the preferences of the other.  This "information problem" prevents peace agreements from being made, even if both sides prefer mutual cooperation, because neither side knows that the other would reciprocate cooperation.  Because both sides fear defection if they cooperate, the groups fight.  The information problem of conflict is one of the most common explanations for violent conflict [@fey2011uncertainty; @smith2003mediation; @fearon1995rationalist; @kydd2000trust; @moon2016audience; @rohner2013war; @wolford2011information]
 
 <!--@fey2011uncertainty: information asymmetries cause bargaining failures.  Fighting to gain information: @smith2003mediation. -->
 
@@ -153,10 +116,9 @@ This can again be applied to group conflict where "cooperation" is abiding by a 
 
 Another way to represent the information problem in a conflict setting is to say that two groups need to split a resource, but neither knows each other's fighting strength (capacity) or valuation of the resource (willingness).  Without knowing the other side's capacity and willingness to fight, neither side knows what they should offer or receive from a peace agreement.  If, for example, each side believes (incorrectly) that they are stronger than the other, that overconfidence prevent both sides from finding a peace agreement in which they receive more than they expect to receive through fighting [@johnson2009overconfidence].  This information problem can cause bargaining failures even if the two sides communicate.  Both groups have an incentive to portray themselves as stronger, more willing to fight, and less willing to make concessions than they truly are in order to achieve an advantageous bargaining outcome [@fearon1995rationalist].
 
-Groups can suffer from information problems and commitment problems simultaneously. In this example of splitting a resource, groups may fight even if both know each other's fighting strength and valuation of the resource under dispute (i.e. under complete information).  With this complete information, groups could presumably allocate a portion of that resource to each side, with the higher-strength side taking a larger portion.  The problem, however, is that once a group takes a larger portion of the resource, they now have more fighting strength and could renegotiate an even more advantageous deal for themselves.  Knowing this, the weaker side may prefer to fight rather than acquiesce to a series of peace agreements under weaker and weaker bargaining power.
+Groups can suffer from information problems and commitment problems simultaneously. In this example of splitting a resource, groups may fight even if both know each other's fighting strength and valuation of the resource under dispute (i.e. under complete information).  With this complete information, groups could presumably allocate a portion of that resource to each side, with the higher-strength side taking a larger portion.  The problem, however, is that once a group takes a larger portion of the resource, they now have more fighting strength and could renegotiate an even more advantageous deal for themselves.  Knowing this, the weaker side may prefer to fight rather than acquiesce to a series of peace agreements under weaker and weaker bargaining power.\newline
 
-
-**No bargaining range**: A third reason groups fight is that one or both sides prefers fighting to peace.  In other words, there is no bargaining range: peace agreements acceptable to both sides.  I will refer to this as a "preferences problem".  This preferences problem is not a bargaining failure; if one or both sides prefer fighting to any peace deal, then groups are not bargaining for peace.  Nor is this a "problem" the way as commitment problems and information problems are a problem.  In those problems, conflict is a puzzle because groups end up with outcomes neither group likes and which do not maximize overall utility.  If mutual fighting maximizes overall utility, it is a problem normatively in that we normatively dislike fighting, but it is only a puzzle if we think groups should not prefer fighting.  For these reasons, preferences for fighting over peace are an important reason for group conflict but are discussed less frequently in published literature [but see @coe2012costly, @slantchev2012borrowed, and @chang2013war].
+\noindent \textbf{No bargaining range}: A third reason groups fight is that one or both sides prefers fighting to peace.  In other words, there is no bargaining range: peace agreements acceptable to both sides.  I will refer to this as a "preferences problem".  This preferences problem is not a bargaining failure; if one or both sides prefer fighting to any peace deal, then groups are not bargaining for peace.  Nor is this a "problem" the way as commitment problems and information problems are a problem.  In those problems, conflict is a puzzle because groups end up with outcomes neither group likes and which do not maximize overall utility.  If mutual fighting maximizes overall utility, it is a problem normatively in that we normatively dislike fighting, but it is only a puzzle if we think groups should not prefer fighting.  For these reasons, preferences for fighting over peace are an important reason for group conflict but are discussed less frequently in published literature [but see @coe2012costly, @slantchev2012borrowed, and @chang2013war].
 
 We can observe a preferences problem by again modifying the Prisoner's Dilemma.  Imagine that the criminals hate each other and would regret _not_ ratting out the other guy.  This is represented by adding +1 to the payoff of joint defection and -1 to the payoff of joint cooperation.  Their payoffs would look like Table \ref{tab:prefProb}.  
 
