@@ -2,6 +2,8 @@
 title: "Promoting Peace Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
+keywords: " group conflict, intergroup contact, Nigeria, field experiment"
+thanks: "Thanks to Jake Bowers, Jim Kuklinski, Justin Rhodes, Cara Wong, Caglayan Baser, Ekrem Baser, Nuole Chen, Alice Iannantuoni, Betsy Rajala, Charla Waeiss, and Donald Beaudette for useful conversations and feedback on earlier drafts of this paper.  Thanks to Danjuma Dawop, Lisa Inks, Rebecca Wolfe, and the Mercy Corps Nigeria team for their work implementing the peacebuilding project.  Thanks to Tahiru Ahmadu, Ibrahim Hassan, and the enumeration teams for their excellent work interviewing farmers and pastoralists.  Thanks to Hadiza Nuhu and Israel Okpe for their work as the main contact people and mobilizers in farming and pastoral communities."
 output:
   pdf_document:
     fig_caption: yes
@@ -54,6 +56,8 @@ options(SweaveHooks=list(fig=function(){
 Cooperative intergroup contact, originally designed as a tool for prejudice reduction, offers a promising means to resolve group conflict.  Evidence for contact-based interventions is sparse, however, and violent conflict may nullify the effects of contact.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior in markets, and a behavioral game.  We find that participation in the program increases intergroup trust, feelings of physical security, and voluntary intergroup contact measured both will self-reports and observed behavior in markets.  Many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants. The program had no effect on a placebo outcome, attitudes towards violence, that one would expect to improve if the survey results were affected by social desirability bias.  These results suggest that reducing barriers to peace between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
 
 \end{abstract}
+
+\newpage
 
 <!--To acknowledge: Donald beaudette (Emory, MPSA) -->
 <!--chris: NEED to add hameiri2014challenges about difficulties of positive attitude change in ongoing conflict. -->
@@ -192,13 +196,21 @@ We use two estimators to estimate the treatment effect of ECPN.  When treatment 
 
 [^control_vs_diff]: We use two different equations because the effectiveness of each equation depends on the correlation between treatment assignment and baseline outcomes.  The "controlling-for" method of equation 1 is more precise but is biased when treatment assignment correlates with baseline outcomes.  The "differencing" method of equation 2 is unbiased but less precise.  For a comparison between these methods, see https://declaredesign.org/blog/2019-01-15-change-scores.html.
 
+\medskip
+
 $Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + X_{i,j} + \delta_j + \epsilon_{i,j}$
 
-Where $i$ is the community in state $j$, $Z$ is the treatment indicator, $X$ is the outcome at baseline, and $Y$ is the outcome at endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+\medskip
+
+\noindent Where $i$ is the community in state $j$, $Z$ is the treatment indicator, $X$ is the outcome at baseline, and $Y$ is the outcome at endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+
+\medskip
 
 $Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + \delta_j + \epsilon_{i,j}$
 
-Where $i$ is the community in state $j$, $Z$ is the treatment indicator, and $Y$ is the change in outcome from baseline to endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+\medskip
+
+\noindent Where $i$ is the community in state $j$, $Z$ is the treatment indicator, and $Y$ is the change in outcome from baseline to endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
 
 We use randomization inference for $p$-values and bootstrapping for standard errors because our units of analysis, communities and individuals, are clustered in sites and we have only fifteen sites.  Analytic standard errors may underestimate the uncertainty of our causal estimate.  Bootstrapping yields a distribution of possible treatment effects given the observed data, and the 95% confidence interval is between the coefficients at the 2.5th percentile and the 97.5th percentile.
 
@@ -394,9 +406,9 @@ Third, contact interventions, explicitly or implicitly, involve the groups coope
 
 ## Appendix A: Randomization Inference and Bootstrapping
 
-Randomization inference and bootstrapping are nonparametric methods to generate $p$-values (randomization inference) and confidence intervals (bootstrapping).  With **randomization inference**, we first shuffle the treatment variable to break the relationship between treatment and outcomes.  Next we regress outcomes on treatment using our regression equation and store the resulting coefficient.  Lastly, we repeat that process 10,000 times to create the distribution of coefficients we would observe if treatment had no effect on outcomes -- the null hypothesis.  Our $p$-value is the proportion of the null distribution that is greater than or equal to our observed coefficient.  
+Randomization inference and bootstrapping are nonparametric methods to generate $p$-values (randomization inference) and confidence intervals (bootstrapping).  With *randomization inference*, we first shuffle the treatment variable to break the relationship between treatment and outcomes.  Next we regress outcomes on treatment using our regression equation and store the resulting coefficient.  Lastly, we repeat that process 10,000 times to create the distribution of coefficients we would observe if treatment had no effect on outcomes -- the null hypothesis.  Our $p$-value is the proportion of the null distribution that is greater than or equal to our observed coefficient.  
 
-**Bootstrapping** for standard errors is similar, but instead of shuffling the treatment indicator we resample units with replacement.  By resampling with replacement, we create the empirical distribution of our data and the range of possible treatment effects we might observe if we repeated the experiment 10,000 times.  The treatment effect at the 2.5th percentile and at the 97.5th percentile are equivalent to a 95\% confidence interval [@efron1994introduction].
+*Bootstrapping* for standard errors is similar, but instead of shuffling the treatment indicator we resample units with replacement.  By resampling with replacement, we create the empirical distribution of our data and the range of possible treatment effects we might observe if we repeated the experiment 10,000 times.  The treatment effect at the 2.5th percentile and at the 97.5th percentile are equivalent to a 95\% confidence interval [@efron1994introduction].
 
 In each of these procedures, we mimic our randomization process by randomizing/resampling the intervention to communities in site-level clusters and within state blocks. This means that both communities in an implementation site (farmers and pastoralists) will always be treated/sampled together and that assignment to the intervention and resampling are conducted separately in Nassarawa and Benue, just as the intervention was assigned in this study.  This procedure ensures that our null distribution (for $p$-values) is created by randomizing the intervention between exchangeable units and that our empirical distribution (for confidence intervals) is created by resampling units as they were sampled.
 
@@ -404,7 +416,7 @@ In each of these procedures, we mimic our randomization process by randomizing/r
 
 These tables show results for self-report survey outcomes made with additive indices.  The tables include the coefficients and $p$-values with additive indices for community- and individual-level analyses.
 
-```{r}
+```{r, echo=F}
 load("add_ind_tab.Rdata")
 ```
 
@@ -419,7 +431,7 @@ load("add_ind_tab.Rdata")
 
 These tables show results for mechanism and placebo outcomes using inverse-covariance weighted indices.  The tables include the coefficients and $p$-values for community- and individual-level analyses.
 
-```{r}
+```{r, echo=F}
 load("mech_ind_tab.Rdata")
 ```
 
