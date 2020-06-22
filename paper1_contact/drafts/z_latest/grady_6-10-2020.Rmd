@@ -2,6 +2,8 @@
 title: "Promoting Peace Amid Group Conflict: An Intergroup Contact Field Experiment in Nigeria"
 author: "Christopher Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
+keywords: " group conflict, intergroup contact, Nigeria, field experiment"
+thanks: "Thanks to Jake Bowers, Jim Kuklinski, Justin Rhodes, Cara Wong, Caglayan Baser, Ekrem Baser, Nuole Chen, Alice Iannantuoni, Betsy Rajala, Charla Waeiss, and Donald Beaudette for useful conversations and feedback on earlier drafts of this paper.  Thanks to Danjuma Dawop, Lisa Inks, Rebecca Wolfe, and the Mercy Corps Nigeria team for their work implementing the peacebuilding project.  Thanks to Tahiru Ahmadu, Ibrahim Hassan, and the enumeration teams for their excellent work interviewing farmers and pastoralists.  Thanks to Hadiza Nuhu and Israel Okpe for their work as the main contact people and mobilizers in farming and pastoral communities."
 output:
   pdf_document:
     fig_caption: yes
@@ -54,6 +56,8 @@ options(SweaveHooks=list(fig=function(){
 Cooperative intergroup contact, originally designed as a tool for prejudice reduction, offers a promising means to resolve group conflict.  Evidence for contact-based interventions is sparse, however, and violent conflict may nullify the effects of contact.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use.  We evaluate the program with surveys, direct observation of behavior in markets, and a behavioral game.  We find that participation in the program increases intergroup trust, feelings of physical security, and voluntary intergroup contact measured both will self-reports and observed behavior in markets.  Many of the program's effects also diffuse to group members who did not directly participate in the program but who lived alongside participants. The program had no effect on a placebo outcome, attitudes towards violence, that one would expect to improve if the survey results were affected by social desirability bias.  These results suggest that reducing barriers to peace between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
 
 \end{abstract}
+
+\newpage
 
 <!--To acknowledge: Donald beaudette (Emory, MPSA) -->
 <!--chris: NEED to add hameiri2014challenges about difficulties of positive attitude change in ongoing conflict. -->
