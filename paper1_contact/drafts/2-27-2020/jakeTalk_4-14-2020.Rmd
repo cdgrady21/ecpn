@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hard test language gets repeated too many times and not explained as well as could be.  "What's at stake" is not clear.  Is the world desperate for a hard test of contact theory?  Is there another solution?
 
-Clear that _active participant in violence_ is a clear feature of what's different about the paper.  Instead of hard test, "unique contribution of paper is that it involves a project where people are involved in ongoing contact.  Here's why we will learn more about contact theory from this paper than a different one.  The contribution of the paper is _______".
+Clear that _active participant in violence_ is a clear feature of what's different about the paper.  Instead of hard test, "unique contribution of paper is that it involves a project where people are involved in ongoing conflict.  Here's why we will learn more about contact theory from this paper than a different one.  The contribution of the paper is _______".
     - not a "hard test", a "different test".  Super important test.  People in confclit not usually in contact with each other.
     - what do we learn from the experiment in the context of an ongoing fight.
 
