@@ -9,8 +9,86 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## General changes
+
+### non-substantive
+
+- add plot for "violence placebo" and call it "social desirability check".
+- add other outcome plots we want to show (Rebecca commented about endorsement exp in paper).
+- add horizontal figure at end of "Research Design" right before "Estimation" showing (1) sampling strategy, (2) numbers per group, and (3) timeline.
+- add table at end of "Outcomes" right before "Primary outcomes" showing main outcomes, questions in the index, index descriptive stats, index alphas
+- revise abstract: cara: "talk about case to get africanists, talk about stuff to get conflict people.  Give enough info to peak interest."
+- add Schomerus and Rigterink 2018 to references list.
+- talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)
+
+
+### substantive
+
+- Framing of "active conflict"
+    - Rebecca has good ideas in paper.
+
+- The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
+    - remove "latent shared interest" from intro; it should be discussion-only. already removed from everywhere else.
+    - **Blattman's book**: war happens less frequently than we would imagine.  Same argument as Fearon and Laitin (1996) on ingroup policing.
+    - **add**: *draw on stuff from theory section; people want conflict to end for rational reasons == make the shared interest very salient and the conflicting interest less salient, through opportunities to make shared interests very explicit.*
+    - commitment problem but not in those words.
+
+- Intro discussion of how/why nonparticipants' attitudes improved (last paragraph of intro that mentions "informal structures").
+    - **could help us differentiate our study.**
+    - talk about spillover and wider impact.  goes to norms? though we cannot know that its norms.
+
+- reference @hameiri2014challenges about difficulties of positive attitude change in ongoing conflict.
+
+- In discussion, change wording to "make salient a shared interest" relative to conflicting interests.  People know they share interests, but it was less salient than their conflicting interests.
+
 ## Rebecca comments
 
 - first comment in abstract unfinished.
 
-## Other thoughts
+- framing of "first in active conflict"
+    - clearest difference: people not involved in the conflict are affected, and we measure it.
+    - Salma Mousa paper very much in conflict setting
+    - our frame: communities in conflict, extending to nonparticipants, cognitive dissonance.
+    - explicitly trying to form norms/institutions against conflict, bringing people together.
+    - integrated classrooms (scacco) important; soccer leagues important (mousa) important.  but not same as us: creating norms for people to come together.  In active conflicts, overcoming a lot of dissonance.
+    - one sentence on: this study is about what happens as we create informal integrated institutions.  In India, these institutions provide resiliency, but not experimentally tested."
+
+- Discussion section needs more work.
+    - bit of hodge-podge
+    - also does not engage with Scacco/Paler and other literature.
+    - rational choice stuff needs to all be in one paragraph.
+
+- Benue/Nass differences.
+    - own section explaining things in/after the results section.
+        - "this state law happened in benue during our intervention.  did that affect things?  Descriptively."
+    - another paragraph in context section???
+    - also gives credibility saying "we are active conflict".
+    - big effect to say: these programs have value when states do stupid shit!  Shock _right after_ the program ended, and program sites were able to deal.
+
+- introish: add religious differences to last sentence.
+    - another identity that makes conflicting identities/interests salient, not shared interests.
+
+
+## What to do with mechanisms
+
+- Option 1 (least work): "Remove mechanisms"
+    - Remove from design/results, mention them in theory but explicitly say we do not test, in discussion say future research should attend to mechanisms and reference exploratory results.
+
+- Option 1b: no mechanisms at all.
+
+- Option 2 (Cara): "The good mechanism"
+    - "Lots of potential mechanisms.  Study not designed for this, but we can look at one that's really hot: Perspective-taking."
+
+- **Option 3: "Remove mechanisms, add state-level diffs"**
+    - Remove mechs from design/results, mention in theory & discussion, **plus** add state-level differences to results.
+        - chris: variant of this.  Add state-level stuff to results only.
+
+- Option 4: "Moderated by comm leaders as mechanism"
+    - Remove mechs from design/results, mention in theory & discussion, **plus** add top-down social norms as mechanism (we surveyed comm leaders in all comms)
+
+- not adding farmer-pastoralist differences because that will be in another paper.
+
+## Other little things
+
+- framing (Jake): Instead of hard test, "unique contribution of paper is that it involves a project where people are involved in ongoing conflict.  Here's why we will learn more about contact theory from this paper than a different one.  The contribution of the paper is _______".  not a "hard test", a "super important different test".  People in conflcit not usually in contact with each other. 
+- intervention description (Jake): could mix what MC did in Nigeria & why they thought it would be successful.  "They did this because of this literature; they did this because of the following mechanisms".  Mixed groups of equal numbers.
