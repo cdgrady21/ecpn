@@ -64,7 +64,7 @@ Cooperative intergroup contact, originally designed as a tool for prejudice redu
 
 # Introduction
 
-How can groups in conflict improve intergroup relations?  Violent group conflict has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims (Schomerus and Rigterink 2018).  Intergroup animosity perpetuates conflict long after the original grievance is immaterial or forgotten [@mcdonnel2017graze; @deutsch1973resolution; @tajfel1979integrative], so improving intergroup relations is vital to stem the human, economic, social, and psychological costs of violent group conflict.
+How can groups in conflict improve intergroup relations?  Violent group conflict has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims [@rigterink2019isa].  Intergroup animosity perpetuates conflict long after the original grievance is immaterial or forgotten [@mcdonnel2017graze; @deutsch1973resolution; @tajfel1979integrative], so improving intergroup relations is vital to stem the human, economic, social, and psychological costs of violent group conflict.
 
 Scholars and practitioners consider _cooperative_ intergroup contact -- contact in which members of two groups work together to achieve common goals -- to be one of the most effective tools for improving intergroup relations.[^coopCon]  Evidence for the hypothesis that contact improves intergroup relations, known as the contact hypothesis [@allport1954prejudice], goes as far back as the 1950s and motivated integrated public housing [@deutsch1951interracial] and workplace and school desegregation [@cook1971race; @cook1985experimenting; @slavin1999improving] in the United States.  More recent studies demonstrated the prejudice-reducing effects of contact by leveraging random assignment to college dorms [@marmaros2006friendships], college roommates [@burns2015interaction; @boisjoly2006empathy; @van2005effect], schools [@rao2019familiarity], U.S. Air Force groups [@carrell2015impact], mixed sports teams [@ditlmann2016can; @mousa2018overcome], job training programs [@scacco2018nigeria], and medical doctors [@weiss2019curing].  The contact hypothesis also increasingly motivates policy interventions, especially peacebuilding programs [@ditlmann2017addressing; @lemmer2015can].
 
@@ -78,7 +78,7 @@ Ongoing violence poses the most difficult test for contact and could interfere w
 <!--chris: return here after finishing theory-->
 Despite these reasons for caution, there are reasons to expect cooperative contact to improve intergroup relations even in contexts of ongoing violence.  Even in contexts of group violence, it is often in each group's shared interest to reach a peaceful compromise because fighting is costly [@fearon1995rationalist].  Cooperative contact to achieve a common goal provides groups with an example of cooperation towards a shared interest, and that experience can make groups imagine future interactions for shared benefit.  Cooperative contact can also remove the psychological barriers to identifying shared interests, such as stereotypes and feelings of threat and anxiety.  Lastly, cooperation that benefits the group should generate group pressure to cooperate, thus creating cooperative social norms.
 
-To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->  In our sample, some members of each community had been killed by members of the other community in the year before the project began.  Ongoing violence, occupational and ethnic differences, and fighting over resources necessary for livelihoods all make this context a hard test for contact theory.  
+To learn about whether cooperative contact can improve intergroup relations amidst violent group conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups conflict over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria.  The most recent conflict escalation has caused 7,000 deaths from 2014-2019, displaced hundreds of thousands of people from their homes, and costs $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].<!--don't need to cite news articles like this. you can give an address / identifier / link /etc in a footnote -->  In our sample, some members of each community had been killed by members of the other community in the year before the project began.  Ongoing violence, occupational, ethnic, and religious differences, and fighting over resources necessary for livelihoods all make this context a hard test for contact theory.  
 
 We randomly assigned communities with ongoing farmer-pastoralist violence to receive a contact-based intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, and primary health care facilities, for example.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  To measure the effects of the intervention, we conducted pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
 
@@ -130,7 +130,7 @@ But these barriers do not mean that contact cannot improve intergroup relations 
 
 # Farmer-pastoralist conflict in Nigeria's Middle Belt
 
-Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who claim land for agricultural production, and pastoralists, who claim land for animal grazing, increasingly clash over claims to the same land.  Both groups depend on land for their livelihoods, but their divide is also cultural, ethnolinguistic, and, in some locations, religious.  The pastoralists are almost homogeneously of the Fulani ethnic group, speak Fulfulde as their primary language, and practice Islam.  They maintain a semi-nomadic way of life, belonging to a home community but traversing vast distances to secure access to pastureland and water as seasons change.  The farmers live in sedentary villages and exploit land for agriculture.  The ethnic group, language, and religion change by village.  In our study, farmers came from more than a dozen ethnic groups, often residing in the same village.
+Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who claim land for agricultural production, and pastoralists, who claim land for animal grazing, increasingly clash over claims to the same land.  Both groups depend on land for their livelihoods, but their divide is also cultural, ethnolinguistic, and, in some locations, religious.  The pastoralists are almost homogeneously of the Fulani ethnic group, speak Fulfulde as their primary language, and practice Islam.  They maintain a semi-nomadic way of life, belonging to a home community but traversing vast distances to secure access to pastureland and water as seasons change.  The farmers live in sedentary villages and exploit land for agriculture.  The ethnic group, language, and religion vary by village.  In our study, farmers came from more than a dozen ethnic groups, often residing side by side.
 
 Historically, these communities cooperated through trade and sharing land that was abundant relative to populations.  Pastoralists would graze their animals on crop residue after harvests and follow migration paths away from farmland during planting seasons.  The groups were complementary: pastoralists gained food for their animals and farmers gained animal manure/urine to replenish soil; farmers bought milk and meat from pastoralists and pastoralists bought grains and vegetables from farmers.  There were tensions, but these were typically overcome by negotiation and violence seems to have been rare.  The Middle Belt came to be known as Nigeria's "food basket" due to the abundance of foodstuffs coming out of the region, like beef, dairy, yam, and cassava^[https://qz.com/africa/1315749/nigeria-herdsmen-farmer-attacks-are-damaging-agriculture-economy/].  
 
@@ -190,7 +190,7 @@ In total, we randomly sampled 1539 respondents at baseline in 2015.  1027 of tho
 - bootstrapping SEs
 -->
 
-Here we describe our estimation procedure for the community-level analysis and the individual-level analysis.  For both analyses we estimate one-tailed tests because our hypotheses are that the change in outcomes for treatment units will be _greater than_ control, not that the change in outcomes for treatment units will be _different_ than control.  Both analyses also use randomization inference for $p$-values and bootstrapping for standard errors.  The specifics of each procedure are described in Appendix A.
+Here we describe our estimation procedure for the community-level analysis and the individual-level analysis.  For both analyses we estimate one-tailed tests because our hypotheses are that the change in outcomes for treatment units will be _greater than_ control, not that the change in outcomes for treatment units will be _different_ than control.^[Note that for one-tailed tests, $p$-values above 0.50 indicate that the coefficient moved in the opposite direction of the alternative hypothesis.]  Both analyses also use randomization inference for $p$-values and bootstrapping for standard errors.  The specifics of each procedure are described in Appendix A.
 
 We use two estimators to estimate the treatment effect of ECPN.  When treatment groups are balanced on the baseline outcome, we use the baseline outcome as a covariate to predict the endline outcome, as seen in equation 1.  When treatment groups are not balanced on the baseline outcome, we use the change score of the outcome as Y, as seen in equation 2.[^control_vs_diff]
 
@@ -327,7 +327,7 @@ The effect of ECPN on contact is substantial.  Respondents in treatment communit
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/conComm_plot.png}
-		\caption{\textbf{Descriptive change in community-level voluntary contact from baseline to endline.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved affect between groups.}
+		\caption{\textbf{Descriptive change in community-level voluntary contact from baseline to endline.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved contact between groups.}
 		\label{fig:fig5}
 	\end{subfigure}
 	\hfill
@@ -352,7 +352,7 @@ ECPN's substantially decreased feelings of insecurity in the treatment group.  T
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/inComm_plot.png}
-		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved affect between groups.}
+		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved security.}
 		\label{fig:fig7}
 	\end{subfigure}
 	\hfill
@@ -367,21 +367,32 @@ ECPN's substantially decreased feelings of insecurity in the treatment group.  T
 
 Figures \ref{fig:fig7} and \ref{fig:fig8} show the descriptive change in insecurity for treatment and control communities.  The insecurity of control communities declines slightly from baseline to endline but insecurity in treatment communities declines substantially more.  ECPN communities initially felt more insecure than control communities but were more secure at the end of the program.  ECPN substantially improved the security of people in intervention communities.
 
-## Placebo: attitudes about violence
+## Social desirability check: attitudes about violence
 
-To provide evidence that these survey results are due to intergroup contact and not due to social desirability bias, we analyze the effect of ECPN on attitudes about violence.  If ECPN affects attitudes about violence, then we worry that other self-reports were affected by social desirability bias.  If ECPN has no effect on attitudes about violence, then it is unlikely that other self-reports were affected by social desirability bias.
+To provide evidence that these survey results are due to intergroup contact and not due to social desirability bias, we analyze the effect of ECPN on attitudes about violence.  If ECPN affects attitudes about violence, then we worry that other self-reports were affected by social desirability bias.  If ECPN has no effect on attitudes about violence, then it is unlikely that other self-reports were affected by social desirability bias.  Attitudes towards violence function as a placebo outcome.
 
-ECPN has no effect on attitudes about violence in the community-level data or the individual-level data.  The lack of an effect on this placebo outcome, plus our use of survey experiments and behavioral observation to corroborate survey self-reports, suggests that our self-report results for primary outcomes are not due to social desirability bias.  More details about the placebo analysis are available in Appendix C. <!--[note: will add table] Table 1 shows two different ways of estimating the effect and two different ways of measuring attitudes about violence. -->
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/vioComm_plot.png}
+		\caption{\textbf{Descriptive change in community-level attitudes towards violence from baseline to endline.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates more acceptance of violence.}
+		\label{fig:vio_comm}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/vioPan_plot.png}
+		\caption{\textbf{Descriptive change in individual-level attitudes towards violence from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
+		\label{fig:vio_ind}
+	\end{subfigure}
+	\caption{Social desirability check: attitudes towards violence}
+\end{figure}
 
-## Mechanisms: Empathy, Threat, and Ingroup Expansion
+Figures \ref{fig:vio_comm} and \ref{fig:vio_ind} show baseline to endline changes in attitudes towards violence for the treatment and control groups.  ECPN has no effect on attitudes about violence in the community-level data ($p$=0.691) or the individual-level data ($p$=0.556).  The lack of an effect on this "placebo" outcome, plus our use of survey experiments and behavioral observation to corroborate survey self-reports, suggests that our self-report results for primary outcomes are not due to social desirability bias.  More details about the placebo analysis are available in Appendix C. <!--[note: will add table] Table 1 shows two different ways of estimating the effect and two different ways of measuring attitudes about violence. -->
 
-Our results suggest that ECPN improved intergroup relations between farmers and pastoralists.  We also undertook an exploratory analysis to learn the mechanisms through which ECPN affected attitudes.  Based on the literature about contact theory, we looked for evidence that ECPN worked through empathy and perspective-taking, reduced feelings of threat, and expansion of the respondent's ingroup to include the former outgroup.
+## Exploring these effects: state-level differences
 
-Our exploratory analysis suggests that ECPN may have worked through increasing empathy.  ECPN led to increased empathy in the community and individual-level analyses.  In turn, increased empathy correlated with improved intergroup affect in the community-level data and with increases in intergroup affect and intergroup contact at the individual level.  Increased perspective-taking also correlated with intergroup affect and intergroup contact in both analyses. ECPN may have led to increased perspective-taking, though not quite to a statistically significant level.  This analysis suggests that increased empathy is a plausible mechanism through which ECPN improved intergroup relations.  Because empathy was not randomly assigned, though, it's equally plausible that ECPN improved intergroup affect and fostered intergroup contact, and that those outcomes led to increased empathy.
-
-There is no evidence that ECPN reduced perceptions of threat or expanded perceptions of the ingroup.  ECPN did not effect either survey index, and the public goods game shows that the treatment group was not better at coordinating than the control group.  Treatment communities donated _less_ to the shared community fund than control communities.  At the individual-level, ECPN participants donated less than nonparticipants who donated less than respondents in the control group.  This is the opposite pattern of what we would expect if intergroup contact caused the communities to think of each other as part of one ingroup.  Reduced threat and ingroup expansion are still plausible psychological mechanisms -- each correlated strongly with at least one outcome -- though neither was increased by ECPN.
-
-More details about the mechanisms analyses can be found in Appendix C.
+To understand the reason for these results, we consider an important difference: state.  Conflict dynamics differ in Benue and Nassarawa -- groups in Benue tend to express more negative attitudes about the outgroup, and Benue enacted an anti-grazing law just before our endline survey.  State-level differences in the effectiveness of the intervention tell us about the effects in more or less stable situations.  Not powered to detect these effects, but can look descriptively.
 
 
 # Discussion
@@ -443,7 +454,17 @@ load("mech_ind_tab.Rdata")
 \end{table}
 
 
-## Appendix D: Survey Questions
+## Appendix D: Endorsement Exp Plot
+
+Figure \ref{fig:end1} shows the descriptive results of the endorsement experiment.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\textwidth]{../../../figs/endComm_plot.png}
+\caption{\label{fig:end1} \textbf{Effect of outgroup endorsement on policy support for treatment and control sites.} Red line is treatment site average, blue line is control site average.  Moving down the Y-axis indicates decreased trust in other group.}
+\end{figure}
+
+## Appendix E: Survey Questions
 
 **Outgroup Affect**
 

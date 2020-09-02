@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
     - remove "latent shared interest" from intro; it should be discussion-only. already removed from everywhere else.
-    - **Blattman's book**: war happens less frequently than we would imagine.  Same argument as Fearon and Laitin (1996) on ingroup policing.
+    - **Blattman's book**: war happens less frequently than we would imagine.  chris: Same argument as Fearon and Laitin (1996) on ingroup policing.
     - **add**: *draw on stuff from theory section; people want conflict to end for rational reasons == make the shared interest very salient and the conflicting interest less salient, through opportunities to make shared interests very explicit.*
     - commitment problem but not in those words.
 
@@ -81,7 +81,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - **Option 3: "Remove mechanisms, add state-level diffs"**
     - Remove mechs from design/results, mention in theory & discussion, **plus** add state-level differences to results.
-        - chris: variant of this.  Add state-level stuff to results only.
+        - chris: variant of this.  **Add state-level stuff to results only.**
+        - "To understand the reason for these results, we consider an important difference: state.  Benue enacted an anti-grazing law just before our endline survey.  Reason to believe effects in Benue would be different than in Nassarawa.  Not powered to detect these effects, but can look descriptively."
 
 - Option 4: "Moderated by comm leaders as mechanism"
     - Remove mechs from design/results, mention in theory & discussion, **plus** add top-down social norms as mechanism (we surveyed comm leaders in all comms)
@@ -92,3 +93,75 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - framing (Jake): Instead of hard test, "unique contribution of paper is that it involves a project where people are involved in ongoing conflict.  Here's why we will learn more about contact theory from this paper than a different one.  The contribution of the paper is _______".  not a "hard test", a "super important different test".  People in conflcit not usually in contact with each other. 
 - intervention description (Jake): could mix what MC did in Nigeria & why they thought it would be successful.  "They did this because of this literature; they did this because of the following mechanisms".  Mixed groups of equal numbers.
+
+# Todo
+
+### Plots/figures/tables and references
+
+- Make all plots pdf and not png.
+- add Schomerus and Rigterink 2018 to references list. **Done**
+- Make separate plots for affect/contact/insecurity in Nas/Ben. **Done**
+- Make Violence placebo plots. **Done**
+- Add endorsement exp plot. **added to appendix for now**
+- add horizontal figure at end of "Research Design" right before "Estimation" showing (1) sampling strategy, (2) numbers per group, and (3) timeline.
+- add table at end of "Outcomes" right before "Primary outcomes" showing main outcomes, questions in the index, index descriptive stats, index alphas
+
+### Writing
+
+**Abstract**
+
+- revise abstract: cara: "talk about case to get africanists, talk about stuff to get conflict people.  Give enough info to peak interest."
+
+**Intro**
+
+- Revise framing 
+    - away from "first in active conflict"
+    - clearest difference: people not involved in the conflict are affected, and we measure it.  communities in conflict; extending to nonparticipants; cognitive dissonance.
+    - explicitly trying to form norms/institutions against conflict, bringing people together. integrated classrooms (scacco) important; soccer leagues important (mousa) important.  but not same as us: creating norms for people to come together.  In active conflicts, overcoming a lot of dissonance.
+
+- The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
+    - remove "latent shared interest" from intro; it should be discussion-only. already removed from everywhere else.
+    - **Blattman's book**: war happens less frequently than we would imagine.  chris: Same argument as Fearon and Laitin (1996) on ingroup policing.
+    - **add**: *draw on stuff from theory section; people want conflict to end for rational reasons == make the shared interest very salient and the conflicting interest less salient, through opportunities to make shared interests very explicit.*
+    - commitment problem but not in those words.
+
+- Modify intro discussion of how/why nonparticipants' attitudes improved (last paragraph of intro that mentions "informal structures").
+    - **could help us differentiate our study.**
+    - talk about spillover and wider impact.  goes to norms? though we cannot know that its norms.
+
+- reference @hameiri2014challenges about difficulties of positive attitude change in ongoing conflict.
+
+- intro: add religious differences to last sentence of "to learn about" paragraph. **Done**
+
+**Context**
+
+- need to say a bit more about Benue/Nassarawa either in context or results section.
+
+**Results**
+
+- Benue/Nass differences.
+    - own section explaining things in/after the results section.
+        - "this state law happened in benue during our intervention.  did that affect things?  Descriptively."
+    - another paragraph in context section???
+    - also gives credibility saying "we are active conflict".
+    - big effect to say: these programs have value when states do stupid shit!  Shock _right after_ the program ended, and program sites were able to deal.
+    - "To understand the reason for these results, we consider an important difference: state.  Benue enacted an anti-grazing law just before our endline survey.  Reason to believe effects in Benue would be different than in Nassarawa.  Not powered to detect these effects, but can look descriptively." **Done**
+
+- add plot for "violence placebo" and call it "social desirability check".
+
+**Discussion**
+
+- In discussion, change wording to "make salient a shared interest" relative to conflicting interests.  People know they share interests, but it was less salient than their conflicting interests.
+
+- Rebecca on discussion section.
+    - also add one sentence to intro about India studies.
+    - Our study is about what happens as we create informal integrated institutions.  In India, these institutions provide resiliency, but not experimentally tested."
+
+
+### PAP Changes and Methods
+
+- Revise PAP: Instead of Change Score, controlling for baseline outcomes where baseline outcomes balanced across TR & CO groups..  Result of: https://declaredesign.org/blog/2019-01-15-change-scores.html
+- Considering some things listed as "outcomes" as "mechanisms".  Focusing on primary outcomes: general affect towards group, contact between groups, and perceptions of insecurity.  *Mechanisms through which the program affected these outcomes will be another paper.*
+- Using "attidues about violence" as a placebo/sdb check.
+- Was incorrect about "Ordered hypothesis testing" and are just using simple hypothesis tests.  *Combining hypotheses across levels of analysis will be another paper.*
+- talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)
