@@ -392,8 +392,68 @@ Figures \ref{fig:vio_comm} and \ref{fig:vio_ind} show baseline to endline change
 
 ## Exploring these effects: state-level differences
 
-To understand the reason for these results, we consider an important difference: state.  Conflict dynamics differ in Benue and Nassarawa -- groups in Benue tend to express more negative attitudes about the outgroup, and Benue enacted an anti-grazing law just before our endline survey.  State-level differences in the effectiveness of the intervention tell us about the effects in more or less stable situations.  Not powered to detect these effects, but can look descriptively.
+To understand the reason for these results, we consider an important difference: state.  Conflict dynamics differ in Benue and Nassarawa -- groups in Benue tend to express more negative attitudes about the outgroup, and Benue enacted an anti-grazing law just before our endline survey.  State-level differences in the effectiveness of the intervention tell us about the effects in more or less stable situations.  This study is not powered to detect statistical differences between changes in Nassarawa and Benue, but we can look descriptively to learn how the intervention's effects may have differed in each state.
 
+Different challenges in Nassarawa and Benue.  Benue, which always suffered more violent conflict, enacted an anti-grazing law making it illegal for pastoralists to graze animals openly, outside of fenced in areas.  This law led to armed vigilante groups attacking pastoralists, reprisals from pastoralists, a mass exodus of pastoralists from Benue, and the mobilization of military police to stabilize the situation.  Some communities had moved out of their villages and into temporary camps to avoid the violence.  In Nassarawa, dealing with influx of pastoralists fleeing Benue.
+
+Stuff about affect.  Figures \ref{fig:affect_nas} and \ref{fig:affect_ben} show baseline-endline changes for intergroup affect in Nassarawa and Benue, respectively.  Affect improved in treatment sites relative to control sites in both states.  In Nassarawa, affect improved modestly in both types of sites, but in Benue affect fell sharply in control sites while declining only slightly in treatment sites.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level intergroup affect from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved affect between groups.}
+		\label{fig:affect_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level intergroup affect from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:affect_ben}
+	\end{subfigure}
+	\caption{State-level intergroup affect}
+\end{figure}
+
+Stuff about contact.  Figures \ref{fig:con_nas} and \ref{fig:con_ben} show baseline-endline changes for intergroup contact in Nassarawa and Benue, respectively.  Contact in Nassarawa treatment sites increased more than control sites, and contact in Benue treatment sites decreased substantially less than control sites.  These patterns are also consistent with floor and ceiling effects, however.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level intergroup contact from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved contact between groups.}
+		\label{fig:con_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level intergroup contact from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:con_ben}
+	\end{subfigure}
+	\caption{State-level intergroup contact}
+\end{figure}
+
+Stuff about insecurity.  Figures \ref{fig:in_nas} and \ref{fig:in_ben} show baseline-endline changes for insecurity in Nassarawa and Benue, respectively.  Insecurity in Nassarawa treatment sites decreased substantially, while insecurity in Nassarawa control sites remained unchanged.  Insecurity in both treatment and control sites in Benue decreased, but moreso in treatment sites.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved security.}
+		\label{fig:con_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:con_ben}
+	\end{subfigure}
+	\caption{State-level perceived insecurity}
+\end{figure}
+
+The effect of the intervention seems most pronounced when the secular trend is downwards.  Likely the intervention improved resilience.
 
 # Discussion
 
