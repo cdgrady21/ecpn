@@ -165,3 +165,6 @@ knitr::opts_chunk$set(echo = TRUE)
 - Using "attidues about violence" as a placebo/sdb check.
 - Was incorrect about "Ordered hypothesis testing" and are just using simple hypothesis tests.  *Combining hypotheses across levels of analysis will be another paper.*
 - talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)
+    - lm_robust CIs
+    - cite the cr2 papers
+    - clubSandwich package (where estimatr gets CR2 SEs)
