@@ -9,6 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Notes
+
+- left Weiss citation as "medical doctors" because that's the thing being randomly assigned, and the sentence is addressing what was randomly assigned (college dorm, college roommate, school, air force group, sports team, etc).
+    - "leveraging the random assignment of patients to doctors across 21 emergency medical clinics"
+
+- not removing term "placebo outcome".  It's a term people use: https://statmodeling.stat.columbia.edu/2018/09/26/potential-big-problem-placebo-tests-econometrics-theyre-subject-difference-significant-non-significant-not-statistically-significant-issue/.  It doesn't have to be an intervention that should do nothing to outcomes of interest, it can be an outcome that should be unaffected by the intervention.  I don't know why Jake/Cara had a problem with it.
+
 ## General changes
 
 ### non-substantive
@@ -99,9 +106,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Plots/figures/tables and references
 
 - Make all plots pdf and not png.
-- add Schomerus and Rigterink 2018 to references list. **Done**
-- Make separate plots for affect/contact/insecurity in Nas/Ben. **Done**
-- Make Violence placebo plots. **Done**
+- *add Schomerus and Rigterink 2018 to references list.* **Done**
+- *Make separate plots for affect/contact/insecurity in Nas/Ben.* **Done**
+- *Make Violence placebo plots.* **Done**
 - Add endorsement exp plot. **added to appendix for now**
 - add horizontal figure at end of "Research Design" right before "Estimation" showing (1) sampling strategy, (2) numbers per group, and (3) timeline.
 - add table at end of "Outcomes" right before "Primary outcomes" showing main outcomes, questions in the index, index descriptive stats, index alphas
@@ -122,11 +129,11 @@ knitr::opts_chunk$set(echo = TRUE)
 - The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
     - remove "latent shared interest" from intro; it should be discussion-only. already removed from everywhere else.
     - **Blattman's book**: war happens less frequently than we would imagine.  chris: Same argument as Fearon and Laitin (1996) on ingroup policing.
-    - **add**: *draw on stuff from theory section; people want conflict to end for rational reasons == make the shared interest very salient and the conflicting interest less salient, through opportunities to make shared interests very explicit.*
+    - **add**: draw on stuff from theory section; people want conflict to end for rational reasons == make the shared interest very salient and the conflicting interest less salient, through opportunities to make shared interests very explicit.
     - commitment problem but not in those words.
 
 - Modify intro discussion of how/why nonparticipants' attitudes improved (last paragraph of intro that mentions "informal structures").
-    - **could help us differentiate our study.**
+    - could help us differentiate our study.
     - talk about spillover and wider impact.  goes to norms? though we cannot know that its norms.
 
 - reference @hameiri2014challenges about difficulties of positive attitude change in ongoing conflict.
@@ -139,7 +146,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Results**
 
-- Benue/Nass differences.
+- *Benue/Nass differences.* **Done**
     - own section explaining things in/after the results section.
         - "this state law happened in benue during our intervention.  did that affect things?  Descriptively."
     - another paragraph in context section???
@@ -147,7 +154,9 @@ knitr::opts_chunk$set(echo = TRUE)
     - big effect to say: these programs have value when states do stupid shit!  Shock _right after_ the program ended, and program sites were able to deal.
     - "To understand the reason for these results, we consider an important difference: state.  Benue enacted an anti-grazing law just before our endline survey.  Reason to believe effects in Benue would be different than in Nassarawa.  Not powered to detect these effects, but can look descriptively." **Done**
 
-- add plot for "violence placebo" and call it "social desirability check".
+- *add plot for "violence placebo" and call it "social desirability check".* **Done**
+
+- Integrate the PGG into the main outcomes.
 
 **Discussion**
 
