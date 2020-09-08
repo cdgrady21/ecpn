@@ -428,14 +428,14 @@ To understand the reason for these results, we consider an important difference:
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_nas.png}
 		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved security.}
-		\label{fig:con_nas}
+		\label{fig:in_nas}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_ben.png}
 		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
-		\label{fig:con_ben}
+		\label{fig:in_ben}
 	\end{subfigure}
 	\caption{State-level perceived insecurity}
 \end{figure}
