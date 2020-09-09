@@ -69,10 +69,8 @@ knitr::opts_chunk$set(echo = TRUE)
     - also gives credibility saying "we are active conflict".
     - big effect to say: these programs have value when states do stupid shit!  Shock _right after_ the program ended, and program sites were able to deal.
 
-- introish: add religious differences to last sentence.
-    - another identity that makes conflicting identities/interests salient, not shared interests.
 
-
+<!--
 ## What to do with mechanisms
 
 - Option 1 (least work): "Remove mechanisms"
@@ -92,7 +90,7 @@ knitr::opts_chunk$set(echo = TRUE)
     - Remove mechs from design/results, mention in theory & discussion, **plus** add top-down social norms as mechanism (we surveyed comm leaders in all comms)
 
 - not adding farmer-pastoralist differences because that will be in another paper.
-
+-->
 ## Other little things
 
 - framing (Jake): Instead of hard test, "unique contribution of paper is that it involves a project where people are involved in ongoing conflict.  Here's why we will learn more about contact theory from this paper than a different one.  The contribution of the paper is _______".  not a "hard test", a "super important different test".  People in conflcit not usually in contact with each other. 
@@ -122,8 +120,8 @@ knitr::opts_chunk$set(echo = TRUE)
     - away from "first in active conflict"
     - clearest difference: people not involved in the conflict are affected, and we measure it.  communities in conflict; extending to nonparticipants; cognitive dissonance.
     - explicitly trying to form norms/institutions against conflict, bringing people together. integrated classrooms (scacco) important; soccer leagues important (mousa) important.  but not same as us: creating norms for people to come together.  In active conflicts, overcoming a lot of dissonance.
-
-- spillover: public nature of intervetion.  explicit peacebuilding intervetion.  spillover.  dosage.
+    - frame contribution as: (1) explicit peacebuilding intervention, (2) public intervention, (3) measuring spillover to nonparticipants, (4) dosage/long period of time, (5) personal participation in conflict, (6) measuring attitudes and behaviors.
+    - spillover: public nature of intervetion.  explicit peacebuilding intervetion.  spillover.  dosage.
     - behaviors vs attitudes
 
 - The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
