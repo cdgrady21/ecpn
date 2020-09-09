@@ -11,9 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Notes
 
-- left Weiss citation as "medical doctors" because that's the thing being randomly assigned, and the sentence is addressing what was randomly assigned (college dorm, college roommate, school, air force group, sports team, etc).
-    - "leveraging the random assignment of patients to doctors across 21 emergency medical clinics"
-
 - not removing term "placebo outcome".  It's a term people use: https://statmodeling.stat.columbia.edu/2018/09/26/potential-big-problem-placebo-tests-econometrics-theyre-subject-difference-significant-non-significant-not-statistically-significant-issue/.  It doesn't have to be an intervention that should do nothing to outcomes of interest, it can be an outcome that should be unaffected by the intervention.  I don't know why Jake/Cara had a problem with it.
 
 ## General changes
@@ -126,6 +123,9 @@ knitr::opts_chunk$set(echo = TRUE)
     - clearest difference: people not involved in the conflict are affected, and we measure it.  communities in conflict; extending to nonparticipants; cognitive dissonance.
     - explicitly trying to form norms/institutions against conflict, bringing people together. integrated classrooms (scacco) important; soccer leagues important (mousa) important.  but not same as us: creating norms for people to come together.  In active conflicts, overcoming a lot of dissonance.
 
+- spillover: public nature of intervetion.  explicit peacebuilding intervetion.  spillover.  dosage.
+    - behaviors vs attitudes
+
 - The "theory summary" paragraphs in the intro (par4-5) need to be revised to say: (1) Ongoing violence could make mechanisms of contact not function.  Here's why. (2) But reasons to expect cooperative contact will still work.
     - remove "latent shared interest" from intro; it should be discussion-only. already removed from everywhere else.
     - **Blattman's book**: war happens less frequently than we would imagine.  chris: Same argument as Fearon and Laitin (1996) on ingroup policing.
@@ -154,9 +154,12 @@ knitr::opts_chunk$set(echo = TRUE)
     - big effect to say: these programs have value when states do stupid shit!  Shock _right after_ the program ended, and program sites were able to deal.
     - "To understand the reason for these results, we consider an important difference: state.  Benue enacted an anti-grazing law just before our endline survey.  Reason to believe effects in Benue would be different than in Nassarawa.  Not powered to detect these effects, but can look descriptively." **Done**
 
-- *add plot for "violence placebo" and call it "social desirability check".* **Done**
+- add plot for "violence placebo" and make it a section abot "social desirability check".
+    - social desirability bias subsection to directly address it.
 
-- Integrate the PGG into the main outcomes.
+- make "insecurity" back to "security" so high on the y-axis is good.
+
+- Integrate the PGG into the main outcomes.  Another behavioral outcome to go along with contact.
 
 **Discussion**
 
@@ -171,9 +174,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Revise PAP: Instead of Change Score, controlling for baseline outcomes where baseline outcomes balanced across TR & CO groups..  Result of: https://declaredesign.org/blog/2019-01-15-change-scores.html
 - Considering some things listed as "outcomes" as "mechanisms".  Focusing on primary outcomes: general affect towards group, contact between groups, and perceptions of insecurity.  *Mechanisms through which the program affected these outcomes will be another paper.*
+    - "cohesion" actually looks like perceptions of social norms.  "People do this, people feel that, people from my group would help people from their group."
 - Using "attidues about violence" as a placebo/sdb check.
 - Was incorrect about "Ordered hypothesis testing" and are just using simple hypothesis tests.  *Combining hypotheses across levels of analysis will be another paper.*
 - talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)
     - lm_robust CIs
     - cite the cr2 papers
     - clubSandwich package (where estimatr gets CR2 SEs)
+
+- other codings for outcomes
+    - contact (survey and market)

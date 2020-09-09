@@ -70,7 +70,7 @@ Scholars and practitioners consider _cooperative_ intergroup contact -- contact 
 
 [^coopCon]: We will use the term _cooperative contact_ to refer to contact that meets Allport's conditions.  Those conditions are (1) intergroup cooperation (2) with equal status (3) to achieve shared goals (4) with support of local authorities.  Note that _equal status_ does not mean that the groups must have the same status in society, but that the groups share equal status in the cooperative situation.  Cooperative contact stands in contrast to other forms of incidental or unstructured contact that may not have positive effects on intergroup relations.
 
-<!--chris: frame as testing among people/groups PERSONALLY participating in violent conflict, not just people form groups that are in violent conflict. -->
+<!--chris: frame as: (1) explicit peacebuilding intervention, (2) public intervention, (3) measuring spillover to nonparticipants, (4) dosage/long period of time, (5) personal participation in conflict, (6) measuring attitudes and behaviors. -->
 Despite contact's many successes, scholars know little about the effects of contact-based interventions for people actively participating in and personally victimized by a violent conflict, or even for interventions directed at improving adults' attitudes towards racial or ethnic groups [@paluck2019contact].  Cooperative intergroup contact has only recently been tested in the field, and never programmatically with communities who are currently perpetrating violence against each other.  If one of the goals of cooperative contact is to mitigate violent conflict, then contact-based interventions must be tested between participants and victims in violent conflict.
 
 Ongoing violence poses the most difficult test for contact and could interfere with mechanisms through which contact improves relations. The mechanisms through which contact improves relations assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta p.766].  We posit that familiarity through cooperative contact allows groups to identify latent shared interests by providing positive interactions towards achieving a common goal. Those positive interactions counter existing negative beliefs and create cognitive dissonance [@tavris2008mistakes; @festinger1962cognitiveDissonance].  Attitudes improve when that cognitive dissonance is resolved by rejecting negative beliefs rather than justifying negative beliefs [@gubler2013humanizing].  However, by reinforcing negative beliefs and obscuring shared interests, violent conflict could dull, prevent, or even reverse the predicted positive effects of contact.
@@ -428,14 +428,14 @@ To understand the reason for these results, we consider an important difference:
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_nas.png}
 		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.  Moving up the Y-axis indicates improved security.}
-		\label{fig:in_nas}
+		\label{fig:con_nas}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
 		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_ben.png}
 		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
-		\label{fig:in_ben}
+		\label{fig:con_ben}
 	\end{subfigure}
 	\caption{State-level perceived insecurity}
 \end{figure}
