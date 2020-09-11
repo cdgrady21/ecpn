@@ -165,12 +165,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### PAP Changes and Methods
 
-- Revise PAP: Instead of Change Score, controlling for baseline outcomes where baseline outcomes balanced across TR & CO groups..  Result of: https://declaredesign.org/blog/2019-01-15-change-scores.html
-- Considering some things listed as "outcomes" as "mechanisms".  Focusing on primary outcomes: general affect towards group, contact between groups, and perceptions of insecurity.  *Mechanisms through which the program affected these outcomes will be another paper.*
-    - "cohesion" actually looks like perceptions of social norms.  "People do this, people feel that, people from my group would help people from their group."
+- Revise PAP: Instead of Change Score, controlling for baseline outcomes where baseline outcomes balanced across TR & CO groups.  Result of: https://declaredesign.org/blog/2019-01-15-change-scores.html
 - Using "attidues about violence" as a placebo/sdb check.
-- Was incorrect about "Ordered hypothesis testing" and are just using simple hypothesis tests.  *Combining hypotheses across levels of analysis will be another paper.*
-- talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)
+- Many things did not fit in our initial paper and will be future papers.
+    - Was incorrect about "Ordered hypothesis testing" and are just using simple hypothesis tests.  *Combining hypotheses across levels of analysis will be another paper.*
+    - Influence of social peers (asked peolpe conversation partners) and social elites (comm leaders) is *another paper.*
+    - Considering some things listed as "outcomes" as "mechanisms".  Focusing on primary outcomes: general affect towards group, contact between groups, and perceptions of insecurity.  *Mechanisms through which the program affected these outcomes will be another paper.*
+        - "cohesion" actually looks like perceptions of social norms.  "People do this, people feel that, people from my group would help people from their group."
+
+- *talk with Jake about bootstrapping being overly conservative even though it gives same result (in CI form) as randomization inference (in pvalue form)* **done**
     - lm_robust CIs
     - cite the cr2 papers
     - clubSandwich package (where estimatr gets CR2 SEs)
