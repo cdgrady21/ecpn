@@ -297,8 +297,6 @@ Figures \ref{fig:fig1} and \ref{fig:fig2} shows the intervention's effect on all
 
 The intervention bolstered intergroup affect in treatment communities.  Compared to control communities, respondents in treatment communities report more trust in the other group and are more comfortable engaging in various relationships with the outgroup, such as trading goods and intermarriage.  Intergroup affect as measured by the endorsement experiment also improves more in the treatment group than the control group, though the difference is not statistically significant at conventional levels.
 
-Figures \ref{fig:fig3} and \ref{fig:fig4} show the descriptive change in affect for treatment and control communities.  Affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.  As measured by the endorsement experiment, affect declines in both treatment and control communities, but declines more in control communities.  Both measures suggest that the intervention improved affect towards the outgroup.
-
 \begin{figure}[H]
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
@@ -315,6 +313,31 @@ Figures \ref{fig:fig3} and \ref{fig:fig4} show the descriptive change in affect 
 	\end{subfigure}
 \caption{\textbf{Intergroup Affect.} Moving up the Y-axis indicates improved affect between groups.}
 \end{figure}
+
+Figures \ref{fig:fig3} and \ref{fig:fig4} show the descriptive change in affect for treatment and control communities.  Affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.  As measured by the endorsement experiment, affect declines in both treatment and control communities, but declines more in control communities.  Both measures suggest that the intervention improved affect towards the outgroup.
+
+## Perceptions of Physical Security
+
+The intervention substantially increased feelings of security in the treatment group.  The effect is large in both the community-level and the individual-level data.  Physical security in treatment communities improved far more from baseline to endline than in control communities.  At the individual-level, participants and nonparticipants improved equally, suggesting that these increases reflect a change in the conflict environment that impacts the entire community, not just respondents involved in ECPN committees.  These improvements in treatment communities are especially powerful because other survey questions show that the intervention increased awareness of the conflict -- respondents in treatment communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot.png}
+		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:fig7}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inPan_plot.png}
+		\caption{\textbf{Descriptive change in individual-level insecurity from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
+		\label{fig:fig8}
+	\end{subfigure}
+	\caption{\textbf{Perceptions of Physical Security.}  Moving up the Y-axis indicates improved security.}
+\end{figure}
+
+Figures \ref{fig:fig7} and \ref{fig:fig8} show the descriptive change in physical security for treatment and control communities.  The security of control communities improved slightly from baseline to endline but security in treatment communities improved substantially more over that same period.  Treatment communities initially felt less secure than control communities but were more secure at the end of the program.  The intervention substantially improved the physical security of people in intervention communities.
 
 ## Contact
 
@@ -339,28 +362,28 @@ The effect of the intervention on contact is substantial.  Respondents in treatm
 
 Figures \ref{fig:fig5} and \ref{fig:fig6} show the descriptive change in contact for treatment and control communities.  The community-level self-reports show that intergroup contact declined sharply in control communities but rose slightly in treatment communities.  The intervention was able to increase contact even as the social environment led to a sharp decline in control sites.  At the individual-level, intergroup contact increased at the same rate for nonparticipants and controls but increased a great deal more for committee participants.  This parallel relationship for nonparticipants and controls contradicts the large community-level effect, which suggested that the effects of the intervention extend to nonparticipants in treatment communities.  One plausible explanation is that the effect on nonparticipants did not extend to the type of nonparticipant we could track down and resurvey; another explanation is that the type of control individual we could track down for resurveying increased their intergroup contact even as the rest of the community decreased theirs.
 
-## Perceptions of Physical Security
+## Intergroup Cooperation
 
-The intervention substantially increased feelings of security in the treatment group.  The effect is large in both the community-level and the individual-level data.  Physical cecurity in treatment communities improved far more from baseline to endline than in control communities.  At the individual-level, participants and nonparticipants improved equally, suggesting that these increases reflect a change in the conflict environment that impacts the entire community, not just respondents involved in ECPN committees.  These improvements in treatment communities are especially powerful because other survey questions show that the intervention increased awareness of the conflict -- respondents in treatment communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+The results of the PGG suggest that the intervention did not improve respondents' capacity to cooperate with the outgroup.  Figures \ref{fig:pggComm} and \ref{fig:pggPan} show the descriptive difference in the proportion of respondents who donated and average donation amount for treatment and control communities at endline.  Respondents in treatment communities were slightly more likely to donate any amount, but had a lower average donation than control communities.  In the individual-level data, participants and nonparticipants in treatment communities were also slightly more likely to donate any amount than controls, but the average donation amount is highest among controls and lowest among ECPN participants.  The difference in donation amounts is systematic, but the difference in the proportion of respondents who donated was due to a very low donation rate in one control community, rather than at trend describing all communities.  While it could be meaningful that the low outlier is a control community and not a treatment community, this could also be due to random chance.
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
-		\includegraphics[width=\linewidth]{../../../figs/inComm_plot.png}
-		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline.} Red line is treatment site average, blue line is control site average.}
-		\label{fig:fig7}
+		\includegraphics[width=\linewidth]{../../../figs/pggComm_plot.png}
+		\caption{\textbf{Descriptive difference in community-level donations to a public good at endline.} Red bar is treatment site average, blue bar is control site average.}
+		\label{fig:pggComm}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{.48\textwidth}
 	\centering
-		\includegraphics[width=\linewidth]{../../../figs/inPan_plot.png}
-		\caption{\textbf{Descriptive change in individual-level insecurity from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
-		\label{fig:fig8}
+		\includegraphics[width=\linewidth]{../../../figs/pggPan_plot.png}
+		\caption{\textbf{Descriptive difference in individual-level donations to a public good at endline.} Red bar is participant average, dark red bar is nonparticipant average, blue bar is control average.}
+		\label{fig:pggPan}
 	\end{subfigure}
-	\caption{\textbf{Perceptions of Physical Security.}  Moving up the Y-axis indicates improved security.}
+	\caption{\textbf{Donations in public goods game.}  Moving up the Y-axis indicates a greater percentage of respondents donating and a higher average donation amount.}
 \end{figure}
 
-Figures \ref{fig:fig7} and \ref{fig:fig8} show the descriptive change in physical security for treatment and control communities.  The security of control communities improved slightly from baseline to endline but security in treatment communities improved substantially more over that same period.  Treatment communities initially felt less secure than control communities but were more secure at the end of the program.  The intervention substantially improved the physical security of people in intervention communities.
+While these results could suggest that the intervention decreased these communities' capacity to coordinate, anecdotal evidence suggests that the public goods game did not measure what we expected it to measure.  A control community raised the most money, with respondents donating over half of the PGG money to the community fund.  Without context, the data says that this community is highly cooperative.  However, the divisions in this community were so problematic that the farmers and pastoralists could not agree on who would hold the money they raised.  The community fund had to be held at Mercy Corps' Abuja office until the community decided how to spend the money.  This experience, as well as unsolicited comments to enumerators about donating vs. keeping the money, indicate that the respondents were not thinking about the outgroup when they donated.  They were thinking about ingroup norms and the possibility of proving to Mercy Corps that their community was a good community to run a program.  For these reasons, we are hesitant to conclude that the PGG was a good measure of intergroup cooperation.<!--chris: footnote other plausible explanations?  Like no need to signal to other group, no need to signal to MC, feeling like the respondents should be compensated... -->
 
 ## Exploring these effects: state-level differences
 
