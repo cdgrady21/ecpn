@@ -138,10 +138,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### changes discussed on 9-22-2020 call
 
+- bootstrapping CIs/SEs: not centering on OLS coefficient estimate.
+    - Nuole: bootstrap by resampling residuals with replacement and adding a randomly selected residual to each observations Y. she is sending me code.
 - all group --> intergroup
 - cross-group: make sure it is being used for the individual-level interaction.
-- discussion: be clear about "material" benefit
-numbers with commas or not: depends on journal specifications.
+-mnumbers with commas or not: depends on journal specifications.
 - displacement and convenience sample: footnote and appendix
 
 Ask Jake and Cara and Jim
@@ -150,3 +151,6 @@ Ask Jake and Cara and Jim
 Appendix C: remove mechanisms
 
 Add appendix for displacement/convenience sample.
+
+Appendices after the references
+    - apsr style?
