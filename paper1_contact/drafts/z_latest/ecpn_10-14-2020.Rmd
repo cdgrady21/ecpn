@@ -300,7 +300,7 @@ Figure \ref{fig:obs} shows the intervention's effect on behavior observed in mar
 \begin{figure}[H]
 \centering
 \includegraphics[width=.7\textwidth]{../../../figs/ecpn_coefplots_markEvents.png}
-\vspace{-1cm}
+\vspace{-3cm}
 \caption{\label{fig:obs} \textbf{Effect of treatment assignment on behavior in markets and at social events.} Points are average treatment effects versus control estimated using quantile regression. Lines are 95\% confidence intervals.  Effects in the figure are positive if the intervention improved outcomes and negative if it worsened outcomes.}
 \end{figure}
 

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  6 OCT 2020 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  14 OCT 2020 10:26
 entering extended mode
-**./ecpn_10-6-2020.tex
-(ecpn_10-6-2020.tex
+**./ecpn_appendix.tex
+(ecpn_appendix.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06> ("C:\Users\chris\AppData\Local\Programs\MiKTe
 X 2.9\tex/latex/base\article.cls"
@@ -974,8 +974,8 @@ d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count317
 \l__pdf_internal_box=\box73
-) (ecpn_10-6-2020.aux)
-\openout1 = `ecpn_10-6-2020.aux'.
+) (ecpn_appendix.aux)
+\openout1 = `ecpn_appendix.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
@@ -1099,9 +1099,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 163.
 LaTeX Info: Redefining \pageref on input line 163.
 LaTeX Info: Redefining \nameref on input line 163.
-(ecpn_10-6-2020.out) (ecpn_10-6-2020.out)
+(ecpn_appendix.out) (ecpn_appendix.out)
 \@outlinefile=\write5
-\openout5 = `ecpn_10-6-2020.out'.
+\openout5 = `ecpn_appendix.out'.
 
 \cslhangindent=\skip69
 
@@ -1129,229 +1129,58 @@ fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-{C:/Users/chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-[5] [6] [7]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-63.
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[8] [9] [10] [11]
-<../../../figs/ecpn_coefplots_MainOuts-cats.png, id=195, 481.8pt x 481.8pt>
-File: ../../../figs/ecpn_coefplots_MainOuts-cats.png Graphic file (type png)
-<use ../../../figs/ecpn_coefplots_MainOuts-cats.png>
-Package pdftex.def Info: ../../../figs/ecpn_coefplots_MainOuts-cats.png  used o
-n input line 1073.
-(pdftex.def)             Requested size: 328.82707pt x 328.83269pt.
-[12]
-<../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg, id=204, 358.33875pt x 2
-06.27063pt>
-File: ../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg Graphic file (type 
-jpg)
-<use ../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg>
-Package pdftex.def Info: ../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg 
- used on input line 1089.
-(pdftex.def)             Requested size: 328.82707pt x 189.296pt.
-[13 <../../../figs/ecpn_coefplots_MainOuts-cats.png>]
-<../../../figs/affectComm_plot.png, id=213, 578.16pt x 433.62pt>
-File: ../../../figs/affectComm_plot.png Graphic file (type png)
-<use ../../../figs/affectComm_plot.png>
-Package pdftex.def Info: ../../../figs/affectComm_plot.png  used on input line 
-1108.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/affectPan_plot.png, id=214, 578.16pt x 433.62pt>
-File: ../../../figs/affectPan_plot.png Graphic file (type png)
-<use ../../../figs/affectPan_plot.png>
-Package pdftex.def Info: ../../../figs/affectPan_plot.png  used on input line 1
-115.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-[14 <../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg> <../../../figs/affe
-ctComm_plot.png> <../../../figs/affectPan_plot.png>]
-<../../../figs/inComm_plot.png, id=225, 578.16pt x 433.62pt>
-File: ../../../figs/inComm_plot.png Graphic file (type png)
-<use ../../../figs/inComm_plot.png>
-Package pdftex.def Info: ../../../figs/inComm_plot.png  used on input line 1151
-.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/inPan_plot.png, id=226, 578.16pt x 433.62pt>
-File: ../../../figs/inPan_plot.png Graphic file (type png)
-<use ../../../figs/inPan_plot.png>
-Package pdftex.def Info: ../../../figs/inPan_plot.png  used on input line 1158.
-
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/conComm_plot.png, id=229, 578.16pt x 433.62pt>
-File: ../../../figs/conComm_plot.png Graphic file (type png)
-<use ../../../figs/conComm_plot.png>
-Package pdftex.def Info: ../../../figs/conComm_plot.png  used on input line 119
-1.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/conPan_plot.png, id=230, 578.16pt x 433.62pt>
-File: ../../../figs/conPan_plot.png Graphic file (type png)
-<use ../../../figs/conPan_plot.png>
-Package pdftex.def Info: ../../../figs/conPan_plot.png  used on input line 1198
-.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-[15 <../../../figs/inComm_plot.png> <../../../figs/inPan_plot.png>]
-<../../../figs/pggComm_plot.png, id=244, 578.16pt x 433.62pt>
-File: ../../../figs/pggComm_plot.png Graphic file (type png)
-<use ../../../figs/pggComm_plot.png>
-Package pdftex.def Info: ../../../figs/pggComm_plot.png  used on input line 124
-5.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/pggPan_plot.png, id=245, 578.16pt x 433.62pt>
-File: ../../../figs/pggPan_plot.png Graphic file (type png)
-<use ../../../figs/pggPan_plot.png>
-Package pdftex.def Info: ../../../figs/pggPan_plot.png  used on input line 1252
-.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-[16 <../../../figs/conComm_plot.png> <../../../figs/conPan_plot.png>] [17 <../.
-./../figs/pggComm_plot.png> <../../../figs/pggPan_plot.png>]
-<../../../figs/affectComm_plot_nas.png, id=267, 578.16pt x 433.62pt>
-File: ../../../figs/affectComm_plot_nas.png Graphic file (type png)
-<use ../../../figs/affectComm_plot_nas.png>
-Package pdftex.def Info: ../../../figs/affectComm_plot_nas.png  used on input l
-ine 1313.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/affectComm_plot_ben.png, id=268, 578.16pt x 433.62pt>
-File: ../../../figs/affectComm_plot_ben.png Graphic file (type png)
-<use ../../../figs/affectComm_plot_ben.png>
-Package pdftex.def Info: ../../../figs/affectComm_plot_ben.png  used on input l
-ine 1320.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/conComm_plot_nas.png, id=273, 578.16pt x 433.62pt>
-File: ../../../figs/conComm_plot_nas.png Graphic file (type png)
-<use ../../../figs/conComm_plot_nas.png>
-Package pdftex.def Info: ../../../figs/conComm_plot_nas.png  used on input line
- 1348.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/conComm_plot_ben.png, id=274, 578.16pt x 433.62pt>
-File: ../../../figs/conComm_plot_ben.png Graphic file (type png)
-<use ../../../figs/conComm_plot_ben.png>
-Package pdftex.def Info: ../../../figs/conComm_plot_ben.png  used on input line
- 1355.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-[18 <../../../figs/affectComm_plot_nas.png> <../../../figs/affectComm_plot_ben.
-png>]
-<../../../figs/inComm_plot_nas.png, id=285, 578.16pt x 433.62pt>
-File: ../../../figs/inComm_plot_nas.png Graphic file (type png)
-<use ../../../figs/inComm_plot_nas.png>
-Package pdftex.def Info: ../../../figs/inComm_plot_nas.png  used on input line 
-1374.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/inComm_plot_ben.png, id=286, 578.16pt x 433.62pt>
-File: ../../../figs/inComm_plot_ben.png Graphic file (type png)
-<use ../../../figs/inComm_plot_ben.png>
-Package pdftex.def Info: ../../../figs/inComm_plot_ben.png  used on input line 
-1381.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-[19 <../../../figs/conComm_plot_nas.png> <../../../figs/conComm_plot_ben.png> <
-../../../figs/inComm_plot_nas.png> <../../../figs/inComm_plot_ben.png>] [20] [2
-1] [22]
-<../../../figs/vioComm_plot.png, id=324, 578.16pt x 433.62pt>
+{C:/Users/chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<../../../figs/vioComm_plot.png, id=46, 578.16pt x 433.62pt>
 File: ../../../figs/vioComm_plot.png Graphic file (type png)
 <use ../../../figs/vioComm_plot.png>
-Package pdftex.def Info: ../../../figs/vioComm_plot.png  used on input line 168
-2.
-(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/vioPan_plot.png, id=325, 578.16pt x 433.62pt>
-File: ../../../figs/vioPan_plot.png Graphic file (type png)
-<use ../../../figs/vioPan_plot.png>
-Package pdftex.def Info: ../../../figs/vioPan_plot.png  used on input line 1689
+Package pdftex.def Info: ../../../figs/vioComm_plot.png  used on input line 326
 .
 (pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
-<../../../figs/endComm_plot.png, id=327, 578.16pt x 433.62pt>
+<../../../figs/vioPan_plot.png, id=47, 578.16pt x 433.62pt>
+File: ../../../figs/vioPan_plot.png Graphic file (type png)
+<use ../../../figs/vioPan_plot.png>
+Package pdftex.def Info: ../../../figs/vioPan_plot.png  used on input line 333.
+
+(pdftex.def)             Requested size: 225.4804pt x 169.10449pt.
+<../../../figs/endComm_plot.png, id=49, 578.16pt x 433.62pt>
 File: ../../../figs/endComm_plot.png Graphic file (type png)
 <use ../../../figs/endComm_plot.png>
-Package pdftex.def Info: ../../../figs/endComm_plot.png  used on input line 170
-5.
+Package pdftex.def Info: ../../../figs/endComm_plot.png  used on input line 349
+.
 (pdftex.def)             Requested size: 328.82707pt x 246.61679pt.
-[23 <../../../figs/vioComm_plot.png> <../../../figs/vioPan_plot.png>]
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
-718.
+[2 <../../../figs/vioComm_plot.png> <../../../figs/vioPan_plot.png>]
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 3
+62.
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tex-gyre\ts1qtm.fd
 "
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-) [24 <../../../figs/endComm_plot.png>] [25] [26]
-Underfull \hbox (badness 1102) in paragraph at lines 1993--1997
-[][]\T1/qtm/m/n/10.95 (+20) Akinwotu, Em-manuel. 2018. ``Nige-ria's Farm-ers an
-d Herders Fight a Deadly Bat-tle for Scarce
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1993--1997
-\T1/qtm/m/n/10.95 (+20) Re-sources.'' \T1/qtm/m/it/10.95 (+20) New York Times\T
-1/qtm/m/n/10.95 (+20) . [][]$\T1/cmtt/m/n/10.95 https : / / www . nytimes . com
- / 2018 / 06 / 25 / world / africa /
- []
-
-[27]
-Overfull \hbox (183.55771pt too wide) in paragraph at lines 2086--2090
-\T1/qtm/m/it/10.95 (-20) guard\T1/qtm/m/n/10.95 (-20) . [][]$\T1/cmtt/m/n/10.95
- https : / / www . vanguardngr . com / 2018 / 06 / anti-[]open-[]grazing-[]law-
-[]nass-[]benue-[]kwara-[]taraba-[]tackle-[]defence-[]minister/$[][]\T1/qtm/m/n/
-10.95 (-20) . 
- []
-
-
-Overfull \hbox (65.84822pt too wide) in paragraph at lines 2117--2121
-[][]$\T1/cmtt/m/n/10.95 https : / / www . vanguardngr . com / 2018 / 11 / court
--[]stops-[]ig-[]from-[]proscribing-[]benue-[]livestock-[]guards/$[][]\T1/qtm/m/
-n/10.95 (-20) . 
- []
-
-
-Overfull \hbox (269.75287pt too wide) in paragraph at lines 2179--2183
-\T1/qtm/m/n/10.95 (-20) Buhari.'' \T1/qtm/m/it/10.95 (-20) Fron-tera\T1/qtm/m/n
-/10.95 (-20) . [][]$\T1/cmtt/m/n/10.95 https : / / frontera . net / news / afri
-ca / nigeria-[]violence-[]in-[]the-[]middle-[]belt-[]becomes-[]major-[]concern-
-[]for-[]president-[]buhari/$[][]\T1/qtm/m/n/10.95 (-20) . 
- []
-
-[28]
-Overfull \hbox (20.08125pt too wide) in paragraph at lines 2193--2198
-\T1/cmtt/m/n/10.95 foreignaffairs . com / articles / nigeria / 2019-[]01-[]23 /
- deadliest-[]conflict-[]youve-[]never-[]heard$[][]\T1/qtm/m/n/10.95 (-20) . 
- []
-
-[29] [30] [31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2407.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2407.
-(ecpn_10-6-2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2407.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2407.
-
-Package rerunfilecheck Info: File `ecpn_10-6-2020.out' has not changed.
-(rerunfilecheck)             Checksum: CC660FC725240379C45F65C4DADD3A4A;4778.
+) [3 <../../../figs/endComm_plot.png>] [4] [5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 632.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 632.
+(ecpn_appendix.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 632.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 632.
+Package rerunfilecheck Info: File `ecpn_appendix.out' has not changed.
+(rerunfilecheck)             Checksum: D2EF50924D40E03E7AEFDECD9670EE80;1429.
  ) 
 Here is how much of TeX's memory you used:
- 27195 strings out of 480971
- 491800 string characters out of 2899261
- 758981 words of memory out of 3000000
- 42082 multiletter control sequences out of 15000+200000
- 597251 words of font info for 180 fonts, out of 3000000 for 9000
+ 26705 strings out of 480971
+ 482213 string characters out of 2899261
+ 746803 words of memory out of 3000000
+ 41915 multiletter control sequences out of 15000+200000
+ 586436 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,77p,1221b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ectt1095.pk>{C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/t
-ex-gyre/q-ts1.enc} <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ectt0900.pk>{C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/tex-gyre/q-ec.enc}<C:/Users/chris/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/chris/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users
-/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/tex-gyre/qtmb.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/tex-gyre/qtmr.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on ecpn_10-6-2020.pdf (31 pages, 1232823 bytes).
+ 60i,8n,77p,787b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-
+ts1.enc}{C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-g
+yre/q-ec.enc}<C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/tex-gyre/qtmb.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/chris/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on ecpn_appendix.pdf (6 pages, 267516 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 22820 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 19532 words of extra memory for PDF output out of 20736 (max. 10000000)
 
