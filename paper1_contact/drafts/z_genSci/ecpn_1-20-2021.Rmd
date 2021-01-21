@@ -1,0 +1,490 @@
+---
+title: "Promoting Peace Amid Intergroup Conflict: An Intergroup Contact Field Experiment in Nigeria"
+author: "Christopher Grady, Rebecca Wolfe, Danjuma Dawop, and Lisa Inks"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+keywords: " group conflict, intergroup contact, Nigeria, field experiment"
+thanks: "Thanks to Jake Bowers, Jim Kuklinski, Justin Rhodes, Cara Wong, Caglayan Baser, Ekrem Baser, Nuole Chen, Alice Iannantuoni, Betsy Rajala, Charla Waeiss, and Donald Beaudette for useful conversations and feedback on the many drafts of this paper.  Thanks to the Mercy Corps Nigeria team for their work implementing the peacebuilding project.  Thanks to Tahiru Ahmadu, Ibrahim Hassan, and the enumeration teams for their excellent work interviewing farmers and pastoralists.  Thanks to Hadiza Nuhu and Israel Okpe for their work as the main contact people and mobilizers in farming and pastoral communities.  Thanks to the participants in the Evidence in Governance and Politics 2015 workshop at Rice University for design input."
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 7
+    fig_width: 7
+    keep_tex: yes
+    md_extensions: +autolink_bare_uris+ascii_identifiers+tex_math_single_backslash
+    number_sections: yes
+    pandoc_args:
+    - -M
+    - secPrefix=\S
+    template: ../../../../utils/bowersarticletemplate.latex
+  word_document: default
+csl: ../../../../utils/american-political-science-review.csl
+bibliography: ../../../../utils/cdg_references.bib
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="footnotesize",    # slightly smaller font for code
+  echo=TRUE,
+  results='markup',
+  strip.white=TRUE,
+  cache=FALSE,
+  highlight=TRUE,
+  width.cutoff=132,
+  out.width='.9\\textwidth',
+  message=FALSE,
+  comment=NA)
+
+options(SweaveHooks=list(fig=function(){
+			   par(mar=c(3.5, 3, 1.1, 0),
+			       pty="s",
+			       mgp=c(1.5,0.5,0),
+			       oma=c(0,0,0,0))},
+			 echo=function(){options(continue=" ") ##Don't show "+" prompts,
+			 options(prompt=" ")
+			 }),
+	digits=4,
+	scipen=8,
+	width=132
+	)
+```
+
+
+\begin{abstract}
+
+Cooperative intergroup contact, originally designed as a tool for prejudice reduction, offers a promising means to resolve intergroup conflict. Evidence for contact-based interventions to improve intergroup relations is sparse, however, with most studies focusing only on the individuals who directly engage in contact.  We test the ability of a contact-based intervention to promote peace between conflicting groups with a field experiment in Nigeria, where farmer and pastoralist communities are embroiled in a deadly conflict over land use. We evaluate the program with surveys, direct observation of behavior in markets and social events, and a behavioral game. We find that participation in the program increases intergroup affect, feelings of physical security, and voluntary intergroup contact measured through self-reports and observed behavior in markets. Many of the program’s effects also diffuse to group members who did not directly participate in the program but who lived alongside participants.  These results suggest that reducing barriers to peace between conflicting groups is possible, and that structured intergroup contact is a promising method to do so.
+
+\end{abstract}
+
+\newpage
+
+# Introduction
+
+Contact programs used to reduce conflict.  Contact-based interventions in the lab and in the field shown to change attitudes and/or behaviors of individuals involved in the contact, even among groups in conflict [cite paluck, others].  But how do these interventions affect the wider community involved in conflict?  If cooperative contact is to improve relations between groups amid ongoing conflict, then effects of contact-based interventions must diffuse from group members who participate in the interventions to individuals who do not.
+
+For contact to be an effective peacebuilding tool at scale, its effects must diffuse beyond individuals who engage in contact.
+
+<!--
+How can groups in conflict improve intergroup relations?  Violent intergroup conflict has caused 2 million deaths since the year 2000 [@ucdp], forcibly displaced over 70 million people from their homes in 2018 [@unhcr2019], threatens food supplies in numerous countries [@verwimp2012food], and extracts a psychological toll on participants and victims [@rigterink2019isa].  Intergroup animosity perpetuates conflict long after the original grievance is immaterial or forgotten [@mcdonnel2017graze; @deutsch1973resolution; @tajfel1979integrative].  Improving intergroup relations, therefore, is vital to stem the human, economic, social, and psychological costs of violent intergroup conflict.
+
+Scholars and practitioners consider _cooperative_ intergroup contact -- contact in which members of two groups work together to achieve common goals -- to be one of the most effective tools for improving intergroup relations.[^coopCon]  Evidence for the hypothesis that contact improves intergroup relations, known as the contact hypothesis [@allport1954prejudice], goes as far back as the 1950s and motivated integrated public housing [@deutsch1951interracial] and workplace and school desegregation in the United States [@cook1971race; @cook1985experimenting; @slavin1999improving].  More recent studies demonstrated the prejudice-reducing effects of contact by leveraging or initiating random assignment to college dorms [@marmaros2006friendships], college roommates [@burns2015interaction; @boisjoly2006empathy; @van2005effect], schools [@rao2019familiarity], medical doctors [@weiss2019curing], U.S. Air Force groups [@carrell2015impact], Norwegian army barracks [@finseraas2016women], mixed sports teams [@ditlmann2016can; @mousa2020building; @lowe2020types], job training programs [@scacco2018nigeria], and cross-group discussions [@paler2020cross].  The contact hypothesis also increasingly motivates policy interventions, especially peacebuilding programs [@ditlmann2017addressing; @lemmer2015can].
+
+[^coopCon]: We will use the term _cooperative contact_ to refer to contact that meets Allport's conditions.  Those conditions are (1) intergroup cooperation (2) with equal status (3) to achieve shared goals (4) with support of local authorities.  Note that _equal status_ does not mean that the groups must have the same status in society, but that the groups share equal status in the cooperative situation.  Cooperative contact stands in contrast to other forms of incidental or unstructured contact that may not have positive effects on intergroup relations [@enos2014causal].
+
+Despite contact's many successes, scholars have only just begun to implement and analyze contact-based interventions in conflict and post-conflict settings, to mixed results.[^paluckNote]  Some studies, like @mousa2020building and @scacco2018nigeria, find that contact interventions in these settings have no impact on attitudes towards the other side but may affect some cooperative behaviors.  Others, like @weiss2019curing and @ditlmann2016can, suggest that contact in these settings can improve attitudes of some groups.  Our work adds to these studies by measuring the effects of an 18-month contact intervention in a conflict setting; we also extend these studies by analyzing contact's effects not only on the attitudes and behaviors of individuals who directly participate in the contact intervention, but also on other individuals in their communities.  If cooperative contact is to improve relations between groups amid ongoing conflict, then effects of contact-based interventions must diffuse from group members who participate in the interventions to individuals who do not.
+
+[^paluckNote]: More generally, there are even a dearth of interventions directed at improving adults' attitudes towards racial or ethnic groups [@paluck2019contact].
+
+Improving intergroup relations through contact amid violent conflict faces many challenges.  The mechanisms through which contact improves individuals' negative attitudes assume that negative attitudes result from unfamiliarity, and that "familiarity breed[s] liking" [@pettigrew2006meta p.766].  We posit that cooperative contact to achieve a common goal provides positive cross-group interactions and makes shared interests salient.  Positive interactions and awareness of shared interests counter existing negative beliefs and create cognitive dissonance [@tavris2008mistakes; @festinger1962cognitiveDissonance].  Attitudes improve when that cognitive dissonance is resolved by rejecting negative beliefs rather than justifying negative beliefs [@gubler2013humanizing].  Other group members' attitudes improve through new cooperative norms and through awareness of positive interactions and shared interests [@christ2014contextual; @wright1997extended].  Ongoing violence, by reinforcing negative beliefs and obscuring shared interests, could dull, prevent, or even reverse the predicted positive effects of contact.
+
+To learn about the capacity for cooperative contact to improve intergroup relations amidst violent conflict, we conducted a field experiment with conflicting farmer and pastoralist communities in Nigeria.  More than an occupational difference, farmers who cultivate crops and pastoralists who graze cattle define a major social cleavage in many parts of the world.  These groups fight over land rights, which define both of their livelihoods.  Farmer-pastoralist conflict has escalated throughout the Sahel in recent years, and nowhere more than in Nigeria [@hrw2018farmer].  The most recent conflict escalation has caused 7,000 deaths from 2014-2019 and displaced hundreds of thousands of people from their homes; the scale of economic damage is unknown, but farmer-pastoralist conflict _before_ this escalation cost Nigeria $13 billion annually in lost economic productivity [@council2019nigeria; @daniel2018anti; @mcdougal2015effect; @nyt2018nigeria].  In our sample, some members of each community had been killed by members of the other community in the year before the intervention began.  Ongoing violence, occupational, ethnic, and religious differences, and fighting over resources necessary for livelihoods all make this context a hard test for contact theory.  
+
+We randomly assigned communities with ongoing farmer-pastoralist violence to receive a contact-based intervention or serve as a control group.  The intervention formed mixed-group committees and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.^[The communities built boreholes, market stalls, and primary health care facilities, for example.]  The program also provided mediation training to each community's leaders and held forums where the groups discussed the underlying drivers of conflict.  We used survey and behavioral measures to assess the effects of the intervention, including pre- and post-intervention surveys, a post-intervention natural public goods behavioral game,[^PGG] and twelve months of systematic observations in markets and social events during the intervention.
+
+[^PGG]: In a public goods game (PGG), research subjects are given money and told they can keep the money or donate it to a public fund.  Money donated to the public fund is multiplied by some amount and then shared with all subjects.  Our PGG is _natural_ because it was conducted in a natural setting, rather than a lab.  The funding for the PGG came from the National Science Foundation under Grant No. 1656871.
+
+We find that the program increased intergroup affect, intergroup contact outside of the intervention, and perceptions of physical security, though it did not increase contributions in the public goods game.  We see signs of positive effects in fieldwork as well as in the data: in one of the treatment sites, farmers defended pastoralists from a group of anti-pastoralist vigilantes, rather than assist the vigilantes in removing the pastoralists and claiming their land.  Our results also show that the intervention affected communities as a whole, not just community members directly involved in the intergroup contact.  Individuals who directly engaged in intergroup contact changed the most positively from baseline to endline, but we also observe positive spillovers to group members for whom we did not exogenously increase intergroup contact.  These changes are unlikely due to social desirability bias -- we observe no differences on a placebo outcome that should be affected by social desirability but not the intervention.
+
+This study expands our knowledge about intergroup contact and intergroup conflict in two main ways.  First, this study teaches us about the capacity of intergroup contact to improve intergroup relations during a violent conflict.  Peacebuilding organizations implement numerous contact-based interventions in violent contexts each year, but few studies have causally identified these interventions' effects in conflict settings or evaluated these interventions' effects on the wider community who did not participate in the contact intervention.  Influencing the wider community is necessary for contact interventions to sustainably reduce intergroup conflict, and our results suggest that contact-based peacebuilding programs can effectively reach the wider community and improve relations between conflicting groups.
+
+Second, this study brings evidence to the debate about whether contact interventions shift attitudes, behaviors, or both.  Some contact interventions suggest contact affects some behaviors but not attitudes [@scacco2018nigeria; @mousa2020building]; others suggest contact affects attitudes but not behaviors [@paler2020cross]; still others suggest contact, on average, affects neither [@chang2019building].  Our intervention suggests that contact can affect both attitudes and behaviors.  We identify our intervention's duration and publicness as potential explanations for why we observe effects where others do not.  Most contact interventions last a relatively short time and are contained to the participants and not broadcast to the larger community.  Our intervention lasted eighteen months and the contact it organized could be observed by the wider community.  Public interventions are more likely to affect both attitudes and behaviors [@grossman2018information; @arias2019does; @adida2020does] and we expect that they are also more likely to create norms that can diffuse to other community members.
+
+<!--theoretically, if _endogenous_ contact is going to impact the group, the effects must diffuse.  Need to know about contact's effects on those who engage in contact and also on their group.  People in conflict unlikely to have lots of contact, so the people who _do_ engage in contact must somehow transfer their experiences to their ingroup.  
+
+Second, we show effects on attitudes and some behaviors.  Some other interventions found no effect on attitudes; for attitude change, possibly need long-term intervention + explicit formation of norms/bringing communities together.  
+
+-->
+
+
+# Contact hypotheses
+
+Cooperative intergroup contact has long been posited as a means to improve individuals' attitudes towards an outgroup.  Cooperative contact is contact wherein members of two groups (1) cooperate (2) with equal status (3) to achieve shared goals (4) with support of local authorities.^[Note that _equal status_ does not mean that the groups must have the same status in society, but that the groups share equal status in the cooperative situation.]  These conditions ensure positive interactions between group members.  Contact is relatively effective at this goal, even in difficult circumstances [@moussa, others].  
+
+Contact interventions also used to improve _intergroup relations_.  Requires the positive effects of contact to diffuse from the individuals involved in contact to other group members.  This diffusion to other group members can occur through changing social norms about cross-group interaction [@paluck2009jsp; @christ2014contextual] and through the knowledge that other ingroup members had positive contact with outgroup members [@wright1997extended].  Norms and awareness of intergroup cooperation shows that cross-group interaction is safe and socially encouraged.  It also creates the expectation of future interaction with outgroup members, which motivates individuals to see the outgroup more positively [@klein1992motivated; @van2019actions].  Through social diffusion, cooperative contact improves attitudes even for ingroup members with no cross-group contact.
+
+Lack of theorizing about how effects of contact move from an individual to their group, and a lack of testing of if they occur.  When and under what conditions will positive effects of contact diffuse to others in the group?  Reasons to believe it's harder to improve attitudes of groups in conflict, even if contact is effective on individuals, as recent studies suggest.  Conflict may short-circuit the diffusion of positive effects.
+
+<!--social norms paragraph -->
+**Attitudes divergent with other group members will be shut down.**  Social norms are a potent means to change attitudes and behavior, but in contexts of intergroup violence social norms may prevent rather than facilitate attitude change [@bar2007sociopsychological; @bar2017development].  These preexisting norms self-perpetuate by discouraging ingroup members with positive attitudes from displaying those attitudes, either through talking about or engaging in cross-group interaction publicly.  Group members who do not conform to these norms risk being branded as traitors [@bornstein2003intergroup].  With no opportunities to hear about or observe positive cross-group interaction, the effects of contact cannot extend to ingroup members without contact.
+
+**Other group members observing cross-group interactions won't think they are good.**  Due to psychological biases caused by the conflict, individuals may perceive cross-group interactions negatively so that those interactions conform to preexisting beliefs; individuals also more readily store and recall negative interactions that confirm preexisting attitudes than positive interactions that are dissonant with preexisting attitudes [@nickerson1998confirmation; @ward1997naive].  If individuals perceive cooperative contact negatively, contact could make attitudes worse, not better [@barlow2012contact; @paolini2010negative; @stark2013generalization].<!--  Negative contact worsens attitudes more than positive contact improves attitudes [@barlow2012contact] as individuals are more likely to attribute negative characteristics to the group and see positive things as atypical of the group [@paolini2010negative; @stark2013generalization].-->
+
+**Even if other group members see positive cross-group interactions, cognitive dissonance might cause a backlash**  Even if other group members observe positive interactions with outgroup members and perceive them as such, the resulting cognitive dissonance may not be resolved by embracing positive attitudes.  Participation in and victimization by violence motivates group members to justify their existing attitudes [@kunda1990motivatedReasoning].  Existing attitudes are harder to reject once an individual has acted on them [@tavris2008mistakes; @festinger1962cognitiveDissonance].  Once an attitude is acted upon, rejection of the attitude threatens an individual's self-identity because the individual must come to terms with his or her own immoral behavior.  Likewise, individuals are less likely to reject existing attitudes when they have personal experiences that reinforce those attitudes.  In the case of prejudice, prejudiced attitudes are least likely to be rejected when an individual has harmed or been harmed by the outgroup.  Instead of rejecting negative attitudes, violent experiences can lead individuals to resolve cognitive dissonance by justifying previous attitudes [@gubler2013humanizing] or, at best, by differentiating "good" outgroup members from typical outgroup members [@doosje1995bad].
+
+<!--Continuing violence paragraph: can prevent removing barriers to identifying shared interests.-->
+Beyond past violence, ongoing intergroup violence provides negative experiences with outgroup members that counter the positive experiences provided by cooperative contact.  These negative experiences bolster the psychological barriers to groups' identifying their shared interests.  Rather than dispelling stereotypes and alleviating feelings of threat, negative experiences reinforce negative stereotypes and justify feelings of threat.  Taking the perspective of the other side will not improve intergroup relations if taking their perspective reveals incentives for belligerence [@kertzer2018empathy].  And far from revealing common identities and interests, intergroup violence perpetuates opposing group identities and interests [@fearon2000violence].  To overcome preexisting negative beliefs, individuals need strong and consistent information that counters those existing beliefs -- a signal that the object of their belief has changed [@nickerson1998confirmation].  For that reason, some scholars believe intergroup reconciliation cannot begin until conflict is resolved [@bar2000intractable].
+
+
+<!--but it could still work! paragraph -->
+But these barriers do not mean that contact cannot improve intergroup relations for groups in violent conflict.  Conflicting groups share an interest in obtaining peace because fighting is costly [@fearon1995rationalist], and cooperative contact can make that shared interest in peace salient<!--and possible/feasible?-->.  Though existing norms likely support negative attitudes, successful intergroup cooperation can generate cooperative social norms because cooperation and peace are in the interest of both groups.  Cooperative contact also shows that the outgroup is composed of differentiated individuals [@rime2011impact], opening the possibility that past negative experiences with a few outgroup members do not characterize the entire outgroup.
+
+<!--positive attitudes diffuse to other group members through awareness of cross-group cooperation and changing social norms.-->
+
+
+# Farmer-pastoralist conflict in Nigeria's Middle Belt
+
+Nigeria's Middle Belt is plagued by violent conflict over land use.  Farmers, who claim land for agricultural production, and pastoralists, who claim land for animal grazing, increasingly clash over claims to the same land.  Both groups depend on land for their livelihoods, but their divide is also cultural, ethnolinguistic, and, in some locations, religious.  The pastoralists are almost homogeneously of the Fulani ethnic group, speak Fulfulde as their primary language, and practice Islam.  They maintain a semi-nomadic way of life, belonging to a home community but traversing vast distances to secure access to pastureland and water as seasons change.  The farmers live in sedentary villages and cultivate land for agriculture.  The ethnic group, language, and religion vary by village.  In our study, farmers came from more than a dozen ethnic groups, often residing side-by-side with one another.
+
+Historically, these communities cooperated through trade and sharing land that was abundant relative to populations.  Pastoralists would graze their animals on crop residue after harvests and follow migration paths away from farmland during planting seasons.  The groups were complementary: pastoralists gained food for their animals and farmers gained animal manure/urine to replenish soil; farmers bought milk and meat from pastoralists and pastoralists bought grains and vegetables from farmers.  There were tensions, but these were typically overcome by negotiation and violence seems to have been rare.  The Middle Belt came to be known as Nigeria's "food basket" due to the abundance of foodstuffs coming out of the region, like beef, dairy, yam, and cassava [@kazeem2018ag].
+
+In recent years, this relationship has been stressed by populations booms and climate change.  Nigeria's population at independence in 1960 was about 50 million; Nigeria's population in 2019 is estimated around 200 million.  At the same time, the Sahara's size expanded over 10%, decreasing land available for farming and grazing [@thomas2018sahara; @okpara2015conflicts].  As the number of farmers, pastoralists, and mouths to feed increased, the amount of land available to produce food declined.  These factors also pushed pastoralists southward, towards farming communities with whom the pastoralists had no preexisting relationship.  Land scarcity and new migrants jeopardize traditional cooperative agreements that have managed farmer-pastoralist interactions for decades [@cotula2004land; @kuusaana2015land].  Sharing land is easier when people are scarce and land is plentiful; it is not so easy when land is scarce and people are plentiful.
+
+Government policies exacerbated the issues caused by demographic and geographic changes.  Land privatization encouraged farmers to plant crops that occupy land continuously, like orchards, and effectively nullified farmer-pastoralist land sharing agreements [@bassett2009mobile].  Official cattle reserves for moving herds are rarely enforced by the government, leading farmers to plant crops in once-protected areas and further limiting pastoralists’ available grazing space.  The “indigene versus settler” policy limits economic and political rights to certain ethnic groups in each state, often denying the "settler" pastoralists the ability to own land and run for political office [@nigeria2014freedom].
+
+These stressors have sparked violent conflict between farmers and pastoralists in recent years [@fa2019deadly]. The most recent conflict escalation, beginning roughly in 2014, has caused 7,000 deaths [@council2019nigeria] and displaced hundreds of thousands of people from their homes [@daniel2018anti; @nyt2018nigeria].  The scale of economic damage is unknown, but farmer-pastoralist conflict _before_ this escalation cost Nigeria $13 billion annually in lost economic productivity [@mcdougal2015effect].  This violence has impeded food production, leading to an impending food crisis [@fa2019deadly; @frontera2018nigeria; @unah2018nigeria].  Compounding matters, several state governments have responded to the conflict by enacting anti-grazing laws.  These laws spark more violence because many pastoralists, not unreasonably, viewed the law as biased against their way of life.  In the state of Benue, the government mobilized state-sanctioned vigilante groups called "livestock guard" to enforce the law, but the livestock guard have often gone beyond guarding farmland and instead acted aggressively and offensively against pastoralists [@duru2018court].
+
+Though we have discussed the conflict as between two large and cohesive groups ("Farmers" and "Pastoralists"), the conflict occurs between numerous small, independent farming and pastoral groups.  The groups typically reside a couple miles from each other -- like people from the next town over.  These independent groups are aware of the broader context of farmer-pastoralist conflict, but their concerns are local and mostly unrelated to what happens in distant villages.  Different versions of the same story initiate and sustain the local conflicts.  First, cattle graze on farmland.^[In past decades, compensation for crop damage would have been standardized, but these traditional agreements have fallen apart in recent years [@cotula2004land; @kuusaana2015land].  With no agreed upon compensation and no authority to punish illegal grazing or illegal cattle rustling, groups take justice into their own hands.]  Next, a farmer retaliates by stealing cattle from the pastoralists (because the farmer does not know _which_ herd grazed on his land, the stolen cattle do not necessarily come from the transgressing herd).  This cycle continues and eventually explodes when a member of one side physically attacks a member of the other side.  From there, a little war often breaks out.  As one reporter noted, "The countryside is littered with the charred ruins of homes, schools, police stations, mosques and churches." [@mcdonnel2017graze].
+
+Farmer-pastoralist conflict poses a tough test for intergroup contact to improve group relations.  The material, social, and psychological incentives of these groups are opposed.  They want the same land for different purposes and their livelihoods depend on that land.  The groups are involved in a bloody, violent, and escalating conflict for land in which thousands of farmers and thousands of pastoralists have been killed by members of the other group.  Within an individual's community, several people will have been attacked or killed; several others will have attacked or killed members of the other side.  To justify killing, groups create collective myths about the retaliatory/defensive nature of their belligerent action and the iniquity and inhumanity of the other side.  Despite their physical proximity, the groups have little to bond over; they are distinct culturally, ethnically, linguistically, and often religiously.  And finally, government favoritism of farmers over pastoralists creates a power disparity between the groups.
+
+<!--One para on why it could still work. -->
+Despite the forces pushing these groups into conflict, their interests are not completely misaligned.  Peace is in the interest of both groups because fighting is costly, both materially and psychologically.  The conflict has destroyed billions of dollars in agricultural produce, animal products, and physical infrastructure.  Crops have been destroyed, cattle stolen, homes burned, and neighbors murdered.  Farmers fear violence when working in their fields; pastoralists fear violence when grazing their cattle.  Peace can end the economic, social, and human costs.  Moreover, the groups formerly maintained mutually beneficial trade agreements: farmers trade the crop residue left on their fields for animal manure/urine to replenish soil; farmers traded grains and vegetables in exchange the pastoralists' milk and meat.  Peace rekindles the possibility of these mutually-beneficial trade agreements.  Cooperative intergroup contact should improve intergroup relations by making salient these shared interests.
+
+<!--One paragraph relating Nigerian conflict to other parts of the world conflicts. Can learn about conflict/contact generally from farmer-pastoralist example. -->
+<!--
+Farmer-pastoralist conflict is not confined to Nigeria's Middle Belt.  Farmer-pastoralist clashes are a persistent problem throughout the Sahel and savanna areas of Africa, including Mali, the Ivory Coast (Bassett 1988, 2009), Niger (Thebaud and Batterbury 2001), and Ghana (Tonah 2002).  Farmer-pastoralist clashes are destabilizing to these countries politically, socially, and economically.  Similar group dynamics exist in Europe with Roma, an outgroup viewed as culturally, ethnically, and linguistically distinct and apart from the rest of the polity.  Similar conflict dynamics exist between Jews and Arabs, who also conflict over land that both groups claim.  Scholars can learn about intergroup conflict generally from farmer-pastoralist conflict in Nigeria's Middle Belt.-->
+
+## Intervention: Engaging Communities for Peace in Nigeria
+
+To address farmer-pastoralist conflict, Mercy Corps, an international humanitarian and development organization, implemented a two-year, USAID-funded program titled Engaging Communities for Peace in Nigeria (ECPN) in Middle Belt sites embroiled in violent conflict. The main objective of the program was to foster positive contact between farmers and pastoralists, improve attitudes, improve intergroup relations, and ameliorate conflict.  Mercy Corps implemented the project in two Middle Belt states, Benue and Nassarawa, which have been focal points for farmer-pastoralist conflict. 
+
+The intervention formed mixed-group project committees with equal numbers of farmers and pastoralists and provided them with funds to build infrastructure that would benefit both communities; committees then collaboratively chose and constructed infrastructure projects.  The intervention began with separate farmer and pastoralist community meetings to avoid negative contact experiences.  These intra-community meetings were followed by the creation of the mixed-group project committees.  Each joint project committee consisted of about 16 members, half from the farmer community and half from the pastoralist community.  The committees included women and youth representatives from both sides, so the participants represented major demographic segments of each community.
+
+Each project committee received two grants, one for quick-impact projects, of approximately \$2,000, and one for joint economic projects, of approximately \$25,000.  The quick-impact projects were conceived as a trust-building initiative, intended to let community members see that cooperation was possible.  These projects, managed by both farmers and pastoralists, included hand pumps; construction or renovation of market stalls, schools, and health centers; and construction of fences along grazing routes to protect farmlands and avoid accidental crop damage. The joint economic development projects aimed to address an underlying issue related to the conflict: sharing of resources that impact livelihoods. Pollution of water, affecting both farming and livestock, was the primary issue people raised.  As a result, each site chose to build a new borehole well, with members of both farmer and pastoralist communities helping to construct the wells.  
+
+To ensure support of authorities, the program involved community leaders from both sides in all aspects of the projects.  They were involved in the quick-impact projects and joint economic development projects.  Mercy Corps also provided mediation training to each community's leaders and held forums where the groups, including community leaders, discussed the underlying drivers of conflict.
+
+These projects were designed with the conditions of Contact Theory in mind.  Groups (1) cooperated with (2) equal status to achieve (3) shared goals with (4) support of local authorities.  These projects were meant to help the groups solve, through intergroup cooperation, problems relevant to both groups.  This would reveal to groups that they shared many of the same struggles and that cooperation could help them overcome these struggles.
+
+In the next section we describe the research design to determine the effects of intergroup contact on intergroup attitudes and behaviors.
+
+# Research Design
+
+We evaluate the effects of Engaging Communities for Peace in Nigeria (ECPN) with a site-level field experiment.  Each site contains two communities, one of farmers and one of pastoralists.  The communities within a site engaged in deadly clashes within one year of our scoping exercise.[^scope]  We identified fifteen sites (thirty communities) eligible for the study and surveyed ~50 randomly selected respondents per community.  We then randomly selected the communities in ten of fifteen sites to receive the intervention, blocking by state so that an equal proportion of sites in Benue and Nassarawa received the program.  After 18 months, we surveyed another ~50 randomly selected respondents and ~10 respondents from the baseline survey per community.  In between the surveys, we monitored farmer-pastoralist interactions in markets and at social events.^[This experimental design was pre-registered with Evidence in Governance and Politics (EGAP) under ID 20150716AA.  The preregistration can be found at http://egap.org/registration/1242.  Between preregistration and analysis, we received feedback and modified the analysis plan.  Our modifications can be found here: to be linked.]<!--chris: file deviations and add link. -->
+
+[^scope]: To identify eligible sites, we undertook a scoping exercise to determine if the two communities in a potential implementation site had a demonstrated need for a peacebuilding program and were willing to participate in one.  We defined “demonstrated need” as the communities engaging in violent clashes within one year of the scoping exercise. Willingness to participate in the program was obtained through conversations with community leaders, none of whom refused the program.
+
+This design gives us two datasets to analyze.  First, we aggregate the randomly-sampled individuals to compare communities before and after the intervention.  The main goal of this analysis is to learn about the effect of implementing the ECPN intervention in a community on the community as a whole.  Communities were randomly assigned to receive the intervention or function as a control group, which allows us to determine the causal effect of the intervention at a community-level.  This comparison between communities that received or did not receive the intervention is our main analysis.<!--chris: i don't like 2nd sentence but couldn't easily improve it. -->
+
+Second, we supplement the community-level analysis by creating a dataset of ~10 respondents per community before and after the intervention.  The main goal of this analysis is to learn about the effect of participating directly in ECPN committees, and thus directly experiencing intergroup contact, and the effect of living in communities where ECPN was implemented but not participating in committees, and thus only experiencing indirect intergroup contact.  From our baseline random sample, we identified and resurveyed (1) ECPN committee participants (_participants_), (2) respondents who lived in intervention sites but did not participate in ECPN committees (_nonparticipants_), and (3) respondents from the control group (_controls_), who neither participated in ECPN committees nor lived in communities where ECPN was implemented.  We then compare the change of participants and nonparticipants in intervention sites to the change in controls.  Our ability to make generalizable causal claims about participation is limited, though, because individuals in intervention sites were not randomized into participation or nonparticipation with ECPN committees.[^indRand]
+
+[^indRand]: We initially randomly assigned baseline survey respondents to be part of ECPN committees, but random assignment proved difficult. Many people who were not selected wanted to be on the committees, and some people who were selected were not able to participate or could not be located when the committees were launched. As a result, people self-selected into committees.
+
+In total, we randomly sampled 1539 respondents at baseline in 2015.  1027 of those respondents were in intervention sites and 512 were in control sites.  At endline, we resurveyed 287 of those respondents.  74 of those respondents directly participated in ECPN, 121 were in intervention sites but did not participate, and 92 were in control sites.  At endline, we also randomly sampled 1523 respondents, 1028 in intervention sites and 495 in control sites.
+<!--
+[chris: figure showing sampling strategy, numbers per group, and timeline.]
+-->
+
+## Estimation
+
+<!--
+- controlling for vs differencing
+- randomization inference
+- bootstrapping SEs
+-->
+
+Here we describe our estimation procedure for the community-level analysis and the individual-level analysis.  For both analyses we estimate one-tailed tests because our hypotheses are that the change in outcomes for treatment units will be _greater than_ control, not that the change in outcomes for treatment units will be _different_ than control.^[Note that for one-tailed tests, $p$-values above 0.50 indicate that the coefficient moved in the opposite direction of the alternative hypothesis.]  Both analyses also use randomization inference for $p$-values and bootstrapping for standard errors.  The specifics of each procedure are described in Appendix A.
+
+We use two estimators to estimate the treatment effect of the intervention.  When treatment groups are balanced on the baseline outcome, we use the baseline outcome as a covariate to predict the endline outcome, as seen in equation 1.  When treatment groups are not balanced on the baseline outcome, we use the change score of the outcome as Y, as seen in equation 2.[^control_vs_diff]
+
+[^control_vs_diff]: We use two different equations because the effectiveness of each equation depends on the correlation between treatment assignment and baseline outcomes.  The "controlling-for" method of equation 1 is more precise but is biased when treatment assignment correlates with baseline outcomes.  The "differencing" method of equation 2 is unbiased but less precise.  For a comparison between these methods, see https://declaredesign.org/blog/2019-01-15-change-scores.html.
+
+\medskip
+
+$Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + X_{i,j} + \delta_j + \epsilon_{i,j}$
+
+\medskip
+
+\noindent Where $i$ is the community in state $j$, $Z$ is the treatment indicator, $X$ is the outcome at baseline, and $Y$ is the outcome at endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+
+\medskip
+
+$Y_{i,j} = \beta_0 + \beta_1Z_{i,j} + \delta_j + \epsilon_{i,j}$
+
+\medskip
+
+\noindent Where $i$ is the community in state $j$, $Z$ is the treatment indicator, and $Y$ is the change in outcome from baseline to endline. $\delta$ is a fixed effect for the state $j$ in which the community belongs.
+
+We use randomization inference for $p$-values and bootstrapping for standard errors because our units of analysis, communities and individuals, are clustered in sites and we have only fifteen sites.  Analytic standard errors may underestimate the uncertainty of our causal estimate.  Bootstrapping yields a distribution of possible treatment effects given the observed data, and the 95% confidence interval is between the coefficients at the 2.5th percentile and the 97.5th percentile.
+
+<!--chris: observations in markets and social events are not using these questions.  They use quantile regression and don't collapse the 0,1 time points into an average at baseline and an average at endline.-->
+
+## Outcomes
+
+We measured four outcomes to estimate the effect of the intervention: (1) intergroup affect, (2) intergroup contact, (3) intergroup coordination in a public goods game, and (4) perceptions of physical security.  If the intervention improved intergroup relations, we would expect treated respondents to report better attitudes towards the outgroup and less insecurity due to violence; we would also expect treated respondents to engage in more intergroup contact, express more willingness to engage in intergroup contact, and donate more money to a joint fund in a public goods game.  We measured these outcomes with survey self-reports, survey experiments, a natural-field behavioral game, and monitoring of farmer-pastoralist interaction in markets and social events.
+
+For most survey self-reports, we combine together several survey questions to create an index.  We create both additive indices and inverse-covariance weighted indices. Inverse-covariance weighting constructs an index by down-weighting index questions that are correlated with other index questions and up-weighting those that are uncorrelated with other questions. This approach maximizes the amount of unique information the index takes from each question and prevents “double counting” when two questions measure the same underlying concept.  We report results using inverse-covariance weighted indices, but results hold with additive indices.  Results with additive indices are included in Appendix B.
+
+<!--[chris: table of main outcomes, questions in the index, and index alphas.]-->
+
+We separate outcomes into attitudes and behaviors.  Under attitudes, we place affect towards the other group and perceptions of physical security (how safe respondents feel engaging in various activities).  Under behaviors, we place voluntary intergroup contact and cooperation in a public goods game.
+
+**Intergroup affect**: Our first attitudinal outcome is affect towards the other side.  A primary goal of our contact intervention, and of much previous contact research, was to improve individual's attitudes towards the other side.  Changing attitudes towards the other side is one pathway towards improving intergroup relations and changing behavior, though not the only pathway [@paluck2009jsp; @scacco2018nigeria].
+
+We measure intergroup affect with survey self-reports and an endorsement experiment.  The survey questions include two measures of intergroup trust and a five item social distance scale created for the farmer-pastoralist context.
+
+In an endorsement experiment, respondents are asked how much they support a hypothetical policy. In the treatment condition, the policy is ‘endorsed’ by a group that the respondent has a positive or negative opinion about. In the control condition, the policy is not endorsed by any group. The average difference in support between the endorsed and unendorsed policy represents the change in support for the policy because of the group's endorsement.  In our case, we asked respondents how much they would support a water policy if it was endorsed by a farmer organization (asked of pastoralists), if it was endorsed by a pastoralist organization (asked of farmers), or if no endorsement was mentioned (the control condition posed to both pastoralists and farmers). Support was measured on a 5-point scale, where high values indicated support and low values indicated opposition.
+
+**Perceptions of physical security**: Our second attitudinal outcome is feelings of insecurity due to conflict.  The end goal of the intervention is to reduce conflict between farmers and pastoralist.  The disaggregated and diffuse nature of the conflict makes obtaining an accurate measure of violent conflict extremely difficult.[^vioConf]  Instead of attempting to count , we measured the effect that violent conflict has on individuals.  We ask respondents if they avoid any areas during the day or night due to insecurity and if insecurity prevented them from engaging in various activities, such as grazing their animals, working on their farms, fetching water for their families, and working for wages.  We combined these ten questions into an index, with high values indicating security and low values indicating insecurity.
+
+[^vioConf]: Asking respondents to recount the number of violent events does not accurately measure the scale of the conflict because those answers are determined by the awareness and memory of the community members.  Awareness of individual violent events is low because many of the violent events occur in fields and grazing routes far from the town center and residential areas.  In addition, the intervention sought to increase awareness of violent events through its conflict forums.  The type of event that all community members are aware of -- large massacres, burning of homes, etc... -- generally lead to the disintegration of both communities as community members flee the area fearing further violence or reprisals.  These large-scale events are rare and we know of none occurring in intervention or control communities during the study.
+
+**Intergroup contact**: Our first behavioral outcome is intergroup contact that occurs outside of the intervention.  Natural, voluntary intergroup contact provides behavioral evidence that farmer-pastoralist relations are improving.  We measure intergroup contact with survey self-reports, monitoring of farmer-pastoralists interactions in markets and social events, and a survey experiment.^[Much of the self-reports and the observations are overdispersed count data.  We recode all count data as rank.]
+<!--
+[^listExp]: We also attempted to measure willingness to engage in contact with a second survey experiment, a list experiment.  List experiments are used to provide anonymity to respondents and encourage them to give honest answers to sensitive questions.  In a list experiment, the researcher randomly assigns respondents to one of two (or more) conditions. Individuals in the control condition are presented with a list of three items; individuals in the treatment condition see the same list plus an additional item, which is the item of interest and the one on which the experimenter wants to ensure the respondent of anonymity.  Subjects are asked how many items apply to them.  The average difference between the treatment and control conditions represents the percentage of respondents who responded to the sensitive item.  In our case, the sensitive item read "When you have to interact with a member of [the other group] in the market."  Our list experiment failed.  The endline difference between the 3-item list and the 4-item list is negative in almost half of all communities, implying that the presence of the 4th item slightly decreased the number of reported items.  This decrease violates the assumptions of the list experiment.  The average difference between the 3-item list and the 4-item list should not be negative; the addition of a 4th item should not decrease the propensity of subjects to respond to other items.  We therefore exclude the list experiment as a measure.-->
+
+The self-reports and behavioral observations tell us the descriptive change in intergroup contact.  The survey self-reports ask if and how often the respondent interacted with the other group in the past month. The respondents are asked about interaction in markets, at public social events, in the respondent's own home, at the home of a member of the other group, and in any other way.  The responses are then ranked, scaled from 0-1, and combined into an index.
+
+The behavioral observations in markets and at social events provide a measure of contact independent of response biases.  In the markets, we measured interactions related to buying and selling market goods, such as the number of farmer and pastoralist sellers present and the number of farmer and pastoralist buyers.  We then create a _farmers index_ and a _pastoralists index_ to measure the presence of farmers and pastoralists in the market.  At social events, we measured the number of members of the other group in attendance and the number who ate or drank anything,^[Taking food or beverages at a social event is a sign of closeness and intimacy in these contexts. Casual attendees would not take food or beverages] both in absolute numbers and as a percentage of total attendees.  We then create measures for the number of farmers and pastoralists _attending_ social events and the number of farmers and pastoralists _eating_ at social events.^[Observations were made in two periods: July 2016 – February 2017, immediately after the project commenced but before joint project committees convened, and September 2017 – December 2017, after project committees convened but before the endline survey began.  Events that occurred February 2017 or earlier are baseline measurements; events occurring September 2017 or later are endline measurements.]
+
+A survey experiment, which we are calling the _percent experiment_, tells us about respondents' willingness to engage in contact.  It asks respondents two questions about their willingness to interact with members of the other side.  We asked respondents if they would (1) join a group and (2) live in a community with some percentage of the other group.  The percentage is randomized between 5%, 25%, 50%, and 75%; the percentage is the same for those two questions but varies across individuals.  We take the mean response so that a respondent saying yes to both is assigned a 1, a respondent saying yes to one is assigned a 0.5, and a respondent saying no to both is assigned a 0.  These questions allow us to determine if treatment communities become more willing to interact with outgroup members and if treatment communities become less sensitive to higher proportions of the outgroup.^[This experiment was based on a question from the General Social Survey (GSS) asking respondents if they would favor or oppose living in a neighborhood that was half white/black.]
+
+**Intergroup Cooperation**: Our second behavioral outcome is donations in a public goods game, which we used to measure the capacity of groups to cooperate towards common goals.  These groups are faced with many challenges -- such as water scarcity and land use -- that benefit from intergroup cooperation.  If the intervention helped groups cooperate across group lines or encouraged the development of a superordinate identity, then we expect those communities to donate more in a public goods game where the donated money goes to help both groups.
+
+We designed this public goods game as a natural-field game, not a lab-in-the-field.  In a natural-field game, respondents are put into a choice-making situation akin to the choices they make in their lives and are not aware they are participating in an experiment [@harrison2004field; @winking2013natural].  Compared with lab-based behavioral games, where choice-making situations are necessarily artificial, the choice-making situation of a natural-field game is more realistic and should elicit behavior closer to behavior in non-experimental contexts.^[The public goods game our respondents participated in is similar to the one implemented by @fearon2009can as part of a study on community-driven development in Liberia.]
+
+Because individuals in these communities often decide how to contribute to public goods in the form of community development projects, such as repairing a borehole or building a market stall, we offered respondents the opportunity to participate in a development project.  Respondents contributed none, some, or all of 1000 Naira (~$3) to a development project committee that comprised of an equal number of farmers and pastoralists.  Respondents participated in this public goods game in their own homes.  1000 Naira is about half a week of work for the median respondent in our survey.
+<!--Chris: above paragraph not well written yet -->
+
+These designs and measurements put us in a strong position to identify effects if effects exist.  First, we have data at the community-level and individual-level.  If the two analyses show similar relationships, we can be more sure that those relationships are not spurious.  Second, both community and individual-level analyses use a difference-in-differences design (baseline/endline + control group) to differentiate a secular trend from a treatment effect.  Many changes occurred in the social environment between the beginning and the end of the intervention that could change  intergroup relations, such as the economic downturn in Nigeria and the anti-grazing law in Benue.  By comparing the change in the treatment group to the change in the control, we are more certain that differences are due to the intervention and not other factors.  Third, outcomes are measured using survey self-reports, survey experiments, a behavioral game, and monitoring of social behavior.  If we observe similar relationships across multiple modes we can be more certain that the relationship is not spurious.
+
+
+# Results
+<!--chris: revisit pgg -- is it a significant decrease? -->
+Our major finding is that the intervention improved intergroup affect, spurred voluntary intergroup contact, and increased feelings of physical security.  The program had the largest impact on respondents who participated on ECPN committees, but the effect extended to respondents who did not participate on committees.  The intervention, however, did not affect donations in the public goods game.  We use coefficient plots to report average treatment effects in our community-level data and in our individual-level data.  We also use coefficient plots to show differences between participants, nonparticipants, and controls in our individual-level data.  All coefficient plots show 95% confidence intervals and standardized coefficients.
+
+<!--chris: putting the figs together
+\begin{figure}[!h]
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../../../figs/ecpn_coefplots_MainOuts-cats.png}
+		\caption{Look at fig 1!}
+		\label{fig:fig1}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{.48\textwidth}
+		\includegraphics[width=\linewidth]{../../../figs/ecpn_coefplots_MainOuts_panel-cats.png}
+		\caption{Look at fig 2!}
+		\label{fig:fig2}
+	\end{minipage}
+\end{figure}
+-->
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\textwidth]{../../../figs/ecpn_coefplots_SurveyOuts-cats.png}
+\caption{\label{fig:fig1} \textbf{Effect of treatment assignment on outcomes in community-level and individual-level data.} Points are average treatment effects versus control estimated using OLS. Lines are bootstrapped 95\% confidence intervals.  Solid lines are effects in the community-level data, dashed lines are effects in the individual-level data.  The first set of effects concern intergroup affect; the second set concern voluntary contact; the third concerns security; the last concerns intergroup cooperation.  Effects in the figure are positive if the intervention improved outcomes and negative if it worsened outcomes.}
+\end{figure}
+
+Figures \ref{fig:fig1} and \ref{fig:fig2} show the intervention's effect on the survey and behavioral game outcomes.  Figure 1 shows the main analyses, where the solid lines are the community-level data and the dashed lines are the individual-level data.  Figure 2 shows participants and nonparticipants compared to controls.  From top to bottom, the outcomes are ordered to correspond with: (1) intergroup affect, (2) intergroup contact, (3) perceptions of physical security, and (4) intergroup cooperation.  The analysis of survey experiments is only possible in the community-level analysis.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\textwidth]{../../../figs/ecpn_coefplots_MainOuts_panel-cats2.jpg}
+\caption{\label{fig:fig2} \textbf{Effect of treatment assignment on participants and nonparticipants.} Points are average treatment effects versus control estimated using OLS. Lines are bootstrapped 95\% confidence intervals.  Solid lines are effects among participants, dashed lines are effects among nonparticipants living in treatment communities.  Effects in the figure are positive if the intervention improved outcomes and negative if it worsened outcomes.}
+\end{figure}
+
+Figure \ref{fig:obs} shows the intervention's effect on behavior observed in markets and at social events.  From top to bottom, the outcomes are ordered to correspond with: (1) the number of pastoralist buyers and sellers in markets , (2) the number of farmer buyers and sellers in markets, (3) attendance from each group at social events hosted by the other, and (4) food eating by each group at social events hosted by the other.  These analysese are only possible at the community level because we did not identify specific individuals at social events or in markets.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\textwidth]{../../../figs/ecpn_coefplots_markEvents.png}
+\vspace{-3cm}
+\caption{\label{fig:obs} \textbf{Effect of treatment assignment on behavior in markets and at social events.} Points are average treatment effects versus control estimated using quantile regression. Lines are 95\% confidence intervals.  Effects in the figure are positive if the intervention improved outcomes and negative if it worsened outcomes.}
+\end{figure}
+
+
+## Intergroup Affect
+
+The intervention bolstered intergroup affect in treatment communities.  Compared to control communities, respondents in treatment communities report more trust in the other group and are more comfortable engaging in various relationships with the outgroup, such as trading goods and intermarriage.  Intergroup affect as measured by the endorsement experiment also improves more in the treatment group than the control group, though the difference is not statistically significant at conventional levels.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectComm_plot.png}
+		\caption{\textbf{Descriptive change in community-level intergroup affect from baseline to endline.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:fig3}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectPan_plot.png}
+		\caption{\textbf{Descriptive change in individual-level intergroup affect from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
+		\label{fig:fig4}
+	\end{subfigure}
+\caption{\textbf{Intergroup Affect.} Moving up the Y-axis indicates improved affect between groups.}
+\end{figure}
+
+Figures \ref{fig:fig3} and \ref{fig:fig4} show the descriptive change in affect for treatment and control communities.  Affect in control communities decreased from baseline to endline, while intervention communities improved over the same time period.  As measured by the endorsement experiment, affect declines in both treatment and control communities, but declines more in control communities.  Both measures suggest that the intervention improved affect towards the outgroup.
+
+## Perceptions of Physical Security
+
+The intervention substantially increased feelings of security in the treatment group.  The effect is large in both the community-level and the individual-level data.  Perceptions of physical security in treatment communities improved far more from baseline to endline than in control communities.  At the individual-level, participants and nonparticipants improved equally, suggesting that these increases reflect a change in the conflict environment that impacts the entire community, not just respondents involved in ECPN committees.  These improvements in treatment communities are especially powerful because other survey questions show that the intervention increased awareness of the conflict -- respondents in treatment communities are more likely than the control to know that violence between groups has occurred recently, yet they feel more secure.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot.png}
+		\caption{\textbf{Descriptive change in community-level insecurity from baseline to endline.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:fig7}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inPan_plot.png}
+		\caption{\textbf{Descriptive change in individual-level insecurity from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
+		\label{fig:fig8}
+	\end{subfigure}
+	\caption{\textbf{Perceptions of Physical Security.}  Moving up the Y-axis indicates improved security.}
+\end{figure}
+
+Figures \ref{fig:fig7} and \ref{fig:fig8} show the descriptive change in perceptions of physical security for treatment and control communities.  The security perceptions of control communities improved slightly from baseline to endline but security perceptions in treatment communities improved substantially more over that same period.  Treatment communities initially felt less secure than control communities but felt more secure at the end of the program.
+
+## Contact
+
+The effect of the intervention on contact is substantial.  Respondents in treatment communities report more contact and more willingness to engage in contact at all levels of the percent experiment; we also observe more pastoralists in markets interacting with farmers.  Since the markets are all located in the farming community, the sustained presence of pastoralists there suggests that (1) farmers were accepting/tolerant of pastoralists in their community and (2) pastoralists felt comfortable spending time in the farmer community.  The number of farmers present in the markets does not change in either group, which makes sense because the market is inside the farming community.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conComm_plot.png}
+		\caption{\textbf{Descriptive change in community-level voluntary contact from baseline to endline.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:fig5}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conPan_plot.png}
+		\caption{\textbf{Descriptive change in individual-level voluntary contact from baseline to endline.} Red line is participant average, dark red line is nonparticipant average, blue line is control average.}
+		\label{fig:fig6}
+	\end{subfigure}
+	\caption{\textbf{Voluntary Contact.}  Moving up the Y-axis indicates improved contact between groups.}
+\end{figure}
+
+Figures \ref{fig:fig5} and \ref{fig:fig6} show the descriptive change in contact for treatment and control communities.  The community-level self-reports show that intergroup contact declined sharply in control communities but rose slightly in treatment communities.  The intervention was able to increase contact even as the social environment led to a sharp decline in control sites.  At the individual-level, intergroup contact increased at the same rate for nonparticipants and controls but increased a great deal more for committee participants.  This parallel relationship for nonparticipants and controls contradicts the large community-level effect, which suggested that the effects of the intervention extend to nonparticipants in treatment communities.  One plausible explanation is that the effect on nonparticipants did not extend to the type of nonparticipant we could track down and resurvey; another explanation is that the type of control individual we could track down for resurveying increased their intergroup contact even as the rest of the community decreased theirs.
+
+## Intergroup Cooperation
+
+The results of the PGG suggest that the intervention did not affect respondents' capacity to cooperate with the outgroup.  Figures \ref{fig:pggComm} and \ref{fig:pggPan} show the descriptive difference in the proportion of respondents who donated and average donation amount for treatment and control communities at endline.  Respondents in treatment communities were slightly more likely to donate any amount, but had a lower average donation than control communities.  In the individual-level data, participants and nonparticipants in treatment communities were also slightly more likely to donate any amount than controls, but the average donation amount is highest among controls and lowest among ECPN participants.<!--  The difference in donation amounts is systematic, but the difference in the proportion of respondents who donated was due to a very low donation rate in one control community, rather than at trend describing all communities.  While it could be meaningful that the low outlier is a control community and not a treatment community, this could also be due to random chance.-->
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/pggComm_plot.png}
+		\caption{\textbf{Descriptive difference in community-level donations to a public good at endline.} Red bar is treatment site average, blue bar is control site average.}
+		\label{fig:pggComm}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/pggPan_plot.png}
+		\caption{\textbf{Descriptive difference in individual-level donations to a public good at endline.} Red bar is participant average, dark red bar is nonparticipant average, blue bar is control average.}
+		\label{fig:pggPan}
+	\end{subfigure}
+	\caption{\textbf{Donations in public goods game.}  Moving up the Y-axis indicates a greater percentage of respondents donating and a higher average donation amount.}
+\end{figure}
+
+Our fieldwork suggests that the public goods game was not an effective measure of intergroup cooperation in this instance.  For example, a control community raised the most money, with respondents donating over half of the PGG money to the community fund.  Without context, the data says that this community is highly cooperative.  However, the divisions in this community were so problematic that the farmers and pastoralists could not agree on who would hold the money they raised.  The community fund had to be held at Mercy Corps' Abuja office until the communities decided how to spend the money.  This and other experiences indicate that donations were not primarily motivated by feelings towards the outgroup and were more likely motivated by ingroup norms and the possibility of proving to Mercy Corps that their community was a good community to run a program.<!--chris: footnote other plausible explanations?  Like no need to signal to other group, no need to signal to MC, feeling like the respondents should be compensated... -->
+
+## Exploring these effects: state-level differences
+
+We note that some of our findings are due to outcomes worsening in control sites rather than improving in treatment sites. To understand these trends in greater depth, we explored state-level differences.  We chose to look at state-level differences because Benue experienced an exogenous shock before the endline survey that may explain worsening outcomes in the control group.  Benue, which always suffered more violent conflict than Nassarawa, enacted an anti-grazing law making it illegal for pastoralists to graze animals outside of fenced in areas.  This law led to violence and a migration of pastoralists out of Benue and into surrounding states, like Nassarawa.[^benSamp]  State-level differences in the effectiveness of the intervention tell us about the effects in these differing contexts.  This study is not powered to detect statistical differences between treatment and control groups within Nassarawa and Benue, but we can look descriptively at differences between treatment and control group's within each state.
+<!--This law led to armed vigilante groups attacking pastoralists, reprisals from pastoralists, a mass exodus of pastoralists from Benue, and the mobilization of military police to stabilize the situation.  Some communities had moved out of their villages and into temporary camps to avoid the violence.  In Nassarawa, dealing with influx of pastoralists fleeing Benue.-->
+
+[^benSamp]: The violence in Benue drove some of our treatment and control communities out of their traditional settlements.  We describe the steps we took to survey those communities in the appendix.
+
+**Affect**: The overall analysis above suggested that the intervention increased intergroup affect despite a strongly negative secular trend.  Figures \ref{fig:affect_nas} and \ref{fig:affect_ben} show baseline-endline changes for intergroup affect in Nassarawa and Benue, respectively.  Disaggregating by state, we see that affect improved in treatment sites relative to control sites in both states.  The overall secular trend is due to the sharp decline in Benue, where affect fell sharply in control sites while declining only slightly in treatment sites.  In Nassarawa, affect improved modestly in both types of sites and increased most in treatment sites.  
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level intergroup affect from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:affect_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/affectComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level intergroup affect from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:affect_ben}
+	\end{subfigure}
+	\caption{\textbf{State-level intergroup affect.}  Moving up the Y-axis indicates improved affect between groups.}
+\end{figure}
+
+**Contact**: Figure \ref{fig:fig5} above suggested that the intervention increased contact despite the social environment leading to a sharp decline in control sites.  Figures \ref{fig:con_nas} and \ref{fig:con_ben} show baseline-endline changes for intergroup contact in Nassarawa and Benue, respectively.  The overall secular decline is likely due to the displacement in Benue, where intergroup contact went down for every group, though it declined far less in treatment sites. In Nassarawa, intergroup contact increased in both treatment and control sites, but far more in treatment sites.  These results suggest that the intervention increased intergroup contact both in the context of a pastoralist exodus (Benue), and a pastoralists influx (Nassarawa).^[These patterns should not be interpreted as floor and ceiling effects.  Eight of thirty communities reported contact higher than the 0.60 mean in Nassarawa, and seven of thirty communities reported less contact than the 0.08 mean in Benue. 0.08 and 0.60 are unlikely to be floor and ceiling when 50% of communities went beyond them.] <!--chris: could make a boxplot for the appendix. -->
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level intergroup contact from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:con_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/conComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level intergroup contact from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:con_ben}
+	\end{subfigure}
+	\caption{\textbf{State-level intergroup contact.} Moving up the Y-axis indicates improved contact between groups.}
+\end{figure}
+
+**Perceptions of Physical Security**: The overall analysis above indicated that perceived physical security improved much more in intervention sites than in control sites.  Figures \ref{fig:in_nas} and \ref{fig:in_ben} show baseline-endline changes for perceived security in Nassarawa and Benue, respectively.  Perceptions of security in Nassarawa treatment sites increased substantially, while perceptions of security in Nassarawa control sites remained unchanged.  Perceptions of security in both treatment and control sites in Benue increased, but moreso in treatment sites.
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_nas.png}
+		\caption{\textbf{Descriptive change in community-level security from baseline to endline in Nassarawa.} Red line is treatment site average, blue line is control site average.}
+		\label{fig:in_nas}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{.48\textwidth}
+	\centering
+		\includegraphics[width=\linewidth]{../../../figs/inComm_plot_ben.png}
+		\caption{\textbf{Descriptive change in community-level security from baseline to endline in Benue} Red line is treatment site average, blue line is control site average.}
+		\label{fig:in_ben}
+	\end{subfigure}
+	\caption{\textbf{State-level perceived security.}  Moving up the Y-axis indicates improved security.}
+\end{figure}
+
+<!--The effect of the intervention seems most pronounced when the secular trend is downwards.  Likely the intervention improved resilience.-->
+
+## Social desirability bias
+
+To provide evidence that these survey results are due to intergroup contact and not due to social desirability bias, we analyze the effect of the intervention on attitudes about violence.  Attitudes about violence are a good candidate for a "placebo outcome" because intergroup contact should not affect general attitudes about violence, but respondents may feel social pressure to answer violence questions in a desirable way.  If the intervention affects attitudes about violence, then we worry that other self-reports were affected by social desirability bias.  If the intervention has no effect on attitudes about violence, then it is unlikely that other self-reports were affected by social desirability bias.  We measure attitudes about violence with a six question index asking respondents if it is always, sometimes, rarely, or never justified to use violence in certain situations, such as retaliating against violence or bringing criminals to justice.
+
+Analysis of this placebo outcome, presented in Appendix C, shows that the intervention has no effect on attitudes about violence in the community-level data ($p$=0.691) or the individual-level data ($p$=0.556).  The coefficients are negative in both cases, so this result is not due to a lack of statistical power.  The lack of an effect on this placebo outcome, plus our use of survey experiments and behavioral observation to corroborate survey self-reports, suggests that our self-report results for primary outcomes are not due to social desirability bias.
+
+# Discussion
+
+This paper provides evidence that intergroup contact can improve intergroup relations, even in dire circumstances. We tested the effects of a programmatic contact intervention in an active and escalating conflict between farmers and pastoralists in Nigeria. The persistent violence of this context and personal involvement of the research participants poses a stringent test for contact to improve intergroup relations. The violence generates grievances that feed outgroup animosity, reinforce group differences, strengthen social and psychological barriers to improving attitudes, and support the perception that each groups’ interests are opposed. Despite the difficult context, the program improved intergroup affect, fostered more intergroup contact, and decreased feelings of insecurity in these communities.
+
+This study also provides suggestive evidence that the effects of contact programs, which typically involve only a small subset of a community, can spillover to others in the community.  Respondents from intervention communities who did not directly participate in our intervention felt more positive affect toward the other side and felt more physically secure from violence than control respondents, who were not exposed to the program at all.  These attitudinal and perceptual changes cannot be explained by increased contact alone.  Contact in treatment communities did increase more than contact in control communities, but contact by nonparticipants and control respondents increased at the same rate while affect and perceptions of physical security only increased for nonparticipants.  As a result, we believe that some of the change in affect and perceptions of security are due to a spillover effect.[^spilloverAlt]  By examining both direct and indirect participants, we are able to address a main critique of many contact-based and peacebuilding interventions: that even if these interventions change individuals, it is often not clear whether this change is scalable and will lead to societal change [@ditlmann2017addressing].
+
+[^spilloverAlt]: Another possibility is that no spillover occurred, but rather nonparticipants materially benefited from the projects completed by the project committees.  The project committees improved infrastructure useful to the farmer and pastoralist communities, which could have reduced resource-based drivers of conflict and influenced participants and nonparticipants.  This is not spillover, though this is another way the intervention could have affected nonparticipants in treatment communities.
+
+We are not able to determine how this spillover from direct to indirect participants occurred, but we speculate that spillover occurred through three mechanisms that could shift people’s perceptions of how the two groups can and should interact.  First, nonparticipant community members may have observed members of both groups cooperate to address shared issues.  The intervention established project committees of about 12-15 farmers and pastoralists, and other community members may have learned from their example.  Second, some nonparticipants may have learned about the other side from personal interactions with participants.  Third, and, we think, most importantly, the intervention may have caused norms of cooperation and knowledge about the other side to diffuse through each community.  One of the goals of the intervention was to motivate norms and informal institutions that would impact the entire community and last beyond the intervention.
+
+Our fieldwork suggests that communities learning about the other side assisted farmer and pastoralist leaders with mediating intergroup disputes, such as those caused by cows grazing on farmland.  For example, our research partners on the ground noted that treatment communities were often able to resolve their disputes because pastoralists became more aware of the financial value of the crops destroyed by cows and farmers became more aware of the difficulty of controlling and corralling thousands of cows; no such learning occurred in control communities.^[We are especially grateful to Israel Okpe for this and other observations about farmer-pastoralist conflict dynamics.]  The intervention could also have encouraged the formation of other informal institutions that support cooperation, like ingroup policing: ingroup members punishing other ingroup members who violate the rights of outgroup members [@ditlmann2016can; @fearon1996explaining]. As leaders and the project committees established intergroup cooperation, they may have publicly reprimanded ingroup members who spoke against the other side or did anything that would hamper the benefits of cooperation.  Visible ingroup policing shows ingroup members that cooperation is the desirable action and shows outgroup members that they need not retaliate against the other side.
+
+This paper also contributes to the growing number of field experiments testing contact theory. One of the major questions emerging from this literature is whether these interventions shift attitudes, behaviors, or both. While @scacco2018nigeria and @mousa2020building find changes in behaviors but not attitudes, @paler2020cross find changes in attitudes, but not behaviors. One difference between these interventions is whether the peacebuilding elements of the program were explicit or implicit. Like @paler2020cross, we test an explicit peacebuilding intervention. We find some changes in attitudes (e.g., outgroup affect) and some changes in behaviors (e.g., in contact—both self-reported and observational, but not in the public goods game). Unlike these other contact-based interventions which ranged from a one-shot meeting [@paler2020cross] to sixteen weeks [@scacco2018nigeria], ours lasted eighteen months. That we were able to provide a stronger “dosage” of contact may be one potential explanation why we were able to see changes in both attitudes and behaviors. 
+
+<!--chris: need to add citations here to bibtex -->
+Another difference between these other studies and ours, and perhaps why we see a spillover effect, is the public nature of the contact. In these other studies—vocational training, sports and dialogues—the contact was contained and not broadcasted to the larger community. Our treatment was much more public, with community leaders holding open fora and the construction of community  infrastructure as a result of joint project committees.  Several recent studies suggest that public information has a greater impact on attitudes and behaviors than private information [@grossman2018information; @arias2019does; @adida2020does].   In some cases, maintaining the confidentiality of contact is a necessary security measure, as was likely the case for Christian and Muslim soccer players in Mosul [@mousa2020building].  In those contexts, those who are willing to meet with the other side may be considered traitors and targeted by less tolerant ingroup members. However, by keeping the contact private, there are fewer opportunities to shift norms of appropriate and accepted behavior between groups. This could be one reason why we see behaviors change outside the confines of the intervention -- increased contact in markets -- while there is little evidence of a change in behaviors off the sports field in Mosul.^[Although @mousa2020building found no average change in off-field behaviors, the paper found indicative evidence that off-field cooperative behaviors improved where the soccer leagues were more public and had more community support.]
+
+This study also points to an opportunity for collaboration between scholars of intergroup contact and scholars of conflict. These literatures are often concerned with the same end goal --- reducing conflict --- but rarely speak to one another. Conflict scholars often see conflict as a bargaining problem, and violence as a bargaining failure. The conflict literature points to a lack of trust as the primary cause of conflict and usually posits a strong third party actor as one effective way of guaranteeing peace. Intergroup contact research hints that intergroup contact can create cooperative norms and institutions that serve the same function as a strong third party. Improving relations – especially improving trust – through psychological interventions like intergroup contact can help groups overcome trust problems and reduce the likelihood of violence.
+
+There remain several opportunities to learn about the effects of contact in conflict environments. First, this study employed a design to test the hypothesis that contact would improve intergroup relations in an active conflict. Future studies can bring more causal evidence to the question of how contact improves intergroup relations. For example, does contact make people more empathetic or able to take the perspective of the other group?  Second, while we see evidence of spillover, we are unsure how it occurred.  Future studies should examine how social norms and interpersonal discussion diffuse the positive effects of contact to other ingroup members without outgroup contact. Third, future work should more deliberately study the dosage of contact necessary to improve attitudes and behaviors.
+
+Finally, contact interventions, explicitly or implicitly, involve the groups cooperating to achieve a joint goal. This intervention was designed to benefit all communities by having the conflicting communities cooperate successfully. But what if contact is not successful and the goal is not achieved? Does contact itself still improve attitudes, or does contact work because groups begin to associate cross-group cooperation with good outcomes? In a similar vein, are Allport’s conditions necessary for contact to achieve its aims, or are they only needed insofar as they ensure the intergroup cooperation generates positive outcomes for both groups?  Future studies should determine the necessity of Allport’s conditions and attempt to differentiate the fact of contact from the outcomes that group cooperation produces.
+
+<!--need to merge this better with "what we learn about reducing conflict."  Communal, ethnic, sedentary-nomadic/itinerant. -->
+<!--This paper also teaches us about settling disputes between sedentary peoples and semi-nomadic peoples.  Violent conflict between settled peoples and semi-nomadic peoples is on the rise throughout Africa [@hrc2018farmer; @kuusaana2015land; @mwamfupe2015persistence].  This study focuses on the Fulani, the largest semi-nomadic people on Earth [@fulanisize2017].  Their way of life makes them targets for violence throughout Africa.  Along with this conflict in Nigeria, Fulani in Mali have been the targets of violence so severe that researchers at Armed Conflict Location & Event Data Project called it "ethnic cleansing" [@economist2019militias].  Understanding how to prevent violent conflict between Fulani and settled peoples can help prevent violence that targets other nomadic, semi-nomadic, and itinerant peoples, such as the Tuaregs in West Africa, Kochi in Afghanistan, Khoisan of Southern Africa, and Romani of Europe.  Preventing such violence could help preserve a dying way of life.-->
+
+<!--Methodologically, this study demonstrates the benefits of measuring outcomes at baseline and endline in a treatment group and in a control group as a means of capturing the secular trend.
+ -->
+
+# References
