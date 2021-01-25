@@ -98,9 +98,9 @@ Second, we show effects on attitudes and some behaviors.  Some other interventio
 -->
 
 
-# Contact hypotheses
+# Intergroup Relations and the Contact Hypothesis
 
-Cooperative intergroup contact has long been posited as a means to improve individuals' attitudes towards an outgroup.  Cooperative contact is contact wherein members of two groups (1) cooperate (2) with equal status (3) to achieve shared goals (4) with support of local authorities.^[Note that _equal status_ does not mean that the groups must have the same status in society, but that the groups share equal status in the cooperative situation.]  These conditions ensure positive interactions between group members.  Contact is relatively effective at this goal, even in difficult circumstances [@moussa, others].  
+Cooperative intergroup contact has long been posited as a means to improve individuals' attitudes towards an outgroup.  Cooperative contact is contact wherein members of two groups (1) cooperate (2) with equal status (3) to achieve shared goals (4) with support of local authorities.^[Note that _equal status_ does not mean that the groups must have the same status in society, but that the groups share equal status in the cooperative situation.]  These conditions ensure positive interactions between group members.  Contact is relatively effective at this goal, even in difficult circumstances [@mousa2020building, others].  
 
 Contact interventions also used to improve _intergroup relations_.  To improve intergroup relations, the positive effects of contact must diffuse from the individuals involved in contact to other group members.  This diffusion to other group members can occur through changing social norms about cross-group interaction [@paluck2009jsp; @christ2014contextual] and through the knowledge that other ingroup members had positive contact with outgroup members [@wright1997extended].  Norms and awareness of intergroup cooperation shows that cross-group interaction is safe and socially encouraged.  It also creates the expectation of future interaction with outgroup members, which motivates individuals to see the outgroup more positively [@klein1992motivated; @van2019actions].  Through social diffusion, cooperative contact improves attitudes even for ingroup members with no cross-group contact.
 
